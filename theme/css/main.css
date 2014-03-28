@@ -92,6 +92,7 @@ ol {
 .post-content p {
   margin-bottom: 1em; }
 .post-content img {
+  box-shadow: 4px 4px 8px 4px #dddddd;
   margin: 0 0 1em 0; }
 .post-content .img-center {
   margin: 0.8em auto;
