@@ -126,8 +126,11 @@
 </div>
 <div class="section" id="id2">
 <h2>文章</h2>
-<p>首先面臨到的問題是 Pelican 只有支援 WordPress 文章匯入，並沒有支援 Blogger 文章匯入，所以我事先利用 <a class="reference external" href="http://blogger2wordpress.appspot.com/">blogger2wordpress</a> 將文章轉成 WordPress 的文章格式。</p>
-<p>再來，當我使用 Pelican 執行文章匯入後，得到的不是文章，而是 exception:</p>
+<p>首先，我把 Blogger 的文章匯出成 ATOM/RSS 的格式，並且在工作機上面安裝 feedparser ，就可以利用 Pelican-import 的內建指令來做轉出文章的動作。</p>
+<pre class="literal-block">
+pelican-import --feed &lt;your-blogger-documents&gt;.xml -o output
+</pre>
+<p>再來，當我使用 Pelican 執行文章轉出後，得到的不是文章，而是 exception:</p>
 <pre class="literal-block">
 /bin/sh: pandoc: command not found
 Please, check your Pandoc installation.
@@ -156,7 +159,16 @@ Click on my |ImageLink|_
 </div>
 <div class="section" id="id4">
 <h2>套件</h2>
-<p>Pelican 的套件都在 <a class="reference external" href="https://github.com/getpelican/pelican-plugins">pelican-plugins</a> ，一樣可以直接挑選喜歡的套件來用，我目前只有加入 related posts 的功能，其餘的打算等未來有需要在加入。</p>
+<p>Pelican 的套件都在 <a class="reference external" href="https://github.com/getpelican/pelican-plugins">pelican-plugins</a> ，一樣可以直接挑選喜歡的套件來用。</p>
+<p>直接放上現在有使用的 plugin:</p>
+<pre class="literal-block">
+PLUGINS = [
+    'gravatar',
+    'related_posts',
+    'pelican_youtube',
+    'pelican_vimeo',
+]
+</pre>
 </div>
 
         </div>
@@ -173,6 +185,7 @@ Click on my |ImageLink|_
           <!-- TODO: Use fancier related layout, as in http://kevin.deldycke.com/2012/04/beautify-contextual-related-posts-wordpress-plugin/ -->
           <ul>
               <li><a href="http://hansliu.com/posts/2014/03/new-domain-name-with-name-com.html">使用 name.com 申請新域名</a></li>
+              <li><a href="http://hansliu.com/posts/2014/03/2014-blog-upgrade.html">2014部落格改版</a></li>
               <li><a href="http://hansliu.com/posts/2012/01/2012-blog-upgrade.html">2012部落格小改版</a></li>
           </ul>
         </div>
