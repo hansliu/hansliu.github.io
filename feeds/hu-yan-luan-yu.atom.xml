@@ -18,7 +18,7 @@
 &lt;dt&gt;.me 網域名稱小知識&lt;/dt&gt;
 &lt;dd&gt;.me 是位於東南歐巴爾幹半島上的國家，蒙特內哥羅 (Montenegro) 的國碼頂級網域名稱 (或翻譯成黑山共和國)。&lt;/dd&gt;
 &lt;/dl&gt;
-</summary><category term="domain name"></category><category term="github page"></category></entry><entry><title>Hello Pelican + GitHub Pages</title><link href="http://hansliu.com/posts/2014/03/hello-pelican-github-pages.html" rel="alternate"></link><updated>2014-03-23T04:00:00+08:00</updated><author><name>996 / Hans</name></author><id>tag:hansliu.com,2014-03-23:posts/2014/03/hello-pelican-github-pages.html</id><summary type="html">&lt;p&gt;隨著無名關閉、Google blogger 越來越慢等等原因，我心中就一直想要替自己的部落格搬家，同時看到 Jenny 使用 Pelican 的心得，就引起我的興趣，也想要將部落格搬到 GitHub Pages，不過拖了很久一直沒有開始動工，直到最近終於開始部落格的搬家作業。&lt;/p&gt;
+</summary><category term="Blog"></category><category term="Domain Name"></category><category term="Github Page"></category></entry><entry><title>Hello Pelican + GitHub Pages</title><link href="http://hansliu.com/posts/2014/03/hello-pelican-github-pages.html" rel="alternate"></link><updated>2014-03-23T04:00:00+08:00</updated><author><name>996 / Hans</name></author><id>tag:hansliu.com,2014-03-23:posts/2014/03/hello-pelican-github-pages.html</id><summary type="html">&lt;p&gt;隨著無名關閉、Google blogger 越來越慢等等原因，我心中就一直想要替自己的部落格搬家，同時看到 Jenny 使用 Pelican 的心得，就引起我的興趣，也想要將部落格搬到 GitHub Pages，不過拖了很久一直沒有開始動工，直到最近終於開始部落格的搬家作業。&lt;/p&gt;
 &lt;p&gt;這篇文章是用來記錄一下搬家的相關資訊。&lt;/p&gt;
 &lt;div class="section" id="id1"&gt;
 &lt;h2&gt;安裝&lt;/h2&gt;
@@ -59,7 +59,7 @@ Click on my |ImageLink|_
 &lt;h2&gt;套件&lt;/h2&gt;
 &lt;p&gt;Pelican 的套件都在 &lt;a class="reference external" href="https://github.com/getpelican/pelican-plugins"&gt;pelican-plugins&lt;/a&gt; ，一樣可以直接挑選喜歡的套件來用，我目前只有加入 related posts 的功能，其餘的打算等未來有需要在加入。&lt;/p&gt;
 &lt;/div&gt;
-</summary><category term="python"></category><category term="pelican"></category><category term="github page"></category></entry><entry><title>你敢有聽着咱唱歌《Do You Hear the People Sing 台語合唱版》</title><link href="http://hansliu.com/posts/2013/07/do-you-hear-people-sing-for-taiwan.html" rel="alternate"></link><updated>2013-07-29T00:35:00+08:00</updated><author><name>996 / Hans</name></author><id>tag:hansliu.com,2013-07-29:posts/2013/07/do-you-hear-people-sing-for-taiwan.html</id><summary type="html">&lt;div class="img-center"&gt;&lt;p&gt;&lt;a class="reference external" href="http://4.bp.blogspot.com/-_dFLJ4RxGaU/UfVEOzarcDI/AAAAAAAAJqI/HXdsxp6MPys/s1600/P7287491.jpg"&gt;&lt;img alt="image0" src="http://4.bp.blogspot.com/-_dFLJ4RxGaU/UfVEOzarcDI/AAAAAAAAJqI/HXdsxp6MPys/s1600/P7287491.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
+</summary><category term="Blog"></category><category term="Python"></category><category term="Pelican"></category><category term="Github Page"></category></entry><entry><title>你敢有聽着咱唱歌《Do You Hear the People Sing 台語合唱版》</title><link href="http://hansliu.com/posts/2013/07/do-you-hear-people-sing-for-taiwan.html" rel="alternate"></link><updated>2013-07-29T00:35:00+08:00</updated><author><name>996 / Hans</name></author><id>tag:hansliu.com,2013-07-29:posts/2013/07/do-you-hear-people-sing-for-taiwan.html</id><summary type="html">&lt;div class="img-center"&gt;&lt;p&gt;&lt;a class="reference external" href="http://4.bp.blogspot.com/-_dFLJ4RxGaU/UfVEOzarcDI/AAAAAAAAJqI/HXdsxp6MPys/s1600/P7287491.jpg"&gt;&lt;img alt="image0" src="http://4.bp.blogspot.com/-_dFLJ4RxGaU/UfVEOzarcDI/AAAAAAAAJqI/HXdsxp6MPys/s1600/P7287491.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;&lt;p&gt;今天去看著子玹和朋友的創意市集攤位，聽到現場演奏著天空之城，心中揚起淡淡感動的情緒，回家後這麼剛好在這麼個時機點聽到
 Do You Hear the People Sing
 台語版，那淡淡的感動轉變成澎湃的思緒，深入我的腦海裡，充滿在我四肢的血液之中。&lt;/p&gt;
@@ -225,7 +225,12 @@ Do You Hear the People Sing
 &lt;div class="line"&gt;multi-documents→n-gram→Naive Bayes→分群→結果。&lt;/div&gt;
 &lt;div class="line"&gt;整理使用上的各種工具，並有效利用它。&lt;/div&gt;
 &lt;/div&gt;
-</summary></entry><entry><title>研發替代役面試心得《下》</title><link href="http://hansliu.com/posts/2011/12/rdss-interview-3.html" rel="alternate"></link><updated>2011-12-23T00:06:00+08:00</updated><author><name>996 / Hans</name></author><id>tag:hansliu.com,2011-12-23:posts/2011/12/rdss-interview-3.html</id><summary type="html">&lt;div class="img-center"&gt;&lt;p&gt;&lt;img alt="image0" src="https://lh5.googleusercontent.com/-PVchFPzp2Jc/TvSsacKrp2I/AAAAAAAAHmg/cXH0nFvkybc/s800/Job-Offer.jpg" /&gt;&lt;/p&gt;
+</summary></entry><entry><title>2012部落格小改版</title><link href="http://hansliu.com/posts/2012/01/2012-blog-upgrade.html" rel="alternate"></link><updated>2012-01-15T17:47:00+08:00</updated><author><name>996 / Hans</name></author><id>tag:hansliu.com,2012-01-15:posts/2012/01/2012-blog-upgrade.html</id><summary type="html">&lt;div class="img-center"&gt;&lt;p&gt;&lt;img alt="image0" src="https://lh5.googleusercontent.com/-NkuwLfKxtWk/TxKgHOlqvOI/AAAAAAAAHow/GteYUfJLfMA/s800/error404.jpg" /&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;p&gt;抽空替部落格做了改版，版型從原本的白灰色系轉變為橘黑色系&lt;/p&gt;
+&lt;p&gt;這樣改動的主要目的是為了能更加凸顯照片主體...&lt;/p&gt;
+&lt;p&gt;另外也花了點時間整理Blogger的內部設定，改變了留言的方式&lt;/p&gt;
+&lt;p&gt;未來也有打算調整現有廣告的版面和位子...&lt;/p&gt;
+</summary><category term="Blog"></category></entry><entry><title>研發替代役面試心得《下》</title><link href="http://hansliu.com/posts/2011/12/rdss-interview-3.html" rel="alternate"></link><updated>2011-12-23T00:06:00+08:00</updated><author><name>996 / Hans</name></author><id>tag:hansliu.com,2011-12-23:posts/2011/12/rdss-interview-3.html</id><summary type="html">&lt;div class="img-center"&gt;&lt;p&gt;&lt;img alt="image0" src="https://lh5.googleusercontent.com/-PVchFPzp2Jc/TvSsacKrp2I/AAAAAAAAHmg/cXH0nFvkybc/s800/Job-Offer.jpg" /&gt;&lt;/p&gt;
 &lt;/div&gt;&lt;p&gt;隨著內政部公布各家公司研發替代役的申請員額，我的面試之旅也逐漸接近尾聲，自己也希望能收心回來專注於研究與學習，畢竟如果論文沒有完成，無法順利畢業的話，那今天有再多家公司想要給你Offer都是無用的...&lt;/p&gt;
 &lt;p&gt;沒有意外的話，這會是我研替面試之旅的最後一篇心得文，文末也會簡單記錄一下，自己收到過的感謝函（包含無面試機會的公司），作為以後求職上的參考記錄。&lt;/p&gt;
 &lt;p&gt;--&lt;/p&gt;
@@ -305,39 +310,4 @@ corner，讓我點了一杯飲料來喝（我是挑熱可可），我還蠻感�
 &lt;div class="line"&gt;&lt;a class="reference external" href="http://hansliu.com/posts/2011/12/rdss-interview-2.html"&gt;研發替代役面試心得《中》&lt;/a&gt;&lt;/div&gt;
 &lt;div class="line"&gt;&lt;a class="reference external" href="http://hansliu.com/posts/2011/12/rdss-interview-3.html"&gt;研發替代役面試心得《下》&lt;/a&gt;&lt;/div&gt;
 &lt;/div&gt;
-</summary><category term="Interview"></category></entry><entry><title>仆街少女的仆街辛歷</title><link href="http://hansliu.com/posts/2011/11/pkgirls-karrenkao.html" rel="alternate"></link><updated>2011-11-11T01:07:00+08:00</updated><author><name>996 / Hans</name></author><id>tag:hansliu.com,2011-11-11:posts/2011/11/pkgirls-karrenkao.html</id><summary type="html">&lt;div class="img-center"&gt;&lt;p&gt;&lt;img alt="image0" src="https://lh6.googleusercontent.com/-3ASULn2Epyk/TrwGLKt1pZI/AAAAAAAAHZA/p_1to-5EaNU/s800/IMG141.jpg" /&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div style="text-align: center;"&gt;&lt;p&gt;今天就是仆街少女的攝影講座&lt;/p&gt;
-&lt;/div&gt;&lt;p&gt;大老遠跑回母校聽仆街少女 Karren 和禁慾的講座，果然是值得的，雖然天空不作美下著大雨，而且天氣也很冷，但是現場的氣氛算是相當歡樂。&lt;/p&gt;
-&lt;p&gt;#2&lt;/p&gt;
-&lt;div class="img-left"&gt;&lt;p&gt;&lt;img alt="image1" src="https://lh4.googleusercontent.com/-IlcOspJEG4g/TrwGNmVxNhI/AAAAAAAAHZI/nZeN8MZLQoI/s800/PA025989.JPG" /&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div class="line-block"&gt;
-&lt;div class="line"&gt;拍照不是一件拍完之後，就可以拍拍屁股走人的事情。&lt;/div&gt;
-&lt;div class="line"&gt;-- Karren&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;其實在仆街少女尚未竄紅之前（未被媒體入侵？），我就一直有在注意 Karren 的 Pixnet 部落格，因為當時她的照片就讓我印象相當的深刻，不過我並不知道她就是仆街少女的攝影師兼主角之一，一直到了媒體報導，以及她在部落格更新資歷後我才發現，算是有點後知後覺！&lt;/p&gt;
-&lt;p&gt;#3&lt;/p&gt;
-&lt;div class="img-left"&gt;&lt;p&gt;&lt;img alt="image2" src="https://lh3.googleusercontent.com/-WMKd3vlhJvg/TrwKKyDTF3I/AAAAAAAAHZY/lY43M9L0WIM/s800/P9185930.JPG" /&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;p&gt;Karren 本人和我看部落格時的感覺不太一樣，部落格上的她感覺是位很安靜，很會思考的小女生，現場的她則是很活潑，講話也很快，不時還會有許多可愛的小動作（例如拿麥克風撞門牙），據她所說，在還沒接觸攝影之前的自己是比較沒有自信的。&lt;/p&gt;
-&lt;p&gt;#4&lt;/p&gt;
-&lt;div class="img-left"&gt;&lt;p&gt;&lt;img alt="image3" src="https://lh6.googleusercontent.com/-uuo2E5Nrvpk/TrwKdI6JygI/AAAAAAAAHZg/1Iy4ZSbgTJ0/s800/P8295224.JPG" /&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div class="line-block"&gt;
-&lt;div class="line"&gt;我寧願錯失一個瞬間，也不要讓攝影造成對方的困擾。&lt;/div&gt;
-&lt;div class="line"&gt;-- Karren&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;禁慾本人我比較不熟悉，不過從分享中可以得知，現在和我一樣身為學生的她，攝影的對象是以日常生活中的事物為主，透過紀錄日常與到處仆街，展現自己對攝影的熱忱。&lt;/p&gt;
-&lt;p&gt;#5&lt;/p&gt;
-&lt;div class="img-left"&gt;&lt;p&gt;&lt;img alt="image4" src="https://lh6.googleusercontent.com/-0D6efe8cBZw/TrwRO7kSbsI/AAAAAAAAHZs/Cy8GlivGuzU/s800/P9145749.JPG" /&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;p&gt;她們在現場分享了很多自己一路上成長的心路歷程，像是 Karren 從醫生轉全職攝影面臨到的與論壓力，仆街少女在執行過程中的樂趣與艱辛等等，有趣的是，會後問答中有人詢問仆街少女可愛又有趣的服裝是從哪買的，仆街少女的回答是網拍和五分埔，答案相當的平易近人。
-XD&lt;/p&gt;
-&lt;div class="line-block"&gt;
-&lt;div class="line"&gt;而仆街也不只是仆街而已，除了仆街這個動作和拍攝過程本身就有不少挑戰性之外，藉由仆街的照片還可以提倡文化藝術與尊重生命的議題，並告訴大家要懂得愛惜台灣這塊土地。&lt;/div&gt;
-&lt;div class="line"&gt;（仆街文化也讓許多不愛露臉的人願意入鏡拍照）&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;#6&lt;/p&gt;
-&lt;div class="img-left"&gt;&lt;p&gt;&lt;img alt="image5" src="https://lh4.googleusercontent.com/-tZllcti0ABo/TrwGOlHhfRI/AAAAAAAAHZQ/vNLdAAMiFLU/s800/PA126408.JPG" /&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div class="line-block"&gt;
-&lt;div class="line"&gt;不論做什麼事情，開心行動，嚴肅面對！&lt;/div&gt;
-&lt;div class="line"&gt;-- Karren&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;實際上，仆街少女對我而言算是個創意十足令人覺得趣味的作品，真正一直吸引我目光的依然是 Karren 自己創作的攝影作品，不論是懷孕母親到生產到孩子一歲的過程，或是其他主題式的攝影，都有讓我感到驚艷的地方，真的很棒，期待未來能看到 Karren 更多的創作。&lt;/p&gt;
-</summary></entry></feed>
+</summary><category term="Interview"></category></entry></feed>
