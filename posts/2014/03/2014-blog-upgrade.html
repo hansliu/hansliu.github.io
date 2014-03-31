@@ -112,6 +112,8 @@
         tags:         <a href="http://hansliu.com/tag/blog/">Blog</a>
 
 
+        |
+        <a href="http://hansliu.com/posts/2014/03/2014-blog-upgrade.html#disqus_thread">comments</a>
 
     
 </footer><!-- /.post-info -->
@@ -124,9 +126,9 @@
 
         <div class="post-content">
           <p>搬家也逐漸接近尾聲，剩下就是一些部落格的收尾和導入。</p>
-<p>我的 ATOM/RSS 有使用 feedburner，所以在轉移現有訂閱戶上面只要直接更新 feedburner 上的資訊，它就會自動幫你通知所有的訂閱戶，並且幫用戶自動訂閱新網站的文章。</p>
+<p>我的 ATOM/RSS 有使用 feedburner，所以只有更新 feedburner 的設定，它就會自動幫你通知所有的訂閱戶，並且幫用戶自動訂閱新網站的文章。</p>
 <p>比較可惜的是因為過去一直都是用 blogger 提供的 domain name，所以在網站 SEO 的計算就要從頭開始...</p>
-<p>to be continued..</p>
+<p>再來應該會想辦法設計 redirect，看能不能把 blogger 的流量重導到新網站。</p>
 
         </div>
 
@@ -148,6 +150,18 @@
         </div>
 
       </div><!-- /.entry-content -->
+      <div class="comments">
+        <h2>Comments</h2>
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+          var disqus_identifier = "posts/2014/03/2014-blog-upgrade.html";
+          (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = 'http://hansliu.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+          })();
+        </script>
+      </div>
 
     </article>
   </section>
@@ -172,6 +186,15 @@
         </div>
     </footer>
 
+<script type="text/javascript">
+    var disqus_shortname = 'hansliu';
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
     <script src="http://code.jquery.com/jquery.min.js"></script>
     <script src="http://hansliu.com/theme/js/bootstrap.min.js"></script>
 </body>
