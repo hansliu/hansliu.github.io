@@ -203,6 +203,11 @@ img.left, figure.left {
     padding: 0 !important;
     border: 0 !important;
     background-color: transparent !important; }
+  #google-custom-search .gsc-input {
+    margin: -6px 0 0 0 !important;
+    outline: none;
+    border: none !important;
+    box-shadow: none !important; }
 
 #sidebar {
   padding: 0.5em; }
