@@ -1,3 +1,4 @@
+// Magnific Popup Documentation http://dimsemenov.com/plugins/magnific-popup/
 $(document).ready(function() {
   $('.post-content').each(function() { // the containers for all your galleries
     $(this).find('a > img').parent().magnificPopup({

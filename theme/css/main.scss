@@ -431,3 +431,10 @@ li.tag-1 {
   font-size: 1.4em;
   font-weight: 400;
 }
+
+/* Magnific Popup CSS */
+/* remove shadow and bg-color */
+.mfp-figure:after {
+  box-shadow: none !important;
+  background: none !important;
+}
