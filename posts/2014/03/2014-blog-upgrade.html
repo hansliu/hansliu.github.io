@@ -143,6 +143,14 @@
 <p>比較可惜的是因為過去一直都是用 blogger 提供的 domain name，所以新部落格的 SEO 計算就要從頭開始...</p>
 <p>再來應該會想辦法設計 redirect，看能不能把舊部落格的流量重導到新部落格。</p>
 <p>--</p>
+<p>在圖片顯示部分，加入響應式燈箱 <a class="reference external" href="http://dimsemenov.com/plugins/magnific-popup/">magnific-popup</a> ，並修改相關 css，取消不必要的陰影和邊框。</p>
+<pre class="literal-block">
+/* Magnific Popup CSS */
+.mfp-figure:after {
+  box-shadow: none !important;
+  background: none !important; }
+</pre>
+<p>--</p>
 <p>另外就是廣告的設定，在 Google AdSense 部分使用新的回應式廣告單元，廣告排版則是參考 Jenny 的配置，放在文章的開頭與結尾，之後會在根據需求做調整，也還在考慮要不要把 BloggerAds 也放進來。</p>
 
         </div>
@@ -158,9 +166,9 @@
           <h3>Related content</h3>
           <!-- TODO: Use fancier related layout, as in http://kevin.deldycke.com/2012/04/beautify-contextual-related-posts-wordpress-plugin/ -->
           <ul>
-              <li><a href="http://hansliu.com/posts/2012/01/2012-blog-upgrade.html">2012部落格小改版</a></li>
-              <li><a href="http://hansliu.com/posts/2014/03/hello-pelican-github-pages.html">Hello Pelican + GitHub Pages</a></li>
               <li><a href="http://hansliu.com/posts/2014/03/new-domain-name-with-name-com.html">使用 name.com 申請新域名</a></li>
+              <li><a href="http://hansliu.com/posts/2014/03/hello-pelican-github-pages.html">Hello Pelican + GitHub Pages</a></li>
+              <li><a href="http://hansliu.com/posts/2012/01/2012-blog-upgrade.html">2012部落格小改版</a></li>
           </ul>
         </div>
 
