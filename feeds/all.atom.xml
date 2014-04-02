@@ -5,7 +5,7 @@
 &lt;p&gt;比較可惜的是因為過去一直都是用 blogger 提供的 domain name，所以新部落格的 SEO 計算就要從頭開始...&lt;/p&gt;
 &lt;p&gt;再來應該會想辦法設計 redirect，看能不能把舊部落格的流量重導到新部落格。&lt;/p&gt;
 &lt;p&gt;--&lt;/p&gt;
-&lt;p&gt;在圖片顯示部分，加入響應式燈箱 &lt;a class="reference external" href="http://dimsemenov.com/plugins/magnific-popup/"&gt;magnific-popup&lt;/a&gt; ，並修改相關 css，取消不必要的陰影和邊框。&lt;/p&gt;
+&lt;p&gt;在圖片顯示部分，加入回應式燈箱 &lt;a class="reference external" href="http://dimsemenov.com/plugins/magnific-popup/"&gt;magnific-popup&lt;/a&gt; ，並修改相關 css，取消不必要的陰影和邊框。&lt;/p&gt;
 &lt;pre class="literal-block"&gt;
 /* Magnific Popup CSS */
 .mfp-figure:after {
