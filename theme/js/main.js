@@ -3,7 +3,7 @@ $(document).ready(function() {
   $('.post-content').each(function() { // the containers for all your galleries
     $(this).find('a > img').parent().magnificPopup({
       type: 'image',
-      overflowY: 'hidden',
+      overflowY: 'scroll',
       gallery: {
         enabled:true
       },

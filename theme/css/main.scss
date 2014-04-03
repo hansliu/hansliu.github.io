@@ -124,6 +124,9 @@ ol {
     box-shadow: 3px 3px 6px #dddddd;
     margin: 0 0 1em 0;
   }
+  iframe {
+    margin-bottom: 1em;
+  }
   .img-center {
     margin: 0.8em auto;
     padding: 0;
@@ -430,6 +433,11 @@ li.tag-2 {
 li.tag-1 {
   font-size: 1.4em;
   font-weight: 400;
+}
+
+/* reStructuredText */
+.strike {
+  text-decoration: line-through;
 }
 
 /* Magnific Popup CSS */

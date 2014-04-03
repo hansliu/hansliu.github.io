@@ -94,6 +94,8 @@ ol {
 .post-content img {
   box-shadow: 3px 3px 6px #dddddd;
   margin: 0 0 1em 0; }
+.post-content iframe {
+  margin-bottom: 1em; }
 .post-content .img-center {
   margin: 0.8em auto;
   padding: 0;
@@ -333,7 +335,12 @@ li.tag-1 {
   font-size: 1.4em;
   font-weight: 400; }
 
+/* reStructuredText */
+.strike {
+  text-decoration: line-through; }
+
 /* Magnific Popup CSS */
+/* remove shadow and bg-color */
 .mfp-figure:after {
   box-shadow: none !important;
   background: none !important; }

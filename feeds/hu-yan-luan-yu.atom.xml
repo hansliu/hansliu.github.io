@@ -123,8 +123,9 @@ pelican-import --feed &amp;lt;your-blogger-documents&amp;gt;.xml -o output
 /bin/sh: pandoc: command not found
 Please, check your Pandoc installation.
 &lt;/pre&gt;
-&lt;p&gt;上網搜尋關鍵字，發現是因為我的文章中有包含中文內容，如果要轉換就必須要安裝 &lt;a class="reference external" href="http://johnmacfarlane.net/pandoc/installing.html"&gt;pandoc&lt;/a&gt; ，然後如果要安裝 &lt;a class="reference external" href="http://johnmacfarlane.net/pandoc/installing.html"&gt;pandoc&lt;/a&gt; 的話必須要有 &lt;a class="reference external" href="http://www.haskell.org/platform/"&gt;Haskell Platform&lt;/a&gt; ，但我的工作機的作業系統是 RHEL6，其內建不包含 &lt;a class="reference external" href="http://www.haskell.org/platform/"&gt;Haskell Platform&lt;/a&gt; 。&lt;/p&gt;
-&lt;p&gt;所以我要先安裝 &lt;a class="reference external" href="http://www.haskell.org/platform/"&gt;Haskell Platform&lt;/a&gt; ，然後使用內建的指令 cabal 來安裝 &lt;a class="reference external" href="http://johnmacfarlane.net/pandoc/installing.html"&gt;pandoc&lt;/a&gt; ，最後才能將所有文章轉成 reStructuredText 格式。&lt;/p&gt;
+&lt;p&gt;上網搜尋關鍵字，發現是因為我的文章中有包含中文內容，如果要轉換就必須要安裝 &lt;a class="reference external" href="http://johnmacfarlane.net/pandoc/installing.html"&gt;Pandoc&lt;/a&gt; ，然後如果要安裝 &lt;a class="reference external" href="http://johnmacfarlane.net/pandoc/installing.html"&gt;Pandoc&lt;/a&gt; 的話必須要有 &lt;a class="reference external" href="http://www.haskell.org/platform/"&gt;Haskell Platform&lt;/a&gt; ，但我的工作機的作業系統是 RHEL6，其內建不包含 &lt;a class="reference external" href="http://www.haskell.org/platform/"&gt;Haskell Platform&lt;/a&gt; 。&lt;/p&gt;
+&lt;p&gt;所以我要先安裝 &lt;a class="reference external" href="http://www.haskell.org/platform/"&gt;Haskell Platform&lt;/a&gt; ，然後使用內建的指令 cabal 來安裝 &lt;a class="reference external" href="http://johnmacfarlane.net/pandoc/installing.html"&gt;Pandoc&lt;/a&gt; ，最後才能將所有文章轉成 reStructuredText 格式。&lt;/p&gt;
+&lt;p&gt;Pandoc 會使用其內建的語法來做轉換 &lt;a class="reference external" href="http://pages.tzengyuxio.me/pandoc/"&gt;Pandoc 語法中文翻譯&lt;/a&gt; 。&lt;/p&gt;
 &lt;p&gt;當文章終於順利轉完後，接著我發現圖片資訊會有殘缺或錯誤的現象，例如圖片失去超連結，或著是圖片重複出現，因此文章轉完後就要開始漫長的編修...&lt;/p&gt;
 &lt;p&gt;這邊補上 reStructuredText 插入圖片和超連結的方法:&lt;/p&gt;
 &lt;pre class="literal-block"&gt;
@@ -218,7 +219,7 @@ Do You Hear the People Sing
 &lt;/div&gt;
 &lt;p&gt;PS: 謝謝廖淑鳳幫忙潤飾台文用字&lt;/p&gt;
 &lt;p&gt;Youtube 版本&lt;/p&gt;
-&lt;div class="youtube" align="left"&gt;&lt;iframe width="800" height="500" src="https://www.youtube.com/embed/9bQ6ewr0oHo" frameborder="0"&gt;&lt;/iframe&gt;&lt;/div&gt;</summary><category term="Taiwan"></category></entry><entry><title>碩士生了</title><link href="http://hansliu.com/posts/2012/09/master-degree.html" rel="alternate"></link><updated>2012-09-04T00:20:00+08:00</updated><author><name>996 / Hans</name></author><id>tag:hansliu.com,2012-09-04:posts/2012/09/master-degree.html</id><summary type="html">&lt;div class="img-center"&gt;&lt;p&gt;&lt;img alt="image0" src="https://lh6.googleusercontent.com/-CTEDEPOm7Zc/UETXqxkWukI/AAAAAAAAJEQ/Xx5RnqrZ14g/s800/21600033.JPG" /&gt;&lt;/p&gt;
+&lt;div class="youtube" align="left"&gt;&lt;iframe width="800" height="500" src="https://www.youtube.com/embed/9bQ6ewr0oHo" frameborder="0"&gt;&lt;/iframe&gt;&lt;/div&gt;</summary><category term="Taiwan"></category><category term="Music"></category></entry><entry><title>碩士生了</title><link href="http://hansliu.com/posts/2012/09/master-degree.html" rel="alternate"></link><updated>2012-09-04T00:20:00+08:00</updated><author><name>996 / Hans</name></author><id>tag:hansliu.com,2012-09-04:posts/2012/09/master-degree.html</id><summary type="html">&lt;div class="img-center"&gt;&lt;p&gt;&lt;img alt="image0" src="https://lh6.googleusercontent.com/-CTEDEPOm7Zc/UETXqxkWukI/AAAAAAAAJEQ/Xx5RnqrZ14g/s800/21600033.JPG" /&gt;&lt;/p&gt;
 &lt;/div&gt;&lt;div style="text-align: center;"&gt;&lt;p&gt;結束了,&lt;/p&gt;
 &lt;/div&gt;&lt;div style="text-align: center;"&gt;&lt;p&gt;漫長的學習與歷練,&lt;/p&gt;
 &lt;/div&gt;&lt;div style="text-align: center;"&gt;&lt;p&gt;終於也走到這地步,&lt;/p&gt;
