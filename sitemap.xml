@@ -5,7 +5,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://hansliu.com/index.html</loc>
-<lastmod>2014-04-07T11:41:25-00:00</lastmod>
+<lastmod>2014-04-07T12:39:59-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -585,13 +585,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>http://hansliu.com/tag//</loc>
-<lastmod>2011-02-02T18:00:00-00:00</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
 <loc>http://hansliu.com/tag/canon-ae-1/</loc>
 <lastmod>2012-09-16T12:00:00-00:00</lastmod>
 <changefreq>daily</changefreq>
@@ -601,6 +594,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://hansliu.com/tag/pelican/</loc>
 <lastmod>2014-03-23T04:00:00-00:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://hansliu.com/tag/petit-fancy/</loc>
+<lastmod>2012-10-29T01:19:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -650,13 +650,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://hansliu.com/tag/fisheye/</loc>
 <lastmod>2011-06-03T17:30:00-00:00</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>http://hansliu.com/tag/petit-fancy/</loc>
-<lastmod>2012-10-29T01:19:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -769,6 +762,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://hansliu.com/tag/ntut/</loc>
 <lastmod>2011-11-05T23:00:00-00:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://hansliu.com/tag/postcard/</loc>
+<lastmod>2011-02-02T18:00:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
