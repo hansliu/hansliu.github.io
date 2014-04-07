@@ -5,7 +5,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://hansliu.com/index.html</loc>
-<lastmod>2014-04-07T12:39:59-00:00</lastmod>
+<lastmod>2014-04-07T13:01:59-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -473,6 +473,20 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>http://hansliu.com/posts/2010/02/yeliu-travel-2.html</loc>
+<lastmod>2010-02-23T01:00:00-00:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://hansliu.com/posts/2010/02/yeliu-travel-1.html</loc>
+<lastmod>2010-02-22T01:00:00-00:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>http://hansliu.com/posts/2009/11/fireworks-taiwan-2009-2.html</loc>
 <lastmod>2009-11-08T23:00:00-00:00</lastmod>
 <changefreq>weekly</changefreq>
@@ -538,6 +552,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://hansliu.com/posts/2009/07/canon-ae-1-with-friends.html</loc>
 <lastmod>2009-07-02T19:00:00-00:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://hansliu.com/posts/2009/06/sakura-night.html</loc>
+<lastmod>2009-06-03T19:00:00-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -613,6 +634,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>http://hansliu.com/tag/yeliu/</loc>
+<lastmod>2010-02-23T01:00:00-00:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>http://hansliu.com/tag/tku/</loc>
 <lastmod>2011-07-29T02:41:00-00:00</lastmod>
 <changefreq>daily</changefreq>
@@ -655,6 +683,20 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>http://hansliu.com/tag/class-reunion/</loc>
+<lastmod>2009-07-13T18:00:00-00:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://hansliu.com/tag/graduate/</loc>
+<lastmod>2012-09-04T00:20:00-00:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>http://hansliu.com/tag/blog/</loc>
 <lastmod>2014-03-31T10:00:00-00:00</lastmod>
 <changefreq>daily</changefreq>
@@ -662,8 +704,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>http://hansliu.com/tag/class-reunion/</loc>
-<lastmod>2009-07-13T18:00:00-00:00</lastmod>
+<loc>http://hansliu.com/tag/beer/</loc>
+<lastmod>2012-06-30T00:22:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
