@@ -6,6 +6,9 @@ $h3size: $h2size * 9/10;
 $h4size: $h3size * 9/10;
 $h5size: $h4size * 9/10;
 $h6size: $h5size * 9/10;
+$iframe16-9: 56.25%;
+$iframe4-3: 75%;
+$youtubesize: $iframe16-9;
 
 @import url("pygment.css");
 
@@ -139,6 +142,26 @@ ol {
     clear: both;
   }
   .line-block {
+    margin-bottom: 1em;
+  }
+}
+
+/* Add responsive iframe */
+@media screen and (max-width: 979px) {
+  // 如果使用者之視窗寬度 <= 979px，將會再載入這裡的 CSS。
+  .youtube {
+    position: relative;
+    padding-bottom: $youtubesize;
+    padding-top: 25px;
+    height: 0;
+    overflow: hidden;
+  }
+  .youtube iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     margin-bottom: 1em;
   }
 }
