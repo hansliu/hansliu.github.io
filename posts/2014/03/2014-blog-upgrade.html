@@ -142,16 +142,22 @@
 <p>我的 ATOM/RSS 有使用 feedburner，所以只要更新 feedburner 的設定，它就會自動幫你通知所有的訂閱戶，並且幫用戶自動訂閱新網站的文章。</p>
 <p>比較可惜的是因為過去一直都是用 blogger 提供的 domain name，所以新部落格的 SEO 計算就要從頭開始...</p>
 <p>再來應該會想辦法設計 redirect，看能不能把舊部落格的流量重導到新部落格。</p>
-<p>--</p>
-<p>在圖片顯示部分，加入回應式燈箱 <a class="reference external" href="http://dimsemenov.com/plugins/magnific-popup/">magnific-popup</a> ，並修改相關 css，取消不必要的陰影和邊框。</p>
+<div class="section" id="id2">
+<h2>圖片顯示</h2>
+<p>加入回應式燈箱 <a class="reference external" href="http://dimsemenov.com/plugins/magnific-popup/">magnific-popup</a> ，並修改相關 css，取消不必要的陰影和邊框。</p>
 <pre class="literal-block">
 /* Magnific Popup CSS */
 .mfp-figure:after {
   box-shadow: none !important;
   background: none !important; }
 </pre>
-<p>--</p>
-<p>另外就是廣告的設定，在 Google AdSense 部分使用新的回應式廣告單元，廣告排版則是參考 Jenny 的配置，放在文章的開頭與結尾，之後會在根據需求做調整，也還在考慮要不要把 BloggerAds 也放進來。</p>
+<p>加入延遲載入  <a class="reference external" href="http://www.appelsiini.net/projects/lazyload">lazyload</a> ，讓網頁在開啟大量圖片的時候可以更順暢一點。</p>
+</div>
+<div class="section" id="id3">
+<h2>外部套件</h2>
+<p>在 Google AdSense 部分使用新的回應式廣告單元，廣告排版則是參考 Jenny 的配置，放在文章的開頭與結尾，之後會在根據需求做調整，也還在考慮要不要把 BloggerAds 也放進來。</p>
+<p>在 Google Analytics 部分則是升級到通用分析，因為是新安裝，目前還不知道實際運作的效果。</p>
+</div>
 
         </div>
 
@@ -166,9 +172,9 @@
           <h3>Related content</h3>
           <!-- TODO: Use fancier related layout, as in http://kevin.deldycke.com/2012/04/beautify-contextual-related-posts-wordpress-plugin/ -->
           <ul>
-              <li><a href="http://hansliu.com/posts/2012/01/2012-blog-upgrade.html">2012部落格小改版</a></li>
               <li><a href="http://hansliu.com/posts/2014/03/hello-pelican-github-pages.html">Hello Pelican + GitHub Pages</a></li>
               <li><a href="http://hansliu.com/posts/2014/03/new-domain-name-with-name-com.html">使用 name.com 申請新域名</a></li>
+              <li><a href="http://hansliu.com/posts/2012/01/2012-blog-upgrade.html">2012部落格小改版</a></li>
           </ul>
         </div>
 
@@ -248,8 +254,9 @@ var disqus_shortname = 'hansliu'; // required: replace example with your forum s
     (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
 }());
 </script>
-<script async src="//code.jquery.com/jquery.min.js"></script>
-<script async src="//cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/0.9.9/jquery.magnific-popup.min.js"></script>
+<script src="//code.jquery.com/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/0.9.9/jquery.magnific-popup.min.js"></script>
 <script src="http://hansliu.com/theme/js/bootstrap.min.js"></script>
 <script src="http://hansliu.com/theme/js/main.js"></script>
 </body>

@@ -172,16 +172,22 @@
 &lt;p&gt;我的 ATOM/RSS 有使用 feedburner，所以只要更新 feedburner 的設定，它就會自動幫你通知所有的訂閱戶，並且幫用戶自動訂閱新網站的文章。&lt;/p&gt;
 &lt;p&gt;比較可惜的是因為過去一直都是用 blogger 提供的 domain name，所以新部落格的 SEO 計算就要從頭開始...&lt;/p&gt;
 &lt;p&gt;再來應該會想辦法設計 redirect，看能不能把舊部落格的流量重導到新部落格。&lt;/p&gt;
-&lt;p&gt;--&lt;/p&gt;
-&lt;p&gt;在圖片顯示部分，加入回應式燈箱 &lt;a class="reference external" href="http://dimsemenov.com/plugins/magnific-popup/"&gt;magnific-popup&lt;/a&gt; ，並修改相關 css，取消不必要的陰影和邊框。&lt;/p&gt;
+&lt;div class="section" id="id2"&gt;
+&lt;h2&gt;圖片顯示&lt;/h2&gt;
+&lt;p&gt;加入回應式燈箱 &lt;a class="reference external" href="http://dimsemenov.com/plugins/magnific-popup/"&gt;magnific-popup&lt;/a&gt; ，並修改相關 css，取消不必要的陰影和邊框。&lt;/p&gt;
 &lt;pre class="literal-block"&gt;
 /* Magnific Popup CSS */
 .mfp-figure:after {
   box-shadow: none !important;
   background: none !important; }
 &lt;/pre&gt;
-&lt;p&gt;--&lt;/p&gt;
-&lt;p&gt;另外就是廣告的設定，在 Google AdSense 部分使用新的回應式廣告單元，廣告排版則是參考 Jenny 的配置，放在文章的開頭與結尾，之後會在根據需求做調整，也還在考慮要不要把 BloggerAds 也放進來。&lt;/p&gt;
+&lt;p&gt;加入延遲載入  &lt;a class="reference external" href="http://www.appelsiini.net/projects/lazyload"&gt;lazyload&lt;/a&gt; ，讓網頁在開啟大量圖片的時候可以更順暢一點。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="id3"&gt;
+&lt;h2&gt;外部套件&lt;/h2&gt;
+&lt;p&gt;在 Google AdSense 部分使用新的回應式廣告單元，廣告排版則是參考 Jenny 的配置，放在文章的開頭與結尾，之後會在根據需求做調整，也還在考慮要不要把 BloggerAds 也放進來。&lt;/p&gt;
+&lt;p&gt;在 Google Analytics 部分則是升級到通用分析，因為是新安裝，目前還不知道實際運作的效果。&lt;/p&gt;
+&lt;/div&gt;
 </summary><category term="Blog"></category></entry><entry><title>島嶼天光《Island's Sunrise 太陽花學運》</title><link href="http://hansliu.com/posts/2014/03/island-sunrise.html" rel="alternate"></link><updated>2014-03-31T04:00:00+08:00</updated><author><name>996 / Hans</name></author><id>tag:hansliu.com,2014-03-31:posts/2014/03/island-sunrise.html</id><summary type="html">&lt;p&gt;&lt;a class="reference external" href="https://lh5.googleusercontent.com/-pxub_rsQ3BQ/UzhXH6_RJ0I/AAAAAAAAKFU/djWaZXaAvBs/s1600/at4pm.jpg"&gt;&lt;img alt="image0" src="https://lh5.googleusercontent.com/-pxub_rsQ3BQ/UzhXH6_RJ0I/AAAAAAAAKFU/djWaZXaAvBs/s800/at4pm.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;感謝讓這首歌曲誕生的每一位執行者，以及參與這一連串活動的每一位公民。&lt;/p&gt;
 &lt;p&gt;以下說明節錄自島嶼天光 youtube:&lt;/p&gt;

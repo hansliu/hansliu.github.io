@@ -1,11 +1,21 @@
+// Lazyload http://www.appelsiini.net/projects/lazyload
 // Magnific Popup Documentation http://dimsemenov.com/plugins/magnific-popup/
 $(document).ready(function() {
+  $('.post-content img').each(function() {
+    $(this).attr("data-original", $(this).attr("src"));
+    $(this).removeAttr("src");
+  });
+  $('.post-content img').lazyload({
+    threshold: 250,
+    effect: "fadeIn"
+  });
   $('.post-content').each(function() { // the containers for all your galleries
     $(this).find('a > img').parent().magnificPopup({
       type: 'image',
       overflowY: 'scroll',
       gallery: {
-        enabled:true
+        enabled: true,
+        preload: [1,3]
       },
       zoom: {
         enabled: true, // By default it's false, so don't forget to enable it
@@ -24,4 +34,5 @@ $(document).ready(function() {
       }
     });
   });
+
 });
