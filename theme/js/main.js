@@ -6,8 +6,8 @@ $(document).ready(function() {
     $(this).removeAttr("src");
   });
   $('.post-content img').lazyload({
-    threshold: 250,
-    effect: "fadeIn"
+    threshold: 250
+    //effect: "fadeIn"
   });
   $('.post-content').each(function() { // the containers for all your galleries
     $(this).find('a > img').parent().magnificPopup({
