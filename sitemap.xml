@@ -5,7 +5,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://hansliu.com/index.html</loc>
-<lastmod>2014-04-10T15:31:06-00:00</lastmod>
+<lastmod>2014-04-12T15:08:09-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -389,8 +389,22 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>http://hansliu.com/posts/2011/04/about-learning.html</loc>
+<lastmod>2011-04-15T10:00:00-00:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>http://hansliu.com/posts/2011/04/2011-international-pillow-fight-taiwan.html</loc>
 <lastmod>2011-04-02T23:13:00-00:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://hansliu.com/posts/2011/03/my-senior-high-school.html</loc>
+<lastmod>2011-03-14T18:00:00-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -412,6 +426,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://hansliu.com/posts/2010/11/yilan-travel.html</loc>
 <lastmod>2010-11-24T23:00:00-00:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://hansliu.com/posts/2010/11/night-singing-with-raymond-lin.html</loc>
+<lastmod>2010-11-07T23:00:00-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -447,6 +468,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://hansliu.com/posts/2010/06/to-myself.html</loc>
 <lastmod>2010-06-12T14:00:00-00:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://hansliu.com/posts/2010/06/thanks-teacher-party.html</loc>
+<lastmod>2010-06-10T14:30:00-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -634,13 +662,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>http://hansliu.com/tag/canon/</loc>
-<lastmod>2011-04-21T10:00:00-00:00</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
 <loc>http://hansliu.com/tag/yeliu/</loc>
 <lastmod>2010-02-23T01:00:00-00:00</lastmod>
 <changefreq>daily</changefreq>
@@ -755,13 +776,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://hansliu.com/tag/olympus-pen-eed/</loc>
 <lastmod>2011-06-15T13:00:00-00:00</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>http://hansliu.com/tag/tamkang-university/</loc>
-<lastmod>2010-06-14T22:14:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
