@@ -5,7 +5,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://hansliu.com/index.html</loc>
-<lastmod>2014-07-27T15:57:09-00:00</lastmod>
+<lastmod>2014-07-27T16:11:42-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -508,8 +508,29 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>http://hansliu.com/posts/2010/07/2010-woocoo-photography-photo.html</loc>
+<lastmod>2010-07-16T06:38:00-00:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://hansliu.com/posts/2010/07/2010-woocoo-photography-2.html</loc>
+<lastmod>2010-07-13T14:30:00-00:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>http://hansliu.com/posts/2010/07/swamp-clothes.html</loc>
 <lastmod>2010-07-09T01:15:00-00:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://hansliu.com/posts/2010/07/2010-woocoo-photography-1.html</loc>
+<lastmod>2010-07-02T10:00:00-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -599,7 +620,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>http://hansliu.com/posts/2009/12/2009-ironman-photography-photo.html</loc>
+<loc>http://hansliu.com/posts/2009/12/2009-woocoo-photography-photo.html</loc>
 <lastmod>2009-12-11T13:20:00-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
@@ -641,14 +662,14 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>http://hansliu.com/posts/2009/08/2009-ironman-photography-2.html</loc>
+<loc>http://hansliu.com/posts/2009/08/2009-woocoo-photography-2.html</loc>
 <lastmod>2009-08-31T18:00:00-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://hansliu.com/posts/2009/08/2009-ironman-photography-1.html</loc>
+<loc>http://hansliu.com/posts/2009/08/2009-woocoo-photography-1.html</loc>
 <lastmod>2009-08-30T08:00:00-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
@@ -733,7 +754,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://hansliu.com/category/she-ying-ren-sheng/</loc>
-<lastmod>2009-12-11T13:20:00-00:00</lastmod>
+<lastmod>2010-07-16T06:38:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
