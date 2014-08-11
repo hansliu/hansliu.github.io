@@ -5,7 +5,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://hansliu.com/index.html</loc>
-<lastmod>2014-08-11T07:13:53-00:00</lastmod>
+<lastmod>2014-08-11T21:50:24-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -28,6 +28,20 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <loc>http://hansliu.com/pages/photographer.html</loc>
 <lastmod>2014-03-28T10:00:00-00:00</lastmod>
 <changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://hansliu.com/posts/2014/08/comic-world-in-taiwan-37-day-1.html</loc>
+<lastmod>2014-08-11T21:00:00-00:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://hansliu.com/posts/2014/08/cosplay-black-bullet-enju-aihara.html</loc>
+<lastmod>2014-08-11T20:30:00-00:00</lastmod>
+<changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
@@ -754,7 +768,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://hansliu.com/category/jiao-se-ban-yan/</loc>
-<lastmod>2014-08-11T06:00:00-00:00</lastmod>
+<lastmod>2014-08-11T21:00:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -804,6 +818,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://hansliu.com/tag/petit-fancy/</loc>
 <lastmod>2012-10-29T01:19:00-00:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://hansliu.com/tag/black-bullet/</loc>
+<lastmod>2014-08-11T20:30:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -865,8 +886,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>http://hansliu.com/tag/class-reunion/</loc>
-<lastmod>2009-07-13T18:00:00-00:00</lastmod>
+<loc>http://hansliu.com/tag/beer/</loc>
+<lastmod>2012-06-30T00:22:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -886,8 +907,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>http://hansliu.com/tag/beer/</loc>
-<lastmod>2012-06-30T00:22:00-00:00</lastmod>
+<loc>http://hansliu.com/tag/class-reunion/</loc>
+<lastmod>2009-07-13T18:00:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -964,7 +985,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://hansliu.com/tag/olympus-dslr/</loc>
-<lastmod>2014-08-11T06:00:00-00:00</lastmod>
+<lastmod>2014-08-11T21:00:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -986,6 +1007,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://hansliu.com/tag/github/</loc>
 <lastmod>2014-04-26T23:00:00-00:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://hansliu.com/tag/comic-world-in-taiwan/</loc>
+<lastmod>2014-08-11T21:00:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
