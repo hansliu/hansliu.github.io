@@ -1,15 +1,15 @@
 // Lazyload http://www.appelsiini.net/projects/lazyload
 // Magnific Popup Documentation http://dimsemenov.com/plugins/magnific-popup/
 $(document).ready(function() {
-  $('.post-content img').each(function() {
+  $('.post-content img, .gallery img').each(function() {
     $(this).attr("data-original", $(this).attr("src"));
     $(this).removeAttr("src");
   });
-  $('.post-content img').lazyload({
+  $('.post-content img, .gallery img').lazyload({
     threshold: 250
     //effect: "fadeIn"
   });
-  $('.post-content').each(function() { // the containers for all your galleries
+  $('.post-content, .gallery').each(function() { // the containers for all your galleries
     $(this).find('a > img').parent().magnificPopup({
       type: 'image',
       overflowY: 'scroll',
