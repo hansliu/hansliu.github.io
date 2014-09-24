@@ -5,7 +5,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://hansliu.com/index.html</loc>
-<lastmod>2014-08-28T11:30:27-00:00</lastmod>
+<lastmod>2014-09-25T00:27:04-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -35,6 +35,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <loc>http://hansliu.com/pages/photographer.html</loc>
 <lastmod>2014-03-28T10:00:00-00:00</lastmod>
 <changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://hansliu.com/posts/2014/09/portrait-aoi.html</loc>
+<lastmod>2014-09-24T22:30:00-00:00</lastmod>
+<changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
@@ -796,7 +803,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://hansliu.com/category/ren-xiang-she-ying/</loc>
-<lastmod>2014-08-27T23:30:00-00:00</lastmod>
+<lastmod>2014-09-24T22:30:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -866,7 +873,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://hansliu.com/tag/portrait/</loc>
-<lastmod>2014-08-27T23:30:00-00:00</lastmod>
+<lastmod>2014-09-24T22:30:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1013,7 +1020,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://hansliu.com/tag/olympus-dslr/</loc>
-<lastmod>2014-08-27T23:30:00-00:00</lastmod>
+<lastmod>2014-09-24T22:30:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
