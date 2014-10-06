@@ -5,7 +5,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://www.hansliu.com/index.html</loc>
-<lastmod>2014-09-25T01:20:29-00:00</lastmod>
+<lastmod>2014-10-07T01:35:39-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -35,6 +35,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <loc>http://www.hansliu.com/pages/photographer.html</loc>
 <lastmod>2014-03-28T10:00:00-00:00</lastmod>
 <changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://www.hansliu.com/posts/2014/10/2014-canon-photo-marathon.html</loc>
+<lastmod>2014-10-06T23:00:00-00:00</lastmod>
+<changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
@@ -810,7 +817,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://www.hansliu.com/category/she-ying-ji-lu/</loc>
-<lastmod>2014-07-16T23:00:00-00:00</lastmod>
+<lastmod>2014-10-06T23:00:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1020,7 +1027,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://www.hansliu.com/tag/olympus-dslr/</loc>
-<lastmod>2014-09-24T22:30:00-00:00</lastmod>
+<lastmod>2014-10-06T23:00:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
