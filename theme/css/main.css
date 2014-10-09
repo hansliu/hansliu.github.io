@@ -149,6 +149,11 @@ ol {
     margin-bottom: 1em;
   }
 }
+@media screen and (max-width: 779px) {
+  #blogger-ads {
+    display: none;
+  }
+}
 .readmore {
   margin-top: 1em;
   font-weight: bold;
@@ -431,6 +436,16 @@ li.tag-2 {
 li.tag-1 {
   font-size: 1.4em;
   font-weight: 400;
+}
+
+#blogger-ads {
+  padding: 1px;
+  text-align: center;
+  margin: 0;
+}
+
+#blogger-ads li {
+  list-style-type: none;
 }
 
 /* reStructuredText */
