@@ -8,8 +8,8 @@
     <meta name="keywords" content="- life, photo, code">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>研發替代役面試心得《上》 | Hans Blog</title>
-    <link rel="canonical" href="http://www.hansliu.com/posts/2011/12/rdss-interview-1.html">
+    <title>使用 Process Count Supervisor + Cronjob 管理背景行程數 | Hans Blog</title>
+    <link rel="canonical" href="http://www.hansliu.com/posts/2014/11/github-process-count-supervisor.html">
 
     <!-- parser -->
     <meta name="robots" content="index, follow">
@@ -17,8 +17,8 @@
     <meta name="baiduspider" content="index, nofollow">
 
     <!-- og -->
-    <meta property="og:title" content="研發替代役面試心得《上》">
-    <meta property="og:url" content="http://www.hansliu.com/posts/2011/12/rdss-interview-1.html">
+    <meta property="og:title" content="使用 Process Count Supervisor + Cronjob 管理背景行程數">
+    <meta property="og:url" content="http://www.hansliu.com/posts/2014/11/github-process-count-supervisor.html">
     <meta property="og:site_name" content="Hans Blog">
     <meta property="og:type" content="article">
 
@@ -94,30 +94,31 @@
     <article>
       <header>
         <h1 class="entry-title">
-          <a href="http://www.hansliu.com/posts/2011/12/rdss-interview-1.html" rel="bookmark"
-             title="Permalink to 研發替代役面試心得《上》">研發替代役面試心得《上》</a></h1>
+          <a href="http://www.hansliu.com/posts/2014/11/github-process-count-supervisor.html" rel="bookmark"
+             title="Permalink to 使用 Process Count Supervisor + Cronjob 管理背景行程數">使用 Process Count Supervisor + Cronjob 管理背景行程數</a></h1>
       </header>
       <div class="entry-content">
 <footer class="post-info">
     <!--
     <address class="vcard author">
-        by <a class="url fn" href="http://www.hansliu.com/author/996-hans.html">996 / Hans</a>
+        by <a class="url fn" href="http://www.hansliu.com/author/hans-liu.html">Hans Liu</a>
     </address>
     -->
     <address class="vcard author">
-        by 996 / Hans
+        by Hans Liu
     </address>
 
-    in <a href="http://www.hansliu.com/category/hu-yan-luan-yu/">胡言亂語</a>
+    in <a href="http://www.hansliu.com/category/xie-cheng-shi/">寫程式</a>
 
-    on 2011-12-19
-
-        |
-        tags:         <a href="http://www.hansliu.com/tag/interview/">Interview</a>
-
+    on 2014-11-02
 
         |
-        <a href="http://www.hansliu.com/posts/2011/12/rdss-interview-1.html#disqus_thread">comments</a>
+        tags:         <a href="http://www.hansliu.com/tag/python/">Python</a>
+        <a href="http://www.hansliu.com/tag/github/">Github</a>
+
+
+        |
+        <a href="http://www.hansliu.com/posts/2014/11/github-process-count-supervisor.html#disqus_thread">comments</a>
 
     
 </footer><!-- /.post-info -->
@@ -140,31 +141,43 @@
         </script><br><!-- /.Google Adsense -->
 
         <div class="post-content">
-          <div class="img-center"><p><img alt="image0" src="https://lh6.googleusercontent.com/-LSiDgUU8zJQ/Tu-Ct4PPWeI/AAAAAAAAHmA/Ymjdi7D9IXg/s800/jobdescription.jpg" /></p>
-</div><p>從高中與程式結下不解之緣開始，就踏進了資訊工程這個領域，一路從大學唸到研究所。
-現在終於要開始在社會上找一份工作，這個過程是令人期待又緊張的...</p>
-<p>背景：私校資工系、國立科資工所</p>
-<p>在十月初的時候有些公司就陸續在收履歷並進行審核的動作（e.g.趨勢、華碩），所以建議對以上公司有興趣的人可以提早準備履歷。</p>
-<p>我自己是大約在十月中旬聽完學校舉辦的研替說明會後，才開始準備研替的履歷和資料，並且因為自身興趣和未來規劃的關係，國內各大代工、製造與系統廠都不是我的主要目標。</p>
-<p>剛開始投遞履歷後的兩週，不知道是不是因為履歷內容不夠詳盡（我有隨著時間不斷的去修改履歷的內容），完全處於無消無息的狀態，直到第一間面試通知之後，邀約才接二連三的來...</p>
-<p>--</p>
-<p>第一站</p>
-<p>III資策會</p>
-<p>當天的流程是採取集體面試，大家在同一天的不同時間裡輪流報到，我的報到時間是下午，到了現場才發現面試流程整個大Delay，或許是預料到會Delay，III很好心的在現場有準備茶點，面試是採一對一的形式，流程就是很簡單的和主管介紹自己，然後分享自己做過的研究與專案，因為我的研究內容和III正在做的事情有點類似，所以和第一位主管面談完後，立刻被邀請和第二位主管面談，第二位主管聽完我的研究後，有給了我許多在研究上的分享與建議，對我在之後做研究上有不少的幫助，面試後要考英文測驗，是模擬TOEIC形式的上機考，考完領完紀念品就離開嚕。</p>
-<p>對於我來說，當天最大的收穫其實是在等待的過程中遇到銘博，和銘博做了一些心得交換，讓我更確立自己要找怎麼樣的研替，這點對我在之後的研替路上有蠻大的幫助，還有一點，就是III準備的茶點很好吃，在聊天的過程中我吃了不少...</p>
-<p>--</p>
-<p>第二站</p>
-<p>廣達研究院</p>
-<p>廣達是我唯一有投遞履歷的代工廠，不過我應徵的是和雲端運算有關的職缺，面試地點是在華亞科技園區，先從台北坐大巴到林口長庚醫院下車，接著步行很長（號稱15分鐘的路程）的一段路到達廣達，廣達公司外觀給人的感覺就是非常的氣派，宏偉的建築和高挑透明的玻璃帷幕，呈現出非常壯闊的氣勢，面試過程也是分為上機考和主管面談兩個部分，上機考要做的題目有性向測驗和英文測驗，而主管面談則是一對二的形式，針對我的研究與計畫提出詢問，並且隨機抽考許多要臨機應變的題目，整體而言聊的還算愉快，因為這次面試的關係，也讓我有下一次深度參訪的機會。</p>
-<p>廣達很遠，公司很壯觀...</p>
-<p>--</p>
-<p>第三站</p>
-<p>鈊象IGS</p>
-<p>鈊象在五股工業區，是我應徵的唯一一間遊戲業，面試時間也是下午，面試前會有三份邏輯考卷、一份程式語言考卷要寫，時間都很短，基本上都是來不及寫完的，所以能寫多少就寫多少，考完試後會和主管進行一對一的面談，這位主管是我面試到目前覺得最棒的一位，在我的回答上會給予我適當的提示和建議，還會幫我釐清在思維上遺漏的地方，並且以自身的經歷給了我很多意見和參考，也仔細幫我分析工作上的優劣，我從中得到很多收穫。</p>
-<p>主管面談結束後，接著是和人資聊天，簡單的自我介紹與生活經歷分享，不過因為剛結束和主管面談的關係，我整個人都很放鬆，也因此和人資聊了很多有的沒的事情，希望人資不要因此而覺得我話太多呀！</p>
-<p>--</p>
-<div class="img-center"><p><img alt="image1" src="https://lh5.googleusercontent.com/-65vwIJvAG48/Tu-CuYt4m7I/AAAAAAAAHmE/dP2KLtaMu44/s680/future.jpg" /></p>
-</div><p>結束鈊象的面試後，我手頭上並沒有任何口頭承諾的Offer，雖然主管在面試結束時都是給我正面的評價，但還是要等候內政部的名額公告才會有進一步的通知，就這樣過了約一週多，我接到第四間公司的面試邀約，來自Yahoo!的邀請...</p>
+          <div class="section" id="id1">
+<h2>前言</h2>
+<p>Cronjob 很頻繁的被使用在工作排程上，不過如果無法預期排程中的 process 的執行時間，當發生 process 的執行時間超過排程預期的時候，可能會重複執行多個重複的 process，如此不但會造成系統資源的浪費，也可能發生無法預期的錯誤。</p>
+<p>為了要友善管理背景執行的 process，網路上有人用 Python 寫了一套 <a href="#id2"><span class="problematic" id="id3">`Supervisor: A Process Control System`_</span></a> 這是一套完整的 system process monitoring 工具。但是這套工具的設計是以一支 daemon process 去管理 process，並透過設定檔來操作管理 process 的細節，雖然提供很多強大的附加功能，但主要是為了維持服務的穩定，這和我想要減少使用系統資源的目標有點不同。</p>
+<p>而且這樣的工具會有一個明顯的盲點，因為 Supervisor 是利用 daemon process 去管理 process，那是不是也需要有 process 來管理 Supervisor 的 daemon process？所以最後我沒有採用 Supervisor 這套工具，而選擇自己寫一支簡單的程式。</p>
+</div>
+<div class="section" id="process-count-supervisor">
+<h2>Process Count Supervisor</h2>
+<p>前言說完了，回到我要解決的問題，放在要如何簡單管理 process 數目，並且盡可能減少額外要執行的 process，以此概念下完成了 Process Count Supervisor 這支程式。</p>
+<ul class="simple">
+<li>每次執行時才帶入需要的 process 指令，不需要保持常駐的 daemon</li>
+<li>簡單透過參數限制最多執行的 process 數目</li>
+</ul>
+</div>
+<div class="section" id="simple-use-case">
+<h2>Simple Use Case</h2>
+<p>新建一個睡眠時間超過一分鐘的 shell script sleep.sh:</p>
+<pre class="literal-block">
+echo '#!/bin/bash' &gt; /home/yourname/sleep.sh
+echo 'sleep 200' &gt; /home/yourname/sleep.sh
+chmod +x /home/yourname/sleep.sh
+</pre>
+<p>設定 cronjob 為每分鐘執行一次，並使用 pcs.py (Process Count Supervisor) 來管理 sleep.sh:</p>
+<pre class="literal-block">
+crontab -e
+*/1 * * * * /home/yourname/pcs.py -m 1 /home/yourname/sleep.sh &gt; /dev/null 2&gt;&amp;1
+</pre>
+<p>雖然每分鐘執行一次 sleep.sh，理論上兩分鐘會擁有兩支 sleep.sh 在背景執行，但是在 pcs.py 的管理之下，sleep.sh 會維持同時間只有一支在背景執行。</p>
+<p>詳細使用教學可以參照 Github repository 的說明。</p>
+<p>Github repository link: <a class="reference external" href="https://github.com/hansliu/process-count-supervisor">https://github.com/hansliu/process-count-supervisor</a></p>
+</div>
+<div class="system-messages section">
+<h2>Docutils System Messages</h2>
+<div class="system-message" id="id2">
+<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">/home/hcliu/hansliu-pelican-blog/content/posts/github-process-count-supervisor.rst</tt>, line 14); <em><a href="#id3">backlink</a></em></p>
+Unknown target name: &quot;supervisor: a process control system&quot;.</div>
+</div>
 
         </div>
 
@@ -175,15 +188,6 @@
           <span class='st_email_hcount' displayText='Email'></span>
         </div>
 
-        <div class="related-posts">
-          <h3>Related content</h3>
-          <!-- TODO: Use fancier related layout, as in http://kevin.deldycke.com/2012/04/beautify-contextual-related-posts-wordpress-plugin/ -->
-          <ul>
-              <li><a href="http://www.hansliu.com/posts/2011/12/rdss-interview-3.html">研發替代役面試心得《下》</a></li>
-              <li><a href="http://www.hansliu.com/posts/2011/12/rdss-interview-0.html">研發替代役面試心得《序》</a></li>
-              <li><a href="http://www.hansliu.com/posts/2011/12/rdss-interview-2.html">研發替代役面試心得《中》</a></li>
-          </ul>
-        </div>
 
         <!-- 回應式廣告單元 -->
         <ins class="adsbygoogle"
@@ -203,7 +207,7 @@
   <script>
       /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
       var disqus_shortname = 'hansliu'; // required: replace example with your forum shortname
-      var disqus_identifier = 'posts/2011/12/rdss-interview-1.html';
+      var disqus_identifier = 'posts/2014/11/github-process-count-supervisor.html';
 
       /* * * DON'T EDIT BELOW THIS LINE * * */
       (function() {
