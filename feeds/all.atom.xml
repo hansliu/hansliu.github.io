@@ -53,7 +53,7 @@ echo '#!/bin/bash' &amp;gt; /home/yourname/sleep.sh
 echo 'sleep 200' &amp;gt; /home/yourname/sleep.sh
 chmod +x /home/yourname/sleep.sh
 &lt;/pre&gt;
-&lt;p&gt;設定 cronjob 為每分鐘執行一次，並使用 pcs.py (Process Count Supervisor) 來管理 sleep.sh:&lt;/p&gt;
+&lt;p&gt;設定 cronjob 為每分鐘執行一次，並使用 pcs.py （Process Count Supervisor） 來管理 sleep.sh:&lt;/p&gt;
 &lt;pre class="literal-block"&gt;
 crontab -e
 */1 * * * * /home/yourname/pcs.py -m 1 /home/yourname/sleep.sh &amp;gt; /dev/null 2&amp;gt;&amp;amp;1
