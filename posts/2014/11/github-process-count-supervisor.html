@@ -144,7 +144,7 @@
           <div class="section" id="id1">
 <h2>前言</h2>
 <p>Cronjob 很頻繁的被使用在工作排程上，不過如果無法預期排程中的 process 的執行時間，當發生 process 的執行時間超過排程預期的時候，可能會重複執行多個重複的 process，如此不但會造成系統資源的浪費，也可能發生無法預期的錯誤。</p>
-<p>為了要友善管理背景執行的 process，網路上有人用 Python 寫了一套 <a class="reference external" href="http://supervisord.org/index.html">Supervisor: A Process Control System</a> 這是一套完整的 system process monitoring 工具。但是這套工具的設計是以一支 daemon process 去管理 process，並透過設定檔來操作管理 process 的細節，雖然提供很多強大的附加功能，但主要是為了維持服務的穩定，這和我想要減少使用系統資源的目標有點不同。</p>
+<p>為了要友善管理背景執行的 process，在網路上可以找到用 Python 撰寫的 <a class="reference external" href="http://supervisord.org/index.html">Supervisor: A Process Control System</a> ，Supervisor 是一套完整的 system process monitoring 工具。但是這套工具的設計是以一支 daemon process 去管理 process，並透過設定檔來操作管理 process 的細節，雖然提供很多強大的附加功能，但主要是為了維持服務的穩定，這和我想要減少使用系統資源的目標有點不同。</p>
 <p>而且這樣的工具會有一個明顯的盲點，因為 Supervisor 是利用 daemon process 去管理 process，那是不是也需要有 process 來管理 Supervisor 的 daemon process？所以最後我沒有採用 Supervisor 這套工具，而選擇自己寫一支簡單的程式。</p>
 </div>
 <div class="section" id="process-count-supervisor">

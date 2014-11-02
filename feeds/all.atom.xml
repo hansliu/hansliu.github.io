@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom"><title>Hans Blog</title><link href="http://www.hansliu.com/" rel="alternate"></link><link href="http://www.hansliu.com/feeds/all.atom.xml" rel="self"></link><id>http://www.hansliu.com/</id><updated>2014-11-02T17:00:00+08:00</updated><entry><title>使用 Process Count Supervisor + Cronjob 管理背景行程數</title><link href="http://www.hansliu.com/posts/2014/11/github-process-count-supervisor.html" rel="alternate"></link><updated>2014-11-02T17:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2014-11-02:posts/2014/11/github-process-count-supervisor.html</id><summary type="html">&lt;div class="section" id="id1"&gt;
 &lt;h2&gt;前言&lt;/h2&gt;
 &lt;p&gt;Cronjob 很頻繁的被使用在工作排程上，不過如果無法預期排程中的 process 的執行時間，當發生 process 的執行時間超過排程預期的時候，可能會重複執行多個重複的 process，如此不但會造成系統資源的浪費，也可能發生無法預期的錯誤。&lt;/p&gt;
-&lt;p&gt;為了要友善管理背景執行的 process，網路上有人用 Python 寫了一套 &lt;a class="reference external" href="http://supervisord.org/index.html"&gt;Supervisor: A Process Control System&lt;/a&gt; 這是一套完整的 system process monitoring 工具。但是這套工具的設計是以一支 daemon process 去管理 process，並透過設定檔來操作管理 process 的細節，雖然提供很多強大的附加功能，但主要是為了維持服務的穩定，這和我想要減少使用系統資源的目標有點不同。&lt;/p&gt;
+&lt;p&gt;為了要友善管理背景執行的 process，在網路上可以找到用 Python 撰寫的 &lt;a class="reference external" href="http://supervisord.org/index.html"&gt;Supervisor: A Process Control System&lt;/a&gt; ，Supervisor 是一套完整的 system process monitoring 工具。但是這套工具的設計是以一支 daemon process 去管理 process，並透過設定檔來操作管理 process 的細節，雖然提供很多強大的附加功能，但主要是為了維持服務的穩定，這和我想要減少使用系統資源的目標有點不同。&lt;/p&gt;
 &lt;p&gt;而且這樣的工具會有一個明顯的盲點，因為 Supervisor 是利用 daemon process 去管理 process，那是不是也需要有 process 來管理 Supervisor 的 daemon process？所以最後我沒有採用 Supervisor 這套工具，而選擇自己寫一支簡單的程式。&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="process-count-supervisor"&gt;
