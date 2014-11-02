@@ -1,5 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Hans Blog</title><link href="http://www.hansliu.com/" rel="alternate"></link><link href="http://www.hansliu.com/feeds/all.atom.xml" rel="self"></link><id>http://www.hansliu.com/</id><updated>2014-10-07T23:30:00+08:00</updated><entry><title>草兒‧西雅圖</title><link href="http://www.hansliu.com/posts/2014/10/portrait-francesca.html" rel="alternate"></link><updated>2014-10-07T23:30:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2014-10-07:posts/2014/10/portrait-francesca.html</id><summary type="html">&lt;div class="img-center"&gt;&lt;p&gt;&lt;a class="reference external" href="https://lh4.googleusercontent.com/-_3aywsQrv9s/VDQc-Hb_C5I/AAAAAAAALqE/yRc2jWZzurk/s1600/PA045401copy.jpg"&gt;&lt;img alt="image0" src="https://lh4.googleusercontent.com/-_3aywsQrv9s/VDQc-Hb_C5I/AAAAAAAALqE/yRc2jWZzurk/s800/PA045401copy.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Hans Blog</title><link href="http://www.hansliu.com/" rel="alternate"></link><link href="http://www.hansliu.com/feeds/all.atom.xml" rel="self"></link><id>http://www.hansliu.com/</id><updated>2014-11-02T17:00:00+08:00</updated><entry><title>使用 Process Count Supervisor + Cronjob 管理背景行程數</title><link href="http://www.hansliu.com/posts/2014/11/github-process-count-supervisor.html" rel="alternate"></link><updated>2014-11-02T17:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2014-11-02:posts/2014/11/github-process-count-supervisor.html</id><summary type="html">&lt;div class="section" id="id1"&gt;
+&lt;h2&gt;前言&lt;/h2&gt;
+&lt;p&gt;Cronjob 很頻繁的被使用在工作排程上，不過如果無法預期排程中的 process 的執行時間，當發生 process 的執行時間超過排程預期的時候，可能會重複執行多個重複的 process，如此不但會造成系統資源的浪費，也可能發生無法預期的錯誤。&lt;/p&gt;
+&lt;p&gt;為了要友善管理背景執行的 process，網路上有人用 Python 寫了一套 &lt;a class="reference external" href="http://supervisord.org/index.html"&gt;Supervisor: A Process Control System&lt;/a&gt; 這是一套完整的 system process monitoring 工具。但是這套工具的設計是以一支 daemon process 去管理 process，並透過設定檔來操作管理 process 的細節，雖然提供很多強大的附加功能，但主要是為了維持服務的穩定，這和我想要減少使用系統資源的目標有點不同。&lt;/p&gt;
+&lt;p&gt;而且這樣的工具會有一個明顯的盲點，因為 Supervisor 是利用 daemon process 去管理 process，那是不是也需要有 process 來管理 Supervisor 的 daemon process？所以最後我沒有採用 Supervisor 這套工具，而選擇自己寫一支簡單的程式。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="process-count-supervisor"&gt;
+&lt;h2&gt;Process Count Supervisor&lt;/h2&gt;
+&lt;p&gt;前言說完了，回到我要解決的問題，放在要如何簡單管理 process 數目，並且盡可能減少額外要執行的 process，以此概念下完成了 Process Count Supervisor 這支程式。&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;每次執行時才帶入需要的 process 指令，不需要保持常駐的 daemon&lt;/li&gt;
+&lt;li&gt;簡單透過參數限制最多執行的 process 數目&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="simple-use-case"&gt;
+&lt;h2&gt;Simple Use Case&lt;/h2&gt;
+&lt;p&gt;新建一個睡眠時間超過一分鐘的 shell script sleep.sh:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+echo '#!/bin/bash' &amp;gt; /home/yourname/sleep.sh
+echo 'sleep 200' &amp;gt; /home/yourname/sleep.sh
+chmod +x /home/yourname/sleep.sh
+&lt;/pre&gt;
+&lt;p&gt;設定 cronjob 為每分鐘執行一次，並使用 pcs.py (Process Count Supervisor) 來管理 sleep.sh:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+crontab -e
+*/1 * * * * /home/yourname/pcs.py -m 1 /home/yourname/sleep.sh &amp;gt; /dev/null 2&amp;gt;&amp;amp;1
+&lt;/pre&gt;
+&lt;p&gt;雖然每分鐘執行一次 sleep.sh，理論上兩分鐘會擁有兩支 sleep.sh 在背景執行，但是在 pcs.py 的管理之下，sleep.sh 會維持同時間只有一支在背景執行。&lt;/p&gt;
+&lt;p&gt;詳細使用教學可以參照 Github repository 的說明。&lt;/p&gt;
+&lt;p&gt;Github repository link: &lt;a class="reference external" href="https://github.com/hansliu/process-count-supervisor"&gt;https://github.com/hansliu/process-count-supervisor&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+</summary><category term="Python"></category><category term="Github"></category></entry><entry><title>草兒‧西雅圖</title><link href="http://www.hansliu.com/posts/2014/10/portrait-francesca.html" rel="alternate"></link><updated>2014-10-07T23:30:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2014-10-07:posts/2014/10/portrait-francesca.html</id><summary type="html">&lt;div class="img-center"&gt;&lt;p&gt;&lt;a class="reference external" href="https://lh4.googleusercontent.com/-_3aywsQrv9s/VDQc-Hb_C5I/AAAAAAAALqE/yRc2jWZzurk/s1600/PA045401copy.jpg"&gt;&lt;img alt="image0" src="https://lh4.googleusercontent.com/-_3aywsQrv9s/VDQc-Hb_C5I/AAAAAAAALqE/yRc2jWZzurk/s800/PA045401copy.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;&lt;div style="text-align: center;"&gt;&lt;p&gt;草兒‧西雅圖&lt;/p&gt;
 &lt;/div&gt;&lt;p&gt;#2&lt;/p&gt;
 &lt;p&gt;&lt;a class="reference external" href="https://lh4.googleusercontent.com/-dShbDW1wguQ/VDQc-eweN_I/AAAAAAAALqI/mGkHVFro4WI/s1600/PA045403copy.jpg"&gt;&lt;img alt="image1" src="https://lh4.googleusercontent.com/-dShbDW1wguQ/VDQc-eweN_I/AAAAAAAALqI/mGkHVFro4WI/s800/PA045403copy.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -233,20 +264,4 @@
 &lt;p&gt;&lt;a class="reference external" href="https://lh5.googleusercontent.com/-5VsvZ2ORZ0U/U-eCY3oOYYI/AAAAAAAAKrM/LtHzUfb88bY/s1600/P8094445copy.jpg"&gt;&lt;img alt="image7" src="https://lh5.googleusercontent.com/-5VsvZ2ORZ0U/U-eCY3oOYYI/AAAAAAAAKrM/LtHzUfb88bY/s800/P8094445copy.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;魅惑時代除了阿璃的造型之外，其他英雄造型都不是英雄聯盟官方釋出的造型，而是由插畫家 Loiza 設計的一系列角色造型，許多角色的武器和服裝都很有特色，令人印象深刻，如果想瞭解更多有關魅惑時代的造型可以逛逛 Loiza 的粉絲頁。&lt;/p&gt;
 &lt;p&gt;Loiza - &lt;a class="reference external" href="https://www.facebook.com/loiza.chen"&gt;https://www.facebook.com/loiza.chen&lt;/a&gt;&lt;/p&gt;
-</summary><category term="Olympus DSLR"></category><category term="League of Legends"></category></entry><entry><title>Cosplay《英雄聯盟》索拉卡</title><link href="http://www.hansliu.com/posts/2014/07/cosplay-league-of-legends-soraka.html" rel="alternate"></link><updated>2014-07-27T21:00:00+08:00</updated><author><name>996 / Hans</name></author><id>tag:www.hansliu.com,2014-07-27:posts/2014/07/cosplay-league-of-legends-soraka.html</id><summary type="html">&lt;div class="img-center"&gt;&lt;p&gt;&lt;a class="reference external" href="https://lh3.googleusercontent.com/-jAedrmOIRw0/U9S8GEtKgXI/AAAAAAAAKZ4/31qks-R7N0w/s1600/P7264221copy.jpg"&gt;&lt;img alt="image0" src="https://lh3.googleusercontent.com/-jAedrmOIRw0/U9S8GEtKgXI/AAAAAAAAKZ4/31qks-R7N0w/s800/P7264221copy.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div style="text-align: center;"&gt;&lt;p&gt;Fancy Frontier 24 Day 1&lt;/p&gt;
-&lt;/p&gt;&lt;p&gt;Cosplay《英雄聯盟》索拉卡&lt;/p&gt;
-&lt;/div&gt;&lt;div style="text-align: center;"&gt;&lt;p&gt;索拉卡 / 綠茶派&lt;/p&gt;
-&lt;/div&gt;&lt;p&gt;#2&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://lh6.googleusercontent.com/-VZ_McbtM7_E/U9S8ER2ccjI/AAAAAAAAKZw/hF7XO9uyghs/s1600/P7264220copy.jpg"&gt;&lt;img alt="image1" src="https://lh6.googleusercontent.com/-VZ_McbtM7_E/U9S8ER2ccjI/AAAAAAAAKZw/hF7XO9uyghs/s800/P7264220copy.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;#3&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://lh3.googleusercontent.com/-fNVfXO0MAJk/U9S8C-2jBpI/AAAAAAAAKZo/dacFQLn1ZWk/s1600/P7264217copy.jpg"&gt;&lt;img alt="image2" src="https://lh3.googleusercontent.com/-fNVfXO0MAJk/U9S8C-2jBpI/AAAAAAAAKZo/dacFQLn1ZWk/s800/P7264217copy.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;#4&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://lh3.googleusercontent.com/-dtkDy9cWWWs/U9S8AL3O0wI/AAAAAAAAKZg/a9km2RKHkAg/s1600/P7264206copy.jpg"&gt;&lt;img alt="image3" src="https://lh3.googleusercontent.com/-dtkDy9cWWWs/U9S8AL3O0wI/AAAAAAAAKZg/a9km2RKHkAg/s800/P7264206copy.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;#5&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://lh4.googleusercontent.com/-2Ax-EEP2AnM/U9S78R_qxMI/AAAAAAAAKZI/Legvs6KQ_vA/s1600/P7264200copy.jpg"&gt;&lt;img alt="image4" src="https://lh4.googleusercontent.com/-2Ax-EEP2AnM/U9S78R_qxMI/AAAAAAAAKZI/Legvs6KQ_vA/s800/P7264200copy.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;#6&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://lh5.googleusercontent.com/-af6S7K_lC0Y/U9S79NEUJYI/AAAAAAAAKZU/t2uuHhmo7SE/s1600/P7264196copy.jpg"&gt;&lt;img alt="image5" src="https://lh5.googleusercontent.com/-af6S7K_lC0Y/U9S79NEUJYI/AAAAAAAAKZU/t2uuHhmo7SE/s800/P7264196copy.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;#7&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://lh3.googleusercontent.com/-vgt5oDoSSGM/U9S79v0IJCI/AAAAAAAAKZY/GFhf9D4Ky1k/s1600/P7264194copy.jpg"&gt;&lt;img alt="image6" src="https://lh3.googleusercontent.com/-vgt5oDoSSGM/U9S79v0IJCI/AAAAAAAAKZY/GFhf9D4Ky1k/s800/P7264194copy.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
 </summary><category term="Olympus DSLR"></category><category term="League of Legends"></category></entry></feed>

@@ -5,7 +5,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://www.hansliu.com/index.html</loc>
-<lastmod>2014-11-02T10:46:47-00:00</lastmod>
+<lastmod>2014-11-02T18:52:29-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -35,6 +35,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <loc>http://www.hansliu.com/pages/photographer.html</loc>
 <lastmod>2014-03-28T10:00:00-00:00</lastmod>
 <changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://www.hansliu.com/posts/2014/11/github-process-count-supervisor.html</loc>
+<lastmod>2014-11-02T17:00:00-00:00</lastmod>
+<changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
@@ -838,7 +845,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://www.hansliu.com/category/xie-cheng-shi/</loc>
-<lastmod>2014-06-02T23:00:00-00:00</lastmod>
+<lastmod>2014-11-02T17:00:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1013,7 +1020,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://www.hansliu.com/tag/python/</loc>
-<lastmod>2014-06-02T23:00:00-00:00</lastmod>
+<lastmod>2014-11-02T17:00:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1062,7 +1069,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://www.hansliu.com/tag/github/</loc>
-<lastmod>2014-04-26T23:00:00-00:00</lastmod>
+<lastmod>2014-11-02T17:00:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
