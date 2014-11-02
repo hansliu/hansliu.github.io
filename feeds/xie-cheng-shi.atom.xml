@@ -26,7 +26,7 @@ chmod +x /home/yourname/sleep.sh
 crontab -e
 */1 * * * * /home/yourname/pcs.py -m 1 /home/yourname/sleep.sh &amp;gt; /dev/null 2&amp;gt;&amp;amp;1
 &lt;/pre&gt;
-&lt;p&gt;雖然每分鐘執行一次 sleep.sh，理論上兩分鐘會擁有兩支 sleep.sh 在背景執行，但是在 pcs.py 的管理之下，sleep.sh 會維持同時間只有一支在背景執行。&lt;/p&gt;
+&lt;p&gt;因為每分鐘執行一次的 sleep.sh 會睡眠超過一分鐘，所以理論上兩分鐘會擁有兩支 sleep.sh 同時在背景執行，但是在 pcs.py 的管理之下，sleep.sh 會維持同時間只有一支在背景執行。&lt;/p&gt;
 &lt;p&gt;詳細使用教學可以參照 Github repository 的說明。&lt;/p&gt;
 &lt;p&gt;Github repository link: &lt;a class="reference external" href="https://github.com/hansliu/process-count-supervisor"&gt;https://github.com/hansliu/process-count-supervisor&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
