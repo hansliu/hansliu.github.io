@@ -5,7 +5,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://www.hansliu.com/index.html</loc>
-<lastmod>2014-11-16T01:10:09-00:00</lastmod>
+<lastmod>2014-11-16T01:12:32-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -991,13 +991,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>http://www.hansliu.com/tag/fisheye/</loc>
-<lastmod>2011-06-03T17:30:00-00:00</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
 <loc>http://www.hansliu.com/tag/beer/</loc>
 <lastmod>2012-06-30T00:22:00-00:00</lastmod>
 <changefreq>daily</changefreq>
@@ -1019,6 +1012,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>http://www.hansliu.com/tag/sword-art-online/</loc>
+<lastmod>2012-10-31T16:27:00-00:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>http://www.hansliu.com/tag/class-reunion/</loc>
 <lastmod>2009-07-13T18:00:00-00:00</lastmod>
 <changefreq>daily</changefreq>
@@ -1033,8 +1033,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>http://www.hansliu.com/tag/sword-art-online/</loc>
-<lastmod>2012-10-31T16:27:00-00:00</lastmod>
+<loc>http://www.hansliu.com/tag/fisheye/</loc>
+<lastmod>2011-06-03T17:30:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1042,6 +1042,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://www.hansliu.com/tag/interview/</loc>
 <lastmod>2011-12-23T00:06:00-00:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://www.hansliu.com/tag/nara/</loc>
+<lastmod>2014-11-16T01:00:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1070,6 +1077,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://www.hansliu.com/tag/python/</loc>
 <lastmod>2014-11-02T17:00:00-00:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://www.hansliu.com/tag/kyoto/</loc>
+<lastmod>2014-11-16T01:00:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
