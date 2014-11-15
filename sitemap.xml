@@ -5,7 +5,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://www.hansliu.com/index.html</loc>
-<lastmod>2014-11-16T01:09:06-00:00</lastmod>
+<lastmod>2014-11-16T01:10:09-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -35,6 +35,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <loc>http://www.hansliu.com/pages/photographer.html</loc>
 <lastmod>2014-03-28T10:00:00-00:00</lastmod>
 <changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://www.hansliu.com/posts/2014/11/2014-travel-osaka-2.html</loc>
+<lastmod>2014-11-16T01:00:00-00:00</lastmod>
+<changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
@@ -824,7 +831,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://www.hansliu.com/category/chi-he-wan-le/</loc>
-<lastmod>2014-11-15T02:00:00-00:00</lastmod>
+<lastmod>2014-11-16T01:00:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -901,7 +908,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://www.hansliu.com/tag/osaka/</loc>
-<lastmod>2014-11-15T02:00:00-00:00</lastmod>
+<lastmod>2014-11-16T01:00:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -943,7 +950,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://www.hansliu.com/tag/japan/</loc>
-<lastmod>2014-11-15T02:00:00-00:00</lastmod>
+<lastmod>2014-11-16T01:00:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
