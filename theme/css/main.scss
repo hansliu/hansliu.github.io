@@ -173,7 +173,7 @@ ol {
 }
 
 /* Add responsive layout for cell phone and small device */
-@media handheld {
+@media handheld and (min-device-width: 320px) and (max-device-width: 568px) {
   #banner h1 {
     font-size: 1em;
   }
