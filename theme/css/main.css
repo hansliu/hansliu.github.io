@@ -154,6 +154,16 @@ ol {
     display: none;
   }
 }
+/* Add responsive layout for cell phone and small device */
+@media handheld {
+  #banner h1 {
+    font-size: 1em;
+  }
+
+  #blogger-ads {
+    display: none;
+  }
+}
 .readmore {
   margin-top: 1em;
   font-weight: bold;
