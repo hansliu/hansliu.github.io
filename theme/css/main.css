@@ -157,7 +157,7 @@ ol {
 /* Add responsive layout for cell phone and small device */
 @media screen and (max-device-width: 768px) {
   #banner h1 {
-    font-size: 1em;
+    font-size: 2em !important;
   }
 
   #blogger-ads {
