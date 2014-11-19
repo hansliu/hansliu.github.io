@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>Hans Blog</title><link href="http://www.hansliu.com/" rel="alternate"></link><link href="http://www.hansliu.com/feeds/hu-yan-luan-yu.atom.xml" rel="self"></link><id>http://www.hansliu.com/</id><updated>2014-11-19T22:00:00+08:00</updated><entry><title>轉換 Bootstrap 從 v2 到 v3</title><link href="http://www.hansliu.com/posts/2014/11/migrating-bootstrap-v2-to-v3.html" rel="alternate"></link><updated>2014-11-19T22:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2014-11-19:posts/2014/11/migrating-bootstrap-v2-to-v3.html</id><summary type="html">&lt;div class="section" id="id1"&gt;
 &lt;h2&gt;前言&lt;/h2&gt;
-&lt;p&gt;在 &lt;a class="reference external" href="http://www.hansliu.com/posts/2014/03/hello-pelican-github-pages.html"&gt;Hello Pelican + GitHub Pages&lt;/a&gt; 介紹部落格的時候有提到，現在使用的 Pelican 樣式是 Jenny 設計的 &lt;a class="reference external" href="https://github.com/jsliang/pelican-fresh"&gt;pelican-fresh&lt;/a&gt; ，其設計是架構在 Bootstrap v2.x 的版本之上，因為想要重新設計選單，使其可以在用行動裝置瀏覽的時候自動轉換成較好操作，而且又不會佔用閱讀空間的設計風格，剛好 Bootstrap v3.x 內建就有這樣的功能，就決定一口氣把部落格使用的 Bootstrap 從 v2 轉換到 v3。&lt;/p&gt;
+&lt;p&gt;在 &lt;a class="reference external" href="http://www.hansliu.com/posts/2014/03/hello-pelican-github-pages.html"&gt;Hello Pelican + GitHub Pages&lt;/a&gt; 介紹部落格的時候有提到，現在使用的 Pelican 樣式是 Jenny 設計的 &lt;a class="reference external" href="https://github.com/jsliang/pelican-fresh"&gt;pelican-fresh&lt;/a&gt; ，其設計是架構在 Bootstrap v2.x 的版本之上，因為想要重新設計選單的樣式，使其可以在用行動裝置瀏覽的時候自動轉換成較好操作，而且又不會佔用閱讀空間的設計風格，剛好 Bootstrap v3.x 內建就有這樣的功能，就決定一口氣把部落格使用的 Bootstrap 從 v2 轉換到 v3。&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="id2"&gt;
 &lt;h2&gt;轉換&lt;/h2&gt;
-&lt;p&gt;轉換的部份其實蠻簡單的，主要可以參考官方的轉換文件，將 v2 對應的 class 改變成 v3 的版本，並針對部分 default 的 CSS 做微調即可。&lt;/p&gt;
+&lt;p&gt;轉換的部份其實蠻簡單的，主要可以參考官方的轉換文件，將 v2 對應的 class 改變成 v3 的版本，並針對部分 default 的 CSS 做微調即可。而且 Bootstrap v3 內建的設計風格因應業界趨勢，朝向扁平化發展，搭配許多新的 Glyphicons，可以很快速的完成一個簡單的樣式，看起來還不錯。&lt;/p&gt;
 &lt;p&gt;官方轉換文件 - &lt;a class="reference external" href="http://getbootstrap.com/migration/"&gt;http://getbootstrap.com/migration/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Bootstrap v3 內建的設計風格因應業界趨勢，朝向扁平化發展，搭配許多新的 Glyphicons，可以很快速的完成一個簡單的樣式，看起來還不錯。&lt;/p&gt;
 &lt;p&gt;不過要注意的是，在跨瀏覽器方面，Bootstrap v3 不支援 IE7 和 Firefox 3.6，有跨瀏覽器需求的人要注意一下是否要使用 Bootstrap v3。&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="id3"&gt;
 &lt;h2&gt;選單&lt;/h2&gt;
-&lt;p&gt;使用 Bootstrap v3 重新設計選單方面，我是直接參考 twitter-bootstrap-tutorial 有關選單的教學。&lt;/p&gt;
+&lt;p&gt;使用 Bootstrap v3 重新設計選單的樣式，我是直接參考 twitter bootstrap tutorial 有關設計選單的教學。&lt;/p&gt;
 &lt;p&gt;Creating a Simple Navbar with Twitter Bootstrap - &lt;a class="reference external" href="http://www.tutorialrepublic.com/twitter-bootstrap-tutorial/bootstrap-navbar.php"&gt;http://www.tutorialrepublic.com/twitter-bootstrap-tutorial/bootstrap-navbar.php&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;照著做就可以有支援行動裝置的選單設計風格了。&lt;/p&gt;
+&lt;p&gt;照著做就可以有支援行動裝置的選單樣式了。&lt;/p&gt;
 &lt;/div&gt;
 </summary><category term="Blog"></category><category term="Bootstrap"></category></entry><entry><title>2014部落格改版</title><link href="http://www.hansliu.com/posts/2014/03/2014-blog-upgrade.html" rel="alternate"></link><updated>2014-03-31T10:00:00+08:00</updated><author><name>996 / Hans</name></author><id>tag:www.hansliu.com,2014-03-31:posts/2014/03/2014-blog-upgrade.html</id><summary type="html">&lt;p&gt;&lt;a class="reference external" href="https://lh3.googleusercontent.com/-h71cIF3bnYo/Uzm-XVuME6I/AAAAAAAAKGE/xOzCZ3SUGsg/s1600/blog2014.png"&gt;&lt;img alt="image0" src="https://lh3.googleusercontent.com/-h71cIF3bnYo/Uzm-XVuME6I/AAAAAAAAKGE/xOzCZ3SUGsg/s800/blog2014.png" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;部落格搬家也逐漸接近尾聲，剩下就是一些舊部落格的收尾和導入。&lt;/p&gt;
