@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>Hans Blog</title><link href="http://www.hansliu.com/" rel="alternate"></link><link href="http://www.hansliu.com/feeds/hu-yan-luan-yu.atom.xml" rel="self"></link><id>http://www.hansliu.com/</id><updated>2014-11-19T22:00:00+08:00</updated><entry><title>轉換 Bootstrap 從 v2 到 v3</title><link href="http://www.hansliu.com/posts/2014/11/migrating-bootstrap-v2-to-v3.html" rel="alternate"></link><updated>2014-11-19T22:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2014-11-19:posts/2014/11/migrating-bootstrap-v2-to-v3.html</id><summary type="html">&lt;div class="section" id="id1"&gt;
 &lt;h2&gt;前言&lt;/h2&gt;
-&lt;p&gt;在 &lt;a class="reference external" href="http://www.hansliu.com/posts/2014/03/hello-pelican-github-pages.html"&gt;Hello Pelican + GitHub Pages&lt;/a&gt; 介紹部落格的時候有提到，現在使用的 Pelican 樣式是 Jenny 設計的 &lt;a class="reference external" href="https://github.com/jsliang/pelican-fresh"&gt;pelican-fresh&lt;/a&gt; ，其設計是架構在 Bootstrap v2.x 的版本之上。因為我想要重新設計選單的樣式，使其可以支援當使用者用行動裝置瀏覽的時候自動轉換成較好操作，而且又不會佔用閱讀空間的設計樣式，剛好我發現 Bootstrap v3.x 內建就有這樣的樣式風格，就決定把部落格使用的 Bootstrap 從 v2 轉換到 v3。&lt;/p&gt;
+&lt;p&gt;在 &lt;a class="reference external" href="http://www.hansliu.com/posts/2014/03/hello-pelican-github-pages.html"&gt;Hello Pelican + GitHub Pages&lt;/a&gt; 介紹部落格的時候有提到，現在使用的 Pelican 樣式是 Jenny 設計的 &lt;a class="reference external" href="https://github.com/jsliang/pelican-fresh"&gt;pelican-fresh&lt;/a&gt; ，其設計是架構在 Bootstrap v2.x 的版本之上。因為我想要重新設計選單的樣式，使其可以支援使用行動裝置瀏覽的時候，選單會自動轉換成較好操作，而且又不會佔用閱讀空間的設計樣式，剛好我發現 Bootstrap v3.x 內建就有這樣的樣式風格，就決定把部落格使用的 Bootstrap 從 v2 轉換到 v3。&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="id2"&gt;
 &lt;h2&gt;轉換&lt;/h2&gt;
