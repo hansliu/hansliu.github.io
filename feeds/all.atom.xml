@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>Hans Blog</title><link href="http://www.hansliu.com/" rel="alternate"></link><link href="http://www.hansliu.com/feeds/all.atom.xml" rel="self"></link><id>http://www.hansliu.com/</id><updated>2014-11-19T22:00:00+08:00</updated><entry><title>轉換 Bootstrap 從 v2 到 v3</title><link href="http://www.hansliu.com/posts/2014/11/migrating-bootstrap-v2-to-v3.html" rel="alternate"></link><updated>2014-11-19T22:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2014-11-19:posts/2014/11/migrating-bootstrap-v2-to-v3.html</id><summary type="html">&lt;div class="section" id="id1"&gt;
 &lt;h2&gt;前言&lt;/h2&gt;
-&lt;p&gt;在 &lt;a href="#id4"&gt;&lt;span class="problematic" id="id5"&gt;`Hello Pelican + GitHub Pages`_&lt;/span&gt;&lt;/a&gt; 介紹部落格的時候有提到，現在使用的 Pelican 樣式是 Jenny 設計的 &lt;a class="reference external" href="https://github.com/jsliang/pelican-fresh"&gt;pelican-fresh&lt;/a&gt; ，其設計是架構在 Bootstrap v2.x 的版本之上，因為想要重新設計選單，使其可以在用行動裝置瀏覽的時候自動轉換成較好操作，而且又不會佔用閱讀空間的設計風格，剛好 Bootstrap v3.x 內建就有這樣的功能，就決定一口氣把部落格使用的 Bootstrap 從 v2 轉換到 v3。&lt;/p&gt;
+&lt;p&gt;在 &lt;a class="reference external" href="http://www.hansliu.com/posts/2014/03/hello-pelican-github-pages.html"&gt;Hello Pelican + GitHub Pages&lt;/a&gt; 介紹部落格的時候有提到，現在使用的 Pelican 樣式是 Jenny 設計的 &lt;a class="reference external" href="https://github.com/jsliang/pelican-fresh"&gt;pelican-fresh&lt;/a&gt; ，其設計是架構在 Bootstrap v2.x 的版本之上，因為想要重新設計選單，使其可以在用行動裝置瀏覽的時候自動轉換成較好操作，而且又不會佔用閱讀空間的設計風格，剛好 Bootstrap v3.x 內建就有這樣的功能，就決定一口氣把部落格使用的 Bootstrap 從 v2 轉換到 v3。&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="id2"&gt;
 &lt;h2&gt;轉換&lt;/h2&gt;
@@ -15,12 +15,6 @@
 &lt;p&gt;使用 Bootstrap v3 重新設計選單方面，我是直接參考 twitter-bootstrap-tutorial 有關選單的教學。&lt;/p&gt;
 &lt;p&gt;Creating a Simple Navbar with Twitter Bootstrap - &lt;a class="reference external" href="http://www.tutorialrepublic.com/twitter-bootstrap-tutorial/bootstrap-navbar.php"&gt;http://www.tutorialrepublic.com/twitter-bootstrap-tutorial/bootstrap-navbar.php&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;照著做就可以有支援行動裝置的選單設計風格了。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="system-messages section"&gt;
-&lt;h2&gt;Docutils System Messages&lt;/h2&gt;
-&lt;div class="system-message" id="id4"&gt;
-&lt;p class="system-message-title"&gt;System Message: ERROR/3 (&lt;tt class="docutils"&gt;/home/hcliu/hansliu-pelican-blog/content/posts/migrating-bootstrap-v2-to-v3.rst&lt;/tt&gt;, line 12); &lt;em&gt;&lt;a href="#id5"&gt;backlink&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-Unknown target name: &amp;quot;hello pelican + github pages&amp;quot;.&lt;/div&gt;
 &lt;/div&gt;
 </summary><category term="Blog"></category><category term="Bootstrap"></category></entry><entry><title>2014大阪京都奈良五天四夜《下》</title><link href="http://www.hansliu.com/posts/2014/11/2014-travel-osaka-3.html" rel="alternate"></link><updated>2014-11-16T12:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2014-11-16:posts/2014/11/2014-travel-osaka-3.html</id><summary type="html">&lt;p&gt;前情提要 &lt;a class="reference external" href="http://www.hansliu.com/posts/2014/11/2014-travel-osaka-2.html"&gt;2014 大阪京都奈良五天四夜《中》&lt;/a&gt;&lt;/p&gt;
 &lt;div class="section" id="day-4"&gt;
