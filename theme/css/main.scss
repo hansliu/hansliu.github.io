@@ -32,6 +32,8 @@ body {
   margin: 0;
   padding: 0;
   text-align: left;
+  /* fix horizontal scrollbar appeared on 100% width layout in Bootstrap v3 */
+  overflow-x: hidden;
 }
 
 a {
@@ -101,12 +103,12 @@ em, i {
 
 ul {
   list-style: outside disc;
-  margin: 1em 0 1.5em 1.5em;
+  margin: 1em 0 1.5em 1em;
 }
 
 ol {
   list-style: outside decimal;
-  margin: 1em 0 1.5em 1.5em;
+  margin: 1em 0 1.5em 1em;
 }
 
 .post-info {
@@ -126,6 +128,7 @@ ol {
   img {
     box-shadow: 3px 3px 6px #dddddd;
     margin: 0 0 1em 0;
+    max-width: 100%;
   }
   iframe {
     margin-bottom: 1em;
@@ -212,6 +215,11 @@ pre {
   background-color: #eeeeee;
   padding: 10px;
   margin: 10px;
+  font-size: 13px;
+  line-height: 20px;
+  word-break: break-all;
+  word-wrap: break-word;
+  white-space: pre-wrap;
   overflow: auto;
 }
 
@@ -250,7 +258,7 @@ img.left, figure.left {
 
 #banner {
   margin: 0 auto;
-  padding: 2.5em 0 0 0;
+  padding: 2em 0 0 0;
   h1 {
     font-size: 4em;
     font-family: 'Overlock';
@@ -280,6 +288,7 @@ img.left, figure.left {
 }
 
 /* Add a search icon in navbar's search field */
+/*
 .navbar-search .search-query {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
@@ -291,13 +300,14 @@ img.left, figure.left {
 .navbar-search .fa-search {
   position: absolute;
   top: 8px;
-  left: 10px;
+  left: 5px;
 }
+*/
 
 #google-custom-search {
   width: 300px;
-  float: right;
-  margin-top: 5px;
+  margin-top: 6px;
+  padding: 0 15px 0 10px;
   .gsc-control-cse {
     padding: 0 !important;
     border: 0 !important;
@@ -307,6 +317,13 @@ img.left, figure.left {
     margin: -6px 0 0 0 !important;
     padding: 2px 4px 0 0 !important;
     border: none !important;
+    box-shadow: none !important;
+  }
+  .gsc-input-box {
+
+  }
+  .gsc-search-button {
+    box-sizing: initial !important;
     box-shadow: none !important;
   }
 }
@@ -517,6 +534,7 @@ table.gallery {
     line-height: 2em;
     font-size: 1.2em;
     font-weight: bold;
+    text-align: center;
   }
   /* Responsive images in tables */
   img {
