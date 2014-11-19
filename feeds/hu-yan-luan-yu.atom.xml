@@ -1,5 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Hans Blog</title><link href="http://www.hansliu.com/" rel="alternate"></link><link href="http://www.hansliu.com/feeds/hu-yan-luan-yu.atom.xml" rel="self"></link><id>http://www.hansliu.com/</id><updated>2014-03-31T10:00:00+08:00</updated><entry><title>2014部落格改版</title><link href="http://www.hansliu.com/posts/2014/03/2014-blog-upgrade.html" rel="alternate"></link><updated>2014-03-31T10:00:00+08:00</updated><author><name>996 / Hans</name></author><id>tag:www.hansliu.com,2014-03-31:posts/2014/03/2014-blog-upgrade.html</id><summary type="html">&lt;p&gt;&lt;a class="reference external" href="https://lh3.googleusercontent.com/-h71cIF3bnYo/Uzm-XVuME6I/AAAAAAAAKGE/xOzCZ3SUGsg/s1600/blog2014.png"&gt;&lt;img alt="image0" src="https://lh3.googleusercontent.com/-h71cIF3bnYo/Uzm-XVuME6I/AAAAAAAAKGE/xOzCZ3SUGsg/s800/blog2014.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Hans Blog</title><link href="http://www.hansliu.com/" rel="alternate"></link><link href="http://www.hansliu.com/feeds/hu-yan-luan-yu.atom.xml" rel="self"></link><id>http://www.hansliu.com/</id><updated>2014-11-19T22:00:00+08:00</updated><entry><title>轉換 Bootstrap 從 v2 到 v3</title><link href="http://www.hansliu.com/posts/2014/11/migrating-bootstrap-v2-to-v3.html" rel="alternate"></link><updated>2014-11-19T22:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2014-11-19:posts/2014/11/migrating-bootstrap-v2-to-v3.html</id><summary type="html">&lt;div class="section" id="id1"&gt;
+&lt;h2&gt;前言&lt;/h2&gt;
+&lt;p&gt;在 &lt;a href="#id4"&gt;&lt;span class="problematic" id="id5"&gt;`Hello Pelican + GitHub Pages`_&lt;/span&gt;&lt;/a&gt; 介紹部落格的時候有提到，現在使用的 Pelican 樣式是 Jenny 設計的 &lt;a class="reference external" href="https://github.com/jsliang/pelican-fresh"&gt;pelican-fresh&lt;/a&gt; ，其設計是架構在 Bootstrap v2.x 的版本之上，因為想要重新設計選單，使其可以在用行動裝置瀏覽的時候自動轉換成較好操作，而且又不會佔用閱讀空間的設計風格，剛好 Bootstrap v3.x 內建就有這樣的功能，就決定一口氣把部落格使用的 Bootstrap 從 v2 轉換到 v3。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="id2"&gt;
+&lt;h2&gt;轉換&lt;/h2&gt;
+&lt;p&gt;轉換的部份其實蠻簡單的，主要可以參考官方的轉換文件，將 v2 對應的 class 改變成 v3 的版本，並針對部分 default 的 CSS 做微調即可。&lt;/p&gt;
+&lt;p&gt;官方轉換文件 - &lt;a class="reference external" href="http://getbootstrap.com/migration/"&gt;http://getbootstrap.com/migration/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Bootstrap v3 內建的設計風格因應業界趨勢，朝向扁平化發展，搭配許多新的 Glyphicons，可以很快速的完成一個簡單的樣式，看起來還不錯。&lt;/p&gt;
+&lt;p&gt;不過要注意的是，在跨瀏覽器方面，Bootstrap v3 不支援 IE7 和 Firefox 3.6，有跨瀏覽器需求的人要注意一下是否要使用 Bootstrap v3。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="id3"&gt;
+&lt;h2&gt;選單&lt;/h2&gt;
+&lt;p&gt;使用 Bootstrap v3 重新設計選單方面，我是直接參考 twitter-bootstrap-tutorial 有關選單的教學。&lt;/p&gt;
+&lt;p&gt;Creating a Simple Navbar with Twitter Bootstrap - &lt;a class="reference external" href="http://www.tutorialrepublic.com/twitter-bootstrap-tutorial/bootstrap-navbar.php"&gt;http://www.tutorialrepublic.com/twitter-bootstrap-tutorial/bootstrap-navbar.php&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;照著做就可以有支援行動裝置的選單設計風格了。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="system-messages section"&gt;
+&lt;h2&gt;Docutils System Messages&lt;/h2&gt;
+&lt;div class="system-message" id="id4"&gt;
+&lt;p class="system-message-title"&gt;System Message: ERROR/3 (&lt;tt class="docutils"&gt;/home/hcliu/hansliu-pelican-blog/content/posts/migrating-bootstrap-v2-to-v3.rst&lt;/tt&gt;, line 12); &lt;em&gt;&lt;a href="#id5"&gt;backlink&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+Unknown target name: &amp;quot;hello pelican + github pages&amp;quot;.&lt;/div&gt;
+&lt;/div&gt;
+</summary><category term="Blog"></category><category term="Bootstrap"></category></entry><entry><title>2014部落格改版</title><link href="http://www.hansliu.com/posts/2014/03/2014-blog-upgrade.html" rel="alternate"></link><updated>2014-03-31T10:00:00+08:00</updated><author><name>996 / Hans</name></author><id>tag:www.hansliu.com,2014-03-31:posts/2014/03/2014-blog-upgrade.html</id><summary type="html">&lt;p&gt;&lt;a class="reference external" href="https://lh3.googleusercontent.com/-h71cIF3bnYo/Uzm-XVuME6I/AAAAAAAAKGE/xOzCZ3SUGsg/s1600/blog2014.png"&gt;&lt;img alt="image0" src="https://lh3.googleusercontent.com/-h71cIF3bnYo/Uzm-XVuME6I/AAAAAAAAKGE/xOzCZ3SUGsg/s800/blog2014.png" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;部落格搬家也逐漸接近尾聲，剩下就是一些舊部落格的收尾和導入。&lt;/p&gt;
 &lt;p&gt;我的 ATOM/RSS 有使用 feedburner，所以只要更新 feedburner 的設定，它就會自動幫你通知所有的訂閱戶，並且幫用戶自動訂閱新網站的文章。&lt;/p&gt;
 &lt;p&gt;比較可惜的是因為過去一直都是用 blogger 提供的 domain name，所以新部落格的 SEO 計算就要從頭開始...&lt;/p&gt;
@@ -358,28 +381,4 @@ Do You Hear the People Sing
 &lt;div class="img-center"&gt;&lt;p&gt;&lt;img alt="image1" src="https://lh4.googleusercontent.com/-ArsapfZUIIE/TvSvljm5CuI/AAAAAAAAHmo/fKPHA2XagN4/s800/rejected.jpg" /&gt;&lt;/p&gt;
 &lt;/div&gt;&lt;p&gt;最後幫自己記錄一些面試後的數據，讓自己以後有個參考...&lt;/p&gt;
 &lt;p&gt;to be continued...&lt;/p&gt;
-</summary><category term="Interview"></category></entry><entry><title>研發替代役面試心得《中》</title><link href="http://www.hansliu.com/posts/2011/12/rdss-interview-2.html" rel="alternate"></link><updated>2011-12-20T13:25:00+08:00</updated><author><name>996 / Hans</name></author><id>tag:www.hansliu.com,2011-12-20:posts/2011/12/rdss-interview-2.html</id><summary type="html">&lt;div class="img-center"&gt;&lt;p&gt;&lt;img alt="image0" src="https://lh6.googleusercontent.com/-228KcexSs3c/TvNPkNkikmI/AAAAAAAAHmU/Y1D9KTKZ59I/s800/HireMe.png" /&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;p&gt;找工作是一種緣分，沒有緣分的工作，強求也求不來...&lt;/p&gt;
-&lt;p&gt;這是在我面試完第四間公司之後的感想。&lt;/p&gt;
-&lt;p&gt;透過一次又一次的面試過程，我瞭解自己理想的工作內容是什麼，也發現自己尚且不足的部分在哪裡，所以只要時間允許的話，我認為可以多多接觸不同公司的面試，累積自己的面試經驗，對還沒踏入業界（尚未被社會污染），現在還是學生的我們是很有幫助的。&lt;/p&gt;
-&lt;p&gt;--&lt;/p&gt;
-&lt;p&gt;第四站&lt;/p&gt;
-&lt;p&gt;雅虎Yahoo!&lt;/p&gt;
-&lt;p&gt;雅虎在南港軟體園區，對我來說很方便，只要坐大眾運輸工具就可以到，公司內部到處可見雅虎風格的紫色色系，因為被大樓入口的換證過程搞的很緊張，接待我的人資一直叫我要放輕鬆點，還帶我去雅虎內部的food
-corner，讓我點了一杯飲料來喝（我是挑熱可可），我還蠻感謝他替我介紹雅虎會議室的名稱分類（會議室會用台灣各地文化與古蹟名稱來命名），以及閒聊一些學校的事情，在這過程中讓我比較放鬆。&lt;/p&gt;
-&lt;p&gt;稍等一會之後就和主管進行面談，面談是一對三的形式，也是我目前一口氣面談最多位主管的一次，不外乎的要自我介紹，提及我的論文研究與專題，參與過的社團與工讀，主要討論都是從我的思考邏輯上出發，針對我分析和解決問題的方法去做詢問，在每個環節上都有相當多的問答。&lt;/p&gt;
-&lt;p&gt;印象深刻的是主管提出的一個問題，要是有「軟體開發」和「系統維護」兩項工作內容給我選，我會對哪一項工作內容比較有興趣，這個問題在面談結束後依然讓我深思，因為我覺得這不只是一個面試中的問題，而是對我人生中很重要的一個問題，以前在學生時期是一手包辦整個系統開發流程，從來沒有想過當細節分工之後，哪個部分才是我真正有興趣的...&lt;/p&gt;
-&lt;p&gt;--&lt;/p&gt;
-&lt;p&gt;第五站&lt;/p&gt;
-&lt;p&gt;精靈數位Gulu&lt;/p&gt;
-&lt;p&gt;精靈數位不像前面那些動輒數百人的大公司，它是一間新創的小公司，員工人數不超過50人，而且在現任員工中至少有半數都是RD，是一間以技術導向為主的公司，公司風格也是相當的美式，開放式的辦公環境，讓我走進公司時有點小驚訝（一眼望過去就快看完了）。&lt;/p&gt;
-&lt;p&gt;面試流程是先和人資面談，簡單的自我介紹，一些人格特質上的問題，以及和雅虎類似的興趣問題，要是今天有三種開發環境「Web」、「Android」和「iOS」給我選，我會對哪一種開發環境比較有興趣，也因為精靈的這個問題，讓我真正的意識到我所在意的工作內容是什麼...&lt;/p&gt;
-&lt;p&gt;面談尾聲我也問了人資一些問題，試著瞭解他們整個開發團隊與公司產品的細節，之後就是上機考，題目類似ACM的程式問題，自從高中之後我就沒有再解過這種程式題目了，想當然程式寫的非常糟糕，精靈數位也成為我跑完面試流程後，第一間發感謝函給我的公司。&lt;/p&gt;
-&lt;p&gt;--&lt;/p&gt;
-&lt;p&gt;第六站&lt;/p&gt;
-&lt;p&gt;曜碩科技&lt;/p&gt;
-&lt;p&gt;第一階段只有筆試，會依照C和JAVA分成兩份考題，可以根據自己的強項挑選其中一份來寫，作答時間約為一小時，我是挑選C的來寫，題目相當的基礎，會考指標的運用，實作字串reverse的程式，以及一些C的名詞定義，定義部分我幾乎都忘光了，所以花比較多時間寫實作程式的部份，筆試結束之後有問人資什麼時候會通知，人資說要等第一階段筆試告一段落，才會統一通知第二階段的面談，我想會要等一段時間。&lt;/p&gt;
-&lt;p&gt;--&lt;/p&gt;
-&lt;div class="img-center"&gt;&lt;p&gt;&lt;img alt="image1" src="https://lh3.googleusercontent.com/-za5cbZJOM20/TvNPjuQhchI/AAAAAAAAHmQ/d3flwaCRu4s/s800/job-interview-shake-hands.jpg" /&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;p&gt;經歷雅虎和精靈數位的面試之後，我對於自己未來的藍圖隱隱約約浮現出一些規劃，隨著內政部公布研發替代役名額的日子到來，接下來就是等候通知了...&lt;/p&gt;
 </summary><category term="Interview"></category></entry></feed>
