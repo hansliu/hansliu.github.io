@@ -166,6 +166,10 @@ ol {
   #blogger-ads {
     display: none;
   }
+
+  #sthoverbuttons {
+    display: none;
+  }
 }
 .readmore {
   margin-top: 1em;
