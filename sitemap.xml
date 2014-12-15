@@ -5,35 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://www.hansliu.com/index.html</loc>
-<lastmod>2014-11-24T10:36:42-00:00</lastmod>
+<lastmod>2014-12-15T21:56:38-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://www.hansliu.com/pages/about.html</loc>
-<lastmod>2014-03-23T05:10:00-00:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>http://www.hansliu.com/pages/engineer.html</loc>
-<lastmod>2014-04-01T10:00:00-00:00</lastmod>
+<lastmod>2014-12-15T21:00:00-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://www.hansliu.com/pages/gallery.html</loc>
-<lastmod>2014-11-02T10:00:00-00:00</lastmod>
+<lastmod>2014-12-15T21:00:00-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://www.hansliu.com/pages/photographer.html</loc>
-<lastmod>2014-03-28T10:00:00-00:00</lastmod>
+<lastmod>2014-12-15T21:00:00-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
