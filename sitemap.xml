@@ -5,7 +5,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://www.hansliu.com/index.html</loc>
-<lastmod>2014-12-15T21:56:38-00:00</lastmod>
+<lastmod>2014-12-30T22:48:49-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -489,6 +489,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://www.hansliu.com/posts/2011/07/korea-hite.html</loc>
 <lastmod>2011-07-26T00:49:00-00:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://www.hansliu.com/posts/2011/07/panasonic-leica-d-summilux-25mm-f14.html</loc>
+<lastmod>2011-07-24T04:28:00-00:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1005,6 +1012,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>http://www.hansliu.com/tag/panasonic/</loc>
+<lastmod>2011-07-24T04:28:00-00:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>http://www.hansliu.com/tag/github-page/</loc>
 <lastmod>2014-03-26T22:00:00-00:00</lastmod>
 <changefreq>daily</changefreq>
@@ -1126,6 +1140,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://www.hansliu.com/tag/fireworks/</loc>
 <lastmod>2011-10-10T23:00:00-00:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://www.hansliu.com/tag/olympus/</loc>
+<lastmod>2011-07-24T04:28:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
