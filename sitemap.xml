@@ -5,7 +5,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://www.hansliu.com/index.html</loc>
-<lastmod>2014-12-30T22:48:49-00:00</lastmod>
+<lastmod>2015-02-20T15:57:55-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -28,6 +28,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <loc>http://www.hansliu.com/pages/photographer.html</loc>
 <lastmod>2014-12-15T21:00:00-00:00</lastmod>
 <changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://www.hansliu.com/posts/2015/02/cosplay-the-seven-deadly-sins-king.html</loc>
+<lastmod>2015-02-19T23:00:00-00:00</lastmod>
+<changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
@@ -739,6 +746,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>http://www.hansliu.com/posts/2010/04/injured.html</loc>
+<lastmod>2010-04-05T16:33:00-00:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>http://www.hansliu.com/posts/2010/04/after-graduate.html</loc>
 <lastmod>2010-04-03T01:00:00-00:00</lastmod>
 <changefreq>weekly</changefreq>
@@ -880,7 +894,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://www.hansliu.com/category/jiao-se-ban-yan/</loc>
-<lastmod>2014-08-11T21:00:00-00:00</lastmod>
+<lastmod>2015-02-19T23:00:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1145,6 +1159,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>http://www.hansliu.com/tag/qi-tsunoda-zui/</loc>
+<lastmod>2015-02-19T23:00:00-00:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>http://www.hansliu.com/tag/olympus/</loc>
 <lastmod>2011-07-24T04:28:00-00:00</lastmod>
 <changefreq>daily</changefreq>
@@ -1160,7 +1181,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://www.hansliu.com/tag/olympus-dslr/</loc>
-<lastmod>2014-11-02T20:30:00-00:00</lastmod>
+<lastmod>2015-02-19T23:00:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1168,6 +1189,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://www.hansliu.com/tag/tamshui/</loc>
 <lastmod>2012-08-12T12:59:00-00:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://www.hansliu.com/tag/nothing/</loc>
+<lastmod>2010-04-05T16:33:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
