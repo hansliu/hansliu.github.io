@@ -181,6 +181,7 @@
 
       </div><!-- /.entry-content -->
 
+<div class="fb-comments" data-href="posts/2011/07/panasonic-leica-d-summilux-25mm-f14.html" data-width="100%" data-numposts="5" data-colorscheme="light"></div>
 <div class="comments">
   <h2>Comments</h2>
   <div id="disqus_thread"></div>
@@ -250,7 +251,25 @@ var disqus_shortname = 'hansliu'; // required: replace example with your forum s
 <script src="//cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/0.9.9/jquery.magnific-popup.min.js"></script>
 <script src="http://www.hansliu.com/theme/js/bootstrap.v3.min.js"></script>
 <script src="http://www.hansliu.com/theme/js/main.js"></script>
-<script type="text/javascript">
+<script>
+    window.fbAsyncInit = function() {
+        FB.init({
+            appId      : '1561250720806305',
+            status     : true,
+            xfbml      : true,
+            version    : 'v2.2'
+        });
+    };
+
+    (function(d, s, id){
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {return;}
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/zh_TW/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
+<script>
     stLight.options({
         publisher: "332ba136-1fa8-448b-a1da-796d0851ff4b",
         doNotHash: false,

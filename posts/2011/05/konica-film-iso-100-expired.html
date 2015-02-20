@@ -182,10 +182,10 @@
           <!-- TODO: Use fancier related layout, as in http://kevin.deldycke.com/2012/04/beautify-contextual-related-posts-wordpress-plugin/ -->
           <ul>
               <li><a href="http://www.hansliu.com/posts/2009/09/fulong-photo.html">福隆攝影記事</a></li>
+              <li><a href="http://www.hansliu.com/posts/2011/08/lomo-tura-in-pakshawan.html">白沙灣與 TURA</a></li>
               <li><a href="http://www.hansliu.com/posts/2014/07/canon-ae-1-oh-is-reala.html">Oh! is reala</a></li>
-              <li><a href="http://www.hansliu.com/posts/2009/07/canon-ae-1-with-friends.html">Canon AE-1 看朋友</a></li>
               <li><a href="http://www.hansliu.com/posts/2010/02/positive-film-first.html">我的第一卷「正片」</a></li>
-              <li><a href="http://www.hansliu.com/posts/2011/09/olympus-pen-eed-with-konica-centuria-film.html">變質的 Konica Centuria 過期底片</a></li>
+              <li><a href="http://www.hansliu.com/posts/2014/07/vivitar-with-greenpeace.html">Vivitar with Greenpeace</a></li>
           </ul>
         </div>
 
@@ -201,6 +201,7 @@
 
       </div><!-- /.entry-content -->
 
+<div class="fb-comments" data-href="posts/2011/05/konica-film-iso-100-expired.html" data-width="100%" data-numposts="5" data-colorscheme="light"></div>
 <div class="comments">
   <h2>Comments</h2>
   <div id="disqus_thread"></div>
@@ -270,7 +271,25 @@ var disqus_shortname = 'hansliu'; // required: replace example with your forum s
 <script src="//cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/0.9.9/jquery.magnific-popup.min.js"></script>
 <script src="http://www.hansliu.com/theme/js/bootstrap.v3.min.js"></script>
 <script src="http://www.hansliu.com/theme/js/main.js"></script>
-<script type="text/javascript">
+<script>
+    window.fbAsyncInit = function() {
+        FB.init({
+            appId      : '1561250720806305',
+            status     : true,
+            xfbml      : true,
+            version    : 'v2.2'
+        });
+    };
+
+    (function(d, s, id){
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {return;}
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/zh_TW/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
+<script>
     stLight.options({
         publisher: "332ba136-1fa8-448b-a1da-796d0851ff4b",
         doNotHash: false,

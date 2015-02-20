@@ -167,8 +167,8 @@ corner，讓我點了一杯飲料來喝（我是挑熱可可），我還蠻感�
           <!-- TODO: Use fancier related layout, as in http://kevin.deldycke.com/2012/04/beautify-contextual-related-posts-wordpress-plugin/ -->
           <ul>
               <li><a href="http://www.hansliu.com/posts/2011/12/rdss-interview-0.html">研發替代役面試心得《序》</a></li>
-              <li><a href="http://www.hansliu.com/posts/2011/12/rdss-interview-3.html">研發替代役面試心得《下》</a></li>
               <li><a href="http://www.hansliu.com/posts/2011/12/rdss-interview-1.html">研發替代役面試心得《上》</a></li>
+              <li><a href="http://www.hansliu.com/posts/2011/12/rdss-interview-3.html">研發替代役面試心得《下》</a></li>
           </ul>
         </div>
 
@@ -184,6 +184,7 @@ corner，讓我點了一杯飲料來喝（我是挑熱可可），我還蠻感�
 
       </div><!-- /.entry-content -->
 
+<div class="fb-comments" data-href="posts/2011/12/rdss-interview-2.html" data-width="100%" data-numposts="5" data-colorscheme="light"></div>
 <div class="comments">
   <h2>Comments</h2>
   <div id="disqus_thread"></div>
@@ -253,7 +254,25 @@ var disqus_shortname = 'hansliu'; // required: replace example with your forum s
 <script src="//cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/0.9.9/jquery.magnific-popup.min.js"></script>
 <script src="http://www.hansliu.com/theme/js/bootstrap.v3.min.js"></script>
 <script src="http://www.hansliu.com/theme/js/main.js"></script>
-<script type="text/javascript">
+<script>
+    window.fbAsyncInit = function() {
+        FB.init({
+            appId      : '1561250720806305',
+            status     : true,
+            xfbml      : true,
+            version    : 'v2.2'
+        });
+    };
+
+    (function(d, s, id){
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {return;}
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/zh_TW/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
+<script>
     stLight.options({
         publisher: "332ba136-1fa8-448b-a1da-796d0851ff4b",
         doNotHash: false,
