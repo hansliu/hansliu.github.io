@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>Hans Blog</title><link href="http://www.hansliu.com/" rel="alternate"></link><link href="http://www.hansliu.com/feeds/xie-cheng-shi.atom.xml" rel="self"></link><id>http://www.hansliu.com/</id><updated>2015-03-01T06:00:00+08:00</updated><entry><title>What is MVC Pattern</title><link href="http://www.hansliu.com/posts/2015/03/what-is-MVC-pattern.html" rel="alternate"></link><updated>2015-03-01T06:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2015-03-01:posts/2015/03/what-is-MVC-pattern.html</id><summary type="html">&lt;p&gt;這篇文章最早是用來回應 Python 社群對於 MVC 的討論內容，同時把它記錄在自己的部落格上。&lt;/p&gt;
-&lt;p&gt;其原文探討的是為什麼每一套 Framework 對於 MVC 設計上都有一套自己的見解，即使設計和實作上都不太像，卻都說自家的 Framework 包含（支援） MVC。&lt;/p&gt;
+&lt;p&gt;其原文探討的是為什麼每套 Framework 對於 MVC 設計上都有一套自己的見解，即使設計和實作上都不太像，卻都說自家的 Framework 包含（支援） MVC。&lt;/p&gt;
 &lt;p&gt;在討論這個問題之前，我們首先要認識一下 MVC 的由來，至於有關 MVC 設計的細節將不是本篇的重點，對細節有興趣的人可以從我文內分享的文章或是從書本中得到更完整的說明。&lt;/p&gt;
 &lt;div class="section" id="mvc"&gt;
 &lt;h2&gt;什麼是 MVC&lt;/h2&gt;
-&lt;p&gt;&lt;a href="http://commons.wikimedia.org/wiki/File:MVC-Process.svg#mediaviewer/File:MVC-Process.svg"&gt;&lt;img alt="MVC-Process.svg" src="http://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/MVC-Process.svg/1200px-MVC-Process.svg.png"&gt;&lt;/a&gt;&lt;br&gt;"&lt;a href="http://commons.wikimedia.org/wiki/File:MVC-Process.svg#mediaviewer/File:MVC-Process.svg"&gt;MVC-Process&lt;/a&gt;" 由 &lt;a href="//commons.wikimedia.org/wiki/User:RegisFrey" title="User:RegisFrey"&gt;RegisFrey&lt;/a&gt; - &lt;span class="int-own-work"&gt;自己的作品&lt;/span&gt;。 使用來自 &lt;a href="//commons.wikimedia.org/wiki/"&gt;维基共享資源&lt;/a&gt; 的 公共領域 條款授權。&lt;/p&gt;&lt;p&gt;MVC 最早是 smalltalk 設計的一個 Pattern，其 &lt;strong&gt;定義&lt;/strong&gt; 與 &lt;strong&gt;目的&lt;/strong&gt; 與 &lt;strong&gt;模擬實作&lt;/strong&gt; 的方法在 Design Pattern 一書中都描述的相當清楚，有興趣可以去書店翻一下。&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://commons.wikimedia.org/wiki/File:MVC-Process.svg#mediaviewer/File:MVC-Process.svg"&gt;&lt;img alt="MVC-Process.svg" src="http://upload.wikimedia.org/wikipedia/commons/a/a0/MVC-Process.svg" height="145" width="132"&gt;&lt;/a&gt;&lt;br&gt;"&lt;a href="http://commons.wikimedia.org/wiki/File:MVC-Process.svg#mediaviewer/File:MVC-Process.svg"&gt;MVC-Process&lt;/a&gt;" 由 &lt;a href="//commons.wikimedia.org/wiki/User:RegisFrey" title="User:RegisFrey"&gt;RegisFrey&lt;/a&gt; - &lt;span class="int-own-work"&gt;自己的作品&lt;/span&gt;。 使用來自 &lt;a href="//commons.wikimedia.org/wiki/"&gt;维基共享資源&lt;/a&gt; 的 公共領域 條款授權。&lt;/p&gt;&lt;p&gt;MVC 最早是 smalltalk 設計的一個 Pattern，其 &lt;strong&gt;定義&lt;/strong&gt; 與 &lt;strong&gt;目的&lt;/strong&gt; 與 &lt;strong&gt;模擬實作&lt;/strong&gt; 的方法在 Design Pattern 一書中都描述的相當清楚，有興趣可以去書店翻一下。&lt;/p&gt;
 &lt;p&gt;網路上可以參照： &lt;a class="reference external" href="http://www.tutorialspoint.com/design_pattern/mvc_pattern.htm"&gt;http://www.tutorialspoint.com/design_pattern/mvc_pattern.htm&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="id1"&gt;
 &lt;h2&gt;目的與 MVC&lt;/h2&gt;
 &lt;p&gt;這邊要著重的點在於，Design Pattern 書中不是要強迫你實作的內容百分百一樣，而是要求你的實作要達到 Pattern 目的，我在這邊列出中文書上對於目的的說明：&lt;/p&gt;
 &lt;p&gt;MVC 的目的在於 &lt;strong&gt;增加彈性&lt;/strong&gt; 與 &lt;strong&gt;再利用性&lt;/strong&gt; ，同一個 model 可以搭配好幾個 view，也可以做出不會改變 model 內容的 view，同時更嚴苛的要求，view 不應該包含運算的邏輯。&lt;/p&gt;
-&lt;p&gt;因此不是去追究每一套 Framework 在設計上的差異去與定義比較，然後要說它的設計到底要不要叫做 MVC， 而是要去看設計之後是否能達到 MVC 目的。&lt;/p&gt;
+&lt;p&gt;因此不是去追究每套 Framework 在設計上的差異去與定義比較，然後要說它的設計到底要不要叫做 MVC， 而是要去看設計之後是否能達到 MVC 目的。&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="mvc-architecture-pattern"&gt;
 &lt;h2&gt;MVC 其實是 Architecture Pattern&lt;/h2&gt;
