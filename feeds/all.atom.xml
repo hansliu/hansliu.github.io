@@ -1,5 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Hans Blog</title><link href="http://www.hansliu.com/" rel="alternate"></link><link href="http://www.hansliu.com/feeds/all.atom.xml" rel="self"></link><id>http://www.hansliu.com/</id><updated>2015-02-20T14:30:00+08:00</updated><entry><title>米亞‧忠義</title><link href="http://www.hansliu.com/posts/2015/02/portrait-mia.html" rel="alternate"></link><updated>2015-02-20T14:30:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2015-02-20:posts/2015/02/portrait-mia.html</id><summary type="html">&lt;div class="img-center"&gt;&lt;p&gt;&lt;a class="reference external" href="https://lh4.googleusercontent.com/-AdjyFnPN-EM/VObbTNyxDCI/AAAAAAAAMvs/6KJnw0NHf6E/s1600/P2157129copy.jpg"&gt;&lt;img alt="image0" src="https://lh4.googleusercontent.com/-AdjyFnPN-EM/VObbTNyxDCI/AAAAAAAAMvs/6KJnw0NHf6E/s800/P2157129copy.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Hans Blog</title><link href="http://www.hansliu.com/" rel="alternate"></link><link href="http://www.hansliu.com/feeds/all.atom.xml" rel="self"></link><id>http://www.hansliu.com/</id><updated>2015-03-01T06:00:00+08:00</updated><entry><title>What is MVC Pattern</title><link href="http://www.hansliu.com/posts/2015/03/what-is-MVC-pattern.html" rel="alternate"></link><updated>2015-03-01T06:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2015-03-01:posts/2015/03/what-is-MVC-pattern.html</id><summary type="html">&lt;p&gt;這篇文章最早是用來回應 Python 社群對於 MVC 的討論內容，同時把它記錄在自己的部落格上。&lt;/p&gt;
+&lt;p&gt;其原文探討的是為什麼每一套 Framework 對於 MVC 設計上都有一套自己的見解，即使設計和實作上都不太像，卻都說自家的 Framework 包含（支援） MVC。&lt;/p&gt;
+&lt;p&gt;在討論這個問題之前，我們首先要認識一下 MVC 的由來，至於有關 MVC 設計的細節將不是本篇的重點，對細節有興趣的人可以從我文內分享的文章或是從書本中得到更完整的說明。&lt;/p&gt;
+&lt;div class="section" id="mvc"&gt;
+&lt;h2&gt;什麼是 MVC&lt;/h2&gt;
+&lt;p&gt;&lt;a href="http://commons.wikimedia.org/wiki/File:MVC-Process.svg#mediaviewer/File:MVC-Process.svg"&gt;&lt;img alt="MVC-Process.svg" src="http://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/MVC-Process.svg/1200px-MVC-Process.svg.png"&gt;&lt;/a&gt;&lt;br&gt;"&lt;a href="http://commons.wikimedia.org/wiki/File:MVC-Process.svg#mediaviewer/File:MVC-Process.svg"&gt;MVC-Process&lt;/a&gt;" 由 &lt;a href="//commons.wikimedia.org/wiki/User:RegisFrey" title="User:RegisFrey"&gt;RegisFrey&lt;/a&gt; - &lt;span class="int-own-work"&gt;自己的作品&lt;/span&gt;。 使用來自 &lt;a href="//commons.wikimedia.org/wiki/"&gt;维基共享資源&lt;/a&gt; 的 公共領域 條款授權。&lt;/p&gt;&lt;p&gt;MVC 最早是 smalltalk 設計的一個 Pattern，其 &lt;strong&gt;定義&lt;/strong&gt; 與 &lt;strong&gt;目的&lt;/strong&gt; 與 &lt;strong&gt;模擬實作&lt;/strong&gt; 的方法在 Design Pattern 一書中都描述的相當清楚，有興趣可以去書店翻一下。&lt;/p&gt;
+&lt;p&gt;網路上可以參照： &lt;a class="reference external" href="http://www.tutorialspoint.com/design_pattern/mvc_pattern.htm"&gt;http://www.tutorialspoint.com/design_pattern/mvc_pattern.htm&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="id1"&gt;
+&lt;h2&gt;目的與 MVC&lt;/h2&gt;
+&lt;p&gt;這邊要著重的點在於，Design Pattern 書中不是要強迫你實作的內容百分百一樣，而是要求你的實作要達到 Pattern 目的，我在這邊列出中文書上對於目的的說明：&lt;/p&gt;
+&lt;p&gt;MVC 的目的在於 &lt;strong&gt;增加彈性&lt;/strong&gt; 與 &lt;strong&gt;再利用性&lt;/strong&gt; ，同一個 model 可以搭配好幾個 view，也可以做出不會改變 model 內容的 view，同時更嚴苛的要求，view 不應該包含運算的邏輯。&lt;/p&gt;
+&lt;p&gt;因此不是去追究每一套 Framework 在設計上的差異去與定義比較，然後要說它的設計到底要不要叫做 MVC， 而是要去看設計之後是否能達到 MVC 目的。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="mvc-architecture-pattern"&gt;
+&lt;h2&gt;MVC 其實是 Architecture Pattern&lt;/h2&gt;
+&lt;p&gt;後來我才想到 MVC 其實是在 Design Pattern 一書中開頭章節就列出來的，並沒有包含在後續主要章節所描述的23個 Design Pattern 之中，這也表示 MVC 算是一個 Architecture Pattern。&lt;/p&gt;
+&lt;p&gt;那 Design Pattern 和所謂的 Architecture Pattern 又有什麼不同呢？&lt;/p&gt;
+&lt;p&gt;根據 Stackoverflow 所描述的回答，我覺得兩種 Pattern 還是從 &lt;strong&gt;目的&lt;/strong&gt; 和 &lt;strong&gt;實作&lt;/strong&gt; 兩個層面來看最容易區分。&lt;/p&gt;
+&lt;p&gt;Stackoverflow 的回答可以參照： &lt;a class="reference external" href="http://stackoverflow.com/questions/1866821/is-mvc-a-design-pattern-or-architectural-pattern"&gt;http://stackoverflow.com/questions/1866821/is-mvc-a-design-pattern-or-architectural-pattern&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;節錄其中 vrluckyin 的回答，針對目的和實作上的差別都有很清楚的描述:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+Design patterns say how to write code effectively.
+
+A few benefits:
+
+  - Easily Maintainable
+  - High Re-usability
+  - Readable because of abstractions
+
+Architectural patterns say how to utilize resources effectively.
+
+  - Parallel tasks execution like programmers and graphic designers can work parallel.
+  - Multiple technologies can be utilized to build a software.
+
+In MVC, a). Views can be created using javascript templates and also html can be used b). Controllers can be written .NET framework and c). Models can be written in Java - a java service may be used that returns only json data.
+
+While in design pattern, a pattern can't be implemented in which code can be written in multiple technologies like AdminUser class in Java, Customer class in C#, Partners class in Php and a factory pattern in Ruby :); hmmm..so easy?:)
+&lt;/pre&gt;
+&lt;p&gt;除了目的就不同， Design Pattern 在實作上會存在需要使用同一種技術語言完成的先天條件，而 Architectural Pattern 則沒有這樣的限制。&lt;/p&gt;
+&lt;/div&gt;
+</summary><category term="MVC"></category><category term="Design Pattern"></category></entry><entry><title>米亞‧忠義</title><link href="http://www.hansliu.com/posts/2015/02/portrait-mia.html" rel="alternate"></link><updated>2015-02-20T14:30:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2015-02-20:posts/2015/02/portrait-mia.html</id><summary type="html">&lt;div class="img-center"&gt;&lt;p&gt;&lt;a class="reference external" href="https://lh4.googleusercontent.com/-AdjyFnPN-EM/VObbTNyxDCI/AAAAAAAAMvs/6KJnw0NHf6E/s1600/P2157129copy.jpg"&gt;&lt;img alt="image0" src="https://lh4.googleusercontent.com/-AdjyFnPN-EM/VObbTNyxDCI/AAAAAAAAMvs/6KJnw0NHf6E/s800/P2157129copy.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;&lt;div style="text-align: center;"&gt;&lt;p&gt;米亞‧忠義&lt;/p&gt;
 &lt;/div&gt;&lt;p&gt;#2&lt;/p&gt;
 &lt;p&gt;&lt;a class="reference external" href="https://lh3.googleusercontent.com/-nFEftqj1jCU/VObeIueWSmI/AAAAAAAAMvs/mCPbFfNutlM/s1600/P2157187copy.jpg"&gt;&lt;img alt="image1" src="https://lh3.googleusercontent.com/-nFEftqj1jCU/VObeIueWSmI/AAAAAAAAMvs/mCPbFfNutlM/s800/P2157187copy.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -399,38 +440,4 @@ crontab -e
 &lt;p&gt;&lt;a class="reference external" href="https://lh4.googleusercontent.com/-VeUKsKIDJxk/VDQbTIV_MwI/AAAAAAAALoQ/VlCLpI_3oXE/s1600/PA045387copy.jpg"&gt;&lt;img alt="image9" src="https://lh4.googleusercontent.com/-VeUKsKIDJxk/VDQbTIV_MwI/AAAAAAAALoQ/VlCLpI_3oXE/s800/PA045387copy.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;#11&lt;/p&gt;
 &lt;p&gt;&lt;a class="reference external" href="https://lh3.googleusercontent.com/-KsbxTAfY_is/VDQc9WrJa0I/AAAAAAAALp8/L0_ngaSXt1I/s1600/PA045420copy.jpg"&gt;&lt;img alt="image10" src="https://lh3.googleusercontent.com/-KsbxTAfY_is/VDQc9WrJa0I/AAAAAAAALp8/L0_ngaSXt1I/s800/PA045420copy.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
-</summary><category term="Olympus DSLR"></category><category term="Portrait"></category></entry><entry><title>2014 Canon 攝影馬拉松</title><link href="http://www.hansliu.com/posts/2014/10/2014-canon-photo-marathon.html" rel="alternate"></link><updated>2014-10-06T23:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2014-10-06:posts/2014/10/2014-canon-photo-marathon.html</id><summary type="html">&lt;p&gt;&lt;a class="reference external" href="https://lh6.googleusercontent.com/-ahBBHB4PY54/VDLWLIo7lGI/AAAAAAAALgE/G03EKR3eIP8/s1600/IMG_4532copy.jpg"&gt;&lt;img alt="image0" src="https://lh6.googleusercontent.com/-ahBBHB4PY54/VDLWLIo7lGI/AAAAAAAALgE/G03EKR3eIP8/s800/IMG_4532copy.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;以前就有聽說 Canon 攝影馬拉松很難被抽中，這次看到 Canon 攝影馬拉松的報名簡章後，想說自己也有一陣子沒參加攝影馬拉松了，也不確定會不會被抽中，就抱著試試看的心情報名參加。&lt;/p&gt;
-&lt;p&gt;沒想到這麼幸運地，第一次報名就被抽中了，而且序號還相當的前面，比賽當天才知道今年台北場次的報名人數多達 3400 多人，錄取率大約是兩成左右。雖然學生時期有用過 Canon 的相機，但常看我拍照的人就知道我一直都是使用 Olympus 的相機，所以這次能夠順利完賽，都要感謝 Joseph 借我的 5D2 和 24-105mm F4 鏡頭。&lt;/p&gt;
-&lt;p&gt;活動一樣採取跑關制度，這次一共有三個關卡，每個關卡都要拍攝一張代表該關卡的地標照片，另外要拍攝四張具有故事性的作品，然後不管是每個關卡領取的任務說明，或是最後的作品繳交，都要回到位於捷運世貿101站旁的集合地點。&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://lh6.googleusercontent.com/-gtPwuJrzplU/VDLJnBRjniI/AAAAAAAALd8/ZIGmLLAVyqo/s1600/IMG_4533copy.jpg"&gt;&lt;img alt="image1" src="https://lh6.googleusercontent.com/-gtPwuJrzplU/VDLJnBRjniI/AAAAAAAALd8/ZIGmLLAVyqo/s800/IMG_4533copy.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;請饅頭男友存摺幫我記錄賽前剛換好衣服的樣子，這時候看起來還很有精神與活力。&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://lh6.googleusercontent.com/-NtztM_mH0gs/VDLWLmSd75I/AAAAAAAALgI/p0Ec4z9S-9w/s1600/IMG_4535copy.jpg"&gt;&lt;img alt="image2" src="https://lh6.googleusercontent.com/-NtztM_mH0gs/VDLWLmSd75I/AAAAAAAALgI/p0Ec4z9S-9w/s800/IMG_4535copy.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;這次的關卡題目果然與過去參加的攝影馬拉松差不多，一樣是 &lt;strong&gt;爛的很有特色&lt;/strong&gt; ，爛到你拿到都會苦笑，底下是關卡題目和對應地標，攝影作品因為是拙作就不放出來了...&lt;/p&gt;
-&lt;div class="section" id="id1"&gt;
-&lt;h2&gt;城市軌跡&lt;/h2&gt;
-&lt;p&gt;拍攝地標: 華山1914文化創意產業園區入口標示&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://lh6.googleusercontent.com/-0_CneXexkfY/VDLWMq11MeI/AAAAAAAALgQ/bCP35_Mvdac/s1600/IMG_4552.JPG"&gt;&lt;img alt="image3" src="https://lh6.googleusercontent.com/-0_CneXexkfY/VDLWMq11MeI/AAAAAAAALgQ/bCP35_Mvdac/s800/IMG_4552.JPG" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="id2"&gt;
-&lt;h2&gt;藝術‧生活&lt;/h2&gt;
-&lt;p&gt;拍攝地標: 台北市立美術館建築本體&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://lh5.googleusercontent.com/-zzjVurGut-M/VDLWNmW0I3I/AAAAAAAALgY/FkxpMFe7yj4/s1600/IMG_4763.JPG"&gt;&lt;img alt="image4" src="https://lh5.googleusercontent.com/-zzjVurGut-M/VDLWNmW0I3I/AAAAAAAALgY/FkxpMFe7yj4/s800/IMG_4763.JPG" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="id3"&gt;
-&lt;h2&gt;自然‧共生&lt;/h2&gt;
-&lt;p&gt;拍攝地標: 捷運大安森林公園站下凹式庭園&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://lh6.googleusercontent.com/-1CPQXx5kSCk/VDLWOWWmW6I/AAAAAAAALgg/szapdUfrU1Y/s1600/IMG_4967.JPG"&gt;&lt;img alt="image5" src="https://lh6.googleusercontent.com/-1CPQXx5kSCk/VDLWOWWmW6I/AAAAAAAALgg/szapdUfrU1Y/s800/IMG_4967.JPG" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;參加過不少次攝影馬拉松，現在都是抱著志在參加不在得獎的心態，努力享受活動過程中的樂趣，除了可以看到一堆穿著相同服裝的人跑來跑去很趣味之外，也可以在努力跑關的過程中，一邊激發自己完成作品，一邊去記錄活動中的所見所得。&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://lh6.googleusercontent.com/-CjKyn3lJxl0/VDLJqMInEeI/AAAAAAAALeU/mIK2F0hL-hk/s1600/IMG_4556copy.jpg"&gt;&lt;img alt="image6" src="https://lh6.googleusercontent.com/-CjKyn3lJxl0/VDLJqMInEeI/AAAAAAAALeU/mIK2F0hL-hk/s800/IMG_4556copy.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://lh4.googleusercontent.com/-rNG2wDjEx2U/VDLKBXksW5I/AAAAAAAALeo/Kr3LXSKpl6A/s1600/IMG_4685copy.jpg"&gt;&lt;img alt="image7" src="https://lh4.googleusercontent.com/-rNG2wDjEx2U/VDLKBXksW5I/AAAAAAAALeo/Kr3LXSKpl6A/s800/IMG_4685copy.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://lh3.googleusercontent.com/-4qIlaNA0pQg/VDLKBiFm84I/AAAAAAAALew/4U4xeqpYIWY/s1600/IMG_4632copy.jpg1600/P8094476copy.jpg"&gt;&lt;img alt="image8" src="https://lh3.googleusercontent.com/-4qIlaNA0pQg/VDLKBiFm84I/AAAAAAAALew/4U4xeqpYIWY/s800/IMG_4632copy.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;而且每次參加攝影馬拉松，都會帶給我不小的驚喜...&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://lh3.googleusercontent.com/-Ee0e-TsO5FU/VDLKAYvzLWI/AAAAAAAALec/BqI7m0YxIvY/s1600/IMG_4650copy.jpg"&gt;&lt;img alt="image9" src="https://lh3.googleusercontent.com/-Ee0e-TsO5FU/VDLKAYvzLWI/AAAAAAAALec/BqI7m0YxIvY/s800/IMG_4650copy.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://lh5.googleusercontent.com/-gQqQsKXGXE0/VDLKCFoq08I/AAAAAAAALe0/G71hGPBMZqE/s1600/IMG_5048copy.jpg"&gt;&lt;img alt="image10" src="https://lh5.googleusercontent.com/-gQqQsKXGXE0/VDLKCFoq08I/AAAAAAAALe0/G71hGPBMZqE/s800/IMG_5048copy.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;當順利完成全程的攝影馬拉松，最後繳交完照片後，除了拿到完賽證明之外，還可以領到 Canon 發送的超佛心完賽禮物，有減壓背帶、記憶卡、海報等，相當的物超所值。&lt;/p&gt;
-&lt;p&gt;雖然完賽之後累的半死，還是硬要跟活動看板來張跳跳合照。&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://lh6.googleusercontent.com/-gfUk9ORQl0U/VDLKDQjKelI/AAAAAAAALe8/m4HWeBldCNs/s1600/IMG_5112copy.jpg"&gt;&lt;img alt="image11" src="https://lh6.googleusercontent.com/-gfUk9ORQl0U/VDLKDQjKelI/AAAAAAAALe8/m4HWeBldCNs/s800/IMG_5112copy.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;許久沒有參加攝影馬拉松，這次久違的參加真的很開心，希望下次還能有機會再參加嚕。&lt;/p&gt;
-&lt;/div&gt;
-</summary><category term="Canon DSLR"></category></entry></feed>
+</summary><category term="Olympus DSLR"></category><category term="Portrait"></category></entry></feed>

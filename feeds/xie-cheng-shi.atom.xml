@@ -1,5 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Hans Blog</title><link href="http://www.hansliu.com/" rel="alternate"></link><link href="http://www.hansliu.com/feeds/xie-cheng-shi.atom.xml" rel="self"></link><id>http://www.hansliu.com/</id><updated>2014-11-02T17:00:00+08:00</updated><entry><title>使用 Process Count Supervisor + Cronjob 管理背景行程數</title><link href="http://www.hansliu.com/posts/2014/11/github-process-count-supervisor.html" rel="alternate"></link><updated>2014-11-02T17:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2014-11-02:posts/2014/11/github-process-count-supervisor.html</id><summary type="html">&lt;div class="section" id="id1"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Hans Blog</title><link href="http://www.hansliu.com/" rel="alternate"></link><link href="http://www.hansliu.com/feeds/xie-cheng-shi.atom.xml" rel="self"></link><id>http://www.hansliu.com/</id><updated>2015-03-01T06:00:00+08:00</updated><entry><title>What is MVC Pattern</title><link href="http://www.hansliu.com/posts/2015/03/what-is-MVC-pattern.html" rel="alternate"></link><updated>2015-03-01T06:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2015-03-01:posts/2015/03/what-is-MVC-pattern.html</id><summary type="html">&lt;p&gt;這篇文章最早是用來回應 Python 社群對於 MVC 的討論內容，同時把它記錄在自己的部落格上。&lt;/p&gt;
+&lt;p&gt;其原文探討的是為什麼每一套 Framework 對於 MVC 設計上都有一套自己的見解，即使設計和實作上都不太像，卻都說自家的 Framework 包含（支援） MVC。&lt;/p&gt;
+&lt;p&gt;在討論這個問題之前，我們首先要認識一下 MVC 的由來，至於有關 MVC 設計的細節將不是本篇的重點，對細節有興趣的人可以從我文內分享的文章或是從書本中得到更完整的說明。&lt;/p&gt;
+&lt;div class="section" id="mvc"&gt;
+&lt;h2&gt;什麼是 MVC&lt;/h2&gt;
+&lt;p&gt;&lt;a href="http://commons.wikimedia.org/wiki/File:MVC-Process.svg#mediaviewer/File:MVC-Process.svg"&gt;&lt;img alt="MVC-Process.svg" src="http://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/MVC-Process.svg/1200px-MVC-Process.svg.png"&gt;&lt;/a&gt;&lt;br&gt;"&lt;a href="http://commons.wikimedia.org/wiki/File:MVC-Process.svg#mediaviewer/File:MVC-Process.svg"&gt;MVC-Process&lt;/a&gt;" 由 &lt;a href="//commons.wikimedia.org/wiki/User:RegisFrey" title="User:RegisFrey"&gt;RegisFrey&lt;/a&gt; - &lt;span class="int-own-work"&gt;自己的作品&lt;/span&gt;。 使用來自 &lt;a href="//commons.wikimedia.org/wiki/"&gt;维基共享資源&lt;/a&gt; 的 公共領域 條款授權。&lt;/p&gt;&lt;p&gt;MVC 最早是 smalltalk 設計的一個 Pattern，其 &lt;strong&gt;定義&lt;/strong&gt; 與 &lt;strong&gt;目的&lt;/strong&gt; 與 &lt;strong&gt;模擬實作&lt;/strong&gt; 的方法在 Design Pattern 一書中都描述的相當清楚，有興趣可以去書店翻一下。&lt;/p&gt;
+&lt;p&gt;網路上可以參照： &lt;a class="reference external" href="http://www.tutorialspoint.com/design_pattern/mvc_pattern.htm"&gt;http://www.tutorialspoint.com/design_pattern/mvc_pattern.htm&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="id1"&gt;
+&lt;h2&gt;目的與 MVC&lt;/h2&gt;
+&lt;p&gt;這邊要著重的點在於，Design Pattern 書中不是要強迫你實作的內容百分百一樣，而是要求你的實作要達到 Pattern 目的，我在這邊列出中文書上對於目的的說明：&lt;/p&gt;
+&lt;p&gt;MVC 的目的在於 &lt;strong&gt;增加彈性&lt;/strong&gt; 與 &lt;strong&gt;再利用性&lt;/strong&gt; ，同一個 model 可以搭配好幾個 view，也可以做出不會改變 model 內容的 view，同時更嚴苛的要求，view 不應該包含運算的邏輯。&lt;/p&gt;
+&lt;p&gt;因此不是去追究每一套 Framework 在設計上的差異去與定義比較，然後要說它的設計到底要不要叫做 MVC， 而是要去看設計之後是否能達到 MVC 目的。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="mvc-architecture-pattern"&gt;
+&lt;h2&gt;MVC 其實是 Architecture Pattern&lt;/h2&gt;
+&lt;p&gt;後來我才想到 MVC 其實是在 Design Pattern 一書中開頭章節就列出來的，並沒有包含在後續主要章節所描述的23個 Design Pattern 之中，這也表示 MVC 算是一個 Architecture Pattern。&lt;/p&gt;
+&lt;p&gt;那 Design Pattern 和所謂的 Architecture Pattern 又有什麼不同呢？&lt;/p&gt;
+&lt;p&gt;根據 Stackoverflow 所描述的回答，我覺得兩種 Pattern 還是從 &lt;strong&gt;目的&lt;/strong&gt; 和 &lt;strong&gt;實作&lt;/strong&gt; 兩個層面來看最容易區分。&lt;/p&gt;
+&lt;p&gt;Stackoverflow 的回答可以參照： &lt;a class="reference external" href="http://stackoverflow.com/questions/1866821/is-mvc-a-design-pattern-or-architectural-pattern"&gt;http://stackoverflow.com/questions/1866821/is-mvc-a-design-pattern-or-architectural-pattern&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;節錄其中 vrluckyin 的回答，針對目的和實作上的差別都有很清楚的描述:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+Design patterns say how to write code effectively.
+
+A few benefits:
+
+  - Easily Maintainable
+  - High Re-usability
+  - Readable because of abstractions
+
+Architectural patterns say how to utilize resources effectively.
+
+  - Parallel tasks execution like programmers and graphic designers can work parallel.
+  - Multiple technologies can be utilized to build a software.
+
+In MVC, a). Views can be created using javascript templates and also html can be used b). Controllers can be written .NET framework and c). Models can be written in Java - a java service may be used that returns only json data.
+
+While in design pattern, a pattern can't be implemented in which code can be written in multiple technologies like AdminUser class in Java, Customer class in C#, Partners class in Php and a factory pattern in Ruby :); hmmm..so easy?:)
+&lt;/pre&gt;
+&lt;p&gt;除了目的就不同， Design Pattern 在實作上會存在需要使用同一種技術語言完成的先天條件，而 Architectural Pattern 則沒有這樣的限制。&lt;/p&gt;
+&lt;/div&gt;
+</summary><category term="MVC"></category><category term="Design Pattern"></category></entry><entry><title>使用 Process Count Supervisor + Cronjob 管理背景行程數</title><link href="http://www.hansliu.com/posts/2014/11/github-process-count-supervisor.html" rel="alternate"></link><updated>2014-11-02T17:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2014-11-02:posts/2014/11/github-process-count-supervisor.html</id><summary type="html">&lt;div class="section" id="id1"&gt;
 &lt;h2&gt;前言&lt;/h2&gt;
 &lt;p&gt;Cronjob 很頻繁的被使用在工作排程上，不過如果無法預期排程中的 process 的執行時間，當發生 process 的執行時間超過排程預期的時候，可能會重複執行多個重複的 process，如此不但會造成系統資源的浪費，也可能發生無法預期的錯誤。&lt;/p&gt;
 &lt;p&gt;為了要友善管理背景執行的 process，在網路上可以找到用 Python 撰寫的 &lt;a class="reference external" href="http://supervisord.org/index.html"&gt;Supervisor: A Process Control System&lt;/a&gt; ，Supervisor 是一套完整的 system process monitoring 工具。但是這套工具的設計是以一支 daemon process 去管理 process，並透過設定檔來操作管理 process 的細節，雖然提供很多強大的附加功能，但主要是為了維持服務的穩定，這和我想要減少使用系統資源的目標有點不同。&lt;/p&gt;
