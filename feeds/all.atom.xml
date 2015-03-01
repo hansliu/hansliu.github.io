@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Hans Blog</title><link href="http://www.hansliu.com/" rel="alternate"></link><link href="http://www.hansliu.com/feeds/all.atom.xml" rel="self"></link><id>http://www.hansliu.com/</id><updated>2015-03-01T06:00:00+08:00</updated><entry><title>What is MVC Pattern</title><link href="http://www.hansliu.com/posts/2015/03/what-is-MVC-pattern.html" rel="alternate"></link><updated>2015-03-01T06:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2015-03-01:posts/2015/03/what-is-MVC-pattern.html</id><summary type="html">&lt;p&gt;這篇文章最早是用來回應 Python 社群對於 MVC 的討論內容，同時把它記錄在自己的部落格上。&lt;/p&gt;
-&lt;p&gt;其原文探討的是為什麼每套 Framework 對於 MVC 設計上都有一套自己的見解，即使設計和實作上都不太像，卻都說自家的 Framework 包含（支援） MVC。&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Hans Blog</title><link href="http://www.hansliu.com/" rel="alternate"></link><link href="http://www.hansliu.com/feeds/all.atom.xml" rel="self"></link><id>http://www.hansliu.com/</id><updated>2015-03-01T06:00:00+08:00</updated><entry><title>為什麼 MVC 實作不一樣</title><link href="http://www.hansliu.com/posts/2015/03/why-do-not-mvc-pattern-look-like.html" rel="alternate"></link><updated>2015-03-01T06:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2015-03-01:posts/2015/03/why-do-not-mvc-pattern-look-like.html</id><summary type="html">&lt;p&gt;這篇文章最早是用來回應 Python 社群對於 MVC 的討論內容，同時把它記錄在自己的部落格上。&lt;/p&gt;
+&lt;p&gt;其原文探討的是為什麼每套 Framework 對於 MVC 設計上都有一套自己的見解，即使設計和實作上不一樣，卻都說自家的 Framework 包含（支援） MVC。&lt;/p&gt;
 &lt;p&gt;在討論這個問題之前，我們首先要認識一下 MVC 的由來，至於有關 MVC 設計的細節將不是本篇的重點，對細節有興趣的人可以從我文內分享的文章或是從書本中得到更完整的說明。&lt;/p&gt;
-&lt;div class="section" id="mvc"&gt;
+&lt;div class="section" id="id1"&gt;
 &lt;h2&gt;什麼是 MVC&lt;/h2&gt;
 &lt;p style="font-size: 10px;"&gt;&lt;a href="http://commons.wikimedia.org/wiki/File:MVC-Process.svg#mediaviewer/File:MVC-Process.svg"&gt;&lt;img alt="MVC-Process.svg" src="http://upload.wikimedia.org/wikipedia/commons/a/a0/MVC-Process.svg" height="290" width="264"&gt;&lt;/a&gt;&lt;br&gt;圖片 "&lt;a href="http://commons.wikimedia.org/wiki/File:MVC-Process.svg#mediaviewer/File:MVC-Process.svg"&gt;MVC-Process&lt;/a&gt;" 由 &lt;a href="//commons.wikimedia.org/wiki/User:RegisFrey" title="User:RegisFrey"&gt;RegisFrey&lt;/a&gt; - &lt;span class="int-own-work"&gt;自己的作品&lt;/span&gt;。 使用來自 &lt;a href="//commons.wikimedia.org/wiki/"&gt;维基共享資源&lt;/a&gt; 的 公共領域 條款授權。&lt;/p&gt;&lt;p&gt;MVC 最早是 smalltalk 設計的一個 Pattern，其&lt;strong&gt;定義&lt;/strong&gt;與&lt;strong&gt;目的&lt;/strong&gt;與&lt;strong&gt;模擬實作&lt;/strong&gt;的方法在 Design Pattern 一書中都描述的相當清楚，有興趣可以去書店翻一下。&lt;/p&gt;
 &lt;p&gt;網路上可以參照： &lt;a class="reference external" href="http://www.tutorialspoint.com/design_pattern/mvc_pattern.htm"&gt;http://www.tutorialspoint.com/design_pattern/mvc_pattern.htm&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
-&lt;div class="section" id="id1"&gt;
+&lt;div class="section" id="id2"&gt;
 &lt;h2&gt;目的與 MVC&lt;/h2&gt;
 &lt;p&gt;這邊要著重的點在於，Design Pattern 書中不是要強迫你實作的內容百分百一樣，而是要求你的實作要達到 Pattern 目的，我在這邊列出中文書上對於目的的說明：&lt;/p&gt;
 &lt;p&gt;MVC 的目的在於&lt;strong&gt;增加彈性&lt;/strong&gt;與&lt;strong&gt;再利用性&lt;/strong&gt;，同一個 model 可以搭配好幾個 view，也可以做出不會改變 model 內容的 view，同時更嚴苛的要求，view 不應該包含運算的邏輯。&lt;/p&gt;
@@ -38,7 +38,7 @@ In MVC, a). Views can be created using javascript templates and also html can be
 
 While in design pattern, a pattern can't be implemented in which code can be written in multiple technologies like AdminUser class in Java, Customer class in C#, Partners class in Php and a factory pattern in Ruby :); hmmm..so easy?:)
 &lt;/pre&gt;
-&lt;p&gt;除了目的就不同， Design Pattern 在實作上會存在需要使用同一種技術語言完成的先天條件，而 Architectural Pattern 則沒有這樣的限制。&lt;/p&gt;
+&lt;p&gt;除了目的就不同， Design Pattern 在實作上會存在需要使用同一種技術語言完成的先天條件，而 Architectural Pattern 則沒有這樣的限制，所以每套 Framework 只要實作出來的結果符合 MVC Pattern 的目的，並且保證使用者擁有 MVC Pattern 的優點，就算實作的方式不盡相同，也代表其包含（支援） MVC。&lt;/p&gt;
 &lt;/div&gt;
 </summary><category term="MVC"></category><category term="Design Pattern"></category></entry><entry><title>米亞‧忠義</title><link href="http://www.hansliu.com/posts/2015/02/portrait-mia.html" rel="alternate"></link><updated>2015-02-20T14:30:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2015-02-20:posts/2015/02/portrait-mia.html</id><summary type="html">&lt;div class="img-center"&gt;&lt;p&gt;&lt;a class="reference external" href="https://lh4.googleusercontent.com/-AdjyFnPN-EM/VObbTNyxDCI/AAAAAAAAMvs/6KJnw0NHf6E/s1600/P2157129copy.jpg"&gt;&lt;img alt="image0" src="https://lh4.googleusercontent.com/-AdjyFnPN-EM/VObbTNyxDCI/AAAAAAAAMvs/6KJnw0NHf6E/s800/P2157129copy.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;&lt;div style="text-align: center;"&gt;&lt;p&gt;米亞‧忠義&lt;/p&gt;
