@@ -107,22 +107,22 @@ ol {
   display: inline;
 }
 
-.post-content b {
+.post-content p {
+  margin-bottom: 1em;
+}
+.post-content strong {
   background-color: LightYellow;
   border-radius: 5px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
 }
-.post-content p {
+.post-content iframe {
   margin-bottom: 1em;
 }
 .post-content img {
   box-shadow: 3px 3px 6px #dddddd;
   margin: 0 0 1em 0;
   max-width: 100%;
-}
-.post-content iframe {
-  margin-bottom: 1em;
 }
 .post-content .img-center {
   margin: 0.8em auto;

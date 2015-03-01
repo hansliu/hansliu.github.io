@@ -122,22 +122,22 @@ ol {
 }
 
 .post-content {
-  b {
+  p {
+    margin-bottom: 1em;
+  }
+  strong {
     background-color: LightYellow;
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
   }
-  p {
+  iframe {
     margin-bottom: 1em;
   }
   img {
     box-shadow: 3px 3px 6px #dddddd;
     margin: 0 0 1em 0;
     max-width: 100%;
-  }
-  iframe {
-    margin-bottom: 1em;
   }
   .img-center {
     margin: 0.8em auto;
