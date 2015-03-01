@@ -122,6 +122,12 @@ ol {
 }
 
 .post-content {
+  b {
+    background-color: LightYellow;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+  }
   p {
     margin-bottom: 1em;
   }

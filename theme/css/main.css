@@ -107,6 +107,12 @@ ol {
   display: inline;
 }
 
+.post-content b {
+  background-color: LightYellow;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
 .post-content p {
   margin-bottom: 1em;
 }
