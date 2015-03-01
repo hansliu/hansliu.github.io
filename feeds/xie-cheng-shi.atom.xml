@@ -4,22 +4,22 @@
 &lt;p&gt;在討論這個問題之前，我們首先要認識一下 MVC 的由來，至於有關 MVC 設計的細節將不是本篇的重點，對細節有興趣的人可以從我文內分享的文章或是從書本中得到更完整的說明。&lt;/p&gt;
 &lt;div class="section" id="mvc"&gt;
 &lt;h2&gt;什麼是 MVC&lt;/h2&gt;
-&lt;p style="font-size: 10px;"&gt;&lt;a href="http://commons.wikimedia.org/wiki/File:MVC-Process.svg#mediaviewer/File:MVC-Process.svg"&gt;&lt;img alt="MVC-Process.svg" src="http://upload.wikimedia.org/wikipedia/commons/a/a0/MVC-Process.svg" height="290" width="264"&gt;&lt;/a&gt;&lt;br&gt;圖片 "&lt;a href="http://commons.wikimedia.org/wiki/File:MVC-Process.svg#mediaviewer/File:MVC-Process.svg"&gt;MVC-Process&lt;/a&gt;" 由 &lt;a href="//commons.wikimedia.org/wiki/User:RegisFrey" title="User:RegisFrey"&gt;RegisFrey&lt;/a&gt; - &lt;span class="int-own-work"&gt;自己的作品&lt;/span&gt;。 使用來自 &lt;a href="//commons.wikimedia.org/wiki/"&gt;维基共享資源&lt;/a&gt; 的 公共領域 條款授權。&lt;/p&gt;&lt;p&gt;MVC 最早是 smalltalk 設計的一個 Pattern，其**定義**與**目的**與 &lt;strong&gt;模擬實作&lt;/strong&gt; 的方法在 Design Pattern 一書中都描述的相當清楚，有興趣可以去書店翻一下。&lt;/p&gt;
+&lt;p style="font-size: 10px;"&gt;&lt;a href="http://commons.wikimedia.org/wiki/File:MVC-Process.svg#mediaviewer/File:MVC-Process.svg"&gt;&lt;img alt="MVC-Process.svg" src="http://upload.wikimedia.org/wikipedia/commons/a/a0/MVC-Process.svg" height="290" width="264"&gt;&lt;/a&gt;&lt;br&gt;圖片 "&lt;a href="http://commons.wikimedia.org/wiki/File:MVC-Process.svg#mediaviewer/File:MVC-Process.svg"&gt;MVC-Process&lt;/a&gt;" 由 &lt;a href="//commons.wikimedia.org/wiki/User:RegisFrey" title="User:RegisFrey"&gt;RegisFrey&lt;/a&gt; - &lt;span class="int-own-work"&gt;自己的作品&lt;/span&gt;。 使用來自 &lt;a href="//commons.wikimedia.org/wiki/"&gt;维基共享資源&lt;/a&gt; 的 公共領域 條款授權。&lt;/p&gt;&lt;p&gt;MVC 最早是 smalltalk 設計的一個 Pattern，其&lt;strong&gt;定義&lt;/strong&gt;與&lt;strong&gt;目的&lt;/strong&gt;與&lt;strong&gt;模擬實作&lt;/strong&gt;的方法在 Design Pattern 一書中都描述的相當清楚，有興趣可以去書店翻一下。&lt;/p&gt;
 &lt;p&gt;網路上可以參照： &lt;a class="reference external" href="http://www.tutorialspoint.com/design_pattern/mvc_pattern.htm"&gt;http://www.tutorialspoint.com/design_pattern/mvc_pattern.htm&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="id1"&gt;
 &lt;h2&gt;目的與 MVC&lt;/h2&gt;
 &lt;p&gt;這邊要著重的點在於，Design Pattern 書中不是要強迫你實作的內容百分百一樣，而是要求你的實作要達到 Pattern 目的，我在這邊列出中文書上對於目的的說明：&lt;/p&gt;
-&lt;p&gt;MVC 的目的在於 &lt;strong&gt;增加彈性&lt;/strong&gt; 與 &lt;strong&gt;再利用性&lt;/strong&gt; ，同一個 model 可以搭配好幾個 view，也可以做出不會改變 model 內容的 view，同時更嚴苛的要求，view 不應該包含運算的邏輯。&lt;/p&gt;
+&lt;p&gt;MVC 的目的在於&lt;strong&gt;增加彈性&lt;/strong&gt;與&lt;strong&gt;再利用性&lt;/strong&gt;，同一個 model 可以搭配好幾個 view，也可以做出不會改變 model 內容的 view，同時更嚴苛的要求，view 不應該包含運算的邏輯。&lt;/p&gt;
 &lt;p&gt;因此不是去追究每套 Framework 在設計上的差異去與定義比較，然後要說它的設計到底要不要叫做 MVC， 而是要去看設計之後是否能達到 MVC 目的。&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="mvc-architecture-pattern"&gt;
 &lt;h2&gt;MVC 其實是 Architecture Pattern&lt;/h2&gt;
 &lt;p&gt;後來我才想到 MVC 其實是在 Design Pattern 一書中開頭章節就列出來的，並沒有包含在後續主要章節所描述的23個 Design Pattern 之中，這也表示 MVC 算是一個 Architecture Pattern。&lt;/p&gt;
 &lt;p&gt;那 Design Pattern 和所謂的 Architecture Pattern 又有什麼不同呢？&lt;/p&gt;
-&lt;p&gt;根據 Stackoverflow 所描述的回答，我覺得兩種 Pattern 還是從 &lt;strong&gt;目的&lt;/strong&gt; 和 &lt;strong&gt;實作&lt;/strong&gt; 兩個層面來看最容易區分。&lt;/p&gt;
+&lt;p&gt;根據 Stackoverflow 所描述的回答，我覺得兩種 Pattern 還是從&lt;strong&gt;目的&lt;/strong&gt;和&lt;strong&gt;實作&lt;/strong&gt;兩個層面來看最容易區分。&lt;/p&gt;
 &lt;p&gt;Stackoverflow 的回答可以參照： &lt;a class="reference external" href="http://stackoverflow.com/questions/1866821/is-mvc-a-design-pattern-or-architectural-pattern"&gt;http://stackoverflow.com/questions/1866821/is-mvc-a-design-pattern-or-architectural-pattern&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;節錄其中 vrluckyin 的回答，針對目的和實作上的差別都有很清楚的描述:&lt;/p&gt;
+&lt;p&gt;節錄其中 vrluckyin 的回答，針對目的和實作上的差別都有很清楚的描述：&lt;/p&gt;
 &lt;pre class="literal-block"&gt;
 Design patterns say how to write code effectively.
 

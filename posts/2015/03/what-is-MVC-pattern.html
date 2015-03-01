@@ -148,22 +148,22 @@
 <p>在討論這個問題之前，我們首先要認識一下 MVC 的由來，至於有關 MVC 設計的細節將不是本篇的重點，對細節有興趣的人可以從我文內分享的文章或是從書本中得到更完整的說明。</p>
 <div class="section" id="mvc">
 <h2>什麼是 MVC</h2>
-<p style="font-size: 10px;"><a href="http://commons.wikimedia.org/wiki/File:MVC-Process.svg#mediaviewer/File:MVC-Process.svg"><img alt="MVC-Process.svg" src="http://upload.wikimedia.org/wikipedia/commons/a/a0/MVC-Process.svg" height="290" width="264"></a><br>圖片 "<a href="http://commons.wikimedia.org/wiki/File:MVC-Process.svg#mediaviewer/File:MVC-Process.svg">MVC-Process</a>" 由 <a href="//commons.wikimedia.org/wiki/User:RegisFrey" title="User:RegisFrey">RegisFrey</a> - <span class="int-own-work">自己的作品</span>。 使用來自 <a href="//commons.wikimedia.org/wiki/">维基共享資源</a> 的 公共領域 條款授權。</p><p>MVC 最早是 smalltalk 設計的一個 Pattern，其**定義**與**目的**與 <strong>模擬實作</strong> 的方法在 Design Pattern 一書中都描述的相當清楚，有興趣可以去書店翻一下。</p>
+<p style="font-size: 10px;"><a href="http://commons.wikimedia.org/wiki/File:MVC-Process.svg#mediaviewer/File:MVC-Process.svg"><img alt="MVC-Process.svg" src="http://upload.wikimedia.org/wikipedia/commons/a/a0/MVC-Process.svg" height="290" width="264"></a><br>圖片 "<a href="http://commons.wikimedia.org/wiki/File:MVC-Process.svg#mediaviewer/File:MVC-Process.svg">MVC-Process</a>" 由 <a href="//commons.wikimedia.org/wiki/User:RegisFrey" title="User:RegisFrey">RegisFrey</a> - <span class="int-own-work">自己的作品</span>。 使用來自 <a href="//commons.wikimedia.org/wiki/">维基共享資源</a> 的 公共領域 條款授權。</p><p>MVC 最早是 smalltalk 設計的一個 Pattern，其<strong>定義</strong>與<strong>目的</strong>與<strong>模擬實作</strong>的方法在 Design Pattern 一書中都描述的相當清楚，有興趣可以去書店翻一下。</p>
 <p>網路上可以參照： <a class="reference external" href="http://www.tutorialspoint.com/design_pattern/mvc_pattern.htm">http://www.tutorialspoint.com/design_pattern/mvc_pattern.htm</a></p>
 </div>
 <div class="section" id="id1">
 <h2>目的與 MVC</h2>
 <p>這邊要著重的點在於，Design Pattern 書中不是要強迫你實作的內容百分百一樣，而是要求你的實作要達到 Pattern 目的，我在這邊列出中文書上對於目的的說明：</p>
-<p>MVC 的目的在於 <strong>增加彈性</strong> 與 <strong>再利用性</strong> ，同一個 model 可以搭配好幾個 view，也可以做出不會改變 model 內容的 view，同時更嚴苛的要求，view 不應該包含運算的邏輯。</p>
+<p>MVC 的目的在於<strong>增加彈性</strong>與<strong>再利用性</strong>，同一個 model 可以搭配好幾個 view，也可以做出不會改變 model 內容的 view，同時更嚴苛的要求，view 不應該包含運算的邏輯。</p>
 <p>因此不是去追究每套 Framework 在設計上的差異去與定義比較，然後要說它的設計到底要不要叫做 MVC， 而是要去看設計之後是否能達到 MVC 目的。</p>
 </div>
 <div class="section" id="mvc-architecture-pattern">
 <h2>MVC 其實是 Architecture Pattern</h2>
 <p>後來我才想到 MVC 其實是在 Design Pattern 一書中開頭章節就列出來的，並沒有包含在後續主要章節所描述的23個 Design Pattern 之中，這也表示 MVC 算是一個 Architecture Pattern。</p>
 <p>那 Design Pattern 和所謂的 Architecture Pattern 又有什麼不同呢？</p>
-<p>根據 Stackoverflow 所描述的回答，我覺得兩種 Pattern 還是從 <strong>目的</strong> 和 <strong>實作</strong> 兩個層面來看最容易區分。</p>
+<p>根據 Stackoverflow 所描述的回答，我覺得兩種 Pattern 還是從<strong>目的</strong>和<strong>實作</strong>兩個層面來看最容易區分。</p>
 <p>Stackoverflow 的回答可以參照： <a class="reference external" href="http://stackoverflow.com/questions/1866821/is-mvc-a-design-pattern-or-architectural-pattern">http://stackoverflow.com/questions/1866821/is-mvc-a-design-pattern-or-architectural-pattern</a></p>
-<p>節錄其中 vrluckyin 的回答，針對目的和實作上的差別都有很清楚的描述:</p>
+<p>節錄其中 vrluckyin 的回答，針對目的和實作上的差別都有很清楚的描述：</p>
 <pre class="literal-block">
 Design patterns say how to write code effectively.
 
