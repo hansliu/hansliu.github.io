@@ -11,7 +11,7 @@
 &lt;h2&gt;目的與 MVC&lt;/h2&gt;
 &lt;p&gt;這邊要著重的點在於，Design Pattern 書中不是要強迫你實作的內容百分百一樣，而是要求你的實作要達到 Pattern 目的，我在這邊列出中文書上對於其目的的說明：&lt;/p&gt;
 &lt;p&gt;MVC 的目的在於&lt;strong&gt;增加彈性&lt;/strong&gt;與&lt;strong&gt;再利用性&lt;/strong&gt;，同一個 model 可以搭配好幾個 view，也可以做出不會改變 model 內容的 view，同時更嚴苛的要求，view 不應該包含運算的邏輯。&lt;/p&gt;
-&lt;p&gt;因此不是去追究每套 Framework 在設計上的差異去與定義比較，然後要說它的設計到底要不要叫做 MVC， 而是要去看設計之後是否能達到 MVC 目的。&lt;/p&gt;
+&lt;p&gt;因此不是去追究每套 Framework 在設計上的差異去與定義比較，然後要說它的設計到底要不要叫做 MVC，而是要去看設計之後是否能達到 MVC 目的。&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="mvc-architecture-pattern"&gt;
 &lt;h2&gt;MVC 是 Architecture Pattern&lt;/h2&gt;
