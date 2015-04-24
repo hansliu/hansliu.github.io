@@ -30,7 +30,7 @@ body {
   font-family: "Lucida Sans", sans-serif;
   line-height: $bodysize * 1.5;
   margin: 0;
-  padding: 0;
+  padding: 40px 0 0 0;
   text-align: left;
   /* fix horizontal scrollbar appeared on 100% width layout in Bootstrap v3 */
   overflow-x: hidden;
