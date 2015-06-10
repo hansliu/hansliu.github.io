@@ -1,5 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Hans Blog</title><link href="http://www.hansliu.com/" rel="alternate"></link><link href="http://www.hansliu.com/feeds/all.atom.xml" rel="self"></link><id>http://www.hansliu.com/</id><updated>2015-06-02T23:30:00+08:00</updated><entry><title>Molly‧西門</title><link href="http://www.hansliu.com/posts/2015/06/portrait-molly.html" rel="alternate"></link><updated>2015-06-02T23:30:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2015-06-02:posts/2015/06/portrait-molly.html</id><summary type="html">&lt;div class="img-center"&gt;&lt;p&gt;&lt;a class="reference external" href="https://lh3.googleusercontent.com/-lPSY9Kfax7c/VW3Rd1jXYII/AAAAAAAAOgc/QqlkgL2nwMk/s1600/P5170073copy.jpg"&gt;&lt;img alt="image0" src="https://lh3.googleusercontent.com/-lPSY9Kfax7c/VW3Rd1jXYII/AAAAAAAAOgc/QqlkgL2nwMk/s800/P5170073copy.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Hans Blog</title><link href="http://www.hansliu.com/" rel="alternate"></link><link href="http://www.hansliu.com/feeds/all.atom.xml" rel="self"></link><id>http://www.hansliu.com/</id><updated>2015-06-08T23:00:00+08:00</updated><entry><title>2015 PyCon</title><link href="http://www.hansliu.com/posts/2015/06/2015-pycon.html" rel="alternate"></link><updated>2015-06-08T23:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2015-06-08:posts/2015/06/2015-pycon.html</id><summary type="html">&lt;div class="img-center"&gt;&lt;p&gt;&lt;a class="reference external" href="https://lh3.googleusercontent.com/-PWwg2yshhX4/VXb248gk16I/AAAAAAAAOmQ/C6HT4hX1o4w/s1600/IMG_0183.JPG"&gt;&lt;img alt="image0" src="https://lh3.googleusercontent.com/-PWwg2yshhX4/VXb248gk16I/AAAAAAAAOmQ/C6HT4hX1o4w/s800/IMG_0183.JPG" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;p&gt;今年 PyCon APAC 是在台灣舉辦，活動的規模也擴增到了三天，感謝 Rick 的協助，讓我順利用早鳥票報名 PyCon APAC 啦！&lt;/p&gt;
+&lt;p&gt;這次聽到有趣的 library 和 framework 比較少，大多在於如何利用 Python 去實踐一些想法，或是利用在不同領域的研究，其中有不少贊助廠商的分享也還不錯。&lt;/p&gt;
+&lt;p&gt;三天的演講內容摘要可以參考 hackpad 的共筆。&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://hackpad.com/PyCon-APAC-2015-Day-1-June-5-Tt8wwkILDX0"&gt;https://hackpad.com/PyCon-APAC-2015-Day-1-June-5-Tt8wwkILDX0&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;最後還是要記錄一下今年活動覺得有趣或有用的 library。&lt;/p&gt;
+&lt;div class="section" id="hackpad"&gt;
+&lt;h2&gt;hackpad&lt;/h2&gt;
+&lt;p&gt;目前當紅的共筆服務，不論在操作和反應上都比 google doc 來的更加即時好用，相當推薦。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="readthedocs"&gt;
+&lt;h2&gt;readthedocs&lt;/h2&gt;
+&lt;p&gt;也是目前當紅的文件托管服務，已經有相當多的 open source 將它們的文件轉移到 readthedocs。&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://readthedocs.org/"&gt;https://readthedocs.org/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="urllib2-pycurl-selenium"&gt;
+&lt;h2&gt;urllib2 &amp;amp; pycurl &amp;amp; selenium&lt;/h2&gt;
+&lt;p&gt;分析網頁的三套工具，分別是 python 內建的 urllib2 library，或是模擬 linux curl 功能的 pycurl library，以及用來模擬瀏覽器動作的 selenium library，透過這三套工具來分析網頁，應該能解決絕大多數的問題。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="gevent"&gt;
+&lt;h2&gt;gevent&lt;/h2&gt;
+&lt;p&gt;隨著時代的進步，撰寫同步與非同步服務的建議不再是使用 twisted，而多半建議採用的是 gevent，這是更加輕量好用的網路協作 library，而且在程式設計上提供更容易理解的架構與方法。&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.gevent.org/"&gt;http://www.gevent.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://xlambda.com/gevent-tutorial/"&gt;http://xlambda.com/gevent-tutorial/&lt;/a&gt; 中譯&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="celery-luigi"&gt;
+&lt;h2&gt;celery &amp;amp; luigi&lt;/h2&gt;
+&lt;p&gt;這兩套 library 都是用來做 task manager 的，可惜的是不論是聽講者講的內容，或是我自己當下看了文件，都還是不太能理解這些套件的用途，只好先記錄下來，待以後有機會用到再仔細學習。&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.celeryproject.org/"&gt;http://www.celeryproject.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://luigi.readthedocs.org/"&gt;http://luigi.readthedocs.org/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="pytest"&gt;
+&lt;h2&gt;pytest&lt;/h2&gt;
+&lt;p&gt;除了 python 內建的 unittest 之外，強大的 pytest 不但可以減少測試程式的複雜度，還可以強化測試結果的輸出。&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://pytest.org/"&gt;http://pytest.org/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="ansible"&gt;
+&lt;h2&gt;ansible&lt;/h2&gt;
+&lt;p&gt;簡單說就是一套以 python 撰寫的 deployment 工具，最大特色是採用 ssh 做溝通，所以不用安裝 client tool， ansible 也是採用 roles/playbook/config 的架構做管理。&lt;/p&gt;
+&lt;p&gt;因為我沒親身使用過，所以無法評論與最多人用的 Puppet 或是 Chef 和 Salt 之間的優劣與差異，但是據我所知，每一套 deployment 工具都有它設計上的特色，建議是根據實際需求來做挑選。&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.ansible.com/"&gt;http://www.ansible.com/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary><category term="Python"></category></entry><entry><title>Molly‧洛陽</title><link href="http://www.hansliu.com/posts/2015/06/portrait-molly-2.html" rel="alternate"></link><updated>2015-06-03T23:30:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2015-06-03:posts/2015/06/portrait-molly-2.html</id><summary type="html">&lt;div class="img-center"&gt;&lt;p&gt;&lt;a class="reference external" href="https://lh3.googleusercontent.com/-3vEfJa_0IHw/VW8rvCOHahI/AAAAAAAAOjU/UOGCizrs5Ro/s1600/P5170308copy.jpg"&gt;&lt;img alt="image0" src="https://lh3.googleusercontent.com/-3vEfJa_0IHw/VW8rvCOHahI/AAAAAAAAOjU/UOGCizrs5Ro/s800/P5170308copy.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;div style="text-align: center;"&gt;&lt;p&gt;Molly‧洛陽&lt;/p&gt;
+&lt;/div&gt;&lt;p&gt;#2&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://lh3.googleusercontent.com/-b4MRaqhazpY/VW8x6nFWmyI/AAAAAAAAOj4/QjdAV45ZwRY/s1600/P5170315copy.jpg"&gt;&lt;img alt="image1" src="https://lh3.googleusercontent.com/-b4MRaqhazpY/VW8x6nFWmyI/AAAAAAAAOj4/QjdAV45ZwRY/s800/P5170315copy.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;#3&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://lh3.googleusercontent.com/-1clzxO7FgbU/VW8z0vTyiJI/AAAAAAAAOkk/3C_G4ZFDC9I/s1600/P5170322copy.jpg"&gt;&lt;img alt="image2" src="https://lh3.googleusercontent.com/-1clzxO7FgbU/VW8z0vTyiJI/AAAAAAAAOkk/3C_G4ZFDC9I/s800/P5170322copy.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;#4&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://lh3.googleusercontent.com/-RP7HzRPJTCY/VW8z0i40glI/AAAAAAAAOkg/0_55B8SZtKI/s1600/P5170305copy.jpg"&gt;&lt;img alt="image3" src="https://lh3.googleusercontent.com/-RP7HzRPJTCY/VW8z0i40glI/AAAAAAAAOkg/0_55B8SZtKI/s800/P5170305copy.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;#5&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://lh3.googleusercontent.com/-_no0gw0XPjQ/VW8rrDxD9TI/AAAAAAAAOjM/BmpTEBg2w6Q/s1600/P5170287copy.jpg"&gt;&lt;img alt="image4" src="https://lh3.googleusercontent.com/-_no0gw0XPjQ/VW8rrDxD9TI/AAAAAAAAOjM/BmpTEBg2w6Q/s800/P5170287copy.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;#6&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://lh3.googleusercontent.com/-lvUTMEnVIOo/VW82ADhKIyI/AAAAAAAAOlU/pwlPufGFzJ0/s1600/P5170299copy.jpg"&gt;&lt;img alt="image5" src="https://lh3.googleusercontent.com/-lvUTMEnVIOo/VW82ADhKIyI/AAAAAAAAOlU/pwlPufGFzJ0/s800/P5170299copy.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;#7&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://lh3.googleusercontent.com/-ohc_GT_oCLU/VW817nZsVGI/AAAAAAAAOlE/3ZIH1SqvR40/s1600/P5170280copy.jpg"&gt;&lt;img alt="image6" src="https://lh3.googleusercontent.com/-ohc_GT_oCLU/VW817nZsVGI/AAAAAAAAOlE/3ZIH1SqvR40/s800/P5170280copy.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;#8&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://lh3.googleusercontent.com/-q786iSdw3rQ/VW8rkZ8EdhI/AAAAAAAAOjE/UOKQyAJZMhg/s1600/P5170283copy.jpg"&gt;&lt;img alt="image7" src="https://lh3.googleusercontent.com/-q786iSdw3rQ/VW8rkZ8EdhI/AAAAAAAAOjE/UOKQyAJZMhg/s800/P5170283copy.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;#9&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://lh3.googleusercontent.com/-ppYvukammFo/VW821oqcVVI/AAAAAAAAOlo/_VXJnCVzvK4/s1600/P5170268copy.jpg"&gt;&lt;img alt="image8" src="https://lh3.googleusercontent.com/-ppYvukammFo/VW821oqcVVI/AAAAAAAAOlo/_VXJnCVzvK4/s800/P5170268copy.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
+</summary><category term="Olympus DSLR"></category><category term="Portrait"></category></entry><entry><title>Molly‧西門</title><link href="http://www.hansliu.com/posts/2015/06/portrait-molly.html" rel="alternate"></link><updated>2015-06-02T23:30:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2015-06-02:posts/2015/06/portrait-molly.html</id><summary type="html">&lt;div class="img-center"&gt;&lt;p&gt;&lt;a class="reference external" href="https://lh3.googleusercontent.com/-lPSY9Kfax7c/VW3Rd1jXYII/AAAAAAAAOgc/QqlkgL2nwMk/s1600/P5170073copy.jpg"&gt;&lt;img alt="image0" src="https://lh3.googleusercontent.com/-lPSY9Kfax7c/VW3Rd1jXYII/AAAAAAAAOgc/QqlkgL2nwMk/s800/P5170073copy.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;&lt;div style="text-align: center;"&gt;&lt;p&gt;Molly‧西門&lt;/p&gt;
 &lt;/div&gt;&lt;p&gt;#2&lt;/p&gt;
 &lt;p&gt;&lt;a class="reference external" href="https://lh3.googleusercontent.com/-AJqhCemHQ9A/VW3RWuEpnDI/AAAAAAAAOgU/jWzKvN989TY/s1600/P5170076copy.jpg"&gt;&lt;img alt="image1" src="https://lh3.googleusercontent.com/-AJqhCemHQ9A/VW3RWuEpnDI/AAAAAAAAOgU/jWzKvN989TY/s800/P5170076copy.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -339,79 +411,4 @@ BrewDog 是來自蘇格蘭東北角亞伯丁郡（Aberdeenshire）的精釀啤�
 &lt;li&gt;&lt;a class="reference external" href="http://www.hansliu.com/posts/2015/03/cosplay-lovelive-nico.html"&gt;Cosplay《LoveLive!》Nico&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;PS：如照片中的本人不希望照片放上部落格或是想要領取照片原始檔，請留言通知我，我會盡快處理，謝謝。&lt;/p&gt;
-</summary><category term="Olympus DSLR"></category><category term="Comic World in Taiwan"></category></entry><entry><title>為什麼 MVC 實作不一樣</title><link href="http://www.hansliu.com/posts/2015/03/why-do-not-mvc-pattern-look-like.html" rel="alternate"></link><updated>2015-03-01T06:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2015-03-01:posts/2015/03/why-do-not-mvc-pattern-look-like.html</id><summary type="html">&lt;p&gt;這篇文章最早是用來回應 Python 社群對於 MVC 的討論內容，同時把它記錄在自己的部落格上。&lt;/p&gt;
-&lt;p&gt;其原文探討的是為什麼每套 Framework 對於 MVC 設計上都有一套自己的見解，即使設計和實作上不一樣，卻都說自家的 Framework 包含（支援） MVC。&lt;/p&gt;
-&lt;p&gt;在討論這個問題之前，我們首先要認識一下 MVC 的由來，至於有關 MVC 設計的細節將不是本篇的重點，對細節有興趣的人可以從我文內分享的文章或是從書本中得到更完整的說明。&lt;/p&gt;
-&lt;div class="section" id="id1"&gt;
-&lt;h2&gt;什麼是 MVC&lt;/h2&gt;
-&lt;p style="font-size: 10px;"&gt;&lt;a href="http://commons.wikimedia.org/wiki/File:MVC-Process.svg#mediaviewer/File:MVC-Process.svg"&gt;&lt;img alt="MVC-Process.svg" src="http://upload.wikimedia.org/wikipedia/commons/a/a0/MVC-Process.svg" height="290" width="264"&gt;&lt;/a&gt;&lt;br&gt;圖片 "&lt;a href="http://commons.wikimedia.org/wiki/File:MVC-Process.svg#mediaviewer/File:MVC-Process.svg"&gt;MVC-Process&lt;/a&gt;" 由 &lt;a href="//commons.wikimedia.org/wiki/User:RegisFrey" title="User:RegisFrey"&gt;RegisFrey&lt;/a&gt; - &lt;span class="int-own-work"&gt;自己的作品&lt;/span&gt;。 使用來自 &lt;a href="//commons.wikimedia.org/wiki/"&gt;维基共享資源&lt;/a&gt; 的 公共領域 條款授權。&lt;/p&gt;&lt;p&gt;MVC 最早是 smalltalk 設計的一個 Pattern，其&lt;strong&gt;定義&lt;/strong&gt;與&lt;strong&gt;目的&lt;/strong&gt;與&lt;strong&gt;模擬實作&lt;/strong&gt;的方法在 Design Pattern 一書中都描述的相當清楚，有興趣可以去書店翻一下。&lt;/p&gt;
-&lt;p&gt;網路上可以參照： &lt;a class="reference external" href="http://www.tutorialspoint.com/design_pattern/mvc_pattern.htm"&gt;http://www.tutorialspoint.com/design_pattern/mvc_pattern.htm&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="id2"&gt;
-&lt;h2&gt;目的與 MVC&lt;/h2&gt;
-&lt;p&gt;這邊要著重的點在於，Design Pattern 書中不是要強迫你實作的內容百分百一樣，而是要求你的實作要達到 Pattern 目的，我在這邊列出中文書上對於其目的的說明：&lt;/p&gt;
-&lt;p&gt;MVC 的目的在於&lt;strong&gt;增加彈性&lt;/strong&gt;與&lt;strong&gt;再利用性&lt;/strong&gt;，同一個 model 可以搭配好幾個 view，也可以做出不會改變 model 內容的 view，同時更嚴苛的要求，view 不應該包含運算的邏輯。&lt;/p&gt;
-&lt;p&gt;因此不是去追究每套 Framework 在設計上的差異去與定義比較，然後要說它的設計到底要不要叫做 MVC，而是要去看設計之後是否能達到 MVC 目的。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="mvc-architecture-pattern"&gt;
-&lt;h2&gt;MVC 是 Architecture Pattern&lt;/h2&gt;
-&lt;p&gt;後來有人在社群裡提到 Architecture Pattern 之後，我才想到 MVC 是在 Design Pattern 一書中開頭章節就列出來的，並沒有包含在後續主要章節所描述的23個 Design Pattern 之中，其介紹上也顯示 MVC 更像是一個 Architecture Pattern。&lt;/p&gt;
-&lt;p&gt;那 Design Pattern 和所謂的 Architecture Pattern 又有什麼不同呢？&lt;/p&gt;
-&lt;p&gt;根據 Stackoverflow 所描述的回答，我覺得兩種 Pattern 還是從&lt;strong&gt;目的&lt;/strong&gt;和&lt;strong&gt;實作&lt;/strong&gt;兩個層面來看最容易區分。&lt;/p&gt;
-&lt;p&gt;Stackoverflow 的回答可以參照： &lt;a class="reference external" href="http://stackoverflow.com/questions/1866821/is-mvc-a-design-pattern-or-architectural-pattern"&gt;http://stackoverflow.com/questions/1866821/is-mvc-a-design-pattern-or-architectural-pattern&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;節錄其中 vrluckyin 的回答，針對目的和實作上的差別都有很清楚的描述：&lt;/p&gt;
-&lt;pre class="literal-block"&gt;
-Design patterns say how to write code effectively.
-
-A few benefits:
-
-  - Easily Maintainable
-  - High Re-usability
-  - Readable because of abstractions
-
-Architectural patterns say how to utilize resources effectively.
-
-  - Parallel tasks execution like programmers and graphic designers can work parallel.
-  - Multiple technologies can be utilized to build a software.
-
-In MVC, a). Views can be created using javascript templates and also html can be used b). Controllers can be written .NET framework and c). Models can be written in Java - a java service may be used that returns only json data.
-
-While in design pattern, a pattern can't be implemented in which code can be written in multiple technologies like AdminUser class in Java, Customer class in C#, Partners class in Php and a factory pattern in Ruby :); hmmm..so easy?:)
-&lt;/pre&gt;
-&lt;p&gt;除了目的就不同， Design Pattern 在實作上會存在需要使用同一種技術語言完成的先天條件，而 Architectural Pattern 則沒有這樣的限制，所以每套 Framework 只要實作出來的結果符合 MVC Pattern 的目的，並且保證使用者擁有 MVC Pattern 的優點，就算實作的方式不盡相同，也代表其包含（支援） MVC。&lt;/p&gt;
-&lt;/div&gt;
-</summary><category term="MVC"></category><category term="Design Pattern"></category></entry><entry><title>米亞‧忠義</title><link href="http://www.hansliu.com/posts/2015/02/portrait-mia.html" rel="alternate"></link><updated>2015-02-20T14:30:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2015-02-20:posts/2015/02/portrait-mia.html</id><summary type="html">&lt;div class="img-center"&gt;&lt;p&gt;&lt;a class="reference external" href="https://lh4.googleusercontent.com/-AdjyFnPN-EM/VObbTNyxDCI/AAAAAAAAMvs/6KJnw0NHf6E/s1600/P2157129copy.jpg"&gt;&lt;img alt="image0" src="https://lh4.googleusercontent.com/-AdjyFnPN-EM/VObbTNyxDCI/AAAAAAAAMvs/6KJnw0NHf6E/s800/P2157129copy.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div style="text-align: center;"&gt;&lt;p&gt;米亞‧忠義&lt;/p&gt;
-&lt;/div&gt;&lt;p&gt;#2&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://lh3.googleusercontent.com/-nFEftqj1jCU/VObeIueWSmI/AAAAAAAAMvs/mCPbFfNutlM/s1600/P2157187copy.jpg"&gt;&lt;img alt="image1" src="https://lh3.googleusercontent.com/-nFEftqj1jCU/VObeIueWSmI/AAAAAAAAMvs/mCPbFfNutlM/s800/P2157187copy.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;#3&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://lh6.googleusercontent.com/-l0X0MnXgciU/VObtoUduMFI/AAAAAAAAMx4/DXm9Ian2vM4/s1600/P2157197copy.jpg"&gt;&lt;img alt="image2" src="https://lh6.googleusercontent.com/-l0X0MnXgciU/VObtoUduMFI/AAAAAAAAMx4/DXm9Ian2vM4/s800/P2157197copy.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;#4&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://lh6.googleusercontent.com/-VSyiTA_5lCc/VObbxsXBZTI/AAAAAAAAMvs/pIgDdM4b2Aw/s1600/P2157209copy.jpg"&gt;&lt;img alt="image3" src="https://lh6.googleusercontent.com/-VSyiTA_5lCc/VObbxsXBZTI/AAAAAAAAMvs/pIgDdM4b2Aw/s800/P2157209copy.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;#5&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://lh4.googleusercontent.com/-DEWkMyX18jM/VObeUFWl-mI/AAAAAAAAMvs/QykQSWpUUN4/s1600/P2157202copy.jpg"&gt;&lt;img alt="image4" src="https://lh4.googleusercontent.com/-DEWkMyX18jM/VObeUFWl-mI/AAAAAAAAMvs/QykQSWpUUN4/s800/P2157202copy.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;#6&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://lh5.googleusercontent.com/-ovqM0bcd2ic/VObb1BxuTDI/AAAAAAAAMvs/7WuwEJRne7U/s1600/P2157204copy.jpg"&gt;&lt;img alt="image5" src="https://lh5.googleusercontent.com/-ovqM0bcd2ic/VObb1BxuTDI/AAAAAAAAMvs/7WuwEJRne7U/s800/P2157204copy.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;#7&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://lh5.googleusercontent.com/-x_8SuUcu5Tk/VObbfrSQSiI/AAAAAAAAMvs/UYKLFP_0-3I/s1600/P2157238copy.jpg"&gt;&lt;img alt="image6" src="https://lh5.googleusercontent.com/-x_8SuUcu5Tk/VObbfrSQSiI/AAAAAAAAMvs/UYKLFP_0-3I/s800/P2157238copy.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;#8&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://lh4.googleusercontent.com/-DDatI4PwH7A/VObdCpsvbBI/AAAAAAAAMvs/Q1yWfBWhRp8/s1600/P2157244copy.jpg"&gt;&lt;img alt="image7" src="https://lh4.googleusercontent.com/-DDatI4PwH7A/VObdCpsvbBI/AAAAAAAAMvs/Q1yWfBWhRp8/s800/P2157244copy.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;#9&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://lh4.googleusercontent.com/-5bniSEclbv4/VObbsDHh61I/AAAAAAAAMvs/AyhwhhCjtq4/s1600/P2157264copy.jpg"&gt;&lt;img alt="image8" src="https://lh4.googleusercontent.com/-5bniSEclbv4/VObbsDHh61I/AAAAAAAAMvs/AyhwhhCjtq4/s800/P2157264copy.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;#10&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://lh6.googleusercontent.com/-pwTuRF_0-p4/VObjAPEznqI/AAAAAAAAMwI/zJjS_Mh9S6I/s1600/P2157260copy.jpg"&gt;&lt;img alt="image9" src="https://lh6.googleusercontent.com/-pwTuRF_0-p4/VObjAPEznqI/AAAAAAAAMwI/zJjS_Mh9S6I/s800/P2157260copy.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;#11&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://lh3.googleusercontent.com/-aCpR9m_Ls_8/VObbwvBq_sI/AAAAAAAAMvs/twpWExh4J5g/s1600/P2157223copy.jpg"&gt;&lt;img alt="image10" src="https://lh3.googleusercontent.com/-aCpR9m_Ls_8/VObbwvBq_sI/AAAAAAAAMvs/twpWExh4J5g/s800/P2157223copy.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;#12&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://lh3.googleusercontent.com/-GxJZbR2dCI0/VObbvahDiJI/AAAAAAAAMvs/s-mDgcN61i4/s1600/P2157227copy.jpg"&gt;&lt;img alt="image11" src="https://lh3.googleusercontent.com/-GxJZbR2dCI0/VObbvahDiJI/AAAAAAAAMvs/s-mDgcN61i4/s800/P2157227copy.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;#13&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://lh6.googleusercontent.com/-W-prdYsV_ZI/VObfA4ZYUSI/AAAAAAAAMvs/7UW8MO-fRm8/s1600/P2157133copy.jpg"&gt;&lt;img alt="image12" src="https://lh6.googleusercontent.com/-W-prdYsV_ZI/VObfA4ZYUSI/AAAAAAAAMvs/7UW8MO-fRm8/s800/P2157133copy.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;#14&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://lh5.googleusercontent.com/-pkgF-hkp774/VObc4b4JwGI/AAAAAAAAMvs/gXGojoNWY9I/s1600/P2157294copy.jpg"&gt;&lt;img alt="image13" src="https://lh5.googleusercontent.com/-pkgF-hkp774/VObc4b4JwGI/AAAAAAAAMvs/gXGojoNWY9I/s800/P2157294copy.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;#15&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://lh4.googleusercontent.com/-gNguP_qieDc/VObbUxzGnII/AAAAAAAAMvs/bkLdg53jE1E/s1600/P2157298copy.jpg"&gt;&lt;img alt="image14" src="https://lh4.googleusercontent.com/-gNguP_qieDc/VObbUxzGnII/AAAAAAAAMvs/bkLdg53jE1E/s800/P2157298copy.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;#16&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://lh4.googleusercontent.com/-xH-al6pDSVU/VObxOMZhhcI/AAAAAAAAMyM/p1ZcVvAV2rA/s1600/P2157300copy.jpg"&gt;&lt;img alt="image15" src="https://lh4.googleusercontent.com/-xH-al6pDSVU/VObxOMZhhcI/AAAAAAAAMyM/p1ZcVvAV2rA/s800/P2157300copy.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;#17&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://lh5.googleusercontent.com/-vkmprXZ9EoU/VObbWq3cmnI/AAAAAAAAMvs/c3XAU-ez7U4/s1600/P2157297copy.jpg"&gt;&lt;img alt="image16" src="https://lh5.googleusercontent.com/-vkmprXZ9EoU/VObbWq3cmnI/AAAAAAAAMvs/c3XAU-ez7U4/s800/P2157297copy.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
-</summary><category term="Olympus DSLR"></category><category term="Portrait"></category></entry></feed>
+</summary><category term="Olympus DSLR"></category><category term="Comic World in Taiwan"></category></entry></feed>
