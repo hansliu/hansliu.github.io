@@ -12,9 +12,9 @@
  */
 body {
   color: #333;
-  font-size: 15px;
+  font-size: 16px;
   font-family: "Lucida Sans", sans-serif;
-  line-height: 22.5px;
+  line-height: 24px;
   margin: 0;
   padding: 2em 0 0 0;
   text-align: left;
@@ -32,48 +32,48 @@ a:hover {
 h1 {
   font-family: "Microsoft YaHei", Overlock, sans-serif;
   font-weight: bold;
-  font-size: 30px;
-  line-height: 60px;
+  font-size: 32px;
+  line-height: 64px;
 }
 
 h2 {
   font-family: "Microsoft YaHei", Overlock, sans-serif;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 25.6px;
   color: #113D8B;
-  line-height: 48px;
+  line-height: 51.2px;
 }
 
 h3 {
   font-family: "Microsoft YaHei", Overlock, sans-serif;
   font-weight: bold;
-  font-size: 21.6px;
+  font-size: 23.04px;
   color: #000;
-  line-height: 43.2px;
+  line-height: 46.08px;
 }
 
 h4 {
   font-family: "Microsoft YaHei", Overlock, sans-serif;
   font-weight: bold;
-  font-size: 19.44px;
+  font-size: 20.736px;
   color: #000;
-  line-height: 38.88px;
+  line-height: 41.472px;
 }
 
 h5 {
   font-family: "Microsoft YaHei", Overlock, sans-serif;
   font-weight: bold;
-  font-size: 17.496px;
+  font-size: 18.6624px;
   color: #666;
-  line-height: 34.992px;
+  line-height: 37.3248px;
 }
 
 h6 {
   font-family: "Microsoft YaHei", Overlock, sans-serif;
   font-weight: bold;
-  font-size: 15.7464px;
+  font-size: 16.79616px;
   color: #777;
-  line-height: 31.4928px;
+  line-height: 33.59232px;
 }
 
 hr {
@@ -188,16 +188,16 @@ ol {
 }
 .archive_row .archive_year {
   color: #113D8B;
-  font-size: 24px;
+  font-size: 25.6px;
   font-weight: bold;
-  margin-top: 24px;
+  margin-top: 25.6px;
   text-align: center;
 }
 .archive_row .archive_month {
   color: #000;
-  font-size: 21.6px;
+  font-size: 23.04px;
   font-weight: bold;
-  margin-top: 21.6px;
+  margin-top: 23.04px;
   text-align: center;
 }
 .archive_row .archive_day {
