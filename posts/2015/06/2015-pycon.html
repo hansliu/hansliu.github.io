@@ -202,6 +202,15 @@
 <li><a class="reference external" href="http://www.ansible.com/">http://www.ansible.com/</a></li>
 </ul>
 </div>
+<div class="section" id="type-hints">
+<h2>type hints</h2>
+<p>Python 在變數宣告上採用的是 dynamic typing，也就是在宣告變數的時候並不需要指定其型態，而是當程式執行它的時候，才會去檢查其變數的形態與邏輯。</p>
+<p>不過，雖然 Python 採用 dynamic typing，它同時也是強型別的，所以 Python 仍然禁止任何沒有明確定義的操作，比如數字加字串。而 dynamic typing 雖然替程式開發者帶來了更大的彈性，但缺點就是產生較差的效能，因為所有的檢查都會在執行的時候才做處理。</p>
+<p>此次 keynote 透過分享 PEP 0484 Type Hints 這個章節，讓程式開發者可以透過 typing 這個 module 來預先替變數指定型態，增加 Python 在執行上的效能。</p>
+<ul class="simple">
+<li><a class="reference external" href="https://www.python.org/dev/peps/pep-0484/">https://www.python.org/dev/peps/pep-0484/</a></li>
+</ul>
+</div>
 
         </div>
 
@@ -209,10 +218,10 @@
           <h3>Related content</h3>
           <!-- TODO: Use fancier related layout, as in http://kevin.deldycke.com/2012/04/beautify-contextual-related-posts-wordpress-plugin/ -->
           <ul>
-              <li><a href="http://www.hansliu.com/posts/2014/06/2014-pycon.html">2014 PyCon</a></li>
               <li><a href="http://www.hansliu.com/posts/2014/11/github-process-count-supervisor.html">使用 Process Count Supervisor + Cronjob 管理背景行程數</a></li>
-              <li><a href="http://www.hansliu.com/posts/2014/04/github-name-expansion.html">使用 Name Expansion + Fabric 同時部屬多台機器</a></li>
               <li><a href="http://www.hansliu.com/posts/2014/03/hello-pelican-github-pages.html">Hello Pelican + GitHub Pages</a></li>
+              <li><a href="http://www.hansliu.com/posts/2014/04/github-name-expansion.html">使用 Name Expansion + Fabric 同時部屬多台機器</a></li>
+              <li><a href="http://www.hansliu.com/posts/2014/06/2014-pycon.html">2014 PyCon</a></li>
           </ul>
         </div>
 

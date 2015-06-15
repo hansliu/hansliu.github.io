@@ -53,6 +53,15 @@
 &lt;li&gt;&lt;a class="reference external" href="http://www.ansible.com/"&gt;http://www.ansible.com/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
+&lt;div class="section" id="type-hints"&gt;
+&lt;h2&gt;type hints&lt;/h2&gt;
+&lt;p&gt;Python 在變數宣告上採用的是 dynamic typing，也就是在宣告變數的時候並不需要指定其型態，而是當程式執行它的時候，才會去檢查其變數的形態與邏輯。&lt;/p&gt;
+&lt;p&gt;不過，雖然 Python 採用 dynamic typing，它同時也是強型別的，所以 Python 仍然禁止任何沒有明確定義的操作，比如數字加字串。而 dynamic typing 雖然替程式開發者帶來了更大的彈性，但缺點就是產生較差的效能，因為所有的檢查都會在執行的時候才做處理。&lt;/p&gt;
+&lt;p&gt;此次 keynote 透過分享 PEP 0484 Type Hints 這個章節，讓程式開發者可以透過 typing 這個 module 來預先替變數指定型態，增加 Python 在執行上的效能。&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.python.org/dev/peps/pep-0484/"&gt;https://www.python.org/dev/peps/pep-0484/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
 </summary><category term="Python"></category></entry><entry><title>為什麼 MVC 實作不一樣</title><link href="http://www.hansliu.com/posts/2015/03/why-do-not-mvc-pattern-look-like.html" rel="alternate"></link><updated>2015-03-01T06:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2015-03-01:posts/2015/03/why-do-not-mvc-pattern-look-like.html</id><summary type="html">&lt;p&gt;這篇文章最早是用來回應 Python 社群對於 MVC 的討論內容，同時把它記錄在自己的部落格上。&lt;/p&gt;
 &lt;p&gt;其原文探討的是為什麼每套 Framework 對於 MVC 設計上都有一套自己的見解，即使設計和實作上不一樣，卻都說自家的 Framework 包含（支援） MVC。&lt;/p&gt;
 &lt;p&gt;在討論這個問題之前，我們首先要認識一下 MVC 的由來，至於有關 MVC 設計的細節將不是本篇的重點，對細節有興趣的人可以從我文內分享的文章或是從書本中得到更完整的說明。&lt;/p&gt;
