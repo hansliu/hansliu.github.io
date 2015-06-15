@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>Hans Blog</title><link href="http://www.hansliu.com/" rel="alternate"></link><link href="http://www.hansliu.com/feeds/all.atom.xml" rel="self"></link><id>http://www.hansliu.com/</id><updated>2015-06-14T12:00:00+08:00</updated><entry><title>繡球花</title><link href="http://www.hansliu.com/posts/2015/06/flower-hydrangea.html" rel="alternate"></link><updated>2015-06-14T12:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2015-06-14:posts/2015/06/flower-hydrangea.html</id><summary type="html">&lt;div class="img-center"&gt;&lt;p&gt;&lt;a class="reference external" href="https://lh3.googleusercontent.com/-xSemBSs04ek/VX1Pz3coGFI/AAAAAAAAOnw/Ho_LVb9_xMM/s1600/P6130003copy.jpg"&gt;&lt;img alt="image0" src="https://lh3.googleusercontent.com/-xSemBSs04ek/VX1Pz3coGFI/AAAAAAAAOnw/Ho_LVb9_xMM/s800/P6130003copy.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;&lt;div style="text-align: center;"&gt;&lt;p&gt;繡球花‧陽明山&lt;/p&gt;
+&lt;/div&gt;&lt;div style="text-align: center;"&gt;&lt;p&gt;繡球花‧陽明山高家花田&lt;/p&gt;
 &lt;/div&gt;&lt;p&gt;#2&lt;/p&gt;
 &lt;p&gt;&lt;a class="reference external" href="https://lh3.googleusercontent.com/-nDjzqoCRP_c/VX1Pz8ysHHI/AAAAAAAAOnE/8ACeChn2uOs/s1600/P6130002copy.jpg"&gt;&lt;img alt="image1" src="https://lh3.googleusercontent.com/-nDjzqoCRP_c/VX1Pz8ysHHI/AAAAAAAAOnE/8ACeChn2uOs/s800/P6130002copy.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;#3&lt;/p&gt;
@@ -19,6 +19,10 @@
 &lt;p&gt;&lt;a class="reference external" href="https://lh3.googleusercontent.com/-S38VToEXlPc/VX1P19qks6I/AAAAAAAAOno/c6K6xIIM-GE/s1600/P6130069copy.jpg"&gt;&lt;img alt="image8" src="https://lh3.googleusercontent.com/-S38VToEXlPc/VX1P19qks6I/AAAAAAAAOno/c6K6xIIM-GE/s800/P6130069copy.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;#10&lt;/p&gt;
 &lt;p&gt;&lt;a class="reference external" href="https://lh3.googleusercontent.com/-RNJJXonBoII/VX1P2aS4yxI/AAAAAAAAOn0/R3DHYeUTuKg/s1600/P6130071copy.jpg"&gt;&lt;img alt="image9" src="https://lh3.googleusercontent.com/-RNJJXonBoII/VX1P2aS4yxI/AAAAAAAAOn0/R3DHYeUTuKg/s800/P6130071copy.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;使用相機： Olympus E-M5MarkII&lt;/div&gt;
+&lt;div class="line"&gt;使用鏡頭： Olympus M.ZUIKO DIGITAL ED 17mm f1.8&lt;/div&gt;
+&lt;/div&gt;
 </summary><category term="Taiwan"></category><category term="Olympus DSLR"></category></entry><entry><title>2015 PyCon</title><link href="http://www.hansliu.com/posts/2015/06/2015-pycon.html" rel="alternate"></link><updated>2015-06-08T23:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2015-06-08:posts/2015/06/2015-pycon.html</id><summary type="html">&lt;div class="img-center"&gt;&lt;p&gt;&lt;a class="reference external" href="https://lh3.googleusercontent.com/-PWwg2yshhX4/VXb248gk16I/AAAAAAAAOmQ/C6HT4hX1o4w/s1600/IMG_0183.JPG"&gt;&lt;img alt="image0" src="https://lh3.googleusercontent.com/-PWwg2yshhX4/VXb248gk16I/AAAAAAAAOmQ/C6HT4hX1o4w/s800/IMG_0183.JPG" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;&lt;p&gt;今年 PyCon APAC 是在台灣舉辦，活動的規模也擴增到了三天，感謝 Rick 的協助，讓我順利用早鳥票報名 PyCon APAC 啦！&lt;/p&gt;
 &lt;p&gt;這次聽到有趣的 library 和 framework 比較少，大多在於如何利用 Python 去實踐一些想法，或是利用在不同領域的研究，其中有不少贊助廠商的分享也還不錯。&lt;/p&gt;
