@@ -32,6 +32,7 @@ a:hover {
 h1 {
   font-family: "Microsoft YaHei", Overlock, sans-serif;
   font-weight: bold;
+  letter-spacing: 0.1em;
   font-size: 32px;
   line-height: 64px;
 }
@@ -39,6 +40,7 @@ h1 {
 h2 {
   font-family: "Microsoft YaHei", Overlock, sans-serif;
   font-weight: bold;
+  letter-spacing: 0.1em;
   font-size: 25.6px;
   color: #113D8B;
   line-height: 51.2px;
@@ -47,6 +49,7 @@ h2 {
 h3 {
   font-family: "Microsoft YaHei", Overlock, sans-serif;
   font-weight: bold;
+  letter-spacing: 0.1em;
   font-size: 23.04px;
   color: #000;
   line-height: 46.08px;
@@ -55,14 +58,16 @@ h3 {
 h4 {
   font-family: "Microsoft YaHei", Overlock, sans-serif;
   font-weight: bold;
+  letter-spacing: 0.1em;
   font-size: 20.736px;
-  color: #000;
+  color: #333;
   line-height: 41.472px;
 }
 
 h5 {
   font-family: "Microsoft YaHei", Overlock, sans-serif;
   font-weight: bold;
+  letter-spacing: 0.1em;
   font-size: 18.6624px;
   color: #666;
   line-height: 37.3248px;
@@ -71,6 +76,7 @@ h5 {
 h6 {
   font-family: "Microsoft YaHei", Overlock, sans-serif;
   font-weight: bold;
+  letter-spacing: 0.1em;
   font-size: 16.79616px;
   color: #777;
   line-height: 33.59232px;

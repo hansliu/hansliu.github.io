@@ -47,6 +47,7 @@ a {
 @mixin headings {
   font-family: "Microsoft YaHei", Overlock, sans-serif;
   font-weight: bold;
+  letter-spacing: 0.1em;
 }
 
 h1 {
@@ -72,7 +73,7 @@ h3 {
 h4 {
   @include headings;
   font-size: $h4size;
-  color: #000;
+  color: #333;
   line-height: $h4size * 2;
 }
 
