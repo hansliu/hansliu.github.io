@@ -375,7 +375,6 @@ li:last-child .hentry {
 }
 
 .entry-content .label {
-  color: black;
   background-color: lightblue;
   text-transform: uppercase;
   letter-spacing: 1px;
