@@ -47,7 +47,6 @@ a {
 @mixin headings {
   font-family: "Microsoft YaHei", Overlock, sans-serif;
   font-weight: bold;
-  letter-spacing: 0.1em;
 }
 
 h1 {
@@ -353,6 +352,9 @@ img.left, figure.left {
 
 #sidebar {
   padding: 0.5em;
+  .title {
+    letter-spacing: 0.1em;
+  }
 }
 
 #site-footer {
