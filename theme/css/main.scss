@@ -58,14 +58,14 @@ h1 {
 h2 {
   @include headings;
   font-size: $h2size;
-  color: #113D8B;
+  color: darkblue;
   line-height: $h2size * 2;
 }
 
 h3 {
   @include headings;
   font-size: $h3size;
-  color: #000;
+  color: darkblue;
   line-height: $h3size * 2;
 }
 
