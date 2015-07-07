@@ -1,5 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Hans Blog</title><link href="http://www.hansliu.com/" rel="alternate"></link><link href="http://www.hansliu.com/feeds/all.atom.xml" rel="self"></link><id>http://www.hansliu.com/</id><updated>2015-06-14T12:00:00+08:00</updated><entry><title>繡球花</title><link href="http://www.hansliu.com/posts/2015/06/flower-hydrangea.html" rel="alternate"></link><updated>2015-06-14T12:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2015-06-14:posts/2015/06/flower-hydrangea.html</id><summary type="html">&lt;div class="img-center"&gt;&lt;p&gt;&lt;a class="reference external" href="https://lh3.googleusercontent.com/-xSemBSs04ek/VX1Pz3coGFI/AAAAAAAAOnw/Ho_LVb9_xMM/s1600/P6130003copy.jpg"&gt;&lt;img alt="image0" src="https://lh3.googleusercontent.com/-xSemBSs04ek/VX1Pz3coGFI/AAAAAAAAOnw/Ho_LVb9_xMM/s800/P6130003copy.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Hans Blog</title><link href="http://www.hansliu.com/" rel="alternate"></link><link href="http://www.hansliu.com/feeds/all.atom.xml" rel="self"></link><id>http://www.hansliu.com/</id><updated>2015-07-07T23:00:00+08:00</updated><entry><title>Taiwan eTraining Course Finder in Heroku</title><link href="http://www.hansliu.com/posts/2015/07/github-etraining-course-finder-heroku.html" rel="alternate"></link><updated>2015-07-07T23:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2015-07-07:posts/2015/07/github-etraining-course-finder-heroku.html</id><summary type="html">&lt;p&gt;因為勞動部勞動力發展署網站實在太難用，所以自己開發一個好用的網站，然後部屬到 Heroku 上面。&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://hansliu-finder.herokuapp.com"&gt;Taiwan eTraining Course Finder 網站&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;實作上採用的是 Python3 搭配 Flask 架構。&lt;/p&gt;
+&lt;p&gt;在課程資料來源的部份，使用 Selenium 收集勞動部勞動力發展署網站公開的課程資料（目前收集的課程範圍只有臺北市和新北市），然後將課程資料建置索引之後儲存於 Sqlite3 的資料庫中，最後設定 cronjob 定期更新資料庫。&lt;/p&gt;
+&lt;p&gt;目前的功能：&lt;/p&gt;
+&lt;ol class="arabic simple"&gt;
+&lt;li&gt;直覺式的課程尋找. (暫時限定: 臺北市, 新北市)&lt;/li&gt;
+&lt;li&gt;顯示課程資訊、課程的報名時間與開訓時間。&lt;/li&gt;
+&lt;li&gt;顯示課程代碼，可以連結到相關課程的詳細介紹頁面。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="section" id="id1"&gt;
+&lt;h2&gt;建置課程資料庫&lt;/h2&gt;
+&lt;p&gt;只要直接執行 model.py 就會完成收集課程資料和建立資料庫等動作。&lt;/p&gt;
+&lt;p&gt;簡單的 use case:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+# build up db
+cd etraining-course-finder-heroku/
+python3.* ./etraining_course_finder/model.py
+
+# update db to github
+git pull ; git add -u ; git commit -m'updated db' ; git push
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div class="section" id="heroku"&gt;
+&lt;h2&gt;部屬到 Heroku&lt;/h2&gt;
+&lt;p&gt;很久以前就摸索過 Heroku 這個 PaaS 網站，當時就覺得 Heroku 很簡單好用，不論在安裝和部屬上都算是相當容易，有 github 的專案都可以直接 deployment，不過當你有使用到 Heroku 內建 plugin 的時候，就必須先透過信用卡卡號認證，即使你只是要用免費的 plugin，這算是稍嫌麻煩一點的地方。&lt;/p&gt;
+&lt;p&gt;同時，因為 Heroku 無法安裝 browser，就無法直接執行 Selenium，所以目前定期更新資料庫的 cronjob 是跑在本機端上面。&lt;/p&gt;
+&lt;p&gt;詳細使用教學可以參照 Github repository 的說明。&lt;/p&gt;
+&lt;p&gt;Github repository link: &lt;a class="reference external" href="https://github.com/hansliu/etraining-course-finder-heroku"&gt;https://github.com/hansliu/etraining-course-finder-heroku&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+</summary><category term="Python"></category><category term="Github"></category><category term="Heroku"></category></entry><entry><title>繡球花</title><link href="http://www.hansliu.com/posts/2015/06/flower-hydrangea.html" rel="alternate"></link><updated>2015-06-14T12:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2015-06-14:posts/2015/06/flower-hydrangea.html</id><summary type="html">&lt;div class="img-center"&gt;&lt;p&gt;&lt;a class="reference external" href="https://lh3.googleusercontent.com/-xSemBSs04ek/VX1Pz3coGFI/AAAAAAAAOnw/Ho_LVb9_xMM/s1600/P6130003copy.jpg"&gt;&lt;img alt="image0" src="https://lh3.googleusercontent.com/-xSemBSs04ek/VX1Pz3coGFI/AAAAAAAAOnw/Ho_LVb9_xMM/s800/P6130003copy.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;&lt;div style="text-align: center;"&gt;&lt;p&gt;繡球花‧陽明山高家花田&lt;/p&gt;
 &lt;/div&gt;&lt;p&gt;#2&lt;/p&gt;
 &lt;p&gt;&lt;a class="reference external" href="https://lh3.googleusercontent.com/-nDjzqoCRP_c/VX1Pz8ysHHI/AAAAAAAAOnE/8ACeChn2uOs/s1600/P6130002copy.jpg"&gt;&lt;img alt="image1" src="https://lh3.googleusercontent.com/-nDjzqoCRP_c/VX1Pz8ysHHI/AAAAAAAAOnE/8ACeChn2uOs/s800/P6130002copy.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -350,28 +380,4 @@ BrewDog 是來自蘇格蘭東北角亞伯丁郡（Aberdeenshire）的精釀啤�
 &lt;p&gt;&lt;a class="reference external" href="https://lh4.googleusercontent.com/-OdSRTdjhJns/VQG25X-93_I/AAAAAAAANPw/9CF_PFaTGZQ/s1600/P2157431copy.jpg"&gt;&lt;img alt="image23" src="https://lh4.googleusercontent.com/-OdSRTdjhJns/VQG25X-93_I/AAAAAAAANPw/9CF_PFaTGZQ/s800/P2157431copy.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;#25&lt;/p&gt;
 &lt;p&gt;&lt;a class="reference external" href="https://lh6.googleusercontent.com/-pIid09bHanQ/VQG0Im9Wl4I/AAAAAAAANNo/9HesSdPG4H0/s1600/P2157432copy.jpg"&gt;&lt;img alt="image24" src="https://lh6.googleusercontent.com/-pIid09bHanQ/VQG0Im9Wl4I/AAAAAAAANNo/9HesSdPG4H0/s800/P2157432copy.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
-</summary><category term="Olympus DSLR"></category><category term="Portrait"></category></entry><entry><title>Cosplay《LoveLive!》Nico</title><link href="http://www.hansliu.com/posts/2015/03/cosplay-lovelive-nico.html" rel="alternate"></link><updated>2015-03-03T21:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2015-03-03:posts/2015/03/cosplay-lovelive-nico.html</id><summary type="html">&lt;p&gt;&lt;a class="reference external" href="https://lh5.googleusercontent.com/-cxfrnlU7TXs/VPSvUeOHqDI/AAAAAAAAM4w/SwHSJjeToNs/s1600/P2287642copy.jpg"&gt;&lt;img alt="image0" src="https://lh5.googleusercontent.com/-cxfrnlU7TXs/VPSvUeOHqDI/AAAAAAAAM4w/SwHSJjeToNs/s800/P2287642copy.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;div style="text-align: center;"&gt;&lt;p&gt;Comic World in Taiwan 39 Day 1&lt;/p&gt;
-&lt;/p&gt;&lt;p&gt;Cosplay《LoveLive!》Nico&lt;/p&gt;
-&lt;/div&gt;&lt;div style="text-align: center;"&gt;&lt;p&gt;Nico / Ni Mo&lt;/p&gt;
-&lt;/div&gt;&lt;p&gt;#2&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://lh6.googleusercontent.com/-kyv2EF924-s/VPSvTUBsUmI/AAAAAAAAM4c/J_5oUUS-0mE/s1600/P2287625copy.jpg"&gt;&lt;img alt="image1" src="https://lh6.googleusercontent.com/-kyv2EF924-s/VPSvTUBsUmI/AAAAAAAAM4c/J_5oUUS-0mE/s800/P2287625copy.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;#3&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://lh3.googleusercontent.com/-sNnhp4oqtv4/VPSvRHOyZaI/AAAAAAAAM4M/3iKBdDzqUiM/s1600/P2287587copy.jpg"&gt;&lt;img alt="image2" src="https://lh3.googleusercontent.com/-sNnhp4oqtv4/VPSvRHOyZaI/AAAAAAAAM4M/3iKBdDzqUiM/s800/P2287587copy.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;#4&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://lh3.googleusercontent.com/-H8m5mW7YQPc/VPSvRIhGEYI/AAAAAAAAM4Q/TuQGyUw2W8Y/s1600/P2287598copy.jpg"&gt;&lt;img alt="image3" src="https://lh3.googleusercontent.com/-H8m5mW7YQPc/VPSvRIhGEYI/AAAAAAAAM4Q/TuQGyUw2W8Y/s800/P2287598copy.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;#5&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://lh6.googleusercontent.com/-38oCoI06Zcs/VPSvSSPAeLI/AAAAAAAAM40/YmpJjURoWKA/s1600/P2287609copy.jpg"&gt;&lt;img alt="image4" src="https://lh6.googleusercontent.com/-38oCoI06Zcs/VPSvSSPAeLI/AAAAAAAAM40/YmpJjURoWKA/s800/P2287609copy.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;#6&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://lh5.googleusercontent.com/-bFL3y9kZ5Gs/VPSvSpqmHmI/AAAAAAAAM4g/CzRgrzedyds/s1600/P2287619copy.jpg"&gt;&lt;img alt="image5" src="https://lh5.googleusercontent.com/-bFL3y9kZ5Gs/VPSvSpqmHmI/AAAAAAAAM4g/CzRgrzedyds/s800/P2287619copy.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;#7&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://lh6.googleusercontent.com/-ZyN3khwYHu0/VPSvTnpjDYI/AAAAAAAAM4k/enSEajnNQZM/s1600/P2287635copy.jpg"&gt;&lt;img alt="image6" src="https://lh6.googleusercontent.com/-ZyN3khwYHu0/VPSvTnpjDYI/AAAAAAAAM4k/enSEajnNQZM/s800/P2287635copy.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;#8&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://lh6.googleusercontent.com/-TxA7YPGOAv8/VPSv0b3Et5I/AAAAAAAAM5M/1H3TvLXrrQw/s1600/P2287581copy.jpg"&gt;&lt;img alt="image7" src="https://lh6.googleusercontent.com/-TxA7YPGOAv8/VPSv0b3Et5I/AAAAAAAAM5M/1H3TvLXrrQw/s800/P2287581copy.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;#9&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://lh5.googleusercontent.com/-gvgdvFkIVe8/VPSv0bKjdVI/AAAAAAAAM5Q/DDPto9IbbEM/s1600/P2287585copy.jpg"&gt;&lt;img alt="image8" src="https://lh5.googleusercontent.com/-gvgdvFkIVe8/VPSv0bKjdVI/AAAAAAAAM5Q/DDPto9IbbEM/s800/P2287585copy.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;#10&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://lh6.googleusercontent.com/-mupAZLovfDM/VPSv0qYbhXI/AAAAAAAAM5U/ugtkGmhjmh4/s1600/P2287589copy.jpg"&gt;&lt;img alt="image9" src="https://lh6.googleusercontent.com/-mupAZLovfDM/VPSv0qYbhXI/AAAAAAAAM5U/ugtkGmhjmh4/s800/P2287589copy.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;#11 感謝 Ni Mo 配合我拍了又拍，才能有這些照片的誕生。&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://lh6.googleusercontent.com/-GO8swp7WGtk/VPSvRCX5iOI/AAAAAAAAM44/DlAREMFGjCo/s1600/P2287577copy.jpg"&gt;&lt;img alt="image10" src="https://lh6.googleusercontent.com/-GO8swp7WGtk/VPSvRCX5iOI/AAAAAAAAM44/DlAREMFGjCo/s800/P2287577copy.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
-</summary><category term="Olympus DSLR"></category><category term="LoveLive!"></category></entry></feed>
+</summary><category term="Olympus DSLR"></category><category term="Portrait"></category></entry></feed>

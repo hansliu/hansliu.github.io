@@ -1,5 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Hans Blog</title><link href="http://www.hansliu.com/" rel="alternate"></link><link href="http://www.hansliu.com/feeds/xie-cheng-shi.atom.xml" rel="self"></link><id>http://www.hansliu.com/</id><updated>2015-06-08T23:00:00+08:00</updated><entry><title>2015 PyCon</title><link href="http://www.hansliu.com/posts/2015/06/2015-pycon.html" rel="alternate"></link><updated>2015-06-08T23:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2015-06-08:posts/2015/06/2015-pycon.html</id><summary type="html">&lt;div class="img-center"&gt;&lt;p&gt;&lt;a class="reference external" href="https://lh3.googleusercontent.com/-PWwg2yshhX4/VXb248gk16I/AAAAAAAAOmQ/C6HT4hX1o4w/s1600/IMG_0183.JPG"&gt;&lt;img alt="image0" src="https://lh3.googleusercontent.com/-PWwg2yshhX4/VXb248gk16I/AAAAAAAAOmQ/C6HT4hX1o4w/s800/IMG_0183.JPG" /&gt;&lt;/a&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Hans Blog</title><link href="http://www.hansliu.com/" rel="alternate"></link><link href="http://www.hansliu.com/feeds/xie-cheng-shi.atom.xml" rel="self"></link><id>http://www.hansliu.com/</id><updated>2015-07-07T23:00:00+08:00</updated><entry><title>Taiwan eTraining Course Finder in Heroku</title><link href="http://www.hansliu.com/posts/2015/07/github-etraining-course-finder-heroku.html" rel="alternate"></link><updated>2015-07-07T23:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2015-07-07:posts/2015/07/github-etraining-course-finder-heroku.html</id><summary type="html">&lt;p&gt;因為勞動部勞動力發展署網站實在太難用，所以自己開發一個好用的網站，然後部屬到 Heroku 上面。&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://hansliu-finder.herokuapp.com"&gt;Taiwan eTraining Course Finder 網站&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;實作上採用的是 Python3 搭配 Flask 架構。&lt;/p&gt;
+&lt;p&gt;在課程資料來源的部份，使用 Selenium 收集勞動部勞動力發展署網站公開的課程資料（目前收集的課程範圍只有臺北市和新北市），然後將課程資料建置索引之後儲存於 Sqlite3 的資料庫中，最後設定 cronjob 定期更新資料庫。&lt;/p&gt;
+&lt;p&gt;目前的功能：&lt;/p&gt;
+&lt;ol class="arabic simple"&gt;
+&lt;li&gt;直覺式的課程尋找. (暫時限定: 臺北市, 新北市)&lt;/li&gt;
+&lt;li&gt;顯示課程資訊、課程的報名時間與開訓時間。&lt;/li&gt;
+&lt;li&gt;顯示課程代碼，可以連結到相關課程的詳細介紹頁面。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="section" id="id1"&gt;
+&lt;h2&gt;建置課程資料庫&lt;/h2&gt;
+&lt;p&gt;只要直接執行 model.py 就會完成收集課程資料和建立資料庫等動作。&lt;/p&gt;
+&lt;p&gt;簡單的 use case:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+# build up db
+cd etraining-course-finder-heroku/
+python3.* ./etraining_course_finder/model.py
+
+# update db to github
+git pull ; git add -u ; git commit -m'updated db' ; git push
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div class="section" id="heroku"&gt;
+&lt;h2&gt;部屬到 Heroku&lt;/h2&gt;
+&lt;p&gt;很久以前就摸索過 Heroku 這個 PaaS 網站，當時就覺得 Heroku 很簡單好用，不論在安裝和部屬上都算是相當容易，有 github 的專案都可以直接 deployment，不過當你有使用到 Heroku 內建 plugin 的時候，就必須先透過信用卡卡號認證，即使你只是要用免費的 plugin，這算是稍嫌麻煩一點的地方。&lt;/p&gt;
+&lt;p&gt;同時，因為 Heroku 無法安裝 browser，就無法直接執行 Selenium，所以目前定期更新資料庫的 cronjob 是跑在本機端上面。&lt;/p&gt;
+&lt;p&gt;詳細使用教學可以參照 Github repository 的說明。&lt;/p&gt;
+&lt;p&gt;Github repository link: &lt;a class="reference external" href="https://github.com/hansliu/etraining-course-finder-heroku"&gt;https://github.com/hansliu/etraining-course-finder-heroku&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+</summary><category term="Python"></category><category term="Github"></category><category term="Heroku"></category></entry><entry><title>2015 PyCon</title><link href="http://www.hansliu.com/posts/2015/06/2015-pycon.html" rel="alternate"></link><updated>2015-06-08T23:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2015-06-08:posts/2015/06/2015-pycon.html</id><summary type="html">&lt;div class="img-center"&gt;&lt;p&gt;&lt;a class="reference external" href="https://lh3.googleusercontent.com/-PWwg2yshhX4/VXb248gk16I/AAAAAAAAOmQ/C6HT4hX1o4w/s1600/IMG_0183.JPG"&gt;&lt;img alt="image0" src="https://lh3.googleusercontent.com/-PWwg2yshhX4/VXb248gk16I/AAAAAAAAOmQ/C6HT4hX1o4w/s800/IMG_0183.JPG" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;&lt;p&gt;今年 PyCon APAC 是在台灣舉辦，活動的規模也擴增到了三天，感謝 Rick 的協助，讓我順利用早鳥票報名 PyCon APAC 啦！&lt;/p&gt;
 &lt;p&gt;這次聽到有趣的 library 和 framework 比較少，大多在於如何利用 Python 去實踐一些想法，或是利用在不同領域的研究，其中有不少贊助廠商的分享也還不錯。&lt;/p&gt;
 &lt;p&gt;三天的演講內容摘要可以參考 hackpad 的共筆。&lt;/p&gt;
