@@ -5,7 +5,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://www.hansliu.com/</loc>
-<lastmod>2015-09-11T14:31:37-00:00</lastmod>
+<lastmod>2015-11-20T16:02:36-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -28,6 +28,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <loc>http://www.hansliu.com/pages/photographer.html</loc>
 <lastmod>2014-12-15T21:00:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://www.hansliu.com/posts/2015/11/2015-travel-osaka-kyoto-kobe.html</loc>
+<lastmod>2015-11-20T02:00:00+08:00</lastmod>
+<changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
@@ -1034,7 +1041,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://www.hansliu.com/category/chi-he-wan-le/</loc>
-<lastmod>2015-05-15T12:00:00+08:06</lastmod>
+<lastmod>2015-11-20T02:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1111,7 +1118,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://www.hansliu.com/tag/osaka/</loc>
-<lastmod>2014-11-16T12:00:00+08:06</lastmod>
+<lastmod>2015-11-20T02:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1152,6 +1159,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>http://www.hansliu.com/tag/japan/</loc>
+<lastmod>2015-11-20T02:00:00+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>http://www.hansliu.com/tag/portrait/</loc>
 <lastmod>2015-09-12T12:30:00+08:06</lastmod>
 <changefreq>daily</changefreq>
@@ -1159,8 +1173,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>http://www.hansliu.com/tag/japan/</loc>
-<lastmod>2015-05-15T12:00:00+08:06</lastmod>
+<loc>http://www.hansliu.com/tag/kobe/</loc>
+<lastmod>2015-11-20T02:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1321,7 +1335,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://www.hansliu.com/tag/kyoto/</loc>
-<lastmod>2014-11-16T12:00:00+08:06</lastmod>
+<lastmod>2015-11-20T02:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
