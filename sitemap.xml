@@ -5,7 +5,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://www.hansliu.com/</loc>
-<lastmod>2015-12-03T14:50:31-00:00</lastmod>
+<lastmod>2015-12-03T14:52:22-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -153,13 +153,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://www.hansliu.com/posts/2015/02/cosplay-the-seven-deadly-sins-king.html</loc>
 <lastmod>2015-02-19T23:00:00+08:00</lastmod>
-<changefreq>weekly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>http://www.hansliu.com/posts/2014/12/about.html</loc>
-<lastmod>2014-12-15T21:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1043,13 +1036,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <loc>http://www.hansliu.com/posts/2009/06/sakura-night.html</loc>
 <lastmod>2009-06-03T19:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>http://www.hansliu.com/category/blogger-posts/</loc>
-<lastmod>2014-12-15T21:00:00+08:06</lastmod>
-<changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
