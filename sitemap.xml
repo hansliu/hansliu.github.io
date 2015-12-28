@@ -5,7 +5,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://www.hansliu.com/</loc>
-<lastmod>2015-12-27T13:41:58-00:00</lastmod>
+<lastmod>2015-12-28T11:08:47-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -389,6 +389,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>http://www.hansliu.com/posts/2013/07/vivitar-in-singapore.html</loc>
+<lastmod>2013-07-13T14:28:00+08:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>http://www.hansliu.com/posts/2012/12/2012-merry-christmas-taiwan.html</loc>
 <lastmod>2012-12-30T01:07:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
@@ -473,6 +480,20 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>http://www.hansliu.com/posts/2012/06/2012-pycon.html</loc>
+<lastmod>2012-06-18T15:35:00+08:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://www.hansliu.com/posts/2012/05/sbl-pureyouth-vs-dacin-game-4.html</loc>
+<lastmod>2012-05-31T08:59:00+08:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>http://www.hansliu.com/posts/2012/05/vivitar-dnp.html</loc>
 <lastmod>2012-05-12T17:19:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
@@ -489,6 +510,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://www.hansliu.com/posts/2012/04/gegege-gui-tai-lang.html</loc>
 <lastmod>2012-04-05T02:20:00+08:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://www.hansliu.com/posts/2012/02/rdss-interview-4.html</loc>
+<lastmod>2012-02-09T16:47:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -935,6 +963,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>http://www.hansliu.com/posts/2010/04/canon-ae-1-blue-and-green.html</loc>
+<lastmod>2010-04-28T04:26:00+08:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>http://www.hansliu.com/posts/2010/04/graduate-entrance-exam-3.html</loc>
 <lastmod>2015-06-13T23:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
@@ -1348,13 +1383,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>http://www.hansliu.com/tag/graduate/</loc>
-<lastmod>2011-09-28T17:43:00+08:06</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
 <loc>http://www.hansliu.com/tag/blog/</loc>
 <lastmod>2014-11-19T22:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
@@ -1391,7 +1419,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://www.hansliu.com/tag/interview/</loc>
-<lastmod>2011-12-23T00:06:00+08:06</lastmod>
+<lastmod>2012-02-09T16:47:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1511,6 +1539,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://www.hansliu.com/tag/ntut/</loc>
 <lastmod>2011-11-05T23:00:00+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://www.hansliu.com/tag/sbl/</loc>
+<lastmod>2012-05-31T08:59:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>

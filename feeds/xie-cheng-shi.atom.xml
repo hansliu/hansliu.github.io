@@ -243,4 +243,36 @@ fab h:host[1-3].com deploy
 &lt;/pre&gt;
 &lt;p&gt;詳細使用教學可以參照 Github repository 的說明。&lt;/p&gt;
 &lt;p&gt;Github repository link: &lt;a class="reference external" href="https://github.com/hansliu/name-expansion"&gt;https://github.com/hansliu/name-expansion&lt;/a&gt;&lt;/p&gt;
-</summary><category term="Python"></category><category term="Github"></category></entry></feed>
+</summary><category term="Python"></category><category term="Github"></category></entry><entry><title>2012 PyCon</title><link href="http://www.hansliu.com/posts/2012/06/2012-pycon.html" rel="alternate"></link><updated>2012-06-18T15:35:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2012-06-18:posts/2012/06/2012-pycon.html</id><summary type="html">&lt;div class="img-center"&gt;&lt;p&gt;&lt;img alt="image0" src="https://lh4.googleusercontent.com/-pn-a1nAUS4g/T9oa2YdUNYI/AAAAAAAAIx8/3Ukf8f4cOCk/s800/pycon2012.png" /&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;p&gt;PyCon，亦即 Python 年會，是 Python 社群最大型的年度聚會。PyCon
+是社群同好自發籌辦的活動，展現 Python
+在各式領域的應用現況。我們致力讓台灣 Python
+年會成為高品質的專業活動，讓與會朋友享受技術交流的樂趣，體驗社群獨有的熱情。&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://tw.pycon.org/2012/"&gt;http://tw.pycon.org/2012/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;紀錄一下參加 Python 年會的筆記...&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;網站建置&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;擅用 RSS 做最新公告&lt;/div&gt;
+&lt;div class="line"&gt;擅用 BigPipe 做循序顯示&lt;/div&gt;
+&lt;div class="line"&gt;擅用 UI 工具做介面設計&lt;/div&gt;
+&lt;div class="line"&gt;User Interface Design:&lt;/div&gt;
+&lt;div class="line"&gt;Twitter Bootstrap for UI &lt;a class="reference external" href="http://twitter.github.com/bootstrap/"&gt;http://twitter.github.com/bootstrap/&lt;/a&gt;&lt;/div&gt;
+&lt;div class="line"&gt;Google Web Fonts for text &lt;a class="reference external" href="http://www.google.com/webfonts"&gt;http://www.google.com/webfonts&lt;/a&gt;&lt;/div&gt;
+&lt;div class="line"&gt;Icon Fonts for icon&lt;/div&gt;
+&lt;div class="line"&gt;空間供應商 linode.com&lt;/div&gt;
+&lt;div class="line"&gt;資料庫 mongodb&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Framework&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;Clime&lt;/div&gt;
+&lt;div class="line"&gt;Django &lt;a class="reference external" href="https://www.djangoproject.com/"&gt;https://www.djangoproject.com/&lt;/a&gt;&lt;/div&gt;
+&lt;div class="line"&gt;Jinja2&lt;/div&gt;
+&lt;div class="line"&gt;Twisted &lt;a class="reference external" href="http://twistedmatrix.com/"&gt;http://twistedmatrix.com/&lt;/a&gt;&lt;/div&gt;
+&lt;div class="line"&gt;PySide&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Interest Website&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;about.me &lt;a class="reference external" href="https://about.me/"&gt;https://about.me/&lt;/a&gt;&lt;/div&gt;
+&lt;div class="line"&gt;pinkoi &lt;a class="reference external" href="http://www.pinkoi.com/"&gt;http://www.pinkoi.com/&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+</summary><category term="Python"></category></entry></feed>
