@@ -5,7 +5,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://www.hansliu.com/</loc>
-<lastmod>2016-04-11T06:45:20-00:00</lastmod>
+<lastmod>2016-04-12T15:55:13-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -21,6 +21,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <loc>http://www.hansliu.com/pages/photographer.html</loc>
 <lastmod>2014-12-15T21:00:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://www.hansliu.com/posts/2016/04/2016-travel-mojiko-and-sarakurayama.html</loc>
+<lastmod>2016-04-12T22:00:00+08:00</lastmod>
+<changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
@@ -1160,7 +1167,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://www.hansliu.com/category/chi-he-wan-le/</loc>
-<lastmod>2016-03-27T02:00:00+08:06</lastmod>
+<lastmod>2016-04-12T22:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1369,6 +1376,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>http://www.hansliu.com/tag/dong-jing/</loc>
+<lastmod>2015-05-15T12:00:00+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>http://www.hansliu.com/tag/shen-hu/</loc>
 <lastmod>2015-11-20T02:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
@@ -1510,7 +1524,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://www.hansliu.com/tag/ri-ben/</loc>
-<lastmod>2016-03-27T02:00:00+08:06</lastmod>
+<lastmod>2016-04-12T22:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1544,8 +1558,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>http://www.hansliu.com/tag/dong-jing/</loc>
-<lastmod>2015-05-15T12:00:00+08:06</lastmod>
+<loc>http://www.hansliu.com/tag/men-si-gang/</loc>
+<lastmod>2016-04-12T22:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1630,6 +1644,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://www.hansliu.com/tag/aryca/</loc>
 <lastmod>2009-08-15T10:00:00+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://www.hansliu.com/tag/min-cang-shan/</loc>
+<lastmod>2016-04-12T22:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
