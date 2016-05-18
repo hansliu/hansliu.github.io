@@ -5,7 +5,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://www.hansliu.com/</loc>
-<lastmod>2016-05-16T16:44:30-00:00</lastmod>
+<lastmod>2016-05-18T18:02:41-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -21,6 +21,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <loc>http://www.hansliu.com/pages/photographer.html</loc>
 <lastmod>2014-12-15T21:00:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://www.hansliu.com/posts/2016/05/tabelog-kyoto-1.html</loc>
+<lastmod>2016-05-18T21:00:00+08:00</lastmod>
+<changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
@@ -1174,7 +1181,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://www.hansliu.com/category/chi-he-wan-le/</loc>
-<lastmod>2016-05-15T10:00:00+08:06</lastmod>
+<lastmod>2016-05-18T21:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1468,7 +1475,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://www.hansliu.com/tag/jing-du/</loc>
-<lastmod>2016-05-15T10:00:00+08:06</lastmod>
+<lastmod>2016-05-18T21:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1552,7 +1559,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://www.hansliu.com/tag/ri-ben/</loc>
-<lastmod>2016-05-15T10:00:00+08:06</lastmod>
+<lastmod>2016-05-18T21:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
