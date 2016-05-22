@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Hans Blog</title><link href="http://www.hansliu.com/" rel="alternate"></link><link href="http://www.hansliu.com/feeds/xie-cheng-shi.atom.xml" rel="self"></link><id>http://www.hansliu.com/</id><updated>2015-07-07T23:00:00+08:00</updated><entry><title>Taiwan eTraining Course Finder in Heroku</title><link href="http://www.hansliu.com/posts/2015/07/github-etraining-course-finder-heroku.html" rel="alternate"></link><published>2015-07-07T23:00:00+08:00</published><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2015-07-07:posts/2015/07/github-etraining-course-finder-heroku.html</id><summary type="html">&lt;p&gt;因為勞動部勞動力發展署網站實在太難用，所以自己開發一個好用的網站，然後部屬到 Heroku 上面。&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://hansliu-finder.herokuapp.com"&gt;Taiwan eTraining Course Finder 網站&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;實作上採用的是 Python3 搭配 Flask 架構。&lt;/p&gt;
+&lt;p&gt;在課程資料來源的部份，使用 Selenium 收集勞動部勞動力發展署網站公開的課程資料（目前收集的課程範圍只有臺北市和新北市），然後將課程資料建置索引之後儲存於 Sqlite3 的資料庫中，最後設定 cronjob 定期更新資料庫。&lt;/p&gt;
+&lt;p&gt;目前的功能：&lt;/p&gt;
+&lt;ol class="arabic simple"&gt;
+&lt;li&gt;直覺式的課程尋找. (暫時限定: 臺北市, 新北市)&lt;/li&gt;
+&lt;li&gt;顯示課程資訊、課程的報名時間與開訓時間。&lt;/li&gt;
+&lt;li&gt;顯示課程代碼，可以連結到相關課程的詳細介紹頁面。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="section" id="id1"&gt;
+&lt;h2&gt;建置課程資料庫&lt;/h2&gt;
+&lt;p&gt;只要直接執行 model.py 就會完成收集課程資料和建立資料庫等動作。&lt;/p&gt;
+&lt;p&gt;簡單的 use case:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+# build up db
+cd etraining-course-finder-heroku/
+python3.* ./etraining_course_finder/model.py
+
+# update db to github
+git pull ; git add -u ; git commit -m'updated db' ; git push
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div class="section" id="heroku"&gt;
+&lt;h2&gt;部屬到 Heroku&lt;/h2&gt;
+&lt;p&gt;很久以前就摸索過 Heroku 這個 PaaS 網站，當時就覺得 Heroku 很簡單好用，不論在安裝和部屬上都算是相當容易，有 github 的專案都可以直接 deployment，不過當你有使用到 Heroku 內建 plugin 的時候，就必須先透過信用卡卡號認證，即使你只是要用免費的 plugin，這算是稍嫌麻煩一點的地方。&lt;/p&gt;
+&lt;p&gt;同時，因為 Heroku 無法安裝 browser，就無法直接執行 Selenium，所以目前定期更新資料庫的 cronjob 是跑在本機端上面。&lt;/p&gt;
+&lt;p&gt;詳細使用教學可以參照 Github repository 的說明。&lt;/p&gt;
+&lt;p&gt;Github repository link: &lt;a class="reference external" href="https://github.com/hansliu/etraining-course-finder-heroku"&gt;https://github.com/hansliu/etraining-course-finder-heroku&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+</summary><category term="Python"></category><category term="Github"></category><category term="Heroku"></category></entry><entry><title>2015 PyCon</title><link href="http://www.hansliu.com/posts/2015/06/2015-pycon.html" rel="alternate"></link><published>2015-06-08T23:00:00+08:00</published><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2015-06-08:posts/2015/06/2015-pycon.html</id><summary type="html">&lt;div class="img-center"&gt;&lt;p&gt;&lt;a class="reference external" href="https://lh3.googleusercontent.com/-PWwg2yshhX4/VXb248gk16I/AAAAAAAAOmQ/C6HT4hX1o4w/s1600/IMG_0183.JPG"&gt;&lt;img alt="image0" src="https://lh3.googleusercontent.com/-PWwg2yshhX4/VXb248gk16I/AAAAAAAAOmQ/C6HT4hX1o4w/s800/IMG_0183.JPG" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;p&gt;今年 PyCon APAC 是在台灣舉辦，活動的規模也擴增到了三天，感謝 Rick 的協助，讓我順利用早鳥票報名 PyCon APAC 啦！&lt;/p&gt;
+&lt;p&gt;這次聽到有趣的 library 和 framework 比較少，大多在於如何利用 Python 去實踐一些想法，或是利用在不同領域的研究，其中有不少贊助廠商的分享也還不錯。&lt;/p&gt;
+&lt;p&gt;三天的演講內容摘要可以參考 hackpad 的共筆。&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://hackpad.com/PyCon-APAC-2015-Day-1-June-5-Tt8wwkILDX0"&gt;https://hackpad.com/PyCon-APAC-2015-Day-1-June-5-Tt8wwkILDX0&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;最後還是要記錄一下今年活動覺得有趣或有用的 library。&lt;/p&gt;
+&lt;div class="section" id="hackpad"&gt;
+&lt;h2&gt;hackpad&lt;/h2&gt;
+&lt;p&gt;目前當紅的共筆服務，不論在操作和反應上都比 google doc 來的更加即時好用，相當推薦。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="readthedocs"&gt;
+&lt;h2&gt;readthedocs&lt;/h2&gt;
+&lt;p&gt;也是目前當紅的文件托管服務，已經有相當多的 open source 將它們的文件轉移到 readthedocs。&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://readthedocs.org/"&gt;https://readthedocs.org/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="urllib2-pycurl-selenium"&gt;
+&lt;h2&gt;urllib2 &amp;amp; pycurl &amp;amp; selenium&lt;/h2&gt;
+&lt;p&gt;分析網頁的三套工具，分別是 python 內建的 urllib2 library，或是模擬 linux curl 功能的 pycurl library，以及用來模擬瀏覽器動作的 selenium library，透過這三套工具來分析網頁，應該能解決絕大多數的問題。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="gevent"&gt;
+&lt;h2&gt;gevent&lt;/h2&gt;
+&lt;p&gt;隨著時代的進步，撰寫同步與非同步服務的建議不再是使用 twisted，而多半建議採用的是 gevent，這是更加輕量好用的網路協作 library，而且在程式設計上提供更容易理解的架構與方法。&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.gevent.org/"&gt;http://www.gevent.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://xlambda.com/gevent-tutorial/"&gt;http://xlambda.com/gevent-tutorial/&lt;/a&gt; 中譯&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="celery-luigi"&gt;
+&lt;h2&gt;celery &amp;amp; luigi&lt;/h2&gt;
+&lt;p&gt;這兩套 library 都是用來做 task manager 的，可惜的是不論是聽講者講的內容，或是我自己當下看了文件，都還是不太能理解這些套件的用途，只好先記錄下來，待以後有機會用到再仔細學習。&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.celeryproject.org/"&gt;http://www.celeryproject.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://luigi.readthedocs.org/"&gt;http://luigi.readthedocs.org/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="pytest"&gt;
+&lt;h2&gt;pytest&lt;/h2&gt;
+&lt;p&gt;除了 python 內建的 unittest 之外，強大的 pytest 不但可以減少測試程式的複雜度，還可以強化測試結果的輸出。&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://pytest.org/"&gt;http://pytest.org/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="ansible"&gt;
+&lt;h2&gt;ansible&lt;/h2&gt;
+&lt;p&gt;簡單說就是一套以 python 撰寫的 deployment 工具，最大特色是採用 ssh 做溝通，所以不用安裝 client tool， ansible 也是採用 roles/playbook/config 的架構做管理。&lt;/p&gt;
+&lt;p&gt;因為我沒親身使用過，所以無法評論與最多人用的 Puppet 或是 Chef 和 Salt 之間的優劣與差異，但是據我所知，每一套 deployment 工具都有它設計上的特色，建議是根據實際需求來做挑選。&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.ansible.com/"&gt;http://www.ansible.com/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="type-hints"&gt;
+&lt;h2&gt;type hints&lt;/h2&gt;
+&lt;p&gt;Python 在變數宣告上採用的是 dynamic typing，也就是在宣告變數的時候並不需要指定其型態，而是當程式執行它的時候，才會去檢查其變數的形態與邏輯。&lt;/p&gt;
+&lt;p&gt;不過，雖然 Python 採用 dynamic typing，它同時也是強型別的，所以 Python 仍然禁止任何沒有明確定義的操作，比如數字加字串。而 dynamic typing 雖然替程式開發者帶來了更大的彈性，但缺點就是產生較差的效能，因為所有的檢查都會在執行的時候才做處理。&lt;/p&gt;
+&lt;p&gt;此次 keynote 透過分享 PEP 0484 Type Hints 這個章節，讓程式開發者可以透過 typing 這個 module 來預先替變數指定型態，增加 Python 在執行上的效能。&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.python.org/dev/peps/pep-0484/"&gt;https://www.python.org/dev/peps/pep-0484/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary><category term="Python"></category></entry><entry><title>為什麼 MVC 實作不一樣</title><link href="http://www.hansliu.com/posts/2015/03/why-do-not-mvc-pattern-look-like.html" rel="alternate"></link><published>2015-03-01T06:00:00+08:00</published><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2015-03-01:posts/2015/03/why-do-not-mvc-pattern-look-like.html</id><summary type="html">&lt;p&gt;這篇文章最早是用來回應 Python 社群對於 MVC 的討論內容，同時把它記錄在自己的部落格上。&lt;/p&gt;
+&lt;p&gt;其原文探討的是為什麼每套 Framework 對於 MVC 設計上都有一套自己的見解，即使設計和實作上不一樣，卻都說自家的 Framework 包含（支援） MVC。&lt;/p&gt;
+&lt;p&gt;在討論這個問題之前，我們首先要認識一下 MVC 的由來，至於有關 MVC 設計的細節將不是本篇的重點，對細節有興趣的人可以從我文內分享的文章或是從書本中得到更完整的說明。&lt;/p&gt;
+&lt;div class="section" id="id1"&gt;
+&lt;h2&gt;什麼是 MVC&lt;/h2&gt;
+&lt;p style="font-size: 10px;"&gt;&lt;a href="http://commons.wikimedia.org/wiki/File:MVC-Process.svg#mediaviewer/File:MVC-Process.svg"&gt;&lt;img alt="MVC-Process.svg" src="http://upload.wikimedia.org/wikipedia/commons/a/a0/MVC-Process.svg" height="290" width="264"&gt;&lt;/a&gt;&lt;br&gt;圖片 "&lt;a href="http://commons.wikimedia.org/wiki/File:MVC-Process.svg#mediaviewer/File:MVC-Process.svg"&gt;MVC-Process&lt;/a&gt;" 由 &lt;a href="//commons.wikimedia.org/wiki/User:RegisFrey" title="User:RegisFrey"&gt;RegisFrey&lt;/a&gt; - &lt;span class="int-own-work"&gt;自己的作品&lt;/span&gt;。 使用來自 &lt;a href="//commons.wikimedia.org/wiki/"&gt;维基共享資源&lt;/a&gt; 的 公共領域 條款授權。&lt;/p&gt;&lt;p&gt;MVC 最早是 smalltalk 設計的一個 Pattern，其&lt;strong&gt;定義&lt;/strong&gt;與&lt;strong&gt;目的&lt;/strong&gt;與&lt;strong&gt;模擬實作&lt;/strong&gt;的方法在 Design Pattern 一書中都描述的相當清楚，有興趣可以去書店翻一下。&lt;/p&gt;
+&lt;p&gt;網路上可以參照： &lt;a class="reference external" href="http://www.tutorialspoint.com/design_pattern/mvc_pattern.htm"&gt;http://www.tutorialspoint.com/design_pattern/mvc_pattern.htm&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="id2"&gt;
+&lt;h2&gt;目的與 MVC&lt;/h2&gt;
+&lt;p&gt;這邊要著重的點在於，Design Pattern 書中不是要強迫你實作的內容百分百一樣，而是要求你的實作要達到 Pattern 目的，我在這邊列出中文書上對於其目的的說明：&lt;/p&gt;
+&lt;p&gt;MVC 的目的在於&lt;strong&gt;增加彈性&lt;/strong&gt;與&lt;strong&gt;再利用性&lt;/strong&gt;，同一個 model 可以搭配好幾個 view，也可以做出不會改變 model 內容的 view，同時更嚴苛的要求，view 不應該包含運算的邏輯。&lt;/p&gt;
+&lt;p&gt;因此不是去追究每套 Framework 在設計上的差異去與定義比較，然後要說它的設計到底要不要叫做 MVC，而是要去看設計之後是否能達到 MVC 目的。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="mvc-architecture-pattern"&gt;
+&lt;h2&gt;MVC 是 Architecture Pattern&lt;/h2&gt;
+&lt;p&gt;後來有人在社群裡提到 Architecture Pattern 之後，我才想到 MVC 是在 Design Pattern 一書中開頭章節就列出來的，並沒有包含在後續主要章節所描述的23個 Design Pattern 之中，其介紹上也顯示 MVC 更像是一個 Architecture Pattern。&lt;/p&gt;
+&lt;p&gt;那 Design Pattern 和所謂的 Architecture Pattern 又有什麼不同呢？&lt;/p&gt;
+&lt;p&gt;根據 Stackoverflow 所描述的回答，我覺得兩種 Pattern 還是從&lt;strong&gt;目的&lt;/strong&gt;和&lt;strong&gt;實作&lt;/strong&gt;兩個層面來看最容易區分。&lt;/p&gt;
+&lt;p&gt;Stackoverflow 的回答可以參照： &lt;a class="reference external" href="http://stackoverflow.com/questions/1866821/is-mvc-a-design-pattern-or-architectural-pattern"&gt;http://stackoverflow.com/questions/1866821/is-mvc-a-design-pattern-or-architectural-pattern&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;節錄其中 vrluckyin 的回答，針對目的和實作上的差別都有很清楚的描述：&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+Design patterns say how to write code effectively.
+
+A few benefits:
+
+  - Easily Maintainable
+  - High Re-usability
+  - Readable because of abstractions
+
+Architectural patterns say how to utilize resources effectively.
+
+  - Parallel tasks execution like programmers and graphic designers can work parallel.
+  - Multiple technologies can be utilized to build a software.
+
+In MVC, a). Views can be created using javascript templates and also html can be used b). Controllers can be written .NET framework and c). Models can be written in Java - a java service may be used that returns only json data.
+
+While in design pattern, a pattern can't be implemented in which code can be written in multiple technologies like AdminUser class in Java, Customer class in C#, Partners class in Php and a factory pattern in Ruby :); hmmm..so easy?:)
+&lt;/pre&gt;
+&lt;p&gt;除了目的就不同， Design Pattern 在實作上會存在需要使用同一種技術語言完成的先天條件，而 Architectural Pattern 則沒有這樣的限制，所以每套 Framework 只要實作出來的結果符合 MVC Pattern 的目的，並且保證使用者擁有 MVC Pattern 的優點，就算實作的方式不盡相同，也代表其包含（支援） MVC。&lt;/p&gt;
+&lt;/div&gt;
+</summary><category term="MVC"></category><category term="Design Pattern"></category></entry><entry><title>使用 Process Count Supervisor + Cronjob 管理背景行程數</title><link href="http://www.hansliu.com/posts/2014/11/github-process-count-supervisor.html" rel="alternate"></link><published>2014-11-02T17:00:00+08:00</published><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2014-11-02:posts/2014/11/github-process-count-supervisor.html</id><summary type="html">&lt;div class="section" id="id1"&gt;
+&lt;h2&gt;前言&lt;/h2&gt;
+&lt;p&gt;Cronjob 很頻繁的被使用在工作排程上，不過如果無法預期排程中的 process 的執行時間，當發生 process 的執行時間超過排程預期的時候，可能會重複執行多個重複的 process，如此不但會造成系統資源的浪費，也可能發生無法預期的錯誤。&lt;/p&gt;
+&lt;p&gt;為了要友善管理背景執行的 process，在網路上可以找到用 Python 撰寫的 &lt;a class="reference external" href="http://supervisord.org/index.html"&gt;Supervisor: A Process Control System&lt;/a&gt; ，Supervisor 是一套完整的 system process monitoring 工具。但是這套工具的設計是以一支 daemon process 去管理 process，並透過設定檔來操作管理 process 的細節，雖然提供很多強大的附加功能，但主要是為了維持服務的穩定，這和我想要減少使用系統資源的目標有點不同。&lt;/p&gt;
+&lt;p&gt;而且這樣的工具會有一個明顯的盲點，因為 Supervisor 是利用 daemon process 去管理 process，那是不是也需要有 process 來管理 Supervisor 的 daemon process？所以最後我沒有採用 Supervisor 這套工具，而選擇自己寫一支簡單的程式。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="process-count-supervisor"&gt;
+&lt;h2&gt;Process Count Supervisor&lt;/h2&gt;
+&lt;p&gt;前言說完了，回到我要解決的問題，放在要如何簡單管理 process 數目，並且盡可能減少額外要執行的 process，以此概念下完成了 Process Count Supervisor 這支程式。&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;每次執行時才帶入需要的 process 指令，不需要保持常駐的 daemon&lt;/li&gt;
+&lt;li&gt;簡單透過參數限制最多執行的 process 數目&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="simple-use-case"&gt;
+&lt;h2&gt;Simple Use Case&lt;/h2&gt;
+&lt;p&gt;新建一個睡眠時間超過一分鐘的 shell script sleep.sh:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+echo '#!/bin/bash' &amp;gt; /home/yourname/sleep.sh
+echo 'sleep 200' &amp;gt; /home/yourname/sleep.sh
+chmod +x /home/yourname/sleep.sh
+&lt;/pre&gt;
+&lt;p&gt;設定 cronjob 為每分鐘執行一次，並使用 pcs.py （Process Count Supervisor） 來管理 sleep.sh:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+crontab -e
+*/1 * * * * /home/yourname/pcs.py -m 1 /home/yourname/sleep.sh &amp;gt; /dev/null 2&amp;gt;&amp;amp;1
+&lt;/pre&gt;
+&lt;p&gt;因為每分鐘執行一次的 sleep.sh 會睡眠超過一分鐘，所以理論上兩分鐘會擁有兩支 sleep.sh 同時在背景執行，但是在 pcs.py 的管理之下，sleep.sh 會維持同時間只有一支在背景執行。&lt;/p&gt;
+&lt;p&gt;詳細使用教學可以參照 Github repository 的說明。&lt;/p&gt;
+&lt;p&gt;Github repository link: &lt;a class="reference external" href="https://github.com/hansliu/process-count-supervisor"&gt;https://github.com/hansliu/process-count-supervisor&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+</summary><category term="Python"></category><category term="Github"></category></entry><entry><title>2014 PyCon</title><link href="http://www.hansliu.com/posts/2014/06/2014-pycon.html" rel="alternate"></link><published>2014-06-02T23:00:00+08:00</published><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2014-06-02:posts/2014/06/2014-pycon.html</id><summary type="html">&lt;div class="img-center"&gt;&lt;p&gt;&lt;a class="reference external" href="https://lh5.googleusercontent.com/-LR8HJ1SVLUU/U4yvHeLDgsI/AAAAAAAAKUA/h-7gWlvf7Z0/s1600/pycon2014.jpg"&gt;&lt;img alt="image0" src="https://lh5.googleusercontent.com/-LR8HJ1SVLUU/U4yvHeLDgsI/AAAAAAAAKUA/h-7gWlvf7Z0/s800/pycon2014.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;p&gt;今年當然也參加 PyCon 啦！&lt;/p&gt;
+&lt;p&gt;趁記憶猶新的時候，把這次聽到有趣的 library 和 framework 記錄下來。前面三項的內容摘錄自 &lt;a class="reference external" href="http://www.codedata.com.tw/social-coding/python-conference-newbie-ccr/"&gt;codedata&lt;/a&gt; 。&lt;/p&gt;
+&lt;div class="section" id="fabric"&gt;
+&lt;h2&gt;fabric&lt;/h2&gt;
+&lt;p&gt;當你一次管很多台電腦的時候，常常想要一鍵讓你所有機器執行數個 command。例如想要一次看所有機器的時間是否同步，看看所有電腦上的剩餘空間，或是一鍵 deploy，一鍵 rsync 等等...這個工具讓你輕鬆寫些 python script 就可以達到此目的。&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.fabfile.org/"&gt;http://www.fabfile.org/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="docker"&gt;
+&lt;h2&gt;docker&lt;/h2&gt;
+&lt;p&gt;這個應該不是 Python 限定的，但是因為有場專門介紹覺得很有興趣。現在大家已經對 VM 很熟悉了，但是 Docker 算是 lightweight 的 VM，他們有 host/guest 兩層 OS，而是在 host 之上有個 docker 層，可以 load 各種 distribution 到你的機器之上。所以你很容易開一個乾淨的環境，並且把你想要的檔案透過 API 放進此 sandbox，透過 expose 你想要的 port，這樣就可以跑起一個乾淨的環境。這對於測試，或是 staging 都非常有幫助。另外他有版本控制的功能，也有各種 distribution 的 ecosystem，成熟了以後應該會是個趨勢。&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.docker.io/"&gt;https://www.docker.io/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="thumbor"&gt;
+&lt;h2&gt;thumbor&lt;/h2&gt;
+&lt;p&gt;其實這是個小但是很可能會用到的工具。我們網頁常常需要切圖，但是不知道要切多大。而 thumbor 是個 gateway，只要描述:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+http://&amp;lt;thumbor-server&amp;gt;/300×200/smart/{your-host-of-image}/{your-path-to-image}
+&lt;/pre&gt;
+&lt;p&gt;它就會動態的產生 thumbnail，此工具搭配 CDN 可以解決很多的問題。&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/thumbor/thumbor"&gt;https://github.com/thumbor/thumbor&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="jieba"&gt;
+&lt;h2&gt;jieba&lt;/h2&gt;
+&lt;p&gt;中文分詞一直是讓人頭痛的問題，自從雅虎斷章取義工具 sunset 之後，現在主流的分詞工具之一是中研院的中文斷詞系統，但是我自己覺得沒有很好用。現在則有了新的選擇，就是結巴分詞。結巴的目標是打造最好用的 Python 分詞工具，對於需要中文分詞的 Python 使用者來說無疑是一大福音。&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/fxsjy/jieba"&gt;https://github.com/fxsjy/jieba&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="mezzanine"&gt;
+&lt;h2&gt;mezzanine&lt;/h2&gt;
+&lt;p&gt;基於 Django 之上完成的強大的內容管理工具，keynote speaker 有用 wordpress 當做比較的對象，架設內容網站的選擇之一。&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/stephenmcd/mezzanine"&gt;https://github.com/stephenmcd/mezzanine&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="networkx"&gt;
+&lt;h2&gt;networkx&lt;/h2&gt;
+&lt;p&gt;一個描繪點與線結構用的繪圖工具，如果有需要把複雜的網路架構圖像化的可以參考。&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://networkx.github.io/"&gt;https://networkx.github.io/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary><category term="Python"></category></entry><entry><title>使用 Name Expansion + Fabric 同時部屬多台機器</title><link href="http://www.hansliu.com/posts/2014/04/github-name-expansion.html" rel="alternate"></link><published>2014-04-26T23:00:00+08:00</published><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2014-04-26:posts/2014/04/github-name-expansion.html</id><summary type="html">&lt;p&gt;前陣子為了完成 Fabric 同時部屬多台機器的功能，寫了一個字串展開的小工具。&lt;/p&gt;
+&lt;p&gt;使用 python regular expression 來實作，讓使用者可以利用逗號、數字、括弧將字串批次展開。&lt;/p&gt;
+&lt;p&gt;簡單的 use case:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+&amp;gt;&amp;gt;&amp;gt; from name_expansion import NameExpansionCore
+&amp;gt;&amp;gt;&amp;gt; ne = NameExpansionCore()
+
+&amp;gt;&amp;gt;&amp;gt; host = '[tw,hk][1-2].host[3,5].com'
+&amp;gt;&amp;gt;&amp;gt; host_list = list([host])
+&amp;gt;&amp;gt;&amp;gt; for match in ne.parse(host):
+...   host_list = ne.expand(match, host_list)
+&amp;gt;&amp;gt;&amp;gt; host_list
+['tw1.host3.com', 'hk1.host3.com', 'tw1.host5.com', 'hk1.host5.com',
+'tw2.host3.com', 'hk2.host3.com', 'tw2.host5.com', 'hk2.host5.com']
+&lt;/pre&gt;
+&lt;p&gt;Fabric 要部屬的機器是儲存在 env.hosts 裡面，型態是 list，所以我們只要在 fabfile.py 加入一個 method，將 Name expansion 批次展開的結果回存到 env.hosts 裡。&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+def h(curr_host):
+  ne = NameExpansionCore()
+  host_list = list([curr_host])
+  for match in ne.parse(curr_host):
+    host_list = ne.expand(match, host_list)
+  env.hosts = host_list
+&lt;/pre&gt;
+&lt;p&gt;接著我們就可以透過 Fabric 內建指令 fab，同時指定多台機器做部屬的動作，不過執行部屬的動作是循序的，並不是平行的。&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+fab h:host[1-3].com deploy
+&lt;/pre&gt;
+&lt;p&gt;詳細使用教學可以參照 Github repository 的說明。&lt;/p&gt;
+&lt;p&gt;Github repository link: &lt;a class="reference external" href="https://github.com/hansliu/name-expansion"&gt;https://github.com/hansliu/name-expansion&lt;/a&gt;&lt;/p&gt;
+</summary><category term="Python"></category><category term="Github"></category></entry><entry><title>2012 PyCon</title><link href="http://www.hansliu.com/posts/2012/06/2012-pycon.html" rel="alternate"></link><published>2012-06-18T15:35:00+08:00</published><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2012-06-18:posts/2012/06/2012-pycon.html</id><summary type="html">&lt;div class="img-center"&gt;&lt;p&gt;&lt;img alt="image0" src="https://lh4.googleusercontent.com/-pn-a1nAUS4g/T9oa2YdUNYI/AAAAAAAAIx8/3Ukf8f4cOCk/s800/pycon2012.png" /&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;p&gt;PyCon，亦即 Python 年會，是 Python 社群最大型的年度聚會。PyCon
+是社群同好自發籌辦的活動，展現 Python
+在各式領域的應用現況。我們致力讓台灣 Python
+年會成為高品質的專業活動，讓與會朋友享受技術交流的樂趣，體驗社群獨有的熱情。&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://tw.pycon.org/2012/"&gt;http://tw.pycon.org/2012/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;紀錄一下參加 Python 年會的筆記...&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;網站建置&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;擅用 RSS 做最新公告&lt;/div&gt;
+&lt;div class="line"&gt;擅用 BigPipe 做循序顯示&lt;/div&gt;
+&lt;div class="line"&gt;擅用 UI 工具做介面設計&lt;/div&gt;
+&lt;div class="line"&gt;User Interface Design:&lt;/div&gt;
+&lt;div class="line"&gt;Twitter Bootstrap for UI &lt;a class="reference external" href="http://twitter.github.com/bootstrap/"&gt;http://twitter.github.com/bootstrap/&lt;/a&gt;&lt;/div&gt;
+&lt;div class="line"&gt;Google Web Fonts for text &lt;a class="reference external" href="http://www.google.com/webfonts"&gt;http://www.google.com/webfonts&lt;/a&gt;&lt;/div&gt;
+&lt;div class="line"&gt;Icon Fonts for icon&lt;/div&gt;
+&lt;div class="line"&gt;空間供應商 linode.com&lt;/div&gt;
+&lt;div class="line"&gt;資料庫 mongodb&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Framework&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;Clime&lt;/div&gt;
+&lt;div class="line"&gt;Django &lt;a class="reference external" href="https://www.djangoproject.com/"&gt;https://www.djangoproject.com/&lt;/a&gt;&lt;/div&gt;
+&lt;div class="line"&gt;Jinja2&lt;/div&gt;
+&lt;div class="line"&gt;Twisted &lt;a class="reference external" href="http://twistedmatrix.com/"&gt;http://twistedmatrix.com/&lt;/a&gt;&lt;/div&gt;
+&lt;div class="line"&gt;PySide&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Interest Website&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;about.me &lt;a class="reference external" href="https://about.me/"&gt;https://about.me/&lt;/a&gt;&lt;/div&gt;
+&lt;div class="line"&gt;pinkoi &lt;a class="reference external" href="http://www.pinkoi.com/"&gt;http://www.pinkoi.com/&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+</summary><category term="Python"></category></entry></feed>
