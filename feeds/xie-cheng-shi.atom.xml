@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Hans Blog</title><link href="http://www.hansliu.com/" rel="alternate"></link><link href="http://www.hansliu.com/feeds/xie-cheng-shi.atom.xml" rel="self"></link><id>http://www.hansliu.com/</id><updated>2015-07-07T23:00:00+08:00</updated><entry><title>Taiwan eTraining Course Finder in Heroku</title><link href="http://www.hansliu.com/posts/2015/07/github-etraining-course-finder-heroku.html" rel="alternate"></link><published>2015-07-07T23:00:00+08:00</published><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2015-07-07:posts/2015/07/github-etraining-course-finder-heroku.html</id><summary type="html">&lt;p&gt;因為勞動部勞動力發展署網站實在太難用，所以自己開發一個好用的網站，然後部屬到 Heroku 上面。&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Hans Blog</title><link href="//www.hansliu.com/" rel="alternate"></link><link href="//www.hansliu.com/feeds/xie-cheng-shi.atom.xml" rel="self"></link><id>//www.hansliu.com/</id><updated>2015-07-07T23:00:00+08:00</updated><entry><title>Taiwan eTraining Course Finder in Heroku</title><link href="//www.hansliu.com/posts/2015/07/github-etraining-course-finder-heroku.html" rel="alternate"></link><published>2015-07-07T23:00:00+08:00</published><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2015-07-07:posts/2015/07/github-etraining-course-finder-heroku.html</id><summary type="html">&lt;p&gt;因為勞動部勞動力發展署網站實在太難用，所以自己開發一個好用的網站，然後部屬到 Heroku 上面。&lt;/p&gt;
 &lt;p&gt;&lt;a class="reference external" href="http://hansliu-finder.herokuapp.com"&gt;Taiwan eTraining Course Finder 網站&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;實作上採用的是 Python3 搭配 Flask 架構。&lt;/p&gt;
 &lt;p&gt;在課程資料來源的部份，使用 Selenium 收集勞動部勞動力發展署網站公開的課程資料（目前收集的課程範圍只有臺北市和新北市），然後將課程資料建置索引之後儲存於 Sqlite3 的資料庫中，最後設定 cronjob 定期更新資料庫。&lt;/p&gt;
@@ -29,7 +29,7 @@ git pull ; git add -u ; git commit -m'updated db' ; git push
 &lt;p&gt;詳細使用教學可以參照 Github repository 的說明。&lt;/p&gt;
 &lt;p&gt;Github repository link: &lt;a class="reference external" href="https://github.com/hansliu/etraining-course-finder-heroku"&gt;https://github.com/hansliu/etraining-course-finder-heroku&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
-</summary><category term="Python"></category><category term="Github"></category><category term="Heroku"></category></entry><entry><title>2015 PyCon</title><link href="http://www.hansliu.com/posts/2015/06/2015-pycon.html" rel="alternate"></link><published>2015-06-08T23:00:00+08:00</published><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2015-06-08:posts/2015/06/2015-pycon.html</id><summary type="html">&lt;div class="img-center"&gt;&lt;p&gt;&lt;a class="reference external" href="https://lh3.googleusercontent.com/-PWwg2yshhX4/VXb248gk16I/AAAAAAAAOmQ/C6HT4hX1o4w/s1600/IMG_0183.JPG"&gt;&lt;img alt="image0" src="https://lh3.googleusercontent.com/-PWwg2yshhX4/VXb248gk16I/AAAAAAAAOmQ/C6HT4hX1o4w/s800/IMG_0183.JPG" /&gt;&lt;/a&gt;&lt;/p&gt;
+</summary><category term="Python"></category><category term="Github"></category><category term="Heroku"></category></entry><entry><title>2015 PyCon</title><link href="//www.hansliu.com/posts/2015/06/2015-pycon.html" rel="alternate"></link><published>2015-06-08T23:00:00+08:00</published><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2015-06-08:posts/2015/06/2015-pycon.html</id><summary type="html">&lt;div class="img-center"&gt;&lt;p&gt;&lt;a class="reference external" href="https://lh3.googleusercontent.com/-PWwg2yshhX4/VXb248gk16I/AAAAAAAAOmQ/C6HT4hX1o4w/s1600/IMG_0183.JPG"&gt;&lt;img alt="image0" src="https://lh3.googleusercontent.com/-PWwg2yshhX4/VXb248gk16I/AAAAAAAAOmQ/C6HT4hX1o4w/s800/IMG_0183.JPG" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;&lt;p&gt;今年 PyCon APAC 是在台灣舉辦，活動的規模也擴增到了三天，感謝 Rick 的協助，讓我順利用早鳥票報名 PyCon APAC 啦！&lt;/p&gt;
 &lt;p&gt;這次聽到有趣的 library 和 framework 比較少，大多在於如何利用 Python 去實踐一些想法，或是利用在不同領域的研究，其中有不少贊助廠商的分享也還不錯。&lt;/p&gt;
 &lt;p&gt;三天的演講內容摘要可以參考 hackpad 的共筆。&lt;/p&gt;
@@ -92,7 +92,7 @@ git pull ; git add -u ; git commit -m'updated db' ; git push
 &lt;li&gt;&lt;a class="reference external" href="https://www.python.org/dev/peps/pep-0484/"&gt;https://www.python.org/dev/peps/pep-0484/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
-</summary><category term="Python"></category></entry><entry><title>為什麼 MVC 實作不一樣</title><link href="http://www.hansliu.com/posts/2015/03/why-do-not-mvc-pattern-look-like.html" rel="alternate"></link><published>2015-03-01T06:00:00+08:00</published><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2015-03-01:posts/2015/03/why-do-not-mvc-pattern-look-like.html</id><summary type="html">&lt;p&gt;這篇文章最早是用來回應 Python 社群對於 MVC 的討論內容，同時把它記錄在自己的部落格上。&lt;/p&gt;
+</summary><category term="Python"></category></entry><entry><title>為什麼 MVC 實作不一樣</title><link href="//www.hansliu.com/posts/2015/03/why-do-not-mvc-pattern-look-like.html" rel="alternate"></link><published>2015-03-01T06:00:00+08:00</published><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2015-03-01:posts/2015/03/why-do-not-mvc-pattern-look-like.html</id><summary type="html">&lt;p&gt;這篇文章最早是用來回應 Python 社群對於 MVC 的討論內容，同時把它記錄在自己的部落格上。&lt;/p&gt;
 &lt;p&gt;其原文探討的是為什麼每套 Framework 對於 MVC 設計上都有一套自己的見解，即使設計和實作上不一樣，卻都說自家的 Framework 包含（支援） MVC。&lt;/p&gt;
 &lt;p&gt;在討論這個問題之前，我們首先要認識一下 MVC 的由來，至於有關 MVC 設計的細節將不是本篇的重點，對細節有興趣的人可以從我文內分享的文章或是從書本中得到更完整的說明。&lt;/p&gt;
 &lt;div class="section" id="id1"&gt;
@@ -133,7 +133,7 @@ While in design pattern, a pattern can't be implemented in which code can be wri
 &lt;/pre&gt;
 &lt;p&gt;除了目的就不同， Design Pattern 在實作上會存在需要使用同一種技術語言完成的先天條件，而 Architectural Pattern 則沒有這樣的限制，所以每套 Framework 只要實作出來的結果符合 MVC Pattern 的目的，並且保證使用者擁有 MVC Pattern 的優點，就算實作的方式不盡相同，也代表其包含（支援） MVC。&lt;/p&gt;
 &lt;/div&gt;
-</summary><category term="MVC"></category><category term="Design Pattern"></category></entry><entry><title>使用 Process Count Supervisor + Cronjob 管理背景行程數</title><link href="http://www.hansliu.com/posts/2014/11/github-process-count-supervisor.html" rel="alternate"></link><published>2014-11-02T17:00:00+08:00</published><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2014-11-02:posts/2014/11/github-process-count-supervisor.html</id><summary type="html">&lt;div class="section" id="id1"&gt;
+</summary><category term="MVC"></category><category term="Design Pattern"></category></entry><entry><title>使用 Process Count Supervisor + Cronjob 管理背景行程數</title><link href="//www.hansliu.com/posts/2014/11/github-process-count-supervisor.html" rel="alternate"></link><published>2014-11-02T17:00:00+08:00</published><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2014-11-02:posts/2014/11/github-process-count-supervisor.html</id><summary type="html">&lt;div class="section" id="id1"&gt;
 &lt;h2&gt;前言&lt;/h2&gt;
 &lt;p&gt;Cronjob 很頻繁的被使用在工作排程上，不過如果無法預期排程中的 process 的執行時間，當發生 process 的執行時間超過排程預期的時候，可能會重複執行多個重複的 process，如此不但會造成系統資源的浪費，也可能發生無法預期的錯誤。&lt;/p&gt;
 &lt;p&gt;為了要友善管理背景執行的 process，在網路上可以找到用 Python 撰寫的 &lt;a class="reference external" href="http://supervisord.org/index.html"&gt;Supervisor: A Process Control System&lt;/a&gt; ，Supervisor 是一套完整的 system process monitoring 工具。但是這套工具的設計是以一支 daemon process 去管理 process，並透過設定檔來操作管理 process 的細節，雖然提供很多強大的附加功能，但主要是為了維持服務的穩定，這和我想要減少使用系統資源的目標有點不同。&lt;/p&gt;
@@ -164,7 +164,7 @@ crontab -e
 &lt;p&gt;詳細使用教學可以參照 Github repository 的說明。&lt;/p&gt;
 &lt;p&gt;Github repository link: &lt;a class="reference external" href="https://github.com/hansliu/process-count-supervisor"&gt;https://github.com/hansliu/process-count-supervisor&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
-</summary><category term="Python"></category><category term="Github"></category></entry><entry><title>2014 PyCon</title><link href="http://www.hansliu.com/posts/2014/06/2014-pycon.html" rel="alternate"></link><published>2014-06-02T23:00:00+08:00</published><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2014-06-02:posts/2014/06/2014-pycon.html</id><summary type="html">&lt;div class="img-center"&gt;&lt;p&gt;&lt;a class="reference external" href="https://lh5.googleusercontent.com/-LR8HJ1SVLUU/U4yvHeLDgsI/AAAAAAAAKUA/h-7gWlvf7Z0/s1600/pycon2014.jpg"&gt;&lt;img alt="image0" src="https://lh5.googleusercontent.com/-LR8HJ1SVLUU/U4yvHeLDgsI/AAAAAAAAKUA/h-7gWlvf7Z0/s800/pycon2014.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
+</summary><category term="Python"></category><category term="Github"></category></entry><entry><title>2014 PyCon</title><link href="//www.hansliu.com/posts/2014/06/2014-pycon.html" rel="alternate"></link><published>2014-06-02T23:00:00+08:00</published><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2014-06-02:posts/2014/06/2014-pycon.html</id><summary type="html">&lt;div class="img-center"&gt;&lt;p&gt;&lt;a class="reference external" href="https://lh5.googleusercontent.com/-LR8HJ1SVLUU/U4yvHeLDgsI/AAAAAAAAKUA/h-7gWlvf7Z0/s1600/pycon2014.jpg"&gt;&lt;img alt="image0" src="https://lh5.googleusercontent.com/-LR8HJ1SVLUU/U4yvHeLDgsI/AAAAAAAAKUA/h-7gWlvf7Z0/s800/pycon2014.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;&lt;p&gt;今年當然也參加 PyCon 啦！&lt;/p&gt;
 &lt;p&gt;趁記憶猶新的時候，把這次聽到有趣的 library 和 framework 記錄下來。前面三項的內容摘錄自 &lt;a class="reference external" href="http://www.codedata.com.tw/social-coding/python-conference-newbie-ccr/"&gt;codedata&lt;/a&gt; 。&lt;/p&gt;
 &lt;div class="section" id="fabric"&gt;
@@ -213,7 +213,7 @@ http://&amp;lt;thumbor-server&amp;gt;/300×200/smart/{your-host-of-image}/{your-
 &lt;li&gt;&lt;a class="reference external" href="https://networkx.github.io/"&gt;https://networkx.github.io/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
-</summary><category term="Python"></category></entry><entry><title>使用 Name Expansion + Fabric 同時部屬多台機器</title><link href="http://www.hansliu.com/posts/2014/04/github-name-expansion.html" rel="alternate"></link><published>2014-04-26T23:00:00+08:00</published><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2014-04-26:posts/2014/04/github-name-expansion.html</id><summary type="html">&lt;p&gt;前陣子為了完成 Fabric 同時部屬多台機器的功能，寫了一個字串展開的小工具。&lt;/p&gt;
+</summary><category term="Python"></category></entry><entry><title>使用 Name Expansion + Fabric 同時部屬多台機器</title><link href="//www.hansliu.com/posts/2014/04/github-name-expansion.html" rel="alternate"></link><published>2014-04-26T23:00:00+08:00</published><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2014-04-26:posts/2014/04/github-name-expansion.html</id><summary type="html">&lt;p&gt;前陣子為了完成 Fabric 同時部屬多台機器的功能，寫了一個字串展開的小工具。&lt;/p&gt;
 &lt;p&gt;使用 python regular expression 來實作，讓使用者可以利用逗號、數字、括弧將字串批次展開。&lt;/p&gt;
 &lt;p&gt;簡單的 use case:&lt;/p&gt;
 &lt;pre class="literal-block"&gt;
@@ -243,7 +243,7 @@ fab h:host[1-3].com deploy
 &lt;/pre&gt;
 &lt;p&gt;詳細使用教學可以參照 Github repository 的說明。&lt;/p&gt;
 &lt;p&gt;Github repository link: &lt;a class="reference external" href="https://github.com/hansliu/name-expansion"&gt;https://github.com/hansliu/name-expansion&lt;/a&gt;&lt;/p&gt;
-</summary><category term="Python"></category><category term="Github"></category></entry><entry><title>2012 PyCon</title><link href="http://www.hansliu.com/posts/2012/06/2012-pycon.html" rel="alternate"></link><published>2012-06-18T15:35:00+08:00</published><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2012-06-18:posts/2012/06/2012-pycon.html</id><summary type="html">&lt;div class="img-center"&gt;&lt;p&gt;&lt;img alt="image0" src="https://lh4.googleusercontent.com/-pn-a1nAUS4g/T9oa2YdUNYI/AAAAAAAAIx8/3Ukf8f4cOCk/s800/pycon2012.png" /&gt;&lt;/p&gt;
+</summary><category term="Python"></category><category term="Github"></category></entry><entry><title>2012 PyCon</title><link href="//www.hansliu.com/posts/2012/06/2012-pycon.html" rel="alternate"></link><published>2012-06-18T15:35:00+08:00</published><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2012-06-18:posts/2012/06/2012-pycon.html</id><summary type="html">&lt;div class="img-center"&gt;&lt;p&gt;&lt;img alt="image0" src="https://lh4.googleusercontent.com/-pn-a1nAUS4g/T9oa2YdUNYI/AAAAAAAAIx8/3Ukf8f4cOCk/s800/pycon2012.png" /&gt;&lt;/p&gt;
 &lt;/div&gt;&lt;p&gt;PyCon，亦即 Python 年會，是 Python 社群最大型的年度聚會。PyCon
 是社群同好自發籌辦的活動，展現 Python
 在各式領域的應用現況。我們致力讓台灣 Python
