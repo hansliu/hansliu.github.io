@@ -5,7 +5,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>//www.hansliu.com/</loc>
-<lastmod>2016-07-09T10:37:47-00:00</lastmod>
+<lastmod>2016-07-09T12:32:02-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -32,8 +32,15 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>//www.hansliu.com/posts/2016/07/the-sky-and-sea-in-sabah.html</loc>
+<lastmod>2016-07-09T20:30:00+08:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>//www.hansliu.com/posts/2016/07/portrait-fen.html</loc>
-<lastmod>2016-07-09T22:30:00+08:00</lastmod>
+<lastmod>2016-07-09T19:30:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1209,7 +1216,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>//www.hansliu.com/category/chi-he-wan-le/</loc>
-<lastmod>2016-07-08T22:00:00+08:06</lastmod>
+<lastmod>2016-07-09T20:30:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1237,7 +1244,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>//www.hansliu.com/category/ren-xiang-she-ying/</loc>
-<lastmod>2016-07-09T22:30:00+08:06</lastmod>
+<lastmod>2016-07-09T19:30:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1286,7 +1293,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>//www.hansliu.com/tag/portrait/</loc>
-<lastmod>2016-07-09T22:30:00+08:06</lastmod>
+<lastmod>2016-07-09T19:30:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1608,7 +1615,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>//www.hansliu.com/tag/olympus-dslr/</loc>
-<lastmod>2016-07-09T22:30:00+08:06</lastmod>
+<lastmod>2016-07-09T19:30:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1657,7 +1664,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>//www.hansliu.com/tag/sha-ba/</loc>
-<lastmod>2016-07-08T22:00:00+08:06</lastmod>
+<lastmod>2016-07-09T20:30:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1678,7 +1685,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>//www.hansliu.com/tag/ma-lai-xi-ya/</loc>
-<lastmod>2016-07-08T22:00:00+08:06</lastmod>
+<lastmod>2016-07-09T20:30:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
