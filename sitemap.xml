@@ -5,7 +5,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>//www.hansliu.com/</loc>
-<lastmod>2016-06-20T07:21:00-00:00</lastmod>
+<lastmod>2016-07-09T10:37:47-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -28,6 +28,20 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <loc>//www.hansliu.com/pages/portrait.html</loc>
 <lastmod>2016-05-22T21:00:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>//www.hansliu.com/posts/2016/07/portrait-fen.html</loc>
+<lastmod>2016-07-09T22:30:00+08:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>//www.hansliu.com/posts/2016/07/2016-travel-sabah.html</loc>
+<lastmod>2016-07-08T22:00:00+08:00</lastmod>
+<changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
@@ -1195,7 +1209,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>//www.hansliu.com/category/chi-he-wan-le/</loc>
-<lastmod>2016-05-18T21:00:00+08:06</lastmod>
+<lastmod>2016-07-08T22:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1223,7 +1237,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>//www.hansliu.com/category/ren-xiang-she-ying/</loc>
-<lastmod>2015-12-09T23:30:00+08:06</lastmod>
+<lastmod>2016-07-09T22:30:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1266,6 +1280,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>//www.hansliu.com/tag/gong-du-sheng/</loc>
 <lastmod>2010-09-22T18:44:00+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>//www.hansliu.com/tag/portrait/</loc>
+<lastmod>2016-07-09T22:30:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1341,8 +1362,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>//www.hansliu.com/tag/portrait/</loc>
-<lastmod>2015-12-09T23:30:00+08:06</lastmod>
+<loc>//www.hansliu.com/tag/jing-du/</loc>
+<lastmod>2016-05-18T21:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1383,8 +1404,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>//www.hansliu.com/tag/tku/</loc>
-<lastmod>2011-11-11T01:07:00+08:06</lastmod>
+<loc>//www.hansliu.com/tag/sbl/</loc>
+<lastmod>2012-05-31T08:59:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1446,8 +1467,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>//www.hansliu.com/tag/heroku/</loc>
-<lastmod>2015-07-07T23:00:00+08:06</lastmod>
+<loc>//www.hansliu.com/tag/beer/</loc>
+<lastmod>2015-04-13T16:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1460,8 +1481,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>//www.hansliu.com/tag/beer/</loc>
-<lastmod>2015-04-13T16:00:00+08:06</lastmod>
+<loc>//www.hansliu.com/tag/heroku/</loc>
+<lastmod>2015-07-07T23:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1495,15 +1516,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>//www.hansliu.com/tag/jing-du/</loc>
-<lastmod>2016-05-18T21:00:00+08:06</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>//www.hansliu.com/tag/yi-lan/</loc>
-<lastmod>2010-11-24T23:00:00+08:06</lastmod>
+<loc>//www.hansliu.com/tag/tku/</loc>
+<lastmod>2011-11-11T01:07:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1532,6 +1546,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>//www.hansliu.com/tag/olympus-pen-eed/</loc>
 <lastmod>2011-09-11T16:40:00+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>//www.hansliu.com/tag/yi-lan/</loc>
+<lastmod>2010-11-24T23:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1587,7 +1608,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>//www.hansliu.com/tag/olympus-dslr/</loc>
-<lastmod>2016-05-22T23:00:00+08:06</lastmod>
+<lastmod>2016-07-09T22:30:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1602,6 +1623,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>//www.hansliu.com/tag/nothing/</loc>
 <lastmod>2010-04-05T16:33:00+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>//www.hansliu.com/tag/comic-world-in-taiwan/</loc>
+<lastmod>2015-03-03T20:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1628,8 +1656,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>//www.hansliu.com/tag/sbl/</loc>
-<lastmod>2012-05-31T08:59:00+08:06</lastmod>
+<loc>//www.hansliu.com/tag/sha-ba/</loc>
+<lastmod>2016-07-08T22:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1649,8 +1677,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>//www.hansliu.com/tag/comic-world-in-taiwan/</loc>
-<lastmod>2015-03-03T20:00:00+08:06</lastmod>
+<loc>//www.hansliu.com/tag/ma-lai-xi-ya/</loc>
+<lastmod>2016-07-08T22:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
