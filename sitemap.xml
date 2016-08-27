@@ -5,7 +5,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>//www.hansliu.com/</loc>
-<lastmod>2016-08-27T05:10:09-00:00</lastmod>
+<lastmod>2016-08-27T05:13:25-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -28,13 +28,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <loc>//www.hansliu.com/pages/portrait.html</loc>
 <lastmod>2016-05-22T21:00:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>//www.hansliu.com/posts/2020/08/portrait-rachel.html</loc>
-<lastmod>2020-08-27T11:30:00+08:00</lastmod>
-<changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
@@ -1258,7 +1251,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>//www.hansliu.com/category/ren-xiang-she-ying/</loc>
-<lastmod>2020-08-27T11:30:00+08:06</lastmod>
+<lastmod>2016-07-09T19:30:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1307,7 +1300,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>//www.hansliu.com/tag/portrait/</loc>
-<lastmod>2020-08-27T11:30:00+08:06</lastmod>
+<lastmod>2016-07-09T19:30:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1629,7 +1622,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>//www.hansliu.com/tag/olympus-dslr/</loc>
-<lastmod>2020-08-27T11:30:00+08:06</lastmod>
+<lastmod>2016-08-19T10:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1649,8 +1642,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>//www.hansliu.com/tag/ma-lai-xi-ya/</loc>
-<lastmod>2016-07-09T20:30:00+08:06</lastmod>
+<loc>//www.hansliu.com/tag/comic-world-in-taiwan/</loc>
+<lastmod>2016-08-19T10:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1698,8 +1691,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>//www.hansliu.com/tag/comic-world-in-taiwan/</loc>
-<lastmod>2016-08-19T10:00:00+08:06</lastmod>
+<loc>//www.hansliu.com/tag/ma-lai-xi-ya/</loc>
+<lastmod>2016-07-09T20:30:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
