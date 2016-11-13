@@ -9,8 +9,8 @@ $(document).ready(function() {
     threshold: 250
     //effect: "fadeIn"
   });
-  $('.post-content, .gallery').each(function() { // the containers for all your galleries
-    $(this).find('a > img').parent().magnificPopup({
+  $('.post-content').each(function() {
+    $(this).find('a:not([href$=".html"]) > img').parent().magnificPopup({
       type: 'image',
       overflowY: 'scroll',
       gallery: {
@@ -31,12 +31,6 @@ $(document).ready(function() {
         replaceSrc: function(item, ratio) {
           return item.src.replace(/\.\w+$/, function(m) { return '@2x' + m; });
         } // function that changes image source
-      },
-      disableOn: function() {
-        if( $(this).attr("href").endsWith(".html") ) {
-          return false;
-        }
-        return true;
       }
     });
   });
