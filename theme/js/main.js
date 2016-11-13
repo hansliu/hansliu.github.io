@@ -31,6 +31,12 @@ $(document).ready(function() {
         replaceSrc: function(item, ratio) {
           return item.src.replace(/\.\w+$/, function(m) { return '@2x' + m; });
         } // function that changes image source
+      },
+      disableOn: function() {
+        if( $(this).attr("href").endsWith(".html") ) {
+          return false;
+        }
+        return true;
       }
     });
   });
