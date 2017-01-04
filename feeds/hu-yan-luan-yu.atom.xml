@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Hans Blog</title><link href="//www.hansliu.com/" rel="alternate"></link><link href="//www.hansliu.com/feeds/hu-yan-luan-yu.atom.xml" rel="self"></link><id>//www.hansliu.com/</id><updated>2014-11-19T22:00:00+08:00</updated><entry><title>轉換 Bootstrap 從 v2 到 v3</title><link href="//www.hansliu.com/posts/2014/11/migrating-bootstrap-v2-to-v3.html" rel="alternate"></link><published>2014-11-19T22:00:00+08:00</published><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2014-11-19:posts/2014/11/migrating-bootstrap-v2-to-v3.html</id><summary type="html">&lt;div class="section" id="id1"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Hans Blog - 胡言亂語</title><link href="//www.hansliu.com/" rel="alternate"></link><link href="//www.hansliu.com/feeds/hu-yan-luan-yu.atom.xml" rel="self"></link><id>//www.hansliu.com/</id><updated>2014-11-19T22:00:00+08:00</updated><entry><title>轉換 Bootstrap 從 v2 到 v3</title><link href="//www.hansliu.com/posts/2014/11/migrating-bootstrap-v2-to-v3.html" rel="alternate"></link><published>2014-11-19T22:00:00+08:00</published><updated>2014-11-19T22:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2014-11-19:/posts/2014/11/migrating-bootstrap-v2-to-v3.html</id><summary type="html">&lt;div class="section" id="id1"&gt;
+&lt;h2&gt;前言&lt;/h2&gt;
+&lt;p&gt;在 &lt;a class="reference external" href="//www.hansliu.com/posts/2014/03/hello-pelican-github-pages.html"&gt;Hello Pelican + GitHub Pages&lt;/a&gt; 介紹部落格的時候有提到，現在使用的 Pelican 樣式是 Jenny 設計的 &lt;a class="reference external" href="https://github.com/jsliang/pelican-fresh"&gt;pelican-fresh&lt;/a&gt; ，其設計是架構在 Bootstrap v2.x 的版本之上。因為我想要重新設計選單的樣式，使其可以支援使用行動裝置瀏覽的時候 …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="section" id="id1"&gt;
 &lt;h2&gt;前言&lt;/h2&gt;
 &lt;p&gt;在 &lt;a class="reference external" href="//www.hansliu.com/posts/2014/03/hello-pelican-github-pages.html"&gt;Hello Pelican + GitHub Pages&lt;/a&gt; 介紹部落格的時候有提到，現在使用的 Pelican 樣式是 Jenny 設計的 &lt;a class="reference external" href="https://github.com/jsliang/pelican-fresh"&gt;pelican-fresh&lt;/a&gt; ，其設計是架構在 Bootstrap v2.x 的版本之上。因為我想要重新設計選單的樣式，使其可以支援使用行動裝置瀏覽的時候，選單會自動轉換成較好操作，而且又不會佔用閱讀空間的設計樣式，剛好我發現 Bootstrap v3.x 內建就有這樣的樣式風格，就決定把部落格使用的 Bootstrap 從 v2 轉換到 v3。&lt;/p&gt;
 &lt;/div&gt;
@@ -15,7 +17,10 @@
 &lt;p&gt;Creating a Simple Navbar with Twitter Bootstrap - &lt;a class="reference external" href="http://www.tutorialrepublic.com/twitter-bootstrap-tutorial/bootstrap-navbar.php"&gt;http://www.tutorialrepublic.com/twitter-bootstrap-tutorial/bootstrap-navbar.php&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;照著做就可以有支援行動裝置的選單樣式了。&lt;/p&gt;
 &lt;/div&gt;
-</summary><category term="Blog"></category><category term="Bootstrap"></category></entry><entry><title>2014部落格改版</title><link href="//www.hansliu.com/posts/2014/03/2014-blog-upgrade.html" rel="alternate"></link><published>2014-03-31T10:00:00+08:00</published><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2014-03-31:posts/2014/03/2014-blog-upgrade.html</id><summary type="html">&lt;p&gt;&lt;a class="reference external" href="https://lh3.googleusercontent.com/-h71cIF3bnYo/Uzm-XVuME6I/AAAAAAAAKGE/xOzCZ3SUGsg/s1600/blog2014.png"&gt;&lt;img alt="image0" src="https://lh3.googleusercontent.com/-h71cIF3bnYo/Uzm-XVuME6I/AAAAAAAAKGE/xOzCZ3SUGsg/s800/blog2014.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+</content><category term="Blog"></category><category term="Bootstrap"></category></entry><entry><title>2014部落格改版</title><link href="//www.hansliu.com/posts/2014/03/2014-blog-upgrade.html" rel="alternate"></link><published>2014-03-31T10:00:00+08:00</published><updated>2014-03-31T10:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2014-03-31:/posts/2014/03/2014-blog-upgrade.html</id><summary type="html">&lt;p&gt;&lt;a class="reference external" href="https://lh3.googleusercontent.com/-h71cIF3bnYo/Uzm-XVuME6I/AAAAAAAAKGE/xOzCZ3SUGsg/s1600/blog2014.png"&gt;&lt;img alt="image0" src="https://lh3.googleusercontent.com/-h71cIF3bnYo/Uzm-XVuME6I/AAAAAAAAKGE/xOzCZ3SUGsg/s800/blog2014.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;部落格搬家也逐漸接近尾聲，剩下就是一些舊部落格的收尾和導入。&lt;/p&gt;
+&lt;p&gt;我的 ATOM/RSS 有使用 feedburner，所以只要更新 feedburner 的設定，它就會自動幫你通知所有的訂閱戶，並且幫用戶自動訂閱新網站的文章。&lt;/p&gt;
+&lt;p&gt;比較可惜的是因為過去一直都是用 blogger 提供的 domain name，所以新部落格的 SEO 計算就要從頭開始 …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;a class="reference external" href="https://lh3.googleusercontent.com/-h71cIF3bnYo/Uzm-XVuME6I/AAAAAAAAKGE/xOzCZ3SUGsg/s1600/blog2014.png"&gt;&lt;img alt="image0" src="https://lh3.googleusercontent.com/-h71cIF3bnYo/Uzm-XVuME6I/AAAAAAAAKGE/xOzCZ3SUGsg/s800/blog2014.png" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;部落格搬家也逐漸接近尾聲，剩下就是一些舊部落格的收尾和導入。&lt;/p&gt;
 &lt;p&gt;我的 ATOM/RSS 有使用 feedburner，所以只要更新 feedburner 的設定，它就會自動幫你通知所有的訂閱戶，並且幫用戶自動訂閱新網站的文章。&lt;/p&gt;
 &lt;p&gt;比較可惜的是因為過去一直都是用 blogger 提供的 domain name，所以新部落格的 SEO 計算就要從頭開始...&lt;/p&gt;
@@ -36,7 +41,8 @@
 &lt;p&gt;在 Google AdSense 部分使用新的回應式廣告單元，廣告排版則是參考 Jenny 的配置，放在文章的開頭與結尾，同時把 BloggerAds 也放進來，安插在首頁的側邊欄。&lt;/p&gt;
 &lt;p&gt;在 Google Analytics 部分則是升級到通用分析，因為是新安裝，目前還不知道實際運作的效果。&lt;/p&gt;
 &lt;/div&gt;
-</summary><category term="Blog"></category></entry><entry><title>島嶼天光《Island's Sunrise 太陽花學運》</title><link href="//www.hansliu.com/posts/2014/03/island-sunrise.html" rel="alternate"></link><published>2014-03-31T04:00:00+08:00</published><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2014-03-31:posts/2014/03/island-sunrise.html</id><summary type="html">&lt;p&gt;&lt;a class="reference external" href="https://lh5.googleusercontent.com/-pxub_rsQ3BQ/UzhXH6_RJ0I/AAAAAAAAKFU/djWaZXaAvBs/s1600/at4pm.jpg"&gt;&lt;img alt="image0" src="https://lh5.googleusercontent.com/-pxub_rsQ3BQ/UzhXH6_RJ0I/AAAAAAAAKFU/djWaZXaAvBs/s800/at4pm.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
+</content><category term="Blog"></category></entry><entry><title>島嶼天光《Island's Sunrise 太陽花學運》</title><link href="//www.hansliu.com/posts/2014/03/island-sunrise.html" rel="alternate"></link><published>2014-03-31T04:00:00+08:00</published><updated>2014-03-31T04:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2014-03-31:/posts/2014/03/island-sunrise.html</id><summary type="html">&lt;p class="first last"&gt;&lt;a class="reference external" href="https://lh5.googleusercontent.com/-pxub_rsQ3BQ/UzhXH6_RJ0I/AAAAAAAAKFU/djWaZXaAvBs/s1600/at4pm.jpg"&gt;&lt;img alt="image0" src="https://lh5.googleusercontent.com/-pxub_rsQ3BQ/UzhXH6_RJ0I/AAAAAAAAKFU/djWaZXaAvBs/s800/at4pm.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;&lt;a class="reference external" href="https://lh5.googleusercontent.com/-pxub_rsQ3BQ/UzhXH6_RJ0I/AAAAAAAAKFU/djWaZXaAvBs/s1600/at4pm.jpg"&gt;&lt;img alt="image0" src="https://lh5.googleusercontent.com/-pxub_rsQ3BQ/UzhXH6_RJ0I/AAAAAAAAKFU/djWaZXaAvBs/s800/at4pm.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;感謝讓這首歌曲誕生的每一位執行者，以及參與這一連串活動的每一位公民。&lt;/p&gt;
 &lt;p&gt;以下說明節錄自島嶼天光 youtube:&lt;/p&gt;
 &lt;pre class="literal-block"&gt;
@@ -53,7 +59,7 @@
 &lt;p&gt;&lt;img alt="image1" src="https://lh6.googleusercontent.com/-SAf2gM5A2Tc/UzhXNyw2OSI/AAAAAAAAKFc/6fVAMsIdH2Y/s800/20140330%25E5%2587%25B1%25E9%2581%2593%25E7%25B5%25B1%25E8%25A8%2588.jpg" /&gt;&lt;/p&gt;
 &lt;p&gt;--&lt;/p&gt;
 &lt;p&gt;〈島嶼天光－動畫版〉&lt;/p&gt;
-&lt;div class="youtube" align="left"&gt;&lt;iframe width="800" height="500" src="https://www.youtube.com/embed/N6vRCQqOiUw" frameborder="0"&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;p&gt;======以下為歌詞和感謝名單======&lt;/p&gt;
+&lt;div class="youtube"&gt;&lt;iframe src="https://www.youtube.com/embed/N6vRCQqOiUw" width="800" height="500" seamless frameBorder="0"&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;p&gt;======以下為歌詞和感謝名單======&lt;/p&gt;
 &lt;p&gt;【島嶼天光】&lt;/p&gt;
 &lt;p&gt;作詞：楊大正
 作曲：楊大正
@@ -108,7 +114,11 @@
 &lt;p&gt;行動支持：有料音樂、ＡＡＡ亞細亞安那其連線&lt;/p&gt;
 &lt;p&gt;感謝協助名單：胡永芬、台大外文所 黑玲&lt;/p&gt;
 &lt;p&gt;備註：歌曲版權與影像版權皆為免費使用與轉載。&lt;/p&gt;
-</summary><category term="Taiwan"></category></entry><entry><title>使用 name.com 申請新域名</title><link href="//www.hansliu.com/posts/2014/03/new-domain-name-with-name-com.html" rel="alternate"></link><published>2014-03-26T22:00:00+08:00</published><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2014-03-26:posts/2014/03/new-domain-name-with-name-com.html</id><summary type="html">&lt;p&gt;搬家的第二步驟，就是決心要註冊一個新域名，想著趁這次機會好好的養一個專屬域名，事前也上網搜尋了許多部落客的經驗，大致上整理出國內國外的數家網域名稱代理商。&lt;/p&gt;
+</content><category term="Taiwan"></category></entry><entry><title>使用 name.com 申請新域名</title><link href="//www.hansliu.com/posts/2014/03/new-domain-name-with-name-com.html" rel="alternate"></link><published>2014-03-26T22:00:00+08:00</published><updated>2014-03-26T22:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2014-03-26:/posts/2014/03/new-domain-name-with-name-com.html</id><summary type="html">&lt;p&gt;搬家的第二步驟，就是決心要註冊一個新域名，想著趁這次機會好好的養一個專屬域名，事前也上網搜尋了許多部落客的經驗，大致上整理出國內國外的數家網域名稱代理商。&lt;/p&gt;
+&lt;ol class="arabic simple"&gt;
+&lt;li&gt;pchome - &lt;a class="reference external" href="http://myname.pchome.com.tw"&gt;http://myname.pchome.com.tw&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;GoDaddy - &lt;a class="reference external" href="http://www.godaddy.com"&gt;http://www.godaddy.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;name.com - &lt;a class="reference external" href="https://www.name.com"&gt;https://www …&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary><content type="html">&lt;p&gt;搬家的第二步驟，就是決心要註冊一個新域名，想著趁這次機會好好的養一個專屬域名，事前也上網搜尋了許多部落客的經驗，大致上整理出國內國外的數家網域名稱代理商。&lt;/p&gt;
 &lt;ol class="arabic simple"&gt;
 &lt;li&gt;pchome - &lt;a class="reference external" href="http://myname.pchome.com.tw"&gt;http://myname.pchome.com.tw&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;GoDaddy - &lt;a class="reference external" href="http://www.godaddy.com"&gt;http://www.godaddy.com&lt;/a&gt;&lt;/li&gt;
@@ -123,11 +133,15 @@
 &lt;p&gt;不可否認 name.com 的配套相對來的少，其 coupon 優惠也很單純（privacy free），但是申請的過程很流暢，沒有過多不必要的資訊，網站本身速度也很快，會員後台的操作也很清楚明瞭，在 DNS 設定上還提供不少的 template 給人參考，我自己是比較喜歡這種單純直白的操作環境，即使價格不是最漂亮的。&lt;/p&gt;
 &lt;p&gt;最後我也順利申請到想要的新域名 &lt;strong&gt;hansliu.com&lt;/strong&gt; 。&lt;/p&gt;
 &lt;p&gt;順便分享在搜尋域名資料時，看到的可愛影片，是介紹 .me 這個頂級網域名稱。&lt;/p&gt;
-&lt;div class="youtube" align="left"&gt;&lt;iframe width="800" height="500" src="https://www.youtube.com/embed/JI8c66xgXIs" frameborder="0"&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;dl class="docutils"&gt;
+&lt;div class="youtube"&gt;&lt;iframe src="https://www.youtube.com/embed/JI8c66xgXIs" width="800" height="500" seamless frameBorder="0"&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;dl class="docutils"&gt;
 &lt;dt&gt;.me 網域名稱小知識&lt;/dt&gt;
 &lt;dd&gt;.me 是位於東南歐巴爾幹半島上的國家，蒙特內哥羅 (Montenegro) 的國碼頂級網域名稱 (或翻譯成黑山共和國)。&lt;/dd&gt;
 &lt;/dl&gt;
-</summary><category term="Blog"></category><category term="Domain Name"></category><category term="Github Page"></category></entry><entry><title>Hello Pelican + GitHub Pages</title><link href="//www.hansliu.com/posts/2014/03/hello-pelican-github-pages.html" rel="alternate"></link><published>2014-03-23T04:00:00+08:00</published><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2014-03-23:posts/2014/03/hello-pelican-github-pages.html</id><summary type="html">&lt;p&gt;隨著無名關閉、Google blogger 越來越慢等等原因，我心中就一直想要替自己的部落格搬家，同時看到 Jenny 使用 Pelican 的心得，就引起我的興趣，也想要將部落格搬到 GitHub Pages，不過拖了很久一直沒有開始動工，直到最近終於開始部落格的搬家作業。&lt;/p&gt;
+</content><category term="Blog"></category><category term="Domain Name"></category><category term="Github Page"></category></entry><entry><title>Hello Pelican + GitHub Pages</title><link href="//www.hansliu.com/posts/2014/03/hello-pelican-github-pages.html" rel="alternate"></link><published>2014-03-23T04:00:00+08:00</published><updated>2014-03-23T04:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2014-03-23:/posts/2014/03/hello-pelican-github-pages.html</id><summary type="html">&lt;p&gt;隨著無名關閉、Google blogger 越來越慢等等原因，我心中就一直想要替自己的部落格搬家，同時看到 Jenny 使用 Pelican 的心得，就引起我的興趣，也想要將部落格搬到 GitHub Pages，不過拖了很久一直沒有開始動工，直到最近終於開始部落格的搬家作業。&lt;/p&gt;
+&lt;p&gt;這篇文章是用來記錄一下搬家的相關資訊。&lt;/p&gt;
+&lt;div class="section" id="id1"&gt;
+&lt;h2&gt;安裝&lt;/h2&gt;
+&lt;p&gt;為了安裝方便我將 Pelican …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;隨著無名關閉、Google blogger 越來越慢等等原因，我心中就一直想要替自己的部落格搬家，同時看到 Jenny 使用 Pelican 的心得，就引起我的興趣，也想要將部落格搬到 GitHub Pages，不過拖了很久一直沒有開始動工，直到最近終於開始部落格的搬家作業。&lt;/p&gt;
 &lt;p&gt;這篇文章是用來記錄一下搬家的相關資訊。&lt;/p&gt;
 &lt;div class="section" id="id1"&gt;
 &lt;h2&gt;安裝&lt;/h2&gt;
@@ -181,7 +195,12 @@ PLUGINS = [
 ]
 &lt;/pre&gt;
 &lt;/div&gt;
-</summary><category term="Blog"></category><category term="Python"></category><category term="Pelican"></category><category term="Github Page"></category></entry><entry><title>你敢有聽着咱唱歌《Do You Hear the People Sing 台語合唱版》</title><link href="//www.hansliu.com/posts/2013/07/do-you-hear-people-sing-for-taiwan.html" rel="alternate"></link><published>2013-07-29T00:35:00+08:00</published><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2013-07-29:posts/2013/07/do-you-hear-people-sing-for-taiwan.html</id><summary type="html">&lt;div class="img-center"&gt;&lt;p&gt;&lt;a class="reference external" href="http://4.bp.blogspot.com/-_dFLJ4RxGaU/UfVEOzarcDI/AAAAAAAAJqI/HXdsxp6MPys/s1600/P7287491.jpg"&gt;&lt;img alt="image0" src="https://4.bp.blogspot.com/-_dFLJ4RxGaU/UfVEOzarcDI/AAAAAAAAJqI/HXdsxp6MPys/s1600/P7287491.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
+</content><category term="Blog"></category><category term="Python"></category><category term="Pelican"></category><category term="Github Page"></category></entry><entry><title>你敢有聽着咱唱歌《Do You Hear the People Sing 台語合唱版》</title><link href="//www.hansliu.com/posts/2013/07/do-you-hear-people-sing-for-taiwan.html" rel="alternate"></link><published>2013-07-29T00:35:00+08:00</published><updated>2013-07-29T00:35:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2013-07-29:/posts/2013/07/do-you-hear-people-sing-for-taiwan.html</id><summary type="html">&lt;div class="img-center"&gt;&lt;p&gt;&lt;a class="reference external" href="http://4.bp.blogspot.com/-_dFLJ4RxGaU/UfVEOzarcDI/AAAAAAAAJqI/HXdsxp6MPys/s1600/P7287491.jpg"&gt;&lt;img alt="image0" src="https://4.bp.blogspot.com/-_dFLJ4RxGaU/UfVEOzarcDI/AAAAAAAAJqI/HXdsxp6MPys/s1600/P7287491.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;p&gt;今天去看著子玹和朋友的創意市集攤位，聽到現場演奏著天空之城，心中揚起淡淡感動的情緒，回家後這麼剛好在這麼個時機點聽到
+Do You Hear the People Sing
+台語版，那淡淡的感動轉變成澎湃的思緒，深入我的腦海裡，充滿在我四肢的血液之中。&lt;/p&gt;
+&lt;p&gt;我也知道自己的渺小，但我更知道假如我不起身發揮那渺小的力量，那這個大環境將繼續維持現狀，維持一灘死水的現狀...&lt;/p&gt;
+&lt;p&gt;所以我要站起來，我要走出去 …&lt;/p&gt;</summary><content type="html">&lt;div class="img-center"&gt;&lt;p&gt;&lt;a class="reference external" href="http://4.bp.blogspot.com/-_dFLJ4RxGaU/UfVEOzarcDI/AAAAAAAAJqI/HXdsxp6MPys/s1600/P7287491.jpg"&gt;&lt;img alt="image0" src="https://4.bp.blogspot.com/-_dFLJ4RxGaU/UfVEOzarcDI/AAAAAAAAJqI/HXdsxp6MPys/s1600/P7287491.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;&lt;p&gt;今天去看著子玹和朋友的創意市集攤位，聽到現場演奏著天空之城，心中揚起淡淡感動的情緒，回家後這麼剛好在這麼個時機點聽到
 Do You Hear the People Sing
 台語版，那淡淡的感動轉變成澎湃的思緒，深入我的腦海裡，充滿在我四肢的血液之中。&lt;/p&gt;
@@ -241,7 +260,8 @@ Do You Hear the People Sing
 &lt;/div&gt;
 &lt;p&gt;PS: 謝謝廖淑鳳幫忙潤飾台文用字&lt;/p&gt;
 &lt;p&gt;Youtube 版本&lt;/p&gt;
-&lt;div class="youtube" align="left"&gt;&lt;iframe width="800" height="500" src="https://www.youtube.com/embed/9bQ6ewr0oHo" frameborder="0"&gt;&lt;/iframe&gt;&lt;/div&gt;</summary><category term="Taiwan"></category><category term="音樂"></category></entry><entry><title>碩士生了</title><link href="//www.hansliu.com/posts/2012/09/master-degree.html" rel="alternate"></link><published>2012-09-04T00:20:00+08:00</published><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2012-09-04:posts/2012/09/master-degree.html</id><summary type="html">&lt;div class="img-center"&gt;&lt;p&gt;&lt;img alt="image0" src="https://lh6.googleusercontent.com/-CTEDEPOm7Zc/UETXqxkWukI/AAAAAAAAJEQ/Xx5RnqrZ14g/s800/21600033.JPG" /&gt;&lt;/p&gt;
+&lt;div class="youtube"&gt;&lt;iframe src="https://www.youtube.com/embed/9bQ6ewr0oHo" width="800" height="500" seamless frameBorder="0"&gt;&lt;/iframe&gt;&lt;/div&gt;</content><category term="Taiwan"></category><category term="音樂"></category></entry><entry><title>碩士生了</title><link href="//www.hansliu.com/posts/2012/09/master-degree.html" rel="alternate"></link><published>2012-09-04T00:20:00+08:00</published><updated>2012-09-04T00:20:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2012-09-04:/posts/2012/09/master-degree.html</id><summary type="html">&lt;p class="first last"&gt;&lt;img alt="image0" src="https://lh6.googleusercontent.com/-CTEDEPOm7Zc/UETXqxkWukI/AAAAAAAAJEQ/Xx5RnqrZ14g/s800/21600033.JPG" /&gt;&lt;/p&gt;
+</summary><content type="html">&lt;div class="img-center"&gt;&lt;p&gt;&lt;img alt="image0" src="https://lh6.googleusercontent.com/-CTEDEPOm7Zc/UETXqxkWukI/AAAAAAAAJEQ/Xx5RnqrZ14g/s800/21600033.JPG" /&gt;&lt;/p&gt;
 &lt;/div&gt;&lt;div style="text-align: center;"&gt;&lt;p&gt;結束了,&lt;/p&gt;
 &lt;/div&gt;&lt;div style="text-align: center;"&gt;&lt;p&gt;漫長的學習與歷練,&lt;/p&gt;
 &lt;/div&gt;&lt;div style="text-align: center;"&gt;&lt;p&gt;終於也走到這地步,&lt;/p&gt;
@@ -262,7 +282,29 @@ Do You Hear the People Sing
 &lt;/div&gt;&lt;div class="img-center"&gt;&lt;p&gt;&lt;img alt="image1" src="https://lh5.googleusercontent.com/-F1o6UKAzlbM/UETXgKVgsWI/AAAAAAAAJEI/0twSvXQJvKw/s800/P6092800.jpg" /&gt;&lt;/p&gt;
 &lt;/div&gt;&lt;div style="text-align: center;"&gt;&lt;p&gt;謝謝&lt;/p&gt;
 &lt;/div&gt;&lt;div style="text-align: center;"&gt;&lt;p&gt;Hans&lt;/p&gt;
-&lt;/div&gt;</summary><category term="研究生"></category></entry><entry><title>研究雜記</title><link href="//www.hansliu.com/posts/2012/06/master-research.html" rel="alternate"></link><published>2012-06-20T17:08:00+08:00</published><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2012-06-20:posts/2012/06/master-research.html</id><summary type="html">&lt;p&gt;研究需注意事項：&lt;/p&gt;
+&lt;/div&gt;</content><category term="研究生"></category></entry><entry><title>研究雜記</title><link href="//www.hansliu.com/posts/2012/06/master-research.html" rel="alternate"></link><published>2012-06-20T17:08:00+08:00</published><updated>2012-06-20T17:08:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2012-06-20:/posts/2012/06/master-research.html</id><summary type="html">&lt;p&gt;研究需注意事項：&lt;/p&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;使用該公式和方法的意義？&lt;/div&gt;
+&lt;div class="line"&gt;為什麼使用這種API和搜尋引擎？&lt;/div&gt;
+&lt;div class="line"&gt;圖示表達出重點？&lt;/div&gt;
+&lt;div class="line"&gt;目的是什麼？&lt;/div&gt;
+&lt;div class="line"&gt;貢獻在哪裡？&lt;/div&gt;
+&lt;div class="line"&gt;結論要明確！&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;中文論文最好以中文為主(英文名詞需用括弧)&lt;/p&gt;
+&lt;p&gt;口試需注意事項：&lt;/p&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;論文摘要(中英文)&lt;/div&gt;
+&lt;div class="line"&gt;論文初稿(口試前要出來)&lt;/div&gt;
+&lt;div class="line"&gt;論文投影片&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;申請審定書&lt;/div&gt;
+&lt;div class="line"&gt;臨時停車位&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;--&lt;/p&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;2011.03.09 …&lt;/div&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;研究需注意事項：&lt;/p&gt;
 &lt;div class="line-block"&gt;
 &lt;div class="line"&gt;使用該公式和方法的意義？&lt;/div&gt;
 &lt;div class="line"&gt;為什麼使用這種API和搜尋引擎？&lt;/div&gt;
@@ -347,7 +389,7 @@ Do You Hear the People Sing
 &lt;div class="line"&gt;multi-documents→n-gram→Naive Bayes→分群→結果。&lt;/div&gt;
 &lt;div class="line"&gt;整理使用上的各種工具，並有效利用它。&lt;/div&gt;
 &lt;/div&gt;
-</summary><category term="研究生"></category></entry><entry><title>研發替代役面試心得《後續》</title><link href="//www.hansliu.com/posts/2012/02/rdss-interview-4.html" rel="alternate"></link><published>2012-02-09T16:47:00+08:00</published><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2012-02-09:posts/2012/02/rdss-interview-4.html</id><summary type="html">&lt;p&gt;在研發替代役階段收到的感謝函&lt;/p&gt;
+</content><category term="研究生"></category></entry><entry><title>研發替代役面試心得《後續》</title><link href="//www.hansliu.com/posts/2012/02/rdss-interview-4.html" rel="alternate"></link><published>2012-02-09T16:47:00+08:00</published><updated>2012-02-09T16:47:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2012-02-09:/posts/2012/02/rdss-interview-4.html</id><summary type="html">&lt;p&gt;在研發替代役階段收到的感謝函&lt;/p&gt;
 &lt;div class="line-block"&gt;
 &lt;div class="line"&gt;無面試感謝函：&lt;/div&gt;
 &lt;div class="line"&gt;聯發科、趨勢科技、中華電信研究所&amp;amp;數據分、晶睿通訊、曜碩科技...&lt;/div&gt;
@@ -364,7 +406,25 @@ Do You Hear the People Sing
 &lt;div class="line"&gt;婉拒Offer感謝函：&lt;/div&gt;
 &lt;div class="line"&gt;廣達研究院、科立爾、資策會&lt;/div&gt;
 &lt;/div&gt;
-</summary><category term="Interview"></category></entry><entry><title>畢業生</title><link href="//www.hansliu.com/posts/2012/01/the-graduate.html" rel="alternate"></link><published>2012-01-31T20:07:00+08:00</published><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2012-01-31:posts/2012/01/the-graduate.html</id><summary type="html">&lt;div class="img-center"&gt;&lt;p&gt;&lt;img alt="image0" src="https://lh5.ggpht.com/_PblkLLwO_wY/TEMQTrZTzDI/AAAAAAAAExM/ZZz8HnuKflY/s800/DSC_9738mr.jpg" /&gt;&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;在研發替代役階段收到的感謝函&lt;/p&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;無面試感謝函：&lt;/div&gt;
+&lt;div class="line"&gt;聯發科、趨勢科技、中華電信研究所&amp;amp;數據分、晶睿通訊、曜碩科技...&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;跑完面試感謝函：&lt;/div&gt;
+&lt;div class="line"&gt;精靈數位Gulu、鈊象IGS...&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;婉拒面試感謝函：&lt;/div&gt;
+&lt;div class="line"&gt;康博科技...&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;婉拒Offer感謝函：&lt;/div&gt;
+&lt;div class="line"&gt;廣達研究院、科立爾、資策會&lt;/div&gt;
+&lt;/div&gt;
+</content><category term="Interview"></category></entry><entry><title>畢業生</title><link href="//www.hansliu.com/posts/2012/01/the-graduate.html" rel="alternate"></link><published>2012-01-31T20:07:00+08:00</published><updated>2012-01-31T20:07:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2012-01-31:/posts/2012/01/the-graduate.html</id><summary type="html">&lt;p class="first last"&gt;&lt;img alt="image0" src="https://lh5.ggpht.com/_PblkLLwO_wY/TEMQTrZTzDI/AAAAAAAAExM/ZZz8HnuKflY/s800/DSC_9738mr.jpg" /&gt;&lt;/p&gt;
+</summary><content type="html">&lt;div class="img-center"&gt;&lt;p&gt;&lt;img alt="image0" src="https://lh5.ggpht.com/_PblkLLwO_wY/TEMQTrZTzDI/AAAAAAAAExM/ZZz8HnuKflY/s800/DSC_9738mr.jpg" /&gt;&lt;/p&gt;
 &lt;/div&gt;&lt;div style="text-align: center;"&gt;&lt;p&gt;(在畢業典禮會場不知道從哪裡冒出來的小孩XD)&lt;/p&gt;
 &lt;/div&gt;&lt;div class="line-block"&gt;
 &lt;div class="line"&gt;拍了好幾屆的畢業典禮&lt;/div&gt;
@@ -411,4 +471,4 @@ Do You Hear the People Sing
 &lt;div class="img-left"&gt;&lt;p&gt;&lt;img alt="image19" src="https://lh4.ggpht.com/_PblkLLwO_wY/TEMNgsnSmdI/AAAAAAAAEws/235Oaks_hmA/s800/DSC_9880r.jpg" /&gt;&lt;/p&gt;
 &lt;/div&gt;&lt;p&gt;#21 淚光閃閃...&lt;/p&gt;
 &lt;div class="img-left"&gt;&lt;p&gt;&lt;img alt="image20" src="https://lh4.ggpht.com/_PblkLLwO_wY/TEMNhh2yCgI/AAAAAAAAEww/IC3Tt9fnXwo/s800/DSC_9895r.jpg" /&gt;&lt;/p&gt;
-&lt;/div&gt;</summary><category term="大學生"></category></entry></feed>
+&lt;/div&gt;</content><category term="大學生"></category></entry></feed>
