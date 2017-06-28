@@ -34,20 +34,17 @@ $(document).ready(function() {
       }
     });
   });
-
   $('#button-open-sidebar').click(function() {
-    $('body').addClass("pushed");
-    $('#sidebar').addClass("pushed");
-    $('#header').addClass("pushed");
-    $('#main').addClass("pushed");
-    $('#button-close-sidebar').addClass("pushed");
+    // mutliple id selector, add pushed
+    $('body,#header,#sidebar,#main,#button-close-sidebar').each(function(){
+      $(this).addClass("pushed");
+    });
   });
   $('#button-close-sidebar').click(function() {
-    $('body').removeClass("pushed");
-    $('#sidebar').removeClass("pushed");
-    $('#header').removeClass("pushed");
-    $('#main').removeClass("pushed");
-    $('#button-close-sidebar').removeClass("pushed");
+    // mutliple id selector, remove pushed
+    $('body,#header,#sidebar,#main,#button-close-sidebar').each(function(){
+      $(this).removeClass("pushed");
+    });
   });
 
 });
