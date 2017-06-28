@@ -1,188 +1,228 @@
 <!DOCTYPE html>
 <html lang="zh-Hant">
 <head>
-    <!-- html5 meta -->
-    <meta charset="UTF-8">
-    <meta name="author" content="Hans Liu">
-    <meta name="description" content="Hans Blog- life, photo, code">
-    <meta name="keywords" content="- life, photo, code">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- html5 meta -->
+  <meta charset="UTF-8">
+  <meta name="author" content="Hans Liu">
+  <meta name="description" content="Hans Bloglife, photo, code">
+  <meta name="keywords" content="life, photo, code">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Hans Blog</title>
-    <link rel="canonical" href="//www.hansliu.com">
-    <link rel="icon" href="//www.hansliu.com/theme/images/favicon.ico" type="image/x-icon">
+  <title>Hans Blog</title>
+  <link rel="canonical" href="//www.hansliu.com">
+  <link rel="icon" href="//www.hansliu.com/theme/images/favicon.ico" type="image/x-icon">
 
-    <!-- parser -->
-    <meta name="robots" content="index, follow">
-    <meta name="googlebot" content="index, follow">
-    <meta name="baiduspider" content="index, nofollow">
+  <!-- parser -->
+  <meta name="robots" content="index, follow">
+  <meta name="googlebot" content="index, follow">
+  <meta name="baiduspider" content="index, nofollow">
 
-    <!-- fb -->
-    <meta property='fb:admins' content='1377594783'>
-    <meta property='fb:app_id' content='1561250720806305'>
+  <!-- fb -->
+  <meta property='fb:admins' content='1377594783'>
+  <meta property='fb:app_id' content='1561250720806305'>
 
-    <!-- og -->
-    <meta property="og:title" content="Hans Blog">
-    <meta property="og:url" content="//www.hansliu.com">
-    <meta property="og:site_name" content="Hans Blog">
-    <meta property="og:type" content="website">
+  <!-- og -->
+  <meta property="og:title" content="Hans Blog">
+  <meta property="og:url" content="//www.hansliu.com">
+  <meta property="og:site_name" content="Hans Blog">
+  <meta property="og:type" content="website">
 
-    <!-- cdn css -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous" type="text/css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous" type="text/css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" type="text/css">
+  <!-- cdn css -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" type="text/css">
 
-    <!-- css -->
-    <link rel="stylesheet" href="//www.hansliu.com/theme/css/main.css" type="text/css">
-    <link rel="stylesheet" href="//www.hansliu.com/theme/css/pygment.css" type="text/css">
+  <!-- css -->
+  <link rel="stylesheet" href="//www.hansliu.com/theme/css/main.css" type="text/css">
+  <!--<link rel="stylesheet" href="//www.hansliu.com/theme/css/pygment.css" type="text/css">-->
 
-    <!-- feed -->
-    <link href="//www.hansliu.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Hans Blog Full Atom Feed"/>
+  <!-- feed -->
+  <link href="//www.hansliu.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Hans Blog Full Atom Feed"/>
 
-    <!-- javascript -->
-    <script type="text/javascript">var switchTo5x=true;</script>
-    <script type="text/javascript" src="https://ws.sharethis.com/button/buttons.js"></script>
-    <script type="text/javascript" src="https://ss.sharethis.com/loader.js"></script>
+  <!-- javascript -->
+  <script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=5953634da17305001215aead&product=sticky-share-buttons"></script>
 </head>
 
-<body id="index">
-    <div class="row">
-        <!-- <nav id="navigation" role="navigation" class="navbar navbar-default"> -->
-        <nav id="navigation" role="navigation" class="navbar navbar-default navbar-fixed-top">
-            <div class="col-md-10 col-md-offset-1">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                    <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="//www.hansliu.com/"><i class="fa fa-home fa-lg"></i></a>
+<body>
+  
+  <div id="blog">
+
+    <!-- canvas -->
+    <div id="button-close-sidebar"></div>
+
+    <nav id="sidebar" data-behavior="1">
+      <div class="sidebar-container">
+        <div class="sidebar-profile">
+          <img class="sidebar-profile-picture" src="https://www.gravatar.com/avatar/9f7a4464129bd81ca5ac89e8067a5178?s=110" alt="Author's picture"></img>
+        </div>
+        <p class="sidebar-profile-name">
+          Hans Blog</br>
+          life, photo, code
+        </p>
+        <ul class="fa-ul">                    
+                <li><a href="//www.hansliu.com/"><i class="fa-li fa fa-home"></i>Home</a></li>
+                <li><a href="//www.hansliu.com/pages/photography.html"><i class="fa-li fa fa-camera-retro"></i>攝影記錄</a></li>
+                <li><a href="//www.hansliu.com/pages/portrait.html"><i class="fa-li fa fa-camera-retro"></i>人像攝影</a></li>
+                <li><a href="//www.hansliu.com/pages/cosplay.html"><i class="fa-li fa fa-camera-retro"></i>Cosplay</a></li>
+<!-- /.Menuitems -->
+
+              <li ><a href="//www.hansliu.com/category/chi-he-wan-le/"><i class="fa-li fa fa-folder-open"></i> 吃喝玩樂 (29)</a></li>
+              <li ><a href="//www.hansliu.com/category/hu-yan-luan-yu/"><i class="fa-li fa fa-folder-open"></i> 胡言亂語 (41)</a></li>
+              <li ><a href="//www.hansliu.com/category/jiao-se-ban-yan/"><i class="fa-li fa fa-folder-open"></i> 角色扮演 (22)</a></li>
+              <li ><a href="//www.hansliu.com/category/le-fen-xiang/"><i class="fa-li fa fa-folder-open"></i> 樂分享 (6)</a></li>
+              <li ><a href="//www.hansliu.com/category/ren-xiang-she-ying/"><i class="fa-li fa fa-folder-open"></i> 人像攝影 (16)</a></li>
+              <li ><a href="//www.hansliu.com/category/she-ying-ji-lu/"><i class="fa-li fa fa-folder-open"></i> 攝影記錄 (52)</a></li>
+              <li ><a href="//www.hansliu.com/category/xiang-he-jiu/"><i class="fa-li fa fa-folder-open"></i> 想喝酒 (7)</a></li>
+              <li ><a href="//www.hansliu.com/category/xie-cheng-shi/"><i class="fa-li fa fa-folder-open"></i> 寫程式 (7)</a></li>
+<!-- /.Categories -->
+
+            <li><a href="//www.hansliu.com/archives/index.html"><i class="fa-li fa fa-archive"></i>Archives</a></li>
+
+                <li><a href="https://github.com/hansliu/" target="_blank"><i class="fa-li fa fa-github"></i>Github</a></li>
+                <li><a href="https://500px.com/hcliu" target="_blank"><i class="fa-li fa fa-camera"></i>500px</a></li>
+                <li><a href="https://www.linkedin.com/in/liuhans" target="_blank"><i class="fa-li fa fa-linkedin-square"></i>LinkedIn</a></li>
+                <li><a href="https://bitbucket.org/hansliu" target="_blank"><i class="fa-li fa fa-bitbucket-square"></i>BitBucket</a></li>
+<!-- /.Social -->
+
+                <li><a href="http://getpelican.com/" target="_blank"><i class="fa-li fa fa-external-link"></i> Pelican</a></li>
+                <li><a href="http://python.org/" target="_blank"><i class="fa-li fa fa-external-link"></i> Python.org</a></li>
+                <li><a href="http://jinja.pocoo.org/" target="_blank"><i class="fa-li fa fa-external-link"></i> Jinja2</a></li>
+<!-- /.Links -->
+
+              <li><a href="http://feeds.feedburner.com/hansliu"><i class="fa-li fa fa-rss-square"></i> Burner Feed</a></li>
+<!-- /.Feeds -->
+        </ul>
+      </div>
+    </nav>  
+
+    <header id="header" data-behavior="1">
+      <a id="button-open-sidebar"><i class="fa fa-bars fa-lg"></i></a>
+      <div class="header-title">
+        <a class="header-title-link" href="//www.hansliu.com" rel="bookmark"
+            title="Permalink to Hans Blog">Hans Blog - life, photo, code</a>
+      </div>
+      <a class="header-right" herf=""><img class="header-picture" src="https://www.gravatar.com/avatar/9f7a4464129bd81ca5ac89e8067a5178?s=90" alt="Author's picture"></img></a>
+    </header>
+
+    <div id="main" data-behavior="1">
+<div>
+          <section>
+            <ol class="post-list" start="5">
+            <li>
+              <article>
+                <div class="content-wrap">
+                  <h1 class="post-title">
+                    <a href="//www.hansliu.com/posts/2010/04/2010-international-pillow-fight-taiwan.html" rel="bookmark" title="Permalink to 2010台灣街頭枕頭大戰">
+                    2010台灣街頭枕頭大戰
+                    </a>
+                  </h1>
+<div class="post-info">
+  <!--
+  <span class="vcard author">
+    by <a class="url fn" href="//www.hansliu.com/author/hans-liu.html">Hans Liu</a>
+  </span>
+  -->
+  <span class="vcard author">
+    Hans Liu
+  </span>
+
+  on 2010-04-08
+
+    <span class="label">category</span>
+    <a href="//www.hansliu.com/category/chi-he-wan-le/"><i class="fa fa-folder"></i>吃喝玩樂</a>
+
+    <span class="label">tags</span>     <a href="//www.hansliu.com/tag/olympus-dslr/"><i class="fa fa-tag"></i>Olympus DSLR</a>
+    <a href="//www.hansliu.com/tag/pillow-fight/"><i class="fa fa-tag"></i>Pillow Fight</a>
+
+    <span class="label">comments</span>
+        <a href="//www.hansliu.com/posts/2010/04/2010-international-pillow-fight-taiwan.html#disqus_thread"> Comments</a>
+        <a href="//www.hansliu.com/posts/2010/04/2010-international-pillow-fight-taiwan.html#facebook_thread"><fb:comments-count href="//www.hansliu.com/posts/2010/04/2010-international-pillow-fight-taiwan.html"></fb:comments-count> fb Comments</a>
+
+
+  
+</div><!-- /.post-info -->                  <div class="post-content">
+                    <p class="first last"><img alt="image0" src="https://lh3.googleusercontent.com/-J_aGMytZIkA/S72Z8KPZ7EI/AAAAAAAAGnQ/ZStja31kMYE/s800/P4030682r.jpg" /></p>
+
+                  </div>
+                  <p class="readmore">
+                    <a href="//www.hansliu.com/posts/2010/04/2010-international-pillow-fight-taiwan.html">Continue reading...</a>
+                  </p>
                 </div>
-                <!-- Collection of nav links and other content for toggling -->
-                <div id="navbarCollapse" class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav">
-                            <li><a href="//www.hansliu.com/pages/cosplay.html">Cosplay</a></li>
-                            <li><a href="//www.hansliu.com/pages/photography.html">Photography</a></li>
-                            <li><a href="//www.hansliu.com/pages/portrait.html">Portrait</a></li>
-                            <li><a href="//www.hansliu.com/archives/index.html">Archives</a></li>
-                    </ul>
-                    <script>
-                    (function() {
-                        var cx = '011860739956157042125:fttd__0pkbu';
-                        var gcse = document.createElement('script');
-                        gcse.type = 'text/javascript';
-                        gcse.async = true;
-                        gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
-                        '//www.google.com/cse/cse.js?cx=' + cx;
-                        var s = document.getElementsByTagName('script')[0];
-                        s.parentNode.insertBefore(gcse, s);
-                    })();
-                    </script>
-                    <div id="google-custom-search" class="nav navbar-nav navbar-right">
-                        <gcse:search></gcse:search>
-                    </div>
+              </article>
+            </li>
+            <li>
+              <article>
+                <div class="content-wrap">
+                  <h1 class="post-title">
+                    <a href="//www.hansliu.com/posts/2010/04/injured.html" rel="bookmark" title="Permalink to 受傷">
+                    受傷
+                    </a>
+                  </h1>
+<div class="post-info">
+  <!--
+  <span class="vcard author">
+    by <a class="url fn" href="//www.hansliu.com/author/hans-liu.html">Hans Liu</a>
+  </span>
+  -->
+  <span class="vcard author">
+    Hans Liu
+  </span>
+
+  on 2010-04-05
+
+    <span class="label">category</span>
+    <a href="//www.hansliu.com/category/hu-yan-luan-yu/"><i class="fa fa-folder"></i>胡言亂語</a>
+
+    <span class="label">tags</span>     <a href="//www.hansliu.com/tag/nothing/"><i class="fa fa-tag"></i>Nothing</a>
+
+    <span class="label">comments</span>
+        <a href="//www.hansliu.com/posts/2010/04/injured.html#disqus_thread"> Comments</a>
+        <a href="//www.hansliu.com/posts/2010/04/injured.html#facebook_thread"><fb:comments-count href="//www.hansliu.com/posts/2010/04/injured.html"></fb:comments-count> fb Comments</a>
+
+
+  
+</div><!-- /.post-info -->                  <div class="post-content">
+                    <p class="first last"><img alt="image0" src="https://lh3.ggpht.com/_PblkLLwO_wY/Sms0_VratfI/AAAAAAAACHA/G3rLE-NDYeE/s800/AC003.jpg" /></p>
+
+                  </div>
+                  <p class="readmore">
+                    <a href="//www.hansliu.com/posts/2010/04/injured.html">Continue reading...</a>
+                  </p>
                 </div>
-            </div>
-        </nav>
-        <header id="banner">
-            <div class="col-md-10 col-md-offset-1">
+              </article>
+            </li>
+            <li>
+              <article>
+                <div class="content-wrap">
+                  <h1 class="post-title">
+                    <a href="//www.hansliu.com/posts/2010/04/after-master-graduate.html" rel="bookmark" title="Permalink to 研究生後呢？">
+                    研究生後呢？
+                    </a>
+                  </h1>
+<div class="post-info">
+  <!--
+  <span class="vcard author">
+    by <a class="url fn" href="//www.hansliu.com/author/hans-liu.html">Hans Liu</a>
+  </span>
+  -->
+  <span class="vcard author">
+    Hans Liu
+  </span>
 
-                <!-- Disable the h1 title and subtitle
-                <h1>
-                    <a href="//www.hansliu.com/">Hans Blog  <strong>- life, photo, code</strong></a>
-                </h1>
-                -->
-            </div>
-        </header><!-- /#banner -->
-    </div>
+  on 2010-04-03
 
-    <div class="row">
-        <div class="col-md-10 col-md-offset-1">
-            <div class="row">
-<div class="col-md-9">
-      <section>
-        <ol id="posts-list" class="hfeed" start="5">
-        <li>
-          <article>
-            <header>
-              <h1 class="entry-title">
-                <a href="//www.hansliu.com/posts/2010/04/injured.html" rel="bookmark" title="Permalink to 受傷">
-                受傷
-                </a>
-              </h1>
-            </header>
-              <div class="entry-content">
-<footer class="post-info">
-    <!--
-    <address class="vcard author">
-        by <a class="url fn" href="//www.hansliu.com/author/hans-liu.html">Hans Liu</a>
-    </address>
-    -->
-    <address class="vcard author">
-        Hans Liu
-    </address>
+    <span class="label">category</span>
+    <a href="//www.hansliu.com/category/hu-yan-luan-yu/"><i class="fa fa-folder"></i>胡言亂語</a>
 
-    on 2010-04-05
+    <span class="label">tags</span>     <a href="//www.hansliu.com/tag/yan-jiu-sheng/"><i class="fa fa-tag"></i>研究生</a>
 
-        <span class="label">category</span>
-        <a href="//www.hansliu.com/category/hu-yan-luan-yu/"><i class="fa fa-folder"></i>胡言亂語</a>
-
-        <span class="label">tags</span>         <a href="//www.hansliu.com/tag/nothing/"><i class="fa fa-tag"></i>Nothing</a>
-
-        <span class="label">comments</span>
-            <a href="//www.hansliu.com/posts/2010/04/injured.html#disqus_thread"> Comments</a>
-            <a href="//www.hansliu.com/posts/2010/04/injured.html#facebook_thread"><fb:comments-count href="//www.hansliu.com/posts/2010/04/injured.html"></fb:comments-count> fb Comments</a>
+    <span class="label">comments</span>
+        <a href="//www.hansliu.com/posts/2010/04/after-master-graduate.html#disqus_thread"> Comments</a>
+        <a href="//www.hansliu.com/posts/2010/04/after-master-graduate.html#facebook_thread"><fb:comments-count href="//www.hansliu.com/posts/2010/04/after-master-graduate.html"></fb:comments-count> fb Comments</a>
 
 
-    
-</footer><!-- /.post-info -->                <div class="post-content">
-                  <p class="first last"><img alt="image0" src="https://lh3.ggpht.com/_PblkLLwO_wY/Sms0_VratfI/AAAAAAAACHA/G3rLE-NDYeE/s800/AC003.jpg" /></p>
-
-                </div>
-                <p class="readmore">
-                  <a class="btn btn-small btn-info" href="//www.hansliu.com/posts/2010/04/injured.html">Read more...</a>
-                </p>
-              </div><!-- /.entry-content -->
-            <hr>
-          </article>
-        </li>
-        <li>
-          <article>
-            <header>
-              <h1 class="entry-title">
-                <a href="//www.hansliu.com/posts/2010/04/after-master-graduate.html" rel="bookmark" title="Permalink to 研究生後呢？">
-                研究生後呢？
-                </a>
-              </h1>
-            </header>
-              <div class="entry-content">
-<footer class="post-info">
-    <!--
-    <address class="vcard author">
-        by <a class="url fn" href="//www.hansliu.com/author/hans-liu.html">Hans Liu</a>
-    </address>
-    -->
-    <address class="vcard author">
-        Hans Liu
-    </address>
-
-    on 2010-04-03
-
-        <span class="label">category</span>
-        <a href="//www.hansliu.com/category/hu-yan-luan-yu/"><i class="fa fa-folder"></i>胡言亂語</a>
-
-        <span class="label">tags</span>         <a href="//www.hansliu.com/tag/yan-jiu-sheng/"><i class="fa fa-tag"></i>研究生</a>
-
-        <span class="label">comments</span>
-            <a href="//www.hansliu.com/posts/2010/04/after-master-graduate.html#disqus_thread"> Comments</a>
-            <a href="//www.hansliu.com/posts/2010/04/after-master-graduate.html#facebook_thread"><fb:comments-count href="//www.hansliu.com/posts/2010/04/after-master-graduate.html"></fb:comments-count> fb Comments</a>
-
-
-    
-</footer><!-- /.post-info -->                <div class="post-content">
-                  <div class="img-center"><p><img alt="image0" src="https://lh4.ggpht.com/_PblkLLwO_wY/S7YhKugTrCI/AAAAAAAADjQ/Nj0iOZPvb9Y/P1010493mr.jpg" /></p>
+  
+</div><!-- /.post-info -->                  <div class="post-content">
+                    <div class="img-center"><p><img alt="image0" src="https://lh4.ggpht.com/_PblkLLwO_wY/S7YhKugTrCI/AAAAAAAADjQ/Nj0iOZPvb9Y/P1010493mr.jpg" /></p>
 </div><div class="line-block">
 <div class="line">台灣學子有個特色，哪邊熱門就往哪邊鑽，</div>
 <div class="line">某個科系當年紅，隔年的錄取率就會節節高升，</div>
@@ -201,93 +241,87 @@
 <div class="line">如果以上都不是，那我到底為什麼要去唸研究所呢？</div>
 </div>
 <p>和阿川也不是第一天討論這個問題，總是想在盲從之中找到一絲絲的目標，有人說是為了面對這個社會所帶來的壓力，當人人都拼了命去擠研究所混口飯吃的時候 …</p>
+                  </div>
+                  <p class="readmore">
+                    <a href="//www.hansliu.com/posts/2010/04/after-master-graduate.html">Continue reading...</a>
+                  </p>
                 </div>
-                <p class="readmore">
-                  <a class="btn btn-small btn-info" href="//www.hansliu.com/posts/2010/04/after-master-graduate.html">Read more...</a>
-                </p>
-              </div><!-- /.entry-content -->
-            <hr>
-          </article>
-        </li>
-        <li>
-          <article>
-            <header>
-              <h1 class="entry-title">
-                <a href="//www.hansliu.com/posts/2010/03/graduate-entrance-exam-5.html" rel="bookmark" title="Permalink to 第五間">
-                第五間
-                </a>
-              </h1>
-            </header>
-              <div class="entry-content">
-<footer class="post-info">
-    <!--
-    <address class="vcard author">
-        by <a class="url fn" href="//www.hansliu.com/author/hans-liu.html">Hans Liu</a>
-    </address>
-    -->
-    <address class="vcard author">
-        Hans Liu
-    </address>
+              </article>
+            </li>
+            <li>
+              <article>
+                <div class="content-wrap">
+                  <h1 class="post-title">
+                    <a href="//www.hansliu.com/posts/2010/03/graduate-entrance-exam-5.html" rel="bookmark" title="Permalink to 第五間">
+                    第五間
+                    </a>
+                  </h1>
+<div class="post-info">
+  <!--
+  <span class="vcard author">
+    by <a class="url fn" href="//www.hansliu.com/author/hans-liu.html">Hans Liu</a>
+  </span>
+  -->
+  <span class="vcard author">
+    Hans Liu
+  </span>
 
-    on 2010-03-28
+  on 2010-03-28
 
-        <span class="label">category</span>
-        <a href="//www.hansliu.com/category/hu-yan-luan-yu/"><i class="fa fa-folder"></i>胡言亂語</a>
+    <span class="label">category</span>
+    <a href="//www.hansliu.com/category/hu-yan-luan-yu/"><i class="fa fa-folder"></i>胡言亂語</a>
 
-        <span class="label">tags</span>         <a href="//www.hansliu.com/tag/yan-jiu-sheng/"><i class="fa fa-tag"></i>研究生</a>
+    <span class="label">tags</span>     <a href="//www.hansliu.com/tag/yan-jiu-sheng/"><i class="fa fa-tag"></i>研究生</a>
 
-        <span class="label">comments</span>
-            <a href="//www.hansliu.com/posts/2010/03/graduate-entrance-exam-5.html#disqus_thread"> Comments</a>
-            <a href="//www.hansliu.com/posts/2010/03/graduate-entrance-exam-5.html#facebook_thread"><fb:comments-count href="//www.hansliu.com/posts/2010/03/graduate-entrance-exam-5.html"></fb:comments-count> fb Comments</a>
+    <span class="label">comments</span>
+        <a href="//www.hansliu.com/posts/2010/03/graduate-entrance-exam-5.html#disqus_thread"> Comments</a>
+        <a href="//www.hansliu.com/posts/2010/03/graduate-entrance-exam-5.html#facebook_thread"><fb:comments-count href="//www.hansliu.com/posts/2010/03/graduate-entrance-exam-5.html"></fb:comments-count> fb Comments</a>
 
 
-    
-</footer><!-- /.post-info -->                <div class="post-content">
-                  <p class="first last"><img alt="image0" src="https://lh6.ggpht.com/_PblkLLwO_wY/S69u4ie4e2I/AAAAAAAADiI/twtata3J3sA/s1600/DSCF2109mr.jpg" /></p>
+  
+</div><!-- /.post-info -->                  <div class="post-content">
+                    <p class="first last"><img alt="image0" src="https://lh6.ggpht.com/_PblkLLwO_wY/S69u4ie4e2I/AAAAAAAADiI/twtata3J3sA/s1600/DSCF2109mr.jpg" /></p>
 
+                  </div>
+                  <p class="readmore">
+                    <a href="//www.hansliu.com/posts/2010/03/graduate-entrance-exam-5.html">Continue reading...</a>
+                  </p>
                 </div>
-                <p class="readmore">
-                  <a class="btn btn-small btn-info" href="//www.hansliu.com/posts/2010/03/graduate-entrance-exam-5.html">Read more...</a>
-                </p>
-              </div><!-- /.entry-content -->
-            <hr>
-          </article>
-        </li>
-        <li>
-          <article>
-            <header>
-              <h1 class="entry-title">
-                <a href="//www.hansliu.com/posts/2010/03/graduate-entrance-exam-4.html" rel="bookmark" title="Permalink to 第四間">
-                第四間
-                </a>
-              </h1>
-            </header>
-              <div class="entry-content">
-<footer class="post-info">
-    <!--
-    <address class="vcard author">
-        by <a class="url fn" href="//www.hansliu.com/author/hans-liu.html">Hans Liu</a>
-    </address>
-    -->
-    <address class="vcard author">
-        Hans Liu
-    </address>
+              </article>
+            </li>
+            <li>
+              <article>
+                <div class="content-wrap">
+                  <h1 class="post-title">
+                    <a href="//www.hansliu.com/posts/2010/03/graduate-entrance-exam-4.html" rel="bookmark" title="Permalink to 第四間">
+                    第四間
+                    </a>
+                  </h1>
+<div class="post-info">
+  <!--
+  <span class="vcard author">
+    by <a class="url fn" href="//www.hansliu.com/author/hans-liu.html">Hans Liu</a>
+  </span>
+  -->
+  <span class="vcard author">
+    Hans Liu
+  </span>
 
-    on 2010-03-22
+  on 2010-03-22
 
-        <span class="label">category</span>
-        <a href="//www.hansliu.com/category/hu-yan-luan-yu/"><i class="fa fa-folder"></i>胡言亂語</a>
+    <span class="label">category</span>
+    <a href="//www.hansliu.com/category/hu-yan-luan-yu/"><i class="fa fa-folder"></i>胡言亂語</a>
 
-        <span class="label">tags</span>         <a href="//www.hansliu.com/tag/yan-jiu-sheng/"><i class="fa fa-tag"></i>研究生</a>
+    <span class="label">tags</span>     <a href="//www.hansliu.com/tag/yan-jiu-sheng/"><i class="fa fa-tag"></i>研究生</a>
 
-        <span class="label">comments</span>
-            <a href="//www.hansliu.com/posts/2010/03/graduate-entrance-exam-4.html#disqus_thread"> Comments</a>
-            <a href="//www.hansliu.com/posts/2010/03/graduate-entrance-exam-4.html#facebook_thread"><fb:comments-count href="//www.hansliu.com/posts/2010/03/graduate-entrance-exam-4.html"></fb:comments-count> fb Comments</a>
+    <span class="label">comments</span>
+        <a href="//www.hansliu.com/posts/2010/03/graduate-entrance-exam-4.html#disqus_thread"> Comments</a>
+        <a href="//www.hansliu.com/posts/2010/03/graduate-entrance-exam-4.html#facebook_thread"><fb:comments-count href="//www.hansliu.com/posts/2010/03/graduate-entrance-exam-4.html"></fb:comments-count> fb Comments</a>
 
 
-    
-</footer><!-- /.post-info -->                <div class="post-content">
-                  <div class="line-block">
+  
+</div><!-- /.post-info -->                  <div class="post-content">
+                    <div class="line-block">
 <div class="line">這是個與眾不同的科系</div>
 <div class="line">它的考試範圍橫跨三大領域，整合六大基本科目</div>
 <div class="line">而且除了基本科目以外，還有程式、網路和通訊三個延伸科目</div>
@@ -301,49 +335,46 @@
 <div class="line">陸續寫了四間不同學校的考卷，真的見識到這個科系的廣與深</div>
 <div class="line">一點點小小的變化就能產生與眾不同的結果...</div>
 <div class="line">思考思考思到無緒[STRIKEOUT …</div></div>
+                  </div>
+                  <p class="readmore">
+                    <a href="//www.hansliu.com/posts/2010/03/graduate-entrance-exam-4.html">Continue reading...</a>
+                  </p>
                 </div>
-                <p class="readmore">
-                  <a class="btn btn-small btn-info" href="//www.hansliu.com/posts/2010/03/graduate-entrance-exam-4.html">Read more...</a>
-                </p>
-              </div><!-- /.entry-content -->
-            <hr>
-          </article>
-        </li>
-        <li>
-          <article>
-            <header>
-              <h1 class="entry-title">
-                <a href="//www.hansliu.com/posts/2010/03/graduate-entrance-exam-2.html" rel="bookmark" title="Permalink to 第二間">
-                第二間
-                </a>
-              </h1>
-            </header>
-              <div class="entry-content">
-<footer class="post-info">
-    <!--
-    <address class="vcard author">
-        by <a class="url fn" href="//www.hansliu.com/author/hans-liu.html">Hans Liu</a>
-    </address>
-    -->
-    <address class="vcard author">
-        Hans Liu
-    </address>
+              </article>
+            </li>
+            <li>
+              <article>
+                <div class="content-wrap">
+                  <h1 class="post-title">
+                    <a href="//www.hansliu.com/posts/2010/03/graduate-entrance-exam-2.html" rel="bookmark" title="Permalink to 第二間">
+                    第二間
+                    </a>
+                  </h1>
+<div class="post-info">
+  <!--
+  <span class="vcard author">
+    by <a class="url fn" href="//www.hansliu.com/author/hans-liu.html">Hans Liu</a>
+  </span>
+  -->
+  <span class="vcard author">
+    Hans Liu
+  </span>
 
-    on 2010-03-16
+  on 2010-03-16
 
-        <span class="label">category</span>
-        <a href="//www.hansliu.com/category/hu-yan-luan-yu/"><i class="fa fa-folder"></i>胡言亂語</a>
+    <span class="label">category</span>
+    <a href="//www.hansliu.com/category/hu-yan-luan-yu/"><i class="fa fa-folder"></i>胡言亂語</a>
 
-        <span class="label">tags</span>         <a href="//www.hansliu.com/tag/yan-jiu-sheng/"><i class="fa fa-tag"></i>研究生</a>
+    <span class="label">tags</span>     <a href="//www.hansliu.com/tag/yan-jiu-sheng/"><i class="fa fa-tag"></i>研究生</a>
 
-        <span class="label">comments</span>
-            <a href="//www.hansliu.com/posts/2010/03/graduate-entrance-exam-2.html#disqus_thread"> Comments</a>
-            <a href="//www.hansliu.com/posts/2010/03/graduate-entrance-exam-2.html#facebook_thread"><fb:comments-count href="//www.hansliu.com/posts/2010/03/graduate-entrance-exam-2.html"></fb:comments-count> fb Comments</a>
+    <span class="label">comments</span>
+        <a href="//www.hansliu.com/posts/2010/03/graduate-entrance-exam-2.html#disqus_thread"> Comments</a>
+        <a href="//www.hansliu.com/posts/2010/03/graduate-entrance-exam-2.html#facebook_thread"><fb:comments-count href="//www.hansliu.com/posts/2010/03/graduate-entrance-exam-2.html"></fb:comments-count> fb Comments</a>
 
 
-    
-</footer><!-- /.post-info -->                <div class="post-content">
-                  <div class="line-block">
+  
+</div><!-- /.post-info -->                  <div class="post-content">
+                    <div class="line-block">
 <div class="line">成長時期會經歷許多考試</div>
 <div class="line">每次考試寫出的方法和解答</div>
 <div class="line">都是前人經驗所累積的成果</div>
@@ -359,74 +390,14 @@
 <div class="line">因為有第一間發生的狀況</div>
 <div class="line">所以面對第二間的心態有了調整</div>
 <div class="line">寫起來順了許多，我想是件好事 …</div></div>
+                  </div>
+                  <p class="readmore">
+                    <a href="//www.hansliu.com/posts/2010/03/graduate-entrance-exam-2.html">Continue reading...</a>
+                  </p>
                 </div>
-                <p class="readmore">
-                  <a class="btn btn-small btn-info" href="//www.hansliu.com/posts/2010/03/graduate-entrance-exam-2.html">Read more...</a>
-                </p>
-              </div><!-- /.entry-content -->
-            <hr>
-          </article>
-        </li>
-        <li>
-          <article>
-            <header>
-              <h1 class="entry-title">
-                <a href="//www.hansliu.com/posts/2010/03/graduate-entrance-exam-1.html" rel="bookmark" title="Permalink to 第一間">
-                第一間
-                </a>
-              </h1>
-            </header>
-              <div class="entry-content">
-<footer class="post-info">
-    <!--
-    <address class="vcard author">
-        by <a class="url fn" href="//www.hansliu.com/author/hans-liu.html">Hans Liu</a>
-    </address>
-    -->
-    <address class="vcard author">
-        Hans Liu
-    </address>
-
-    on 2010-03-06
-
-        <span class="label">category</span>
-        <a href="//www.hansliu.com/category/hu-yan-luan-yu/"><i class="fa fa-folder"></i>胡言亂語</a>
-
-        <span class="label">tags</span>         <a href="//www.hansliu.com/tag/yan-jiu-sheng/"><i class="fa fa-tag"></i>研究生</a>
-
-        <span class="label">comments</span>
-            <a href="//www.hansliu.com/posts/2010/03/graduate-entrance-exam-1.html#disqus_thread"> Comments</a>
-            <a href="//www.hansliu.com/posts/2010/03/graduate-entrance-exam-1.html#facebook_thread"><fb:comments-count href="//www.hansliu.com/posts/2010/03/graduate-entrance-exam-1.html"></fb:comments-count> fb Comments</a>
-
-
-    
-</footer><!-- /.post-info -->                <div class="post-content">
-                  <div class="line-block">
-<div class="line">第一間</div>
-<div class="line">非常緊張</div>
-<div class="line">寫到手都抖了...</div>
-<div class="line">不過，因為這次考試，也讓我看清更多真實的現象...</div>
-<div class="line">研究的意義真的存在嗎？</div>
-<div class="line">這樣的疑問在我的內心日益壯大</div>
-<div class="line">學問的意義真的存在嗎？</div>
-</div>
-<p>---</p>
-<div class="line-block">
-<div class="line">如果存在的學問，無法被實踐</div>
-<div class="line">如果努力的研究，只是空殼子</div>
-<div class="line">如果真實的問題，沒人去解決</div>
-<div class="line">那我現在的所作所為，意義何在？</div>
-<div class="line">回到當下來看，還有下一間在等待著我</div>
-<div class="line">內心的疑問 …</div></div>
-                </div>
-                <p class="readmore">
-                  <a class="btn btn-small btn-info" href="//www.hansliu.com/posts/2010/03/graduate-entrance-exam-1.html">Read more...</a>
-                </p>
-              </div><!-- /.entry-content -->
-            <hr>
-          </article>
-        </li>
-        </ol><!-- /#posts-list -->
+              </article>
+            </li>
+            </ol><!-- /#posts-list -->
 <!--
 <p class="paginator">
     <a href="//www.hansliu.com/page/26/">&laquo;</a>
@@ -434,120 +405,65 @@
     <a href="//www.hansliu.com/page/28/">&raquo;</a>
 </p>
 -->
-<nav>
-    <ul class="pagination">
-        <li>
-            <a href="//www.hansliu.com/page/26/"><i class="fa fa-chevron-circle-left fa-fw fa-lg"></i> Previous</a>
-        </li>
-    <!-- pagination display by PAGINATION_DISPLAY_PAGE -->
-                    <li>
-                        <a href="//www.hansliu.com/page/21/"> 21 </a>
-                    </li>
-                    <li>
-                        <a href="//www.hansliu.com/page/22/"> 22 </a>
-                    </li>
-                    <li>
-                        <a href="//www.hansliu.com/page/23/"> 23 </a>
-                    </li>
-                    <li>
-                        <a href="//www.hansliu.com/page/24/"> 24 </a>
-                    </li>
-                    <li>
-                        <a href="//www.hansliu.com/page/25/"> 25 </a>
-                    </li>
-                    <li>
-                        <a href="//www.hansliu.com/page/26/"> 26 </a>
-                    </li>
-                    <li class="active">
-                        <span> 27 </span></a>
-                    </li>
-                    <li>
-                        <a href="//www.hansliu.com/page/28/"> 28 </a>
-                    </li>
-                    <li>
-                        <a href="//www.hansliu.com/page/29/"> 29 </a>
-                    </li>
-                    <li>
-                        <a href="//www.hansliu.com/page/30/"> 30 </a>
-                    </li>
-    <!-- /.pagination display by PAGINATION_DISPLAY_PAGE -->
-        <li>
-            <a href="//www.hansliu.com/page/28/">Next <i class="fa fa-chevron-circle-right fa-fw fa-lg"></i></a>
-        </li>
-</nav>
-      </section><!-- /#content -->
+<div class="paginator">
+  <ul class="pagination">
+    <li>
+      <a href="//www.hansliu.com/page/26/"><i class="fa fa-chevron-circle-left fa-fw fa-lg"></i> Previous</a>
+    </li>
+  <!-- pagination display by PAGINATION_DISPLAY_PAGE -->
+          <li>
+            <a href="//www.hansliu.com/page/21/"> 21 </a>
+          </li>
+          <li>
+            <a href="//www.hansliu.com/page/22/"> 22 </a>
+          </li>
+          <li>
+            <a href="//www.hansliu.com/page/23/"> 23 </a>
+          </li>
+          <li>
+            <a href="//www.hansliu.com/page/24/"> 24 </a>
+          </li>
+          <li>
+            <a href="//www.hansliu.com/page/25/"> 25 </a>
+          </li>
+          <li>
+            <a href="//www.hansliu.com/page/26/"> 26 </a>
+          </li>
+          <li class="active">
+            <span> 27 </span></a>
+          </li>
+          <li>
+            <a href="//www.hansliu.com/page/28/"> 28 </a>
+          </li>
+          <li>
+            <a href="//www.hansliu.com/page/29/"> 29 </a>
+          </li>
+          <li>
+            <a href="//www.hansliu.com/page/30/"> 30 </a>
+          </li>
+  <!-- /.pagination display by PAGINATION_DISPLAY_PAGE -->
+    <li>
+      <a href="//www.hansliu.com/page/28/">Next <i class="fa fa-chevron-circle-right fa-fw fa-lg"></i></a>
+    </li>
 </div>
-<div class="col-md-3">
-    <section id="sidebar">
-        <div>
-            <h3 class="title"><i class="fa fa-user fa-fw fa-lg"></i>Social</h3>
-            <ul class="fa-ul">
-                    <li><a href="https://github.com/hansliu/"><i class="fa-li fa fa-github"></i> Github</a></li>
-                    <li><a href="http://500px.com/hcliu"><i class="fa-li fa fa-camera"></i> 500px</a></li>
-                    <li><a href="https://www.linkedin.com/in/liuhans"><i class="fa-li fa fa-linkedin-square"></i> LinkedIn</a></li>
-                    <li><a href="http://bitbucket.org/hansliu"><i class="fa-li fa fa-bitbucket-square"></i> BitBucket</a></li>
-            </ul>
-        </div><!-- /.Social -->
-        <div>
-            <h3 class="title"><i class="fa fa-folder fa-fw fa-lg"></i>Categories</h3>
-            <ul class="fa-ul">
-                <li ><a href="//www.hansliu.com/category/chi-he-wan-le/"><i class="fa-li fa fa-folder-open"></i> 吃喝玩樂 (29)</a></li>
-                <li ><a href="//www.hansliu.com/category/hu-yan-luan-yu/"><i class="fa-li fa fa-folder-open"></i> 胡言亂語 (41)</a></li>
-                <li ><a href="//www.hansliu.com/category/jiao-se-ban-yan/"><i class="fa-li fa fa-folder-open"></i> 角色扮演 (21)</a></li>
-                <li ><a href="//www.hansliu.com/category/le-fen-xiang/"><i class="fa-li fa fa-folder-open"></i> 樂分享 (6)</a></li>
-                <li ><a href="//www.hansliu.com/category/ren-xiang-she-ying/"><i class="fa-li fa fa-folder-open"></i> 人像攝影 (16)</a></li>
-                <li ><a href="//www.hansliu.com/category/she-ying-ji-lu/"><i class="fa-li fa fa-folder-open"></i> 攝影記錄 (52)</a></li>
-                <li ><a href="//www.hansliu.com/category/xiang-he-jiu/"><i class="fa-li fa fa-folder-open"></i> 想喝酒 (7)</a></li>
-                <li ><a href="//www.hansliu.com/category/xie-cheng-shi/"><i class="fa-li fa fa-folder-open"></i> 寫程式 (7)</a></li>
-            </ul>
-        </div><!-- /.Categories -->
-<!-- /.Tags -->
-        <div>
-            <h3 class="title"><i class="fa fa-link fa-fw fa-lg"></i>Links</h3>
-            <ul class="fa-ul">
-                    <li><a href="http://getpelican.com/"><i class="fa-li fa fa-external-link"></i> Pelican</a></li>
-                    <li><a href="http://python.org/"><i class="fa-li fa fa-external-link"></i> Python.org</a></li>
-                    <li><a href="http://jinja.pocoo.org/"><i class="fa-li fa fa-external-link"></i> Jinja2</a></li>
-            </ul>
-        </div><!-- /.Links -->
-        <div>
-            <h3 class="title"><i class="fa fa-rss fa-fw fa-lg"></i>Feeds</h3>
-            <ul class="fa-ul">
-                <li><a href="http://feeds.feedburner.com/hansliu"><i class="fa-li fa fa-rss-square"></i> Burner Feed</a></li>
-            </ul>
-        </div>
-<!-- /.Feeds -->
-        <div>
-            <h3></h3>
-            <ul id="blogger-ads">
-                <li>
-                <script type="text/javascript">
-                    'https:' == document.location.protocol ? true: document.write(unescape("%3Cscript type='text/javascript' src='http://js1.bloggerads.net/showads.aspx?blogid=20141009000017&amp;charset=utf-8'%3E%3C/script%3E"));
-                </script>
-                </li>
-            </ul>
-        </div><!-- /.bloggerads -->
-    </section><!-- /#sidebar -->
+          </section><!-- /#content -->
 </div>
-            </div>
-        </div>
-    </div>
 
-<footer id="site-footer">
-    <div class="row">
-        <div class="col-md-10 col-md-offset-1">
-            <address>
-            <p>
-                This blog is proudly powered by <a href="http://blog.getpelican.com/">Pelican</a>, which takes great advantage of <a href="https://python.org">Python</a>.
-            </p>
-            <p>
-                <a href="https://github.com/jsliang/pelican-fresh/">Fresh</a> is a responsive theme designed by <a href="http://jsliang.com/">jsliang</a> and <a href="https://github.com/jsliang/pelican-fresh/graphs/contributors">contributors</a>.
-                Special thanks to <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a> and <a href="https://getbootstrap.com/">Twitter Bootstrap</a>.
-            </p>
-            </address>
-        </div>
+      <section>
+        <footer id="footer">
+          <div class="content-wrap">
+            <span class="copyrights">Copyrights © 2017 Hans Liu. All Rights Reserved.</span>
+          </div>
+        </footer>
+      </section>
+
     </div>
-</footer>
+    <!--
+    -->
+
+  </div>
+
+  <div id="cover" style="background-image:url('//www.hansliu.com/theme/images/cover.jpg');"></div>
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -570,41 +486,41 @@ var disqus_shortname = 'hansliu'; // required: replace example with your forum s
     (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
 }());
 </script>
-<script src="https://code.jquery.com/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-<script src="//www.hansliu.com/theme/js/main.js"></script>
-<script>
-    window.fbAsyncInit = function() {
-        FB.init({
-            appId      : '1561250720806305',
-            status     : true,
-            xfbml      : true,
-            version    : 'v2.6'
-        });
-    };
+  <script src="https://code.jquery.com/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <script src="//www.hansliu.com/theme/js/main.js"></script>
+  <script>
+      window.fbAsyncInit = function() {
+          FB.init({
+              appId      : '1561250720806305',
+              status     : true,
+              xfbml      : true,
+              version    : 'v2.6'
+          });
+      };
 
-    (function(d, s, id){
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) {return;}
-        js = d.createElement(s); js.id = id;
-        js.src = "//connect.facebook.net/zh_TW/sdk.js";
-        fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
-</script>
-<script>
-    stLight.options({
-        publisher: "332ba136-1fa8-448b-a1da-796d0851ff4b",
-        doNotHash: false,
-        doNotCopy: false,
-        hashAddressBar: false
-    });
-</script>
-<script>
-var options={ "publisher": "332ba136-1fa8-448b-a1da-796d0851ff4b", "position": "left", "ad": { "visible": false, "openDelay": 5, "closeDelay": 0}, "chicklets": { "items": ["facebook", "twitter", "email", "tumblr", "evernote"]}};
-var st_hover_widget = new sharethis.widgets.hoverbuttons(options);
-</script>
+      (function(d, s, id){
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) {return;}
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/zh_TW/sdk.js";
+          fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+  </script>
+  <script>
+      stLight.options({
+          publisher: "5953634da17305001215aead",
+          doNotHash: false,
+          doNotCopy: false,
+          hashAddressBar: false
+      });
+  </script>
+  <script>
+  var options={ "publisher": "5953634da17305001215aead", "position": "left", "ad": { "visible": false, "openDelay": 5, "closeDelay": 0}, "chicklets": { "items": ["facebook", "twitter", "email", "tumblr", "evernote"]}};
+  var st_hover_widget = new sharethis.widgets.hoverbuttons(options);
+  </script>
 </body>
 </html>

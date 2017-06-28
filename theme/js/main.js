@@ -35,4 +35,19 @@ $(document).ready(function() {
     });
   });
 
+  $('#button-open-sidebar').click(function() {
+    $('body').addClass("pushed");
+    $('#sidebar').addClass("pushed");
+    $('#header').addClass("pushed");
+    $('#main').addClass("pushed");
+    $('#button-close-sidebar').addClass("pushed");
+  });
+  $('#button-close-sidebar').click(function() {
+    $('body').removeClass("pushed");
+    $('#sidebar').removeClass("pushed");
+    $('#header').removeClass("pushed");
+    $('#main').removeClass("pushed");
+    $('#button-close-sidebar').removeClass("pushed");
+  });
+
 });
