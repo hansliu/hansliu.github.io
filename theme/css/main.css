@@ -49,6 +49,42 @@ h6 {
   color: #666;
   line-height: 16.79616px; }
 
+@media only screen and (max-width: 767px) {
+  h1 {
+    font-size: 25.6px; }
+
+  h2 {
+    font-size: 20.48px; }
+
+  h3 {
+    font-size: 18.432px; }
+
+  h4 {
+    font-size: 16.5888px; }
+
+  h5 {
+    font-size: 14.92992px; }
+
+  h6 {
+    font-size: 13.43693px; } }
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  h1 {
+    font-size: 28.8px; }
+
+  h2 {
+    font-size: 23.04px; }
+
+  h3 {
+    font-size: 20.736px; }
+
+  h4 {
+    font-size: 18.6624px; }
+
+  h5 {
+    font-size: 16.79616px; }
+
+  h6 {
+    font-size: 15.11654px; } }
 pre {
   background-color: #eeeeee;
   padding: 10px;
@@ -84,12 +120,17 @@ ul {
 ol {
   list-style: outside decimal; }
 
+html {
+  overflow-x: hidden; }
+
 body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
   color: #5d686f;
   font-size: 16px;
   line-height: 24px;
-  margin: 0;
-  padding: 0;
+  letter-spacing: .01em;
   text-align: left; }
 
 body.pushed {
@@ -141,7 +182,7 @@ section, article, aside, footer, header, nav {
   #header .header-title {
     text-align: center;
     font-family: "Microsoft YaHei", Overlock, serif;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     line-height: 50px;
     margin: 0; }
   #header .header-title-link {
@@ -164,19 +205,13 @@ section, article, aside, footer, header, nav {
 
 #sidebar {
   font-family: "Microsoft YaHei", "Open Sans", sans-serif;
-  display: -webkit-flex;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: flex;
   position: fixed;
   width: 250px;
   height: 100%;
   top: 0;
   left: 0;
   z-index: 20;
-  flex-direction: column;
-  justify-content: center;
+  overflow: auto;
   -webkit-transition: -webkit-transform .25s ease-in-out;
   -webkit-font-smoothing: antialiased; }
   #sidebar a {
@@ -267,6 +302,36 @@ section, article, aside, footer, header, nav {
   -moz-transform: translate3d(250px, 0, 0);
   transform: translate3d(250px, 0, 0); }
 
+@media only screen and (max-width: 1023px) {
+  #sidebar {
+    left: -250px; }
+
+  #header {
+    display: auto; }
+
+  #main {
+    width: 100%;
+    padding-top: 60px; } }
+@media only screen and (min-width: 1024px) {
+  #sidebar[data-behavior='1'] {
+    left: 0; }
+
+  #header[data-behavior='1'] {
+    display: none; }
+
+  #main[data-behavior='1'] {
+    width: calc(100% - 250px);
+    float: right; }
+
+  #sidebar[data-behavior='2'] {
+    left: -250px; }
+
+  #header[data-behavior='2'] {
+    display: auto; }
+
+  #main[data-behavior='2'] {
+    width: 100%;
+    padding-top: 60px; } }
 .content-wrap {
   display: block;
   max-width: 1200px;
@@ -337,38 +402,10 @@ img.left, figure.left {
 .readmore {
   padding: 0 0.5em; }
 
-/* Add responsive layout */
-@media only screen and (min-width: 980px) {
-  #sidebar[data-behavior='1'] {
-    left: 0; }
-
-  #header[data-behavior='1'] {
-    display: none; }
-
-  #main[data-behavior='1'] {
-    width: calc(100% - 250px);
-    float: right; }
-
-  #sidebar[data-behavior='2'] {
-    left: -250px; }
-
-  #header[data-behavior='2'] {
-    display: auto; }
-
-  #main[data-behavior='2'] {
-    width: 100%;
-    padding-top: 60px; } }
-@media only screen and (max-width: 979px) {
-  #sidebar {
-    left: -250px; }
-
-  #main {
-    width: 100%;
-    padding-top: 60px; }
-
-  #header {
-    display: auto; }
-
+@media screen and (max-device-width: 768px) {
+  #blogger-ads {
+    display: none; } }
+@media only screen and (max-width: 1023px) {
   #blogger-ads {
     display: none; }
 
@@ -386,13 +423,6 @@ img.left, figure.left {
     width: 100%;
     height: 100%;
     margin-bottom: 1em; } }
-/* Add responsive layout for cell phone and small device */
-@media screen and (max-device-width: 768px) {
-  #blogger-ads {
-    display: none; }
-
-  #sthoverbuttons {
-    display: none; } }
 #google-custom-search {
   width: 300px;
   margin-top: 6px;
@@ -410,22 +440,6 @@ img.left, figure.left {
     box-sizing: content-box !important;
     box-shadow: none !important; }
 
-/*
-.sharethis {
-  margin-top: 1em;
-  margin-bottom: 1em;
-}
-
-.sharethis-top {
-  @extend .sharethis;
-  text-align: right;
-}
-
-.sharethis-bottom {
-  @extend .sharethis;
-  text-align: left;
-}
-*/
 #comments-list {
   list-style: none;
   margin: 0 1em; }

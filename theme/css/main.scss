@@ -73,6 +73,48 @@ h6 {
   line-height: $h6size;
 }
 
+@media only screen and (max-width:767px) {
+  h1 {
+    font-size: $h1size * 4/5;
+  }
+  h2 {
+    font-size: $h2size * 4/5;
+  }
+  h3 {
+    font-size: $h3size * 4/5;
+  }
+  h4 {
+    font-size: $h4size * 4/5;
+  }
+  h5 {
+    font-size: $h5size * 4/5;
+  }
+  h6 {
+    font-size: $h6size * 4/5;
+  }
+}
+
+@media only screen and (min-width:768px) and (max-width:1023px) {
+  h1 {
+    font-size: $h1size * 9/10;
+  }
+  h2 {
+    font-size: $h2size * 9/10;
+  }
+  h3 {
+    font-size: $h3size * 9/10;
+  }
+  h4 {
+    font-size: $h4size * 9/10;
+  }
+  h5 {
+    font-size: $h5size * 9/10;
+  }
+  h6 {
+    font-size: $h6size * 9/10;
+  }
+}
+
 pre {
   background-color: #eeeeee;
   padding: 10px;
@@ -110,20 +152,24 @@ em, i {
 
 ul {
   list-style: outside disc;
-  //margin: 1em 0 1.5em 1em;
 }
 
 ol {
   list-style: outside decimal;
-  //margin: 1em 0 1.5em 1em;
+}
+
+html {
+  overflow-x: hidden;
 }
 
 body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
   color: #5d686f;
   font-size: $bodysize;
   line-height: $bodysize * 1.5;
-  margin: 0;
-  padding: 0;
+  letter-spacing: .01em;
   text-align: left;
 }
 body.pushed {
@@ -141,6 +187,7 @@ a {
     color: #349ef3;
   }
 }
+
 a.tag {
   display: inline-block;
   background: #fff;
@@ -182,7 +229,7 @@ section, article, aside, footer, header, nav {
   .header-title {
     text-align: center;
     font-family: $font_serif;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     line-height: 50px;
     margin: 0;
   }
@@ -202,6 +249,7 @@ section, article, aside, footer, header, nav {
     border-radius: 15px;
   }
 }
+
 #header.pushed {
   -webkit-transform: translate3d($sidebarwidth, 0, 0);
   -moz-transform: translate3d($sidebarwidth, 0, 0);
@@ -210,19 +258,13 @@ section, article, aside, footer, header, nav {
 
 #sidebar {
   font-family: $font_sans;
-  display: -webkit-flex;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: flex;
   position: fixed;
   width: $sidebarwidth;
   height: 100%;
   top: 0;
   left: 0;
   z-index: 20;
-  flex-direction: column;
-  justify-content: center;
+  overflow: auto;
   -webkit-transition: -webkit-transform .25s ease-in-out;
   -webkit-font-smoothing: antialiased;
   a {
@@ -264,6 +306,7 @@ section, article, aside, footer, header, nav {
     text-align: center;
   }
 }
+
 #sidebar.pushed {
   -webkit-transform: translate3d($sidebarwidth, 0, 0);
   -moz-transform: translate3d($sidebarwidth, 0, 0);
@@ -275,6 +318,7 @@ section, article, aside, footer, header, nav {
   width: 100%;
   min-height: 100%;
 }
+
 #main.pushed {
   -webkit-transform: translate3d($sidebarwidth, 0, 0);
   -moz-transform: translate3d($sidebarwidth, 0, 0);
@@ -319,12 +363,68 @@ section, article, aside, footer, header, nav {
   opacity: 0;
   transition: opacity 1s;
 }
+
 #button-close-sidebar.pushed {
   width: 100%;
   opacity: 0.8;
   -webkit-transform: translate3d($sidebarwidth, 0, 0);
   -moz-transform: translate3d($sidebarwidth, 0, 0);
   transform: translate3d($sidebarwidth, 0, 0)
+}
+
+// responsive main and sidebar
+@media only screen and (max-width: 1023px) { 
+  #sidebar {
+    left: 0 - $sidebarwidth;
+    //display: -webkit-flex;
+    //display: -webkit-box;
+    //display: -moz-box;
+    //display: -ms-flexbox;
+    //display: flex;
+    //flex-direction: column;
+    //justify-content: center;
+  }
+  #header {
+    display: auto;
+  }
+  #main {
+    width: 100%;
+    padding-top: 60px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  #sidebar {
+    //display: -webkit-flex;
+    //display: -webkit-box;
+    //display: -moz-box;
+    //display: -ms-flexbox;
+    //display: flex;
+    //flex-direction: column;
+    //justify-content: center;
+  }
+  // show sidebar, hide header
+  #sidebar[data-behavior='1'] {
+    left: 0;
+  }
+  #header[data-behavior='1'] {
+    display: none;
+  }
+  #main[data-behavior='1'] {
+    width: calc(100% - #{$sidebarwidth});
+    float: right;
+  }
+  // hide sidebar, show header
+  #sidebar[data-behavior='2'] {
+    left: 0 - $sidebarwidth;
+  }
+  #header[data-behavior='2'] {
+    display: auto;
+  }
+  #main[data-behavior='2'] {
+    width: 100%;
+    padding-top: 60px;
+  }
 }
 
 .content-wrap {
@@ -417,45 +517,14 @@ img.left, figure.left {
   padding: 0 0.5em;
 }
 
-/* Add responsive layout */
-@media only screen and (min-width: 980px) {
-  // show sidebar, hide header
-  #sidebar[data-behavior='1'] {
-    left: 0;
-  }
-  #header[data-behavior='1'] {
+// responsive blogger-ads and iframe
+@media screen and (max-device-width: 768px) {
+  #blogger-ads {
     display: none;
-  }
-  #main[data-behavior='1'] {
-    width: calc(100% - #{$sidebarwidth});
-    float: right;
-  }
-  // hide sidebar, show header
-  #sidebar[data-behavior='2'] {
-    left: 0 - $sidebarwidth;
-  }
-  #header[data-behavior='2'] {
-    display: auto;
-  }
-  #main[data-behavior='2'] {
-    width: 100%;
-    padding-top: 60px;
   }
 }
 
-@media only screen and (max-width: 979px) {
-  // resonsive iframe 
-  // 如果使用者之視窗寬度 <= 979px，將會再載入這裡的 CSS。
-  #sidebar {
-    left: 0 - $sidebarwidth;
-  }
-  #main {
-    width: 100%;
-    padding-top: 60px;
-  }
-  #header {
-    display: auto;
-  }
+@media only screen and (max-width: 1023px) {
   #blogger-ads {
     display: none;
   }
@@ -473,16 +542,6 @@ img.left, figure.left {
     width: 100%;
     height: 100%;
     margin-bottom: 1em;
-  }
-}
-
-/* Add responsive layout for cell phone and small device */
-@media screen and (max-device-width: 768px) {
-  #blogger-ads {
-    display: none;
-  }
-  #sthoverbuttons {
-    display: none;
   }
 }
 
@@ -508,22 +567,6 @@ img.left, figure.left {
     box-shadow: none !important;
   }
 }
-/*
-.sharethis {
-  margin-top: 1em;
-  margin-bottom: 1em;
-}
-
-.sharethis-top {
-  @extend .sharethis;
-  text-align: right;
-}
-
-.sharethis-bottom {
-  @extend .sharethis;
-  text-align: left;
-}
-*/
 
 #comments-list {
   list-style: none;
