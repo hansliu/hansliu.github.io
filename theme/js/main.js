@@ -36,13 +36,13 @@ $(document).ready(function() {
   });
   $('#button-open-sidebar').click(function() {
     // mutliple id selector, add pushed
-    $('body,#header,#sidebar,#main,#button-close-sidebar').each(function(){
+    $('#blog,#header,#sidebar,#main,#button-close-sidebar').each(function(){
       $(this).addClass("pushed");
     });
   });
   $('#button-close-sidebar').click(function() {
     // mutliple id selector, remove pushed
-    $('body,#header,#sidebar,#main,#button-close-sidebar').each(function(){
+    $('#blog,#header,#sidebar,#main,#button-close-sidebar').each(function(){
       $(this).removeClass("pushed");
     });
   });
