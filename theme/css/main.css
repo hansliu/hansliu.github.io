@@ -177,8 +177,7 @@ section, article, aside, footer, header, nav {
   border: 1px solid #eef2f8;
   background-color: #fff;
   color: #88909a;
-  z-index: 10;
-  -webkit-transition: -webkit-transform .25s ease-in-out; }
+  z-index: 10; }
   #header .header-title {
     text-align: center;
     font-family: "Microsoft YaHei", Overlock, serif;
@@ -220,7 +219,7 @@ section, article, aside, footer, header, nav {
   flex-direction: column;
   justify-content: center;
   -webkit-transition: -webkit-transform .25s ease-in-out;
-  -webkit-font-smoothing: antialiased; }
+  transition: transform .25s ease-in-out; }
   #sidebar a {
     color: #ebebeb; }
     #sidebar a:hover {
@@ -376,9 +375,7 @@ section, article, aside, footer, header, nav {
     margin-bottom: 1em; }
   .post-content strong {
     background-color: LightYellow;
-    border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px; }
+    border-radius: 5px; }
   .post-content iframe {
     margin-bottom: 1em; }
   .post-content img {
@@ -456,9 +453,7 @@ img.left, figure.left {
     font-style: normal;
     margin: 0;
     padding: 15px 20px;
-    border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px; }
+    border-radius: 5px; }
   #comments-list footer {
     color: #888;
     padding: 0.5em 1em 0 0;

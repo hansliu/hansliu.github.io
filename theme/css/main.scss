@@ -226,7 +226,6 @@ section, article, aside, footer, header, nav {
   background-color: #fff;
   color: #88909a;
   z-index: 10;
-  -webkit-transition: -webkit-transform .25s ease-in-out;
   .header-title {
     text-align: center;
     font-family: $font_serif;
@@ -274,7 +273,7 @@ section, article, aside, footer, header, nav {
   flex-direction: column;
   justify-content: center;
   -webkit-transition: -webkit-transform .25s ease-in-out;
-  -webkit-font-smoothing: antialiased;
+  transition: transform .25s ease-in-out;
   a {
     color: #ebebeb;
     &:hover {
@@ -467,8 +466,6 @@ section, article, aside, footer, header, nav {
   strong {
     background-color: LightYellow;
     border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
   }
   iframe {
     margin-bottom: 1em;
@@ -570,8 +567,6 @@ img.left, figure.left {
     margin: 0;
     padding: 15px 20px;
     border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
   }
   footer {
     color: #888;
