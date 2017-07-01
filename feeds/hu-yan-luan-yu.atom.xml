@@ -1,47 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Hans Blog - 胡言亂語</title><link href="//www.hansliu.com/" rel="alternate"></link><link href="//www.hansliu.com/feeds/hu-yan-luan-yu.atom.xml" rel="self"></link><id>//www.hansliu.com/</id><updated>2014-11-19T22:00:00+08:00</updated><entry><title>轉換 Bootstrap 從 v2 到 v3</title><link href="//www.hansliu.com/posts/2014/11/migrating-bootstrap-v2-to-v3.html" rel="alternate"></link><published>2014-11-19T22:00:00+08:00</published><updated>2014-11-19T22:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2014-11-19:/posts/2014/11/migrating-bootstrap-v2-to-v3.html</id><summary type="html">&lt;div class="section" id="id1"&gt;
-&lt;h2&gt;前言&lt;/h2&gt;
-&lt;p&gt;在 &lt;a class="reference external" href="//www.hansliu.com/posts/2014/03/hello-pelican-github-pages.html"&gt;Hello Pelican + GitHub Pages&lt;/a&gt; 介紹部落格的時候有提到，現在使用的 Pelican 樣式是 Jenny 設計的 &lt;a class="reference external" href="https://github.com/jsliang/pelican-fresh"&gt;pelican-fresh&lt;/a&gt; ，其設計是架構在 Bootstrap v2.x 的版本之上。因為我想要重新設計選單的樣式，使其可以支援使用行動裝置瀏覽的時候 …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="section" id="id1"&gt;
-&lt;h2&gt;前言&lt;/h2&gt;
-&lt;p&gt;在 &lt;a class="reference external" href="//www.hansliu.com/posts/2014/03/hello-pelican-github-pages.html"&gt;Hello Pelican + GitHub Pages&lt;/a&gt; 介紹部落格的時候有提到，現在使用的 Pelican 樣式是 Jenny 設計的 &lt;a class="reference external" href="https://github.com/jsliang/pelican-fresh"&gt;pelican-fresh&lt;/a&gt; ，其設計是架構在 Bootstrap v2.x 的版本之上。因為我想要重新設計選單的樣式，使其可以支援使用行動裝置瀏覽的時候，選單會自動轉換成較好操作，而且又不會佔用閱讀空間的設計樣式，剛好我發現 Bootstrap v3.x 內建就有這樣的樣式風格，就決定把部落格使用的 Bootstrap 從 v2 轉換到 v3。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="id2"&gt;
-&lt;h2&gt;轉換&lt;/h2&gt;
-&lt;p&gt;轉換的部份其實蠻簡單的，主要可以參考官方的轉換文件，將 v2 對應的 class 改變成 v3 的版本，並針對部分 default 的 CSS 做微調即可。而且 Bootstrap v3 內建的設計風格因應業界趨勢，朝向扁平化發展，搭配許多新的 Glyphicons，可以很快速的完成一個簡單的樣式，看起來還不錯。&lt;/p&gt;
-&lt;p&gt;官方轉換文件 - &lt;a class="reference external" href="http://getbootstrap.com/migration/"&gt;http://getbootstrap.com/migration/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;不過要注意的是，在跨瀏覽器方面，Bootstrap v3 不支援 IE7 和 Firefox 3.6，有跨瀏覽器需求的人要注意一下是否要使用 Bootstrap v3。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="id3"&gt;
-&lt;h2&gt;選單&lt;/h2&gt;
-&lt;p&gt;使用 Bootstrap v3 重新設計選單的樣式，我是直接參考 twitter bootstrap tutorial 有關設計選單的教學。&lt;/p&gt;
-&lt;p&gt;Creating a Simple Navbar with Twitter Bootstrap - &lt;a class="reference external" href="http://www.tutorialrepublic.com/twitter-bootstrap-tutorial/bootstrap-navbar.php"&gt;http://www.tutorialrepublic.com/twitter-bootstrap-tutorial/bootstrap-navbar.php&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;照著做就可以有支援行動裝置的選單樣式了。&lt;/p&gt;
-&lt;/div&gt;
-</content><category term="Blog"></category><category term="Bootstrap"></category></entry><entry><title>2014部落格改版</title><link href="//www.hansliu.com/posts/2014/03/2014-blog-upgrade.html" rel="alternate"></link><published>2014-03-31T10:00:00+08:00</published><updated>2014-03-31T10:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2014-03-31:/posts/2014/03/2014-blog-upgrade.html</id><summary type="html">&lt;p&gt;&lt;a class="reference external" href="https://lh3.googleusercontent.com/-h71cIF3bnYo/Uzm-XVuME6I/AAAAAAAAKGE/xOzCZ3SUGsg/s1600/blog2014.png"&gt;&lt;img alt="image0" src="https://lh3.googleusercontent.com/-h71cIF3bnYo/Uzm-XVuME6I/AAAAAAAAKGE/xOzCZ3SUGsg/s800/blog2014.png" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;部落格搬家也逐漸接近尾聲，剩下就是一些舊部落格的收尾和導入。&lt;/p&gt;
-&lt;p&gt;我的 ATOM/RSS 有使用 feedburner，所以只要更新 feedburner 的設定，它就會自動幫你通知所有的訂閱戶，並且幫用戶自動訂閱新網站的文章。&lt;/p&gt;
-&lt;p&gt;比較可惜的是因為過去一直都是用 blogger 提供的 domain name，所以新部落格的 SEO 計算就要從頭開始 …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;a class="reference external" href="https://lh3.googleusercontent.com/-h71cIF3bnYo/Uzm-XVuME6I/AAAAAAAAKGE/xOzCZ3SUGsg/s1600/blog2014.png"&gt;&lt;img alt="image0" src="https://lh3.googleusercontent.com/-h71cIF3bnYo/Uzm-XVuME6I/AAAAAAAAKGE/xOzCZ3SUGsg/s800/blog2014.png" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;部落格搬家也逐漸接近尾聲，剩下就是一些舊部落格的收尾和導入。&lt;/p&gt;
-&lt;p&gt;我的 ATOM/RSS 有使用 feedburner，所以只要更新 feedburner 的設定，它就會自動幫你通知所有的訂閱戶，並且幫用戶自動訂閱新網站的文章。&lt;/p&gt;
-&lt;p&gt;比較可惜的是因為過去一直都是用 blogger 提供的 domain name，所以新部落格的 SEO 計算就要從頭開始...&lt;/p&gt;
-&lt;p&gt;再來應該會想辦法設計 redirect，看能不能把舊部落格的流量重導到新部落格。&lt;/p&gt;
-&lt;div class="section" id="id2"&gt;
-&lt;h2&gt;圖片顯示&lt;/h2&gt;
-&lt;p&gt;加入回應式燈箱 &lt;a class="reference external" href="http://dimsemenov.com/plugins/magnific-popup/"&gt;magnific-popup&lt;/a&gt; ，並修改相關 css，取消不必要的陰影和邊框。&lt;/p&gt;
-&lt;pre class="literal-block"&gt;
-/* Magnific Popup CSS */
-.mfp-figure:after {
-  box-shadow: none !important;
-  background: none !important; }
-&lt;/pre&gt;
-&lt;p&gt;加入延遲載入  &lt;a class="reference external" href="http://www.appelsiini.net/projects/lazyload"&gt;lazyload&lt;/a&gt; ，讓網頁在開啟大量圖片的時候可以更順暢一點。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="id3"&gt;
-&lt;h2&gt;外部套件&lt;/h2&gt;
-&lt;p&gt;在 Google AdSense 部分使用新的回應式廣告單元，廣告排版則是參考 Jenny 的配置，放在文章的開頭與結尾，同時把 BloggerAds 也放進來，安插在首頁的側邊欄。&lt;/p&gt;
-&lt;p&gt;在 Google Analytics 部分則是升級到通用分析，因為是新安裝，目前還不知道實際運作的效果。&lt;/p&gt;
-&lt;/div&gt;
-</content><category term="Blog"></category></entry><entry><title>島嶼天光《Island's Sunrise 太陽花學運》</title><link href="//www.hansliu.com/posts/2014/03/island-sunrise.html" rel="alternate"></link><published>2014-03-31T04:00:00+08:00</published><updated>2014-03-31T04:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2014-03-31:/posts/2014/03/island-sunrise.html</id><summary type="html">&lt;p class="first last"&gt;&lt;a class="reference external" href="https://lh5.googleusercontent.com/-pxub_rsQ3BQ/UzhXH6_RJ0I/AAAAAAAAKFU/djWaZXaAvBs/s1600/at4pm.jpg"&gt;&lt;img alt="image0" src="https://lh5.googleusercontent.com/-pxub_rsQ3BQ/UzhXH6_RJ0I/AAAAAAAAKFU/djWaZXaAvBs/s800/at4pm.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Hans Blog - 胡言亂語</title><link href="//www.hansliu.com/" rel="alternate"></link><link href="//www.hansliu.com/feeds/hu-yan-luan-yu.atom.xml" rel="self"></link><id>//www.hansliu.com/</id><updated>2014-03-31T04:00:00+08:00</updated><entry><title>島嶼天光《Island's Sunrise 太陽花學運》</title><link href="//www.hansliu.com/posts/2014/03/island-sunrise.html" rel="alternate"></link><published>2014-03-31T04:00:00+08:00</published><updated>2014-03-31T04:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2014-03-31:/posts/2014/03/island-sunrise.html</id><summary type="html">&lt;p class="first last"&gt;&lt;a class="reference external" href="https://lh5.googleusercontent.com/-pxub_rsQ3BQ/UzhXH6_RJ0I/AAAAAAAAKFU/djWaZXaAvBs/s1600/at4pm.jpg"&gt;&lt;img alt="image0" src="https://lh5.googleusercontent.com/-pxub_rsQ3BQ/UzhXH6_RJ0I/AAAAAAAAKFU/djWaZXaAvBs/s800/at4pm.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;&lt;a class="reference external" href="https://lh5.googleusercontent.com/-pxub_rsQ3BQ/UzhXH6_RJ0I/AAAAAAAAKFU/djWaZXaAvBs/s1600/at4pm.jpg"&gt;&lt;img alt="image0" src="https://lh5.googleusercontent.com/-pxub_rsQ3BQ/UzhXH6_RJ0I/AAAAAAAAKFU/djWaZXaAvBs/s800/at4pm.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;感謝讓這首歌曲誕生的每一位執行者，以及參與這一連串活動的每一位公民。&lt;/p&gt;
 &lt;p&gt;以下說明節錄自島嶼天光 youtube:&lt;/p&gt;
@@ -114,88 +72,7 @@
 &lt;p&gt;行動支持：有料音樂、ＡＡＡ亞細亞安那其連線&lt;/p&gt;
 &lt;p&gt;感謝協助名單：胡永芬、台大外文所 黑玲&lt;/p&gt;
 &lt;p&gt;備註：歌曲版權與影像版權皆為免費使用與轉載。&lt;/p&gt;
-</content><category term="Taiwan"></category></entry><entry><title>使用 name.com 申請新域名</title><link href="//www.hansliu.com/posts/2014/03/new-domain-name-with-name-com.html" rel="alternate"></link><published>2014-03-26T22:00:00+08:00</published><updated>2014-03-26T22:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2014-03-26:/posts/2014/03/new-domain-name-with-name-com.html</id><summary type="html">&lt;p&gt;搬家的第二步驟，就是決心要註冊一個新域名，想著趁這次機會好好的養一個專屬域名，事前也上網搜尋了許多部落客的經驗，大致上整理出國內國外的數家網域名稱代理商。&lt;/p&gt;
-&lt;ol class="arabic simple"&gt;
-&lt;li&gt;pchome - &lt;a class="reference external" href="http://myname.pchome.com.tw"&gt;http://myname.pchome.com.tw&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;GoDaddy - &lt;a class="reference external" href="http://www.godaddy.com"&gt;http://www.godaddy.com&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;name.com - &lt;a class="reference external" href="https://www.name.com"&gt;https://www …&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary><content type="html">&lt;p&gt;搬家的第二步驟，就是決心要註冊一個新域名，想著趁這次機會好好的養一個專屬域名，事前也上網搜尋了許多部落客的經驗，大致上整理出國內國外的數家網域名稱代理商。&lt;/p&gt;
-&lt;ol class="arabic simple"&gt;
-&lt;li&gt;pchome - &lt;a class="reference external" href="http://myname.pchome.com.tw"&gt;http://myname.pchome.com.tw&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;GoDaddy - &lt;a class="reference external" href="http://www.godaddy.com"&gt;http://www.godaddy.com&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;name.com - &lt;a class="reference external" href="https://www.name.com"&gt;https://www.name.com&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;eNom - &lt;a class="reference external" href="http://www.enom.com"&gt;http://www.enom.com&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;namecheap - &lt;a class="reference external" href="https://www.namecheap.com"&gt;https://www.namecheap.com&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;yahoo.com - &lt;a class="reference external" href="https://smallbusiness.yahoo.com"&gt;https://smallbusiness.yahoo.com&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;因為我沒有要使用 .tw 的頂級網域名稱，所以就放棄國內域名商 pchome，打算挑選不論是網站流量或是廣告折扣都打很兇的 GoDaddy，而且網路上的中文教學資訊也相當的豐富。&lt;/p&gt;
-&lt;p&gt;可惜的是，實際使用 GoDaddy 的情形讓我大失所望，先是註冊 GoDaddy 的過程中就讓我感受到了重重妨礙，它的使用者介面相當不具有親和力，而其註冊時的安全考量也相當的令我困惑（例如註冊密碼限制要9位數以上），以及龐大的彈出式廣告與配套方案，都讓我感到不適應，而且其中最令人稱讚的 coupon 優惠，在加上 privacy service 之後的價格也變得沒有什麼競爭力...&lt;/p&gt;
-&lt;p&gt;終於在我好不容易註冊完成，順利登入 GoDaddy 的首頁後，沒想到會員後台也會有彈出式視窗，這一點也讓我正式宣告放棄使用 GoDaddy，轉而跳到下一家 name.com 來進行申請。&lt;/p&gt;
-&lt;p&gt;不可否認 name.com 的配套相對來的少，其 coupon 優惠也很單純（privacy free），但是申請的過程很流暢，沒有過多不必要的資訊，網站本身速度也很快，會員後台的操作也很清楚明瞭，在 DNS 設定上還提供不少的 template 給人參考，我自己是比較喜歡這種單純直白的操作環境，即使價格不是最漂亮的。&lt;/p&gt;
-&lt;p&gt;最後我也順利申請到想要的新域名 &lt;strong&gt;hansliu.com&lt;/strong&gt; 。&lt;/p&gt;
-&lt;p&gt;順便分享在搜尋域名資料時，看到的可愛影片，是介紹 .me 這個頂級網域名稱。&lt;/p&gt;
-&lt;div class="youtube"&gt;&lt;iframe src="https://www.youtube.com/embed/JI8c66xgXIs" width="800" height="500" seamless frameBorder="0"&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;dl class="docutils"&gt;
-&lt;dt&gt;.me 網域名稱小知識&lt;/dt&gt;
-&lt;dd&gt;.me 是位於東南歐巴爾幹半島上的國家，蒙特內哥羅 (Montenegro) 的國碼頂級網域名稱 (或翻譯成黑山共和國)。&lt;/dd&gt;
-&lt;/dl&gt;
-</content><category term="Blog"></category><category term="Domain Name"></category><category term="Github Page"></category></entry><entry><title>Hello Pelican + GitHub Pages</title><link href="//www.hansliu.com/posts/2014/03/hello-pelican-github-pages.html" rel="alternate"></link><published>2014-03-23T04:00:00+08:00</published><updated>2014-03-23T04:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2014-03-23:/posts/2014/03/hello-pelican-github-pages.html</id><summary type="html">&lt;p&gt;隨著無名關閉、Google blogger 越來越慢等等原因，我心中就一直想要替自己的部落格搬家，同時看到 Jenny 使用 Pelican 的心得，就引起我的興趣，也想要將部落格搬到 GitHub Pages，不過拖了很久一直沒有開始動工，直到最近終於開始部落格的搬家作業。&lt;/p&gt;
-&lt;p&gt;這篇文章是用來記錄一下搬家的相關資訊。&lt;/p&gt;
-&lt;div class="section" id="id1"&gt;
-&lt;h2&gt;安裝&lt;/h2&gt;
-&lt;p&gt;為了安裝方便我將 Pelican …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;隨著無名關閉、Google blogger 越來越慢等等原因，我心中就一直想要替自己的部落格搬家，同時看到 Jenny 使用 Pelican 的心得，就引起我的興趣，也想要將部落格搬到 GitHub Pages，不過拖了很久一直沒有開始動工，直到最近終於開始部落格的搬家作業。&lt;/p&gt;
-&lt;p&gt;這篇文章是用來記錄一下搬家的相關資訊。&lt;/p&gt;
-&lt;div class="section" id="id1"&gt;
-&lt;h2&gt;安裝&lt;/h2&gt;
-&lt;p&gt;為了安裝方便我將 Pelican 安裝在工作機上面，參照 &lt;a class="reference external" href="http://docs.getpelican.com/en/3.3.0/getting_started.html"&gt;Pelican 3.3.0 官方文件&lt;/a&gt; ，並搭配 Python2.7，很順利的就完成所有安裝步驟。&lt;/p&gt;
-&lt;p&gt;真正的問題是當我要匯入 Blogger 的文章才開始...&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="id2"&gt;
-&lt;h2&gt;文章&lt;/h2&gt;
-&lt;p&gt;首先，我把 Blogger 的文章匯出成 ATOM/RSS 的格式，並且在工作機上面安裝 feedparser ，就可以利用 Pelican-import 的內建指令來做轉出文章的動作。&lt;/p&gt;
-&lt;pre class="literal-block"&gt;
-pelican-import --feed &amp;lt;your-blogger-documents&amp;gt;.xml -o output
-&lt;/pre&gt;
-&lt;p&gt;再來，當我使用 Pelican 執行文章轉出後，得到的不是文章，而是 exception:&lt;/p&gt;
-&lt;pre class="literal-block"&gt;
-/bin/sh: pandoc: command not found
-Please, check your Pandoc installation.
-&lt;/pre&gt;
-&lt;p&gt;上網搜尋關鍵字，發現是因為我的文章中有包含中文內容，如果要轉換就必須要安裝 &lt;a class="reference external" href="http://johnmacfarlane.net/pandoc/installing.html"&gt;Pandoc&lt;/a&gt; ，然後如果要安裝 &lt;a class="reference external" href="http://johnmacfarlane.net/pandoc/installing.html"&gt;Pandoc&lt;/a&gt; 的話必須要有 &lt;a class="reference external" href="http://www.haskell.org/platform/"&gt;Haskell Platform&lt;/a&gt; ，但我的工作機的作業系統是 RHEL6，其內建不包含 &lt;a class="reference external" href="http://www.haskell.org/platform/"&gt;Haskell Platform&lt;/a&gt; 。&lt;/p&gt;
-&lt;p&gt;所以我要先安裝 &lt;a class="reference external" href="http://www.haskell.org/platform/"&gt;Haskell Platform&lt;/a&gt; ，然後使用內建的指令 cabal 來安裝 &lt;a class="reference external" href="http://johnmacfarlane.net/pandoc/installing.html"&gt;Pandoc&lt;/a&gt; ，最後才能將所有文章轉成 reStructuredText 格式。&lt;/p&gt;
-&lt;p&gt;Pandoc 會使用其內建的語法來做轉換 &lt;a class="reference external" href="http://pages.tzengyuxio.me/pandoc/"&gt;Pandoc 語法中文翻譯&lt;/a&gt; 。&lt;/p&gt;
-&lt;p&gt;當文章終於順利轉完後，接著我發現圖片資訊會有殘缺或錯誤的現象，例如圖片失去超連結，或著是圖片重複出現，因此文章轉完後就要開始漫長的編修...&lt;/p&gt;
-&lt;p&gt;這邊補上 reStructuredText 插入圖片和超連結的方法:&lt;/p&gt;
-&lt;pre class="literal-block"&gt;
-in inline images:
-
-.. image:: pageflip-200.png
-:target: pageapplet/index.html
-
-With a reference, like:
-
-Click on my |ImageLink|_
-
-.. |ImageLink| image:: /images/link.png
-.. _ImageLink: http://link.url/
-&lt;/pre&gt;
-&lt;/div&gt;
-&lt;div class="section" id="id3"&gt;
-&lt;h2&gt;樣式&lt;/h2&gt;
-&lt;p&gt;Pelican 的樣式都放在 &lt;a class="reference external" href="https://github.com/getpelican/pelican-themes"&gt;pelican-themes&lt;/a&gt; ，我們可以直接挑選喜歡的樣式來用，也可以將自己設計的樣式加入 &lt;a class="reference external" href="https://github.com/getpelican/pelican-themes"&gt;pelican-themes&lt;/a&gt; ，分享給 Pelican 的使用者，因為我希望可以挑一個簡單可擴充的樣式，在逛完 &lt;a class="reference external" href="https://github.com/getpelican/pelican-themes"&gt;pelican-themes&lt;/a&gt; 之後，還是決定以 Jenny 設計的 &lt;a class="reference external" href="https://github.com/jsliang/pelican-fresh"&gt;pelican-fresh&lt;/a&gt; 為基礎，在根據自己的需求稍作調整。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="id4"&gt;
-&lt;h2&gt;套件&lt;/h2&gt;
-&lt;p&gt;Pelican 的套件都在 &lt;a class="reference external" href="https://github.com/getpelican/pelican-plugins"&gt;pelican-plugins&lt;/a&gt; ，一樣可以直接挑選喜歡的套件來用。&lt;/p&gt;
-&lt;p&gt;直接放上現在有使用的 plugin:&lt;/p&gt;
-&lt;pre class="literal-block"&gt;
-PLUGINS = [
-    'gravatar',
-    'related_posts',
-    'pelican_youtube',
-    'pelican_vimeo',
-]
-&lt;/pre&gt;
-&lt;/div&gt;
-</content><category term="Blog"></category><category term="Python"></category><category term="Pelican"></category><category term="Github Page"></category></entry><entry><title>你敢有聽着咱唱歌《Do You Hear the People Sing 台語合唱版》</title><link href="//www.hansliu.com/posts/2013/07/do-you-hear-people-sing-for-taiwan.html" rel="alternate"></link><published>2013-07-29T00:35:00+08:00</published><updated>2013-07-29T00:35:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2013-07-29:/posts/2013/07/do-you-hear-people-sing-for-taiwan.html</id><summary type="html">&lt;div class="img-center"&gt;&lt;p&gt;&lt;a class="reference external" href="http://4.bp.blogspot.com/-_dFLJ4RxGaU/UfVEOzarcDI/AAAAAAAAJqI/HXdsxp6MPys/s1600/P7287491.jpg"&gt;&lt;img alt="image0" src="https://4.bp.blogspot.com/-_dFLJ4RxGaU/UfVEOzarcDI/AAAAAAAAJqI/HXdsxp6MPys/s1600/P7287491.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
+</content><category term="Taiwan"></category></entry><entry><title>你敢有聽着咱唱歌《Do You Hear the People Sing 台語合唱版》</title><link href="//www.hansliu.com/posts/2013/07/do-you-hear-people-sing-for-taiwan.html" rel="alternate"></link><published>2013-07-29T00:35:00+08:00</published><updated>2013-07-29T00:35:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2013-07-29:/posts/2013/07/do-you-hear-people-sing-for-taiwan.html</id><summary type="html">&lt;div class="img-center"&gt;&lt;p&gt;&lt;a class="reference external" href="http://4.bp.blogspot.com/-_dFLJ4RxGaU/UfVEOzarcDI/AAAAAAAAJqI/HXdsxp6MPys/s1600/P7287491.jpg"&gt;&lt;img alt="image0" src="https://4.bp.blogspot.com/-_dFLJ4RxGaU/UfVEOzarcDI/AAAAAAAAJqI/HXdsxp6MPys/s1600/P7287491.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;&lt;p&gt;今天去看著子玹和朋友的創意市集攤位，聽到現場演奏著天空之城，心中揚起淡淡感動的情緒，回家後這麼剛好在這麼個時機點聽到
 Do You Hear the People Sing
 台語版，那淡淡的感動轉變成澎湃的思緒，深入我的腦海裡，充滿在我四肢的血液之中。&lt;/p&gt;
@@ -471,4 +348,182 @@ Do You Hear the People Sing
 &lt;div class="img-left"&gt;&lt;p&gt;&lt;img alt="image19" src="https://lh4.ggpht.com/_PblkLLwO_wY/TEMNgsnSmdI/AAAAAAAAEws/235Oaks_hmA/s800/DSC_9880r.jpg" /&gt;&lt;/p&gt;
 &lt;/div&gt;&lt;p&gt;#21 淚光閃閃...&lt;/p&gt;
 &lt;div class="img-left"&gt;&lt;p&gt;&lt;img alt="image20" src="https://lh4.ggpht.com/_PblkLLwO_wY/TEMNhh2yCgI/AAAAAAAAEww/IC3Tt9fnXwo/s800/DSC_9895r.jpg" /&gt;&lt;/p&gt;
-&lt;/div&gt;</content><category term="大學生"></category></entry></feed>
+&lt;/div&gt;</content><category term="大學生"></category></entry><entry><title>阿宅反抗軍</title><link href="//www.hansliu.com/posts/2012/01/otakuarmy.html" rel="alternate"></link><published>2012-01-30T18:32:00+08:00</published><updated>2012-01-30T18:32:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2012-01-30:/posts/2012/01/otakuarmy.html</id><summary type="html">&lt;p class="first last"&gt;&lt;img alt="image0" src="https://lh6.ggpht.com/_PblkLLwO_wY/THzete4k1pI/AAAAAAAAE_4/X2nffUCJTvc/s800/_HLK1109r.jpg" /&gt;&lt;/p&gt;
+</summary><content type="html">&lt;div class="img-center"&gt;&lt;p&gt;&lt;img alt="image0" src="https://lh6.ggpht.com/_PblkLLwO_wY/THzete4k1pI/AAAAAAAAE_4/X2nffUCJTvc/s800/_HLK1109r.jpg" /&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;div style="color: red; text-align: center;"&gt;&lt;p&gt;&lt;strong&gt;人之所以成為英雄，不是因為你的能力，而是因為你的選擇&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;8/21朱學恆在中正紀念堂(自由廣場)辦了第二屆的阿宅反抗軍&lt;/div&gt;
+&lt;div class="line"&gt;這次我和翎凱終於都順利報到了 :)&lt;/div&gt;
+&lt;div class="line"&gt;當天和我一起來的還有方方&lt;/div&gt;
+&lt;div class="line"&gt;本來方方聽到是「阿宅」反抗軍顯得非常沒有動力&lt;/div&gt;
+&lt;div class="line"&gt;經過我的努力邀請才決定來參加[STRIKEOUT:(其實是為了看盧廣仲)]&lt;/div&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div class="line"&gt;#2 連 Keroro 都來到阿宅反抗軍的現場了 XD&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="img-left"&gt;&lt;p&gt;&lt;img alt="image1" src="https://lh6.ggpht.com/_PblkLLwO_wY/THzet3_W1vI/AAAAAAAAE_8/xD6bKxc5H3c/s800/_HLK1064r.jpg" /&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;活動內容有樂團表演動漫歌曲&lt;/div&gt;
+&lt;div class="line"&gt;#3 有盧廣仲演唱&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="img-left"&gt;&lt;p&gt;&lt;img alt="image2" src="https://lh4.ggpht.com/_PblkLLwO_wY/THzeuuNZ2XI/AAAAAAAAFAA/iuWUSN4xRy0/s800/_HLK0955r.jpg" /&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;#4 有朱學恆帶大家參加降旗典禮&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="img-left"&gt;&lt;p&gt;&lt;img alt="image3" src="https://lh6.ggpht.com/_PblkLLwO_wY/THzevGOdAiI/AAAAAAAAFAE/o8ZhM6NKg80/s800/_HLK1107r.jpg" /&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;有壹傳媒帶來強大的新媒體「壹電視」&lt;/div&gt;
+&lt;div class="line"&gt;網路收看壹電視：&lt;a class="reference external" href="http://www.nexttv.com.tw/"&gt;http://www.nexttv.com.tw/&lt;/a&gt;&lt;/div&gt;
+&lt;div class="line"&gt;&lt;strong&gt;黎智英就是「敢」NCC擋不住　壹電視宣佈將於30日開播&lt;/strong&gt;&lt;/div&gt;
+&lt;div class="line"&gt;2010/07/28 23:08 記者吳光中／台北報導&lt;/div&gt;
+&lt;/div&gt;
+&lt;blockquote&gt;
+壹電視今天（28日）三度闖關，國家通訊傳播委員會（NCC）因「疑慮未除」，阻擋了壹電視開台計畫，當晚黎智英立即罕見地召開記者會，高調宣佈「壹電視」將於30日晚上７點準時開播。
+壹電視從今年三月起籌設，向各電視台、平面及網路媒體大舉挖角，一時之間高手雲集，目前人力已達600名，其中編採人員逾半，黎智英坦承每月約燒掉１億元，但他隨即表示，還有很多錢可以燒，並對壹電視的未來深具信心。
+黎智英的信心來自於數位科技與網路發達。雖然「在電視上播出」是壹電視的終極目標，但在三度向NCC扣關失敗後，壹電視經營團隊轉了個彎，先在網路播出，企圖做出成績、贏得口碑。此為一箭三雕之計。
+第一，目前社會大眾對壹電視以動畫呈現新聞的手法普遍存有疑慮，如果能先讓大家看到壹電視，這個疑慮就能消除大半。
+第二，操兵半年，這麼多優秀的記者採訪回來的新聞無法播出，投下鉅資的全數位影音科技無法呈現，許多台灣電視界最新的創意只有自己看了暗爽，公司內部有如「大悶鍋」，利用網路播出，也是不錯的「宣洩」管道。
+第三，壹電視自行定位為「追求真相、敢說真話、不偏藍不偏綠」的電視媒體，而且保證不播自殺、暴力、血腥、色情...的新聞，完全遵守電視新聞普級規範，恐口說無憑，先在網路播給大家看，也許就能消除社會大眾，更重要的是NCC評議委員心中的疑慮。&lt;/blockquote&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;#5 壹電視主播蕭彤雯&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="img-left"&gt;&lt;p&gt;&lt;img alt="image4" src="https://lh3.ggpht.com/_PblkLLwO_wY/THzev2iTAFI/AAAAAAAAFAI/AfwRdvzPYw4/s800/_HLK1014cr.jpg" /&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;#6 壹電視氣象女孩 Weather girls&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="img-left"&gt;&lt;p&gt;&lt;img alt="image5" src="https://lh3.ggpht.com/_PblkLLwO_wY/THzewb5ZzII/AAAAAAAAFAM/mjR9h377vu8/s800/_HLK1001r.jpg" /&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;#7&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="img-left"&gt;&lt;p&gt;&lt;img alt="image6" src="https://lh3.ggpht.com/_PblkLLwO_wY/THzexG-qHCI/AAAAAAAAFAQ/ZSRKq5Z3rF0/s800/_HLK0989r.jpg" /&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;這是我第一次在現場看到黎智英本人，不知道是不是被電視節目給影響的關係，我覺得本人帶給我的印象還蠻好的，也相當佩服他投入「壹電視」的決心&lt;/div&gt;
+&lt;div class="line"&gt;&lt;strong&gt;黎智英一天燒掉一輛賓士車的挑戰&lt;/strong&gt;&lt;/div&gt;
+&lt;div class="line"&gt;文／林孟儀&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="text-align: right;"&gt;&lt;p&gt;摘錄自今周刊 第711期&lt;/p&gt;
+&lt;/div&gt;
+
+ 七月三十日在網路開播的壹電視，溫和內容被網民形容像大愛台。靠獨家和爆料起家的《蘋果日報》和《壹週刊》，是各大電視台新聞必跟進的媒體；在新聞頻道氾濫的台灣，如果壹電視的內容只有這一套，那黎智英未來可能得面對大危機。
+ 七月三十日晚間將近七點鐘，許多人守在電腦螢幕前，等著壹傳媒負責人黎智英的壹電視，準時在網路上開播。就在倒數讀秒到二的時候，網路一時湧入大量人流，頻寬不堪負荷的結果，讓畫面呈現延遲數分鐘之久；但是岑永康、李晶玉兩位主播「一身是膽，我就是敢」的開場宣言，仍然挑明了黎智英搶開播、突破ＮＣＣ（國家通訊傳播委員會）屏障的決心。
+ ※更多內容請見第711期的《今周刊》。&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;還記得上攝影課的時候聽過攝影老師提出對蘋果日報使用照片的看法，那時候對於蘋果日報的照片就相當的欣賞，覺得蘋果攝影師的構圖與技巧真的很厲害&lt;/div&gt;
+&lt;div class="line"&gt;#8 黎智英說：「我沒有按摩妹，有Weather girls！」&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="img-left"&gt;&lt;p&gt;&lt;img alt="image7" src="https://lh4.ggpht.com/_PblkLLwO_wY/THzex_ek6TI/AAAAAAAAFAU/8-sl8S9UUhI/s800/_HLK1033r.jpg" /&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;看完壹電視所展現出來的成果，希望壹電視能對現在台灣新聞媒體的亂象，帶來新的刺激和變化，翻轉台灣的新聞媒體...&lt;/div&gt;
+&lt;div class="line"&gt;&lt;strong&gt;壹電視畫面淨化　各家電視台也跟進&lt;/strong&gt;&lt;/div&gt;
+&lt;div class="line"&gt;2010/08/02 19:50 NOWnews生活中心／綜合報導&lt;/div&gt;
+&lt;/div&gt;
+&lt;blockquote&gt;
+壹電視30日晚上7點網路首播，新聞即使用上「動新聞」手法，也維持網友口中「像是公視加上大愛台」的風格。不過除了新聞使用大量的3D動畫和虛擬實境外，就是畫面很乾淨。各家電視台從1日起，觀眾也發現畫面上的跑馬燈變少了，頓時也清爽許多。
+壹電視首播以岑永康、李晶玉主播的《晚間新聞》打頭陣，標榜和一般新聞最大的不同，就是新聞內容大部分都是獨家，而且有不少是爆料新聞，加上畫面乾淨，只有一條跑馬燈，同時有大量的3D動畫和虛擬實境，看新聞就好像在看電影一樣，讓人很有不同的新聞視覺。
+開播首日，最受好評的就是新聞畫面乾淨，不像現在各家電視台，畫面總是一團亂，除了左邊、下邊居有跑馬燈，畫面上還有一些特殊的提示等等字眼，觀眾眼睛都不知該看那裏。但是從1日起，觀眾頓時覺的眼睛一亮，乾乾淨淨的畫面也出現在各家電視台，想必是有觀眾投訴，並大讚壹電視吧！各家電視台也只好迅速從善如流！&lt;/blockquote&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;衷心期盼台灣新聞媒體能往好的方向前進&lt;/div&gt;
+&lt;div class="line"&gt;緊接著壹電視之後，就是用900吋超大螢幕打快打旋風&lt;/div&gt;
+&lt;div class="line"&gt;#9 快打旋風!!!&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="img-left"&gt;&lt;p&gt;&lt;img alt="image8" src="https://lh3.ggpht.com/_PblkLLwO_wY/THzeyW-JqiI/AAAAAAAAFAY/3Hh79q8_cnk/s800/_HLK1054r.jpg" /&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;#10 施文彬VS朱學恆[STRIKEOUT:(朱宅好弱)]&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="img-left"&gt;&lt;p&gt;&lt;img alt="image9" src="https://lh5.ggpht.com/_PblkLLwO_wY/THzezJWw9dI/AAAAAAAAFAc/yVPrmV5MC4Y/s800/_HLK1073r.jpg" /&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;#11 施文彬演唱&lt;a class="reference external" href="http://www.youtube.com/watch?v=-_GlvOJZ-H8"&gt;誰是老大&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="img-left"&gt;&lt;p&gt;&lt;img alt="image10" src="https://lh3.ggpht.com/_PblkLLwO_wY/THzeznEsaEI/AAAAAAAAFAg/6aZvFHK-PwA/s800/_HLK1088r.jpg" /&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;最後是朱學恆的演講&lt;/div&gt;
+&lt;div class="line"&gt;敘述這一年來一群阿宅在網路上和現實上做了些什麼，巡迴了哪些學校告訴了多少學子們，不要忘記去追求「夢想」，並且請到了阿夏的爸爸和林政緯同學，和我們分享他們為了夢想所付出的與所得到的...&lt;/div&gt;
+&lt;div class="line"&gt;#12 阿夏爸(阿夏很正)&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="img-left"&gt;&lt;p&gt;&lt;img alt="image11" src="https://lh3.ggpht.com/_PblkLLwO_wY/THze0RFhgLI/AAAAAAAAFAk/1tSbyD-GFpc/s800/_HLK1110r.jpg" /&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;#13 林政緯&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="img-left"&gt;&lt;p&gt;&lt;img alt="image12" src="https://lh4.ggpht.com/_PblkLLwO_wY/THze09KQqpI/AAAAAAAAFAo/DMXv53gugFE/s800/_HLK1113r.jpg" /&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;#14 大魔王登場?!&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="img-left"&gt;&lt;p&gt;&lt;img alt="image13" src="https://lh3.ggpht.com/_PblkLLwO_wY/THze1lc0xmI/AAAAAAAAFAs/ci3TnLnpmv0/s800/_HLK1095r.jpg" /&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;#15 戰鬥令人堅強~&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="img-left"&gt;&lt;p&gt;&lt;img alt="image14" src="https://lh6.ggpht.com/_PblkLLwO_wY/THze2NR5RrI/AAAAAAAAFAw/uHscs1ILkyY/s800/_HLK0956r.jpg" /&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;div style="color: red; text-align: center;"&gt;&lt;p&gt;&lt;strong&gt;千萬不要小看自己&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;有些事情沒有親身經歷還真的無法去體會，在這個網路的時代，一個人的力量或許很微小，但當有十個人或一百個人在網路上集結起來的時候，那樣的力量很強大，強大到你無法想像...&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="color: red; text-align: center;"&gt;&lt;p&gt;&lt;strong&gt;想做就去做，不想放手就不要放手&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;台灣的社會充斥著一種貶低意識，就業的人透過貶低在學的人來得到安慰，強勢的人透過貶低弱勢的人來得到成就，我們不是透過鼓勵來促進成功，而是透過反對來防止失敗，社會在你還沒有開始去執行夢想之前就告訴你不會成功，這絕對不是一個對的現象...&lt;/div&gt;
+&lt;div class="line"&gt;#16 最後再來一張Weather girls&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="img-left"&gt;&lt;p&gt;&lt;img alt="image15" src="https://lh3.ggpht.com/_PblkLLwO_wY/THze2wArIHI/AAAAAAAAFA0/aekZ0WgG_wY/s800/_HLK0998r.jpg" /&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/p&gt;</content><category term="阿宅反抗軍"></category></entry><entry><title>2012部落格小改版</title><link href="//www.hansliu.com/posts/2012/01/2012-blog-upgrade.html" rel="alternate"></link><published>2012-01-15T17:47:00+08:00</published><updated>2012-01-15T17:47:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2012-01-15:/posts/2012/01/2012-blog-upgrade.html</id><summary type="html">&lt;p class="first last"&gt;&lt;img alt="image0" src="https://lh5.googleusercontent.com/-NkuwLfKxtWk/TxKgHOlqvOI/AAAAAAAAHow/GteYUfJLfMA/s800/error404.jpg" /&gt;&lt;/p&gt;
+</summary><content type="html">&lt;div class="img-center"&gt;&lt;p&gt;&lt;img alt="image0" src="https://lh5.googleusercontent.com/-NkuwLfKxtWk/TxKgHOlqvOI/AAAAAAAAHow/GteYUfJLfMA/s800/error404.jpg" /&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;p&gt;抽空替部落格做了改版，版型從原本的白灰色系轉變為橘黑色系&lt;/p&gt;
+&lt;p&gt;這樣改動的主要目的是為了能更加凸顯照片主體...&lt;/p&gt;
+&lt;p&gt;另外也花了點時間整理Blogger的內部設定，改變了留言的方式&lt;/p&gt;
+&lt;p&gt;未來也有打算調整現有廣告的版面和位子...&lt;/p&gt;
+</content><category term="Blog"></category></entry><entry><title>研發替代役面試心得《下》</title><link href="//www.hansliu.com/posts/2011/12/rdss-interview-3.html" rel="alternate"></link><published>2011-12-23T00:06:00+08:00</published><updated>2011-12-23T00:06:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2011-12-23:/posts/2011/12/rdss-interview-3.html</id><summary type="html">&lt;div class="img-center"&gt;&lt;p&gt;&lt;img alt="image0" src="https://lh5.googleusercontent.com/-PVchFPzp2Jc/TvSsacKrp2I/AAAAAAAAHmg/cXH0nFvkybc/s800/Job-Offer.jpg" /&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;p&gt;隨著內政部公布各家公司研發替代役的申請員額，我的面試之旅也逐漸接近尾聲，自己也希望能收心回來專注於研究與學習，畢竟如果論文沒有完成，無法順利畢業的話，那今天有再多家公司想要給你Offer都是無用的...&lt;/p&gt;
+&lt;p&gt;沒有意外的話，這會是我研替面試之旅的最後一篇心得文，文末也會簡單記錄一下，自己收到過的感謝函（包含無面試機會的公司），作為以後求職上的參考記錄。&lt;/p&gt;
+&lt;p&gt;--&lt;/p&gt;
+&lt;p&gt;第七站&lt;/p&gt;
+&lt;p&gt;廣達深度參訪之旅&lt;/p&gt;
+&lt;p&gt;因為之前廣達研究院面試過程的關係，有了這次深度參訪的機會，當天於北車集合，坐遊覽車到林口廣達，集合完畢後展開一天的參觀行程，概括而言行程可以分為四個部分 …&lt;/p&gt;</summary><content type="html">&lt;div class="img-center"&gt;&lt;p&gt;&lt;img alt="image0" src="https://lh5.googleusercontent.com/-PVchFPzp2Jc/TvSsacKrp2I/AAAAAAAAHmg/cXH0nFvkybc/s800/Job-Offer.jpg" /&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;p&gt;隨著內政部公布各家公司研發替代役的申請員額，我的面試之旅也逐漸接近尾聲，自己也希望能收心回來專注於研究與學習，畢竟如果論文沒有完成，無法順利畢業的話，那今天有再多家公司想要給你Offer都是無用的...&lt;/p&gt;
+&lt;p&gt;沒有意外的話，這會是我研替面試之旅的最後一篇心得文，文末也會簡單記錄一下，自己收到過的感謝函（包含無面試機會的公司），作為以後求職上的參考記錄。&lt;/p&gt;
+&lt;p&gt;--&lt;/p&gt;
+&lt;p&gt;第七站&lt;/p&gt;
+&lt;p&gt;廣達深度參訪之旅&lt;/p&gt;
+&lt;p&gt;因為之前廣達研究院面試過程的關係，有了這次深度參訪的機會，當天於北車集合，坐遊覽車到林口廣達，集合完畢後展開一天的參觀行程，概括而言行程可以分為四個部分，體育館、健身房、實驗室、主管部門，前半部是福利設施，後半部是和工作內容比較有關係，整間公司的規劃讓人有身處在校園的感覺。&lt;/p&gt;
+&lt;p&gt;雖然是深度參訪，但是我印象比較深的部分都是在吃，早餐提供三明治，中餐則是四菜一湯加甜品喝到飽（在用餐時有一點讓我印象蠻深刻的，就是廣達連餐具回收的過程也能做成生產線...），下午還有茶點吃，最後到部門與主管相見歡也有珍珠奶茶喝，整趟就是吃飽喝足之旅。&lt;/p&gt;
+&lt;p&gt;我想在感受廣達深度的同時，我的腸胃倒是先感受到食物的深度了... XD&lt;/p&gt;
+&lt;p&gt;--&lt;/p&gt;
+&lt;p&gt;第八站&lt;/p&gt;
+&lt;p&gt;科立爾Corel&lt;/p&gt;
+&lt;p&gt;Corel位於內湖科技園區的聯邦大樓內，聯邦大樓內部的精美程度真是令我目瞪口呆...&lt;/p&gt;
+&lt;p&gt;面試流程分為三個階段，首先進行程式筆試，題目是C/C++的知識與應用，從基礎的指標操作到物件導向都有考到，考試內容算是蠻全面的，不過我依然是寫的零零落落，在筆試之後是人資面談，Corel的人資也是我一路面試過來，覺得最親切的一位人資，除了個人特質和公司環境的問題之外，我也詢問了很多在就業規劃上應該考慮的事情，人資都很細心的替我回答。&lt;/p&gt;
+&lt;p&gt;人資面談結束後，接著是和主管面談，形式是一對二，接受兩位主管輪番在大學課程、程式專業和解決能力的技巧上做問題轟炸，尤其針對成績單上有修過的課程，問的很仔細，我也一一的回答過去所經歷過的專題競賽、程式作業與大型Project，面談的尾聲，我又繼續開啟人生規劃的話題，主管也很熱心的和我分享他的所見所得，對於整個資訊和軟體產業的差異與現況，我覺得這些分享讓我有很多的收穫。&lt;/p&gt;
+&lt;p&gt;我很喜歡Corel整間公司傳達出來的氣氛，相信這是值得嘗試的地方。&lt;/p&gt;
+&lt;p&gt;--&lt;/p&gt;
+&lt;p&gt;面試到這邊也算正式告一個段落，接下來就是等著各家公司正取與備取的通知...&lt;/p&gt;
+&lt;p&gt;其實回頭看看我面試的次數，嚴格講起來也才不過七次，相比於純四大血統出生的研究生來說，我面試的機會可以說是相當的少，能夠參考的樣本數自然也比較少，不過我很珍惜每一次面試的機會，也努力藉由每次面試的機會，去瞭解業界與企業的想法，盡力去表現自己的特質，剩下就是等待與自己有緣份的公司了。&lt;/p&gt;
+&lt;div class="img-center"&gt;&lt;p&gt;&lt;img alt="image1" src="https://lh4.googleusercontent.com/-ArsapfZUIIE/TvSvljm5CuI/AAAAAAAAHmo/fKPHA2XagN4/s800/rejected.jpg" /&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;p&gt;最後幫自己記錄一些面試後的數據，讓自己以後有個參考...&lt;/p&gt;
+&lt;p&gt;to be continued...&lt;/p&gt;
+</content><category term="Interview"></category></entry><entry><title>研發替代役面試心得《中》</title><link href="//www.hansliu.com/posts/2011/12/rdss-interview-2.html" rel="alternate"></link><published>2011-12-20T13:25:00+08:00</published><updated>2011-12-20T13:25:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2011-12-20:/posts/2011/12/rdss-interview-2.html</id><summary type="html">&lt;div class="img-center"&gt;&lt;p&gt;&lt;img alt="image0" src="https://lh6.googleusercontent.com/-228KcexSs3c/TvNPkNkikmI/AAAAAAAAHmU/Y1D9KTKZ59I/s800/HireMe.png" /&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;p&gt;找工作是一種緣分，沒有緣分的工作，強求也求不來...&lt;/p&gt;
+&lt;p&gt;這是在我面試完第四間公司之後的感想。&lt;/p&gt;
+&lt;p&gt;透過一次又一次的面試過程，我瞭解自己理想的工作內容是什麼，也發現自己尚且不足的部分在哪裡，所以只要時間允許的話，我認為可以多多接觸不同公司的面試，累積自己的面試經驗，對還沒踏入業界（尚未被社會污染），現在還是學生的我們是很有幫助的。&lt;/p&gt;
+&lt;p&gt;--&lt;/p&gt;
+&lt;p&gt;第四站&lt;/p&gt;
+&lt;p&gt;雅虎Yahoo!&lt;/p&gt;
+&lt;p&gt;雅虎在南港軟體園區，對我來說很方便，只要坐大眾運輸工具就可以到，公司內部到處可見雅虎風格的紫色色系，因為被大樓入口的換證過程搞的很緊張 …&lt;/p&gt;</summary><content type="html">&lt;div class="img-center"&gt;&lt;p&gt;&lt;img alt="image0" src="https://lh6.googleusercontent.com/-228KcexSs3c/TvNPkNkikmI/AAAAAAAAHmU/Y1D9KTKZ59I/s800/HireMe.png" /&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;p&gt;找工作是一種緣分，沒有緣分的工作，強求也求不來...&lt;/p&gt;
+&lt;p&gt;這是在我面試完第四間公司之後的感想。&lt;/p&gt;
+&lt;p&gt;透過一次又一次的面試過程，我瞭解自己理想的工作內容是什麼，也發現自己尚且不足的部分在哪裡，所以只要時間允許的話，我認為可以多多接觸不同公司的面試，累積自己的面試經驗，對還沒踏入業界（尚未被社會污染），現在還是學生的我們是很有幫助的。&lt;/p&gt;
+&lt;p&gt;--&lt;/p&gt;
+&lt;p&gt;第四站&lt;/p&gt;
+&lt;p&gt;雅虎Yahoo!&lt;/p&gt;
+&lt;p&gt;雅虎在南港軟體園區，對我來說很方便，只要坐大眾運輸工具就可以到，公司內部到處可見雅虎風格的紫色色系，因為被大樓入口的換證過程搞的很緊張，接待我的人資一直叫我要放輕鬆點，還帶我去雅虎內部的food
+corner，讓我點了一杯飲料來喝（我是挑熱可可），我還蠻感謝他替我介紹雅虎會議室的名稱分類（會議室會用台灣各地文化與古蹟名稱來命名），以及閒聊一些學校的事情，在這過程中讓我比較放鬆。&lt;/p&gt;
+&lt;p&gt;稍等一會之後就和主管進行面談，面談是一對三的形式，也是我目前一口氣面談最多位主管的一次，不外乎的要自我介紹，提及我的論文研究與專題，參與過的社團與工讀，主要討論都是從我的思考邏輯上出發，針對我分析和解決問題的方法去做詢問，在每個環節上都有相當多的問答。&lt;/p&gt;
+&lt;p&gt;印象深刻的是主管提出的一個問題，要是有「軟體開發」和「系統維護」兩項工作內容給我選，我會對哪一項工作內容比較有興趣，這個問題在面談結束後依然讓我深思，因為我覺得這不只是一個面試中的問題，而是對我人生中很重要的一個問題，以前在學生時期是一手包辦整個系統開發流程，從來沒有想過當細節分工之後，哪個部分才是我真正有興趣的...&lt;/p&gt;
+&lt;p&gt;--&lt;/p&gt;
+&lt;p&gt;第五站&lt;/p&gt;
+&lt;p&gt;精靈數位Gulu&lt;/p&gt;
+&lt;p&gt;精靈數位不像前面那些動輒數百人的大公司，它是一間新創的小公司，員工人數不超過50人，而且在現任員工中至少有半數都是RD，是一間以技術導向為主的公司，公司風格也是相當的美式，開放式的辦公環境，讓我走進公司時有點小驚訝（一眼望過去就快看完了）。&lt;/p&gt;
+&lt;p&gt;面試流程是先和人資面談，簡單的自我介紹，一些人格特質上的問題，以及和雅虎類似的興趣問題，要是今天有三種開發環境「Web」、「Android」和「iOS」給我選，我會對哪一種開發環境比較有興趣，也因為精靈的這個問題，讓我真正的意識到我所在意的工作內容是什麼...&lt;/p&gt;
+&lt;p&gt;面談尾聲我也問了人資一些問題，試著瞭解他們整個開發團隊與公司產品的細節，之後就是上機考，題目類似ACM的程式問題，自從高中之後我就沒有再解過這種程式題目了，想當然程式寫的非常糟糕，精靈數位也成為我跑完面試流程後，第一間發感謝函給我的公司。&lt;/p&gt;
+&lt;p&gt;--&lt;/p&gt;
+&lt;p&gt;第六站&lt;/p&gt;
+&lt;p&gt;曜碩科技&lt;/p&gt;
+&lt;p&gt;第一階段只有筆試，會依照C和JAVA分成兩份考題，可以根據自己的強項挑選其中一份來寫，作答時間約為一小時，我是挑選C的來寫，題目相當的基礎，會考指標的運用，實作字串reverse的程式，以及一些C的名詞定義，定義部分我幾乎都忘光了，所以花比較多時間寫實作程式的部份，筆試結束之後有問人資什麼時候會通知，人資說要等第一階段筆試告一段落，才會統一通知第二階段的面談，我想會要等一段時間。&lt;/p&gt;
+&lt;p&gt;--&lt;/p&gt;
+&lt;div class="img-center"&gt;&lt;p&gt;&lt;img alt="image1" src="https://lh3.googleusercontent.com/-za5cbZJOM20/TvNPjuQhchI/AAAAAAAAHmQ/d3flwaCRu4s/s800/job-interview-shake-hands.jpg" /&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;p&gt;經歷雅虎和精靈數位的面試之後，我對於自己未來的藍圖隱隱約約浮現出一些規劃，隨著內政部公布研發替代役名額的日子到來，接下來就是等候通知了...&lt;/p&gt;
+</content><category term="Interview"></category></entry></feed>

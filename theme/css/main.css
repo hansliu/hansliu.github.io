@@ -404,7 +404,8 @@ img.left, figure.left {
   margin: 0 2em 2em 0; }
 
 .readmore {
-  padding: 0 0.5em; }
+  padding: 0 0.5em;
+  font-size: 1.2em; }
 
 @media screen and (max-device-width: 768px) {
   #blogger-ads {
