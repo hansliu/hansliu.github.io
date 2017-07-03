@@ -536,25 +536,21 @@ img.left, figure.left {
 }
 
 #google-custom-search {
-  width: 300px;
-  margin-top: 6px;
-  padding: 0 15px 0 10px;
+  margin: 0 auto !important;
   .gsc-control-cse {
     padding: 0 !important;
     border: 0 !important;
     background-color: transparent !important;
   }
   .gsc-input {
-    margin: -6px 0 0 0 !important;
-    padding: 2px 4px 0 0 !important;
     border: none !important;
     box-shadow: none !important;
   }
   .gsc-input-box {
+    border-radius: 4px !important;
   }
   .gsc-search-button {
-    box-sizing: content-box !important;
-    box-shadow: none !important;
+    display: none !important;
   }
 }
 
