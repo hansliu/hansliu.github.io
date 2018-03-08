@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Hans Blog - 樂分享</title><link href="//www.hansliu.com/" rel="alternate"></link><link href="//www.hansliu.com/feeds/le-fen-xiang.atom.xml" rel="self"></link><id>//www.hansliu.com/</id><updated>2015-04-06T11:00:00+08:00</updated><entry><title>Olympus OM-D E-M5 Mark II 開箱</title><link href="//www.hansliu.com/posts/2015/04/olympus-om-d-e-m5-mark-ii.html" rel="alternate"></link><published>2015-04-06T11:00:00+08:00</published><updated>2015-04-06T11:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2015-04-06:/posts/2015/04/olympus-om-d-e-m5-mark-ii.html</id><summary type="html">&lt;p class="first last"&gt;&lt;a class="reference external" href="https://lh6.googleusercontent.com/-csNeTS4UNcM/VSIrmNAbP4I/AAAAAAAANR8/G4uXemdJyNA/s1600/P4049264.JPG"&gt;&lt;img alt="image0" src="https://lh6.googleusercontent.com/-csNeTS4UNcM/VSIrmNAbP4I/AAAAAAAANR8/G4uXemdJyNA/s800/P4049264.JPG" /&gt;&lt;/a&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Hans Blog - 樂分享</title><link href="//www.hansliu.com/" rel="alternate"></link><link href="//www.hansliu.com/feeds/le-fen-xiang.atom.xml" rel="self"></link><id>//www.hansliu.com/</id><updated>2018-03-08T21:00:00+08:00</updated><entry><title>Yahoo!輸入法關閉一點通服務</title><link href="//www.hansliu.com/posts/2018/03/disable-yahoo-keykey-onekey-on-mac.html" rel="alternate"></link><published>2018-03-08T21:00:00+08:00</published><updated>2018-03-08T21:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2018-03-08:/posts/2018/03/disable-yahoo-keykey-onekey-on-mac.html</id><summary type="html">&lt;p&gt;Yahoo!輸入法算是 Mac 上最好用的注音輸入法了，但是內建的一點通服務不能關閉，只能在 ` 或是 ~ 擇一當快速鍵，偏偏這兩個按鍵對於寫程式的人來說很常用到，所以上網搜尋了一下關閉的方法。&lt;/p&gt;
+&lt;p&gt;根據網誌 &lt;a class="reference external" href="http://blog.buginception.com/blog/2012/02/29/disable-yahoo-keykey-onekey-on-mac/"&gt;http://blog.buginception.com/blog/2012/02/29/disable-yahoo-keykey-onekey-on-mac …&lt;/a&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Yahoo!輸入法算是 Mac 上最好用的注音輸入法了，但是內建的一點通服務不能關閉，只能在 ` 或是 ~ 擇一當快速鍵，偏偏這兩個按鍵對於寫程式的人來說很常用到，所以上網搜尋了一下關閉的方法。&lt;/p&gt;
+&lt;p&gt;根據網誌 &lt;a class="reference external" href="http://blog.buginception.com/blog/2012/02/29/disable-yahoo-keykey-onekey-on-mac/"&gt;http://blog.buginception.com/blog/2012/02/29/disable-yahoo-keykey-onekey-on-mac/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;提供在 Mac 關閉一點通服務的方法，只要修改一點通的設定檔&lt;/p&gt;
+&lt;p&gt;~/Library/Preferences/com.yahoo.KeyKey.OneKey.plist&lt;/p&gt;
+&lt;p&gt;把設定 &lt;strong&gt;&amp;lt;string&amp;gt;`&amp;lt;string&amp;gt;&lt;/strong&gt; 修改成以下內容即可：&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot;?&amp;gt;
+&amp;lt;!DOCTYPE plist PUBLIC &amp;quot;-//Apple//DTD PLIST 1.0//EN&amp;quot; &amp;quot;http://www.apple.com/DTDs/PropertyList-1.0.dtd&amp;quot;&amp;gt;
+&amp;lt;plist version=&amp;quot;1.0&amp;quot;&amp;gt;
+&amp;lt;dict&amp;gt;
+    &amp;lt;key&amp;gt;ShortcutKey&amp;lt;/key&amp;gt;
+  &amp;lt;string&amp;gt;
+&amp;lt;/string&amp;gt;
+&amp;lt;/dict&amp;gt;
+&amp;lt;/plist&amp;gt;
+&lt;/pre&gt;
+</content><category term="yahoo keykey"></category></entry><entry><title>Olympus OM-D E-M5 Mark II 開箱</title><link href="//www.hansliu.com/posts/2015/04/olympus-om-d-e-m5-mark-ii.html" rel="alternate"></link><published>2015-04-06T11:00:00+08:00</published><updated>2015-04-06T11:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2015-04-06:/posts/2015/04/olympus-om-d-e-m5-mark-ii.html</id><summary type="html">&lt;p class="first last"&gt;&lt;a class="reference external" href="https://lh6.googleusercontent.com/-csNeTS4UNcM/VSIrmNAbP4I/AAAAAAAANR8/G4uXemdJyNA/s1600/P4049264.JPG"&gt;&lt;img alt="image0" src="https://lh6.googleusercontent.com/-csNeTS4UNcM/VSIrmNAbP4I/AAAAAAAANR8/G4uXemdJyNA/s800/P4049264.JPG" /&gt;&lt;/a&gt;&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;從入手 Olympus OM-D E-M5 約兩年的時間，一同經歷了許多時光，在這期間 Olympus 也陸續推出各種不同機型（拼命擠牙膏？），以及多次提供韌體升級的服務，一直到今年 Olympus 終於推出了 E-M5 的後繼機，也就是 Olympus OM-D E-M5 Mark II。&lt;/p&gt;
 &lt;p&gt;Olympus OM-D E-M5 Mark II 新的翻轉螢幕，讓自拍可以不求人，更大的 EVF，讓使用觀景窗拍照更舒適，完整的快捷鍵支援，讓自訂按鍵的設定更全面，這些新改變促使我最後決定將新相機帶回家，取代陪伴我約兩年時間的舊相機。&lt;/p&gt;
 &lt;p&gt;現在就讓我透過開箱照，跟大家分享新相機吧！&lt;/p&gt;
