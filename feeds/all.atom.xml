@@ -13,8 +13,8 @@
 &lt;/ol&gt;
 &lt;div class="section" id="mysql-replication-formats"&gt;
 &lt;h2&gt;MySQL Replication Formats&lt;/h2&gt;
-&lt;p&gt;MySQL 之所以可以實現 master-slave 之間的複製，是因為將 master 資料庫發生的事件寫到了 binlog 中，然後在 slave 資料庫上讀取並執行這些事件。&lt;/p&gt;
-&lt;p&gt;寫入 binlog 的格式有以下三種：&lt;/p&gt;
+&lt;p&gt;MySQL 之所以可以實現 replication 之間的複製，是因為將 master 資料庫發生的事件寫到了 binlog 中，然後在 slave 資料庫上讀取並執行這些事件。&lt;/p&gt;
+&lt;p&gt;MySQL 5.7 寫入 binlog 的格式有三種：&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;SBR (statement binlog replication)&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;在 master 會記錄執行的語句到 binlog 中，然後 slave 會讀取並再次執行相同的語句。&lt;/p&gt;
 &lt;dl class="docutils"&gt;
