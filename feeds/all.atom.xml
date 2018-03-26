@@ -56,7 +56,7 @@ DELETE FROM log WHERE createtime &amp;lt; DATE_SUB(NOW(), INTERVAL 1 month)
 &lt;p&gt;可避免 lost update 的問題，交易資料庫引擎採取的最低隔離層級，這個隔離層級讀取錯誤資料的機率太高，一般不會採用這種隔離層級。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;READ UNCOMMITTED&lt;/strong&gt;&lt;/p&gt;
 &lt;ul class="simple"&gt;
-&lt;li&gt;至少保證：「A 與 B 交易讀取的資料必須是已確認的資料」。*&lt;/li&gt;
+&lt;li&gt;至少保證：「A 與 B 交易讀取的資料必須是已確認的資料」。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;可避免 dirty read 以下問題。基本作法是，讀取的交易不會阻止其它的交易，一個未確認的更新交易會阻止其它所有的交易，但這影響效能較大，另一個基本作法是交易正在更新，尚未確定前都先操作暫存表格。&lt;/p&gt;
 &lt;p&gt;RBR 支援，使用 RBR 的時候可以設定 READ UNCOMMITTED。&lt;/p&gt;
@@ -82,7 +82,8 @@ DELETE FROM log WHERE createtime &amp;lt; DATE_SUB(NOW(), INTERVAL 1 month)
 &lt;div class="section" id="mysql-global-transaction-id"&gt;
 &lt;h2&gt;MySQL Global Transaction ID&lt;/h2&gt;
 &lt;p&gt;Global Transaction ID (GTID) 是 MySQL 5.6 以後新的機制，加強資料庫做 replication 的能力，保證一致性、降低故障率，提高容錯力。&lt;/p&gt;
-&lt;p&gt;GTID 是一個全域唯一的編號，在 MySQL 中，GTID 實際上是由 UUID+TID 組成的。然而，因為 binlog+pos 的傳統作法也可以正常運作，所以實務上 GTID_MODE 都是設定 ON_PERMISSIVE。&lt;/p&gt;
+&lt;p&gt;GTID 是一個全域唯一的編號，在 MySQL 中，GTID 實際上是由 UUID+TID 組成的。&lt;/p&gt;
+&lt;p&gt;然而，因為 binlog+pos 的傳統作法也可以正常運作，所以實務上並沒有一定要採用 GTID 的需求，大多設置 GTID_MODE 為 ON_PERMISSIVE。&lt;/p&gt;
 &lt;p&gt;在 MySQL 5.7.6 之後支援線上開啟和關閉 GTID&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;線上開啟 GTID&lt;/strong&gt;&lt;/p&gt;
 &lt;pre class="literal-block"&gt;
