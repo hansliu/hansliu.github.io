@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Hans Blog</title><link href="//www.hansliu.com/" rel="alternate"></link><link href="//www.hansliu.com/feeds/all.atom.xml" rel="self"></link><id>//www.hansliu.com/</id><updated>2018-03-26T22:00:00+08:00</updated><entry><title>MySQL 5.7 Replication 筆記</title><link href="//www.hansliu.com/posts/2018/03/mysql57-replication-note.html" rel="alternate"></link><published>2018-03-26T22:00:00+08:00</published><updated>2018-03-26T22:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2018-03-26:/posts/2018/03/mysql57-replication-note.html</id><summary type="html">&lt;p&gt;記錄一下處理 MySQL 5.7 的時候遇到的問題。&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Hans Blog</title><link href="//www.hansliu.com/" rel="alternate"></link><link href="//www.hansliu.com/feeds/all.atom.xml" rel="self"></link><id>//www.hansliu.com/</id><updated>2018-03-26T22:00:00+08:00</updated><entry><title>MySQL 5.7 Replication 筆記</title><link href="//www.hansliu.com/posts/2018/03/mysql57-replication-note.html" rel="alternate"></link><published>2018-03-26T22:00:00+08:00</published><updated>2018-03-26T22:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2018-03-26:/posts/2018/03/mysql57-replication-note.html</id><summary type="html">&lt;p&gt;記錄一下處理 MySQL 5.7 Replication 的時候遇到的問題。&lt;/p&gt;
 &lt;ol class="arabic simple"&gt;
 &lt;li&gt;MySQL Replication Formats&lt;/li&gt;
 &lt;li&gt;MySQL Transation Islolation Level&lt;/li&gt;
 &lt;li&gt;MySQL Global Transaction ID&lt;/li&gt;
-&lt;li&gt;MySQL Ssl-version, Ssl-cipher&lt;/li&gt;
-&lt;/ol&gt;
-&lt;div class="section" id="mysql-replication-formats"&gt;
-&lt;h2&gt;MySQL …&lt;/h2&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;記錄一下處理 MySQL 5.7 的時候遇到的問題。&lt;/p&gt;
+&lt;li&gt;MySQL Ssl-version, Ssl-cipher …&lt;/li&gt;&lt;/ol&gt;</summary><content type="html">&lt;p&gt;記錄一下處理 MySQL 5.7 Replication 的時候遇到的問題。&lt;/p&gt;
 &lt;ol class="arabic simple"&gt;
 &lt;li&gt;MySQL Replication Formats&lt;/li&gt;
 &lt;li&gt;MySQL Transation Islolation Level&lt;/li&gt;
@@ -16,28 +13,31 @@
 &lt;/ol&gt;
 &lt;div class="section" id="mysql-replication-formats"&gt;
 &lt;h2&gt;MySQL Replication Formats&lt;/h2&gt;
-&lt;div class="section" id="sbr-statement-binlog-replication"&gt;
-&lt;h3&gt;SBR (statement binlog replication)&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;SBR (statement binlog replication)&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;每一條會修改數據的 SQL 都會記錄到 master 的 binlog 中。 slave 在復制的時候 SQL 進程會解析成和原來 master 端執行過的相同的 SQL 再次執行。&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;優點&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;在 SBR 模式下，減少了 binlog 檔案量，節省 I/O 以及存儲資源，提高性能。因為它不需要記錄每一行數據的變化，只需要記錄在 master 上所執行的語句的細節，以及執行語句時候的上下文的信息。&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;缺點&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;在 SBR 模式下，由於它是記錄執行的語句，為了讓這些語句在 slave 端也能正確執行，它還必須記錄每條語句在執行的時候的一些相關信息，也就是上下文信息，以保證所有語句在 slave 端被執行的時候能夠得到和在 master 端執行時候相同的結果，這樣的設計無法支援 MySQL 隨著時代發展而誕生的新函數與功能。&lt;/p&gt;
-&lt;p&gt;目前在 SBR 模式中就有不少已知的特定情況會造成複製出現問題，主要是修改數據的時候使用了某些特定的函數或者功能的時候會出現，比如：sleep() 函數在有些版本中就不能被正確複製，在存儲過程中使用了 last_insert_id() 函數，可能會使 slave 和 master 上得到不一致的 id 等等。由於 RBR 模式是基於每一行來記錄的變化，所以不會出現類似的問題。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="rbr-row-binlog-replication"&gt;
-&lt;h3&gt;RBR (row binlog replication)&lt;/h3&gt;
+&lt;dl class="docutils"&gt;
+&lt;dt&gt;優點&lt;/dt&gt;
+&lt;dd&gt;在 SBR 模式下，減少了 binlog 檔案量，節省 I/O 以及存儲資源，提高性能。因為它不需要記錄每一行數據的變化，只需要記錄在 master 上所執行的語句的細節，以及執行語句時候的上下文的信息。&lt;/dd&gt;
+&lt;dt&gt;缺點&lt;/dt&gt;
+&lt;dd&gt;&lt;p class="first"&gt;在 SBR 模式下，由於它是記錄執行的語句，為了讓這些語句在 slave 端也能正確執行，它還必須記錄每條語句在執行的時候的一些相關信息，也就是上下文信息，以保證所有語句在 slave 端被執行的時候能夠得到和在 master 端執行時候相同的結果，這樣的設計無法支援 MySQL 隨著時代發展而誕生的新函數與功能。&lt;/p&gt;
+&lt;p class="last"&gt;目前在 SBR 模式中就有不少已知的特定情況會造成複製出現問題，主要是修改數據的時候使用了某些特定的函數或者功能的時候會出現，比如：sleep() 函數在有些版本中就不能被正確複製，在存儲過程中使用了 last_insert_id() 函數，可能會使 slave 和 master 上得到不一致的 id 等等。由於 RBR 模式是基於每一行來記錄的變化，所以不會出現類似的問題。&lt;/p&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;p&gt;&lt;strong&gt;RBR (row binlog replication)&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;binlog 中會記錄成每一行數據被修改的形式，然後在 slave 端再對相應的數據進行修改。&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;優點&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;在 RBR 模式下，binlog 中不用記錄執行的 SQL 語句的上下文信息，僅僅只需要記錄那一條記錄被修改與修改的結果，所以 binlog 的內容會非常容易理解。而且不會出現某些特定情況下的存儲過程或函數，以及觸發器的調用和触發無法被正確複製的問題。&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;缺點&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;在 RBR 模式下，所有的執行的語句當記錄到 binlog 檔案中的時候，都將以每行記錄的修改來記錄，這樣可能會產生大量的 binlog 內容，比如有一條更新或刪除的語句：&lt;/p&gt;
+&lt;dl class="docutils"&gt;
+&lt;dt&gt;優點&lt;/dt&gt;
+&lt;dd&gt;在 RBR 模式下，binlog 中不用記錄執行的 SQL 語句的上下文信息，僅僅只需要記錄那一條記錄被修改與修改的結果，所以 binlog 的內容會非常容易理解。而且不會出現某些特定情況下的存儲過程或函數，以及觸發器的調用和触發無法被正確複製的問題。&lt;/dd&gt;
+&lt;dt&gt;缺點&lt;/dt&gt;
+&lt;dd&gt;&lt;p class="first"&gt;在 RBR 模式下，所有的執行的語句當記錄到 binlog 檔案中的時候，都將以每行記錄的修改來記錄，這樣可能會產生大量的 binlog 內容，比如有一條更新或刪除的語句：&lt;/p&gt;
 &lt;pre class="literal-block"&gt;
 UPDATE product SET owner_member_id ='b' WHERE owner_member_id ='a'
 DELETE FROM log WHERE createtime &amp;lt; DATE_SUB(NOW(), INTERVAL 1 month)
 &lt;/pre&gt;
-&lt;p&gt;執行之後，binlog 記錄的不是這條更新或刪除語句所對應的事件，而是這條語句所更新的每一條記錄的變化情況，這樣就記錄成很多條記錄被更新的很多個事件。自然 binlog 檔案的量就會很大。尤其是當執行修改表之類的語句的時候，產生的 binlog 檔案量是驚人的。因為 MySQL 對於改變資料表結構之類的變更語句的處理方式是整個資料表的每一條記錄都需要變動，實際上就是重建了整個資料表。可以想像該資料表的每一條記錄都會被記錄到 binlog 中。&lt;/p&gt;
-&lt;p&gt;MBR (mixed binlog replication)&lt;/p&gt;
+&lt;p class="last"&gt;執行之後，binlog 記錄的不是這條更新或刪除語句所對應的事件，而是這條語句所更新的每一條記錄的變化情況，這樣就記錄成很多條記錄被更新的很多個事件。自然 binlog 檔案的量就會很大。尤其是當執行修改表之類的語句的時候，產生的 binlog 檔案量是驚人的。因為 MySQL 對於改變資料表結構之類的變更語句的處理方式是整個資料表的每一條記錄都需要變動，實際上就是重建了整個資料表。可以想像該資料表的每一條記錄都會被記錄到 binlog 中。&lt;/p&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;p&gt;&lt;strong&gt;MBR (mixed binlog replication)&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;從 MySQL 5.1.8 之後開始提供的第三種模式, 交由 MySQL 根據語法去決定要用 statement 或是 row 來記錄 binlog。&lt;/p&gt;
 &lt;div class="line-block"&gt;
 &lt;div class="line"&gt;refer. &lt;a class="reference external" href="https://dev.mysql.com/doc/refman/5.7/en/replication-formats.html"&gt;https://dev.mysql.com/doc/refman/5.7/en/replication-formats.html&lt;/a&gt;&lt;/div&gt;
@@ -45,31 +45,31 @@ DELETE FROM log WHERE createtime &amp;lt; DATE_SUB(NOW(), INTERVAL 1 month)
 &lt;div class="line"&gt;refer. &lt;a class="reference external" href="http://www.simlinux.com/2012/07/06/mysql-binlog-format.html"&gt;http://www.simlinux.com/2012/07/06/mysql-binlog-format.html&lt;/a&gt; (中文)&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;
 &lt;div class="section" id="mysql-transation-islolation-level"&gt;
 &lt;h2&gt;MySQL Transation Islolation Level&lt;/h2&gt;
 &lt;p&gt;隔離性是交易的保證之一，表示交易與交易之間不互相干擾，好像同時間就只有自己的交易存在一樣，隔離性保證的基本方式是在資料庫層面，對資料庫或相關欄位鎖定，在同一時間內只允許一個交易進行更新或讀取。&lt;/p&gt;
 &lt;p&gt;但完全的鎖定資料庫在事務上並不會這麼做，因為完全的鎖定資料庫將導致嚴重的效能問題，因此實務上會根據資料讀寫更新的頻繁性，設定不同的交易隔離層級 (transaction isolation level)。&lt;/p&gt;
-&lt;div class="section" id="read-committed"&gt;
-&lt;h3&gt;READ COMMITTED&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;至少保證：「A 交易已更新但尚未確認的資料，B 交易僅可作讀取動作」。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;READ COMMITTED&lt;/strong&gt;&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;至少保證：「A 交易已更新但尚未確認的資料，B 交易僅可作讀取動作」。&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;可避免 lost update 的問題，交易資料庫引擎採取的最低隔離層級，這個隔離層級讀取錯誤資料的機率太高，一般不會採用這種隔離層級。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="read-uncommitted"&gt;
-&lt;h3&gt;READ UNCOMMITTED&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;至少保證：「A 與 B 交易讀取的資料必須是已確認的資料」。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;READ UNCOMMITTED&lt;/strong&gt;&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;至少保證：「A 與 B 交易讀取的資料必須是已確認的資料」。*&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;可避免 dirty read 以下問題。基本作法是，讀取的交易不會阻止其它的交易，一個未確認的更新交易會阻止其它所有的交易，但這影響效能較大，另一個基本作法是交易正在更新，尚未確定前都先操作暫存表格。&lt;/p&gt;
 &lt;p&gt;RBR 支援，使用 RBR 的時候可以設定 READ UNCOMMITTED。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="repeatable-read"&gt;
-&lt;h3&gt;REPEATABLE READ&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;至少保證：「同一 A 交易內兩次讀取的資料必須相同」。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;REPEATABLE READ&lt;/strong&gt;&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;至少保證：「同一 A 交易內兩次讀取的資料必須相同」。&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;可避免 unrepeatable read 以下問題。基本作法是，讀取交易不會阻止其它讀取的交易，但阻止其它寫入的交易，但這影響效能較大，另一基本作法是，一個交易正在讀取，尚未確認前，另一交易要更新給予暫存表格。&lt;/p&gt;
 &lt;p&gt;SBR 支援，使用 SBR 的時候只能設定 REPEATABLE READ。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="serializable"&gt;
-&lt;h3&gt;SERIALIZABLE&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;最嚴格的隔離層級，只要交易有不一致的疑慮，交易就必須循序，也就是 B 交易的更新與讀取都需要在 A 交易的更新之後。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;SERIALIZABLE&lt;/strong&gt;&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;最嚴格的隔離層級，只要交易有不一致的疑慮，交易就必須循序，也就是 B 交易的更新與讀取都需要在 A 交易的更新之後。&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;可避免 phantom read 以下問題，因為交易資料必須循序，會嚴重影響交易資料庫效能，一般不會採用這種隔離層級。&lt;/p&gt;
 &lt;p&gt;InnoDB 在設計上支援全部四種隔離層級，而且 InnoDB 為了避免 phantom read 做了一個東西叫 next-key locking ，所以在 InnoDB 你可以假裝 phantom read 不存在。&lt;/p&gt;
 &lt;p&gt;另外 InnoDB 又實做了名叫 multi-versioned concurrency control 的功能，以達到 consistent nonlocking reads 。其實就是 InnoDB 可以同時維護多個版本的資料表資料，所以可以減少 READ COMMITTED 和 REPEATABLE READ 這兩個隔離層級加在資料表上的鎖，讓系統效能更好。&lt;/p&gt;
@@ -79,13 +79,12 @@ DELETE FROM log WHERE createtime &amp;lt; DATE_SUB(NOW(), INTERVAL 1 month)
 &lt;div class="line"&gt;refer. &lt;a class="reference external" href="https://openhome.cc/Gossip/HibernateGossip/IsolationLevel.html"&gt;https://openhome.cc/Gossip/HibernateGossip/IsolationLevel.html&lt;/a&gt; (中文)&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;
 &lt;div class="section" id="mysql-global-transaction-id"&gt;
 &lt;h2&gt;MySQL Global Transaction ID&lt;/h2&gt;
 &lt;p&gt;Global Transaction ID (GTID) 是 MySQL 5.6 以後新的機制，加強資料庫做 replication 的能力，保證一致性、降低故障率，提高容錯力。&lt;/p&gt;
 &lt;p&gt;GTID 是一個全域唯一的編號，在 MySQL 中，GTID 實際上是由 UUID+TID 組成的。然而，因為 binlog+pos 的傳統作法也可以正常運作，所以實務上 GTID_MODE 都是設定 ON_PERMISSIVE。&lt;/p&gt;
 &lt;p&gt;在 MySQL 5.7.6 之後支援線上開啟和關閉 GTID&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;線上開啟 GTID&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;線上開啟 GTID&lt;/strong&gt;&lt;/p&gt;
 &lt;pre class="literal-block"&gt;
 SET &amp;#64;&amp;#64;GLOBAL.ENFORCE_GTID_CONSISTENCY = WARN;
 # if no error output
@@ -97,7 +96,7 @@ SHOW STATUS LIKE 'ONGOING_ANONYMOUS_TRANSACTION_COUNT';
 # ONGOING_ANONYMOUS_TRANSACTION_COUNT is 0
 SET &amp;#64;&amp;#64;GLOBAL.GTID_MODE = ON;
 &lt;/pre&gt;
-&lt;p&gt;&lt;em&gt;線上關閉 GIID&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;線上關閉 GIID&lt;/strong&gt;&lt;/p&gt;
 &lt;pre class="literal-block"&gt;
 # GTID_MODE is ON
 SET &amp;#64;&amp;#64;GLOBAL.GTID_MODE = ON_PERMISSIVE;
@@ -128,7 +127,7 @@ mysql&amp;gt; SHOW VARIABLES LIKE 'ssl_cipher';
 | ssl_cipher    | DHE-RSA-AES128-GCM-SHA256 |
 +---------------+---------------------------+
 &lt;/pre&gt;
-&lt;p&gt;OpenSSL-linked binaries use the following defaults:&lt;/p&gt;
+&lt;p&gt;OpenSSL-linked binaries 預設 ssl_cipher：&lt;/p&gt;
 &lt;pre class="literal-block"&gt;
 Variable_name: ssl_cipher_list
         Value: ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE

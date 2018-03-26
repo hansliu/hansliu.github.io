@@ -32,7 +32,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" type="text/css">
 
   <!-- css -->
-  <link rel="stylesheet" href="//www.hansliu.com/theme/css/main.css?v=20180326093525" type="text/css">
+  <link rel="stylesheet" href="//www.hansliu.com/theme/css/main.css?v=20180326151735" type="text/css">
 
   <!-- feed -->
   <link href="//www.hansliu.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Hans Blog Full Atom Feed"/>
@@ -154,7 +154,7 @@
       </script><br><!-- /.Google Adsense -->
 
       <div class="post-content">
-        <p>記錄一下處理 MySQL 5.7 的時候遇到的問題。</p>
+        <p>記錄一下處理 MySQL 5.7 Replication 的時候遇到的問題。</p>
 <ol class="arabic simple">
 <li>MySQL Replication Formats</li>
 <li>MySQL Transation Islolation Level</li>
@@ -163,28 +163,31 @@
 </ol>
 <div class="section" id="mysql-replication-formats">
 <h2>MySQL Replication Formats</h2>
-<div class="section" id="sbr-statement-binlog-replication">
-<h3>SBR (statement binlog replication)</h3>
+<p><strong>SBR (statement binlog replication)</strong></p>
 <p>每一條會修改數據的 SQL 都會記錄到 master 的 binlog 中。 slave 在復制的時候 SQL 進程會解析成和原來 master 端執行過的相同的 SQL 再次執行。</p>
-<p><em>優點</em></p>
-<p>在 SBR 模式下，減少了 binlog 檔案量，節省 I/O 以及存儲資源，提高性能。因為它不需要記錄每一行數據的變化，只需要記錄在 master 上所執行的語句的細節，以及執行語句時候的上下文的信息。</p>
-<p><em>缺點</em></p>
-<p>在 SBR 模式下，由於它是記錄執行的語句，為了讓這些語句在 slave 端也能正確執行，它還必須記錄每條語句在執行的時候的一些相關信息，也就是上下文信息，以保證所有語句在 slave 端被執行的時候能夠得到和在 master 端執行時候相同的結果，這樣的設計無法支援 MySQL 隨著時代發展而誕生的新函數與功能。</p>
-<p>目前在 SBR 模式中就有不少已知的特定情況會造成複製出現問題，主要是修改數據的時候使用了某些特定的函數或者功能的時候會出現，比如：sleep() 函數在有些版本中就不能被正確複製，在存儲過程中使用了 last_insert_id() 函數，可能會使 slave 和 master 上得到不一致的 id 等等。由於 RBR 模式是基於每一行來記錄的變化，所以不會出現類似的問題。</p>
-</div>
-<div class="section" id="rbr-row-binlog-replication">
-<h3>RBR (row binlog replication)</h3>
+<dl class="docutils">
+<dt>優點</dt>
+<dd>在 SBR 模式下，減少了 binlog 檔案量，節省 I/O 以及存儲資源，提高性能。因為它不需要記錄每一行數據的變化，只需要記錄在 master 上所執行的語句的細節，以及執行語句時候的上下文的信息。</dd>
+<dt>缺點</dt>
+<dd><p class="first">在 SBR 模式下，由於它是記錄執行的語句，為了讓這些語句在 slave 端也能正確執行，它還必須記錄每條語句在執行的時候的一些相關信息，也就是上下文信息，以保證所有語句在 slave 端被執行的時候能夠得到和在 master 端執行時候相同的結果，這樣的設計無法支援 MySQL 隨著時代發展而誕生的新函數與功能。</p>
+<p class="last">目前在 SBR 模式中就有不少已知的特定情況會造成複製出現問題，主要是修改數據的時候使用了某些特定的函數或者功能的時候會出現，比如：sleep() 函數在有些版本中就不能被正確複製，在存儲過程中使用了 last_insert_id() 函數，可能會使 slave 和 master 上得到不一致的 id 等等。由於 RBR 模式是基於每一行來記錄的變化，所以不會出現類似的問題。</p>
+</dd>
+</dl>
+<p><strong>RBR (row binlog replication)</strong></p>
 <p>binlog 中會記錄成每一行數據被修改的形式，然後在 slave 端再對相應的數據進行修改。</p>
-<p><em>優點</em></p>
-<p>在 RBR 模式下，binlog 中不用記錄執行的 SQL 語句的上下文信息，僅僅只需要記錄那一條記錄被修改與修改的結果，所以 binlog 的內容會非常容易理解。而且不會出現某些特定情況下的存儲過程或函數，以及觸發器的調用和触發無法被正確複製的問題。</p>
-<p><em>缺點</em></p>
-<p>在 RBR 模式下，所有的執行的語句當記錄到 binlog 檔案中的時候，都將以每行記錄的修改來記錄，這樣可能會產生大量的 binlog 內容，比如有一條更新或刪除的語句：</p>
+<dl class="docutils">
+<dt>優點</dt>
+<dd>在 RBR 模式下，binlog 中不用記錄執行的 SQL 語句的上下文信息，僅僅只需要記錄那一條記錄被修改與修改的結果，所以 binlog 的內容會非常容易理解。而且不會出現某些特定情況下的存儲過程或函數，以及觸發器的調用和触發無法被正確複製的問題。</dd>
+<dt>缺點</dt>
+<dd><p class="first">在 RBR 模式下，所有的執行的語句當記錄到 binlog 檔案中的時候，都將以每行記錄的修改來記錄，這樣可能會產生大量的 binlog 內容，比如有一條更新或刪除的語句：</p>
 <pre class="literal-block">
 UPDATE product SET owner_member_id ='b' WHERE owner_member_id ='a'
 DELETE FROM log WHERE createtime &lt; DATE_SUB(NOW(), INTERVAL 1 month)
 </pre>
-<p>執行之後，binlog 記錄的不是這條更新或刪除語句所對應的事件，而是這條語句所更新的每一條記錄的變化情況，這樣就記錄成很多條記錄被更新的很多個事件。自然 binlog 檔案的量就會很大。尤其是當執行修改表之類的語句的時候，產生的 binlog 檔案量是驚人的。因為 MySQL 對於改變資料表結構之類的變更語句的處理方式是整個資料表的每一條記錄都需要變動，實際上就是重建了整個資料表。可以想像該資料表的每一條記錄都會被記錄到 binlog 中。</p>
-<p>MBR (mixed binlog replication)</p>
+<p class="last">執行之後，binlog 記錄的不是這條更新或刪除語句所對應的事件，而是這條語句所更新的每一條記錄的變化情況，這樣就記錄成很多條記錄被更新的很多個事件。自然 binlog 檔案的量就會很大。尤其是當執行修改表之類的語句的時候，產生的 binlog 檔案量是驚人的。因為 MySQL 對於改變資料表結構之類的變更語句的處理方式是整個資料表的每一條記錄都需要變動，實際上就是重建了整個資料表。可以想像該資料表的每一條記錄都會被記錄到 binlog 中。</p>
+</dd>
+</dl>
+<p><strong>MBR (mixed binlog replication)</strong></p>
 <p>從 MySQL 5.1.8 之後開始提供的第三種模式, 交由 MySQL 根據語法去決定要用 statement 或是 row 來記錄 binlog。</p>
 <div class="line-block">
 <div class="line">refer. <a class="reference external" href="https://dev.mysql.com/doc/refman/5.7/en/replication-formats.html">https://dev.mysql.com/doc/refman/5.7/en/replication-formats.html</a></div>
@@ -192,31 +195,31 @@ DELETE FROM log WHERE createtime &lt; DATE_SUB(NOW(), INTERVAL 1 month)
 <div class="line">refer. <a class="reference external" href="http://www.simlinux.com/2012/07/06/mysql-binlog-format.html">http://www.simlinux.com/2012/07/06/mysql-binlog-format.html</a> (中文)</div>
 </div>
 </div>
-</div>
 <div class="section" id="mysql-transation-islolation-level">
 <h2>MySQL Transation Islolation Level</h2>
 <p>隔離性是交易的保證之一，表示交易與交易之間不互相干擾，好像同時間就只有自己的交易存在一樣，隔離性保證的基本方式是在資料庫層面，對資料庫或相關欄位鎖定，在同一時間內只允許一個交易進行更新或讀取。</p>
 <p>但完全的鎖定資料庫在事務上並不會這麼做，因為完全的鎖定資料庫將導致嚴重的效能問題，因此實務上會根據資料讀寫更新的頻繁性，設定不同的交易隔離層級 (transaction isolation level)。</p>
-<div class="section" id="read-committed">
-<h3>READ COMMITTED</h3>
-<p><em>至少保證：「A 交易已更新但尚未確認的資料，B 交易僅可作讀取動作」。</em></p>
+<p><strong>READ COMMITTED</strong></p>
+<ul class="simple">
+<li>至少保證：「A 交易已更新但尚未確認的資料，B 交易僅可作讀取動作」。</li>
+</ul>
 <p>可避免 lost update 的問題，交易資料庫引擎採取的最低隔離層級，這個隔離層級讀取錯誤資料的機率太高，一般不會採用這種隔離層級。</p>
-</div>
-<div class="section" id="read-uncommitted">
-<h3>READ UNCOMMITTED</h3>
-<p><em>至少保證：「A 與 B 交易讀取的資料必須是已確認的資料」。</em></p>
+<p><strong>READ UNCOMMITTED</strong></p>
+<ul class="simple">
+<li>至少保證：「A 與 B 交易讀取的資料必須是已確認的資料」。*</li>
+</ul>
 <p>可避免 dirty read 以下問題。基本作法是，讀取的交易不會阻止其它的交易，一個未確認的更新交易會阻止其它所有的交易，但這影響效能較大，另一個基本作法是交易正在更新，尚未確定前都先操作暫存表格。</p>
 <p>RBR 支援，使用 RBR 的時候可以設定 READ UNCOMMITTED。</p>
-</div>
-<div class="section" id="repeatable-read">
-<h3>REPEATABLE READ</h3>
-<p><em>至少保證：「同一 A 交易內兩次讀取的資料必須相同」。</em></p>
+<p><strong>REPEATABLE READ</strong></p>
+<ul class="simple">
+<li>至少保證：「同一 A 交易內兩次讀取的資料必須相同」。</li>
+</ul>
 <p>可避免 unrepeatable read 以下問題。基本作法是，讀取交易不會阻止其它讀取的交易，但阻止其它寫入的交易，但這影響效能較大，另一基本作法是，一個交易正在讀取，尚未確認前，另一交易要更新給予暫存表格。</p>
 <p>SBR 支援，使用 SBR 的時候只能設定 REPEATABLE READ。</p>
-</div>
-<div class="section" id="serializable">
-<h3>SERIALIZABLE</h3>
-<p><em>最嚴格的隔離層級，只要交易有不一致的疑慮，交易就必須循序，也就是 B 交易的更新與讀取都需要在 A 交易的更新之後。</em></p>
+<p><strong>SERIALIZABLE</strong></p>
+<ul class="simple">
+<li>最嚴格的隔離層級，只要交易有不一致的疑慮，交易就必須循序，也就是 B 交易的更新與讀取都需要在 A 交易的更新之後。</li>
+</ul>
 <p>可避免 phantom read 以下問題，因為交易資料必須循序，會嚴重影響交易資料庫效能，一般不會採用這種隔離層級。</p>
 <p>InnoDB 在設計上支援全部四種隔離層級，而且 InnoDB 為了避免 phantom read 做了一個東西叫 next-key locking ，所以在 InnoDB 你可以假裝 phantom read 不存在。</p>
 <p>另外 InnoDB 又實做了名叫 multi-versioned concurrency control 的功能，以達到 consistent nonlocking reads 。其實就是 InnoDB 可以同時維護多個版本的資料表資料，所以可以減少 READ COMMITTED 和 REPEATABLE READ 這兩個隔離層級加在資料表上的鎖，讓系統效能更好。</p>
@@ -226,13 +229,12 @@ DELETE FROM log WHERE createtime &lt; DATE_SUB(NOW(), INTERVAL 1 month)
 <div class="line">refer. <a class="reference external" href="https://openhome.cc/Gossip/HibernateGossip/IsolationLevel.html">https://openhome.cc/Gossip/HibernateGossip/IsolationLevel.html</a> (中文)</div>
 </div>
 </div>
-</div>
 <div class="section" id="mysql-global-transaction-id">
 <h2>MySQL Global Transaction ID</h2>
 <p>Global Transaction ID (GTID) 是 MySQL 5.6 以後新的機制，加強資料庫做 replication 的能力，保證一致性、降低故障率，提高容錯力。</p>
 <p>GTID 是一個全域唯一的編號，在 MySQL 中，GTID 實際上是由 UUID+TID 組成的。然而，因為 binlog+pos 的傳統作法也可以正常運作，所以實務上 GTID_MODE 都是設定 ON_PERMISSIVE。</p>
 <p>在 MySQL 5.7.6 之後支援線上開啟和關閉 GTID</p>
-<p><em>線上開啟 GTID</em></p>
+<p><strong>線上開啟 GTID</strong></p>
 <pre class="literal-block">
 SET &#64;&#64;GLOBAL.ENFORCE_GTID_CONSISTENCY = WARN;
 # if no error output
@@ -244,7 +246,7 @@ SHOW STATUS LIKE 'ONGOING_ANONYMOUS_TRANSACTION_COUNT';
 # ONGOING_ANONYMOUS_TRANSACTION_COUNT is 0
 SET &#64;&#64;GLOBAL.GTID_MODE = ON;
 </pre>
-<p><em>線上關閉 GIID</em></p>
+<p><strong>線上關閉 GIID</strong></p>
 <pre class="literal-block">
 # GTID_MODE is ON
 SET &#64;&#64;GLOBAL.GTID_MODE = ON_PERMISSIVE;
@@ -275,7 +277,7 @@ mysql&gt; SHOW VARIABLES LIKE 'ssl_cipher';
 | ssl_cipher    | DHE-RSA-AES128-GCM-SHA256 |
 +---------------+---------------------------+
 </pre>
-<p>OpenSSL-linked binaries use the following defaults:</p>
+<p>OpenSSL-linked binaries 預設 ssl_cipher：</p>
 <pre class="literal-block">
 Variable_name: ssl_cipher_list
         Value: ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE
@@ -379,7 +381,7 @@ var disqus_shortname = 'hansliu'; // required: replace example with your forum s
   <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-  <script src="//www.hansliu.com/theme/js/main.js?v=20180326093525"></script>
+  <script src="//www.hansliu.com/theme/js/main.js?v=20180326151735"></script>
   <script>
       window.fbAsyncInit = function() {
           FB.init({
