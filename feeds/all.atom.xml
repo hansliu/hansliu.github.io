@@ -13,8 +13,10 @@
 &lt;/ol&gt;
 &lt;div class="section" id="mysql-replication-formats"&gt;
 &lt;h2&gt;MySQL Replication Formats&lt;/h2&gt;
+&lt;p&gt;MySQL 之所以可以實現 master-slave 之間的複製，是因為將 master 資料庫發生的事件寫到了 binlog 中，然後在 slave 資料庫上讀取並執行這些事件。&lt;/p&gt;
+&lt;p&gt;寫入 binlog 的格式有以下三種：&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;SBR (statement binlog replication)&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;每一條會修改數據的 SQL 都會記錄到 master 的 binlog 中。 slave 在復制的時候 SQL 進程會解析成和原來 master 端執行過的相同的 SQL 再次執行。&lt;/p&gt;
+&lt;p&gt;在 master 會記錄執行的語句到 binlog 中，然後 slave 會讀取並再次執行相同的語句。&lt;/p&gt;
 &lt;dl class="docutils"&gt;
 &lt;dt&gt;優點&lt;/dt&gt;
 &lt;dd&gt;在 SBR 模式下，減少了 binlog 檔案量，節省 I/O 以及存儲資源，提高性能。因為它不需要記錄每一行數據的變化，只需要記錄在 master 上所執行的語句的細節，以及執行語句時候的上下文的信息。&lt;/dd&gt;
@@ -24,7 +26,7 @@
 &lt;/dd&gt;
 &lt;/dl&gt;
 &lt;p&gt;&lt;strong&gt;RBR (row binlog replication)&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;binlog 中會記錄成每一行數據被修改的形式，然後在 slave 端再對相應的數據進行修改。&lt;/p&gt;
+&lt;p&gt;在 master 會將每一行數據的修改形式記錄到 binlog 中，然後 slave 讀取該數據的修改形式並執行。&lt;/p&gt;
 &lt;dl class="docutils"&gt;
 &lt;dt&gt;優點&lt;/dt&gt;
 &lt;dd&gt;在 RBR 模式下，binlog 中不用記錄執行的 SQL 語句的上下文信息，僅僅只需要記錄那一條記錄被修改與修改的結果，所以 binlog 的內容會非常容易理解。而且不會出現某些特定情況下的存儲過程或函數，以及觸發器的調用和触發無法被正確複製的問題。&lt;/dd&gt;
