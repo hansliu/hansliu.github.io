@@ -32,7 +32,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" type="text/css">
 
   <!-- css -->
-  <link rel="stylesheet" href="//www.hansliu.com/theme/css/main.css?v=20180405130048" type="text/css">
+  <link rel="stylesheet" href="//www.hansliu.com/theme/css/main.css?v=20180406082428" type="text/css">
 
   <!-- feed -->
   <link href="//www.hansliu.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Hans Blog Full Atom Feed"/>
@@ -225,6 +225,42 @@ DELETE FROM log WHERE createtime &lt; DATE_SUB(NOW(), INTERVAL 1 month)
 <p>可避免 phantom read 以下問題，因為交易資料必須循序，會嚴重影響交易資料庫效能，一般不會採用這種隔離層級。</p>
 <p>InnoDB 在設計上支援全部四種隔離層級，而且 InnoDB 為了避免 phantom read 做了一個東西叫 next-key locking ，所以在 InnoDB 你可以假裝 phantom read 不存在。</p>
 <p>另外 InnoDB 又實做了名叫 multi-versioned concurrency control 的功能，以達到 consistent nonlocking reads 。其實就是 InnoDB 可以同時維護多個版本的資料表資料，所以可以減少 READ COMMITTED 和 REPEATABLE READ 這兩個隔離層級加在資料表上的鎖，讓系統效能更好。</p>
+<table border="1" class="colwidths-given table docutils">
+<caption>以下整理不同交易隔離層級對多個交易並行處理的影響</caption>
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<tbody valign="top">
+<tr><td>交易隔離層級</td>
+<td>Dirty Read</td>
+<td>Unrepeatable Read</td>
+<td>Phantom Read</td>
+</tr>
+<tr><td>Read uncommitted</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+</tr>
+<tr><td>Read committed</td>
+<td>X</td>
+<td>O</td>
+<td>O</td>
+</tr>
+<tr><td>Repreatable read</td>
+<td>X</td>
+<td>X</td>
+<td>O</td>
+</tr>
+<tr><td>Serializable</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+</tr>
+</tbody>
+</table>
 <div class="line-block">
 <div class="line">refer. <a class="reference external" href="https://dev.mysql.com/doc/refman/5.7/en/innodb-transaction-isolation-levels.html">https://dev.mysql.com/doc/refman/5.7/en/innodb-transaction-isolation-levels.html</a></div>
 <div class="line">refer. <a class="reference external" href="https://dev.mysql.com/doc/refman/5.7/en/innodb-next-key-locking.html">https://dev.mysql.com/doc/refman/5.7/en/innodb-next-key-locking.html</a></div>
@@ -384,7 +420,7 @@ var disqus_shortname = 'hansliu'; // required: replace example with your forum s
   <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-  <script src="//www.hansliu.com/theme/js/main.js?v=20180405130048"></script>
+  <script src="//www.hansliu.com/theme/js/main.js?v=20180406082428"></script>
   <script>
       window.fbAsyncInit = function() {
           FB.init({
