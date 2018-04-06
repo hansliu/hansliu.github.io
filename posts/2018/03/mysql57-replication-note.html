@@ -32,7 +32,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" type="text/css">
 
   <!-- css -->
-  <link rel="stylesheet" href="//www.hansliu.com/theme/css/main.css?v=20180406082428" type="text/css">
+  <link rel="stylesheet" href="//www.hansliu.com/theme/css/main.css?v=20180406083927" type="text/css">
 
   <!-- feed -->
   <link href="//www.hansliu.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Hans Blog Full Atom Feed"/>
@@ -42,7 +42,7 @@
 </head>
 
 <body>
-  
+
   <div id="blog">
 
     <!-- canvas -->
@@ -101,7 +101,7 @@
 <!-- /.Feeds -->
         </ul>
       </div>
-    </nav>  
+    </nav>
 
     <header id="header" data-behavior="2">
       <a id="button-open-sidebar"><i class="fa fa-bars fa-lg"></i></a>
@@ -225,7 +225,7 @@ DELETE FROM log WHERE createtime &lt; DATE_SUB(NOW(), INTERVAL 1 month)
 <p>可避免 phantom read 以下問題，因為交易資料必須循序，會嚴重影響交易資料庫效能，一般不會採用這種隔離層級。</p>
 <p>InnoDB 在設計上支援全部四種隔離層級，而且 InnoDB 為了避免 phantom read 做了一個東西叫 next-key locking ，所以在 InnoDB 你可以假裝 phantom read 不存在。</p>
 <p>另外 InnoDB 又實做了名叫 multi-versioned concurrency control 的功能，以達到 consistent nonlocking reads 。其實就是 InnoDB 可以同時維護多個版本的資料表資料，所以可以減少 READ COMMITTED 和 REPEATABLE READ 這兩個隔離層級加在資料表上的鎖，讓系統效能更好。</p>
-<table border="1" class="colwidths-given table docutils">
+<table border="1" class="colwidths-given basic docutils">
 <caption>以下整理不同交易隔離層級對多個交易並行處理的影響</caption>
 <colgroup>
 <col width="25%" />
@@ -420,24 +420,24 @@ var disqus_shortname = 'hansliu'; // required: replace example with your forum s
   <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-  <script src="//www.hansliu.com/theme/js/main.js?v=20180406082428"></script>
+  <script src="//www.hansliu.com/theme/js/main.js?v=20180406083927"></script>
   <script>
-      window.fbAsyncInit = function() {
-          FB.init({
-              appId      : '1561250720806305',
-              status     : true,
-              xfbml      : true,
-              version    : 'v2.6'
-          });
-      };
+    window.fbAsyncInit = function() {
+      FB.init({
+        appId            : '1561250720806305',
+        autoLogAppEvents : true,
+        xfbml            : true,
+        version          : 'v2.12'
+      });
+    };
 
-      (function(d, s, id){
-          var js, fjs = d.getElementsByTagName(s)[0];
-          if (d.getElementById(id)) {return;}
-          js = d.createElement(s); js.id = id;
-          js.src = "//connect.facebook.net/zh_TW/sdk.js";
-          fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
+    (function(d, s, id){
+       var js, fjs = d.getElementsByTagName(s)[0];
+       if (d.getElementById(id)) {return;}
+       js = d.createElement(s); js.id = id;
+       js.src = "https://connect.facebook.net/zh_TW/sdk.js";
+       fjs.parentNode.insertBefore(js, fjs);
+     }(document, 'script', 'facebook-jssdk'));
   </script>
 </body>
 </html>
