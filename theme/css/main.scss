@@ -632,7 +632,7 @@ img.left, figure.left {
 
 /* Table Basic CSS */
 table.basic {
-  margin: 0 auto;
+  margin: 1em auto;
   border: 0;
   font-size: 1.0em;
   th, td {
@@ -642,7 +642,7 @@ table.basic {
     vertical-align: middle;
   }
   caption {
-    margin: 1.5em 0 0.2em 0;
+    margin: 0 0 0.2em 0;
     padding: 0.2em;
     line-height: 2em;
     font-size: 1.2em;
