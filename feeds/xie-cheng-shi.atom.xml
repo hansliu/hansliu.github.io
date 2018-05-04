@@ -1,5 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Hans Blog - 寫程式</title><link href="//www.hansliu.com/" rel="alternate"></link><link href="//www.hansliu.com/feeds/xie-cheng-shi.atom.xml" rel="self"></link><id>//www.hansliu.com/</id><updated>2018-03-26T22:00:00+08:00</updated><entry><title>MySQL 5.7 Replication 筆記</title><link href="//www.hansliu.com/posts/2018/03/mysql57-replication-note.html" rel="alternate"></link><published>2018-03-26T22:00:00+08:00</published><updated>2018-03-26T22:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2018-03-26:/posts/2018/03/mysql57-replication-note.html</id><summary type="html">&lt;p&gt;記錄一下處理 MySQL 5.7 Replication 的時候遇到的問題。&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Hans Blog - 寫程式</title><link href="//www.hansliu.com/" rel="alternate"></link><link href="//www.hansliu.com/feeds/xie-cheng-shi.atom.xml" rel="self"></link><id>//www.hansliu.com/</id><updated>2018-05-04T16:00:00+08:00</updated><entry><title>Red Hat 7 安裝 Docker CE</title><link href="//www.hansliu.com/posts/2018/05/docker-ce-installation-on-red-hat-7.html" rel="alternate"></link><published>2018-05-04T16:00:00+08:00</published><updated>2018-05-04T16:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2018-05-04:/posts/2018/05/docker-ce-installation-on-red-hat-7.html</id><summary type="html">&lt;p&gt;記錄如何在 Red Hat 7 上面安裝最新的 Docker CE，而不使用官方提供的 Dcoker EE。&lt;/p&gt;
+&lt;p&gt;因為 Red Hat 7 官方支援的 Docker 是 Enterprise Edition 版本 …&lt;/p&gt;</summary><content type="html">&lt;p&gt;記錄如何在 Red Hat 7 上面安裝最新的 Docker CE，而不使用官方提供的 Dcoker EE。&lt;/p&gt;
+&lt;p&gt;因為 Red Hat 7 官方支援的 Docker 是 Enterprise Edition 版本，如果想要在 Red Hat 7 上面安裝最新的 Community Edition 版本，可以參考以下的步驟。&lt;/p&gt;
+&lt;p&gt;請記得用 sudo 來執行相關的安裝指令，不然會遇到權限不足問題。&lt;/p&gt;
+&lt;div class="section" id="install-yum-utils-container-selinux-and-epel-release"&gt;
+&lt;h2&gt;1. Install yum-utils, container-selinux and epel-release&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;yum-utils, container-selinux&lt;/strong&gt;&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+yum install -y yum-utils container-selinux
+&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;epel-release&lt;/strong&gt;&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+wget http://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+rpm -ivh epel-release-latest-7.noarch.rpm
+&lt;/pre&gt;
+&lt;p&gt;如果沒有安裝 epel-release 的話，之後在安裝 Docker CE 的時候會遇到 &lt;em&gt;Requires: pigz&lt;/em&gt; 的錯誤。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="add-docker-ce-repo-to-yum-repos"&gt;
+&lt;h2&gt;2. Add docker-ce.repo to yum repos&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;docker-ce.repo&lt;/strong&gt;&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div class="section" id="install-docker-ce"&gt;
+&lt;h2&gt;3. Install docker-ce&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;docker-ce&lt;/strong&gt;&lt;/p&gt;
+&lt;dl class="docutils"&gt;
+&lt;dt&gt;::&lt;/dt&gt;
+&lt;dd&gt;yum install -y docker-ce&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/div&gt;
+&lt;div class="section" id="restart-docker-service-and-enable-it"&gt;
+&lt;h2&gt;4. Restart docker service and enable it&lt;/h2&gt;
+&lt;pre class="literal-block"&gt;
+systemctl restart docker
+systemctl enable docker
+&lt;/pre&gt;
+&lt;p&gt;跑一個 nginx 服務來測試你的 docker 是否可以正常執行。&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+docker run --name webserver -d -p 8080:80 nginx
+&lt;/pre&gt;
+&lt;p&gt;開啟瀏覽器輸入底下網址，將其中的 your-IP-address 換成正確的主機名稱，就可以看到 Welcome to nginx! 的結果。&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://your-IP-address:8080/"&gt;http://your-IP-address:8080/&lt;/a&gt;&lt;/p&gt;
+&lt;img alt="" src="https://i.imgur.com/YnUCj51.png" /&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;refer. &lt;a class="reference external" href="https://getstart.blog/2018/03/24/docker-ce-installation-on-red-hat-7/"&gt;https://getstart.blog/2018/03/24/docker-ce-installation-on-red-hat-7/&lt;/a&gt;&lt;/div&gt;
+&lt;div class="line"&gt;refer. &lt;a class="reference external" href="https://docs.docker.com/install/overview/"&gt;https://docs.docker.com/install/overview/&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content><category term="Red Hat"></category><category term="Dcoker"></category></entry><entry><title>MySQL 5.7 Replication 筆記</title><link href="//www.hansliu.com/posts/2018/03/mysql57-replication-note.html" rel="alternate"></link><published>2018-03-26T22:00:00+08:00</published><updated>2018-03-26T22:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2018-03-26:/posts/2018/03/mysql57-replication-note.html</id><summary type="html">&lt;p&gt;記錄一下處理 MySQL 5.7 Replication 的時候遇到的問題。&lt;/p&gt;
 &lt;ol class="arabic simple"&gt;
 &lt;li&gt;MySQL Replication Formats&lt;/li&gt;
 &lt;li&gt;MySQL Transation Islolation Level&lt;/li&gt;
@@ -479,28 +529,4 @@ fab h:host[1-3].com deploy
 &lt;/pre&gt;
 &lt;p&gt;詳細使用教學可以參照 Github repository 的說明。&lt;/p&gt;
 &lt;p&gt;Github repository link: &lt;a class="reference external" href="https://github.com/hansliu/name-expansion"&gt;https://github.com/hansliu/name-expansion&lt;/a&gt;&lt;/p&gt;
-</content><category term="Python"></category><category term="Github"></category></entry><entry><title>2014部落格改版</title><link href="//www.hansliu.com/posts/2014/03/2014-blog-upgrade.html" rel="alternate"></link><published>2014-03-31T10:00:00+08:00</published><updated>2014-03-31T10:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2014-03-31:/posts/2014/03/2014-blog-upgrade.html</id><summary type="html">&lt;p&gt;&lt;a class="reference external" href="https://lh3.googleusercontent.com/-h71cIF3bnYo/Uzm-XVuME6I/AAAAAAAAKGE/xOzCZ3SUGsg/s1600/blog2014.png"&gt;&lt;img alt="image0" src="https://lh3.googleusercontent.com/-h71cIF3bnYo/Uzm-XVuME6I/AAAAAAAAKGE/xOzCZ3SUGsg/s800/blog2014.png" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;部落格搬家也逐漸接近尾聲，剩下就是一些舊部落格的收尾和導入。&lt;/p&gt;
-&lt;p&gt;我的 ATOM/RSS 有使用 feedburner，所以只要更新 feedburner 的設定，它就會自動幫你通知所有的訂閱戶，並且幫用戶自動訂閱新網站的文章。&lt;/p&gt;
-&lt;p&gt;比較可惜的是因為過去一直都是用 blogger 提供的 domain name，所以新部落格的 SEO 計算就要從頭開始 …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;a class="reference external" href="https://lh3.googleusercontent.com/-h71cIF3bnYo/Uzm-XVuME6I/AAAAAAAAKGE/xOzCZ3SUGsg/s1600/blog2014.png"&gt;&lt;img alt="image0" src="https://lh3.googleusercontent.com/-h71cIF3bnYo/Uzm-XVuME6I/AAAAAAAAKGE/xOzCZ3SUGsg/s800/blog2014.png" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;部落格搬家也逐漸接近尾聲，剩下就是一些舊部落格的收尾和導入。&lt;/p&gt;
-&lt;p&gt;我的 ATOM/RSS 有使用 feedburner，所以只要更新 feedburner 的設定，它就會自動幫你通知所有的訂閱戶，並且幫用戶自動訂閱新網站的文章。&lt;/p&gt;
-&lt;p&gt;比較可惜的是因為過去一直都是用 blogger 提供的 domain name，所以新部落格的 SEO 計算就要從頭開始...&lt;/p&gt;
-&lt;p&gt;再來應該會想辦法設計 redirect，看能不能把舊部落格的流量重導到新部落格。&lt;/p&gt;
-&lt;div class="section" id="id2"&gt;
-&lt;h2&gt;圖片顯示&lt;/h2&gt;
-&lt;p&gt;加入回應式燈箱 &lt;a class="reference external" href="http://dimsemenov.com/plugins/magnific-popup/"&gt;magnific-popup&lt;/a&gt; ，並修改相關 css，取消不必要的陰影和邊框。&lt;/p&gt;
-&lt;pre class="literal-block"&gt;
-/* Magnific Popup CSS */
-.mfp-figure:after {
-  box-shadow: none !important;
-  background: none !important; }
-&lt;/pre&gt;
-&lt;p&gt;加入延遲載入  &lt;a class="reference external" href="http://www.appelsiini.net/projects/lazyload"&gt;lazyload&lt;/a&gt; ，讓網頁在開啟大量圖片的時候可以更順暢一點。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="id3"&gt;
-&lt;h2&gt;外部套件&lt;/h2&gt;
-&lt;p&gt;在 Google AdSense 部分使用新的回應式廣告單元，廣告排版則是參考 Jenny 的配置，放在文章的開頭與結尾，同時把 BloggerAds 也放進來，安插在首頁的側邊欄。&lt;/p&gt;
-&lt;p&gt;在 Google Analytics 部分則是升級到通用分析，因為是新安裝，目前還不知道實際運作的效果。&lt;/p&gt;
-&lt;/div&gt;
-</content><category term="Blog"></category></entry></feed>
+</content><category term="Python"></category><category term="Github"></category></entry></feed>
