@@ -32,7 +32,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" type="text/css">
 
   <!-- css -->
-  <link rel="stylesheet" href="//www.hansliu.com/theme/css/main.css?v=20180504082714" type="text/css">
+  <link rel="stylesheet" href="//www.hansliu.com/theme/css/main.css?v=20180504084613" type="text/css">
 
   <!-- feed -->
   <link href="//www.hansliu.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Hans Blog Full Atom Feed"/>
@@ -169,7 +169,7 @@ yum install -y yum-utils container-selinux
 wget http://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
 rpm -ivh epel-release-latest-7.noarch.rpm
 </pre>
-<p>如果沒有安裝 epel-release 的話，之後在安裝 Docker CE 的時候會遇到 <em>Requires: pigz</em> 的錯誤。</p>
+<p>如果沒有安裝 epel-release 的話，之後安裝 docker-ce 的時候會遇到 <em>Requires: pigz</em> 的錯誤。</p>
 </div>
 <div class="section" id="add-docker-ce-repo-to-yum-repos">
 <h2>2. Add docker-ce.repo to yum repos</h2>
@@ -181,10 +181,9 @@ yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce
 <div class="section" id="install-docker-ce">
 <h2>3. Install docker-ce</h2>
 <p><strong>docker-ce</strong></p>
-<dl class="docutils">
-<dt>::</dt>
-<dd>yum install -y docker-ce</dd>
-</dl>
+<pre class="literal-block">
+yum install -y docker-ce
+</pre>
 </div>
 <div class="section" id="restart-docker-service-and-enable-it">
 <h2>4. Restart docker service and enable it</h2>
@@ -192,6 +191,9 @@ yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce
 systemctl restart docker
 systemctl enable docker
 </pre>
+</div>
+<div class="section" id="run-nginx-container-to-test">
+<h2>5. Run nginx container to test</h2>
 <p>跑一個 nginx 服務來測試你的 docker 是否可以正常執行。</p>
 <pre class="literal-block">
 docker run --name webserver -d -p 8080:80 nginx
@@ -290,7 +292,7 @@ var disqus_shortname = 'hansliu'; // required: replace example with your forum s
   <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-  <script src="//www.hansliu.com/theme/js/main.js?v=20180504082714"></script>
+  <script src="//www.hansliu.com/theme/js/main.js?v=20180504084613"></script>
   <script>
     window.fbAsyncInit = function() {
       FB.init({

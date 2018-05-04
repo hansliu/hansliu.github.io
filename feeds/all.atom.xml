@@ -14,7 +14,7 @@ yum install -y yum-utils container-selinux
 wget http://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
 rpm -ivh epel-release-latest-7.noarch.rpm
 &lt;/pre&gt;
-&lt;p&gt;如果沒有安裝 epel-release 的話，之後在安裝 Docker CE 的時候會遇到 &lt;em&gt;Requires: pigz&lt;/em&gt; 的錯誤。&lt;/p&gt;
+&lt;p&gt;如果沒有安裝 epel-release 的話，之後安裝 docker-ce 的時候會遇到 &lt;em&gt;Requires: pigz&lt;/em&gt; 的錯誤。&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="add-docker-ce-repo-to-yum-repos"&gt;
 &lt;h2&gt;2. Add docker-ce.repo to yum repos&lt;/h2&gt;
@@ -26,10 +26,9 @@ yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce
 &lt;div class="section" id="install-docker-ce"&gt;
 &lt;h2&gt;3. Install docker-ce&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;docker-ce&lt;/strong&gt;&lt;/p&gt;
-&lt;dl class="docutils"&gt;
-&lt;dt&gt;::&lt;/dt&gt;
-&lt;dd&gt;yum install -y docker-ce&lt;/dd&gt;
-&lt;/dl&gt;
+&lt;pre class="literal-block"&gt;
+yum install -y docker-ce
+&lt;/pre&gt;
 &lt;/div&gt;
 &lt;div class="section" id="restart-docker-service-and-enable-it"&gt;
 &lt;h2&gt;4. Restart docker service and enable it&lt;/h2&gt;
@@ -37,6 +36,9 @@ yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce
 systemctl restart docker
 systemctl enable docker
 &lt;/pre&gt;
+&lt;/div&gt;
+&lt;div class="section" id="run-nginx-container-to-test"&gt;
+&lt;h2&gt;5. Run nginx container to test&lt;/h2&gt;
 &lt;p&gt;跑一個 nginx 服務來測試你的 docker 是否可以正常執行。&lt;/p&gt;
 &lt;pre class="literal-block"&gt;
 docker run --name webserver -d -p 8080:80 nginx
