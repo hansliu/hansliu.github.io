@@ -1,5 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Hans Blog - 寫程式</title><link href="//www.hansliu.com/" rel="alternate"></link><link href="//www.hansliu.com/feeds/xie-cheng-shi.atom.xml" rel="self"></link><id>//www.hansliu.com/</id><updated>2018-05-04T16:00:00+08:00</updated><entry><title>Red Hat 7 安裝 Docker CE</title><link href="//www.hansliu.com/posts/2018/05/docker-ce-installation-on-red-hat-7.html" rel="alternate"></link><published>2018-05-04T16:00:00+08:00</published><updated>2018-05-04T16:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2018-05-04:/posts/2018/05/docker-ce-installation-on-red-hat-7.html</id><summary type="html">&lt;p&gt;記錄如何在 Red Hat 7 上面安裝最新的 Docker CE，而不使用官方提供的 Dcoker EE。&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Hans Blog - 寫程式</title><link href="//www.hansliu.com/" rel="alternate"></link><link href="//www.hansliu.com/feeds/xie-cheng-shi.atom.xml" rel="self"></link><id>//www.hansliu.com/</id><updated>2018-06-06T17:00:00+08:00</updated><entry><title>AWS CloudWatch 筆記</title><link href="//www.hansliu.com/posts/2018/06/aws-cloudwatch-note.html" rel="alternate"></link><published>2018-06-06T17:00:00+08:00</published><updated>2018-06-06T17:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2018-06-06:/posts/2018/06/aws-cloudwatch-note.html</id><summary type="html">&lt;p&gt;Amazon CloudWatch 是 AWS 內建的監控服務，可以用來監控 AWS 上面的資源和應用程式，記錄一下我使用的心得。&lt;/p&gt;
+&lt;div class="section" id="dashboards"&gt;
+&lt;h2&gt;Dashboards&lt;/h2&gt;
+&lt;p&gt;如其名，可以根據 alarms 和 metrics 來建置視覺化數據，支援 AWS CloudFormation。&lt;/p&gt;
+&lt;p&gt;雖然支援 …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;Amazon CloudWatch 是 AWS 內建的監控服務，可以用來監控 AWS 上面的資源和應用程式，記錄一下我使用的心得。&lt;/p&gt;
+&lt;div class="section" id="dashboards"&gt;
+&lt;h2&gt;Dashboards&lt;/h2&gt;
+&lt;p&gt;如其名，可以根據 alarms 和 metrics 來建置視覺化數據，支援 AWS CloudFormation。&lt;/p&gt;
+&lt;p&gt;雖然支援 AWS CloudFormation，但實際使用上的心得，還是會建議透過 AWS Management Console 來建置，而不要透過 AWS CloudFormation 來建置，因為當你一個 dashboard 擁有很多 widget 的時候，你的 data source 會變得相當的複雜，逐漸變得難以透過 AWS CloudFormation 維護。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="alarms"&gt;
+&lt;h2&gt;Alarms&lt;/h2&gt;
+&lt;p&gt;根據 metrics 和 threshold 設定各式各樣的監控，當警告發生變化的時候可以觸發各種不同的 actions，支援 AWS CloudFormation。&lt;/p&gt;
+&lt;p&gt;設定 alarms 可以做很多事情，常見的有 AWS Auto Scaling 來管理應用程式資源的增減，也可以透過 AWS SNS 將警告轉發到不同的 collaboration tools，建議透過 AWS CloudFormation 來管理你的 alarm，並搭配 version control 做良好的追蹤記錄。&lt;/p&gt;
+&lt;table border="1" class="colwidths-given basic docutils"&gt;
+&lt;caption&gt;以下整理三種 alarm states&lt;/caption&gt;
+&lt;colgroup&gt;
+&lt;col width="25%" /&gt;
+&lt;col width="25%" /&gt;
+&lt;col width="25%" /&gt;
+&lt;col width="25%" /&gt;
+&lt;/colgroup&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td&gt;狀態&lt;/td&gt;
+&lt;td&gt;OK (綠色)&lt;/td&gt;
+&lt;td&gt;ALARM (紅色)&lt;/td&gt;
+&lt;td&gt;INSUFFICIENT (橘色)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;說明&lt;/td&gt;
+&lt;td&gt;正常，指標於閥值之內&lt;/td&gt;
+&lt;td&gt;異常，指標於閥值之外&lt;/td&gt;
+&lt;td&gt;資訊不完全，新設定或是未知資料&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class="section" id="events"&gt;
+&lt;h2&gt;Events&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div class="section" id="logs-log-groups"&gt;
+&lt;h2&gt;Logs (Log Groups)&lt;/h2&gt;
+&lt;p&gt;根據 AWS 各種服務所送出的 log streaming 建置 log group，然後透過 metric filter 將 log 轉成對應的 metric，支援 AWS CloudFormation。&lt;/p&gt;
+&lt;p&gt;Log 不能直接設定到 dashboard 和 alarm，要先透過 metric filter 提供的 pattern syntax 來分析 log，然後將分析結果存成自定義的 metric，有了自定義的 metric 才可以開始使用 dashboard 和 alarm 的功能，建議透過 AWS CloudFormation 來管理你的 metric filter，並搭配 version control 做良好的追蹤記錄。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="metrics"&gt;
+&lt;h2&gt;Metrics&lt;/h2&gt;
+&lt;p&gt;Amazon CloudWatch 的核心，基本上所有的功能都是圍繞著 metric 在運轉，在 AWS 上面的資源和應用程式都可以送各式各樣的 metric 到 Amazon CloudWatch，每個 metric 會根據 dimension 來做分類（不過 log metric filter 沒有支援 dimension）。&lt;/p&gt;
+&lt;p&gt;我們可以透過 AWS Management Console 搜尋 metric，然後設定對應的 dashboard 和 alarm。&lt;/p&gt;
+&lt;p&gt;參考文件：&lt;/p&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;&lt;a class="reference external" href="https://aws.amazon.com/cloudwatch"&gt;https://aws.amazon.com/cloudwatch&lt;/a&gt;&lt;/div&gt;
+&lt;div class="line"&gt;&lt;a class="reference external" href="https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html"&gt;https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content><category term="AWS"></category><category term="CloudWatch"></category></entry><entry><title>Red Hat 7 安裝 Docker CE</title><link href="//www.hansliu.com/posts/2018/05/docker-ce-installation-on-red-hat-7.html" rel="alternate"></link><published>2018-05-04T16:00:00+08:00</published><updated>2018-05-04T16:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2018-05-04:/posts/2018/05/docker-ce-installation-on-red-hat-7.html</id><summary type="html">&lt;p&gt;記錄如何在 Red Hat 7 上面安裝最新的 Docker CE，而不使用官方提供的 Dcoker EE。&lt;/p&gt;
 &lt;p&gt;因為 Red Hat 7 官方支援的 Docker 是 Enterprise Edition 版本 …&lt;/p&gt;</summary><content type="html">&lt;p&gt;記錄如何在 Red Hat 7 上面安裝最新的 Docker CE，而不使用官方提供的 Dcoker EE。&lt;/p&gt;
 &lt;p&gt;因為 Red Hat 7 官方支援的 Docker 是 Enterprise Edition 版本，如果想要在 Red Hat 7 上面安裝最新的 Community Edition 版本，可以參考以下的步驟。&lt;/p&gt;
 &lt;p&gt;請記得用 sudo 來執行相關的安裝指令，不然會遇到權限不足問題。&lt;/p&gt;
@@ -496,39 +550,4 @@ http://&amp;lt;thumbor-server&amp;gt;/300×200/smart/{your-host-of-image}/{your-
 &lt;li&gt;&lt;a class="reference external" href="https://networkx.github.io/"&gt;https://networkx.github.io/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
-</content><category term="Python"></category></entry><entry><title>使用 Name Expansion + Fabric 同時部屬多台機器</title><link href="//www.hansliu.com/posts/2014/04/github-name-expansion.html" rel="alternate"></link><published>2014-04-26T23:00:00+08:00</published><updated>2014-04-26T23:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:www.hansliu.com,2014-04-26:/posts/2014/04/github-name-expansion.html</id><summary type="html">&lt;p&gt;前陣子為了完成 Fabric 同時部屬多台機器的功能，寫了一個字串展開的小工具。&lt;/p&gt;
-&lt;p&gt;使用 python regular expression 來實作，讓使用者可以利用逗號、數字、括弧將字串批次展開。&lt;/p&gt;
-&lt;p&gt;簡單的 use case:&lt;/p&gt;
-&lt;pre class="literal-block"&gt;
-&amp;gt;&amp;gt;&amp;gt; from name_expansion import NameExpansionCore
-&amp;gt;&amp;gt;&amp;gt; ne …&lt;/pre&gt;</summary><content type="html">&lt;p&gt;前陣子為了完成 Fabric 同時部屬多台機器的功能，寫了一個字串展開的小工具。&lt;/p&gt;
-&lt;p&gt;使用 python regular expression 來實作，讓使用者可以利用逗號、數字、括弧將字串批次展開。&lt;/p&gt;
-&lt;p&gt;簡單的 use case:&lt;/p&gt;
-&lt;pre class="literal-block"&gt;
-&amp;gt;&amp;gt;&amp;gt; from name_expansion import NameExpansionCore
-&amp;gt;&amp;gt;&amp;gt; ne = NameExpansionCore()
-
-&amp;gt;&amp;gt;&amp;gt; host = '[tw,hk][1-2].host[3,5].com'
-&amp;gt;&amp;gt;&amp;gt; host_list = list([host])
-&amp;gt;&amp;gt;&amp;gt; for match in ne.parse(host):
-...   host_list = ne.expand(match, host_list)
-&amp;gt;&amp;gt;&amp;gt; host_list
-['tw1.host3.com', 'hk1.host3.com', 'tw1.host5.com', 'hk1.host5.com',
-'tw2.host3.com', 'hk2.host3.com', 'tw2.host5.com', 'hk2.host5.com']
-&lt;/pre&gt;
-&lt;p&gt;Fabric 要部屬的機器是儲存在 env.hosts 裡面，型態是 list，所以我們只要在 fabfile.py 加入一個 method，將 Name expansion 批次展開的結果回存到 env.hosts 裡。&lt;/p&gt;
-&lt;pre class="literal-block"&gt;
-def h(curr_host):
-  ne = NameExpansionCore()
-  host_list = list([curr_host])
-  for match in ne.parse(curr_host):
-    host_list = ne.expand(match, host_list)
-  env.hosts = host_list
-&lt;/pre&gt;
-&lt;p&gt;接著我們就可以透過 Fabric 內建指令 fab，同時指定多台機器做部屬的動作，不過執行部屬的動作是循序的，並不是平行的。&lt;/p&gt;
-&lt;pre class="literal-block"&gt;
-fab h:host[1-3].com deploy
-&lt;/pre&gt;
-&lt;p&gt;詳細使用教學可以參照 Github repository 的說明。&lt;/p&gt;
-&lt;p&gt;Github repository link: &lt;a class="reference external" href="https://github.com/hansliu/name-expansion"&gt;https://github.com/hansliu/name-expansion&lt;/a&gt;&lt;/p&gt;
-</content><category term="Python"></category><category term="Github"></category></entry></feed>
+</content><category term="Python"></category></entry></feed>
