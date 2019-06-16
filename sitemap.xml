@@ -5,7 +5,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>//www.hansliu.com/</loc>
-<lastmod>2019-06-12T09:45:45-00:00</lastmod>
+<lastmod>2019-06-16T15:17:05-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -28,6 +28,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <loc>//www.hansliu.com/pages/tos.html</loc>
 <lastmod>2018-05-01T12:00:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>//www.hansliu.com/posts/2019/06/realforce-rgb-tkl-keyboard-open.html</loc>
+<lastmod>2019-06-16T21:00:00+08:00</lastmod>
+<changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
@@ -1447,7 +1454,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>//www.hansliu.com/category/le-fen-xiang/</loc>
-<lastmod>2018-03-08T21:00:00+08:06</lastmod>
+<lastmod>2019-06-16T21:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1476,6 +1483,20 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>//www.hansliu.com/category/xie-cheng-shi/</loc>
 <lastmod>2018-06-06T17:00:00+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>//www.hansliu.com/tag/jian-pan/</loc>
+<lastmod>2019-06-16T21:00:00+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>//www.hansliu.com/tag/realforce/</loc>
+<lastmod>2019-06-16T21:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
