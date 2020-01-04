@@ -5,7 +5,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>//www.hansliu.com/</loc>
-<lastmod>2020-01-04T08:20:14-00:00</lastmod>
+<lastmod>2020-01-04T08:26:59-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -34,6 +34,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>//www.hansliu.com/posts/2019/12/201912-johor-bahru.html</loc>
 <lastmod>2019-12-16T21:00:00+08:00</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>//www.hansliu.com/posts/2019/09/201909-singapore-f1.html</loc>
+<lastmod>2020-01-04T18:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1475,7 +1482,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>//www.hansliu.com/category/she-ying-ji-lu/</loc>
-<lastmod>2019-12-16T21:00:00+08:06</lastmod>
+<lastmod>2020-01-04T18:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1504,6 +1511,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>//www.hansliu.com/tag/xin-shan/</loc>
 <lastmod>2019-12-16T21:00:00+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>//www.hansliu.com/tag/xin-jia-po/</loc>
+<lastmod>2020-01-04T18:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
