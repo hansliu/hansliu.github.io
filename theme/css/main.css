@@ -272,7 +272,7 @@ section, article, aside, footer, header, nav {
   color: #fff;
   text-decoration: underline;
 }
-#sidebar a .gs-title {
+#sidebar a.gs-title {
   color: #1155CC;
 }
 #sidebar ul {
