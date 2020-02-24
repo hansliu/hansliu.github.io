@@ -32,7 +32,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" type="text/css">
 
   <!-- css -->
-  <link rel="stylesheet" href="//www.hansliu.com/theme/css/main.css?v=20200224180854" type="text/css">
+  <link rel="stylesheet" href="//www.hansliu.com/theme/css/main.css?v=20200224191736" type="text/css">
 
   <!-- feed -->
   <link href="//www.hansliu.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Hans Blog Full Atom Feed"/>
@@ -58,18 +58,8 @@
           life, photo, code
         </p>
         <div id="google-custom-search">
-          <script>
-            (function() {
-              var cx = '011860739956157042125:fttd__0pkbu';
-              var gcse = document.createElement('script');
-              gcse.type = 'text/javascript';
-              gcse.async = true;
-              gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-              var s = document.getElementsByTagName('script')[0];
-              s.parentNode.insertBefore(gcse, s);
-            })();
-          </script>
-          <gcse:search></gcse:search>
+          <script async src="https://cse.google.com/cse.js?cx=011860739956157042125:fttd__0pkbu"></script>
+          <div class="gcse-search"></div>
         </div>
         <ul class="fa-ul">
                 <li><a href="//www.hansliu.com/"><i class="fa-li fa fa-home"></i>Home</a></li>
@@ -436,7 +426,7 @@ Do You Hear the People Sing
       <section>
         <footer id="footer">
           <div class="content-wrap">
-            <span class="copyrights">Copyrights © 2017 Hans Liu. All Rights Reserved.</span>
+            <span class="copyrights">Copyrights © 2020 Hans Liu. All Rights Reserved.</span>
           </div>
         </footer>
       </section>
@@ -474,18 +464,18 @@ var disqus_shortname = 'hansliu'; // required: replace example with your forum s
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
   <!-- Latest compiled and minified JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-  <script src="//www.hansliu.com/theme/js/main.js?v=20200224180854"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="//www.hansliu.com/theme/js/main.js?v=20200224191736"></script>
   <script>
     window.fbAsyncInit = function() {
       FB.init({
-        appId            : '1561250720806305',
-        autoLogAppEvents : true,
-        xfbml            : true,
-        version          : 'v2.12'
+        appId      : '1561250720806305',
+        cookie     : true,
+        xfbml      : true,
+        version    : 'v6.0'
       });
+      FB.AppEvents.logPageView();
     };
-
     (function(d, s, id){
        var js, fjs = d.getElementsByTagName(s)[0];
        if (d.getElementById(id)) {return;}
