@@ -309,6 +309,12 @@ section, article, aside, footer, header, nav {
   transform: translate3d(250px, 0, 0);
 }
 
+#article {
+  display: block;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
 #footer {
   color: #88909a;
   text-align: center;
@@ -442,11 +448,6 @@ section, article, aside, footer, header, nav {
   margin: 0 auto;
   padding-right: 10px;
   padding-left: 10px;
-}
-.content-wrap .article {
-  display: block;
-  max-width: 800px;
-  margin: 0 auto;
 }
 .content-wrap .index-article {
   padding: 20px 5px 15px 5px;
