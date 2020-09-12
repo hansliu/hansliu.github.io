@@ -4,2191 +4,2191 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitem
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-<loc>https://hansliu.com/</loc>
-<lastmod>2020-09-12T20:38:50-00:00</lastmod>
+<loc>https://www.hansliu.com/</loc>
+<lastmod>2020-09-12T20:43:22-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tags/</loc>
-<lastmod>2020-09-12T20:38:50-00:00</lastmod>
+<loc>https://www.hansliu.com/tags/</loc>
+<lastmod>2020-09-12T20:43:22-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/archives.html</loc>
-<lastmod>2020-09-12T20:38:50-00:00</lastmod>
+<loc>https://www.hansliu.com/archives.html</loc>
+<lastmod>2020-09-12T20:43:22-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/pages/photography.html</loc>
+<loc>https://www.hansliu.com/pages/photography.html</loc>
 <lastmod>2017-07-01T20:00:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/pages/privacy.html</loc>
+<loc>https://www.hansliu.com/pages/privacy.html</loc>
 <lastmod>2018-05-01T12:00:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/pages/tos.html</loc>
+<loc>https://www.hansliu.com/pages/tos.html</loc>
 <lastmod>2018-05-01T12:00:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2020/09/setup-python-environment-on-mac-via-pyenv-and-pipenv.html</loc>
+<loc>https://www.hansliu.com/posts/2020/09/setup-python-environment-on-mac-via-pyenv-and-pipenv.html</loc>
 <lastmod>2020-09-13T01:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2020/02/vivitar-singapore.html</loc>
+<loc>https://www.hansliu.com/posts/2020/02/vivitar-singapore.html</loc>
 <lastmod>2020-02-24T22:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2020/02/portrait-sabina.html</loc>
+<loc>https://www.hansliu.com/posts/2020/02/portrait-sabina.html</loc>
 <lastmod>2020-02-24T18:30:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2019/12/201912-johor-bahru.html</loc>
+<loc>https://www.hansliu.com/posts/2019/12/201912-johor-bahru.html</loc>
 <lastmod>2019-12-16T21:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2019/09/2019-singapore-f1.html</loc>
+<loc>https://www.hansliu.com/posts/2019/09/2019-singapore-f1.html</loc>
 <lastmod>2020-01-04T18:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2019/06/realforce-rgb-tkl-keyboard-open.html</loc>
+<loc>https://www.hansliu.com/posts/2019/06/realforce-rgb-tkl-keyboard-open.html</loc>
 <lastmod>2019-06-16T21:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2018/06/aws-cloudwatch-note.html</loc>
+<loc>https://www.hansliu.com/posts/2018/06/aws-cloudwatch-note.html</loc>
 <lastmod>2018-06-06T17:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2018/05/petit-fancy-28-day-1-2.html</loc>
+<loc>https://www.hansliu.com/posts/2018/05/petit-fancy-28-day-1-2.html</loc>
 <lastmod>2018-05-26T23:30:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2018/05/vivitar-26th-by-kodak-gold-iso-200.html</loc>
+<loc>https://www.hansliu.com/posts/2018/05/vivitar-26th-by-kodak-gold-iso-200.html</loc>
 <lastmod>2018-05-13T12:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2018/05/portrait-erin.html</loc>
+<loc>https://www.hansliu.com/posts/2018/05/portrait-erin.html</loc>
 <lastmod>2018-05-12T14:30:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2018/05/docker-ce-installation-on-red-hat-7.html</loc>
+<loc>https://www.hansliu.com/posts/2018/05/docker-ce-installation-on-red-hat-7.html</loc>
 <lastmod>2018-05-04T16:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2018/04/portrait-liz-2.html</loc>
+<loc>https://www.hansliu.com/posts/2018/04/portrait-liz-2.html</loc>
 <lastmod>2018-04-05T18:30:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2018/03/mysql57-replication-note.html</loc>
+<loc>https://www.hansliu.com/posts/2018/03/mysql57-replication-note.html</loc>
 <lastmod>2018-03-26T22:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2018/03/comic-world-in-taiwan-taichung-19-day-1.html</loc>
+<loc>https://www.hansliu.com/posts/2018/03/comic-world-in-taiwan-taichung-19-day-1.html</loc>
 <lastmod>2018-03-18T10:30:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2018/03/disable-yahoo-keykey-onekey-on-mac.html</loc>
+<loc>https://www.hansliu.com/posts/2018/03/disable-yahoo-keykey-onekey-on-mac.html</loc>
 <lastmod>2018-03-08T21:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2018/03/comic-world-in-taiwan-48-day-1.html</loc>
+<loc>https://www.hansliu.com/posts/2018/03/comic-world-in-taiwan-48-day-1.html</loc>
 <lastmod>2018-03-08T20:30:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2018/03/cosplay-land-of-the-lustrous-fosu.html</loc>
+<loc>https://www.hansliu.com/posts/2018/03/cosplay-land-of-the-lustrous-fosu.html</loc>
 <lastmod>2018-03-08T20:30:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2018/01/merry-christmas.html</loc>
+<loc>https://www.hansliu.com/posts/2018/01/merry-christmas.html</loc>
 <lastmod>2018-01-06T14:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2017/12/vivitar-24th-by-kodak-gold-iso-200.html</loc>
+<loc>https://www.hansliu.com/posts/2017/12/vivitar-24th-by-kodak-gold-iso-200.html</loc>
 <lastmod>2017-12-12T12:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2017/12/comic-world-in-taiwan-47-day-2.html</loc>
+<loc>https://www.hansliu.com/posts/2017/12/comic-world-in-taiwan-47-day-2.html</loc>
 <lastmod>2017-12-11T12:30:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2017/12/vivitar-tua-tiu-tiann.html</loc>
+<loc>https://www.hansliu.com/posts/2017/12/vivitar-tua-tiu-tiann.html</loc>
 <lastmod>2017-12-11T12:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2017/08/cosplay-how-to-raise-a-boring-girlfriend-megumi.html</loc>
+<loc>https://www.hansliu.com/posts/2017/08/cosplay-how-to-raise-a-boring-girlfriend-megumi.html</loc>
 <lastmod>2017-08-17T04:30:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2017/07/portrait-liz.html</loc>
+<loc>https://www.hansliu.com/posts/2017/07/portrait-liz.html</loc>
 <lastmod>2017-07-31T23:30:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2017/07/2017-tfam-museum.html</loc>
+<loc>https://www.hansliu.com/posts/2017/07/2017-tfam-museum.html</loc>
 <lastmod>2017-07-31T15:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2017/07/2017-travel-takayama.html</loc>
+<loc>https://www.hansliu.com/posts/2017/07/2017-travel-takayama.html</loc>
 <lastmod>2017-07-01T11:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2017/06/2017-blog-theme-upgrade.html</loc>
+<loc>https://www.hansliu.com/posts/2017/06/2017-blog-theme-upgrade.html</loc>
 <lastmod>2017-06-30T22:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2017/06/cosplay-onmyoji-yukionna.html</loc>
+<loc>https://www.hansliu.com/posts/2017/06/cosplay-onmyoji-yukionna.html</loc>
 <lastmod>2017-06-07T22:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2017/04/portrait-polly-2.html</loc>
+<loc>https://www.hansliu.com/posts/2017/04/portrait-polly-2.html</loc>
 <lastmod>2017-04-26T22:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2017/04/2017-chiayi.html</loc>
+<loc>https://www.hansliu.com/posts/2017/04/2017-chiayi.html</loc>
 <lastmod>2017-04-04T22:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2017/03/2016-travel-okinawa.html</loc>
+<loc>https://www.hansliu.com/posts/2017/03/2016-travel-okinawa.html</loc>
 <lastmod>2017-03-21T22:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2017/02/vivitar-snow-hokuriku.html</loc>
+<loc>https://www.hansliu.com/posts/2017/02/vivitar-snow-hokuriku.html</loc>
 <lastmod>2017-02-19T02:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2017/01/portrait-polly.html</loc>
+<loc>https://www.hansliu.com/posts/2017/01/portrait-polly.html</loc>
 <lastmod>2017-01-02T22:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2016/12/portrait-mia-3.html</loc>
+<loc>https://www.hansliu.com/posts/2016/12/portrait-mia-3.html</loc>
 <lastmod>2016-12-12T20:30:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2016/11/2016-travel-iwakuni-and-onomichi.html</loc>
+<loc>https://www.hansliu.com/posts/2016/11/2016-travel-iwakuni-and-onomichi.html</loc>
 <lastmod>2016-11-28T22:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2016/11/olympus-mjuii-okinawa-by-agfa-iso-200.html</loc>
+<loc>https://www.hansliu.com/posts/2016/11/olympus-mjuii-okinawa-by-agfa-iso-200.html</loc>
 <lastmod>2016-11-13T22:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2016/10/cosplay-lovelive-kotori.html</loc>
+<loc>https://www.hansliu.com/posts/2016/10/cosplay-lovelive-kotori.html</loc>
 <lastmod>2016-10-09T17:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2016/08/comic-world-in-taiwan-43-day-1-2.html</loc>
+<loc>https://www.hansliu.com/posts/2016/08/comic-world-in-taiwan-43-day-1-2.html</loc>
 <lastmod>2016-08-19T10:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2016/07/the-sky-and-sea-in-sabah.html</loc>
+<loc>https://www.hansliu.com/posts/2016/07/the-sky-and-sea-in-sabah.html</loc>
 <lastmod>2016-07-09T20:30:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2016/07/portrait-fen.html</loc>
+<loc>https://www.hansliu.com/posts/2016/07/portrait-fen.html</loc>
 <lastmod>2016-07-09T19:30:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2016/07/2016-travel-sabah.html</loc>
+<loc>https://www.hansliu.com/posts/2016/07/2016-travel-sabah.html</loc>
 <lastmod>2016-07-08T22:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2016/05/cosplay-zootopia.html</loc>
+<loc>https://www.hansliu.com/posts/2016/05/cosplay-zootopia.html</loc>
 <lastmod>2016-05-22T23:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2016/05/tabelog-kyoto-1.html</loc>
+<loc>https://www.hansliu.com/posts/2016/05/tabelog-kyoto-1.html</loc>
 <lastmod>2016-05-18T21:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2016/05/kurama-kibune.html</loc>
+<loc>https://www.hansliu.com/posts/2016/05/kurama-kibune.html</loc>
 <lastmod>2016-05-15T10:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2016/04/2016-travel-mojiko-and-sarakurayama.html</loc>
+<loc>https://www.hansliu.com/posts/2016/04/2016-travel-mojiko-and-sarakurayama.html</loc>
 <lastmod>2016-04-12T22:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2016/03/2016-travel-hiroshima.html</loc>
+<loc>https://www.hansliu.com/posts/2016/03/2016-travel-hiroshima.html</loc>
 <lastmod>2016-03-27T02:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2015/12/portrait-wei.html</loc>
+<loc>https://www.hansliu.com/posts/2015/12/portrait-wei.html</loc>
 <lastmod>2015-12-09T23:30:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2015/11/portrait-chelin-2.html</loc>
+<loc>https://www.hansliu.com/posts/2015/11/portrait-chelin-2.html</loc>
 <lastmod>2015-11-26T02:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2015/11/2015-travel-osaka-kyoto-kobe.html</loc>
+<loc>https://www.hansliu.com/posts/2015/11/2015-travel-osaka-kyoto-kobe.html</loc>
 <lastmod>2015-11-20T02:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2015/09/portrait-daisy-2.html</loc>
+<loc>https://www.hansliu.com/posts/2015/09/portrait-daisy-2.html</loc>
 <lastmod>2015-09-12T12:30:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2015/09/portrait-daisy.html</loc>
+<loc>https://www.hansliu.com/posts/2015/09/portrait-daisy.html</loc>
 <lastmod>2015-09-06T15:30:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2015/07/github-etraining-course-finder-heroku.html</loc>
+<loc>https://www.hansliu.com/posts/2015/07/github-etraining-course-finder-heroku.html</loc>
 <lastmod>2015-07-07T23:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2015/06/flower-hydrangea.html</loc>
+<loc>https://www.hansliu.com/posts/2015/06/flower-hydrangea.html</loc>
 <lastmod>2015-06-14T12:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2015/06/2015-pycon.html</loc>
+<loc>https://www.hansliu.com/posts/2015/06/2015-pycon.html</loc>
 <lastmod>2015-06-08T23:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2015/06/portrait-molly-2.html</loc>
+<loc>https://www.hansliu.com/posts/2015/06/portrait-molly-2.html</loc>
 <lastmod>2015-06-03T23:30:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2015/06/portrait-molly.html</loc>
+<loc>https://www.hansliu.com/posts/2015/06/portrait-molly.html</loc>
 <lastmod>2015-06-02T23:30:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2015/05/tokyo-ningyocho.html</loc>
+<loc>https://www.hansliu.com/posts/2015/05/tokyo-ningyocho.html</loc>
 <lastmod>2015-05-15T12:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2015/04/brewdog-bar-in-roppongi.html</loc>
+<loc>https://www.hansliu.com/posts/2015/04/brewdog-bar-in-roppongi.html</loc>
 <lastmod>2015-04-13T16:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2015/04/vivitar-19th-by-fuji-superia-iso-400.html</loc>
+<loc>https://www.hansliu.com/posts/2015/04/vivitar-19th-by-fuji-superia-iso-400.html</loc>
 <lastmod>2015-04-06T20:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2015/04/olympus-om-d-e-m5-mark-ii.html</loc>
+<loc>https://www.hansliu.com/posts/2015/04/olympus-om-d-e-m5-mark-ii.html</loc>
 <lastmod>2015-04-06T11:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2015/03/portrait-mia-2.html</loc>
+<loc>https://www.hansliu.com/posts/2015/03/portrait-mia-2.html</loc>
 <lastmod>2015-03-13T14:30:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2015/03/cosplay-lovelive-nico.html</loc>
+<loc>https://www.hansliu.com/posts/2015/03/cosplay-lovelive-nico.html</loc>
 <lastmod>2015-03-03T21:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2015/03/comic-world-in-taiwan-39-day-1.html</loc>
+<loc>https://www.hansliu.com/posts/2015/03/comic-world-in-taiwan-39-day-1.html</loc>
 <lastmod>2015-03-03T20:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2015/03/why-do-not-mvc-pattern-look-like.html</loc>
+<loc>https://www.hansliu.com/posts/2015/03/why-do-not-mvc-pattern-look-like.html</loc>
 <lastmod>2015-03-01T06:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2015/02/portrait-mia.html</loc>
+<loc>https://www.hansliu.com/posts/2015/02/portrait-mia.html</loc>
 <lastmod>2015-02-20T14:30:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2015/02/cosplay-the-seven-deadly-sins-king.html</loc>
+<loc>https://www.hansliu.com/posts/2015/02/cosplay-the-seven-deadly-sins-king.html</loc>
 <lastmod>2015-02-19T23:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2014/11/migrating-bootstrap-v2-to-v3.html</loc>
+<loc>https://www.hansliu.com/posts/2014/11/migrating-bootstrap-v2-to-v3.html</loc>
 <lastmod>2014-11-19T22:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2014/11/2014-travel-osaka-3.html</loc>
+<loc>https://www.hansliu.com/posts/2014/11/2014-travel-osaka-3.html</loc>
 <lastmod>2014-11-16T12:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2014/11/2014-travel-osaka-2.html</loc>
+<loc>https://www.hansliu.com/posts/2014/11/2014-travel-osaka-2.html</loc>
 <lastmod>2014-11-16T01:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2014/11/2014-travel-osaka-1.html</loc>
+<loc>https://www.hansliu.com/posts/2014/11/2014-travel-osaka-1.html</loc>
 <lastmod>2014-11-15T02:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2014/11/portrait-chelin.html</loc>
+<loc>https://www.hansliu.com/posts/2014/11/portrait-chelin.html</loc>
 <lastmod>2014-11-02T20:30:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2014/11/github-process-count-supervisor.html</loc>
+<loc>https://www.hansliu.com/posts/2014/11/github-process-count-supervisor.html</loc>
 <lastmod>2014-11-02T17:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2014/10/portrait-francesca.html</loc>
+<loc>https://www.hansliu.com/posts/2014/10/portrait-francesca.html</loc>
 <lastmod>2014-10-07T23:30:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2014/10/2014-canon-photo-marathon.html</loc>
+<loc>https://www.hansliu.com/posts/2014/10/2014-canon-photo-marathon.html</loc>
 <lastmod>2014-10-06T23:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2014/09/portrait-aoi.html</loc>
+<loc>https://www.hansliu.com/posts/2014/09/portrait-aoi.html</loc>
 <lastmod>2014-09-24T22:30:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2014/08/portrait-fang.html</loc>
+<loc>https://www.hansliu.com/posts/2014/08/portrait-fang.html</loc>
 <lastmod>2014-08-27T23:30:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2014/08/comic-world-in-taiwan-37-day-1.html</loc>
+<loc>https://www.hansliu.com/posts/2014/08/comic-world-in-taiwan-37-day-1.html</loc>
 <lastmod>2014-08-11T21:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2014/08/cosplay-black-bullet-enju-aihara.html</loc>
+<loc>https://www.hansliu.com/posts/2014/08/cosplay-black-bullet-enju-aihara.html</loc>
 <lastmod>2014-08-11T20:30:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2014/08/cosplay-league-of-legends-jinx.html</loc>
+<loc>https://www.hansliu.com/posts/2014/08/cosplay-league-of-legends-jinx.html</loc>
 <lastmod>2014-08-11T06:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2014/08/cosplay-hunter-x-hunter-biscuit.html</loc>
+<loc>https://www.hansliu.com/posts/2014/08/cosplay-hunter-x-hunter-biscuit.html</loc>
 <lastmod>2014-08-10T23:30:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2014/08/cosplay-league-of-legends-lux.html</loc>
+<loc>https://www.hansliu.com/posts/2014/08/cosplay-league-of-legends-lux.html</loc>
 <lastmod>2014-08-10T23:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2014/07/cosplay-league-of-legends-soraka.html</loc>
+<loc>https://www.hansliu.com/posts/2014/07/cosplay-league-of-legends-soraka.html</loc>
 <lastmod>2014-07-27T21:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2014/07/vivitar-with-greenpeace.html</loc>
+<loc>https://www.hansliu.com/posts/2014/07/vivitar-with-greenpeace.html</loc>
 <lastmod>2014-07-16T23:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2014/07/canon-ae-1-oh-is-reala.html</loc>
+<loc>https://www.hansliu.com/posts/2014/07/canon-ae-1-oh-is-reala.html</loc>
 <lastmod>2014-07-06T06:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2014/06/2014-pycon.html</loc>
+<loc>https://www.hansliu.com/posts/2014/06/2014-pycon.html</loc>
 <lastmod>2014-06-02T23:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2014/04/i-have-been-to-the-photo-studio.html</loc>
+<loc>https://www.hansliu.com/posts/2014/04/i-have-been-to-the-photo-studio.html</loc>
 <lastmod>2014-04-27T04:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2014/04/i-have-used-the-film.html</loc>
+<loc>https://www.hansliu.com/posts/2014/04/i-have-used-the-film.html</loc>
 <lastmod>2014-04-27T04:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2014/04/github-name-expansion.html</loc>
+<loc>https://www.hansliu.com/posts/2014/04/github-name-expansion.html</loc>
 <lastmod>2014-04-26T23:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2014/04/democracy-at-4am-3.html</loc>
+<loc>https://www.hansliu.com/posts/2014/04/democracy-at-4am-3.html</loc>
 <lastmod>2014-04-10T04:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2014/04/democracy-at-4am-2.html</loc>
+<loc>https://www.hansliu.com/posts/2014/04/democracy-at-4am-2.html</loc>
 <lastmod>2014-04-06T02:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2014/04/democracy-at-4am-1.html</loc>
+<loc>https://www.hansliu.com/posts/2014/04/democracy-at-4am-1.html</loc>
 <lastmod>2014-04-04T10:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2014/04/music-dear-mr-president.html</loc>
+<loc>https://www.hansliu.com/posts/2014/04/music-dear-mr-president.html</loc>
 <lastmod>2014-04-04T01:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2014/03/2014-blog-upgrade.html</loc>
+<loc>https://www.hansliu.com/posts/2014/03/2014-blog-upgrade.html</loc>
 <lastmod>2014-03-31T10:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2014/03/island-sunrise.html</loc>
+<loc>https://www.hansliu.com/posts/2014/03/island-sunrise.html</loc>
 <lastmod>2014-03-31T04:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2014/03/new-domain-name-with-name-com.html</loc>
+<loc>https://www.hansliu.com/posts/2014/03/new-domain-name-with-name-com.html</loc>
 <lastmod>2014-03-26T22:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2014/03/hello-pelican-github-pages.html</loc>
+<loc>https://www.hansliu.com/posts/2014/03/hello-pelican-github-pages.html</loc>
 <lastmod>2014-03-23T04:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2013/11/cosplay-league-of-legends-ahri.html</loc>
+<loc>https://www.hansliu.com/posts/2013/11/cosplay-league-of-legends-ahri.html</loc>
 <lastmod>2013-11-05T01:05:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2013/07/do-you-hear-people-sing-for-taiwan.html</loc>
+<loc>https://www.hansliu.com/posts/2013/07/do-you-hear-people-sing-for-taiwan.html</loc>
 <lastmod>2013-07-29T00:35:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2013/07/vivitar-in-singapore.html</loc>
+<loc>https://www.hansliu.com/posts/2013/07/vivitar-in-singapore.html</loc>
 <lastmod>2013-07-13T14:28:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2012/12/2012-merry-christmas-taiwan.html</loc>
+<loc>https://www.hansliu.com/posts/2012/12/2012-merry-christmas-taiwan.html</loc>
 <lastmod>2012-12-30T01:07:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2012/10/cosplay-sword-art-online.html</loc>
+<loc>https://www.hansliu.com/posts/2012/10/cosplay-sword-art-online.html</loc>
 <lastmod>2012-10-31T16:27:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2012/10/petit-fancy-17-day-1.html</loc>
+<loc>https://www.hansliu.com/posts/2012/10/petit-fancy-17-day-1.html</loc>
 <lastmod>2012-10-29T01:19:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2012/09/so-handsome-friends.html</loc>
+<loc>https://www.hansliu.com/posts/2012/09/so-handsome-friends.html</loc>
 <lastmod>2012-09-16T12:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2012/09/cosplay-league-of-legends-annashe-akali-2.html</loc>
+<loc>https://www.hansliu.com/posts/2012/09/cosplay-league-of-legends-annashe-akali-2.html</loc>
 <lastmod>2012-09-11T18:45:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2012/09/canon-ae-1-konica-centuria.html</loc>
+<loc>https://www.hansliu.com/posts/2012/09/canon-ae-1-konica-centuria.html</loc>
 <lastmod>2012-09-09T16:54:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2012/09/yphs-debate.html</loc>
+<loc>https://www.hansliu.com/posts/2012/09/yphs-debate.html</loc>
 <lastmod>2012-09-09T10:10:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2012/09/master-degree.html</loc>
+<loc>https://www.hansliu.com/posts/2012/09/master-degree.html</loc>
 <lastmod>2012-09-04T00:20:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2012/08/fancy-frontier-20-day-1.html</loc>
+<loc>https://www.hansliu.com/posts/2012/08/fancy-frontier-20-day-1.html</loc>
 <lastmod>2012-08-14T01:11:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2012/08/tamshui-fisher-wharf.html</loc>
+<loc>https://www.hansliu.com/posts/2012/08/tamshui-fisher-wharf.html</loc>
 <lastmod>2012-08-12T12:59:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2012/06/gouden-carolus-classic.html</loc>
+<loc>https://www.hansliu.com/posts/2012/06/gouden-carolus-classic.html</loc>
 <lastmod>2012-06-30T00:22:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2012/06/master-research.html</loc>
+<loc>https://www.hansliu.com/posts/2012/06/master-research.html</loc>
 <lastmod>2012-06-20T17:08:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2012/06/2012-pycon.html</loc>
+<loc>https://www.hansliu.com/posts/2012/06/2012-pycon.html</loc>
 <lastmod>2012-06-18T15:35:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2012/05/sbl-pureyouth-vs-dacin-game-4.html</loc>
+<loc>https://www.hansliu.com/posts/2012/05/sbl-pureyouth-vs-dacin-game-4.html</loc>
 <lastmod>2012-05-31T08:59:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2012/05/vivitar-dnp.html</loc>
+<loc>https://www.hansliu.com/posts/2012/05/vivitar-dnp.html</loc>
 <lastmod>2012-05-12T17:19:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2012/04/cosplay-league-of-legends-miss-fortune.html</loc>
+<loc>https://www.hansliu.com/posts/2012/04/cosplay-league-of-legends-miss-fortune.html</loc>
 <lastmod>2012-04-27T00:04:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2012/04/gegege-gui-tai-lang.html</loc>
+<loc>https://www.hansliu.com/posts/2012/04/gegege-gui-tai-lang.html</loc>
 <lastmod>2012-04-05T02:20:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2012/02/rdss-interview-4.html</loc>
+<loc>https://www.hansliu.com/posts/2012/02/rdss-interview-4.html</loc>
 <lastmod>2012-02-09T16:47:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2012/02/fancy-frontier-19-day-2.html</loc>
+<loc>https://www.hansliu.com/posts/2012/02/fancy-frontier-19-day-2.html</loc>
 <lastmod>2012-02-08T00:26:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2012/02/2009-travel-tokyo-3.html</loc>
+<loc>https://www.hansliu.com/posts/2012/02/2009-travel-tokyo-3.html</loc>
 <lastmod>2012-02-01T06:40:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2012/02/2009-travel-tokyo-2.html</loc>
+<loc>https://www.hansliu.com/posts/2012/02/2009-travel-tokyo-2.html</loc>
 <lastmod>2012-02-01T06:35:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2012/02/2009-travel-tokyo-1.html</loc>
+<loc>https://www.hansliu.com/posts/2012/02/2009-travel-tokyo-1.html</loc>
 <lastmod>2012-02-01T06:30:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2012/01/the-graduate.html</loc>
+<loc>https://www.hansliu.com/posts/2012/01/the-graduate.html</loc>
 <lastmod>2012-01-31T20:07:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2012/01/otakuarmy.html</loc>
+<loc>https://www.hansliu.com/posts/2012/01/otakuarmy.html</loc>
 <lastmod>2012-01-30T18:32:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2012/01/cosplay-league-of-legends-annashe-akali-1.html</loc>
+<loc>https://www.hansliu.com/posts/2012/01/cosplay-league-of-legends-annashe-akali-1.html</loc>
 <lastmod>2012-01-28T01:56:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2012/01/2012-blog-upgrade.html</loc>
+<loc>https://www.hansliu.com/posts/2012/01/2012-blog-upgrade.html</loc>
 <lastmod>2012-01-15T17:47:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2012/01/kronenbourg-1664-blanc.html</loc>
+<loc>https://www.hansliu.com/posts/2012/01/kronenbourg-1664-blanc.html</loc>
 <lastmod>2012-01-01T18:50:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2011/12/rdss-interview-3.html</loc>
+<loc>https://www.hansliu.com/posts/2011/12/rdss-interview-3.html</loc>
 <lastmod>2011-12-23T00:06:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2011/12/rdss-interview-2.html</loc>
+<loc>https://www.hansliu.com/posts/2011/12/rdss-interview-2.html</loc>
 <lastmod>2011-12-20T13:25:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2011/12/rdss-interview-1.html</loc>
+<loc>https://www.hansliu.com/posts/2011/12/rdss-interview-1.html</loc>
 <lastmod>2011-12-19T02:01:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2011/12/rdss-interview-0.html</loc>
+<loc>https://www.hansliu.com/posts/2011/12/rdss-interview-0.html</loc>
 <lastmod>2011-12-16T01:58:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2011/12/vivitar-konica-centuria.html</loc>
+<loc>https://www.hansliu.com/posts/2011/12/vivitar-konica-centuria.html</loc>
 <lastmod>2011-12-05T18:48:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2011/11/pkgirls-karrenkao.html</loc>
+<loc>https://www.hansliu.com/posts/2011/11/pkgirls-karrenkao.html</loc>
 <lastmod>2011-11-11T01:07:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2011/11/ntut-100-concert.html</loc>
+<loc>https://www.hansliu.com/posts/2011/11/ntut-100-concert.html</loc>
 <lastmod>2011-11-05T23:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2011/10/fireworks-taiwan-100-happy-birthday.html</loc>
+<loc>https://www.hansliu.com/posts/2011/10/fireworks-taiwan-100-happy-birthday.html</loc>
 <lastmod>2011-10-10T23:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2011/09/graduate-say-3.html</loc>
+<loc>https://www.hansliu.com/posts/2011/09/graduate-say-3.html</loc>
 <lastmod>2011-09-28T17:43:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2011/09/league-of-legends-beauty-girls.html</loc>
+<loc>https://www.hansliu.com/posts/2011/09/league-of-legends-beauty-girls.html</loc>
 <lastmod>2011-09-17T21:48:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2011/09/olympus-pen-eed-with-konica-centuria-film.html</loc>
+<loc>https://www.hansliu.com/posts/2011/09/olympus-pen-eed-with-konica-centuria-film.html</loc>
 <lastmod>2011-09-11T16:40:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2011/08/tezukaosamu-exhibition.html</loc>
+<loc>https://www.hansliu.com/posts/2011/08/tezukaosamu-exhibition.html</loc>
 <lastmod>2011-08-22T16:14:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2011/08/lomo-tura-in-pakshawan.html</loc>
+<loc>https://www.hansliu.com/posts/2011/08/lomo-tura-in-pakshawan.html</loc>
 <lastmod>2011-08-02T12:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2011/07/2008-tamkang-university-concert.html</loc>
+<loc>https://www.hansliu.com/posts/2011/07/2008-tamkang-university-concert.html</loc>
 <lastmod>2011-07-29T02:41:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2011/07/korea-hite.html</loc>
+<loc>https://www.hansliu.com/posts/2011/07/korea-hite.html</loc>
 <lastmod>2011-07-26T00:49:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2011/07/panasonic-leica-d-summilux-25mm-f14.html</loc>
+<loc>https://www.hansliu.com/posts/2011/07/panasonic-leica-d-summilux-25mm-f14.html</loc>
 <lastmod>2011-07-24T04:28:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2011/07/north-coast-travel.html</loc>
+<loc>https://www.hansliu.com/posts/2011/07/north-coast-travel.html</loc>
 <lastmod>2011-07-13T17:30:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2011/07/kona-big-wave.html</loc>
+<loc>https://www.hansliu.com/posts/2011/07/kona-big-wave.html</loc>
 <lastmod>2011-07-12T12:30:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2011/07/kona-longboard.html</loc>
+<loc>https://www.hansliu.com/posts/2011/07/kona-longboard.html</loc>
 <lastmod>2011-07-03T23:56:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2011/06/lindemans-apple.html</loc>
+<loc>https://www.hansliu.com/posts/2011/06/lindemans-apple.html</loc>
 <lastmod>2011-06-28T22:50:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2011/06/music-interpretdream.html</loc>
+<loc>https://www.hansliu.com/posts/2011/06/music-interpretdream.html</loc>
 <lastmod>2011-06-26T08:10:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2011/06/graduate-say-2.html</loc>
+<loc>https://www.hansliu.com/posts/2011/06/graduate-say-2.html</loc>
 <lastmod>2011-06-25T23:25:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2011/06/olympus-pen-eed-for-taipeiexpo.html</loc>
+<loc>https://www.hansliu.com/posts/2011/06/olympus-pen-eed-for-taipeiexpo.html</loc>
 <lastmod>2011-06-15T13:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2011/06/graduate-say-1.html</loc>
+<loc>https://www.hansliu.com/posts/2011/06/graduate-say-1.html</loc>
 <lastmod>2011-06-14T18:19:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2011/06/tamkang-university-tamkang-times-b426.html</loc>
+<loc>https://www.hansliu.com/posts/2011/06/tamkang-university-tamkang-times-b426.html</loc>
 <lastmod>2011-06-10T23:20:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2011/06/fisheye-with-friends.html</loc>
+<loc>https://www.hansliu.com/posts/2011/06/fisheye-with-friends.html</loc>
 <lastmod>2011-06-03T17:30:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2011/06/about-photography-2.html</loc>
+<loc>https://www.hansliu.com/posts/2011/06/about-photography-2.html</loc>
 <lastmod>2011-06-01T09:53:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2011/06/about-photography-1.html</loc>
+<loc>https://www.hansliu.com/posts/2011/06/about-photography-1.html</loc>
 <lastmod>2011-06-01T09:45:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2011/05/konica-film-iso-100-expired.html</loc>
+<loc>https://www.hansliu.com/posts/2011/05/konica-film-iso-100-expired.html</loc>
 <lastmod>2011-05-29T09:30:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2011/04/petit-fancy-14-day-1.html</loc>
+<loc>https://www.hansliu.com/posts/2011/04/petit-fancy-14-day-1.html</loc>
 <lastmod>2011-04-24T00:42:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2011/04/agfa-ct-100-positive-negative-impulse.html</loc>
+<loc>https://www.hansliu.com/posts/2011/04/agfa-ct-100-positive-negative-impulse.html</loc>
 <lastmod>2011-04-21T10:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2011/04/about-learning.html</loc>
+<loc>https://www.hansliu.com/posts/2011/04/about-learning.html</loc>
 <lastmod>2011-04-15T10:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2011/04/2011-international-pillow-fight-taiwan.html</loc>
+<loc>https://www.hansliu.com/posts/2011/04/2011-international-pillow-fight-taiwan.html</loc>
 <lastmod>2011-04-02T23:13:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2011/03/taipei-camera-street.html</loc>
+<loc>https://www.hansliu.com/posts/2011/03/taipei-camera-street.html</loc>
 <lastmod>2011-03-20T06:15:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2011/03/my-senior-high-school.html</loc>
+<loc>https://www.hansliu.com/posts/2011/03/my-senior-high-school.html</loc>
 <lastmod>2011-03-14T18:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2011/02/2011-happy-new-year.html</loc>
+<loc>https://www.hansliu.com/posts/2011/02/2011-happy-new-year.html</loc>
 <lastmod>2011-02-02T18:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2010/12/2010-merry-christmas-taiwan.html</loc>
+<loc>https://www.hansliu.com/posts/2010/12/2010-merry-christmas-taiwan.html</loc>
 <lastmod>2010-12-17T00:17:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2010/11/yilan-travel.html</loc>
+<loc>https://www.hansliu.com/posts/2010/11/yilan-travel.html</loc>
 <lastmod>2010-11-24T23:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2010/11/night-singing-with-raymond-lin.html</loc>
+<loc>https://www.hansliu.com/posts/2010/11/night-singing-with-raymond-lin.html</loc>
 <lastmod>2010-11-07T23:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2010/10/fireworks-taiwan-99-happy-birthday.html</loc>
+<loc>https://www.hansliu.com/posts/2010/10/fireworks-taiwan-99-happy-birthday.html</loc>
 <lastmod>2010-10-10T23:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2010/09/ccpa-11.html</loc>
+<loc>https://www.hansliu.com/posts/2010/09/ccpa-11.html</loc>
 <lastmod>2010-09-22T18:44:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2010/08/fireworks-bi-tan-2010.html</loc>
+<loc>https://www.hansliu.com/posts/2010/08/fireworks-bi-tan-2010.html</loc>
 <lastmod>2010-08-23T17:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2010/07/2010-woocoo-photography-photo.html</loc>
+<loc>https://www.hansliu.com/posts/2010/07/2010-woocoo-photography-photo.html</loc>
 <lastmod>2010-07-16T06:38:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2010/07/2010-woocoo-photography-2.html</loc>
+<loc>https://www.hansliu.com/posts/2010/07/2010-woocoo-photography-2.html</loc>
 <lastmod>2010-07-13T14:30:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2010/07/swamp-clothes.html</loc>
+<loc>https://www.hansliu.com/posts/2010/07/swamp-clothes.html</loc>
 <lastmod>2010-07-09T01:15:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2010/07/2010-woocoo-photography-1.html</loc>
+<loc>https://www.hansliu.com/posts/2010/07/2010-woocoo-photography-1.html</loc>
 <lastmod>2010-07-02T10:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2010/06/courage.html</loc>
+<loc>https://www.hansliu.com/posts/2010/06/courage.html</loc>
 <lastmod>2010-06-29T18:24:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2010/06/clean-up.html</loc>
+<loc>https://www.hansliu.com/posts/2010/06/clean-up.html</loc>
 <lastmod>2010-06-26T02:11:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2010/06/graduation-ceremony.html</loc>
+<loc>https://www.hansliu.com/posts/2010/06/graduation-ceremony.html</loc>
 <lastmod>2010-06-14T22:14:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2010/06/to-myself.html</loc>
+<loc>https://www.hansliu.com/posts/2010/06/to-myself.html</loc>
 <lastmod>2010-06-12T14:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2010/06/thanks-teacher-party.html</loc>
+<loc>https://www.hansliu.com/posts/2010/06/thanks-teacher-party.html</loc>
 <lastmod>2010-06-10T14:30:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2010/05/to-tamkang-times.html</loc>
+<loc>https://www.hansliu.com/posts/2010/05/to-tamkang-times.html</loc>
 <lastmod>2010-05-28T16:21:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2010/05/championflame.html</loc>
+<loc>https://www.hansliu.com/posts/2010/05/championflame.html</loc>
 <lastmod>2010-05-23T16:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2010/05/tamshui-life.html</loc>
+<loc>https://www.hansliu.com/posts/2010/05/tamshui-life.html</loc>
 <lastmod>2010-05-18T11:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2010/04/canon-ae-1-blue-and-green.html</loc>
+<loc>https://www.hansliu.com/posts/2010/04/canon-ae-1-blue-and-green.html</loc>
 <lastmod>2010-04-28T04:26:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2010/04/graduate-entrance-exam-3.html</loc>
+<loc>https://www.hansliu.com/posts/2010/04/graduate-entrance-exam-3.html</loc>
 <lastmod>2015-06-13T23:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2010/04/start-photography.html</loc>
+<loc>https://www.hansliu.com/posts/2010/04/start-photography.html</loc>
 <lastmod>2010-04-09T11:18:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2010/04/2010-international-pillow-fight-taiwan.html</loc>
+<loc>https://www.hansliu.com/posts/2010/04/2010-international-pillow-fight-taiwan.html</loc>
 <lastmod>2010-04-08T17:30:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2010/04/injured.html</loc>
+<loc>https://www.hansliu.com/posts/2010/04/injured.html</loc>
 <lastmod>2010-04-05T16:33:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2010/04/after-master-graduate.html</loc>
+<loc>https://www.hansliu.com/posts/2010/04/after-master-graduate.html</loc>
 <lastmod>2010-04-03T01:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2010/03/graduate-entrance-exam-5.html</loc>
+<loc>https://www.hansliu.com/posts/2010/03/graduate-entrance-exam-5.html</loc>
 <lastmod>2015-06-13T23:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2010/03/graduate-entrance-exam-4.html</loc>
+<loc>https://www.hansliu.com/posts/2010/03/graduate-entrance-exam-4.html</loc>
 <lastmod>2015-06-13T23:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2010/03/graduate-entrance-exam-2.html</loc>
+<loc>https://www.hansliu.com/posts/2010/03/graduate-entrance-exam-2.html</loc>
 <lastmod>2015-06-13T23:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2010/03/graduate-entrance-exam-1.html</loc>
+<loc>https://www.hansliu.com/posts/2010/03/graduate-entrance-exam-1.html</loc>
 <lastmod>2015-06-13T23:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2010/02/yeliu-travel-2.html</loc>
+<loc>https://www.hansliu.com/posts/2010/02/yeliu-travel-2.html</loc>
 <lastmod>2010-02-23T01:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2010/02/yeliu-travel-1.html</loc>
+<loc>https://www.hansliu.com/posts/2010/02/yeliu-travel-1.html</loc>
 <lastmod>2010-02-22T01:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2010/02/positive-film-first.html</loc>
+<loc>https://www.hansliu.com/posts/2010/02/positive-film-first.html</loc>
 <lastmod>2010-02-08T07:35:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2009/12/2009-woocoo-photography-photo.html</loc>
+<loc>https://www.hansliu.com/posts/2009/12/2009-woocoo-photography-photo.html</loc>
 <lastmod>2009-12-11T13:20:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2009/11/fireworks-taiwan-2009-2.html</loc>
+<loc>https://www.hansliu.com/posts/2009/11/fireworks-taiwan-2009-2.html</loc>
 <lastmod>2009-11-08T23:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2009/11/fireworks-taiwan-2009-1.html</loc>
+<loc>https://www.hansliu.com/posts/2009/11/fireworks-taiwan-2009-1.html</loc>
 <lastmod>2009-11-07T23:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2009/09/final-summer-vacation-university.html</loc>
+<loc>https://www.hansliu.com/posts/2009/09/final-summer-vacation-university.html</loc>
 <lastmod>2009-09-18T09:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2009/09/fulong-photo.html</loc>
+<loc>https://www.hansliu.com/posts/2009/09/fulong-photo.html</loc>
 <lastmod>2009-09-09T10:10:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2009/09/fireworks-taiwan-2009-deaflympics-opening.html</loc>
+<loc>https://www.hansliu.com/posts/2009/09/fireworks-taiwan-2009-deaflympics-opening.html</loc>
 <lastmod>2009-09-05T21:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2009/08/2009-woocoo-photography-2.html</loc>
+<loc>https://www.hansliu.com/posts/2009/08/2009-woocoo-photography-2.html</loc>
 <lastmod>2009-08-31T18:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2009/08/2009-woocoo-photography-1.html</loc>
+<loc>https://www.hansliu.com/posts/2009/08/2009-woocoo-photography-1.html</loc>
 <lastmod>2009-08-30T08:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2009/08/lomo-tura.html</loc>
+<loc>https://www.hansliu.com/posts/2009/08/lomo-tura.html</loc>
 <lastmod>2009-08-19T11:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2009/08/lomo-aryca.html</loc>
+<loc>https://www.hansliu.com/posts/2009/08/lomo-aryca.html</loc>
 <lastmod>2009-08-15T10:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2009/07/canon-ae-1-with-positive-film.html</loc>
+<loc>https://www.hansliu.com/posts/2009/07/canon-ae-1-with-positive-film.html</loc>
 <lastmod>2009-07-26T11:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2009/07/2009-junior-class-reunion.html</loc>
+<loc>https://www.hansliu.com/posts/2009/07/2009-junior-class-reunion.html</loc>
 <lastmod>2009-07-13T18:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2009/07/canon-ae-1-with-friends.html</loc>
+<loc>https://www.hansliu.com/posts/2009/07/canon-ae-1-with-friends.html</loc>
 <lastmod>2009-07-02T19:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2009/06/sakura-night.html</loc>
+<loc>https://www.hansliu.com/posts/2009/06/sakura-night.html</loc>
 <lastmod>2009-06-03T19:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/category/ji-shu-bi-ji/</loc>
+<loc>https://www.hansliu.com/category/ji-shu-bi-ji/</loc>
 <lastmod>2020-09-13T01:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/category/jiao-se-ban-yan/</loc>
+<loc>https://www.hansliu.com/category/jiao-se-ban-yan/</loc>
 <lastmod>2018-05-26T23:30:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/category/ren-xiang-she-ying/</loc>
+<loc>https://www.hansliu.com/category/ren-xiang-she-ying/</loc>
 <lastmod>2020-02-24T18:30:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/category/ri-chang-xie-xie/</loc>
+<loc>https://www.hansliu.com/category/ri-chang-xie-xie/</loc>
 <lastmod>2019-06-16T21:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/category/ying-xiang-xu-shi/</loc>
+<loc>https://www.hansliu.com/category/ying-xiang-xu-shi/</loc>
 <lastmod>2020-02-24T22:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/python/</loc>
+<loc>https://www.hansliu.com/tag/python/</loc>
 <lastmod>2020-09-13T01:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/vivitar/</loc>
+<loc>https://www.hansliu.com/tag/vivitar/</loc>
 <lastmod>2020-02-24T22:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/lomo/</loc>
+<loc>https://www.hansliu.com/tag/lomo/</loc>
 <lastmod>2020-02-24T22:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/di-pian/</loc>
+<loc>https://www.hansliu.com/tag/di-pian/</loc>
 <lastmod>2020-02-24T22:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/xin-jia-po/</loc>
+<loc>https://www.hansliu.com/tag/xin-jia-po/</loc>
 <lastmod>2020-02-24T22:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/olympus-dslr/</loc>
+<loc>https://www.hansliu.com/tag/olympus-dslr/</loc>
 <lastmod>2020-02-24T18:30:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/portrait/</loc>
+<loc>https://www.hansliu.com/tag/portrait/</loc>
 <lastmod>2020-02-24T18:30:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/ma-lai-xi-ya/</loc>
+<loc>https://www.hansliu.com/tag/ma-lai-xi-ya/</loc>
 <lastmod>2019-12-16T21:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/xin-shan/</loc>
+<loc>https://www.hansliu.com/tag/xin-shan/</loc>
 <lastmod>2019-12-16T21:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/jian-pan/</loc>
+<loc>https://www.hansliu.com/tag/jian-pan/</loc>
 <lastmod>2019-06-16T21:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/realforce/</loc>
+<loc>https://www.hansliu.com/tag/realforce/</loc>
 <lastmod>2019-06-16T21:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/aws/</loc>
+<loc>https://www.hansliu.com/tag/aws/</loc>
 <lastmod>2018-06-06T17:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/cloudwatch/</loc>
+<loc>https://www.hansliu.com/tag/cloudwatch/</loc>
 <lastmod>2018-06-06T17:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/petit-fancy/</loc>
+<loc>https://www.hansliu.com/tag/petit-fancy/</loc>
 <lastmod>2018-05-26T23:30:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/red-hat/</loc>
+<loc>https://www.hansliu.com/tag/red-hat/</loc>
 <lastmod>2018-05-04T16:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/dcoker/</loc>
+<loc>https://www.hansliu.com/tag/dcoker/</loc>
 <lastmod>2018-05-04T16:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/mysql/</loc>
+<loc>https://www.hansliu.com/tag/mysql/</loc>
 <lastmod>2018-03-26T22:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/comic-world-in-taiwan/</loc>
+<loc>https://www.hansliu.com/tag/comic-world-in-taiwan/</loc>
 <lastmod>2018-03-18T10:30:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/yahoo-keykey/</loc>
+<loc>https://www.hansliu.com/tag/yahoo-keykey/</loc>
 <lastmod>2018-03-08T21:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/merry-xmas/</loc>
+<loc>https://www.hansliu.com/tag/merry-xmas/</loc>
 <lastmod>2018-01-06T14:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/bu-qi-yan-nu-zhu-jiao-pei-yu-fa/</loc>
+<loc>https://www.hansliu.com/tag/bu-qi-yan-nu-zhu-jiao-pei-yu-fa/</loc>
 <lastmod>2017-08-17T04:30:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/tai-bei/</loc>
+<loc>https://www.hansliu.com/tag/tai-bei/</loc>
 <lastmod>2017-07-31T15:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/tai-bei-shi-li-mei-shu-guan/</loc>
+<loc>https://www.hansliu.com/tag/tai-bei-shi-li-mei-shu-guan/</loc>
 <lastmod>2017-07-31T15:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/gong-wu-suo/</loc>
+<loc>https://www.hansliu.com/tag/gong-wu-suo/</loc>
 <lastmod>2017-07-31T15:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/ri-ben/</loc>
+<loc>https://www.hansliu.com/tag/ri-ben/</loc>
 <lastmod>2017-07-01T11:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/gao-shan/</loc>
+<loc>https://www.hansliu.com/tag/gao-shan/</loc>
 <lastmod>2017-07-01T11:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/blog/</loc>
+<loc>https://www.hansliu.com/tag/blog/</loc>
 <lastmod>2017-06-30T22:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/yin-yang-shi/</loc>
+<loc>https://www.hansliu.com/tag/yin-yang-shi/</loc>
 <lastmod>2017-06-07T22:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/jia-yi/</loc>
+<loc>https://www.hansliu.com/tag/jia-yi/</loc>
 <lastmod>2017-04-04T22:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/sen-lin-zhi-ge/</loc>
+<loc>https://www.hansliu.com/tag/sen-lin-zhi-ge/</loc>
 <lastmod>2017-04-04T22:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/bei-men-che-zhan/</loc>
+<loc>https://www.hansliu.com/tag/bei-men-che-zhan/</loc>
 <lastmod>2017-04-04T22:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/lan-tan-shui-ku/</loc>
+<loc>https://www.hansliu.com/tag/lan-tan-shui-ku/</loc>
 <lastmod>2017-04-04T22:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/bei-hui-gui-xian-ji-nian-bei/</loc>
+<loc>https://www.hansliu.com/tag/bei-hui-gui-xian-ji-nian-bei/</loc>
 <lastmod>2017-04-04T22:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/chong-sheng/</loc>
+<loc>https://www.hansliu.com/tag/chong-sheng/</loc>
 <lastmod>2017-03-21T22:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/yan-guo-jin-dai-qiao/</loc>
+<loc>https://www.hansliu.com/tag/yan-guo-jin-dai-qiao/</loc>
 <lastmod>2016-11-28T22:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/wei-dao-qian-guang-si/</loc>
+<loc>https://www.hansliu.com/tag/wei-dao-qian-guang-si/</loc>
 <lastmod>2016-11-28T22:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/olympus-mju-ii/</loc>
+<loc>https://www.hansliu.com/tag/olympus-mju-ii/</loc>
 <lastmod>2016-11-13T22:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/lovelive/</loc>
+<loc>https://www.hansliu.com/tag/lovelive/</loc>
 <lastmod>2016-10-09T17:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/sha-ba/</loc>
+<loc>https://www.hansliu.com/tag/sha-ba/</loc>
 <lastmod>2016-07-09T20:30:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/dong-wu-fang-cheng-shi/</loc>
+<loc>https://www.hansliu.com/tag/dong-wu-fang-cheng-shi/</loc>
 <lastmod>2016-05-22T23:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/jing-du/</loc>
+<loc>https://www.hansliu.com/tag/jing-du/</loc>
 <lastmod>2016-05-18T21:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/an-ma/</loc>
+<loc>https://www.hansliu.com/tag/an-ma/</loc>
 <lastmod>2016-05-15T10:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/gui-chuan/</loc>
+<loc>https://www.hansliu.com/tag/gui-chuan/</loc>
 <lastmod>2016-05-15T10:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/men-si-gang/</loc>
+<loc>https://www.hansliu.com/tag/men-si-gang/</loc>
 <lastmod>2016-04-12T22:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/min-cang-shan/</loc>
+<loc>https://www.hansliu.com/tag/min-cang-shan/</loc>
 <lastmod>2016-04-12T22:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/guang-dao/</loc>
+<loc>https://www.hansliu.com/tag/guang-dao/</loc>
 <lastmod>2016-03-27T02:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/gong-dao/</loc>
+<loc>https://www.hansliu.com/tag/gong-dao/</loc>
 <lastmod>2016-03-27T02:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/da-ban/</loc>
+<loc>https://www.hansliu.com/tag/da-ban/</loc>
 <lastmod>2015-11-20T02:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/shen-hu/</loc>
+<loc>https://www.hansliu.com/tag/shen-hu/</loc>
 <lastmod>2015-11-20T02:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/github/</loc>
+<loc>https://www.hansliu.com/tag/github/</loc>
 <lastmod>2015-07-07T23:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/heroku/</loc>
+<loc>https://www.hansliu.com/tag/heroku/</loc>
 <lastmod>2015-07-07T23:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/taiwan/</loc>
+<loc>https://www.hansliu.com/tag/taiwan/</loc>
 <lastmod>2015-06-14T12:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/dong-jing/</loc>
+<loc>https://www.hansliu.com/tag/dong-jing/</loc>
 <lastmod>2015-05-15T12:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/ren-xing-ting/</loc>
+<loc>https://www.hansliu.com/tag/ren-xing-ting/</loc>
 <lastmod>2015-05-15T12:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/brewdog/</loc>
+<loc>https://www.hansliu.com/tag/brewdog/</loc>
 <lastmod>2015-04-13T16:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/beer/</loc>
+<loc>https://www.hansliu.com/tag/beer/</loc>
 <lastmod>2015-04-13T16:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/mvc/</loc>
+<loc>https://www.hansliu.com/tag/mvc/</loc>
 <lastmod>2015-03-01T06:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/design-pattern/</loc>
+<loc>https://www.hansliu.com/tag/design-pattern/</loc>
 <lastmod>2015-03-01T06:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/qi-tsunoda-zui/</loc>
+<loc>https://www.hansliu.com/tag/qi-tsunoda-zui/</loc>
 <lastmod>2015-02-19T23:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/bootstrap/</loc>
+<loc>https://www.hansliu.com/tag/bootstrap/</loc>
 <lastmod>2014-11-19T22:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/nai-liang/</loc>
+<loc>https://www.hansliu.com/tag/nai-liang/</loc>
 <lastmod>2014-11-16T12:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/canon-dslr/</loc>
+<loc>https://www.hansliu.com/tag/canon-dslr/</loc>
 <lastmod>2014-10-06T23:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/black-bullet/</loc>
+<loc>https://www.hansliu.com/tag/black-bullet/</loc>
 <lastmod>2014-08-11T20:30:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/ying-xiong-lian-meng/</loc>
+<loc>https://www.hansliu.com/tag/ying-xiong-lian-meng/</loc>
 <lastmod>2014-08-11T06:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/hunterxhunter/</loc>
+<loc>https://www.hansliu.com/tag/hunterxhunter/</loc>
 <lastmod>2014-08-10T23:30:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/canon-ae-1/</loc>
+<loc>https://www.hansliu.com/tag/canon-ae-1/</loc>
 <lastmod>2014-07-06T06:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/yin-le/</loc>
+<loc>https://www.hansliu.com/tag/yin-le/</loc>
 <lastmod>2014-04-04T01:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/domain-name/</loc>
+<loc>https://www.hansliu.com/tag/domain-name/</loc>
 <lastmod>2014-03-26T22:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/github-page/</loc>
+<loc>https://www.hansliu.com/tag/github-page/</loc>
 <lastmod>2014-03-26T22:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/pelican/</loc>
+<loc>https://www.hansliu.com/tag/pelican/</loc>
 <lastmod>2014-03-23T04:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/sword-art-online/</loc>
+<loc>https://www.hansliu.com/tag/sword-art-online/</loc>
 <lastmod>2012-10-31T16:27:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/yphs/</loc>
+<loc>https://www.hansliu.com/tag/yphs/</loc>
 <lastmod>2012-09-09T10:10:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/yan-jiu-sheng/</loc>
+<loc>https://www.hansliu.com/tag/yan-jiu-sheng/</loc>
 <lastmod>2015-06-13T23:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/fancy-frontier/</loc>
+<loc>https://www.hansliu.com/tag/fancy-frontier/</loc>
 <lastmod>2012-08-14T01:11:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/dan-shui/</loc>
+<loc>https://www.hansliu.com/tag/dan-shui/</loc>
 <lastmod>2012-08-12T12:59:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/sbl/</loc>
+<loc>https://www.hansliu.com/tag/sbl/</loc>
 <lastmod>2012-05-31T08:59:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/interview/</loc>
+<loc>https://www.hansliu.com/tag/interview/</loc>
 <lastmod>2012-02-09T16:47:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/da-xue-sheng/</loc>
+<loc>https://www.hansliu.com/tag/da-xue-sheng/</loc>
 <lastmod>2012-01-31T20:07:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/a-zhai-fan-kang-jun/</loc>
+<loc>https://www.hansliu.com/tag/a-zhai-fan-kang-jun/</loc>
 <lastmod>2012-01-30T18:32:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/tku/</loc>
+<loc>https://www.hansliu.com/tag/tku/</loc>
 <lastmod>2011-11-11T01:07:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/ntut/</loc>
+<loc>https://www.hansliu.com/tag/ntut/</loc>
 <lastmod>2011-11-05T23:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/fireworks/</loc>
+<loc>https://www.hansliu.com/tag/fireworks/</loc>
 <lastmod>2011-10-10T23:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/olympus-pen-eed/</loc>
+<loc>https://www.hansliu.com/tag/olympus-pen-eed/</loc>
 <lastmod>2011-09-11T16:40:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/tura/</loc>
+<loc>https://www.hansliu.com/tag/tura/</loc>
 <lastmod>2011-08-02T12:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/panasonic-dslr/</loc>
+<loc>https://www.hansliu.com/tag/panasonic-dslr/</loc>
 <lastmod>2011-07-24T04:28:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/dan-jiang-shi-bao/</loc>
+<loc>https://www.hansliu.com/tag/dan-jiang-shi-bao/</loc>
 <lastmod>2011-06-10T23:20:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/fisheye/</loc>
+<loc>https://www.hansliu.com/tag/fisheye/</loc>
 <lastmod>2011-06-03T17:30:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/photography/</loc>
+<loc>https://www.hansliu.com/tag/photography/</loc>
 <lastmod>2011-06-01T09:53:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/pillow-fight/</loc>
+<loc>https://www.hansliu.com/tag/pillow-fight/</loc>
 <lastmod>2011-04-02T23:13:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/postcard/</loc>
+<loc>https://www.hansliu.com/tag/postcard/</loc>
 <lastmod>2011-02-02T18:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/yi-lan/</loc>
+<loc>https://www.hansliu.com/tag/yi-lan/</loc>
 <lastmod>2010-11-24T23:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/gong-du-sheng/</loc>
+<loc>https://www.hansliu.com/tag/gong-du-sheng/</loc>
 <lastmod>2010-09-22T18:44:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/nothing/</loc>
+<loc>https://www.hansliu.com/tag/nothing/</loc>
 <lastmod>2010-04-05T16:33:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/ye-liu/</loc>
+<loc>https://www.hansliu.com/tag/ye-liu/</loc>
 <lastmod>2010-02-23T01:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/aryca/</loc>
+<loc>https://www.hansliu.com/tag/aryca/</loc>
 <lastmod>2009-08-15T10:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/tong-xue-hui/</loc>
+<loc>https://www.hansliu.com/tag/tong-xue-hui/</loc>
 <lastmod>2009-07-13T18:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
