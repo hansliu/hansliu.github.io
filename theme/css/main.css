@@ -516,10 +516,9 @@ section, article, aside, footer, header, nav {
 }
 .post-content a, .post-content a:visited {
   color: blue;
-  text-decoration: underline;
+  text-decoration: none;
 }
 .post-content a:hover, .post-content a:visited:hover {
-  color: rgba(0, 247, 255, 0.8);
   text-decoration: underline;
 }
 .post-content p {
