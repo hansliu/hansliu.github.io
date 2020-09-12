@@ -97,7 +97,7 @@ pre {
   background-color: #eeeeee;
   padding: 10px;
   margin: 10px;
-  font-size: 13px;
+  font-size: 16px;
   line-height: 20px;
   word-break: break-all;
   word-wrap: break-word;
@@ -107,6 +107,7 @@ pre {
 
 code, pre > code {
   font-family: Menlo, Consolas, monospace;
+  font-size: 16px;
 }
 
 blockquote {
