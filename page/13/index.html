@@ -10,7 +10,12 @@
 
   <title>Hans Blog</title>
   <link rel="canonical" href="https://www.hansliu.com">
-  <link rel="icon" href="https://www.hansliu.com/theme/images/favicon.ico" type="image/x-icon">
+
+	<!-- icon -->
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+	<link rel="manifest" href="/images/site.webmanifest">
 
   <!-- parser -->
   <meta name="robots" content="index, follow">
@@ -19,7 +24,7 @@
 
   <!-- fb -->
   <meta property='fb:admins' content='1377594783'>
-  <meta property='fb:app_id' content='1561250720806305'>
+  <meta property='fb:app_id' content=''>
 
   <!-- og -->
   <meta property="og:title" content="Hans Blog">
@@ -28,23 +33,35 @@
   <meta property="og:type" content="website">
 
   <!-- cdn css -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous" type="text/css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" type="text/css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+		integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+		crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+		integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+		crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"
+		integrity="sha512-+EoPw+Fiwh6eSeRK7zwIKG2MA8i3rV/DGa3tdttQGgWyatG/SkncT53KHQaS5Jh9MNOT3dmFL0FjTY08And/Cw=="
+		crossorigin="anonymous" />
 
   <!-- css -->
-  <link rel="stylesheet" href="https://www.hansliu.com/theme/css/main.css?v=20200225084925" type="text/css">
+  <link rel="stylesheet" href="https://www.hansliu.com/theme/css/main.css?v=20200912172258" type="text/css">
 
   <!-- feed -->
   <link href="https://www.hansliu.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Hans Blog Full Atom Feed"/>
 
-  <!-- javascript -->
-  <script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=5953634da17305001215aead&product=sticky-share-buttons"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-49957360-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-49957360-1');
+</script>
+
 </head>
 
 <body>
-
-  <div id="fb-root"></div>
-  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v6.0&appId=1561250720806305"></script>
 
   <script async id="dsq-count-scr" src="//hansliu.disqus.com/count.js"></script>
 
@@ -56,325 +73,322 @@
     <nav id="sidebar" data-behavior="1">
       <div class="sidebar-container">
         <div class="sidebar-profile">
-          <img class="sidebar-profile-picture" src="https://www.gravatar.com/avatar/9f7a4464129bd81ca5ac89e8067a5178?s=110" alt="Author's picture"></img>
+					<img class="sidebar-profile-image" src="https://www.gravatar.com/avatar/9f7a4464129bd81ca5ac89e8067a5178?s=110" alt="Author's image"></img>
         </div>
         <p class="sidebar-profile-name">
           Hans Blog</br>
-          life, photo, code
+					life, photo, code
         </p>
         <div id="google-custom-search">
           <script async src="https://cse.google.com/cse.js?cx=011860739956157042125:fttd__0pkbu"></script>
           <div class="gcse-search"></div>
         </div>
         <ul class="fa-ul">
-                <li><a href="https://www.hansliu.com/"><i class="fa-li fa fa-home"></i>Home</a></li>
-                <li><a href="https://www.hansliu.com/pages/photography.html"><i class="fa-li fa fa-camera-retro"></i>互惠攝影</a></li>
+                <li><a href="https://www.hansliu.com/"><i class="fa-li fas fa-home"></i>Home</a></li>
+                <li><a href="https://www.hansliu.com/pages/photography.html"><i class="fa-li fas fa-camera-retro"></i>互惠攝影</a></li>
 <!-- /.Menuitems -->
 
-              <li ><a href="https://www.hansliu.com/category/hu-yan-luan-yu/"><i class="fa-li fa fa-folder-open"></i> 胡言亂語 (37)</a></li>
-              <li ><a href="https://www.hansliu.com/category/jiao-se-ban-yan/"><i class="fa-li fa fa-folder-open"></i> 角色扮演 (28)</a></li>
-              <li ><a href="https://www.hansliu.com/category/le-fen-xiang/"><i class="fa-li fa fa-folder-open"></i> 樂分享 (8)</a></li>
-              <li ><a href="https://www.hansliu.com/category/ren-xiang-she-ying/"><i class="fa-li fa fa-folder-open"></i> 人像攝影 (20)</a></li>
-              <li ><a href="https://www.hansliu.com/category/she-ying-ji-lu/"><i class="fa-li fa fa-folder-open"></i> 攝影記錄 (90)</a></li>
-              <li ><a href="https://www.hansliu.com/category/xiang-he-jiu/"><i class="fa-li fa fa-folder-open"></i> 想喝酒 (7)</a></li>
-              <li ><a href="https://www.hansliu.com/category/xie-cheng-shi/"><i class="fa-li fa fa-folder-open"></i> 寫程式 (15)</a></li>
+              <li ><a href="https://www.hansliu.com/category/ji-shu-bi-ji/"><i class="fa-li fas fa-folder-open"></i> 技術筆記 (15)</a></li>
+              <li ><a href="https://www.hansliu.com/category/jiao-se-ban-yan/"><i class="fa-li fas fa-folder-open"></i> 角色扮演 (28)</a></li>
+              <li ><a href="https://www.hansliu.com/category/ren-xiang-she-ying/"><i class="fa-li fas fa-folder-open"></i> 人像攝影 (20)</a></li>
+              <li ><a href="https://www.hansliu.com/category/ri-chang-xie-xie/"><i class="fa-li fas fa-folder-open"></i> 日常寫寫 (52)</a></li>
+              <li ><a href="https://www.hansliu.com/category/ying-xiang-xu-shi/"><i class="fa-li fas fa-folder-open"></i> 影像敘事 (90)</a></li>
 <!-- /.Categories -->
 
-            <li><a href="https://www.hansliu.com/archives/index.html"><i class="fa-li fa fa-archive"></i>Archives</a></li>
+            <li><a href="https://www.hansliu.com/archives/index.html"><i class="fa-li fas fa-archive"></i>Archives</a></li>
 
-                <li><a href="https://github.com/hansliu/" target="_blank"><i class="fa-li fa fa-github"></i>Github</a></li>
-                <li><a href="https://500px.com/hcliu" target="_blank"><i class="fa-li fa fa-camera"></i>500px</a></li>
-                <li><a href="https://www.linkedin.com/in/liuhans" target="_blank"><i class="fa-li fa fa-linkedin-square"></i>LinkedIn</a></li>
-                <li><a href="https://bitbucket.org/hansliu" target="_blank"><i class="fa-li fa fa-bitbucket-square"></i>BitBucket</a></li>
-<!-- /.Social -->
-
-                <li><a href="http://getpelican.com/" target="_blank"><i class="fa-li fa fa-external-link"></i> Pelican</a></li>
-                <li><a href="http://jinja.pocoo.org/" target="_blank"><i class="fa-li fa fa-external-link"></i> Jinja2</a></li>
-<!-- /.Links -->
-
-              <li><a href="http://feeds.feedburner.com/hansliu"><i class="fa-li fa fa-rss-square"></i> Burner Feed</a></li>
+              <li><a href="http://feeds.feedburner.com/hansliu"><i class="fa-li fas fa-rss-square"></i> Burner Feed</a></li>
 <!-- /.Feeds -->
         </ul>
       </div>
     </nav>
 
     <header id="header" data-behavior="1">
-      <a id="button-open-sidebar"><i class="fa fa-bars fa-lg"></i></a>
+      <a id="button-open-sidebar"><i class="fas fa-bars"></i></a>
       <div class="header-title">
-        <a class="header-title-link" href="https://www.hansliu.com" rel="bookmark"
-            title="Permalink to Hans Blog">Hans Blog - life, photo, code</a>
+        <a class="header-title-link" href="https://www.hansliu.com" rel="bookmark" title="Permalink to Hans Blog">Hans Blog - life, photo, code</a>
       </div>
-      <a class="header-right" herf=""><img class="header-picture" src="https://www.gravatar.com/avatar/9f7a4464129bd81ca5ac89e8067a5178?s=90" alt="Author's picture"></img></a>
+      <span class="header-right">
+					<img class="header-image" src="https://www.gravatar.com/avatar/9f7a4464129bd81ca5ac89e8067a5178?s=110" alt="Author's image"></img>
+			</span>
     </header>
 
     <div id="main" data-behavior="1">
-<div>
-          <section>
-            <ol class="post-list" start="5">
-            <li>
-              <article>
-                <div class="content-wrap">
-                  <h1 class="post-title">
-                    <a href="https://www.hansliu.com/posts/2014/09/portrait-aoi.html" rel="bookmark" title="Permalink to 葵‧圓山">
-                    葵‧圓山
-                    </a>
-                  </h1>
-<div class="post-info">
-  <!--
-  <span class="vcard author">
-    by <a class="url fn" href="https://www.hansliu.com/author/hans-liu.html">Hans Liu</a>
-  </span>
-  -->
-  <span class="vcard author">
-    Hans Liu
-  </span>
-
-  on 2014-09-24
-
-    <span class="label">category</span>
-    <a href="https://www.hansliu.com/category/ren-xiang-she-ying/"><i class="fa fa-folder"></i>人像攝影</a>
-
-    <span class="label">tags</span>     <a href="https://www.hansliu.com/tag/olympus-dslr/"><i class="fa fa-tag"></i>Olympus DSLR</a>
-    <a href="https://www.hansliu.com/tag/portrait/"><i class="fa fa-tag"></i>Portrait</a>
-
-    <span class="label">comments</span>
-        <a href="https://www.hansliu.com/posts/2014/09/portrait-aoi.html#disqus_thread"> Comments</a>
-        <a href="https://www.hansliu.com/posts/2014/09/portrait-aoi.html#facebook_thread"><fb:comments-count href="https://www.hansliu.com/posts/2014/09/portrait-aoi.html"></fb:comments-count> fb Comments</a>
+<section>
+	<div class="content-wrap">
+		<div class="container-fluid">
+				<div class="row index-article">
 
 
-  
-</div><!-- /.post-info -->                  <div class="post-content">
-                    <p class="first last"><a class="reference external" href="https://lh4.googleusercontent.com/-HoBnmtj7kcA/VCGvPvU8MrI/AAAAAAAALL8/Ndsyx_MnBZ0/s1600/P9204968copy.jpg"><img alt="image0" src="https://lh4.googleusercontent.com/-HoBnmtj7kcA/VCGvPvU8MrI/AAAAAAAALL8/Ndsyx_MnBZ0/s800/P9204968copy.jpg" /></a></p>
+					<div class="col-12">
 
-                  </div>
-                  <p class="readmore">
-                    <a href="https://www.hansliu.com/posts/2014/09/portrait-aoi.html">Continue reading <i class="fa fa-angle-double-right"></i></a>
-                  </p>
-                </div>
-              </article>
-            </li>
-            <li>
-              <article>
-                <div class="content-wrap">
-                  <h1 class="post-title">
-                    <a href="https://www.hansliu.com/posts/2014/08/portrait-fang.html" rel="bookmark" title="Permalink to 芳‧珈琲時光">
-                    芳‧珈琲時光
-                    </a>
-                  </h1>
-<div class="post-info">
-  <!--
-  <span class="vcard author">
-    by <a class="url fn" href="https://www.hansliu.com/author/hans-liu.html">Hans Liu</a>
-  </span>
-  -->
-  <span class="vcard author">
-    Hans Liu
-  </span>
+						<h1><a href="https://www.hansliu.com/posts/2012/06/master-research.html">研究雜記</a></h1>
 
-  on 2014-08-27
+						<div class="index-article-content">
+							<p>研究需注意事項：</p>
+<div class="line-block">
+<div class="line">使用該公式和方法的意義？</div>
+<div class="line">為什麼使用這種API和搜尋引擎？</div>
+<div class="line">圖示表達出重點？</div>
+<div class="line">目的是什麼？</div>
+<div class="line">貢獻在哪裡？</div>
+<div class="line">結論要明確！</div>
+</div>
+<p>中文論文最好以中文為主 ...</p>
+						</div>
 
-    <span class="label">category</span>
-    <a href="https://www.hansliu.com/category/ren-xiang-she-ying/"><i class="fa fa-folder"></i>人像攝影</a>
+<div class="row index-article-info">
+	<div class="col-2">
+		<img class="index-article-author-image" src="https://www.gravatar.com/avatar/9f7a4464129bd81ca5ac89e8067a5178?s=110" alt="Author's image"></img>
+	</div>
+	<div class="col-10">
+		<span class="index-article-author-name">Hans Liu</span>
+		<br>
+		<span>Jun 20, 2012</span>
+	</div>
+</div>
+					</div>
 
-    <span class="label">tags</span>     <a href="https://www.hansliu.com/tag/olympus-dslr/"><i class="fa fa-tag"></i>Olympus DSLR</a>
-    <a href="https://www.hansliu.com/tag/portrait/"><i class="fa fa-tag"></i>Portrait</a>
-
-    <span class="label">comments</span>
-        <a href="https://www.hansliu.com/posts/2014/08/portrait-fang.html#disqus_thread"> Comments</a>
-        <a href="https://www.hansliu.com/posts/2014/08/portrait-fang.html#facebook_thread"><fb:comments-count href="https://www.hansliu.com/posts/2014/08/portrait-fang.html"></fb:comments-count> fb Comments</a>
+				</div>
 
 
-  
-</div><!-- /.post-info -->                  <div class="post-content">
-                    <p class="first last"><a class="reference external" href="https://lh6.googleusercontent.com/-0tCwKT4Kai8/U_3w4X4v0lI/AAAAAAAAK8s/UEXPDottdK4/s1600/P8254709copy.jpg"><img alt="image0" src="https://lh6.googleusercontent.com/-0tCwKT4Kai8/U_3w4X4v0lI/AAAAAAAAK8s/UEXPDottdK4/s800/P8254709copy.jpg" /></a></p>
+					<div class="row">
 
-                  </div>
-                  <p class="readmore">
-                    <a href="https://www.hansliu.com/posts/2014/08/portrait-fang.html">Continue reading <i class="fa fa-angle-double-right"></i></a>
-                  </p>
-                </div>
-              </article>
-            </li>
-            <li>
-              <article>
-                <div class="content-wrap">
-                  <h1 class="post-title">
-                    <a href="https://www.hansliu.com/posts/2014/08/comic-world-in-taiwan-37-day-1.html" rel="bookmark" title="Permalink to Comic World in Taiwan 37 Day 1">
-                    Comic World in Taiwan 37 Day 1
-                    </a>
-                  </h1>
-<div class="post-info">
-  <!--
-  <span class="vcard author">
-    by <a class="url fn" href="https://www.hansliu.com/author/hans-liu.html">Hans Liu</a>
-  </span>
-  -->
-  <span class="vcard author">
-    Hans Liu
-  </span>
+					<div class="col-12 col-sm-6">
+						<div class="index-article">
 
-  on 2014-08-11
+							<h2><a href="https://www.hansliu.com/posts/2012/06/2012-pycon.html">2012 PyCon</a></h2>
 
-    <span class="label">category</span>
-    <a href="https://www.hansliu.com/category/jiao-se-ban-yan/"><i class="fa fa-folder"></i>角色扮演</a>
+							<div class="index-article-content">
+								<p class="first last"><img alt="image0" src="https://lh4.googleusercontent.com/-pn-a1nAUS4g/T9oa2YdUNYI/AAAAAAAAIx8/3Ukf8f4cOCk/s800/pycon2012.png" /></p>
 
-    <span class="label">tags</span>     <a href="https://www.hansliu.com/tag/olympus-dslr/"><i class="fa fa-tag"></i>Olympus DSLR</a>
-    <a href="https://www.hansliu.com/tag/comic-world-in-taiwan/"><i class="fa fa-tag"></i>Comic World in Taiwan</a>
+							</div>
 
-    <span class="label">comments</span>
-        <a href="https://www.hansliu.com/posts/2014/08/comic-world-in-taiwan-37-day-1.html#disqus_thread"> Comments</a>
-        <a href="https://www.hansliu.com/posts/2014/08/comic-world-in-taiwan-37-day-1.html#facebook_thread"><fb:comments-count href="https://www.hansliu.com/posts/2014/08/comic-world-in-taiwan-37-day-1.html"></fb:comments-count> fb Comments</a>
+<div class="row index-article-info">
+	<div class="col-2">
+		<img class="index-article-author-image" src="https://www.gravatar.com/avatar/9f7a4464129bd81ca5ac89e8067a5178?s=110" alt="Author's image"></img>
+	</div>
+	<div class="col-10">
+		<span class="index-article-author-name">Hans Liu</span>
+		<br>
+		<span>Jun 18, 2012</span>
+	</div>
+</div>
+						</div>
+					</div>
 
 
-  
-</div><!-- /.post-info -->                  <div class="post-content">
-                    <p class="first last"><a class="reference external" href="https://lh6.googleusercontent.com/-DVVj35Wv-Q8/U-eyQF0KcDI/AAAAAAAAKuk/eJIcoEIlaSE/s1600/P8094344.JPG"><img alt="image0" src="https://lh6.googleusercontent.com/-DVVj35Wv-Q8/U-eyQF0KcDI/AAAAAAAAKuk/eJIcoEIlaSE/s800/P8094344.JPG" /></a></p>
-
-                  </div>
-                  <p class="readmore">
-                    <a href="https://www.hansliu.com/posts/2014/08/comic-world-in-taiwan-37-day-1.html">Continue reading <i class="fa fa-angle-double-right"></i></a>
-                  </p>
-                </div>
-              </article>
-            </li>
-            <li>
-              <article>
-                <div class="content-wrap">
-                  <h1 class="post-title">
-                    <a href="https://www.hansliu.com/posts/2014/08/cosplay-black-bullet-enju-aihara.html" rel="bookmark" title="Permalink to Cosplay《黑色子彈》藍原延珠">
-                    Cosplay《黑色子彈》藍原延珠
-                    </a>
-                  </h1>
-<div class="post-info">
-  <!--
-  <span class="vcard author">
-    by <a class="url fn" href="https://www.hansliu.com/author/hans-liu.html">Hans Liu</a>
-  </span>
-  -->
-  <span class="vcard author">
-    Hans Liu
-  </span>
-
-  on 2014-08-11
-
-    <span class="label">category</span>
-    <a href="https://www.hansliu.com/category/jiao-se-ban-yan/"><i class="fa fa-folder"></i>角色扮演</a>
-
-    <span class="label">tags</span>     <a href="https://www.hansliu.com/tag/olympus-dslr/"><i class="fa fa-tag"></i>Olympus DSLR</a>
-    <a href="https://www.hansliu.com/tag/black-bullet/"><i class="fa fa-tag"></i>Black Bullet</a>
-
-    <span class="label">comments</span>
-        <a href="https://www.hansliu.com/posts/2014/08/cosplay-black-bullet-enju-aihara.html#disqus_thread"> Comments</a>
-        <a href="https://www.hansliu.com/posts/2014/08/cosplay-black-bullet-enju-aihara.html#facebook_thread"><fb:comments-count href="https://www.hansliu.com/posts/2014/08/cosplay-black-bullet-enju-aihara.html"></fb:comments-count> fb Comments</a>
 
 
-  
-</div><!-- /.post-info -->                  <div class="post-content">
-                    <p class="first last"><a class="reference external" href="https://lh6.googleusercontent.com/-goKHUYMA15s/U-jBbJmBuuI/AAAAAAAAKz0/uEOppB9S7IA/s1600/P8094463copy.jpg"><img alt="image0" src="https://lh6.googleusercontent.com/-goKHUYMA15s/U-jBbJmBuuI/AAAAAAAAKz0/uEOppB9S7IA/s800/P8094463copy.jpg" /></a></p>
 
-                  </div>
-                  <p class="readmore">
-                    <a href="https://www.hansliu.com/posts/2014/08/cosplay-black-bullet-enju-aihara.html">Continue reading <i class="fa fa-angle-double-right"></i></a>
-                  </p>
-                </div>
-              </article>
-            </li>
-            <li>
-              <article>
-                <div class="content-wrap">
-                  <h1 class="post-title">
-                    <a href="https://www.hansliu.com/posts/2014/08/cosplay-league-of-legends-jinx.html" rel="bookmark" title="Permalink to Cosplay《英雄聯盟》吉茵珂絲">
-                    Cosplay《英雄聯盟》吉茵珂絲
-                    </a>
-                  </h1>
-<div class="post-info">
-  <!--
-  <span class="vcard author">
-    by <a class="url fn" href="https://www.hansliu.com/author/hans-liu.html">Hans Liu</a>
-  </span>
-  -->
-  <span class="vcard author">
-    Hans Liu
-  </span>
+					<div class="col-12 col-sm-6">
+						<div class="index-article">
 
-  on 2014-08-11
+							<h2><a href="https://www.hansliu.com/posts/2012/05/sbl-pureyouth-vs-dacin-game-4.html">SBL總冠軍賽《璞園對達欣》Game 4</a></h2>
 
-    <span class="label">category</span>
-    <a href="https://www.hansliu.com/category/jiao-se-ban-yan/"><i class="fa fa-folder"></i>角色扮演</a>
+							<div class="index-article-content">
+								<p class="first last"><img alt="image0" src="https://lh5.googleusercontent.com/-HZE-wDN_u8I/T8cqLnDrA4I/AAAAAAAAIxQ/HPQMl3XkzMk/s800/P5102153.JPG" /></p>
 
-    <span class="label">tags</span>     <a href="https://www.hansliu.com/tag/olympus-dslr/"><i class="fa fa-tag"></i>Olympus DSLR</a>
-    <a href="https://www.hansliu.com/tag/ying-xiong-lian-meng/"><i class="fa fa-tag"></i>英雄聯盟</a>
+							</div>
 
-    <span class="label">comments</span>
-        <a href="https://www.hansliu.com/posts/2014/08/cosplay-league-of-legends-jinx.html#disqus_thread"> Comments</a>
-        <a href="https://www.hansliu.com/posts/2014/08/cosplay-league-of-legends-jinx.html#facebook_thread"><fb:comments-count href="https://www.hansliu.com/posts/2014/08/cosplay-league-of-legends-jinx.html"></fb:comments-count> fb Comments</a>
+<div class="row index-article-info">
+	<div class="col-2">
+		<img class="index-article-author-image" src="https://www.gravatar.com/avatar/9f7a4464129bd81ca5ac89e8067a5178?s=110" alt="Author's image"></img>
+	</div>
+	<div class="col-10">
+		<span class="index-article-author-name">Hans Liu</span>
+		<br>
+		<span>May 31, 2012</span>
+	</div>
+</div>
+						</div>
+					</div>
+
+					</div>
 
 
-  
-</div><!-- /.post-info -->                  <div class="post-content">
-                    <p class="first last"><a class="reference external" href="https://lh5.googleusercontent.com/-w3uHiZlYowE/U-f779U6G4I/AAAAAAAAKx8/PfTPtjy7dEo/s1600/P8094512copy.jpg"><img alt="image0" src="https://lh5.googleusercontent.com/-w3uHiZlYowE/U-f779U6G4I/AAAAAAAAKx8/PfTPtjy7dEo/s800/P8094512copy.jpg" /></a></p>
 
-                  </div>
-                  <p class="readmore">
-                    <a href="https://www.hansliu.com/posts/2014/08/cosplay-league-of-legends-jinx.html">Continue reading <i class="fa fa-angle-double-right"></i></a>
-                  </p>
-                </div>
-              </article>
-            </li>
-            <li>
-              <article>
-                <div class="content-wrap">
-                  <h1 class="post-title">
-                    <a href="https://www.hansliu.com/posts/2014/08/cosplay-hunter-x-hunter-biscuit.html" rel="bookmark" title="Permalink to Cosplay《獵人》比司吉">
-                    Cosplay《獵人》比司吉
-                    </a>
-                  </h1>
-<div class="post-info">
-  <!--
-  <span class="vcard author">
-    by <a class="url fn" href="https://www.hansliu.com/author/hans-liu.html">Hans Liu</a>
-  </span>
-  -->
-  <span class="vcard author">
-    Hans Liu
-  </span>
+					<div class="row">
 
-  on 2014-08-10
+					<div class="col-12 col-lg-4">
+						<div class="index-article">
 
-    <span class="label">category</span>
-    <a href="https://www.hansliu.com/category/jiao-se-ban-yan/"><i class="fa fa-folder"></i>角色扮演</a>
+							<h2><a href="https://www.hansliu.com/posts/2012/05/vivitar-dnp.html">Vivitar &amp; DNP</a></h2>
 
-    <span class="label">tags</span>     <a href="https://www.hansliu.com/tag/olympus-dslr/"><i class="fa fa-tag"></i>Olympus DSLR</a>
-    <a href="https://www.hansliu.com/tag/hunterxhunter/"><i class="fa fa-tag"></i>HUNTERxHUNTER</a>
+							<div class="index-article-content">
+								<p class="first last"><img alt="image0" src="https://2.bp.blogspot.com/_PblkLLwO_wY/SvrujdA0TxI/AAAAAAAADJk/arEMohroRmg/s800/091112_41040035r.jpg" /></p>
 
-    <span class="label">comments</span>
-        <a href="https://www.hansliu.com/posts/2014/08/cosplay-hunter-x-hunter-biscuit.html#disqus_thread"> Comments</a>
-        <a href="https://www.hansliu.com/posts/2014/08/cosplay-hunter-x-hunter-biscuit.html#facebook_thread"><fb:comments-count href="https://www.hansliu.com/posts/2014/08/cosplay-hunter-x-hunter-biscuit.html"></fb:comments-count> fb Comments</a>
+							</div>
+
+<div class="row index-article-info">
+	<div class="col-2">
+		<img class="index-article-author-image" src="https://www.gravatar.com/avatar/9f7a4464129bd81ca5ac89e8067a5178?s=110" alt="Author's image"></img>
+	</div>
+	<div class="col-10">
+		<span class="index-article-author-name">Hans Liu</span>
+		<br>
+		<span>May 12, 2012</span>
+	</div>
+</div>
+						</div>
+					</div>
 
 
-  
-</div><!-- /.post-info -->                  <div class="post-content">
-                    <p class="first last"><a class="reference external" href="https://lh3.googleusercontent.com/-NoKkaai04c8/U-eJIAnfdcI/AAAAAAAAKos/qXtq3AcDMb0/s1600/P8094530copy.jpg"><img alt="image0" src="https://lh3.googleusercontent.com/-NoKkaai04c8/U-eJIAnfdcI/AAAAAAAAKos/qXtq3AcDMb0/s800/P8094530copy.jpg" /></a></p>
 
-                  </div>
-                  <p class="readmore">
-                    <a href="https://www.hansliu.com/posts/2014/08/cosplay-hunter-x-hunter-biscuit.html">Continue reading <i class="fa fa-angle-double-right"></i></a>
-                  </p>
-                </div>
-              </article>
-            </li>
-            </ol><!-- /#posts-list -->
+
+
+					<div class="col-12 col-lg-4">
+						<div class="index-article">
+
+							<h2><a href="https://www.hansliu.com/posts/2012/04/cosplay-league-of-legends-miss-fortune.html">Cosplay《英雄聯盟》好運姐</a></h2>
+
+							<div class="index-article-content">
+								<p class="first last"><img alt="image0" src="https://lh3.googleusercontent.com/-4cmEFBSyLgA/T5lrICl5j2I/AAAAAAAAIbQ/4jV7S8FHVlU/s800/P2050179mc.jpg" /></p>
+
+							</div>
+
+<div class="row index-article-info">
+	<div class="col-2">
+		<img class="index-article-author-image" src="https://www.gravatar.com/avatar/9f7a4464129bd81ca5ac89e8067a5178?s=110" alt="Author's image"></img>
+	</div>
+	<div class="col-10">
+		<span class="index-article-author-name">Hans Liu</span>
+		<br>
+		<span>Apr 27, 2012</span>
+	</div>
+</div>
+						</div>
+					</div>
+
+
+
+
+
+					<div class="col-12 col-lg-4">
+						<div class="index-article">
+
+							<h2><a href="https://www.hansliu.com/posts/2012/04/gegege-gui-tai-lang.html">GeGeGe鬼太郎的妖怪樂園</a></h2>
+
+							<div class="index-article-content">
+								<p class="first last"><img alt="image0" src="https://lh4.googleusercontent.com/-alQr2xMvkzk/T3XeWq3gNFI/AAAAAAAAIEg/GB2AIEjpeeU/s680/P3161315.jpg" /></p>
+
+							</div>
+
+<div class="row index-article-info">
+	<div class="col-2">
+		<img class="index-article-author-image" src="https://www.gravatar.com/avatar/9f7a4464129bd81ca5ac89e8067a5178?s=110" alt="Author's image"></img>
+	</div>
+	<div class="col-10">
+		<span class="index-article-author-name">Hans Liu</span>
+		<br>
+		<span>Apr 05, 2012</span>
+	</div>
+</div>
+						</div>
+					</div>
+
+					</div>
+
+
+
+					<div class="row">
+
+					<div class="col-12 col-lg-4">
+						<div class="index-article">
+
+							<h2><a href="https://www.hansliu.com/posts/2012/02/rdss-interview-4.html">研發替代役面試心得《後續》</a></h2>
+
+							<div class="index-article-content">
+								<p>在研發替代役階段收到的感謝函</p>
+<div class="line-block">
+<div class="line">無面試感謝函：</div>
+<div class="line">聯發科、趨勢科技、中華電信研究所&amp;數據分、晶睿通訊、曜碩科技 ...</div></div>
+							</div>
+
+<div class="row index-article-info">
+	<div class="col-2">
+		<img class="index-article-author-image" src="https://www.gravatar.com/avatar/9f7a4464129bd81ca5ac89e8067a5178?s=110" alt="Author's image"></img>
+	</div>
+	<div class="col-10">
+		<span class="index-article-author-name">Hans Liu</span>
+		<br>
+		<span>Feb 09, 2012</span>
+	</div>
+</div>
+						</div>
+					</div>
+
+
+
+
+
+					<div class="col-12 col-lg-4">
+						<div class="index-article">
+
+							<h2><a href="https://www.hansliu.com/posts/2012/02/fancy-frontier-19-day-2.html">Fancy Frontier 19 Day 2</a></h2>
+
+							<div class="index-article-content">
+								<p class="first last"><img alt="image0" src="https://lh5.googleusercontent.com/-TFlGpXcVssw/TzEur2L0eeI/AAAAAAAAHxY/yzE28L8If3U/s800/P2059973.jpg" /></p>
+
+							</div>
+
+<div class="row index-article-info">
+	<div class="col-2">
+		<img class="index-article-author-image" src="https://www.gravatar.com/avatar/9f7a4464129bd81ca5ac89e8067a5178?s=110" alt="Author's image"></img>
+	</div>
+	<div class="col-10">
+		<span class="index-article-author-name">Hans Liu</span>
+		<br>
+		<span>Feb 08, 2012</span>
+	</div>
+</div>
+						</div>
+					</div>
+
+
+
+
+
+					<div class="col-12 col-lg-4">
+						<div class="index-article">
+
+							<h2><a href="https://www.hansliu.com/posts/2012/02/2009-travel-tokyo-3.html">2009日本東京箱根五天四夜《下》</a></h2>
+
+							<div class="index-article-content">
+								<p class="first last"><img alt="image0" src="https://lh4.ggpht.com/_PblkLLwO_wY/SlytR12saaI/AAAAAAAAB-A/0T4wNRdLBxs/s800/P7083763mr.jpg" /></p>
+
+							</div>
+
+<div class="row index-article-info">
+	<div class="col-2">
+		<img class="index-article-author-image" src="https://www.gravatar.com/avatar/9f7a4464129bd81ca5ac89e8067a5178?s=110" alt="Author's image"></img>
+	</div>
+	<div class="col-10">
+		<span class="index-article-author-name">Hans Liu</span>
+		<br>
+		<span>Feb 01, 2012</span>
+	</div>
+</div>
+						</div>
+					</div>
+
+					</div>
+
+
+
+		</div>
+
 <!--
 <p class="paginator">
     <a href="https://www.hansliu.com/page/12/">&laquo;</a>
-    Page 13 / 35
+    Page 13 / 23
     <a href="https://www.hansliu.com/page/14/">&raquo;</a>
 </p>
 -->
 <div class="paginator">
   <ul class="pagination">
     <li>
-      <a href="https://www.hansliu.com/page/12/"><i class="fa fa-chevron-circle-left fa-fw fa-lg"></i> Previous</a>
+      <a href="https://www.hansliu.com/page/12/"><i class="fa fa-chevron-circle-left fa-fw fa-lg"></i></a>
     </li>
   <!-- pagination display by PAGINATION_DISPLAY_PAGE -->
           <li>
@@ -392,59 +406,46 @@
           <li>
             <a href="https://www.hansliu.com/page/15/"> 15 </a>
           </li>
-          <li>
-            <a href="https://www.hansliu.com/page/16/"> 16 </a>
-          </li>
-          <li>
-            <a href="https://www.hansliu.com/page/17/"> 17 </a>
-          </li>
-          <li>
-            <a href="https://www.hansliu.com/page/18/"> 18 </a>
-          </li>
-          <li>
-            <a href="https://www.hansliu.com/page/19/"> 19 </a>
-          </li>
-          <li>
-            <a href="https://www.hansliu.com/page/20/"> 20 </a>
-          </li>
   <!-- /.pagination display by PAGINATION_DISPLAY_PAGE -->
     <li>
-      <a href="https://www.hansliu.com/page/14/">Next <i class="fa fa-chevron-circle-right fa-fw fa-lg"></i></a>
+      <a href="https://www.hansliu.com/page/14/"><i class="fa fa-chevron-circle-right fa-fw fa-lg"></i></a>
     </li>
 </div>
-          </section><!-- /#content -->
-</div>
+	</div><!-- /.content-wrap -->
+</section>
 
       <section>
-        <footer id="footer">
-          <div class="content-wrap">
-            <span class="copyrights">Copyrights © 2020 Hans Liu. All Rights Reserved.</span>
-          </div>
-        </footer>
-      </section>
+				<div class="content-wrap">
+					<footer id="footer">
+						<div class="links">
+								<a href="https://www.hansliu.com/pages/tos.html">Terms</a>
+								<a href="https://www.hansliu.com/pages/privacy.html">Privacy</a>
+								<a href="https://getpelican.com/" target="_blank">Pelican</a>
+								<a href="https://jinja.pocoo.org/" target="_blank">Jinja2</a>
+								<a href="https://favicon.io/" target="_blank">Favicon</a>
+								<a href="https://www.flaticon.com/" target="_blank">Flaticon</a>
+						</div><!-- /.Links -->
+						<span class="copyrights">Copyrights © 2020 Hans Liu. All Rights Reserved.</span>
+					</footer>
+				</div>
+			</section>
 
-    </div>
-    <!--
-    -->
+		</div>
 
   </div>
 
   <div id="cover" style="background-image:url('https://www.hansliu.com/theme/images/cover.jpg');"></div>
 
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+		integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"
+		integrity="sha512-jNDtFf7qgU0eH/+Z42FG4fw3w7DM/9zbgNPe3wfJlCylVDTT3IgKW5r92Vy9IHa6U50vyMz5gRByIu4YIXFtaQ=="
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"
+		integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w=="
+		crossorigin="anonymous"></script>
 
-  ga('create', 'UA-49957360-1', 'www.hansliu.com');
-  ga('send', 'pageview');
-</script>
-  <script src="https://code.jquery.com/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
-  <!-- Latest compiled and minified JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  <script src="https://www.hansliu.com/theme/js/main.js?v=20200225084925"></script>
+  <script src="https://www.hansliu.com/theme/js/main.js?v=20200912172258"></script>
 </body>
 </html>

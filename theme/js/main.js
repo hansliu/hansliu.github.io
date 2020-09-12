@@ -1,6 +1,9 @@
 // Lazyload http://www.appelsiini.net/projects/lazyload
 // Magnific Popup Documentation http://dimsemenov.com/plugins/magnific-popup/
 $(document).ready(function() {
+  $('.index-article-content').each(function() {
+    $(this).find('a > img').unwrap(); // remove href in index template
+  });
   $('.post-content img, .gallery img').each(function() {
     $(this).attr("data-original", $(this).attr("src"));
     $(this).removeAttr("src");

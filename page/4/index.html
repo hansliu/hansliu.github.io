@@ -10,7 +10,12 @@
 
   <title>Hans Blog</title>
   <link rel="canonical" href="https://www.hansliu.com">
-  <link rel="icon" href="https://www.hansliu.com/theme/images/favicon.ico" type="image/x-icon">
+
+	<!-- icon -->
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+	<link rel="manifest" href="/images/site.webmanifest">
 
   <!-- parser -->
   <meta name="robots" content="index, follow">
@@ -19,7 +24,7 @@
 
   <!-- fb -->
   <meta property='fb:admins' content='1377594783'>
-  <meta property='fb:app_id' content='1561250720806305'>
+  <meta property='fb:app_id' content=''>
 
   <!-- og -->
   <meta property="og:title" content="Hans Blog">
@@ -28,23 +33,35 @@
   <meta property="og:type" content="website">
 
   <!-- cdn css -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous" type="text/css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" type="text/css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+		integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+		crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+		integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+		crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"
+		integrity="sha512-+EoPw+Fiwh6eSeRK7zwIKG2MA8i3rV/DGa3tdttQGgWyatG/SkncT53KHQaS5Jh9MNOT3dmFL0FjTY08And/Cw=="
+		crossorigin="anonymous" />
 
   <!-- css -->
-  <link rel="stylesheet" href="https://www.hansliu.com/theme/css/main.css?v=20200225084925" type="text/css">
+  <link rel="stylesheet" href="https://www.hansliu.com/theme/css/main.css?v=20200912172258" type="text/css">
 
   <!-- feed -->
   <link href="https://www.hansliu.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Hans Blog Full Atom Feed"/>
 
-  <!-- javascript -->
-  <script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=5953634da17305001215aead&product=sticky-share-buttons"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-49957360-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-49957360-1');
+</script>
+
 </head>
 
 <body>
-
-  <div id="fb-root"></div>
-  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v6.0&appId=1561250720806305"></script>
 
   <script async id="dsq-count-scr" src="//hansliu.disqus.com/count.js"></script>
 
@@ -56,327 +73,312 @@
     <nav id="sidebar" data-behavior="1">
       <div class="sidebar-container">
         <div class="sidebar-profile">
-          <img class="sidebar-profile-picture" src="https://www.gravatar.com/avatar/9f7a4464129bd81ca5ac89e8067a5178?s=110" alt="Author's picture"></img>
+					<img class="sidebar-profile-image" src="https://www.gravatar.com/avatar/9f7a4464129bd81ca5ac89e8067a5178?s=110" alt="Author's image"></img>
         </div>
         <p class="sidebar-profile-name">
           Hans Blog</br>
-          life, photo, code
+					life, photo, code
         </p>
         <div id="google-custom-search">
           <script async src="https://cse.google.com/cse.js?cx=011860739956157042125:fttd__0pkbu"></script>
           <div class="gcse-search"></div>
         </div>
         <ul class="fa-ul">
-                <li><a href="https://www.hansliu.com/"><i class="fa-li fa fa-home"></i>Home</a></li>
-                <li><a href="https://www.hansliu.com/pages/photography.html"><i class="fa-li fa fa-camera-retro"></i>互惠攝影</a></li>
+                <li><a href="https://www.hansliu.com/"><i class="fa-li fas fa-home"></i>Home</a></li>
+                <li><a href="https://www.hansliu.com/pages/photography.html"><i class="fa-li fas fa-camera-retro"></i>互惠攝影</a></li>
 <!-- /.Menuitems -->
 
-              <li ><a href="https://www.hansliu.com/category/hu-yan-luan-yu/"><i class="fa-li fa fa-folder-open"></i> 胡言亂語 (37)</a></li>
-              <li ><a href="https://www.hansliu.com/category/jiao-se-ban-yan/"><i class="fa-li fa fa-folder-open"></i> 角色扮演 (28)</a></li>
-              <li ><a href="https://www.hansliu.com/category/le-fen-xiang/"><i class="fa-li fa fa-folder-open"></i> 樂分享 (8)</a></li>
-              <li ><a href="https://www.hansliu.com/category/ren-xiang-she-ying/"><i class="fa-li fa fa-folder-open"></i> 人像攝影 (20)</a></li>
-              <li ><a href="https://www.hansliu.com/category/she-ying-ji-lu/"><i class="fa-li fa fa-folder-open"></i> 攝影記錄 (90)</a></li>
-              <li ><a href="https://www.hansliu.com/category/xiang-he-jiu/"><i class="fa-li fa fa-folder-open"></i> 想喝酒 (7)</a></li>
-              <li ><a href="https://www.hansliu.com/category/xie-cheng-shi/"><i class="fa-li fa fa-folder-open"></i> 寫程式 (15)</a></li>
+              <li ><a href="https://www.hansliu.com/category/ji-shu-bi-ji/"><i class="fa-li fas fa-folder-open"></i> 技術筆記 (15)</a></li>
+              <li ><a href="https://www.hansliu.com/category/jiao-se-ban-yan/"><i class="fa-li fas fa-folder-open"></i> 角色扮演 (28)</a></li>
+              <li ><a href="https://www.hansliu.com/category/ren-xiang-she-ying/"><i class="fa-li fas fa-folder-open"></i> 人像攝影 (20)</a></li>
+              <li ><a href="https://www.hansliu.com/category/ri-chang-xie-xie/"><i class="fa-li fas fa-folder-open"></i> 日常寫寫 (52)</a></li>
+              <li ><a href="https://www.hansliu.com/category/ying-xiang-xu-shi/"><i class="fa-li fas fa-folder-open"></i> 影像敘事 (90)</a></li>
 <!-- /.Categories -->
 
-            <li><a href="https://www.hansliu.com/archives/index.html"><i class="fa-li fa fa-archive"></i>Archives</a></li>
+            <li><a href="https://www.hansliu.com/archives/index.html"><i class="fa-li fas fa-archive"></i>Archives</a></li>
 
-                <li><a href="https://github.com/hansliu/" target="_blank"><i class="fa-li fa fa-github"></i>Github</a></li>
-                <li><a href="https://500px.com/hcliu" target="_blank"><i class="fa-li fa fa-camera"></i>500px</a></li>
-                <li><a href="https://www.linkedin.com/in/liuhans" target="_blank"><i class="fa-li fa fa-linkedin-square"></i>LinkedIn</a></li>
-                <li><a href="https://bitbucket.org/hansliu" target="_blank"><i class="fa-li fa fa-bitbucket-square"></i>BitBucket</a></li>
-<!-- /.Social -->
-
-                <li><a href="http://getpelican.com/" target="_blank"><i class="fa-li fa fa-external-link"></i> Pelican</a></li>
-                <li><a href="http://jinja.pocoo.org/" target="_blank"><i class="fa-li fa fa-external-link"></i> Jinja2</a></li>
-<!-- /.Links -->
-
-              <li><a href="http://feeds.feedburner.com/hansliu"><i class="fa-li fa fa-rss-square"></i> Burner Feed</a></li>
+              <li><a href="http://feeds.feedburner.com/hansliu"><i class="fa-li fas fa-rss-square"></i> Burner Feed</a></li>
 <!-- /.Feeds -->
         </ul>
       </div>
     </nav>
 
     <header id="header" data-behavior="1">
-      <a id="button-open-sidebar"><i class="fa fa-bars fa-lg"></i></a>
+      <a id="button-open-sidebar"><i class="fas fa-bars"></i></a>
       <div class="header-title">
-        <a class="header-title-link" href="https://www.hansliu.com" rel="bookmark"
-            title="Permalink to Hans Blog">Hans Blog - life, photo, code</a>
+        <a class="header-title-link" href="https://www.hansliu.com" rel="bookmark" title="Permalink to Hans Blog">Hans Blog - life, photo, code</a>
       </div>
-      <a class="header-right" herf=""><img class="header-picture" src="https://www.gravatar.com/avatar/9f7a4464129bd81ca5ac89e8067a5178?s=90" alt="Author's picture"></img></a>
+      <span class="header-right">
+					<img class="header-image" src="https://www.gravatar.com/avatar/9f7a4464129bd81ca5ac89e8067a5178?s=110" alt="Author's image"></img>
+			</span>
     </header>
 
     <div id="main" data-behavior="1">
-<div>
-          <section>
-            <ol class="post-list" start="5">
-            <li>
-              <article>
-                <div class="content-wrap">
-                  <h1 class="post-title">
-                    <a href="https://www.hansliu.com/posts/2017/12/comic-world-in-taiwan-47-day-2.html" rel="bookmark" title="Permalink to Comic World in Taiwan 47 Day 2">
-                    Comic World in Taiwan 47 Day 2
-                    </a>
-                  </h1>
-<div class="post-info">
-  <!--
-  <span class="vcard author">
-    by <a class="url fn" href="https://www.hansliu.com/author/hans-liu.html">Hans Liu</a>
-  </span>
-  -->
-  <span class="vcard author">
-    Hans Liu
-  </span>
-
-  on 2017-12-11
-
-    <span class="label">category</span>
-    <a href="https://www.hansliu.com/category/jiao-se-ban-yan/"><i class="fa fa-folder"></i>角色扮演</a>
-
-    <span class="label">tags</span>     <a href="https://www.hansliu.com/tag/olympus-dslr/"><i class="fa fa-tag"></i>Olympus DSLR</a>
-    <a href="https://www.hansliu.com/tag/comic-world-in-taiwan/"><i class="fa fa-tag"></i>Comic World in Taiwan</a>
-
-    <span class="label">comments</span>
-        <a href="https://www.hansliu.com/posts/2017/12/comic-world-in-taiwan-47-day-2.html#disqus_thread"> Comments</a>
-        <a href="https://www.hansliu.com/posts/2017/12/comic-world-in-taiwan-47-day-2.html#facebook_thread"><fb:comments-count href="https://www.hansliu.com/posts/2017/12/comic-world-in-taiwan-47-day-2.html"></fb:comments-count> fb Comments</a>
+<section>
+	<div class="content-wrap">
+		<div class="container-fluid">
+				<div class="row index-article">
 
 
-  
-</div><!-- /.post-info -->                  <div class="post-content">
-                    <p class="first last"><a class="reference external" href="https://lh3.googleusercontent.com/vXw2YZhdiRCLhLKLLjjur-UEgfrai7_WtvMKygLyWtocCsgo0WJeVWZ3HgGzCJJA2ib1C8GIH4SlxCnsdhH2K-Cz_zeTv0s7NyahuMIssHWOGWKIEqzuC9bw-hYc7hIvn-TnPk9zRIocrFtzeK8IxT3rDz0PEyhGok9GVbQb1G3A4BESeCXSl6miFj2LKfzJiqKICD7r43ylsDEppTudP-pQKKYJiqZ7Cwg2dqXV2CAYE8MGeUo5AqmPmZx0GXe9lIVR6f2EQg2MaXH8gfJc4NAoijvq5Qw5XJ7Deu0i3MImkkcWRqpCqnG5AkUrHNTRq_fbFsKWuuLfxq3naBODSxEa7PH9AWzU6EMSdXVy4FCRVH1uSvdVAoorhA2PKTufj-OKmpTLrsAY6poJy3qVwAKRwUktxYfV7iY5C0ELNWBGBjFmcb7Qbv0MsJJM95p3qdoUhibMwhjQLIE5HPkPaE4EN298fyizwP6QqPQwcjBfHA5T6c6xyim0zecm7130LgiOM1mB0C92Dk55O7yTNN9JvJ2Tp1DJ0OEgrkpDMZ4bg4m4FkESidxvNL58LWgKjZNPAjrWapi5OIpTzMWVNf4i2qIUxigCRk05WAIj9nkL4sztkXVgbc9TQ0PAkDaKncEWE1AFTTESYpFVUkDkbAaEXClFdC0bquey=w1200-h800-no"><img alt="image43" src="https://lh3.googleusercontent.com/vXw2YZhdiRCLhLKLLjjur-UEgfrai7_WtvMKygLyWtocCsgo0WJeVWZ3HgGzCJJA2ib1C8GIH4SlxCnsdhH2K-Cz_zeTv0s7NyahuMIssHWOGWKIEqzuC9bw-hYc7hIvn-TnPk9zRIocrFtzeK8IxT3rDz0PEyhGok9GVbQb1G3A4BESeCXSl6miFj2LKfzJiqKICD7r43ylsDEppTudP-pQKKYJiqZ7Cwg2dqXV2CAYE8MGeUo5AqmPmZx0GXe9lIVR6f2EQg2MaXH8gfJc4NAoijvq5Qw5XJ7Deu0i3MImkkcWRqpCqnG5AkUrHNTRq_fbFsKWuuLfxq3naBODSxEa7PH9AWzU6EMSdXVy4FCRVH1uSvdVAoorhA2PKTufj-OKmpTLrsAY6poJy3qVwAKRwUktxYfV7iY5C0ELNWBGBjFmcb7Qbv0MsJJM95p3qdoUhibMwhjQLIE5HPkPaE4EN298fyizwP6QqPQwcjBfHA5T6c6xyim0zecm7130LgiOM1mB0C92Dk55O7yTNN9JvJ2Tp1DJ0OEgrkpDMZ4bg4m4FkESidxvNL58LWgKjZNPAjrWapi5OIpTzMWVNf4i2qIUxigCRk05WAIj9nkL4sztkXVgbc9TQ0PAkDaKncEWE1AFTTESYpFVUkDkbAaEXClFdC0bquey=w1200-h800-no" /></a></p>
+					<div class="col-12">
 
-                  </div>
-                  <p class="readmore">
-                    <a href="https://www.hansliu.com/posts/2017/12/comic-world-in-taiwan-47-day-2.html">Continue reading <i class="fa fa-angle-double-right"></i></a>
-                  </p>
-                </div>
-              </article>
-            </li>
-            <li>
-              <article>
-                <div class="content-wrap">
-                  <h1 class="post-title">
-                    <a href="https://www.hansliu.com/posts/2017/12/vivitar-tua-tiu-tiann.html" rel="bookmark" title="Permalink to Vivitar 大稻埕印象">
-                    Vivitar 大稻埕印象
-                    </a>
-                  </h1>
-<div class="post-info">
-  <!--
-  <span class="vcard author">
-    by <a class="url fn" href="https://www.hansliu.com/author/hans-liu.html">Hans Liu</a>
-  </span>
-  -->
-  <span class="vcard author">
-    Hans Liu
-  </span>
+						<h1><a href="https://www.hansliu.com/posts/2017/04/2017-chiayi.html">2017嘉義</a></h1>
 
-  on 2017-12-11
+						<div class="index-article-content">
+							<p class="first last"><a class="reference external" href="https://lh3.googleusercontent.com/sBSByuiWBWCFisd_LCGFVxWtf-naJGttQrPnzOvY1Qeb3RWtQD0PpsWgvbYqZ37emTs11-pfnKN0AXlq61m-JGi_evZCrEuE6Wl66CcY5URemATzxfU4UIbEXAiB_2PPqf-yJyji2YNymn2xUxKR7dqR4s82jvNVYPtWlejqb0Ed-NYeZ8TZaa_jjVFVw4GYZrEjjy27rO4zIDa85FS3Mi8h-6KmVRHZsCAlvnotEqX1THW1ADUDjSSoWRq_1iwJDQbFjyXdrKfl03lT5M2eGK4nkTFwrew8BSk9pXJgt7vqK1fDcdthsXZUDnor3X2722dki-Nbjga68Y_RhdpyCHvCCKsWD3JoxHcUn72Lpn4Mul1TIIB7MV4NBp17k8u_E3KoKK4o6tzwNqPA0oYXLdGyMqmgwK4x020EJqBoW7XHg4ag1MS2E8MHIsHaQ019z04rxDre5JkiWiI6zMyk1s0069B-ZlxZpWmN7g9o1EDCbtdEjOyvNVPZAf4lKCMtQuvuHhhqQ3Z0r5eVjNJxuaSGusPRbGFil9NW2l-KGi1AmiDhMwploAawhln96jwv_x7D97L-bm1jnCvONi09zf0rkp0L0kOEVukwixYvYYBsA5fJ3aoScht9kGPj662t2QgKjLlR9q1tlWJI7ja65YTK3QCPdQzJCjFZ_McUTC4=w1200-h800-no"><img alt="image0" src="https://lh3.googleusercontent.com/sBSByuiWBWCFisd_LCGFVxWtf-naJGttQrPnzOvY1Qeb3RWtQD0PpsWgvbYqZ37emTs11-pfnKN0AXlq61m-JGi_evZCrEuE6Wl66CcY5URemATzxfU4UIbEXAiB_2PPqf-yJyji2YNymn2xUxKR7dqR4s82jvNVYPtWlejqb0Ed-NYeZ8TZaa_jjVFVw4GYZrEjjy27rO4zIDa85FS3Mi8h-6KmVRHZsCAlvnotEqX1THW1ADUDjSSoWRq_1iwJDQbFjyXdrKfl03lT5M2eGK4nkTFwrew8BSk9pXJgt7vqK1fDcdthsXZUDnor3X2722dki-Nbjga68Y_RhdpyCHvCCKsWD3JoxHcUn72Lpn4Mul1TIIB7MV4NBp17k8u_E3KoKK4o6tzwNqPA0oYXLdGyMqmgwK4x020EJqBoW7XHg4ag1MS2E8MHIsHaQ019z04rxDre5JkiWiI6zMyk1s0069B-ZlxZpWmN7g9o1EDCbtdEjOyvNVPZAf4lKCMtQuvuHhhqQ3Z0r5eVjNJxuaSGusPRbGFil9NW2l-KGi1AmiDhMwploAawhln96jwv_x7D97L-bm1jnCvONi09zf0rkp0L0kOEVukwixYvYYBsA5fJ3aoScht9kGPj662t2QgKjLlR9q1tlWJI7ja65YTK3QCPdQzJCjFZ_McUTC4=w1200-h800-no" /></a></p>
 
-    <span class="label">category</span>
-    <a href="https://www.hansliu.com/category/she-ying-ji-lu/"><i class="fa fa-folder"></i>攝影記錄</a>
+						</div>
 
-    <span class="label">tags</span>     <a href="https://www.hansliu.com/tag/vivitar/"><i class="fa fa-tag"></i>Vivitar</a>
-    <a href="https://www.hansliu.com/tag/lomo/"><i class="fa fa-tag"></i>LOMO</a>
-    <a href="https://www.hansliu.com/tag/di-pian/"><i class="fa fa-tag"></i>底片</a>
+<div class="row index-article-info">
+	<div class="col-2">
+		<img class="index-article-author-image" src="https://www.gravatar.com/avatar/9f7a4464129bd81ca5ac89e8067a5178?s=110" alt="Author's image"></img>
+	</div>
+	<div class="col-10">
+		<span class="index-article-author-name">Hans Liu</span>
+		<br>
+		<span>Apr 04, 2017</span>
+	</div>
+</div>
+					</div>
 
-    <span class="label">comments</span>
-        <a href="https://www.hansliu.com/posts/2017/12/vivitar-tua-tiu-tiann.html#disqus_thread"> Comments</a>
-        <a href="https://www.hansliu.com/posts/2017/12/vivitar-tua-tiu-tiann.html#facebook_thread"><fb:comments-count href="https://www.hansliu.com/posts/2017/12/vivitar-tua-tiu-tiann.html"></fb:comments-count> fb Comments</a>
+				</div>
 
 
-  
-</div><!-- /.post-info -->                  <div class="post-content">
-                    <p class="first last"><a class="reference external" href="https://lh3.googleusercontent.com/7Db6jYthaBu_0wULa-htebs2BQcehjpZpOvPW3Pe9HVbIg9fsfxGH73cwML7PwHKOGJKjrDxXqJWm1VYWqlD-bB1qV1PZ2_pOSsRhFoTBxOk5pAYJRCImgEYLNeVX_G8jk55zi7H4zVcfpTz86MB_gBNgi6VMLxVt5dQg_ownwH2FjX0h7_vgzuqjAGJFtfw_OowPN1SpeoCiNLrE_G0lo6RTx6A5E_jSgIXJp06f2cV8wYdeeISXIErPAkJOC8McKYauRNL6cjUV1cnJ1Dqgk7ixcEpBPk9845SLTxnFlU697m0_3vbYFycUqjxhaF-8t7bnRTbcGAg9gR_uNzDp4ogCTWwYqsb2-gNGYhrvS3sC5Zgx6fxLivlqMP8HoVM1VnNozXudrpplN7pqyfiECYJwwgFJheVHhjQUgoWLL_OXVxMI8PmSAT34XuqHUQ0SJ8SmxlAV38fek0yxjVUcHBpOEoVJ0NI5NoECdtOpmsCcfSHQPUnELq373uVzZaXdbBqZ3pzSIrTMj3Q9xHekb_QOYs4zWS7lpJVDDacmh3tn99qmNM1c6ncvBb45j5v7cS7MBA1x4sqhCPwpNGoEaDypS5d346QJNTDaA-b4tRuQ1cYvXswdxcMsIV9DbnyOeUNtN6Pseof8dFY4-DJHBz1PlL2X5zkHTPS=w1200-h795-no"><img alt="image0" src="https://lh3.googleusercontent.com/7Db6jYthaBu_0wULa-htebs2BQcehjpZpOvPW3Pe9HVbIg9fsfxGH73cwML7PwHKOGJKjrDxXqJWm1VYWqlD-bB1qV1PZ2_pOSsRhFoTBxOk5pAYJRCImgEYLNeVX_G8jk55zi7H4zVcfpTz86MB_gBNgi6VMLxVt5dQg_ownwH2FjX0h7_vgzuqjAGJFtfw_OowPN1SpeoCiNLrE_G0lo6RTx6A5E_jSgIXJp06f2cV8wYdeeISXIErPAkJOC8McKYauRNL6cjUV1cnJ1Dqgk7ixcEpBPk9845SLTxnFlU697m0_3vbYFycUqjxhaF-8t7bnRTbcGAg9gR_uNzDp4ogCTWwYqsb2-gNGYhrvS3sC5Zgx6fxLivlqMP8HoVM1VnNozXudrpplN7pqyfiECYJwwgFJheVHhjQUgoWLL_OXVxMI8PmSAT34XuqHUQ0SJ8SmxlAV38fek0yxjVUcHBpOEoVJ0NI5NoECdtOpmsCcfSHQPUnELq373uVzZaXdbBqZ3pzSIrTMj3Q9xHekb_QOYs4zWS7lpJVDDacmh3tn99qmNM1c6ncvBb45j5v7cS7MBA1x4sqhCPwpNGoEaDypS5d346QJNTDaA-b4tRuQ1cYvXswdxcMsIV9DbnyOeUNtN6Pseof8dFY4-DJHBz1PlL2X5zkHTPS=w1200-h795-no" /></a></p>
+					<div class="row">
 
-                  </div>
-                  <p class="readmore">
-                    <a href="https://www.hansliu.com/posts/2017/12/vivitar-tua-tiu-tiann.html">Continue reading <i class="fa fa-angle-double-right"></i></a>
-                  </p>
-                </div>
-              </article>
-            </li>
-            <li>
-              <article>
-                <div class="content-wrap">
-                  <h1 class="post-title">
-                    <a href="https://www.hansliu.com/posts/2017/08/cosplay-how-to-raise-a-boring-girlfriend-megumi.html" rel="bookmark" title="Permalink to Cosplay《不起眼女主角培育法》加藤惠">
-                    Cosplay《不起眼女主角培育法》加藤惠
-                    </a>
-                  </h1>
-<div class="post-info">
-  <!--
-  <span class="vcard author">
-    by <a class="url fn" href="https://www.hansliu.com/author/hans-liu.html">Hans Liu</a>
-  </span>
-  -->
-  <span class="vcard author">
-    Hans Liu
-  </span>
+					<div class="col-12 col-sm-6">
+						<div class="index-article">
 
-  on 2017-08-17
+							<h2><a href="https://www.hansliu.com/posts/2017/03/2016-travel-okinawa.html">2016沖繩の秋</a></h2>
 
-    <span class="label">category</span>
-    <a href="https://www.hansliu.com/category/jiao-se-ban-yan/"><i class="fa fa-folder"></i>角色扮演</a>
+							<div class="index-article-content">
+								<p class="first last"><a class="reference external" href="https://lh3.googleusercontent.com/dqTALLpT4HyuaqGmu8Dtah5GT5SD4CiGE5W26PsQ43693MUaoyYsgODuDcpiA-3RvFJJgwK8ANo0UFsIXwNisKy-ohFNEjJiKdzFQ62W5brbJ2f7aKInrNe8lXRKBCtFhpEri5XQCnKRkYAHS-k1TftG6vlft_D2eyK5DVLBxt9LsXrHOAJ11Wvg76ecvUBzI1uJH5JBSUtz0Tnc4XIrrMR9eV4vwt69YOmtK1jmqyU2AwRRi9CtEYMgyzK4Nuseo7Qnf90caOEjSUCJhU1ykqyIn-CJtYpWmnJjuZZAwZxPUWTBscJF9IQP3BclbpxYWEsVfyj-fLUzlX95cgQwSdqsZjXW-IwL28VbUgK7j7Zdh0bR5Kk7dqK0uK64cVhAW3XGyFi8UKm8oCf6DirfsFaClJlN62AfihUD9iqoHj5t1R2vTPGEcaCrFLWLqevXWcVKtYyn1peEvw9atdqKLJPARUzDMSx5GzAjLxesbcOrw2FIg_-Stz_WRvCPWwbR-W0voh86WHbIYQuib1Fcf5YiNHPlun6z27xUkcvcWiSaNNznGltsuNxuyHS6Nh9U5lqsNk1F0b-HJoVi6VtW76ayMKQGTSnb1fYZMu0V1ZM4mbCbEsJT78BSsQQoY9NtZdJt-r743KdUJcZ6ud50wjOEsJ3nu7OGLzAuM7WoQ98=w1200-h799-no"><img alt="image16" src="https://lh3.googleusercontent.com/dqTALLpT4HyuaqGmu8Dtah5GT5SD4CiGE5W26PsQ43693MUaoyYsgODuDcpiA-3RvFJJgwK8ANo0UFsIXwNisKy-ohFNEjJiKdzFQ62W5brbJ2f7aKInrNe8lXRKBCtFhpEri5XQCnKRkYAHS-k1TftG6vlft_D2eyK5DVLBxt9LsXrHOAJ11Wvg76ecvUBzI1uJH5JBSUtz0Tnc4XIrrMR9eV4vwt69YOmtK1jmqyU2AwRRi9CtEYMgyzK4Nuseo7Qnf90caOEjSUCJhU1ykqyIn-CJtYpWmnJjuZZAwZxPUWTBscJF9IQP3BclbpxYWEsVfyj-fLUzlX95cgQwSdqsZjXW-IwL28VbUgK7j7Zdh0bR5Kk7dqK0uK64cVhAW3XGyFi8UKm8oCf6DirfsFaClJlN62AfihUD9iqoHj5t1R2vTPGEcaCrFLWLqevXWcVKtYyn1peEvw9atdqKLJPARUzDMSx5GzAjLxesbcOrw2FIg_-Stz_WRvCPWwbR-W0voh86WHbIYQuib1Fcf5YiNHPlun6z27xUkcvcWiSaNNznGltsuNxuyHS6Nh9U5lqsNk1F0b-HJoVi6VtW76ayMKQGTSnb1fYZMu0V1ZM4mbCbEsJT78BSsQQoY9NtZdJt-r743KdUJcZ6ud50wjOEsJ3nu7OGLzAuM7WoQ98=w1200-h799-no" /></a></p>
 
-    <span class="label">tags</span>     <a href="https://www.hansliu.com/tag/olympus-dslr/"><i class="fa fa-tag"></i>Olympus DSLR</a>
-    <a href="https://www.hansliu.com/tag/bu-qi-yan-nu-zhu-jiao-pei-yu-fa/"><i class="fa fa-tag"></i>不起眼女主角培育法</a>
+							</div>
 
-    <span class="label">comments</span>
-        <a href="https://www.hansliu.com/posts/2017/08/cosplay-how-to-raise-a-boring-girlfriend-megumi.html#disqus_thread"> Comments</a>
-        <a href="https://www.hansliu.com/posts/2017/08/cosplay-how-to-raise-a-boring-girlfriend-megumi.html#facebook_thread"><fb:comments-count href="https://www.hansliu.com/posts/2017/08/cosplay-how-to-raise-a-boring-girlfriend-megumi.html"></fb:comments-count> fb Comments</a>
+<div class="row index-article-info">
+	<div class="col-2">
+		<img class="index-article-author-image" src="https://www.gravatar.com/avatar/9f7a4464129bd81ca5ac89e8067a5178?s=110" alt="Author's image"></img>
+	</div>
+	<div class="col-10">
+		<span class="index-article-author-name">Hans Liu</span>
+		<br>
+		<span>Mar 21, 2017</span>
+	</div>
+</div>
+						</div>
+					</div>
 
 
-  
-</div><!-- /.post-info -->                  <div class="post-content">
-                    <p class="first last"><a class="reference external" href="https://lh3.googleusercontent.com/zufxI4WYtwKSsaYTw1-PM5e6Q7ZSVH0I5Wj8qEIfDz_U8z6frtMzKggfkJ93xwHD7T8RKDPysIatx8gcB8EEWH3j41MzsSwPZCAHqkW34xlyPnbl8qhQtd1y_8_5vrtVIWkNR6hxyodqvESYIBH_TEwG8kg9bkLJU-AraXlkSJu7qLmRBL-jjYOceGyPbLB1fVP1NJIEri9ArCnjX_Fnjxs1vKxmTffd9UJdS3-x750XzVSqOLMFZQNevI9BsIpEchQsR4vGrs88NYluidwnXrydupZU1lD6sYs3Cb3E4_qQT6Kt5DvfxwIZB3YjRemMdnneeoacqJ6hCrbEXvdf0T_88T-oiHFVDfx49iOQez9qFoIQ4TtD3sbKbd4t-5cjWjLSNBSPd3zul6J7XXZqsU1rcCrVpXuRAeQU_pvhVX_t6OQa_NxXteAvP1ijukAnBgarppKSfSlTsTLUY4cgbEyCSvVTS9w1Gv1Yr96Z46fK9MdauHlwwngR0unBgNC6GgaZbFPtiREr-_LCSnRHXxtZ-oldLHUywmj-VdAOfXbpA7nFxL3OdVxJInA0UznKZfUyAPPhdB0i_SwO1l-3anE7BMn5e0LRXucfwsYEqJoCKhdBaVmfiHzF-1uOJ3Whik3hAwkuUY6b7v6daU1G1u157ZaFgbr8QI4Hg0BuRY_3cJ4=w1200-h800-no"><img alt="image8" src="https://lh3.googleusercontent.com/zufxI4WYtwKSsaYTw1-PM5e6Q7ZSVH0I5Wj8qEIfDz_U8z6frtMzKggfkJ93xwHD7T8RKDPysIatx8gcB8EEWH3j41MzsSwPZCAHqkW34xlyPnbl8qhQtd1y_8_5vrtVIWkNR6hxyodqvESYIBH_TEwG8kg9bkLJU-AraXlkSJu7qLmRBL-jjYOceGyPbLB1fVP1NJIEri9ArCnjX_Fnjxs1vKxmTffd9UJdS3-x750XzVSqOLMFZQNevI9BsIpEchQsR4vGrs88NYluidwnXrydupZU1lD6sYs3Cb3E4_qQT6Kt5DvfxwIZB3YjRemMdnneeoacqJ6hCrbEXvdf0T_88T-oiHFVDfx49iOQez9qFoIQ4TtD3sbKbd4t-5cjWjLSNBSPd3zul6J7XXZqsU1rcCrVpXuRAeQU_pvhVX_t6OQa_NxXteAvP1ijukAnBgarppKSfSlTsTLUY4cgbEyCSvVTS9w1Gv1Yr96Z46fK9MdauHlwwngR0unBgNC6GgaZbFPtiREr-_LCSnRHXxtZ-oldLHUywmj-VdAOfXbpA7nFxL3OdVxJInA0UznKZfUyAPPhdB0i_SwO1l-3anE7BMn5e0LRXucfwsYEqJoCKhdBaVmfiHzF-1uOJ3Whik3hAwkuUY6b7v6daU1G1u157ZaFgbr8QI4Hg0BuRY_3cJ4=w1200-h800-no" /></a></p>
-
-                  </div>
-                  <p class="readmore">
-                    <a href="https://www.hansliu.com/posts/2017/08/cosplay-how-to-raise-a-boring-girlfriend-megumi.html">Continue reading <i class="fa fa-angle-double-right"></i></a>
-                  </p>
-                </div>
-              </article>
-            </li>
-            <li>
-              <article>
-                <div class="content-wrap">
-                  <h1 class="post-title">
-                    <a href="https://www.hansliu.com/posts/2017/07/portrait-liz.html" rel="bookmark" title="Permalink to 點點‧林安泰古厝">
-                    點點‧林安泰古厝
-                    </a>
-                  </h1>
-<div class="post-info">
-  <!--
-  <span class="vcard author">
-    by <a class="url fn" href="https://www.hansliu.com/author/hans-liu.html">Hans Liu</a>
-  </span>
-  -->
-  <span class="vcard author">
-    Hans Liu
-  </span>
-
-  on 2017-07-31
-
-    <span class="label">category</span>
-    <a href="https://www.hansliu.com/category/ren-xiang-she-ying/"><i class="fa fa-folder"></i>人像攝影</a>
-
-    <span class="label">tags</span>     <a href="https://www.hansliu.com/tag/olympus-dslr/"><i class="fa fa-tag"></i>Olympus DSLR</a>
-    <a href="https://www.hansliu.com/tag/portrait/"><i class="fa fa-tag"></i>Portrait</a>
-
-    <span class="label">comments</span>
-        <a href="https://www.hansliu.com/posts/2017/07/portrait-liz.html#disqus_thread"> Comments</a>
-        <a href="https://www.hansliu.com/posts/2017/07/portrait-liz.html#facebook_thread"><fb:comments-count href="https://www.hansliu.com/posts/2017/07/portrait-liz.html"></fb:comments-count> fb Comments</a>
 
 
-  
-</div><!-- /.post-info -->                  <div class="post-content">
-                    <p class="first last"><a class="reference external" href="https://lh3.googleusercontent.com/8Mu9kdzoko40xXYyC6gSZ7JRyh6W56jDyQCYYZPuZh1c9jQVeol3FowxQcMiaKuGM_4-ITAnjXSF7fMTFCul2LKt_TE6_1A8n6tZQtXCdmFTZG0bUwpNWH3igXJiZZUqFAsV8iUm6iFmv1TeaZbbXIuzGtUQf8WNvycvnfb-XM8waU6aHvHMid7QypQ9kBwtZOQDjnpOX6ccvzf5O3iY3Ie3q46nVs8SshDr5lKWW4AIoLtGxCzNg_SpvlGfKDH8VzVdcGhfSbllF_tjYMpT26Z9d5A2adjM9zuVcuUphimU4bykT18RnStW-YWhpql2XV0LyyH5NW86lKuRT-C0KSEJTT1MAf0RSeC3jul6Y8oqSUE-KIWJZ8HwAjF1SDzmLTkt0als7XAnGDM2NAi120MPwamJzAwSid6koZ4hlDsc_PsFkCmG5rGF8a-RcPmDr1qy7mjKdUhq5AJON5H9d8q0EBfib0mkzsNZl0XVxkyrAdF0Asg05-o-X4mvlvnNE1tN6MdwiMgt-JuApZ-a1ejJwuxMKbKI51QABSKmv3m-GTG13u7_GooPutxpXiGJGW_hgcSTbT8DbhOe2-f9lm4_hQHQ6MpDhh7gLkv_sLfqmqWxJJhMUni8LvXwfXWY6oomuTmyH_6SFWUXX-RjV2--Jd7G_imi0NoCyYXlOW8mhS8=w1200-h800-no"><img alt="image1" src="https://lh3.googleusercontent.com/8Mu9kdzoko40xXYyC6gSZ7JRyh6W56jDyQCYYZPuZh1c9jQVeol3FowxQcMiaKuGM_4-ITAnjXSF7fMTFCul2LKt_TE6_1A8n6tZQtXCdmFTZG0bUwpNWH3igXJiZZUqFAsV8iUm6iFmv1TeaZbbXIuzGtUQf8WNvycvnfb-XM8waU6aHvHMid7QypQ9kBwtZOQDjnpOX6ccvzf5O3iY3Ie3q46nVs8SshDr5lKWW4AIoLtGxCzNg_SpvlGfKDH8VzVdcGhfSbllF_tjYMpT26Z9d5A2adjM9zuVcuUphimU4bykT18RnStW-YWhpql2XV0LyyH5NW86lKuRT-C0KSEJTT1MAf0RSeC3jul6Y8oqSUE-KIWJZ8HwAjF1SDzmLTkt0als7XAnGDM2NAi120MPwamJzAwSid6koZ4hlDsc_PsFkCmG5rGF8a-RcPmDr1qy7mjKdUhq5AJON5H9d8q0EBfib0mkzsNZl0XVxkyrAdF0Asg05-o-X4mvlvnNE1tN6MdwiMgt-JuApZ-a1ejJwuxMKbKI51QABSKmv3m-GTG13u7_GooPutxpXiGJGW_hgcSTbT8DbhOe2-f9lm4_hQHQ6MpDhh7gLkv_sLfqmqWxJJhMUni8LvXwfXWY6oomuTmyH_6SFWUXX-RjV2--Jd7G_imi0NoCyYXlOW8mhS8=w1200-h800-no" /></a></p>
 
-                  </div>
-                  <p class="readmore">
-                    <a href="https://www.hansliu.com/posts/2017/07/portrait-liz.html">Continue reading <i class="fa fa-angle-double-right"></i></a>
-                  </p>
-                </div>
-              </article>
-            </li>
-            <li>
-              <article>
-                <div class="content-wrap">
-                  <h1 class="post-title">
-                    <a href="https://www.hansliu.com/posts/2017/07/2017-tfam-museum.html" rel="bookmark" title="Permalink to 2017供霧所">
-                    2017供霧所
-                    </a>
-                  </h1>
-<div class="post-info">
-  <!--
-  <span class="vcard author">
-    by <a class="url fn" href="https://www.hansliu.com/author/hans-liu.html">Hans Liu</a>
-  </span>
-  -->
-  <span class="vcard author">
-    Hans Liu
-  </span>
+					<div class="col-12 col-sm-6">
+						<div class="index-article">
 
-  on 2017-07-31
+							<h2><a href="https://www.hansliu.com/posts/2017/02/vivitar-snow-hokuriku.html">Vivitar 雪之北陸</a></h2>
 
-    <span class="label">category</span>
-    <a href="https://www.hansliu.com/category/she-ying-ji-lu/"><i class="fa fa-folder"></i>攝影記錄</a>
+							<div class="index-article-content">
+								<p class="first last"><a class="reference external" href="https://lh3.googleusercontent.com/DTS3nlsJPzrYtgIiQFhZ1bXMjX8xh7QS0hcTzE32Si1IX3dZV8heL8qDFb62kme0WbIvlIm2sCmjM94pPGgXJM-LgQlQguZYzFYMheGHvb6RIe2CAgjUknoPt4_CQjoF2WNvSEJKMu5zpa9ktN9fJh43E4nbob9eIGuRAqFdZIFSQKCDml7m7UO6-k5QykUu_RGQdtCNfiOYZ3VT9x2LByS4a0CxirF0yrOhzHKRnB3PC6woJ3v2h1cWtRI0BsTInyA-SRC3pMT9nlttK10aGlF8hBugmWkRaHtEsmNee6bewNAHKdmzaqiI0cedTW9iH_LdVi_QA2vxDnvG6jI6fu8txtC4l0rsoHk5gFdHK7hdmnTtZY1wfYqrU4_XYn53ckvbw0Yi_Rjz5vMopau5oP76YY0EntfAZgXt85F8KvrJuGectSISReMEetnYcqCsRQ8EErKiIBq03mrQvWgN5z0yVV0BijWpsZ1aq4ntDYFOgjtg6weorkgM3RzIKNa2e1rj3u-AHEimatve9WRG6IUW0MFQLDJXxhyeMgMWDw9YDUL4xBfOfJtpN_qUJcoox0c7sFaWSjh_MxpE2-zdBqA1VCG-8JapM6c1OqqEJlPtdM1lO6-Xpb2Na4hFHwjfLUfdjM_mgz9GkEVN8wnPe_ygXsUKv6jPQRUaDrt941s=w1200-h795-no"><img alt="image0" src="https://lh3.googleusercontent.com/DTS3nlsJPzrYtgIiQFhZ1bXMjX8xh7QS0hcTzE32Si1IX3dZV8heL8qDFb62kme0WbIvlIm2sCmjM94pPGgXJM-LgQlQguZYzFYMheGHvb6RIe2CAgjUknoPt4_CQjoF2WNvSEJKMu5zpa9ktN9fJh43E4nbob9eIGuRAqFdZIFSQKCDml7m7UO6-k5QykUu_RGQdtCNfiOYZ3VT9x2LByS4a0CxirF0yrOhzHKRnB3PC6woJ3v2h1cWtRI0BsTInyA-SRC3pMT9nlttK10aGlF8hBugmWkRaHtEsmNee6bewNAHKdmzaqiI0cedTW9iH_LdVi_QA2vxDnvG6jI6fu8txtC4l0rsoHk5gFdHK7hdmnTtZY1wfYqrU4_XYn53ckvbw0Yi_Rjz5vMopau5oP76YY0EntfAZgXt85F8KvrJuGectSISReMEetnYcqCsRQ8EErKiIBq03mrQvWgN5z0yVV0BijWpsZ1aq4ntDYFOgjtg6weorkgM3RzIKNa2e1rj3u-AHEimatve9WRG6IUW0MFQLDJXxhyeMgMWDw9YDUL4xBfOfJtpN_qUJcoox0c7sFaWSjh_MxpE2-zdBqA1VCG-8JapM6c1OqqEJlPtdM1lO6-Xpb2Na4hFHwjfLUfdjM_mgz9GkEVN8wnPe_ygXsUKv6jPQRUaDrt941s=w1200-h795-no" /></a></p>
 
-    <span class="label">tags</span>     <a href="https://www.hansliu.com/tag/tai-bei/"><i class="fa fa-tag"></i>台北</a>
-    <a href="https://www.hansliu.com/tag/tai-bei-shi-li-mei-shu-guan/"><i class="fa fa-tag"></i>臺北市立美術館</a>
-    <a href="https://www.hansliu.com/tag/gong-wu-suo/"><i class="fa fa-tag"></i>供霧所</a>
+							</div>
 
-    <span class="label">comments</span>
-        <a href="https://www.hansliu.com/posts/2017/07/2017-tfam-museum.html#disqus_thread"> Comments</a>
-        <a href="https://www.hansliu.com/posts/2017/07/2017-tfam-museum.html#facebook_thread"><fb:comments-count href="https://www.hansliu.com/posts/2017/07/2017-tfam-museum.html"></fb:comments-count> fb Comments</a>
+<div class="row index-article-info">
+	<div class="col-2">
+		<img class="index-article-author-image" src="https://www.gravatar.com/avatar/9f7a4464129bd81ca5ac89e8067a5178?s=110" alt="Author's image"></img>
+	</div>
+	<div class="col-10">
+		<span class="index-article-author-name">Hans Liu</span>
+		<br>
+		<span>Feb 19, 2017</span>
+	</div>
+</div>
+						</div>
+					</div>
+
+					</div>
 
 
-  
-</div><!-- /.post-info -->                  <div class="post-content">
-                    <p class="first last"><a class="reference external" href="https://lh3.googleusercontent.com/9roDdXa-biEejRUQSnU12DBDOG-HF1ctZUYtXU4rFLuEFmybW0Ht-0NXzDVJc_shHJ0zZsbEnwCjnMTTbkWSmZB1nrlzyPsdZqzPQHHIRdtz4dHqsA4K4FVkN40yeVIV-ZHN7sEewYYM9iH6ROTbeeWKZr-ISNAw8eKs0Ecly2Viv7YDEzgj0ontBvIZMZHILvqcCVCJtCluxwy6MuVZ19CZXOPV28a89VxlcbxM-bGlS4jq2_iqv7vSUccy2Y2-hKxHaX8x_aDnxQytDZhUjBt64hgnSXDxhH8FfdvHY667Sl9oqoQa6qy2xYErSwaopBwhXpRZD489kesZUeviJ96abKGnStfg1egVNCDIxEPDBVxrLAbzFdQ_cFpOWc2MEvqEKmNavdmIYwF_UW1ATpDzqgx25GUdvNIgnXbOpJyBWUAEUupouHVE2_B-xywfilHzMqqe4xaZYKE86evvuh0gveaMtgABRYcfw69ibynnZySEatDhkMbhOJS7Z81oNbC_aD6ANXjNBx1oMLlUGUnGCW1EMg7dBCglZ13wPE4RT4lIcnKp8cnaXntpjpbsy-CCtuGZhFWzTHeg33oXPpaBdw1X8iYWz8Jl5usDDPZpFdJClax0_FeN20oLRQf1G6A-6A78xVR7hpsKH03r03pbXglBTzb1GAOV9Iix6P90gCQ=w1200-h800-no"><img alt="image0" src="https://lh3.googleusercontent.com/9roDdXa-biEejRUQSnU12DBDOG-HF1ctZUYtXU4rFLuEFmybW0Ht-0NXzDVJc_shHJ0zZsbEnwCjnMTTbkWSmZB1nrlzyPsdZqzPQHHIRdtz4dHqsA4K4FVkN40yeVIV-ZHN7sEewYYM9iH6ROTbeeWKZr-ISNAw8eKs0Ecly2Viv7YDEzgj0ontBvIZMZHILvqcCVCJtCluxwy6MuVZ19CZXOPV28a89VxlcbxM-bGlS4jq2_iqv7vSUccy2Y2-hKxHaX8x_aDnxQytDZhUjBt64hgnSXDxhH8FfdvHY667Sl9oqoQa6qy2xYErSwaopBwhXpRZD489kesZUeviJ96abKGnStfg1egVNCDIxEPDBVxrLAbzFdQ_cFpOWc2MEvqEKmNavdmIYwF_UW1ATpDzqgx25GUdvNIgnXbOpJyBWUAEUupouHVE2_B-xywfilHzMqqe4xaZYKE86evvuh0gveaMtgABRYcfw69ibynnZySEatDhkMbhOJS7Z81oNbC_aD6ANXjNBx1oMLlUGUnGCW1EMg7dBCglZ13wPE4RT4lIcnKp8cnaXntpjpbsy-CCtuGZhFWzTHeg33oXPpaBdw1X8iYWz8Jl5usDDPZpFdJClax0_FeN20oLRQf1G6A-6A78xVR7hpsKH03r03pbXglBTzb1GAOV9Iix6P90gCQ=w1200-h800-no" /></a></p>
 
-                  </div>
-                  <p class="readmore">
-                    <a href="https://www.hansliu.com/posts/2017/07/2017-tfam-museum.html">Continue reading <i class="fa fa-angle-double-right"></i></a>
-                  </p>
-                </div>
-              </article>
-            </li>
-            <li>
-              <article>
-                <div class="content-wrap">
-                  <h1 class="post-title">
-                    <a href="https://www.hansliu.com/posts/2017/07/2017-travel-takayama.html" rel="bookmark" title="Permalink to 2017高山の冬">
-                    2017高山の冬
-                    </a>
-                  </h1>
-<div class="post-info">
-  <!--
-  <span class="vcard author">
-    by <a class="url fn" href="https://www.hansliu.com/author/hans-liu.html">Hans Liu</a>
-  </span>
-  -->
-  <span class="vcard author">
-    Hans Liu
-  </span>
+					<div class="row">
 
-  on 2017-07-01
+					<div class="col-12 col-lg-4">
+						<div class="index-article">
 
-    <span class="label">category</span>
-    <a href="https://www.hansliu.com/category/she-ying-ji-lu/"><i class="fa fa-folder"></i>攝影記錄</a>
+							<h2><a href="https://www.hansliu.com/posts/2017/01/portrait-polly.html">嘻嘻‧紀州庵</a></h2>
 
-    <span class="label">tags</span>     <a href="https://www.hansliu.com/tag/ri-ben/"><i class="fa fa-tag"></i>日本</a>
-    <a href="https://www.hansliu.com/tag/gao-shan/"><i class="fa fa-tag"></i>高山</a>
+							<div class="index-article-content">
+								<p class="first last"><a class="reference external" href="https://lh3.googleusercontent.com/_WVNgvXHsCXIdDJpTLmcdY4a47_i-cD5psqd8-6JlUHtfL16036-6kOCzE6kOeMf3NdIZUdmtcI-nCvOllQrodWfTlbH0T0ex19ASG2nD2SVFHjDGBVFGVW9YQWI-uc1jH3aiwfIKXpYoPF0P8j5ySzpEOiEgzlKa8cTmaJ5N5Ds4pQOveBAaZdfl3jWVFNNmwsVdl8FAy8K3KFexdC3ErNvoWiM35-V9Yg89TxmMMel6wFq7YnIdKtfZoTvrZeS5JVqoUvly-eK-7t4vyS1B97iOUNTAt4wPNvStUCCHfrR6o5sTTBn6cllur102qUYMYBdhYIsUPYwVK_auEdjmHDkHuqIqAeu6kGftuIoWh-8z7ow9c_aq3xsnaE8Bo5jljGfwRjzX1NBeon3R3IrswzkwXLOtOiACkDzBr6I7XdCGJ2HY1iVlG1cGOClUBNLMo34TzrARIKMoHXSRQPfv1MvniNv7MJj6K3_k9oZSte7JO4zlad1ljn9RmNEfzXl4Gym_NYGvit4YZjVKyGOo6DMk31ATAzLfxWPkGgRzWS7elLcp0ghDk2MuV9F9DMUNdDKksAns_j1Epe0tz7eCbMML2jz3CBgKW-nDmAv3Xms5oK9pmyT7w=w1200-h800-no"><img alt="image0" src="https://lh3.googleusercontent.com/_WVNgvXHsCXIdDJpTLmcdY4a47_i-cD5psqd8-6JlUHtfL16036-6kOCzE6kOeMf3NdIZUdmtcI-nCvOllQrodWfTlbH0T0ex19ASG2nD2SVFHjDGBVFGVW9YQWI-uc1jH3aiwfIKXpYoPF0P8j5ySzpEOiEgzlKa8cTmaJ5N5Ds4pQOveBAaZdfl3jWVFNNmwsVdl8FAy8K3KFexdC3ErNvoWiM35-V9Yg89TxmMMel6wFq7YnIdKtfZoTvrZeS5JVqoUvly-eK-7t4vyS1B97iOUNTAt4wPNvStUCCHfrR6o5sTTBn6cllur102qUYMYBdhYIsUPYwVK_auEdjmHDkHuqIqAeu6kGftuIoWh-8z7ow9c_aq3xsnaE8Bo5jljGfwRjzX1NBeon3R3IrswzkwXLOtOiACkDzBr6I7XdCGJ2HY1iVlG1cGOClUBNLMo34TzrARIKMoHXSRQPfv1MvniNv7MJj6K3_k9oZSte7JO4zlad1ljn9RmNEfzXl4Gym_NYGvit4YZjVKyGOo6DMk31ATAzLfxWPkGgRzWS7elLcp0ghDk2MuV9F9DMUNdDKksAns_j1Epe0tz7eCbMML2jz3CBgKW-nDmAv3Xms5oK9pmyT7w=w1200-h800-no" /></a></p>
 
-    <span class="label">comments</span>
-        <a href="https://www.hansliu.com/posts/2017/07/2017-travel-takayama.html#disqus_thread"> Comments</a>
-        <a href="https://www.hansliu.com/posts/2017/07/2017-travel-takayama.html#facebook_thread"><fb:comments-count href="https://www.hansliu.com/posts/2017/07/2017-travel-takayama.html"></fb:comments-count> fb Comments</a>
+							</div>
+
+<div class="row index-article-info">
+	<div class="col-2">
+		<img class="index-article-author-image" src="https://www.gravatar.com/avatar/9f7a4464129bd81ca5ac89e8067a5178?s=110" alt="Author's image"></img>
+	</div>
+	<div class="col-10">
+		<span class="index-article-author-name">Hans Liu</span>
+		<br>
+		<span>Jan 02, 2017</span>
+	</div>
+</div>
+						</div>
+					</div>
 
 
-  
-</div><!-- /.post-info -->                  <div class="post-content">
-                    <p class="first last"><a class="reference external" href="https://lh3.googleusercontent.com/iKzy8RyqzT9iMqwpBrUJSCfVBRi9f1NeUQyfIglUjQfyBIrc3UolG430cB37ShAbpPUfSHVGiI2dHS-4LB20bNl_awHPxYgh5LFctzKHC2IVjx6BIhUcA48gON9EEdt3jSxPujBws9Aow5Yowc26Jx2lD0ZA-h4w9ZFH_zilEJ2b32TlCeVGBQiYTW6ztDh0i4_aXCRD6NpxMzSblA2SAg8-c7jId20UPslAmDLtDFzWVoBKo50-84UgTtveCz-DpBSLsuWIwBpxwMUlnrE1xs2bsTV-TcHM6hLsLP7iHESrsDndRbiOHCGWFE06eyMeZoZidtBeOMmq4pE4eY1ePuTQe7pWlsRJBQYQrdZu28DAcoqJWZkx1cLxDcEkrOY_mNdxrjwRUYdOKlsMerzZ5RsfGz0dedkI7JnnqBidqTndT3wSvWdS-1g8VKhk4I99fsrR6xbyJwPk3K_9ke63UtsL6QXi3WBIhVp3EAp5f4EDTJLuWggEJ7rRAfeQEzrfDyidte1iyIVtekMArz61gbWQUYqMdhiw8vFjKTjBU532Qp0spVLEqXpMKkHxAvoeKQ10x9Sxtvr2fUV1n1mFYbdGgTFZ9ZwZDJBKPjja0f_Q1BZw6EbkAoZStKoKAX12Y73fsluC4PD__7xtxjb-bviwhoJEZNVVlePOZksspRA=w1200-h800-no"><img alt="image5" src="https://lh3.googleusercontent.com/iKzy8RyqzT9iMqwpBrUJSCfVBRi9f1NeUQyfIglUjQfyBIrc3UolG430cB37ShAbpPUfSHVGiI2dHS-4LB20bNl_awHPxYgh5LFctzKHC2IVjx6BIhUcA48gON9EEdt3jSxPujBws9Aow5Yowc26Jx2lD0ZA-h4w9ZFH_zilEJ2b32TlCeVGBQiYTW6ztDh0i4_aXCRD6NpxMzSblA2SAg8-c7jId20UPslAmDLtDFzWVoBKo50-84UgTtveCz-DpBSLsuWIwBpxwMUlnrE1xs2bsTV-TcHM6hLsLP7iHESrsDndRbiOHCGWFE06eyMeZoZidtBeOMmq4pE4eY1ePuTQe7pWlsRJBQYQrdZu28DAcoqJWZkx1cLxDcEkrOY_mNdxrjwRUYdOKlsMerzZ5RsfGz0dedkI7JnnqBidqTndT3wSvWdS-1g8VKhk4I99fsrR6xbyJwPk3K_9ke63UtsL6QXi3WBIhVp3EAp5f4EDTJLuWggEJ7rRAfeQEzrfDyidte1iyIVtekMArz61gbWQUYqMdhiw8vFjKTjBU532Qp0spVLEqXpMKkHxAvoeKQ10x9Sxtvr2fUV1n1mFYbdGgTFZ9ZwZDJBKPjja0f_Q1BZw6EbkAoZStKoKAX12Y73fsluC4PD__7xtxjb-bviwhoJEZNVVlePOZksspRA=w1200-h800-no" /></a></p>
 
-                  </div>
-                  <p class="readmore">
-                    <a href="https://www.hansliu.com/posts/2017/07/2017-travel-takayama.html">Continue reading <i class="fa fa-angle-double-right"></i></a>
-                  </p>
-                </div>
-              </article>
-            </li>
-            </ol><!-- /#posts-list -->
+
+
+					<div class="col-12 col-lg-4">
+						<div class="index-article">
+
+							<h2><a href="https://www.hansliu.com/posts/2016/12/portrait-mia-3.html">米亞‧致夏天的尾巴</a></h2>
+
+							<div class="index-article-content">
+								<p class="first last"><a class="reference external" href="https://lh3.googleusercontent.com/juE7w_rXny_oa_sxALy-wXCcc-6_be_8hoJRylD-J3vAe5TJWpcRytPy8S7ILFzB66M2BVMxNZHu7cZOtK7arYkWSxKdIYPHCVL7PvFN4FUS0Um4nLjvqkL3jU5Hwdv41bU72dOt64m1yIC-rSqJ7RWcT8jIGh_z7VRGZtdw_db8Irvthe3JGdo-vvhNb8JokGtMmmjq_VeQwZnGyNcGHLUqRxHGPpEfy0DgHqrzfpGYX0vSf11coidzHFR4A0xUIH_dJvKoIhTN7rhn4wuIWvDL03Phf3twhnoppAZ1ZWdskqePxt007HtvGlK121SxB9tKQjyAGiIaIxD-52dLDptigPDuXZPNOe9cXjWH75tCd5g-MYuEsaOhUIclU3puFYYDFCG0PRu8BLYXqy_1Mc3P_H9u60bR-AsmYH-96r8H8jOpIkyy9H7R31CAXBvmUBV2Ge15YYQHsAOKiYPLkQjOktQn0LBUU39JC0UMQ5eURzNoNNq0GGguQIpLyJ3fKfFI54XV7epPlfgdsyey9a2jvG4zcSiWx5NztQ7Y19q2gAd0HBg5H39dDyR2YjFSJZBfXXqlKsuxYSbWmCckDPKN3pf3M5WvKH-ZACeGRBBw0oP0P8sEUXEjziTSm5fCLuDGk5O324MbDUOrjalNeWWEoWhbFRvYLqdDRjjImFA=w1200-h800-no"><img alt="image0" src="https://lh3.googleusercontent.com/juE7w_rXny_oa_sxALy-wXCcc-6_be_8hoJRylD-J3vAe5TJWpcRytPy8S7ILFzB66M2BVMxNZHu7cZOtK7arYkWSxKdIYPHCVL7PvFN4FUS0Um4nLjvqkL3jU5Hwdv41bU72dOt64m1yIC-rSqJ7RWcT8jIGh_z7VRGZtdw_db8Irvthe3JGdo-vvhNb8JokGtMmmjq_VeQwZnGyNcGHLUqRxHGPpEfy0DgHqrzfpGYX0vSf11coidzHFR4A0xUIH_dJvKoIhTN7rhn4wuIWvDL03Phf3twhnoppAZ1ZWdskqePxt007HtvGlK121SxB9tKQjyAGiIaIxD-52dLDptigPDuXZPNOe9cXjWH75tCd5g-MYuEsaOhUIclU3puFYYDFCG0PRu8BLYXqy_1Mc3P_H9u60bR-AsmYH-96r8H8jOpIkyy9H7R31CAXBvmUBV2Ge15YYQHsAOKiYPLkQjOktQn0LBUU39JC0UMQ5eURzNoNNq0GGguQIpLyJ3fKfFI54XV7epPlfgdsyey9a2jvG4zcSiWx5NztQ7Y19q2gAd0HBg5H39dDyR2YjFSJZBfXXqlKsuxYSbWmCckDPKN3pf3M5WvKH-ZACeGRBBw0oP0P8sEUXEjziTSm5fCLuDGk5O324MbDUOrjalNeWWEoWhbFRvYLqdDRjjImFA=w1200-h800-no" /></a></p>
+
+							</div>
+
+<div class="row index-article-info">
+	<div class="col-2">
+		<img class="index-article-author-image" src="https://www.gravatar.com/avatar/9f7a4464129bd81ca5ac89e8067a5178?s=110" alt="Author's image"></img>
+	</div>
+	<div class="col-10">
+		<span class="index-article-author-name">Hans Liu</span>
+		<br>
+		<span>Dec 12, 2016</span>
+	</div>
+</div>
+						</div>
+					</div>
+
+
+
+
+
+					<div class="col-12 col-lg-4">
+						<div class="index-article">
+
+							<h2><a href="https://www.hansliu.com/posts/2016/11/2016-travel-iwakuni-and-onomichi.html">2016岩國錦帶橋與尾道千光寺</a></h2>
+
+							<div class="index-article-content">
+								<p class="first last"><a class="reference external" href="https://lh3.googleusercontent.com/7KG0aCyHk5LWoxNCcT93fdvvY6B0sNlKr-Q_9NybztyfklESCpR8c-VnCUmld5imgyJFW9Vnlcn6RqlP-k6N22vWYpNPfzdYtlxKiG3slffhK3Ss-dhZ7oqAdsISXsXQn_GpFdAMZ45ITakxD-loSemVhfPXEOPUCZrGdAL0tcDhR_FEtC4keMhUwr6VUjPNugqLO6q8wuEpcDNBX1zqgPyEIUPjBhYnlZ93eAR0GlFyPTztFzoIAEjbFjITJVnAInPAAZ4g0bAopgL7U1bbT2XsjTS54ZxfMLlprVL91KmX20FpfYo2fBsrBe_vQ_fepitstjq8qZCquCnWZVi0veaZHLlWvfucfQTTDUthGxMiB29qyfljRomdN5mn1IS0oB5_Ih_0ZtjuE6zDY7Y7Wce7jLhKNtQXG12mbpZnWeRMxvEUi761KZA_0jlKBTOACzSM5kUFqNTOV9lH-iRZWrJPHycefB8cbAkg2j8k0cYG22-Q5Kw7HGSkxqL2OrmsdUzfK2nU5EEQOCU8Mx6-aGxKgoCNgMu-UNIBi0dbQBdvKD6qb7eLUNKhzt7drw0UyEWtSPEiRhkoAZDD9hEY3wV2uLoUxWo8iYt9Cc-mSmVe0n2u9AeO-_bnHqhsG3g6Ayx_l4LhcxCzhk07Y861yTUy5xaFMtf6BuFm_PO05-A=w1200-h800-no"><img alt="image0" src="https://lh3.googleusercontent.com/7KG0aCyHk5LWoxNCcT93fdvvY6B0sNlKr-Q_9NybztyfklESCpR8c-VnCUmld5imgyJFW9Vnlcn6RqlP-k6N22vWYpNPfzdYtlxKiG3slffhK3Ss-dhZ7oqAdsISXsXQn_GpFdAMZ45ITakxD-loSemVhfPXEOPUCZrGdAL0tcDhR_FEtC4keMhUwr6VUjPNugqLO6q8wuEpcDNBX1zqgPyEIUPjBhYnlZ93eAR0GlFyPTztFzoIAEjbFjITJVnAInPAAZ4g0bAopgL7U1bbT2XsjTS54ZxfMLlprVL91KmX20FpfYo2fBsrBe_vQ_fepitstjq8qZCquCnWZVi0veaZHLlWvfucfQTTDUthGxMiB29qyfljRomdN5mn1IS0oB5_Ih_0ZtjuE6zDY7Y7Wce7jLhKNtQXG12mbpZnWeRMxvEUi761KZA_0jlKBTOACzSM5kUFqNTOV9lH-iRZWrJPHycefB8cbAkg2j8k0cYG22-Q5Kw7HGSkxqL2OrmsdUzfK2nU5EEQOCU8Mx6-aGxKgoCNgMu-UNIBi0dbQBdvKD6qb7eLUNKhzt7drw0UyEWtSPEiRhkoAZDD9hEY3wV2uLoUxWo8iYt9Cc-mSmVe0n2u9AeO-_bnHqhsG3g6Ayx_l4LhcxCzhk07Y861yTUy5xaFMtf6BuFm_PO05-A=w1200-h800-no" /></a></p>
+
+							</div>
+
+<div class="row index-article-info">
+	<div class="col-2">
+		<img class="index-article-author-image" src="https://www.gravatar.com/avatar/9f7a4464129bd81ca5ac89e8067a5178?s=110" alt="Author's image"></img>
+	</div>
+	<div class="col-10">
+		<span class="index-article-author-name">Hans Liu</span>
+		<br>
+		<span>Nov 28, 2016</span>
+	</div>
+</div>
+						</div>
+					</div>
+
+					</div>
+
+
+
+					<div class="row">
+
+					<div class="col-12 col-lg-4">
+						<div class="index-article">
+
+							<h2><a href="https://www.hansliu.com/posts/2016/11/olympus-mjuii-okinawa-by-agfa-iso-200.html">Olympus mju II 沖繩</a></h2>
+
+							<div class="index-article-content">
+								<p class="first last"><a class="reference external" href="https://lh3.googleusercontent.com/Z4awsrgQjuMqY3JJoYhU6BlHkruau1PhI-ZPMX8hUdvq3iEU9sH6p4IheP09MiDbf56ePJTg9n-6cZ2UjtxvA0092TBMML9V0oBZXBGr8GVtk-CSlAG2OLV-GVESDC3ENb4bp7wsnMWFwpXAbuH_zHJ3-HlypKFg5IH1MPPTod4_ZGJm0cGRnKflfD3FqmevOh89YfDyqUyZ9xd52xR9kZjUMHeyXw1qMGFJ2Kes04N1UuzgYC2u4xSUpDI1tKU5VpKUziWjSHjIFLiAOc6kthqyQ64VGM0PiUQJ5J7pi4r06ePQkwPJ6IsoRMMzrgC5ksEDX_NTzloBbxRgymfWTiU3EQR77hrHNaYlZPZ-6m0taPNhv1XPtwcOnYMtQrq2mhVnfBQuHVle8Y7nuzSZdhWenwyuAb_H59ZagQ7kD9FxbWXdjuph9cnsjsKXQlpCjn_ijUCYZcBAMyrRcPXVJ_OvcPL_zKpFEzOpby02UfJHLOund3CdbhIp8MIP3CZVzNnphZrd4v-wbKPD7o4AXjzN4_mfMavL21n_cVmGxiRBu_GBcSmfPto5lX6-IhDUIVHeHly6dZ6NWGdShboObDj45gjlsM8we4chOChA9SukYLiq7w=w1200-h795-no"><img alt="image19" src="https://lh3.googleusercontent.com/Z4awsrgQjuMqY3JJoYhU6BlHkruau1PhI-ZPMX8hUdvq3iEU9sH6p4IheP09MiDbf56ePJTg9n-6cZ2UjtxvA0092TBMML9V0oBZXBGr8GVtk-CSlAG2OLV-GVESDC3ENb4bp7wsnMWFwpXAbuH_zHJ3-HlypKFg5IH1MPPTod4_ZGJm0cGRnKflfD3FqmevOh89YfDyqUyZ9xd52xR9kZjUMHeyXw1qMGFJ2Kes04N1UuzgYC2u4xSUpDI1tKU5VpKUziWjSHjIFLiAOc6kthqyQ64VGM0PiUQJ5J7pi4r06ePQkwPJ6IsoRMMzrgC5ksEDX_NTzloBbxRgymfWTiU3EQR77hrHNaYlZPZ-6m0taPNhv1XPtwcOnYMtQrq2mhVnfBQuHVle8Y7nuzSZdhWenwyuAb_H59ZagQ7kD9FxbWXdjuph9cnsjsKXQlpCjn_ijUCYZcBAMyrRcPXVJ_OvcPL_zKpFEzOpby02UfJHLOund3CdbhIp8MIP3CZVzNnphZrd4v-wbKPD7o4AXjzN4_mfMavL21n_cVmGxiRBu_GBcSmfPto5lX6-IhDUIVHeHly6dZ6NWGdShboObDj45gjlsM8we4chOChA9SukYLiq7w=w1200-h795-no" /></a></p>
+
+							</div>
+
+<div class="row index-article-info">
+	<div class="col-2">
+		<img class="index-article-author-image" src="https://www.gravatar.com/avatar/9f7a4464129bd81ca5ac89e8067a5178?s=110" alt="Author's image"></img>
+	</div>
+	<div class="col-10">
+		<span class="index-article-author-name">Hans Liu</span>
+		<br>
+		<span>Nov 13, 2016</span>
+	</div>
+</div>
+						</div>
+					</div>
+
+
+
+
+
+					<div class="col-12 col-lg-4">
+						<div class="index-article">
+
+							<h2><a href="https://www.hansliu.com/posts/2016/10/cosplay-lovelive-kotori.html">Cosplay《LoveLive!》南小鳥</a></h2>
+
+							<div class="index-article-content">
+								<p class="first last"><a class="reference external" href="https://lh3.googleusercontent.com/jEsnDTh6eA4ED3FdSiFv0SqquFgfuW23U2O0LbJTyitbPEwPNcopUywJ3iDW4SCmQe1cAgc4xqqgQvkAWdVQEvv3UrRGa6pBHr4jiYO1Ems3s5YdeAJ4scAVG4hH3YF3g0pvoql1Lvmq3veMz-zpZIEPm8Xc1fiRC0BfpaTY78Wcq5rFoU0WIYNAzjCT6aflQO3ATAD-d6tEh-epjobpBoJGu2mHb6GxfI14APNJetjvsWZY36d3dwZTAMUBo8J-f8kNZ7xEnJKsYT1P6fJQJqi47xiMb_J17ONS_1yb4QOi-PgFc8gv2JnZ-6AvCzsEUtVxUPn0Mb5xiXIafbFupv9KSOsnxxoYLJOSrNTiJQOf6K7bfSSkLYU8fnp0aVD25Gw1adA51dYjdR5cSVoKGa_dRkhmk6NXlslrpdwe1JAeOwXfHlY3FKgIa1-87RPinAKkcSwjANC0sxYh4GoOT3JjGabD6iZcaKw8gTlGnQ1YjlSwplFEV5hjV04QxdrccVoud5nghss6y7rukq8JxzXxaRvJHOJbQmRJ3LS6QwJIkO03bp1KQHsc8dEB9VTDqkYaw9xsA_5uOKYke9jwlenUuPVCsSLl9I6JvCV8EVoKQPHHRA=w1200-h800-no"><img alt="image6" src="https://lh3.googleusercontent.com/jEsnDTh6eA4ED3FdSiFv0SqquFgfuW23U2O0LbJTyitbPEwPNcopUywJ3iDW4SCmQe1cAgc4xqqgQvkAWdVQEvv3UrRGa6pBHr4jiYO1Ems3s5YdeAJ4scAVG4hH3YF3g0pvoql1Lvmq3veMz-zpZIEPm8Xc1fiRC0BfpaTY78Wcq5rFoU0WIYNAzjCT6aflQO3ATAD-d6tEh-epjobpBoJGu2mHb6GxfI14APNJetjvsWZY36d3dwZTAMUBo8J-f8kNZ7xEnJKsYT1P6fJQJqi47xiMb_J17ONS_1yb4QOi-PgFc8gv2JnZ-6AvCzsEUtVxUPn0Mb5xiXIafbFupv9KSOsnxxoYLJOSrNTiJQOf6K7bfSSkLYU8fnp0aVD25Gw1adA51dYjdR5cSVoKGa_dRkhmk6NXlslrpdwe1JAeOwXfHlY3FKgIa1-87RPinAKkcSwjANC0sxYh4GoOT3JjGabD6iZcaKw8gTlGnQ1YjlSwplFEV5hjV04QxdrccVoud5nghss6y7rukq8JxzXxaRvJHOJbQmRJ3LS6QwJIkO03bp1KQHsc8dEB9VTDqkYaw9xsA_5uOKYke9jwlenUuPVCsSLl9I6JvCV8EVoKQPHHRA=w1200-h800-no" /></a></p>
+
+							</div>
+
+<div class="row index-article-info">
+	<div class="col-2">
+		<img class="index-article-author-image" src="https://www.gravatar.com/avatar/9f7a4464129bd81ca5ac89e8067a5178?s=110" alt="Author's image"></img>
+	</div>
+	<div class="col-10">
+		<span class="index-article-author-name">Hans Liu</span>
+		<br>
+		<span>Oct 09, 2016</span>
+	</div>
+</div>
+						</div>
+					</div>
+
+
+
+
+
+					<div class="col-12 col-lg-4">
+						<div class="index-article">
+
+							<h2><a href="https://www.hansliu.com/posts/2016/08/comic-world-in-taiwan-43-day-1-2.html">Comic World in Taiwan 43 Day 1-2</a></h2>
+
+							<div class="index-article-content">
+								<p class="first last"><a class="reference external" href="https://lh3.googleusercontent.com/Wp2Trq2lnrtHFGj7YHGVn4a621qdL5UeOwy3Nx0AB8lp66-Ow8ZZJMkqM9LOSR63d9K5m7a2vaIWIAOzVbSH3IiDKkIOmdzj8oE-r6Z_Esn1s-qv3KivTiSU43ss1gHA7-D76caC1qn1qFRk5XPSRjw_pEGgzm8JjUsz9kF0cyX9OzMLuuJQ9kn0Gbd0yJfZ7zd48_wQ8uoLpgRX8Xvpn1BpwjQMg4otNyAuiDLx8WbebCwdKHbOpwZ-CYZSTnsmTUO-q8xexgZrLgqi_vHv6XSbXYPWKme8pG-ztM8RcKgzCr5I0qy_LpoKOMRf7GFDIIOSBSTlj4mJmHAbFycrd7i2ZUPvHSEo0hTUNM5k2whoHzViNWtPMdp2mDAzwhkYLOSkzRQl94tr99X20QplvciHyJxdMvch5Q8MkOGzGFnGBx2E_VXNIjz4qA7smelFBb9FSSNrOlCK1dqqW0Ns9eV09RZAUdX9bCiAOXI9-ODh6LBZEj2oJyXI-SOIOYKGx5Z4WMNjHWJf28qWacVnVtdkd-2BtYfvwKdbzjSQ5xjoRQrn3kQkLUZSmHN159phQfDC0h7SecE_NgeT9pDBl3CeaVa_N_nC=w800-h1200-no"><img alt="image16" src="https://lh3.googleusercontent.com/Wp2Trq2lnrtHFGj7YHGVn4a621qdL5UeOwy3Nx0AB8lp66-Ow8ZZJMkqM9LOSR63d9K5m7a2vaIWIAOzVbSH3IiDKkIOmdzj8oE-r6Z_Esn1s-qv3KivTiSU43ss1gHA7-D76caC1qn1qFRk5XPSRjw_pEGgzm8JjUsz9kF0cyX9OzMLuuJQ9kn0Gbd0yJfZ7zd48_wQ8uoLpgRX8Xvpn1BpwjQMg4otNyAuiDLx8WbebCwdKHbOpwZ-CYZSTnsmTUO-q8xexgZrLgqi_vHv6XSbXYPWKme8pG-ztM8RcKgzCr5I0qy_LpoKOMRf7GFDIIOSBSTlj4mJmHAbFycrd7i2ZUPvHSEo0hTUNM5k2whoHzViNWtPMdp2mDAzwhkYLOSkzRQl94tr99X20QplvciHyJxdMvch5Q8MkOGzGFnGBx2E_VXNIjz4qA7smelFBb9FSSNrOlCK1dqqW0Ns9eV09RZAUdX9bCiAOXI9-ODh6LBZEj2oJyXI-SOIOYKGx5Z4WMNjHWJf28qWacVnVtdkd-2BtYfvwKdbzjSQ5xjoRQrn3kQkLUZSmHN159phQfDC0h7SecE_NgeT9pDBl3CeaVa_N_nC=w800-h1200-no" /></a></p>
+
+							</div>
+
+<div class="row index-article-info">
+	<div class="col-2">
+		<img class="index-article-author-image" src="https://www.gravatar.com/avatar/9f7a4464129bd81ca5ac89e8067a5178?s=110" alt="Author's image"></img>
+	</div>
+	<div class="col-10">
+		<span class="index-article-author-name">Hans Liu</span>
+		<br>
+		<span>Aug 19, 2016</span>
+	</div>
+</div>
+						</div>
+					</div>
+
+					</div>
+
+
+
+		</div>
+
 <!--
 <p class="paginator">
     <a href="https://www.hansliu.com/page/3/">&laquo;</a>
-    Page 4 / 35
+    Page 4 / 23
     <a href="https://www.hansliu.com/page/5/">&raquo;</a>
 </p>
 -->
 <div class="paginator">
   <ul class="pagination">
     <li>
-      <a href="https://www.hansliu.com/page/3/"><i class="fa fa-chevron-circle-left fa-fw fa-lg"></i> Previous</a>
+      <a href="https://www.hansliu.com/page/3/"><i class="fa fa-chevron-circle-left fa-fw fa-lg"></i></a>
     </li>
   <!-- pagination display by PAGINATION_DISPLAY_PAGE -->
           <li>
@@ -394,59 +396,46 @@
           <li>
             <a href="https://www.hansliu.com/page/5/"> 5 </a>
           </li>
-          <li>
-            <a href="https://www.hansliu.com/page/6/"> 6 </a>
-          </li>
-          <li>
-            <a href="https://www.hansliu.com/page/7/"> 7 </a>
-          </li>
-          <li>
-            <a href="https://www.hansliu.com/page/8/"> 8 </a>
-          </li>
-          <li>
-            <a href="https://www.hansliu.com/page/9/"> 9 </a>
-          </li>
-          <li>
-            <a href="https://www.hansliu.com/page/10/"> 10 </a>
-          </li>
   <!-- /.pagination display by PAGINATION_DISPLAY_PAGE -->
     <li>
-      <a href="https://www.hansliu.com/page/5/">Next <i class="fa fa-chevron-circle-right fa-fw fa-lg"></i></a>
+      <a href="https://www.hansliu.com/page/5/"><i class="fa fa-chevron-circle-right fa-fw fa-lg"></i></a>
     </li>
 </div>
-          </section><!-- /#content -->
-</div>
+	</div><!-- /.content-wrap -->
+</section>
 
       <section>
-        <footer id="footer">
-          <div class="content-wrap">
-            <span class="copyrights">Copyrights © 2020 Hans Liu. All Rights Reserved.</span>
-          </div>
-        </footer>
-      </section>
+				<div class="content-wrap">
+					<footer id="footer">
+						<div class="links">
+								<a href="https://www.hansliu.com/pages/tos.html">Terms</a>
+								<a href="https://www.hansliu.com/pages/privacy.html">Privacy</a>
+								<a href="https://getpelican.com/" target="_blank">Pelican</a>
+								<a href="https://jinja.pocoo.org/" target="_blank">Jinja2</a>
+								<a href="https://favicon.io/" target="_blank">Favicon</a>
+								<a href="https://www.flaticon.com/" target="_blank">Flaticon</a>
+						</div><!-- /.Links -->
+						<span class="copyrights">Copyrights © 2020 Hans Liu. All Rights Reserved.</span>
+					</footer>
+				</div>
+			</section>
 
-    </div>
-    <!--
-    -->
+		</div>
 
   </div>
 
   <div id="cover" style="background-image:url('https://www.hansliu.com/theme/images/cover.jpg');"></div>
 
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+		integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"
+		integrity="sha512-jNDtFf7qgU0eH/+Z42FG4fw3w7DM/9zbgNPe3wfJlCylVDTT3IgKW5r92Vy9IHa6U50vyMz5gRByIu4YIXFtaQ=="
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"
+		integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w=="
+		crossorigin="anonymous"></script>
 
-  ga('create', 'UA-49957360-1', 'www.hansliu.com');
-  ga('send', 'pageview');
-</script>
-  <script src="https://code.jquery.com/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
-  <!-- Latest compiled and minified JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  <script src="https://www.hansliu.com/theme/js/main.js?v=20200225084925"></script>
+  <script src="https://www.hansliu.com/theme/js/main.js?v=20200912172258"></script>
 </body>
 </html>
