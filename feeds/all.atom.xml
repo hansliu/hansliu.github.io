@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Hans Blog</title><link href="https://hansliu.com/" rel="alternate"></link><link href="https://hansliu.com/feeds/all.atom.xml" rel="self"></link><id>https://hansliu.com/</id><updated>2020-09-15T01:00:00+08:00</updated><subtitle>life, photo, code</subtitle><entry><title>2020面試心得</title><link href="https://hansliu.com/posts/2020/09/2020-interview-review.html" rel="alternate"></link><published>2020-09-15T01:00:00+08:00</published><updated>2020-09-15T01:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:hansliu.com,2020-09-15:/posts/2020/09/2020-interview-review.html</id><summary type="html">&lt;p&gt;面試心得是我個人主觀的感想，並不代表公司本身真實的情況，有關面試的內容我會透過條列式的方式呈現，同時根據時空背景不同，我想每個人的面試情形也會有所不同，所以一切心得僅供參考。&lt;/p&gt;</summary><content type="html">&lt;ol&gt;
-&lt;li&gt;&lt;a href="#前言 (重要)"&gt;前言 (重要)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#面試心得"&gt;面試心得&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#後記"&gt;後記&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2&gt;前言 (重要)&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Hans Blog</title><link href="https://hansliu.com/" rel="alternate"></link><link href="https://hansliu.com/feeds/all.atom.xml" rel="self"></link><id>https://hansliu.com/</id><updated>2020-09-15T01:00:00+08:00</updated><subtitle>life, photo, code</subtitle><entry><title>2020面試心得</title><link href="https://hansliu.com/posts/2020/09/2020-interview-review.html" rel="alternate"></link><published>2020-09-15T01:00:00+08:00</published><updated>2020-09-15T01:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:hansliu.com,2020-09-15:/posts/2020/09/2020-interview-review.html</id><summary type="html">&lt;p&gt;面試心得是我個人主觀的感想，並不代表公司本身真實的情況，有關面試的內容我會透過條列式的方式呈現，同時根據時空背景不同，我想每個人的面試情形也會有所不同，所以一切心得僅供參考。&lt;/p&gt;</summary><content type="html">&lt;h2&gt;前言&lt;/h2&gt;
 &lt;p&gt;面試心得是我個人主觀的感想，並不代表公司本身真實的情況，有關面試的內容我會透過條列式的方式呈現，同時根據時空背景不同，我想每個人的面試情形也會有所不同，所以一切心得僅供參考。&lt;/p&gt;
 &lt;h2&gt;面試心得&lt;/h2&gt;
 &lt;h3&gt;Bytedance (SWE) base in Singapore&lt;/h3&gt;
