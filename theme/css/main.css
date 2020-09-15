@@ -5,12 +5,13 @@
  *  Website URI: https://hansliu.com
  */
 @import url("pygment.css");
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
 h1 {
-  font-family: "Microsoft YaHei", "Times New Roman", serif;
+  color: #292929;
+  font-family: "Microsoft YaHei", "Noto Serif TC", "Times New Roman", serif;
   font-weight: bold;
-  color: #111;
   font-size: 40.5px;
   line-height: 40.5px;
   margin-top: 1rem;
@@ -24,9 +25,9 @@ h1 {
 }
 
 h2 {
-  font-family: "Microsoft YaHei", "Times New Roman", serif;
+  color: #292929;
+  font-family: "Microsoft YaHei", "Noto Serif TC", "Times New Roman", serif;
   font-weight: bold;
-  color: #222;
   font-size: 32.4px;
   line-height: 32.4px;
   margin-bottom: 1rem;
@@ -39,9 +40,9 @@ h2 {
 }
 
 h3 {
-  font-family: "Microsoft YaHei", "Times New Roman", serif;
+  color: #292929;
+  font-family: "Microsoft YaHei", "Noto Serif TC", "Times New Roman", serif;
   font-weight: bold;
-  color: #333;
   font-size: 25.92px;
   line-height: 25.92px;
   margin-bottom: 1rem;
@@ -54,9 +55,9 @@ h3 {
 }
 
 h4 {
-  font-family: "Microsoft YaHei", "Times New Roman", serif;
+  color: #292929;
+  font-family: "Microsoft YaHei", "Noto Serif TC", "Times New Roman", serif;
   font-weight: bold;
-  color: #444;
   font-size: 20.736px;
   line-height: 20.736px;
   margin-bottom: 1rem;
@@ -69,9 +70,9 @@ h4 {
 }
 
 h5 {
-  font-family: "Microsoft YaHei", "Times New Roman", serif;
+  color: #292929;
+  font-family: "Microsoft YaHei", "Noto Serif TC", "Times New Roman", serif;
   font-weight: bold;
-  color: #555;
   font-size: 16.5888px;
   line-height: 16.5888px;
   margin-bottom: 1rem;
@@ -84,9 +85,9 @@ h5 {
 }
 
 h6 {
-  font-family: "Microsoft YaHei", "Times New Roman", serif;
+  color: #292929;
+  font-family: "Microsoft YaHei", "Noto Serif TC", "Times New Roman", serif;
   font-weight: bold;
-  color: #666;
   font-size: 13.27104px;
   line-height: 13.27104px;
   margin-bottom: 1rem;
@@ -220,7 +221,7 @@ section, article, aside, footer, header, nav {
 }
 #header .header-title {
   text-align: center;
-  font-family: "Microsoft YaHei", "Times New Roman", serif;
+  font-family: "Microsoft YaHei", "Noto Serif TC", "Times New Roman", serif;
   font-size: 1.2rem;
   line-height: 50px;
   margin: 0;
