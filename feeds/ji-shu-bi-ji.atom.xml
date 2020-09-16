@@ -1,5 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Hans Blog - 技術筆記</title><link href="https://hansliu.com/" rel="alternate"></link><link href="https://hansliu.com/feeds/ji-shu-bi-ji.atom.xml" rel="self"></link><id>https://hansliu.com/</id><updated>2020-09-13T01:00:00+08:00</updated><subtitle>life, photo, code</subtitle><entry><title>Setup Python environment on Mac via pyenv and pipenv</title><link href="https://hansliu.com/posts/2020/09/setup-python-environment-on-mac-via-pyenv-and-pipenv.html" rel="alternate"></link><published>2020-09-13T01:00:00+08:00</published><updated>2020-09-13T01:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:hansliu.com,2020-09-13:/posts/2020/09/setup-python-environment-on-mac-via-pyenv-and-pipenv.html</id><summary type="html">&lt;p&gt;The following section covers Python related setup for development and how to ensure that your code ...&lt;/p&gt;</summary><content type="html">&lt;p&gt;The following section covers Python related setup for development and how to ensure that your code would be deployable.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Hans Blog - 技術筆記</title><link href="https://hansliu.com/" rel="alternate"></link><link href="https://hansliu.com/feeds/ji-shu-bi-ji.atom.xml" rel="self"></link><id>https://hansliu.com/</id><updated>2020-09-16T01:00:00+08:00</updated><subtitle>life, photo, code</subtitle><entry><title>2020部落格改版</title><link href="https://hansliu.com/posts/2020/09/2020-blog-theme-upgrade.html" rel="alternate"></link><published>2020-09-16T01:00:00+08:00</published><updated>2020-09-16T01:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:hansliu.com,2020-09-16:/posts/2020/09/2020-blog-theme-upgrade.html</id><summary type="html">&lt;p&gt;最近常常在內容網站平台 &lt;a href="https://medium.com"&gt;Medium&lt;/a&gt; 閱讀文章的關係，想要替自己的部落格做類似的畫面呈現，同時也想把自己平常在用的 pelican theme 做的更完整，以提供給更多人使用，因此有了這一次的改版計畫。&lt;/p&gt;
+&lt;p&gt;這次改版前前後後花的時間也是約兩週多，網站設計風格參考了很多 &lt;a href="https://medium.com"&gt;Medium&lt;/a&gt; 的設計風格，希望能帶來更好的瀏覽體驗。&lt;/p&gt;
+&lt;p&gt;主要更新如下 ...&lt;/p&gt;</summary><content type="html">&lt;p&gt;最近常常在內容網站平台 &lt;a href="https://medium.com"&gt;Medium&lt;/a&gt; 閱讀文章的關係，想要替自己的部落格做類似的畫面呈現，同時也想把自己平常在用的 pelican theme 做的更完整，以提供給更多人使用，因此有了這一次的改版計畫。&lt;/p&gt;
+&lt;p&gt;這次改版前前後後花的時間也是約兩週多，網站設計風格參考了很多 &lt;a href="https://medium.com"&gt;Medium&lt;/a&gt; 的設計風格，希望能帶來更好的瀏覽體驗。&lt;/p&gt;
+&lt;p&gt;主要更新如下：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Pelican 升級到 4.5.0，依然支援自動部屬&lt;/li&gt;
+&lt;li&gt;Pelican theme 支援變數，移除 hardcode&lt;/li&gt;
+&lt;li&gt;更完善的 css3 設計，重新設計 media queries&lt;/li&gt;
+&lt;li&gt;不同於過去移除 bootstrap 依賴，重新加入 bootstrap 做索引文章時的畫面呈現&lt;/li&gt;
+&lt;li&gt;調整 article info 和 index info 的結構，強化 RWD 的支援&lt;/li&gt;
+&lt;li&gt;加入 cover 和 cover_caption 的設計，讓撰寫文章更有彈性&lt;/li&gt;
+&lt;li&gt;移除 sharethis 和 facebook app 等不實用的功能&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;最後依舊要替新舊網站的設計留個截圖，為這次改版做個記錄。&lt;/p&gt;
+&lt;h3&gt;舊網站設計的截圖&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="image" src="https://lh3.googleusercontent.com/cAhvW7g7L_nwURLDH4JlClgNSlp4B8K8JBZXVAx5d_OJTumm2YwE-ugr8zmKLAvkDqZ6TWvAn5rFIGEyA7n2KQWYJH4Ci0OmYMlWjFBWmAeY7Z5u5dHPPqwaUfBHiMq02G-PPjThrbPmaX_0SXlo-lZlBFX99oWd2xiq-7WK6AF0-SLDghXLR_bJOb5C1SjLqJ9HTA2A3unIY9MsIyWS_XewdTAEC4zwpohyCc7prNLZqYDyO468pgrTIlruuQHbUiYmMvTT2i_HAZAN47lkbKBT-DPkPos7aMqJK3NG2BIFqm_vPXOpK6QNXKwbd7n3DJWaLqgtlUKA2Ow_sUuwzqyHf_iya6BTLQUUYlsne7RGdQ22O1udpEnF05H6xzon_aQFGo2PCVjO7kG7jNU_H8UieRge8BR8kEVr4fW2btV6pV9WHehfnn0R5EQ8h-NAqSy_8j1zlnSiDkI7s_sWwwMgfZ7zXvPlHgMlumEjiA3eZGf1Ycavd3G5pavP7xSc2NyYsxoKGH_jqsZYeEo1pX4vyeZ4PFHPwDOgV35qpK6_UuQOCXmHIXrDIqrkZQvlTTrr4MoFkUu9nssSm_cWD6Vz2Wemu5b_0e-TeXR4KbsovdhokEV2NQ6vms8vUpRtRJKVLVYv9394cC-w_xTVhnUNnWy51U2Zd40u9BJ7Tso=w1200-h663-no"&gt;&lt;/p&gt;
+&lt;h3&gt;新網站設計的截圖&lt;/h3&gt;
+&lt;h4&gt;首頁&lt;/h4&gt;
+&lt;p&gt;&lt;img alt="image" src="https://lh3.googleusercontent.com/pw/ACtC-3dFjgSjVlkLzIMxikExzSGuwlYDKnTBX_lgTBrHdRc_yW-Y9EeLpS2iHvUHLvZO-5JhO291jGG6iW1nxMMt3VGYBzqRGFtQw6f3UMdHgCukKlcutzI5Vko7Sj0sSbNC2hK_Q2SJtjUyVPFlG_2ou6ru0w=w1669-h803-no?authuser=0"&gt;&lt;/p&gt;
+&lt;h4&gt;分類&lt;/h4&gt;
+&lt;p&gt;&lt;img alt="image" src="https://lh3.googleusercontent.com/pw/ACtC-3e9koHjcHj_MuGEflxyKDNEQKORKODhYbM2_0A4BxotULpDAmDX0eJmzcvKImbRTADuLSy4XuP1F3vOMG_D8VMdGwF2ILN8pL18cubaIYFu963bVlT52SgzfmJ3_K8fH9MbIvD9zlKh1GFSNbpoF-LnmQ=w1670-h808-no?authuser=0"&gt;&lt;/p&gt;
+&lt;h4&gt;文章&lt;/h4&gt;
+&lt;p&gt;&lt;img alt="image" src="https://lh3.googleusercontent.com/pw/ACtC-3dfYvI1My_6l2o-B90RM4TEuYiX7Z8A_7PFhHxaCdFf4FlZ1lJ-G99hIkR95re_9Z4pNdGAg0ngCKTkWuhe1x74A7CO4z21AsUcxqS8QPTcaEwPhktMptDinEmKjaETwBxrkBRTnUQTRvmZvP2d-H4ZoA=w1668-h798-no?authuser=0"&gt;&lt;/p&gt;</content><category term="技術筆記"></category><category term="Blog"></category></entry><entry><title>Setup Python environment on Mac via pyenv and pipenv</title><link href="https://hansliu.com/posts/2020/09/setup-python-environment-on-mac-via-pyenv-and-pipenv.html" rel="alternate"></link><published>2020-09-13T01:00:00+08:00</published><updated>2020-09-13T01:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:hansliu.com,2020-09-13:/posts/2020/09/setup-python-environment-on-mac-via-pyenv-and-pipenv.html</id><summary type="html">&lt;p&gt;The following section covers Python related setup for development and how to ensure that your code ...&lt;/p&gt;</summary><content type="html">&lt;p&gt;The following section covers Python related setup for development and how to ensure that your code would be deployable.&lt;/p&gt;
 &lt;h3&gt;Install brew&lt;/h3&gt;
 &lt;p&gt;Homebrew is package manager for Macs which makes installing lots of different software like Git, Ruby, and Node simpler. Homebrew lets you avoid possible security problems associated with using the sudo command to install software like Node. Note this is only compatible with MacOS.&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;ruby -e &amp;quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&amp;quot;&lt;/span&gt;
@@ -520,38 +543,4 @@ While in design pattern, a pattern can't be implemented in which code can be wri
 &lt;p&gt;Creating a Simple Navbar with Twitter Bootstrap - &lt;a class="reference external" href="http://www.tutorialrepublic.com/twitter-bootstrap-tutorial/bootstrap-navbar.php"&gt;http://www.tutorialrepublic.com/twitter-bootstrap-tutorial/bootstrap-navbar.php&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;照著做就可以有支援行動裝置的選單樣式了。&lt;/p&gt;
 &lt;/div&gt;
-</content><category term="技術筆記"></category><category term="Blog"></category><category term="Bootstrap"></category></entry><entry><title>使用 Process Count Supervisor + Cronjob 管理背景行程數</title><link href="https://hansliu.com/posts/2014/11/github-process-count-supervisor.html" rel="alternate"></link><published>2014-11-02T17:00:00+08:00</published><updated>2014-11-02T17:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:hansliu.com,2014-11-02:/posts/2014/11/github-process-count-supervisor.html</id><summary type="html">&lt;div class="section" id="id1"&gt;
-&lt;h2&gt;前言&lt;/h2&gt;
-&lt;p&gt;Cronjob 很頻繁的被使用在工作排程上，不過如果無法預期排程中的 process 的執行時間，當發生 process 的執行時間超過排程預期的時候，可能會重複執行多個重複的 process，如此不但會造成系統資源的浪費，也可能發生無法預期的錯誤。&lt;/p&gt;
-&lt;p&gt;為了要友善管理背景執行的 process，在網路上可以找到用 ...&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="section" id="id1"&gt;
-&lt;h2&gt;前言&lt;/h2&gt;
-&lt;p&gt;Cronjob 很頻繁的被使用在工作排程上，不過如果無法預期排程中的 process 的執行時間，當發生 process 的執行時間超過排程預期的時候，可能會重複執行多個重複的 process，如此不但會造成系統資源的浪費，也可能發生無法預期的錯誤。&lt;/p&gt;
-&lt;p&gt;為了要友善管理背景執行的 process，在網路上可以找到用 Python 撰寫的 &lt;a class="reference external" href="http://supervisord.org/index.html"&gt;Supervisor: A Process Control System&lt;/a&gt; ，Supervisor 是一套完整的 system process monitoring 工具。但是這套工具的設計是以一支 daemon process 去管理 process，並透過設定檔來操作管理 process 的細節，雖然提供很多強大的附加功能，但主要是為了維持服務的穩定，這和我想要減少使用系統資源的目標有點不同。&lt;/p&gt;
-&lt;p&gt;而且這樣的工具會有一個明顯的盲點，因為 Supervisor 是利用 daemon process 去管理 process，那是不是也需要有 process 來管理 Supervisor 的 daemon process？所以最後我沒有採用 Supervisor 這套工具，而選擇自己寫一支簡單的程式。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="process-count-supervisor"&gt;
-&lt;h2&gt;Process Count Supervisor&lt;/h2&gt;
-&lt;p&gt;前言說完了，回到我要解決的問題，放在要如何簡單管理 process 數目，並且盡可能減少額外要執行的 process，以此概念下完成了 Process Count Supervisor 這支程式。&lt;/p&gt;
-&lt;ul class="simple"&gt;
-&lt;li&gt;每次執行時才帶入需要的 process 指令，不需要保持常駐的 daemon&lt;/li&gt;
-&lt;li&gt;簡單透過參數限制最多執行的 process 數目&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;div class="section" id="simple-use-case"&gt;
-&lt;h2&gt;Simple Use Case&lt;/h2&gt;
-&lt;p&gt;新建一個睡眠時間超過一分鐘的 shell script sleep.sh:&lt;/p&gt;
-&lt;pre class="literal-block"&gt;
-echo '#!/bin/bash' &amp;gt; /home/yourname/sleep.sh
-echo 'sleep 200' &amp;gt; /home/yourname/sleep.sh
-chmod +x /home/yourname/sleep.sh
-&lt;/pre&gt;
-&lt;p&gt;設定 cronjob 為每分鐘執行一次，並使用 pcs.py （Process Count Supervisor） 來管理 sleep.sh:&lt;/p&gt;
-&lt;pre class="literal-block"&gt;
-crontab -e
-*/1 * * * * /home/yourname/pcs.py -m 1 /home/yourname/sleep.sh &amp;gt; /dev/null 2&amp;gt;&amp;amp;1
-&lt;/pre&gt;
-&lt;p&gt;因為每分鐘執行一次的 sleep.sh 會睡眠超過一分鐘，所以理論上兩分鐘會擁有兩支 sleep.sh 同時在背景執行，但是在 pcs.py 的管理之下，sleep.sh 會維持同時間只有一支在背景執行。&lt;/p&gt;
-&lt;p&gt;詳細使用教學可以參照 Github repository 的說明。&lt;/p&gt;
-&lt;p&gt;Github repository link: &lt;a class="reference external" href="https://github.com/hansliu/process-count-supervisor"&gt;https://github.com/hansliu/process-count-supervisor&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-</content><category term="技術筆記"></category><category term="Python"></category><category term="Github"></category></entry></feed>
+</content><category term="技術筆記"></category><category term="Blog"></category><category term="Bootstrap"></category></entry></feed>
