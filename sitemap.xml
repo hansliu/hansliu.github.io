@@ -5,14 +5,14 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://hansliu.com/</loc>
-<lastmod>2020-09-20T10:56:17-00:00</lastmod>
+<lastmod>2020-09-20T21:46:58-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://hansliu.com/tags/</loc>
-<lastmod>2020-09-20T10:56:17-00:00</lastmod>
+<lastmod>2020-09-20T21:46:58-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -35,6 +35,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <loc>https://hansliu.com/pages/tos.html</loc>
 <lastmod>2018-05-01T12:00:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://hansliu.com/posts/2020/09/optoma-nuforce-be-sport4-review.html</loc>
+<lastmod>2020-09-20T21:00:00+08:00</lastmod>
+<changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
@@ -95,8 +102,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://hansliu.com/posts/2019/06/realforce-rgb-tkl-keyboard-open.html</loc>
-<lastmod>2019-06-16T21:00:00+08:00</lastmod>
+<loc>https://hansliu.com/posts/2019/06/realforce-rgb-tkl-keyboard-review.html</loc>
+<lastmod>2020-09-20T20:00:00+08:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1524,7 +1531,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://hansliu.com/category/ri-chang-xie-xie/</loc>
-<lastmod>2020-09-15T01:00:00+08:06</lastmod>
+<lastmod>2020-09-20T21:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1532,6 +1539,20 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://hansliu.com/category/ying-xiang-xu-shi/</loc>
 <lastmod>2020-02-24T22:00:00+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://hansliu.com/tag/lan-ya-er-ji/</loc>
+<lastmod>2020-09-20T21:00:00+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://hansliu.com/tag/optoma/</loc>
+<lastmod>2020-09-20T21:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1615,14 +1636,14 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://hansliu.com/tag/jian-pan/</loc>
-<lastmod>2019-06-16T21:00:00+08:06</lastmod>
+<lastmod>2020-09-20T20:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://hansliu.com/tag/realforce/</loc>
-<lastmod>2019-06-16T21:00:00+08:06</lastmod>
+<lastmod>2020-09-20T20:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
