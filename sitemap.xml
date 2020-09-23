@@ -5,14 +5,14 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://hansliu.com/</loc>
-<lastmod>2020-09-22T13:27:08-00:00</lastmod>
+<lastmod>2020-09-23T11:46:49-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://hansliu.com/tags/</loc>
-<lastmod>2020-09-22T13:27:08-00:00</lastmod>
+<lastmod>2020-09-23T11:46:49-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -35,6 +35,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <loc>https://hansliu.com/pages/tos.html</loc>
 <lastmod>2018-05-01T12:00:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://hansliu.com/posts/2020/09/why-overseas-work-from-taiwan-to-singapore.html</loc>
+<lastmod>2020-09-22T23:30:00+08:00</lastmod>
+<changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
@@ -1531,7 +1538,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://hansliu.com/category/ri-chang-xie-xie/</loc>
-<lastmod>2020-09-20T21:00:00+08:06</lastmod>
+<lastmod>2020-09-22T23:30:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1539,6 +1546,20 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://hansliu.com/category/ying-xiang-xu-shi/</loc>
 <lastmod>2020-02-24T22:00:00+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://hansliu.com/tag/interview/</loc>
+<lastmod>2020-09-22T23:30:00+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://hansliu.com/tag/xin-jia-po/</loc>
+<lastmod>2020-09-22T23:30:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1558,22 +1579,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/xin-jia-po/</loc>
-<lastmod>2020-09-19T01:00:00+08:06</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
 <loc>https://hansliu.com/tag/blog/</loc>
 <lastmod>2020-09-16T01:00:00+08:06</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://hansliu.com/tag/interview/</loc>
-<lastmod>2020-09-15T01:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
