@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Hans Blog - 技術筆記</title><link href="https://hansliu.com/" rel="alternate"></link><link href="https://hansliu.com/feeds/ji-shu-bi-ji.atom.xml" rel="self"></link><id>https://hansliu.com/</id><updated>2020-09-21T16:00:00+08:00</updated><subtitle>life, photo, code</subtitle><entry><title>新加坡稅率計算機</title><link href="https://hansliu.com/posts/2020/09/singapore-tax-calculator.html" rel="alternate"></link><published>2020-09-19T01:00:00+08:00</published><updated>2020-09-19T01:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:hansliu.com,2020-09-19:/posts/2020/09/singapore-tax-calculator.html</id><summary type="html">&lt;p&gt;在要來新加坡工作之前就有聽說新加坡的所得稅率很低，但是一直不知道實際上是怎麼計算，終於在待滿一年後有機會一窺究竟。&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Hans Blog - 技術筆記</title><link href="http://127.0.0.1:8000/" rel="alternate"></link><link href="http://127.0.0.1:8000/feeds/ji-shu-bi-ji.atom.xml" rel="self"></link><id>http://127.0.0.1:8000/</id><updated>2020-09-21T16:00:00+08:00</updated><subtitle>life, photo, code</subtitle><entry><title>新加坡稅率計算機</title><link href="http://127.0.0.1:8000/posts/2020/09/singapore-tax-calculator.html" rel="alternate"></link><published>2020-09-19T01:00:00+08:00</published><updated>2020-09-19T01:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:127.0.0.1,2020-09-19:/posts/2020/09/singapore-tax-calculator.html</id><summary type="html">&lt;p&gt;在要來新加坡工作之前就有聽說新加坡的所得稅率很低，但是一直不知道實際上是怎麼計算，終於在待滿一年後有機會一窺究竟。&lt;/p&gt;
 &lt;p&gt;通常來說公司 HR 會在每年三月的時候通知你去年的所得，員工要在四月中旬前自行上 IRAS 完成申報，並選擇繳費的方法，一切動作都可以在網路上操作。&lt;/p&gt;
 &lt;p&gt;我在 IRAS 上看到金額的時候是有點驚訝，因為要繳的稅相對於台灣來說的確是低得多。舉例來說 ...&lt;/p&gt;</summary><content type="html">&lt;p&gt;在要來新加坡工作之前就有聽說新加坡的所得稅率很低，但是一直不知道實際上是怎麼計算，終於在待滿一年後有機會一窺究竟。&lt;/p&gt;
 &lt;p&gt;通常來說公司 HR 會在每年三月的時候通知你去年的所得，員工要在四月中旬前自行上 IRAS 完成申報，並選擇繳費的方法，一切動作都可以在網路上操作。&lt;/p&gt;
@@ -15,7 +15,7 @@
 &lt;li&gt;ion.rangeSlider&lt;/li&gt;
 &lt;li&gt;Vue.js&lt;/li&gt;
 &lt;li&gt;Vue-i18n&lt;/li&gt;
-&lt;/ul&gt;</content><category term="技術筆記"></category><category term="新加坡"></category></entry><entry><title>2020部落格改版</title><link href="https://hansliu.com/posts/2020/09/2020-blog-theme-upgrade.html" rel="alternate"></link><published>2020-09-16T01:00:00+08:00</published><updated>2020-09-16T01:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:hansliu.com,2020-09-16:/posts/2020/09/2020-blog-theme-upgrade.html</id><summary type="html">&lt;p&gt;最近常常在內容網站平台 &lt;a href="https://medium.com"&gt;Medium&lt;/a&gt; 閱讀文章的關係，想要替自己的部落格做類似的畫面呈現，同時也想把自己平常在用的 pelican theme 做的更完整，然後貢獻到社群給更多人使用，因此有了這一次的改版計畫。&lt;/p&gt;
+&lt;/ul&gt;</content><category term="技術筆記"></category><category term="新加坡"></category></entry><entry><title>2020部落格改版</title><link href="http://127.0.0.1:8000/posts/2020/09/2020-blog-theme-upgrade.html" rel="alternate"></link><published>2020-09-16T01:00:00+08:00</published><updated>2020-09-16T01:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:127.0.0.1,2020-09-16:/posts/2020/09/2020-blog-theme-upgrade.html</id><summary type="html">&lt;p&gt;最近常常在內容網站平台 &lt;a href="https://medium.com"&gt;Medium&lt;/a&gt; 閱讀文章的關係，想要替自己的部落格做類似的畫面呈現，同時也想把自己平常在用的 pelican theme 做的更完整，然後貢獻到社群給更多人使用，因此有了這一次的改版計畫。&lt;/p&gt;
 &lt;p&gt;這次改版前前後後花的時間也是約兩週多，網站設計風格參考了很多 &lt;a href="https://medium.com"&gt;Medium&lt;/a&gt; 的設計風格，希望能帶來更好的瀏覽體驗。&lt;/p&gt;
 &lt;p&gt;主要更新如下 ...&lt;/p&gt;</summary><content type="html">&lt;p&gt;最近常常在內容網站平台 &lt;a href="https://medium.com"&gt;Medium&lt;/a&gt; 閱讀文章的關係，想要替自己的部落格做類似的畫面呈現，同時也想把自己平常在用的 pelican theme 做的更完整，然後貢獻到社群給更多人使用，因此有了這一次的改版計畫。&lt;/p&gt;
 &lt;p&gt;這次改版前前後後花的時間也是約兩週多，網站設計風格參考了很多 &lt;a href="https://medium.com"&gt;Medium&lt;/a&gt; 的設計風格，希望能帶來更好的瀏覽體驗。&lt;/p&gt;
@@ -38,7 +38,7 @@
 &lt;h4&gt;分類&lt;/h4&gt;
 &lt;p&gt;&lt;img alt="image" src="https://lh3.googleusercontent.com/pw/ACtC-3e9koHjcHj_MuGEflxyKDNEQKORKODhYbM2_0A4BxotULpDAmDX0eJmzcvKImbRTADuLSy4XuP1F3vOMG_D8VMdGwF2ILN8pL18cubaIYFu963bVlT52SgzfmJ3_K8fH9MbIvD9zlKh1GFSNbpoF-LnmQ=w1670-h808-no?authuser=0"&gt;&lt;/p&gt;
 &lt;h4&gt;文章&lt;/h4&gt;
-&lt;p&gt;&lt;img alt="image" src="https://lh3.googleusercontent.com/pw/ACtC-3dfYvI1My_6l2o-B90RM4TEuYiX7Z8A_7PFhHxaCdFf4FlZ1lJ-G99hIkR95re_9Z4pNdGAg0ngCKTkWuhe1x74A7CO4z21AsUcxqS8QPTcaEwPhktMptDinEmKjaETwBxrkBRTnUQTRvmZvP2d-H4ZoA=w1668-h798-no?authuser=0"&gt;&lt;/p&gt;</content><category term="技術筆記"></category><category term="Blog"></category></entry><entry><title>Setup Python environment on Mac via pyenv and pipenv</title><link href="https://hansliu.com/posts/2020/09/setup-python-environment-on-mac-via-pyenv-and-pipenv.html" rel="alternate"></link><published>2020-09-13T01:00:00+08:00</published><updated>2020-09-13T01:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:hansliu.com,2020-09-13:/posts/2020/09/setup-python-environment-on-mac-via-pyenv-and-pipenv.html</id><summary type="html">&lt;p&gt;The following section covers Python related setup for development and how to ensure that your code ...&lt;/p&gt;</summary><content type="html">&lt;p&gt;The following section covers Python related setup for development and how to ensure that your code would be deployable.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="image" src="https://lh3.googleusercontent.com/pw/ACtC-3dfYvI1My_6l2o-B90RM4TEuYiX7Z8A_7PFhHxaCdFf4FlZ1lJ-G99hIkR95re_9Z4pNdGAg0ngCKTkWuhe1x74A7CO4z21AsUcxqS8QPTcaEwPhktMptDinEmKjaETwBxrkBRTnUQTRvmZvP2d-H4ZoA=w1668-h798-no?authuser=0"&gt;&lt;/p&gt;</content><category term="技術筆記"></category><category term="Blog"></category></entry><entry><title>Setup Python environment on Mac via pyenv and pipenv</title><link href="http://127.0.0.1:8000/posts/2020/09/setup-python-environment-on-mac-via-pyenv-and-pipenv.html" rel="alternate"></link><published>2020-09-13T01:00:00+08:00</published><updated>2020-09-13T01:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:127.0.0.1,2020-09-13:/posts/2020/09/setup-python-environment-on-mac-via-pyenv-and-pipenv.html</id><summary type="html">&lt;p&gt;The following section covers Python related setup for development and how to ensure that your code ...&lt;/p&gt;</summary><content type="html">&lt;p&gt;The following section covers Python related setup for development and how to ensure that your code would be deployable.&lt;/p&gt;
 &lt;h3&gt;Install brew&lt;/h3&gt;
 &lt;p&gt;Homebrew is package manager for Macs which makes installing lots of different software like Git, Ruby, and Node simpler. Homebrew lets you avoid possible security problems associated with using the sudo command to install software like Node. Note this is only compatible with MacOS.&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;ruby -e &amp;quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&amp;quot;&lt;/span&gt;
@@ -95,7 +95,7 @@
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;p&gt;Do remember to check in the generated/updated &lt;code&gt;Pipfile&lt;/code&gt; and &lt;code&gt;Pipfile.lock&lt;/code&gt; to be able to have reproducible builds in production.&lt;/p&gt;</content><category term="技術筆記"></category><category term="Python"></category></entry><entry><title>AWS CloudWatch 筆記</title><link href="https://hansliu.com/posts/2018/06/aws-cloudwatch-note.html" rel="alternate"></link><published>2018-06-06T17:00:00+08:00</published><updated>2018-06-06T17:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:hansliu.com,2018-06-06:/posts/2018/06/aws-cloudwatch-note.html</id><summary type="html">&lt;p&gt;Amazon CloudWatch 是 AWS 內建的監控服務，可以用來監控 AWS 上面的資源和應用程式，記錄一下我使用的心得。&lt;/p&gt;
+&lt;p&gt;Do remember to check in the generated/updated &lt;code&gt;Pipfile&lt;/code&gt; and &lt;code&gt;Pipfile.lock&lt;/code&gt; to be able to have reproducible builds in production.&lt;/p&gt;</content><category term="技術筆記"></category><category term="Python"></category></entry><entry><title>AWS CloudWatch 筆記</title><link href="http://127.0.0.1:8000/posts/2018/06/aws-cloudwatch-note.html" rel="alternate"></link><published>2018-06-06T17:00:00+08:00</published><updated>2018-06-06T17:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:127.0.0.1,2018-06-06:/posts/2018/06/aws-cloudwatch-note.html</id><summary type="html">&lt;p&gt;Amazon CloudWatch 是 AWS 內建的監控服務，可以用來監控 AWS 上面的資源和應用程式，記錄一下我使用的心得。&lt;/p&gt;
 &lt;div class="section" id="dashboards"&gt;
 &lt;h2&gt;Dashboards&lt;/h2&gt;
 &lt;p&gt;如其名，可以根據 alarms 和 metrics 來建置視覺化數據 ...&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;Amazon CloudWatch 是 AWS 內建的監控服務，可以用來監控 AWS 上面的資源和應用程式，記錄一下我使用的心得。&lt;/p&gt;
@@ -148,7 +148,7 @@
 &lt;div class="line"&gt;&lt;a class="reference external" href="https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html"&gt;https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html&lt;/a&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-</content><category term="技術筆記"></category><category term="AWS"></category><category term="CloudWatch"></category></entry><entry><title>Red Hat 7 安裝 Docker CE</title><link href="https://hansliu.com/posts/2018/05/docker-ce-installation-on-red-hat-7.html" rel="alternate"></link><published>2018-05-04T16:00:00+08:00</published><updated>2018-05-04T16:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:hansliu.com,2018-05-04:/posts/2018/05/docker-ce-installation-on-red-hat-7.html</id><summary type="html">&lt;p&gt;記錄如何在 Red Hat 7 上面安裝最新的 Docker CE，而不使用官方提供的 Dcoker EE。&lt;/p&gt;
+</content><category term="技術筆記"></category><category term="AWS"></category><category term="CloudWatch"></category></entry><entry><title>Red Hat 7 安裝 Docker CE</title><link href="http://127.0.0.1:8000/posts/2018/05/docker-ce-installation-on-red-hat-7.html" rel="alternate"></link><published>2018-05-04T16:00:00+08:00</published><updated>2018-05-04T16:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:127.0.0.1,2018-05-04:/posts/2018/05/docker-ce-installation-on-red-hat-7.html</id><summary type="html">&lt;p&gt;記錄如何在 Red Hat 7 上面安裝最新的 Docker CE，而不使用官方提供的 Dcoker EE。&lt;/p&gt;
 &lt;p&gt;因為 Red Hat 7 官方支援的 Docker ...&lt;/p&gt;</summary><content type="html">&lt;p&gt;記錄如何在 Red Hat 7 上面安裝最新的 Docker CE，而不使用官方提供的 Dcoker EE。&lt;/p&gt;
 &lt;p&gt;因為 Red Hat 7 官方支援的 Docker 是 Enterprise Edition 版本，如果想要在 Red Hat 7 上面安裝最新的 Community Edition 版本，可以參考以下的步驟。&lt;/p&gt;
 &lt;p&gt;請記得用 sudo 來執行相關的安裝指令，不然會遇到權限不足問題。&lt;/p&gt;
@@ -200,7 +200,7 @@ docker run --name webserver -d -p 8080:80 nginx
 &lt;div class="line"&gt;refer. &lt;a class="reference external" href="https://docs.docker.com/install/overview/"&gt;https://docs.docker.com/install/overview/&lt;/a&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-</content><category term="技術筆記"></category><category term="Red Hat"></category><category term="Dcoker"></category></entry><entry><title>MySQL 5.7 Replication 筆記</title><link href="https://hansliu.com/posts/2018/03/mysql57-replication-note.html" rel="alternate"></link><published>2018-03-26T22:00:00+08:00</published><updated>2020-09-21T16:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:hansliu.com,2018-03-26:/posts/2018/03/mysql57-replication-note.html</id><summary type="html">&lt;p&gt;記錄一下處理 MySQL 5.7 Replication 的時候遇到的問題。&lt;/p&gt;
+</content><category term="技術筆記"></category><category term="Red Hat"></category><category term="Dcoker"></category></entry><entry><title>MySQL 5.7 Replication 筆記</title><link href="http://127.0.0.1:8000/posts/2018/03/mysql57-replication-note.html" rel="alternate"></link><published>2018-03-26T22:00:00+08:00</published><updated>2020-09-21T16:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:127.0.0.1,2018-03-26:/posts/2018/03/mysql57-replication-note.html</id><summary type="html">&lt;p&gt;記錄一下處理 MySQL 5.7 Replication 的時候遇到的問題。&lt;/p&gt;
 &lt;ol class="arabic simple"&gt;
 &lt;li&gt;MySQL Replication Formats&lt;/li&gt;
 &lt;li&gt;MySQL Transation Islolation Level&lt;/li&gt;
@@ -384,7 +384,7 @@ HA384:ECDH-RSA-AES128-GCM-SHA256:ECDH-RSA-AES256-GCM-SHA384:ECDH-RSA-AES128-SHA2
 &lt;/pre&gt;
 &lt;p&gt;refer. &lt;a class="reference external" href="https://dev.mysql.com/doc/refman/5.7/en/encrypted-connection-protocols-ciphers.html"&gt;https://dev.mysql.com/doc/refman/5.7/en/encrypted-connection-protocols-ciphers.html&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
-</content><category term="技術筆記"></category><category term="MySQL"></category></entry><entry><title>2017部落格改版</title><link href="https://hansliu.com/posts/2017/06/2017-blog-theme-upgrade.html" rel="alternate"></link><published>2017-06-30T22:00:00+08:00</published><updated>2017-06-30T22:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:hansliu.com,2017-06-30:/posts/2017/06/2017-blog-theme-upgrade.html</id><summary type="html">&lt;p class="first last"&gt;&lt;a class="reference external" href="https://lh3.googleusercontent.com/_0F8Y-MPaYipHJG_YBQalIbe59vmhAAbNxTuDjbuphJsD8k-Ndtlze7-fNuD3CELcDwkH9oMd2YG1lRB7XEg2ueFlmlcFHn-Vs2YCY332L3u0DGWkot_Fg1S5ou_wde76kHsOeDmHxEj3KF26eGbb8kcFPtRyfArb0WZKFrp5Wig_55UglBVEO9590QZxeSHEUzugZOMeNz1vmAvBTbwRqNvEBos9CqrAuFv5pnn86diEfx9BFDx72uUeMsMPLkkecRh4mbuk76ndG3MlYrTdd4iF_pEJINI86OzFZfcIu-H015w_kWbwVGwnfzbul4Jj9jfcgoPhcAFuy0yJWUY709jplU3b3D9W3zGdUHYW1kZRvNdz3gR16BguCAZQQL4Tub-Nd9LyaUQWis9SpvYDNeWC6xoCKYs9NFJYgDSPwMH9VfolVTgbIbhA2HHiTmaXoN9dXA5eoQ2IhTtrpNgGBpfqbP7n7tS9OnpS6-nIb7lCZ5d4EQsT03DnIIriCCr6bJupIG_LRMUfCPLigNDWfaVQTaPXRhpxDs-c-3877ZhYT0iFrv-9zndT6qDuHc7YXYWzFuyvOkXXW7M_RC8vxmElnhy0OwzLJ9NhDOiDvooDdDvQuiVzVr9rr5Y_piSqnbwzOrn0vAN0LCGiBBLtJ87tBi-giIYANHswg2MCK8=w665-h255-no"&gt;&lt;img alt="image0" src="https://lh3.googleusercontent.com/_0F8Y-MPaYipHJG_YBQalIbe59vmhAAbNxTuDjbuphJsD8k-Ndtlze7-fNuD3CELcDwkH9oMd2YG1lRB7XEg2ueFlmlcFHn-Vs2YCY332L3u0DGWkot_Fg1S5ou_wde76kHsOeDmHxEj3KF26eGbb8kcFPtRyfArb0WZKFrp5Wig_55UglBVEO9590QZxeSHEUzugZOMeNz1vmAvBTbwRqNvEBos9CqrAuFv5pnn86diEfx9BFDx72uUeMsMPLkkecRh4mbuk76ndG3MlYrTdd4iF_pEJINI86OzFZfcIu-H015w_kWbwVGwnfzbul4Jj9jfcgoPhcAFuy0yJWUY709jplU3b3D9W3zGdUHYW1kZRvNdz3gR16BguCAZQQL4Tub-Nd9LyaUQWis9SpvYDNeWC6xoCKYs9NFJYgDSPwMH9VfolVTgbIbhA2HHiTmaXoN9dXA5eoQ2IhTtrpNgGBpfqbP7n7tS9OnpS6-nIb7lCZ5d4EQsT03DnIIriCCr6bJupIG_LRMUfCPLigNDWfaVQTaPXRhpxDs-c-3877ZhYT0iFrv-9zndT6qDuHc7YXYWzFuyvOkXXW7M_RC8vxmElnhy0OwzLJ9NhDOiDvooDdDvQuiVzVr9rr5Y_piSqnbwzOrn0vAN0LCGiBBLtJ87tBi-giIYANHswg2MCK8=w665-h255-no" /&gt;&lt;/a&gt; 在參加2017的 PyCon 時，一邊聽台上的講者在分享，一邊在滑著自己的部落格，突然發現自己部落格的畫面有點陽春，就萌生替部落格改版的想法，所以在 PyCon 結束後就重新檢視了自己的部落格，研究一些現有的部落格設計，希望能在保留主要元素的前提下，讓部落格在文章和照片的閱讀上可以更加舒適，並且讓網站的結構可以更加簡潔。&lt;/p&gt;
+</content><category term="技術筆記"></category><category term="MySQL"></category></entry><entry><title>2017部落格改版</title><link href="http://127.0.0.1:8000/posts/2017/06/2017-blog-theme-upgrade.html" rel="alternate"></link><published>2017-06-30T22:00:00+08:00</published><updated>2017-06-30T22:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:127.0.0.1,2017-06-30:/posts/2017/06/2017-blog-theme-upgrade.html</id><summary type="html">&lt;p class="first last"&gt;&lt;a class="reference external" href="https://lh3.googleusercontent.com/_0F8Y-MPaYipHJG_YBQalIbe59vmhAAbNxTuDjbuphJsD8k-Ndtlze7-fNuD3CELcDwkH9oMd2YG1lRB7XEg2ueFlmlcFHn-Vs2YCY332L3u0DGWkot_Fg1S5ou_wde76kHsOeDmHxEj3KF26eGbb8kcFPtRyfArb0WZKFrp5Wig_55UglBVEO9590QZxeSHEUzugZOMeNz1vmAvBTbwRqNvEBos9CqrAuFv5pnn86diEfx9BFDx72uUeMsMPLkkecRh4mbuk76ndG3MlYrTdd4iF_pEJINI86OzFZfcIu-H015w_kWbwVGwnfzbul4Jj9jfcgoPhcAFuy0yJWUY709jplU3b3D9W3zGdUHYW1kZRvNdz3gR16BguCAZQQL4Tub-Nd9LyaUQWis9SpvYDNeWC6xoCKYs9NFJYgDSPwMH9VfolVTgbIbhA2HHiTmaXoN9dXA5eoQ2IhTtrpNgGBpfqbP7n7tS9OnpS6-nIb7lCZ5d4EQsT03DnIIriCCr6bJupIG_LRMUfCPLigNDWfaVQTaPXRhpxDs-c-3877ZhYT0iFrv-9zndT6qDuHc7YXYWzFuyvOkXXW7M_RC8vxmElnhy0OwzLJ9NhDOiDvooDdDvQuiVzVr9rr5Y_piSqnbwzOrn0vAN0LCGiBBLtJ87tBi-giIYANHswg2MCK8=w665-h255-no"&gt;&lt;img alt="image0" src="https://lh3.googleusercontent.com/_0F8Y-MPaYipHJG_YBQalIbe59vmhAAbNxTuDjbuphJsD8k-Ndtlze7-fNuD3CELcDwkH9oMd2YG1lRB7XEg2ueFlmlcFHn-Vs2YCY332L3u0DGWkot_Fg1S5ou_wde76kHsOeDmHxEj3KF26eGbb8kcFPtRyfArb0WZKFrp5Wig_55UglBVEO9590QZxeSHEUzugZOMeNz1vmAvBTbwRqNvEBos9CqrAuFv5pnn86diEfx9BFDx72uUeMsMPLkkecRh4mbuk76ndG3MlYrTdd4iF_pEJINI86OzFZfcIu-H015w_kWbwVGwnfzbul4Jj9jfcgoPhcAFuy0yJWUY709jplU3b3D9W3zGdUHYW1kZRvNdz3gR16BguCAZQQL4Tub-Nd9LyaUQWis9SpvYDNeWC6xoCKYs9NFJYgDSPwMH9VfolVTgbIbhA2HHiTmaXoN9dXA5eoQ2IhTtrpNgGBpfqbP7n7tS9OnpS6-nIb7lCZ5d4EQsT03DnIIriCCr6bJupIG_LRMUfCPLigNDWfaVQTaPXRhpxDs-c-3877ZhYT0iFrv-9zndT6qDuHc7YXYWzFuyvOkXXW7M_RC8vxmElnhy0OwzLJ9NhDOiDvooDdDvQuiVzVr9rr5Y_piSqnbwzOrn0vAN0LCGiBBLtJ87tBi-giIYANHswg2MCK8=w665-h255-no" /&gt;&lt;/a&gt; 在參加2017的 PyCon 時，一邊聽台上的講者在分享，一邊在滑著自己的部落格，突然發現自己部落格的畫面有點陽春，就萌生替部落格改版的想法，所以在 PyCon 結束後就重新檢視了自己的部落格，研究一些現有的部落格設計，希望能在保留主要元素的前提下，讓部落格在文章和照片的閱讀上可以更加舒適，並且讓網站的結構可以更加簡潔。&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;&lt;a class="reference external" href="https://lh3.googleusercontent.com/_0F8Y-MPaYipHJG_YBQalIbe59vmhAAbNxTuDjbuphJsD8k-Ndtlze7-fNuD3CELcDwkH9oMd2YG1lRB7XEg2ueFlmlcFHn-Vs2YCY332L3u0DGWkot_Fg1S5ou_wde76kHsOeDmHxEj3KF26eGbb8kcFPtRyfArb0WZKFrp5Wig_55UglBVEO9590QZxeSHEUzugZOMeNz1vmAvBTbwRqNvEBos9CqrAuFv5pnn86diEfx9BFDx72uUeMsMPLkkecRh4mbuk76ndG3MlYrTdd4iF_pEJINI86OzFZfcIu-H015w_kWbwVGwnfzbul4Jj9jfcgoPhcAFuy0yJWUY709jplU3b3D9W3zGdUHYW1kZRvNdz3gR16BguCAZQQL4Tub-Nd9LyaUQWis9SpvYDNeWC6xoCKYs9NFJYgDSPwMH9VfolVTgbIbhA2HHiTmaXoN9dXA5eoQ2IhTtrpNgGBpfqbP7n7tS9OnpS6-nIb7lCZ5d4EQsT03DnIIriCCr6bJupIG_LRMUfCPLigNDWfaVQTaPXRhpxDs-c-3877ZhYT0iFrv-9zndT6qDuHc7YXYWzFuyvOkXXW7M_RC8vxmElnhy0OwzLJ9NhDOiDvooDdDvQuiVzVr9rr5Y_piSqnbwzOrn0vAN0LCGiBBLtJ87tBi-giIYANHswg2MCK8=w665-h255-no"&gt;&lt;img alt="image0" src="https://lh3.googleusercontent.com/_0F8Y-MPaYipHJG_YBQalIbe59vmhAAbNxTuDjbuphJsD8k-Ndtlze7-fNuD3CELcDwkH9oMd2YG1lRB7XEg2ueFlmlcFHn-Vs2YCY332L3u0DGWkot_Fg1S5ou_wde76kHsOeDmHxEj3KF26eGbb8kcFPtRyfArb0WZKFrp5Wig_55UglBVEO9590QZxeSHEUzugZOMeNz1vmAvBTbwRqNvEBos9CqrAuFv5pnn86diEfx9BFDx72uUeMsMPLkkecRh4mbuk76ndG3MlYrTdd4iF_pEJINI86OzFZfcIu-H015w_kWbwVGwnfzbul4Jj9jfcgoPhcAFuy0yJWUY709jplU3b3D9W3zGdUHYW1kZRvNdz3gR16BguCAZQQL4Tub-Nd9LyaUQWis9SpvYDNeWC6xoCKYs9NFJYgDSPwMH9VfolVTgbIbhA2HHiTmaXoN9dXA5eoQ2IhTtrpNgGBpfqbP7n7tS9OnpS6-nIb7lCZ5d4EQsT03DnIIriCCr6bJupIG_LRMUfCPLigNDWfaVQTaPXRhpxDs-c-3877ZhYT0iFrv-9zndT6qDuHc7YXYWzFuyvOkXXW7M_RC8vxmElnhy0OwzLJ9NhDOiDvooDdDvQuiVzVr9rr5Y_piSqnbwzOrn0vAN0LCGiBBLtJ87tBi-giIYANHswg2MCK8=w665-h255-no" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;在參加2017的 PyCon 時，一邊聽台上的講者在分享，一邊在滑著自己的部落格，突然發現自己部落格的畫面有點陽春，就萌生替部落格改版的想法，所以在 PyCon 結束後就重新檢視了自己的部落格，研究一些現有的部落格設計，希望能在保留主要元素的前提下，讓部落格在文章和照片的閱讀上可以更加舒適，並且讓網站的結構可以更加簡潔。&lt;/p&gt;
 &lt;p&gt;這次改版前前後後花的時間有兩週多，比原本預想的時間還要多了一點，因為久久才改一次，一堆設計都忘光光，不過從成果來看自己還蠻滿意的，希望能帶來更好的瀏覽體驗。&lt;/p&gt;
@@ -402,7 +402,7 @@ HA384:ECDH-RSA-AES128-GCM-SHA256:ECDH-RSA-AES256-GCM-SHA384:ECDH-RSA-AES128-SHA2
 &lt;p&gt;&lt;a class="reference external" href="https://lh3.googleusercontent.com/5nXJbUnIEYkbVVHXBFT2zzaEl3aeoyTukYy2T8LO9J9VuFIDYicdEnaRRpQc1ivQn0851clqeBN-w6jLSLzmrjoYBtUYihv5RNhlCB5ppSU74tHtfTproDlKHb6GTopLi8gRkSJW5yUdglikQh9Bx4uX8_6AVHAVet74-8pq2WnT9EUbYfFI1JH5vD8xl_l89sav5pZU-5vmpBRnADwpz5zvwN4iB6w0X0BlJ5lWGOTZHbNjqqgWB3HkUdLkebpQo1PXajAL4wpw9wvLQ6TfmyFEHdV23iQEkGQP7OPCJr5MPwn5UgBG79g88zZcLIXnDu0JMLI691etPCz7JqT2X8zvFIFul-uLZbfn59xOf8rqnFCHLELZHRLcbO8DlM95da9egcDzMYdZgAQA8jXuQbpmQYEdaGyypiV4mam6Rhjm5S_HMgMzMLNrwgUoYEail7u4Kly999rRIqms78aASGzKQQmXgr5NeZ9-2KJkp1OCg7PHIaGGn5U9yq725xNvMyHEiLRzSWj0gkgvH3pWEhT4BwYUdfJ0YyK2ccPveXAdFSMDzD6czw5WVY_hB640pl65U8ClrZu3TICpP3oJZzmi6mcML0YUAg1v0hRiX3ftZXFR7OujDG0XHLMHCnOxwYCkjcfpclF8q-7KLg-oBUU8BjaOSx0bhePXDq9b6zM=w1200-h708-no"&gt;&lt;img alt="image1" src="https://lh3.googleusercontent.com/5nXJbUnIEYkbVVHXBFT2zzaEl3aeoyTukYy2T8LO9J9VuFIDYicdEnaRRpQc1ivQn0851clqeBN-w6jLSLzmrjoYBtUYihv5RNhlCB5ppSU74tHtfTproDlKHb6GTopLi8gRkSJW5yUdglikQh9Bx4uX8_6AVHAVet74-8pq2WnT9EUbYfFI1JH5vD8xl_l89sav5pZU-5vmpBRnADwpz5zvwN4iB6w0X0BlJ5lWGOTZHbNjqqgWB3HkUdLkebpQo1PXajAL4wpw9wvLQ6TfmyFEHdV23iQEkGQP7OPCJr5MPwn5UgBG79g88zZcLIXnDu0JMLI691etPCz7JqT2X8zvFIFul-uLZbfn59xOf8rqnFCHLELZHRLcbO8DlM95da9egcDzMYdZgAQA8jXuQbpmQYEdaGyypiV4mam6Rhjm5S_HMgMzMLNrwgUoYEail7u4Kly999rRIqms78aASGzKQQmXgr5NeZ9-2KJkp1OCg7PHIaGGn5U9yq725xNvMyHEiLRzSWj0gkgvH3pWEhT4BwYUdfJ0YyK2ccPveXAdFSMDzD6czw5WVY_hB640pl65U8ClrZu3TICpP3oJZzmi6mcML0YUAg1v0hRiX3ftZXFR7OujDG0XHLMHCnOxwYCkjcfpclF8q-7KLg-oBUU8BjaOSx0bhePXDq9b6zM=w1200-h708-no" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;# 新網站設計的截圖&lt;/p&gt;
 &lt;p&gt;&lt;a class="reference external" href="https://lh3.googleusercontent.com/cAhvW7g7L_nwURLDH4JlClgNSlp4B8K8JBZXVAx5d_OJTumm2YwE-ugr8zmKLAvkDqZ6TWvAn5rFIGEyA7n2KQWYJH4Ci0OmYMlWjFBWmAeY7Z5u5dHPPqwaUfBHiMq02G-PPjThrbPmaX_0SXlo-lZlBFX99oWd2xiq-7WK6AF0-SLDghXLR_bJOb5C1SjLqJ9HTA2A3unIY9MsIyWS_XewdTAEC4zwpohyCc7prNLZqYDyO468pgrTIlruuQHbUiYmMvTT2i_HAZAN47lkbKBT-DPkPos7aMqJK3NG2BIFqm_vPXOpK6QNXKwbd7n3DJWaLqgtlUKA2Ow_sUuwzqyHf_iya6BTLQUUYlsne7RGdQ22O1udpEnF05H6xzon_aQFGo2PCVjO7kG7jNU_H8UieRge8BR8kEVr4fW2btV6pV9WHehfnn0R5EQ8h-NAqSy_8j1zlnSiDkI7s_sWwwMgfZ7zXvPlHgMlumEjiA3eZGf1Ycavd3G5pavP7xSc2NyYsxoKGH_jqsZYeEo1pX4vyeZ4PFHPwDOgV35qpK6_UuQOCXmHIXrDIqrkZQvlTTrr4MoFkUu9nssSm_cWD6Vz2Wemu5b_0e-TeXR4KbsovdhokEV2NQ6vms8vUpRtRJKVLVYv9394cC-w_xTVhnUNnWy51U2Zd40u9BJ7Tso=w1200-h663-no"&gt;&lt;img alt="image2" src="https://lh3.googleusercontent.com/cAhvW7g7L_nwURLDH4JlClgNSlp4B8K8JBZXVAx5d_OJTumm2YwE-ugr8zmKLAvkDqZ6TWvAn5rFIGEyA7n2KQWYJH4Ci0OmYMlWjFBWmAeY7Z5u5dHPPqwaUfBHiMq02G-PPjThrbPmaX_0SXlo-lZlBFX99oWd2xiq-7WK6AF0-SLDghXLR_bJOb5C1SjLqJ9HTA2A3unIY9MsIyWS_XewdTAEC4zwpohyCc7prNLZqYDyO468pgrTIlruuQHbUiYmMvTT2i_HAZAN47lkbKBT-DPkPos7aMqJK3NG2BIFqm_vPXOpK6QNXKwbd7n3DJWaLqgtlUKA2Ow_sUuwzqyHf_iya6BTLQUUYlsne7RGdQ22O1udpEnF05H6xzon_aQFGo2PCVjO7kG7jNU_H8UieRge8BR8kEVr4fW2btV6pV9WHehfnn0R5EQ8h-NAqSy_8j1zlnSiDkI7s_sWwwMgfZ7zXvPlHgMlumEjiA3eZGf1Ycavd3G5pavP7xSc2NyYsxoKGH_jqsZYeEo1pX4vyeZ4PFHPwDOgV35qpK6_UuQOCXmHIXrDIqrkZQvlTTrr4MoFkUu9nssSm_cWD6Vz2Wemu5b_0e-TeXR4KbsovdhokEV2NQ6vms8vUpRtRJKVLVYv9394cC-w_xTVhnUNnWy51U2Zd40u9BJ7Tso=w1200-h663-no" /&gt;&lt;/a&gt;&lt;/p&gt;
-</content><category term="技術筆記"></category><category term="Blog"></category></entry><entry><title>Taiwan eTraining Course Finder in Heroku</title><link href="https://hansliu.com/posts/2015/07/github-etraining-course-finder-heroku.html" rel="alternate"></link><published>2015-07-07T23:00:00+08:00</published><updated>2015-07-07T23:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:hansliu.com,2015-07-07:/posts/2015/07/github-etraining-course-finder-heroku.html</id><summary type="html">&lt;p&gt;因為勞動部勞動力發展署網站實在太難用，所以自己開發一個好用的網站，然後部屬到 Heroku 上面。&lt;/p&gt;
+</content><category term="技術筆記"></category><category term="Blog"></category></entry><entry><title>Taiwan eTraining Course Finder in Heroku</title><link href="http://127.0.0.1:8000/posts/2015/07/github-etraining-course-finder-heroku.html" rel="alternate"></link><published>2015-07-07T23:00:00+08:00</published><updated>2015-07-07T23:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:127.0.0.1,2015-07-07:/posts/2015/07/github-etraining-course-finder-heroku.html</id><summary type="html">&lt;p&gt;因為勞動部勞動力發展署網站實在太難用，所以自己開發一個好用的網站，然後部屬到 Heroku 上面。&lt;/p&gt;
 &lt;p&gt;&lt;a class="reference external" href="http://hansliu-finder.herokuapp.com"&gt;Taiwan eTraining Course Finder 網站&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;實作上採用的是 Python3 搭配 Flask 架構。&lt;/p&gt;
 &lt;p&gt;在課程資料來源的部份 ...&lt;/p&gt;</summary><content type="html">&lt;p&gt;因為勞動部勞動力發展署網站實在太難用，所以自己開發一個好用的網站，然後部屬到 Heroku 上面。&lt;/p&gt;
@@ -435,7 +435,7 @@ git pull ; git add -u ; git commit -m'updated db' ; git push
 &lt;p&gt;詳細使用教學可以參照 Github repository 的說明。&lt;/p&gt;
 &lt;p&gt;Github repository link: &lt;a class="reference external" href="https://github.com/hansliu/etraining-course-finder-heroku"&gt;https://github.com/hansliu/etraining-course-finder-heroku&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
-</content><category term="技術筆記"></category><category term="Python"></category><category term="Github"></category><category term="Heroku"></category></entry><entry><title>2015 PyCon</title><link href="https://hansliu.com/posts/2015/06/2015-pycon.html" rel="alternate"></link><published>2015-06-08T23:00:00+08:00</published><updated>2015-06-08T23:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:hansliu.com,2015-06-08:/posts/2015/06/2015-pycon.html</id><summary type="html">&lt;p class="first last"&gt;&lt;a class="reference external" href="https://lh3.googleusercontent.com/-PWwg2yshhX4/VXb248gk16I/AAAAAAAAOmQ/C6HT4hX1o4w/s1600/IMG_0183.JPG"&gt;&lt;img alt="image0" src="https://lh3.googleusercontent.com/-PWwg2yshhX4/VXb248gk16I/AAAAAAAAOmQ/C6HT4hX1o4w/s800/IMG_0183.JPG" /&gt;&lt;/a&gt;&lt;/p&gt;
+</content><category term="技術筆記"></category><category term="Python"></category><category term="Github"></category><category term="Heroku"></category></entry><entry><title>2015 PyCon</title><link href="http://127.0.0.1:8000/posts/2015/06/2015-pycon.html" rel="alternate"></link><published>2015-06-08T23:00:00+08:00</published><updated>2015-06-08T23:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:127.0.0.1,2015-06-08:/posts/2015/06/2015-pycon.html</id><summary type="html">&lt;p class="first last"&gt;&lt;a class="reference external" href="https://lh3.googleusercontent.com/-PWwg2yshhX4/VXb248gk16I/AAAAAAAAOmQ/C6HT4hX1o4w/s1600/IMG_0183.JPG"&gt;&lt;img alt="image0" src="https://lh3.googleusercontent.com/-PWwg2yshhX4/VXb248gk16I/AAAAAAAAOmQ/C6HT4hX1o4w/s800/IMG_0183.JPG" /&gt;&lt;/a&gt;&lt;/p&gt;
 </summary><content type="html">&lt;div class="img-center"&gt;&lt;p&gt;&lt;a class="reference external" href="https://lh3.googleusercontent.com/-PWwg2yshhX4/VXb248gk16I/AAAAAAAAOmQ/C6HT4hX1o4w/s1600/IMG_0183.JPG"&gt;&lt;img alt="image0" src="https://lh3.googleusercontent.com/-PWwg2yshhX4/VXb248gk16I/AAAAAAAAOmQ/C6HT4hX1o4w/s800/IMG_0183.JPG" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;&lt;p&gt;今年 PyCon APAC 是在台灣舉辦，活動的規模也擴增到了三天，感謝 Rick 的協助，讓我順利用早鳥票報名 PyCon APAC 啦！&lt;/p&gt;
 &lt;p&gt;這次聽到有趣的 library 和 framework 比較少，大多在於如何利用 Python 去實踐一些想法，或是利用在不同領域的研究，其中有不少贊助廠商的分享也還不錯。&lt;/p&gt;
@@ -499,7 +499,7 @@ git pull ; git add -u ; git commit -m'updated db' ; git push
 &lt;li&gt;&lt;a class="reference external" href="https://www.python.org/dev/peps/pep-0484/"&gt;https://www.python.org/dev/peps/pep-0484/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
-</content><category term="技術筆記"></category><category term="Python"></category></entry><entry><title>為什麼 MVC 實作不一樣</title><link href="https://hansliu.com/posts/2015/03/why-do-not-mvc-pattern-look-like.html" rel="alternate"></link><published>2015-03-01T06:00:00+08:00</published><updated>2015-03-01T06:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:hansliu.com,2015-03-01:/posts/2015/03/why-do-not-mvc-pattern-look-like.html</id><summary type="html">&lt;p&gt;這篇文章最早是用來回應 Python 社群對於 MVC 的討論內容，同時把它記錄在自己的部落格上。&lt;/p&gt;
+</content><category term="技術筆記"></category><category term="Python"></category></entry><entry><title>為什麼 MVC 實作不一樣</title><link href="http://127.0.0.1:8000/posts/2015/03/why-do-not-mvc-pattern-look-like.html" rel="alternate"></link><published>2015-03-01T06:00:00+08:00</published><updated>2015-03-01T06:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:127.0.0.1,2015-03-01:/posts/2015/03/why-do-not-mvc-pattern-look-like.html</id><summary type="html">&lt;p&gt;這篇文章最早是用來回應 Python 社群對於 MVC 的討論內容，同時把它記錄在自己的部落格上。&lt;/p&gt;
 &lt;p&gt;其原文探討的是為什麼每套 Framework 對於 MVC 設計上都有一套自己的見解，即使設計和實作上不一樣，卻都說自家的 Framework 包含（支援 ...&lt;/p&gt;</summary><content type="html">&lt;p&gt;這篇文章最早是用來回應 Python 社群對於 MVC 的討論內容，同時把它記錄在自己的部落格上。&lt;/p&gt;
 &lt;p&gt;其原文探討的是為什麼每套 Framework 對於 MVC 設計上都有一套自己的見解，即使設計和實作上不一樣，卻都說自家的 Framework 包含（支援） MVC。&lt;/p&gt;
 &lt;p&gt;在討論這個問題之前，我們首先要認識一下 MVC 的由來，至於有關 MVC 設計的細節將不是本篇的重點，對細節有興趣的人可以從我文內分享的文章或是從書本中得到更完整的說明。&lt;/p&gt;
@@ -541,4 +541,273 @@ While in design pattern, a pattern can't be implemented in which code can be wri
 &lt;/pre&gt;
 &lt;p&gt;除了目的就不同， Design Pattern 在實作上會存在需要使用同一種技術語言完成的先天條件，而 Architectural Pattern 則沒有這樣的限制，所以每套 Framework 只要實作出來的結果符合 MVC Pattern 的目的，並且保證使用者擁有 MVC Pattern 的優點，就算實作的方式不盡相同，也代表其包含（支援） MVC。&lt;/p&gt;
 &lt;/div&gt;
-</content><category term="技術筆記"></category><category term="MVC"></category><category term="Design Pattern"></category></entry></feed>
+</content><category term="技術筆記"></category><category term="MVC"></category><category term="Design Pattern"></category></entry><entry><title>轉換 Bootstrap 從 v2 到 v3</title><link href="http://127.0.0.1:8000/posts/2014/11/migrating-bootstrap-v2-to-v3.html" rel="alternate"></link><published>2014-11-19T22:00:00+08:00</published><updated>2014-11-19T22:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:127.0.0.1,2014-11-19:/posts/2014/11/migrating-bootstrap-v2-to-v3.html</id><summary type="html">&lt;div class="section" id="id1"&gt;
+&lt;h2&gt;前言&lt;/h2&gt;
+&lt;p&gt;在 &lt;a class="reference external" href="http://127.0.0.1:8000/posts/2014/03/hello-pelican-github-pages.html"&gt;Hello Pelican + GitHub Pages&lt;/a&gt; 介紹部落格的時候有提到，現在使用的 Pelican 樣式是 Jenny 設計的 &lt;a class="reference external" href="https://github.com/jsliang/pelican-fresh"&gt;pelican-fresh&lt;/a&gt; ，其設計是架構在 Bootstrap v2 ...&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="section" id="id1"&gt;
+&lt;h2&gt;前言&lt;/h2&gt;
+&lt;p&gt;在 &lt;a class="reference external" href="http://127.0.0.1:8000/posts/2014/03/hello-pelican-github-pages.html"&gt;Hello Pelican + GitHub Pages&lt;/a&gt; 介紹部落格的時候有提到，現在使用的 Pelican 樣式是 Jenny 設計的 &lt;a class="reference external" href="https://github.com/jsliang/pelican-fresh"&gt;pelican-fresh&lt;/a&gt; ，其設計是架構在 Bootstrap v2.x 的版本之上。因為我想要重新設計選單的樣式，使其可以支援使用行動裝置瀏覽的時候，選單會自動轉換成較好操作，而且又不會佔用閱讀空間的設計樣式，剛好我發現 Bootstrap v3.x 內建就有這樣的樣式風格，就決定把部落格使用的 Bootstrap 從 v2 轉換到 v3。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="id2"&gt;
+&lt;h2&gt;轉換&lt;/h2&gt;
+&lt;p&gt;轉換的部份其實蠻簡單的，主要可以參考官方的轉換文件，將 v2 對應的 class 改變成 v3 的版本，並針對部分 default 的 CSS 做微調即可。而且 Bootstrap v3 內建的設計風格因應業界趨勢，朝向扁平化發展，搭配許多新的 Glyphicons，可以很快速的完成一個簡單的樣式，看起來還不錯。&lt;/p&gt;
+&lt;p&gt;官方轉換文件 - &lt;a class="reference external" href="http://getbootstrap.com/migration/"&gt;http://getbootstrap.com/migration/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;不過要注意的是，在跨瀏覽器方面，Bootstrap v3 不支援 IE7 和 Firefox 3.6，有跨瀏覽器需求的人要注意一下是否要使用 Bootstrap v3。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="id3"&gt;
+&lt;h2&gt;選單&lt;/h2&gt;
+&lt;p&gt;使用 Bootstrap v3 重新設計選單的樣式，我是直接參考 twitter bootstrap tutorial 有關設計選單的教學。&lt;/p&gt;
+&lt;p&gt;Creating a Simple Navbar with Twitter Bootstrap - &lt;a class="reference external" href="http://www.tutorialrepublic.com/twitter-bootstrap-tutorial/bootstrap-navbar.php"&gt;http://www.tutorialrepublic.com/twitter-bootstrap-tutorial/bootstrap-navbar.php&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;照著做就可以有支援行動裝置的選單樣式了。&lt;/p&gt;
+&lt;/div&gt;
+</content><category term="技術筆記"></category><category term="Blog"></category><category term="Bootstrap"></category></entry><entry><title>使用 Process Count Supervisor + Cronjob 管理背景行程數</title><link href="http://127.0.0.1:8000/posts/2014/11/github-process-count-supervisor.html" rel="alternate"></link><published>2014-11-02T17:00:00+08:00</published><updated>2014-11-02T17:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:127.0.0.1,2014-11-02:/posts/2014/11/github-process-count-supervisor.html</id><summary type="html">&lt;div class="section" id="id1"&gt;
+&lt;h2&gt;前言&lt;/h2&gt;
+&lt;p&gt;Cronjob 很頻繁的被使用在工作排程上，不過如果無法預期排程中的 process 的執行時間，當發生 process 的執行時間超過排程預期的時候，可能會重複執行多個重複的 process，如此不但會造成系統資源的浪費，也可能發生無法預期的錯誤。&lt;/p&gt;
+&lt;p&gt;為了要友善管理背景執行的 process，在網路上可以找到用 ...&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="section" id="id1"&gt;
+&lt;h2&gt;前言&lt;/h2&gt;
+&lt;p&gt;Cronjob 很頻繁的被使用在工作排程上，不過如果無法預期排程中的 process 的執行時間，當發生 process 的執行時間超過排程預期的時候，可能會重複執行多個重複的 process，如此不但會造成系統資源的浪費，也可能發生無法預期的錯誤。&lt;/p&gt;
+&lt;p&gt;為了要友善管理背景執行的 process，在網路上可以找到用 Python 撰寫的 &lt;a class="reference external" href="http://supervisord.org/index.html"&gt;Supervisor: A Process Control System&lt;/a&gt; ，Supervisor 是一套完整的 system process monitoring 工具。但是這套工具的設計是以一支 daemon process 去管理 process，並透過設定檔來操作管理 process 的細節，雖然提供很多強大的附加功能，但主要是為了維持服務的穩定，這和我想要減少使用系統資源的目標有點不同。&lt;/p&gt;
+&lt;p&gt;而且這樣的工具會有一個明顯的盲點，因為 Supervisor 是利用 daemon process 去管理 process，那是不是也需要有 process 來管理 Supervisor 的 daemon process？所以最後我沒有採用 Supervisor 這套工具，而選擇自己寫一支簡單的程式。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="process-count-supervisor"&gt;
+&lt;h2&gt;Process Count Supervisor&lt;/h2&gt;
+&lt;p&gt;前言說完了，回到我要解決的問題，放在要如何簡單管理 process 數目，並且盡可能減少額外要執行的 process，以此概念下完成了 Process Count Supervisor 這支程式。&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;每次執行時才帶入需要的 process 指令，不需要保持常駐的 daemon&lt;/li&gt;
+&lt;li&gt;簡單透過參數限制最多執行的 process 數目&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="simple-use-case"&gt;
+&lt;h2&gt;Simple Use Case&lt;/h2&gt;
+&lt;p&gt;新建一個睡眠時間超過一分鐘的 shell script sleep.sh:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+echo '#!/bin/bash' &amp;gt; /home/yourname/sleep.sh
+echo 'sleep 200' &amp;gt; /home/yourname/sleep.sh
+chmod +x /home/yourname/sleep.sh
+&lt;/pre&gt;
+&lt;p&gt;設定 cronjob 為每分鐘執行一次，並使用 pcs.py （Process Count Supervisor） 來管理 sleep.sh:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+crontab -e
+*/1 * * * * /home/yourname/pcs.py -m 1 /home/yourname/sleep.sh &amp;gt; /dev/null 2&amp;gt;&amp;amp;1
+&lt;/pre&gt;
+&lt;p&gt;因為每分鐘執行一次的 sleep.sh 會睡眠超過一分鐘，所以理論上兩分鐘會擁有兩支 sleep.sh 同時在背景執行，但是在 pcs.py 的管理之下，sleep.sh 會維持同時間只有一支在背景執行。&lt;/p&gt;
+&lt;p&gt;詳細使用教學可以參照 Github repository 的說明。&lt;/p&gt;
+&lt;p&gt;Github repository link: &lt;a class="reference external" href="https://github.com/hansliu/process-count-supervisor"&gt;https://github.com/hansliu/process-count-supervisor&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+</content><category term="技術筆記"></category><category term="Python"></category><category term="Github"></category></entry><entry><title>2014 PyCon</title><link href="http://127.0.0.1:8000/posts/2014/06/2014-pycon.html" rel="alternate"></link><published>2014-06-02T23:00:00+08:00</published><updated>2014-06-02T23:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:127.0.0.1,2014-06-02:/posts/2014/06/2014-pycon.html</id><summary type="html">&lt;p class="first last"&gt;&lt;a class="reference external" href="https://lh5.googleusercontent.com/-LR8HJ1SVLUU/U4yvHeLDgsI/AAAAAAAAKUA/h-7gWlvf7Z0/s1600/pycon2014.jpg"&gt;&lt;img alt="image0" src="https://lh5.googleusercontent.com/-LR8HJ1SVLUU/U4yvHeLDgsI/AAAAAAAAKUA/h-7gWlvf7Z0/s800/pycon2014.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
+</summary><content type="html">&lt;div class="img-center"&gt;&lt;p&gt;&lt;a class="reference external" href="https://lh5.googleusercontent.com/-LR8HJ1SVLUU/U4yvHeLDgsI/AAAAAAAAKUA/h-7gWlvf7Z0/s1600/pycon2014.jpg"&gt;&lt;img alt="image0" src="https://lh5.googleusercontent.com/-LR8HJ1SVLUU/U4yvHeLDgsI/AAAAAAAAKUA/h-7gWlvf7Z0/s800/pycon2014.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;p&gt;今年當然也參加 PyCon 啦！&lt;/p&gt;
+&lt;p&gt;趁記憶猶新的時候，把這次聽到有趣的 library 和 framework 記錄下來。前面三項的內容摘錄自 &lt;a class="reference external" href="http://www.codedata.com.tw/social-coding/python-conference-newbie-ccr/"&gt;codedata&lt;/a&gt; 。&lt;/p&gt;
+&lt;div class="section" id="fabric"&gt;
+&lt;h2&gt;fabric&lt;/h2&gt;
+&lt;p&gt;當你一次管很多台電腦的時候，常常想要一鍵讓你所有機器執行數個 command。例如想要一次看所有機器的時間是否同步，看看所有電腦上的剩餘空間，或是一鍵 deploy，一鍵 rsync 等等...這個工具讓你輕鬆寫些 python script 就可以達到此目的。&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.fabfile.org/"&gt;http://www.fabfile.org/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="docker"&gt;
+&lt;h2&gt;docker&lt;/h2&gt;
+&lt;p&gt;這個應該不是 Python 限定的，但是因為有場專門介紹覺得很有興趣。現在大家已經對 VM 很熟悉了，但是 Docker 算是 lightweight 的 VM，他們有 host/guest 兩層 OS，而是在 host 之上有個 docker 層，可以 load 各種 distribution 到你的機器之上。所以你很容易開一個乾淨的環境，並且把你想要的檔案透過 API 放進此 sandbox，透過 expose 你想要的 port，這樣就可以跑起一個乾淨的環境。這對於測試，或是 staging 都非常有幫助。另外他有版本控制的功能，也有各種 distribution 的 ecosystem，成熟了以後應該會是個趨勢。&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.docker.io/"&gt;https://www.docker.io/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="thumbor"&gt;
+&lt;h2&gt;thumbor&lt;/h2&gt;
+&lt;p&gt;其實這是個小但是很可能會用到的工具。我們網頁常常需要切圖，但是不知道要切多大。而 thumbor 是個 gateway，只要描述:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+http://&amp;lt;thumbor-server&amp;gt;/300×200/smart/{your-host-of-image}/{your-path-to-image}
+&lt;/pre&gt;
+&lt;p&gt;它就會動態的產生 thumbnail，此工具搭配 CDN 可以解決很多的問題。&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/thumbor/thumbor"&gt;https://github.com/thumbor/thumbor&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="jieba"&gt;
+&lt;h2&gt;jieba&lt;/h2&gt;
+&lt;p&gt;中文分詞一直是讓人頭痛的問題，自從雅虎斷章取義工具 sunset 之後，現在主流的分詞工具之一是中研院的中文斷詞系統，但是我自己覺得沒有很好用。現在則有了新的選擇，就是結巴分詞。結巴的目標是打造最好用的 Python 分詞工具，對於需要中文分詞的 Python 使用者來說無疑是一大福音。&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/fxsjy/jieba"&gt;https://github.com/fxsjy/jieba&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="mezzanine"&gt;
+&lt;h2&gt;mezzanine&lt;/h2&gt;
+&lt;p&gt;基於 Django 之上完成的強大的內容管理工具，keynote speaker 有用 wordpress 當做比較的對象，架設內容網站的選擇之一。&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/stephenmcd/mezzanine"&gt;https://github.com/stephenmcd/mezzanine&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="networkx"&gt;
+&lt;h2&gt;networkx&lt;/h2&gt;
+&lt;p&gt;一個描繪點與線結構用的繪圖工具，如果有需要把複雜的網路架構圖像化的可以參考。&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://networkx.github.io/"&gt;https://networkx.github.io/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</content><category term="技術筆記"></category><category term="Python"></category></entry><entry><title>使用 Name Expansion + Fabric 同時部屬多台機器</title><link href="http://127.0.0.1:8000/posts/2014/04/github-name-expansion.html" rel="alternate"></link><published>2014-04-26T23:00:00+08:00</published><updated>2014-04-26T23:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:127.0.0.1,2014-04-26:/posts/2014/04/github-name-expansion.html</id><summary type="html">&lt;p&gt;前陣子為了完成 Fabric 同時部屬多台機器的功能，寫了一個字串展開的小工具。&lt;/p&gt;
+&lt;p&gt;使用 python regular expression 來實作，讓使用者可以利用逗號、數字、括弧將字串批次展開。&lt;/p&gt;
+&lt;p&gt;簡單的 use case:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+&amp;gt;&amp;gt;&amp;gt; from ...&lt;/pre&gt;</summary><content type="html">&lt;p&gt;前陣子為了完成 Fabric 同時部屬多台機器的功能，寫了一個字串展開的小工具。&lt;/p&gt;
+&lt;p&gt;使用 python regular expression 來實作，讓使用者可以利用逗號、數字、括弧將字串批次展開。&lt;/p&gt;
+&lt;p&gt;簡單的 use case:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+&amp;gt;&amp;gt;&amp;gt; from name_expansion import NameExpansionCore
+&amp;gt;&amp;gt;&amp;gt; ne = NameExpansionCore()
+
+&amp;gt;&amp;gt;&amp;gt; host = '[tw,hk][1-2].host[3,5].com'
+&amp;gt;&amp;gt;&amp;gt; host_list = list([host])
+&amp;gt;&amp;gt;&amp;gt; for match in ne.parse(host):
+...   host_list = ne.expand(match, host_list)
+&amp;gt;&amp;gt;&amp;gt; host_list
+['tw1.host3.com', 'hk1.host3.com', 'tw1.host5.com', 'hk1.host5.com',
+'tw2.host3.com', 'hk2.host3.com', 'tw2.host5.com', 'hk2.host5.com']
+&lt;/pre&gt;
+&lt;p&gt;Fabric 要部屬的機器是儲存在 env.hosts 裡面，型態是 list，所以我們只要在 fabfile.py 加入一個 method，將 Name expansion 批次展開的結果回存到 env.hosts 裡。&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+def h(curr_host):
+  ne = NameExpansionCore()
+  host_list = list([curr_host])
+  for match in ne.parse(curr_host):
+    host_list = ne.expand(match, host_list)
+  env.hosts = host_list
+&lt;/pre&gt;
+&lt;p&gt;接著我們就可以透過 Fabric 內建指令 fab，同時指定多台機器做部屬的動作，不過執行部屬的動作是循序的，並不是平行的。&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+fab h:host[1-3].com deploy
+&lt;/pre&gt;
+&lt;p&gt;詳細使用教學可以參照 Github repository 的說明。&lt;/p&gt;
+&lt;p&gt;Github repository link: &lt;a class="reference external" href="https://github.com/hansliu/name-expansion"&gt;https://github.com/hansliu/name-expansion&lt;/a&gt;&lt;/p&gt;
+</content><category term="技術筆記"></category><category term="Python"></category><category term="Github"></category></entry><entry><title>2014部落格改版</title><link href="http://127.0.0.1:8000/posts/2014/03/2014-blog-upgrade.html" rel="alternate"></link><published>2014-03-31T10:00:00+08:00</published><updated>2014-03-31T10:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:127.0.0.1,2014-03-31:/posts/2014/03/2014-blog-upgrade.html</id><summary type="html">&lt;p&gt;&lt;a class="reference external" href="https://lh3.googleusercontent.com/-h71cIF3bnYo/Uzm-XVuME6I/AAAAAAAAKGE/xOzCZ3SUGsg/s1600/blog2014.png"&gt;&lt;img alt="image0" src="https://lh3.googleusercontent.com/-h71cIF3bnYo/Uzm-XVuME6I/AAAAAAAAKGE/xOzCZ3SUGsg/s800/blog2014.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;部落格搬家也逐漸接近尾聲，剩下就是一些舊部落格的收尾和導入。&lt;/p&gt;
+&lt;p&gt;我的 ATOM/RSS 有使用 feedburner，所以只要更新 feedburner 的設定，它就會自動幫你通知所有的訂閱戶，並且幫用戶自動訂閱新網站的文章。&lt;/p&gt;
+&lt;p&gt;比較可惜的是因為過去一直都是用 blogger 提供的 domain ...&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;a class="reference external" href="https://lh3.googleusercontent.com/-h71cIF3bnYo/Uzm-XVuME6I/AAAAAAAAKGE/xOzCZ3SUGsg/s1600/blog2014.png"&gt;&lt;img alt="image0" src="https://lh3.googleusercontent.com/-h71cIF3bnYo/Uzm-XVuME6I/AAAAAAAAKGE/xOzCZ3SUGsg/s800/blog2014.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;部落格搬家也逐漸接近尾聲，剩下就是一些舊部落格的收尾和導入。&lt;/p&gt;
+&lt;p&gt;我的 ATOM/RSS 有使用 feedburner，所以只要更新 feedburner 的設定，它就會自動幫你通知所有的訂閱戶，並且幫用戶自動訂閱新網站的文章。&lt;/p&gt;
+&lt;p&gt;比較可惜的是因為過去一直都是用 blogger 提供的 domain name，所以新部落格的 SEO 計算就要從頭開始...&lt;/p&gt;
+&lt;p&gt;再來應該會想辦法設計 redirect，看能不能把舊部落格的流量重導到新部落格。&lt;/p&gt;
+&lt;div class="section" id="id2"&gt;
+&lt;h2&gt;圖片顯示&lt;/h2&gt;
+&lt;p&gt;加入回應式燈箱 &lt;a class="reference external" href="http://dimsemenov.com/plugins/magnific-popup/"&gt;magnific-popup&lt;/a&gt; ，並修改相關 css，取消不必要的陰影和邊框。&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+/* Magnific Popup CSS */
+.mfp-figure:after {
+  box-shadow: none !important;
+  background: none !important; }
+&lt;/pre&gt;
+&lt;p&gt;加入延遲載入  &lt;a class="reference external" href="http://www.appelsiini.net/projects/lazyload"&gt;lazyload&lt;/a&gt; ，讓網頁在開啟大量圖片的時候可以更順暢一點。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="id3"&gt;
+&lt;h2&gt;外部套件&lt;/h2&gt;
+&lt;p&gt;在 Google AdSense 部分使用新的回應式廣告單元，廣告排版則是參考 Jenny 的配置，放在文章的開頭與結尾，同時把 BloggerAds 也放進來，安插在首頁的側邊欄。&lt;/p&gt;
+&lt;p&gt;在 Google Analytics 部分則是升級到通用分析，因為是新安裝，目前還不知道實際運作的效果。&lt;/p&gt;
+&lt;/div&gt;
+</content><category term="技術筆記"></category><category term="Blog"></category></entry><entry><title>使用 name.com 申請新域名</title><link href="http://127.0.0.1:8000/posts/2014/03/new-domain-name-with-name-com.html" rel="alternate"></link><published>2014-03-26T22:00:00+08:00</published><updated>2014-03-26T22:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:127.0.0.1,2014-03-26:/posts/2014/03/new-domain-name-with-name-com.html</id><summary type="html">&lt;p&gt;搬家的第二步驟，就是決心要註冊一個新域名，想著趁這次機會好好的養一個專屬域名，事前也上網搜尋了許多部落客的經驗，大致上整理出國內國外的數家網域名稱代理商。&lt;/p&gt;
+&lt;ol class="arabic simple"&gt;
+&lt;li&gt;pchome - &lt;a class="reference external" href="http://myname.pchome.com.tw"&gt;http://myname.pchome.com.tw&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;GoDaddy - &lt;a class="reference external" href="http://www.godaddy.com"&gt;http://www.godaddy.com ...&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary><content type="html">&lt;p&gt;搬家的第二步驟，就是決心要註冊一個新域名，想著趁這次機會好好的養一個專屬域名，事前也上網搜尋了許多部落客的經驗，大致上整理出國內國外的數家網域名稱代理商。&lt;/p&gt;
+&lt;ol class="arabic simple"&gt;
+&lt;li&gt;pchome - &lt;a class="reference external" href="http://myname.pchome.com.tw"&gt;http://myname.pchome.com.tw&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;GoDaddy - &lt;a class="reference external" href="http://www.godaddy.com"&gt;http://www.godaddy.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;name.com - &lt;a class="reference external" href="https://www.name.com"&gt;https://www.name.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;eNom - &lt;a class="reference external" href="http://www.enom.com"&gt;http://www.enom.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;namecheap - &lt;a class="reference external" href="https://www.namecheap.com"&gt;https://www.namecheap.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;yahoo.com - &lt;a class="reference external" href="https://smallbusiness.yahoo.com"&gt;https://smallbusiness.yahoo.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;因為我沒有要使用 .tw 的頂級網域名稱，所以就放棄國內域名商 pchome，打算挑選不論是網站流量或是廣告折扣都打很兇的 GoDaddy，而且網路上的中文教學資訊也相當的豐富。&lt;/p&gt;
+&lt;p&gt;可惜的是，實際使用 GoDaddy 的情形讓我大失所望，先是註冊 GoDaddy 的過程中就讓我感受到了重重妨礙，它的使用者介面相當不具有親和力，而其註冊時的安全考量也相當的令我困惑（例如註冊密碼限制要9位數以上），以及龐大的彈出式廣告與配套方案，都讓我感到不適應，而且其中最令人稱讚的 coupon 優惠，在加上 privacy service 之後的價格也變得沒有什麼競爭力...&lt;/p&gt;
+&lt;p&gt;終於在我好不容易註冊完成，順利登入 GoDaddy 的首頁後，沒想到會員後台也會有彈出式視窗，這一點也讓我正式宣告放棄使用 GoDaddy，轉而跳到下一家 name.com 來進行申請。&lt;/p&gt;
+&lt;p&gt;不可否認 name.com 的配套相對來的少，其 coupon 優惠也很單純（privacy free），但是申請的過程很流暢，沒有過多不必要的資訊，網站本身速度也很快，會員後台的操作也很清楚明瞭，在 DNS 設定上還提供不少的 template 給人參考，我自己是比較喜歡這種單純直白的操作環境，即使價格不是最漂亮的。&lt;/p&gt;
+&lt;p&gt;最後我也順利申請到想要的新域名 &lt;strong&gt;hansliu.com&lt;/strong&gt; 。&lt;/p&gt;
+&lt;p&gt;順便分享在搜尋域名資料時，看到的可愛影片，是介紹 .me 這個頂級網域名稱。&lt;/p&gt;
+&lt;div class="youtube"&gt;&lt;iframe src="https://www.youtube.com/embed/JI8c66xgXIs" width="800" height="500" seamless frameBorder="0"&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;dl class="docutils"&gt;
+&lt;dt&gt;.me 網域名稱小知識&lt;/dt&gt;
+&lt;dd&gt;.me 是位於東南歐巴爾幹半島上的國家，蒙特內哥羅 (Montenegro) 的國碼頂級網域名稱 (或翻譯成黑山共和國)。&lt;/dd&gt;
+&lt;/dl&gt;
+</content><category term="技術筆記"></category><category term="Blog"></category><category term="Domain Name"></category><category term="Github Page"></category></entry><entry><title>Hello Pelican + GitHub Pages</title><link href="http://127.0.0.1:8000/posts/2014/03/hello-pelican-github-pages.html" rel="alternate"></link><published>2014-03-23T04:00:00+08:00</published><updated>2014-03-23T04:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:127.0.0.1,2014-03-23:/posts/2014/03/hello-pelican-github-pages.html</id><summary type="html">&lt;p&gt;隨著無名關閉、Google blogger 越來越慢等等原因，我心中就一直想要替自己的部落格搬家，同時看到 Jenny 使用 Pelican 的心得，就引起我的興趣，也想要將部落格搬到 GitHub Pages，不過拖了很久一直沒有開始動工，直到最近終於開始部落格的搬家作業 ...&lt;/p&gt;</summary><content type="html">&lt;p&gt;隨著無名關閉、Google blogger 越來越慢等等原因，我心中就一直想要替自己的部落格搬家，同時看到 Jenny 使用 Pelican 的心得，就引起我的興趣，也想要將部落格搬到 GitHub Pages，不過拖了很久一直沒有開始動工，直到最近終於開始部落格的搬家作業。&lt;/p&gt;
+&lt;p&gt;這篇文章是用來記錄一下搬家的相關資訊。&lt;/p&gt;
+&lt;div class="section" id="id1"&gt;
+&lt;h2&gt;安裝&lt;/h2&gt;
+&lt;p&gt;為了安裝方便我將 Pelican 安裝在工作機上面，參照 &lt;a class="reference external" href="http://docs.getpelican.com/en/3.3.0/getting_started.html"&gt;Pelican 3.3.0 官方文件&lt;/a&gt; ，並搭配 Python2.7，很順利的就完成所有安裝步驟。&lt;/p&gt;
+&lt;p&gt;真正的問題是當我要匯入 Blogger 的文章才開始...&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="id2"&gt;
+&lt;h2&gt;文章&lt;/h2&gt;
+&lt;p&gt;首先，我把 Blogger 的文章匯出成 ATOM/RSS 的格式，並且在工作機上面安裝 feedparser ，就可以利用 Pelican-import 的內建指令來做轉出文章的動作。&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+pelican-import --feed &amp;lt;your-blogger-documents&amp;gt;.xml -o output
+&lt;/pre&gt;
+&lt;p&gt;再來，當我使用 Pelican 執行文章轉出後，得到的不是文章，而是 exception:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+/bin/sh: pandoc: command not found
+Please, check your Pandoc installation.
+&lt;/pre&gt;
+&lt;p&gt;上網搜尋關鍵字，發現是因為我的文章中有包含中文內容，如果要轉換就必須要安裝 &lt;a class="reference external" href="http://johnmacfarlane.net/pandoc/installing.html"&gt;Pandoc&lt;/a&gt; ，然後如果要安裝 &lt;a class="reference external" href="http://johnmacfarlane.net/pandoc/installing.html"&gt;Pandoc&lt;/a&gt; 的話必須要有 &lt;a class="reference external" href="http://www.haskell.org/platform/"&gt;Haskell Platform&lt;/a&gt; ，但我的工作機的作業系統是 RHEL6，其內建不包含 &lt;a class="reference external" href="http://www.haskell.org/platform/"&gt;Haskell Platform&lt;/a&gt; 。&lt;/p&gt;
+&lt;p&gt;所以我要先安裝 &lt;a class="reference external" href="http://www.haskell.org/platform/"&gt;Haskell Platform&lt;/a&gt; ，然後使用內建的指令 cabal 來安裝 &lt;a class="reference external" href="http://johnmacfarlane.net/pandoc/installing.html"&gt;Pandoc&lt;/a&gt; ，最後才能將所有文章轉成 reStructuredText 格式。&lt;/p&gt;
+&lt;p&gt;Pandoc 會使用其內建的語法來做轉換 &lt;a class="reference external" href="http://pages.tzengyuxio.me/pandoc/"&gt;Pandoc 語法中文翻譯&lt;/a&gt; 。&lt;/p&gt;
+&lt;p&gt;當文章終於順利轉完後，接著我發現圖片資訊會有殘缺或錯誤的現象，例如圖片失去超連結，或著是圖片重複出現，因此文章轉完後就要開始漫長的編修...&lt;/p&gt;
+&lt;p&gt;這邊補上 reStructuredText 插入圖片和超連結的方法:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+in inline images:
+
+.. image:: pageflip-200.png
+:target: pageapplet/index.html
+
+With a reference, like:
+
+Click on my |ImageLink|_
+
+.. |ImageLink| image:: /images/link.png
+.. _ImageLink: http://link.url/
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div class="section" id="id3"&gt;
+&lt;h2&gt;樣式&lt;/h2&gt;
+&lt;p&gt;Pelican 的樣式都放在 &lt;a class="reference external" href="https://github.com/getpelican/pelican-themes"&gt;pelican-themes&lt;/a&gt; ，我們可以直接挑選喜歡的樣式來用，也可以將自己設計的樣式加入 &lt;a class="reference external" href="https://github.com/getpelican/pelican-themes"&gt;pelican-themes&lt;/a&gt; ，分享給 Pelican 的使用者，因為我希望可以挑一個簡單可擴充的樣式，在逛完 &lt;a class="reference external" href="https://github.com/getpelican/pelican-themes"&gt;pelican-themes&lt;/a&gt; 之後，還是決定以 Jenny 設計的 &lt;a class="reference external" href="https://github.com/jsliang/pelican-fresh"&gt;pelican-fresh&lt;/a&gt; 為基礎，在根據自己的需求稍作調整。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="id4"&gt;
+&lt;h2&gt;套件&lt;/h2&gt;
+&lt;p&gt;Pelican 的套件都在 &lt;a class="reference external" href="https://github.com/getpelican/pelican-plugins"&gt;pelican-plugins&lt;/a&gt; ，一樣可以直接挑選喜歡的套件來用。&lt;/p&gt;
+&lt;p&gt;直接放上現在有使用的 plugin:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+PLUGINS = [
+    'gravatar',
+    'related_posts',
+    'pelican_youtube',
+    'pelican_vimeo',
+]
+&lt;/pre&gt;
+&lt;/div&gt;
+</content><category term="技術筆記"></category><category term="Blog"></category><category term="Python"></category><category term="Pelican"></category><category term="Github Pages"></category></entry><entry><title>2012 PyCon</title><link href="http://127.0.0.1:8000/posts/2012/06/2012-pycon.html" rel="alternate"></link><published>2012-06-18T15:35:00+08:00</published><updated>2012-06-18T15:35:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:127.0.0.1,2012-06-18:/posts/2012/06/2012-pycon.html</id><summary type="html">&lt;p class="first last"&gt;&lt;img alt="image0" src="https://lh4.googleusercontent.com/-pn-a1nAUS4g/T9oa2YdUNYI/AAAAAAAAIx8/3Ukf8f4cOCk/s800/pycon2012.png" /&gt;&lt;/p&gt;
+</summary><content type="html">&lt;div class="img-center"&gt;&lt;p&gt;&lt;img alt="image0" src="https://lh4.googleusercontent.com/-pn-a1nAUS4g/T9oa2YdUNYI/AAAAAAAAIx8/3Ukf8f4cOCk/s800/pycon2012.png" /&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;p&gt;PyCon，亦即 Python 年會，是 Python 社群最大型的年度聚會。PyCon
+是社群同好自發籌辦的活動，展現 Python
+在各式領域的應用現況。我們致力讓台灣 Python
+年會成為高品質的專業活動，讓與會朋友享受技術交流的樂趣，體驗社群獨有的熱情。&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://tw.pycon.org/2012/"&gt;http://tw.pycon.org/2012/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;紀錄一下參加 Python 年會的筆記...&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;網站建置&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;擅用 RSS 做最新公告&lt;/div&gt;
+&lt;div class="line"&gt;擅用 BigPipe 做循序顯示&lt;/div&gt;
+&lt;div class="line"&gt;擅用 UI 工具做介面設計&lt;/div&gt;
+&lt;div class="line"&gt;User Interface Design:&lt;/div&gt;
+&lt;div class="line"&gt;Twitter Bootstrap for UI &lt;a class="reference external" href="http://twitter.github.com/bootstrap/"&gt;http://twitter.github.com/bootstrap/&lt;/a&gt;&lt;/div&gt;
+&lt;div class="line"&gt;Google Web Fonts for text &lt;a class="reference external" href="http://www.google.com/webfonts"&gt;http://www.google.com/webfonts&lt;/a&gt;&lt;/div&gt;
+&lt;div class="line"&gt;Icon Fonts for icon&lt;/div&gt;
+&lt;div class="line"&gt;空間供應商 linode.com&lt;/div&gt;
+&lt;div class="line"&gt;資料庫 mongodb&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Framework&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;Clime&lt;/div&gt;
+&lt;div class="line"&gt;Django &lt;a class="reference external" href="https://www.djangoproject.com/"&gt;https://www.djangoproject.com/&lt;/a&gt;&lt;/div&gt;
+&lt;div class="line"&gt;Jinja2&lt;/div&gt;
+&lt;div class="line"&gt;Twisted &lt;a class="reference external" href="http://twistedmatrix.com/"&gt;http://twistedmatrix.com/&lt;/a&gt;&lt;/div&gt;
+&lt;div class="line"&gt;PySide&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Interest Website&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;about.me &lt;a class="reference external" href="https://about.me/"&gt;https://about.me/&lt;/a&gt;&lt;/div&gt;
+&lt;div class="line"&gt;pinkoi &lt;a class="reference external" href="http://www.pinkoi.com/"&gt;http://www.pinkoi.com/&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+</content><category term="技術筆記"></category><category term="Python"></category></entry></feed>
