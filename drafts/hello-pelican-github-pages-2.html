@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+	<!-- html5 meta -->
+	<meta charset="UTF-8">
+	<meta name="author" content="Hans Liu">
+	<meta name="description" content="Hans Blog - life, photo, code">
+	<meta name="keywords" content="Blog, Python, Pelican, Github Pages">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Hello Pelican + Github Pages II | Hans Blog</title>
+	<link rel="canonical" href="https://hansliu.com/drafts/hello-pelican-github-pages-2.html">
+
+	<!-- icon -->
+	<link rel="icon" type="image/x-icon" href="https://hansliu.com/images/favicon.ico">
+
+	<!-- parser -->
+	<meta name="robots" content="index, follow">
+	<meta name="googlebot" content="index, follow">
+	<meta name="baiduspider" content="index, nofollow">
+
+	<!-- og -->
+	<meta property="og:title" content="Hello Pelican + Github Pages II">
+	<meta property="og:url" content="https://hansliu.com/drafts/hello-pelican-github-pages-2.html">
+	<meta property="og:site_name" content="Hans Blog">
+	<meta property="og:type" content="article">
+
+	<!-- cdn css -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+		integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+		crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap-grid.min.css"
+		integrity="sha384-AQznhoDGj2aKQxm9Hz1U8fvaEgnQDyn0LhRc1UdE2tJbig9H8xMsr4onwOB7RkPu"
+		crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"
+		integrity="sha512-+EoPw+Fiwh6eSeRK7zwIKG2MA8i3rV/DGa3tdttQGgWyatG/SkncT53KHQaS5Jh9MNOT3dmFL0FjTY08And/Cw=="
+		crossorigin="anonymous" />
+
+	<!-- css -->
+	<link rel="stylesheet" href="https://hansliu.com/theme/css/main.css?v=20200924162135" type="text/css">
+
+	<!-- feed -->
+	<link href="https://hansliu.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Hans Blog Full Atom Feed"/>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-49957360-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-49957360-1');
+	</script>
+
+</head>
+
+<body>
+	<div id="blog">
+
+		<!-- canvas -->
+		<div id="button-close-sidebar"></div>
+
+		<nav id="sidebar" data-behavior="2">
+			<div class="sidebar-container">
+				<div class="sidebar-profile">
+					<img class="sidebar-profile-image" src="https://www.gravatar.com/avatar/9f7a4464129bd81ca5ac89e8067a5178?s=110" alt="Author's image"></img>
+				</div>
+				<p class="sidebar-profile-name">
+					Hans Blog</br>
+					life, photo, code
+				</p>
+				<div id="google-custom-search">
+					<script async src="https://cse.google.com/cse.js?cx=011860739956157042125:fttd__0pkbu"></script>
+					<div class="gcse-search"></div>
+				</div>
+				<ul class="fa-ul">
+<!-- /.Menuitems -->
+								<li><a href="https://hansliu.com/"><i class="fa-li fas fa-home"></i>Home</a></li>
+								<li><a href="https://hansliu.com/pages/photography.html"><i class="fa-li fas fa-camera-retro"></i>互惠攝影</a></li>
+
+							<li class="active"><a href="https://hansliu.com/category/ji-shu-bi-ji/"><i class="fa-li fas fa-folder-open"></i> 技術筆記 (18)</a></li>
+							<li ><a href="https://hansliu.com/category/jiao-se-ban-yan/"><i class="fa-li fas fa-folder-open"></i> 角色扮演 (28)</a></li>
+							<li ><a href="https://hansliu.com/category/ren-xiang-she-ying/"><i class="fa-li fas fa-folder-open"></i> 人像攝影 (20)</a></li>
+							<li ><a href="https://hansliu.com/category/ri-chang-xie-xie/"><i class="fa-li fas fa-folder-open"></i> 日常寫寫 (55)</a></li>
+							<li ><a href="https://hansliu.com/category/ying-xiang-xu-shi/"><i class="fa-li fas fa-folder-open"></i> 影像敘事 (90)</a></li>
+<!-- /.Categories -->
+
+						<li><a href="https://hansliu.com/archives/index.html"><i class="fa-li fas fa-archive"></i>Archives</a></li>
+
+							<li><a href="http://feeds.feedburner.com/hansliu"><i class="fa-li fas fa-rss-square"></i> Burner Feed</a></li>
+<!-- /.Feeds -->
+				</ul>
+			</div>
+		</nav>
+
+		<header id="header" data-behavior="2">
+			<a id="button-open-sidebar"><i class="fas fa-bars fa-lg"></i></a>
+			<div class="header-title">
+				<a class="header-title-link" href="https://hansliu.com" rel="bookmark" title="Permalink to Hans Blog">Hans Blog - life, photo, code</a>
+			</div>
+			<span class="header-right">
+				<img class="header-image" src="https://www.gravatar.com/avatar/9f7a4464129bd81ca5ac89e8067a5178?s=110" alt="Author's image"></img>
+			</span>
+		</header>
+
+		<div id="main" data-behavior="2">
+<section>
+	<div class="content-wrap">
+		<article id="article">
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 回應式廣告單元 -->
+<ins class="adsbygoogle"
+		style="display:block"
+		data-ad-client="ca-pub-2397402631312142"
+		data-ad-slot="5726206164"
+		data-ad-format="auto"
+		data-full-width-responsive="true"></ins>
+<script>
+		(adsbygoogle = window.adsbygoogle || []).push({});
+</script><!-- /.Google Adsense -->
+
+			<h1 class="post-title">Hello Pelican + Github Pages II</h1>
+
+			<div class="post-info">
+				<span>Hans Liu</span>
+
+				posted on Sep 25, 2020
+
+				<script id="dsq-count-scr" src="//hansliu.disqus.com/count.js" async></script>
+				| <i class="far fa-comment"></i> <a href="https://hansliu.com/drafts/hello-pelican-github-pages-2.html#disqus_thread"></a>
+
+
+				
+			</div><!-- /.post-info -->
+
+			<div class="post-content">
+
+				<p>從2014年開始使用 Pelican 寫部落格到現在也過了六年，Pelican 也從原本的3.3.0版本升級到現在的4.5.0，雖然大架構沒有改變，但有些小地方跟以前不太一樣，所以特別寫篇文章記錄下來。</p>
+<h2>安裝</h2>
+<p>都到了2020年了，絕大多數的 package 都<strong>應該</strong>支援 Python 3+（讓我們一起跟 Python 2 說拜拜），我在安裝 Pelican 4.5.0 的時候搭配的是 Python 3.8，使用 Pipenv 就能輕鬆寫意的完成安裝。</p>
+<h2>文章</h2>
+<p>現在 Pelican 是支援 Markdown 的，只要記得安裝的時候同時安裝 Markdown 對應的 package 就好，安裝完後就可以直接使用 Markdown 來撰寫文章。由於 Markdown 在各個網路內容平台都已經相當普及，所以現在不論是想要匯入匯出文章，或是想要擷取、轉載部分文章內容都會比以往來的方便許多。</p>
+<h2>樣式</h2>
+<p>樣式的部分現在可以透過 <code>pelican-themes</code> 指令來操作，你可以安裝想要的樣式，也可以移除不想要的樣式。</p>
+<p>現在我使用的樣式是我自己製作的 <code>Stirring</code>，有興趣的人可以在 <a href="https://github.com/hansliu/pelican-stirring">pelican-stirring</a> 看到更完整的介紹。</p>
+<h2>套件</h2>
+<p>套件的部份現在可以透過 <code>pelican-plugins</code> 指令來操作，然後新的套件現在是變成 namespace <a href="https://github.com/pelican-plugins">pelican-plugins</a>，至於舊的套件還是在一樣的位置，官方文件是說舊的套件也可以使用，但因為 signal 設定的關係，很多舊的套件都不能正常使用，我自己是把舊的套件 pelican_youtube 抽出來加上新的 signal 設定放在自己的 repo 底下。</p>
+<p>放上現在使用的 plugins：</p>
+<div class="highlight"><pre><span></span><code><span class="n">PLUGIN_PATHS</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="s1">&#39;pelican_youtube&#39;</span>
+<span class="p">]</span>
+<span class="n">PLUGINS</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="s1">&#39;pelican.plugins.related_posts&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;pelican.plugins.sitemap&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;pelican_youtube&#39;</span>
+<span class="p">]</span>
+</code></pre></div>
+			</div>
+
+			<div class="post-tag">
+				<a href="https://hansliu.com/tag/blog/">Blog</a>
+				<a href="https://hansliu.com/tag/python/">Python</a>
+				<a href="https://hansliu.com/tag/pelican/">Pelican</a>
+				<a href="https://hansliu.com/tag/github-pages/">Github Pages</a>
+			</div>
+
+<div class="container-fluid post-footer">
+	<div class="row">
+		<div class="col-12 col-md-6">
+			<div class="row post-author-info">
+				<div class="col-4">
+					<img class="post-author-image" src="https://www.gravatar.com/avatar/9f7a4464129bd81ca5ac89e8067a5178?s=110" alt="Author's image"></img>
+				</div>
+				<div class="col-8">
+					<h3 class="post-author-name">Hans Liu</h3>
+<!-- /.Social -->
+								<a href="https://linkedin.com/in/liuhans" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+								<a href="https://github.com/hansliu" target="_blank"><i class="fab fa-github-square fa-2x"></i></a>
+								<a href="https://500px.com/hcliu" target="_blank"><i class="fab fa-500px fa-2x"></i></a>
+					<p class="post-author-description">
+						Is a programmer, photographer, and traveler.
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-12 col-md-6">
+			<div class="row post-category-info">
+				<div class="col-4">
+					<a href="https://hansliu.com/category/ji-shu-bi-ji/">
+						<img class="post-category-image" src="https://hansliu.com/images/005-coding.png" alt="Category's image"></img>
+					</a>
+				</div>
+				<div class="col-8">
+					<h1 class="post-category-title"><a href="https://hansliu.com/category/ji-shu-bi-ji/">技術筆記</a></h1>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+			<div class="related-posts">
+				<h3>Related posts</h3>
+				<!-- TODO: Use fancier related layout, as in http://kevin.deldycke.com/2012/04/beautify-contextual-related-posts-wordpress-plugin/ -->
+				<ul>
+						<li><a href="https://hansliu.com/posts/2014/03/hello-pelican-github-pages.html">Hello Pelican + GitHub Pages</a></li>
+						<li><a href="https://hansliu.com/posts/2020/09/2020-blog-theme-upgrade.html">2020部落格改版</a></li>
+						<li><a href="https://hansliu.com/posts/2017/06/2017-blog-theme-upgrade.html">2017部落格改版</a></li>
+						<li><a href="https://hansliu.com/posts/2014/11/migrating-bootstrap-v2-to-v3.html">轉換 Bootstrap 從 v2 到 v3</a></li>
+						<li><a href="https://hansliu.com/posts/2014/03/2014-blog-upgrade.html">2014部落格改版</a></li>
+				</ul>
+			</div>
+
+<div class="comments">
+	<div id="disqus_thread"></div>
+	<script>
+
+	var disqus_config = function () {
+		this.page.url = 'https://hansliu.com/drafts/hello-pelican-github-pages-2.html'; // Replace PAGE_URL with your page's canonical URL variable
+		this.page.identifier = 'hansliu'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+	};
+
+	(function() { // DON'T EDIT BELOW THIS LINE
+		var d = document, s = d.createElement('script');
+		s.src = 'https://hansliu.disqus.com/embed.js';
+		s.setAttribute('data-timestamp', +new Date());
+		(d.head || d.body).appendChild(s);
+	})();
+	</script>
+</div>
+		</article>
+	</div><!-- /.content-wrap -->
+</section>
+
+			<section>
+				<div class="content-wrap">
+					<footer id="footer">
+						<div class="links">
+								<a href="https://hansliu.com/pages/tos.html">Terms</a>
+								<a href="https://hansliu.com/pages/privacy.html">Privacy</a>
+								<a href="https://getpelican.com/" target="_blank">Pelican</a>
+								<a href="https://jinja.pocoo.org/" target="_blank">Jinja2</a>
+								<a href="https://favicon.io/" target="_blank">Favicon</a>
+								<a href="https://www.flaticon.com/" target="_blank">Flaticon</a>
+						</div><!-- /.Links -->
+						<span class="copyrights">Copyrights © 2020 Hans Liu. All Rights Reserved.</span>
+					</footer>
+				</div>
+			</section>
+
+		</div>
+
+	</div>
+
+	<div id="cover" style="background-image:url('https://hansliu.com/theme/images/cover.jpg');"></div>
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+		integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"
+		integrity="sha512-jNDtFf7qgU0eH/+Z42FG4fw3w7DM/9zbgNPe3wfJlCylVDTT3IgKW5r92Vy9IHa6U50vyMz5gRByIu4YIXFtaQ=="
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"
+		integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w=="
+		crossorigin="anonymous"></script>
+
+		<script src="https://hansliu.com/theme/js/main.js?v=20200924162135"></script>
+</body>
+</html>
