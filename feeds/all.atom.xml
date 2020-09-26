@@ -1,5 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Hans Blog</title><link href="https://hansliu.com/" rel="alternate"></link><link href="https://hansliu.com/feeds/all.atom.xml" rel="self"></link><id>https://hansliu.com/</id><updated>2020-09-22T23:30:00+08:00</updated><subtitle>life, photo, code</subtitle><entry><title>轉職這件事，從台灣到新加坡工作</title><link href="https://hansliu.com/posts/2020/09/why-overseas-work-from-taiwan-to-singapore.html" rel="alternate"></link><published>2020-09-22T23:30:00+08:00</published><updated>2020-09-22T23:30:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:hansliu.com,2020-09-22:/posts/2020/09/why-overseas-work-from-taiwan-to-singapore.html</id><summary type="html">&lt;p&gt;離開台灣 Y 社的時候就一直很想寫下整個轉職的心路歷程，但又不知道從何下筆（因為想說的太多），所以就一直擱著，沒想到擱著擱著兩年就過去了，而且現在的我即將離開 W 社開啟新的旅程...&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Hans Blog</title><link href="https://hansliu.com/" rel="alternate"></link><link href="https://hansliu.com/feeds/all.atom.xml" rel="self"></link><id>https://hansliu.com/</id><updated>2020-09-26T01:00:00+08:00</updated><subtitle>life, photo, code</subtitle><entry><title>Hello Pelican + Github Pages II</title><link href="https://hansliu.com/posts/2020/09/hello-pelican-github-pages-2.html" rel="alternate"></link><published>2020-09-26T01:00:00+08:00</published><updated>2020-09-26T01:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:hansliu.com,2020-09-26:/posts/2020/09/hello-pelican-github-pages-2.html</id><summary type="html">&lt;p&gt;從2014年開始使用 Pelican 建置部落格寫文章到現在也過了六年，Pelican 也從原本的3.3.0版本升級到現在的4.5.0，雖然套件大架構沒有改變，但有些小地方跟以前不太一樣，所以特別寫篇文章記錄下來。&lt;/p&gt;
+&lt;h2&gt;什麼是 Pelican？&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://blog.getpelican.com/"&gt;Pelican&lt;/a&gt; 是基於 ...&lt;/p&gt;</summary><content type="html">&lt;p&gt;從2014年開始使用 Pelican 建置部落格寫文章到現在也過了六年，Pelican 也從原本的3.3.0版本升級到現在的4.5.0，雖然套件大架構沒有改變，但有些小地方跟以前不太一樣，所以特別寫篇文章記錄下來。&lt;/p&gt;
+&lt;h2&gt;什麼是 Pelican？&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://blog.getpelican.com/"&gt;Pelican&lt;/a&gt; 是基於 Python 所寫的一套靜態網站管理（Static Site Generator），類似的靜態網站管理還有基於 Nodejs 所寫的 &lt;a href="https://hexo.io/"&gt;Hexo&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;因為網路上已經有很多比較靜態網站和動態網站的優缺點，我這邊就不特別多講，不過對於追求成本控管和搜尋引擎優化的部落格來說，我覺得使用靜態網站管理會比較符合需求，至於為什麼選 Pelican 不選 Hexo，只是因為我比較熟悉 Python。&lt;/p&gt;
+&lt;h2&gt;安裝&lt;/h2&gt;
+&lt;p&gt;都到了2020年了，絕大多數的 package 都&lt;strong&gt;應該&lt;/strong&gt;支援 Python 3+（讓我們一起跟 Python 2 說拜拜），我在安裝 Pelican 4.5.0 的時候搭配的是 Python 3.8，使用 Pipenv 就能輕鬆寫意的完成安裝。&lt;/p&gt;
+&lt;h2&gt;文章&lt;/h2&gt;
+&lt;p&gt;現在 Pelican 是支援 Markdown 的，只要記得安裝的時候同時安裝 Markdown 對應的 package 就好，安裝完後就可以直接使用 Markdown 來撰寫文章。由於 Markdown 在各個網路內容平台都已經相當普及，所以現在不論是想要匯入匯出文章，或是想要擷取、轉載部分文章內容都會比以往來的方便許多。&lt;/p&gt;
+&lt;h2&gt;樣式&lt;/h2&gt;
+&lt;p&gt;樣式的部分現在可以透過 &lt;code&gt;pelican-themes&lt;/code&gt; 指令來操作，你可以安裝想要的樣式，也可以移除不想要的樣式。&lt;/p&gt;
+&lt;p&gt;現在我使用的樣式是我自己製作的 &lt;code&gt;Stirring&lt;/code&gt;，有興趣的人可以在 &lt;a href="https://github.com/hansliu/pelican-stirring"&gt;pelican-stirring&lt;/a&gt; 看到更完整的介紹。&lt;/p&gt;
+&lt;h2&gt;套件&lt;/h2&gt;
+&lt;p&gt;套件的部份現在可以透過 &lt;code&gt;pelican-plugins&lt;/code&gt; 指令來操作，然後新的套件現在是變成 namespace &lt;a href="https://github.com/pelican-plugins"&gt;pelican-plugins&lt;/a&gt;，至於舊的套件還是在一樣的位置，官方文件是說舊的套件也可以使用，但因為 signal 設定的關係，很多舊的套件都不能正常使用，我自己是把舊的套件 pelican_youtube 抽出來加上新的 signal 設定放在自己的 repo 底下。&lt;/p&gt;
+&lt;p&gt;放上現在使用的 plugins：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;PLUGIN_PATHS&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;
+    &lt;span class="s1"&gt;&amp;#39;pelican_youtube&amp;#39;&lt;/span&gt;
+&lt;span class="p"&gt;]&lt;/span&gt;
+&lt;span class="n"&gt;PLUGINS&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;
+    &lt;span class="s1"&gt;&amp;#39;pelican.plugins.related_posts&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="s1"&gt;&amp;#39;pelican.plugins.sitemap&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="s1"&gt;&amp;#39;pelican_youtube&amp;#39;&lt;/span&gt;
+&lt;span class="p"&gt;]&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content><category term="技術筆記"></category><category term="Blog"></category><category term="Python"></category><category term="Pelican"></category><category term="Github Pages"></category></entry><entry><title>轉職這件事，從台灣到新加坡工作</title><link href="https://hansliu.com/posts/2020/09/why-overseas-work-from-taiwan-to-singapore.html" rel="alternate"></link><published>2020-09-22T23:30:00+08:00</published><updated>2020-09-22T23:30:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:hansliu.com,2020-09-22:/posts/2020/09/why-overseas-work-from-taiwan-to-singapore.html</id><summary type="html">&lt;p&gt;離開台灣 Y 社的時候就一直很想寫下整個轉職的心路歷程，但又不知道從何下筆（因為想說的太多），所以就一直擱著，沒想到擱著擱著兩年就過去了，而且現在的我即將離開 W 社開啟新的旅程...&lt;/p&gt;
 &lt;p&gt;其實周遭有些人對於我決定離開台灣 Y 社總會有點小疑問，有聽過我分享的都知道，Y 社在台灣擁有數一數二好的福利 ...&lt;/p&gt;</summary><content type="html">&lt;p&gt;離開台灣 Y 社的時候就一直很想寫下整個轉職的心路歷程，但又不知道從何下筆（因為想說的太多），所以就一直擱著，沒想到擱著擱著兩年就過去了，而且現在的我即將離開 W 社開啟新的旅程...&lt;/p&gt;
 &lt;p&gt;其實周遭有些人對於我決定離開台灣 Y 社總會有點小疑問，有聽過我分享的都知道，Y 社在台灣擁有數一數二好的福利，以及比上不足比下很有餘的待遇，在台灣整體大環境不算好的情況下，我為什麼還會選擇離開呢？&lt;/p&gt;
 &lt;h2&gt;挑戰自己！試著跨出舒適圈&lt;/h2&gt;
@@ -245,19 +269,19 @@
 &lt;p&gt;You’ll see messages in the Terminal explaining what you need to do to complete the installation process. You can learn more about Homebrew at the &lt;a href="http://brew.sh/"&gt;Homebrew website&lt;/a&gt;.&lt;/p&gt;
 &lt;h3&gt;Install pyenv&lt;/h3&gt;
 &lt;p&gt;For local development &lt;strong&gt;never&lt;/strong&gt; install packages or modify your system Python installation. To be able to install new or updated Python versions, use &lt;a href="https://github.com/pyenv/pyenv"&gt;pyenv&lt;/a&gt;. Note this is only compatible with MacOS or Linux.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;brew&lt;/span&gt; &lt;span class="k"&gt;update&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;brew&lt;/span&gt; &lt;span class="n"&gt;update&lt;/span&gt;
 &lt;span class="n"&gt;brew&lt;/span&gt; &lt;span class="n"&gt;install&lt;/span&gt; &lt;span class="n"&gt;pyenv&lt;/span&gt;
 
-&lt;span class="o"&gt;#&lt;/span&gt; &lt;span class="n"&gt;Use&lt;/span&gt; &lt;span class="n"&gt;Homebrew&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;s directories rather than ~/.pyenv&lt;/span&gt;
-&lt;span class="s1"&gt;echo &amp;#39;&lt;/span&gt;&lt;span class="n"&gt;export&lt;/span&gt; &lt;span class="n"&gt;PYENV_ROOT&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="ss"&gt;&amp;quot;/usr/local/var/pyenv&amp;quot;&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39; &amp;gt;&amp;gt; ~/.bash_profile&lt;/span&gt;
+&lt;span class="c1"&gt;# Use Homebrew&amp;#39;s directories rather than ~/.pyenv&lt;/span&gt;
+&lt;span class="n"&gt;echo&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;export PYENV_ROOT=&amp;quot;/usr/local/var/pyenv&amp;quot;&amp;#39;&lt;/span&gt; &lt;span class="o"&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="o"&gt;~/.&lt;/span&gt;&lt;span class="n"&gt;bash_profile&lt;/span&gt;
 
-&lt;span class="s1"&gt;# Enable shims and autocompletion&lt;/span&gt;
-&lt;span class="s1"&gt;echo -e &amp;#39;&lt;/span&gt;&lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;command&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;v&lt;/span&gt; &lt;span class="n"&gt;pyenv&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;/&lt;/span&gt;&lt;span class="n"&gt;dev&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="k"&gt;null&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&amp;amp;&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="k"&gt;then&lt;/span&gt;&lt;span class="err"&gt;\&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt;  &lt;span class="n"&gt;eval&lt;/span&gt; &lt;span class="ss"&gt;&amp;quot;$(pyenv init -)&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;\&lt;/span&gt;&lt;span class="n"&gt;nfi&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt; &lt;span class="o"&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="o"&gt;~/&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;bash_profile&lt;/span&gt;
+&lt;span class="c1"&gt;# Enable shims and autocompletion&lt;/span&gt;
+&lt;span class="n"&gt;echo&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;e&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;if command -v pyenv 1&amp;gt;/dev/null 2&amp;gt;&amp;amp;1; then&lt;/span&gt;&lt;span class="se"&gt;\n&lt;/span&gt;&lt;span class="s1"&gt;  eval &amp;quot;$(pyenv init -)&amp;quot;&lt;/span&gt;&lt;span class="se"&gt;\n&lt;/span&gt;&lt;span class="s1"&gt;fi&amp;#39;&lt;/span&gt; &lt;span class="o"&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="o"&gt;~/.&lt;/span&gt;&lt;span class="n"&gt;bash_profile&lt;/span&gt;
 
-&lt;span class="k"&gt;source&lt;/span&gt; &lt;span class="o"&gt;~/&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;bash_profile&lt;/span&gt;
+&lt;span class="n"&gt;source&lt;/span&gt; &lt;span class="o"&gt;~/.&lt;/span&gt;&lt;span class="n"&gt;bash_profile&lt;/span&gt;
 
-&lt;span class="o"&gt;#&lt;/span&gt; &lt;span class="k"&gt;Check&lt;/span&gt; &lt;span class="n"&gt;pyenv&lt;/span&gt; &lt;span class="n"&gt;has&lt;/span&gt; &lt;span class="n"&gt;been&lt;/span&gt; &lt;span class="n"&gt;properly&lt;/span&gt; &lt;span class="n"&gt;installed&lt;/span&gt; &lt;span class="k"&gt;and&lt;/span&gt; &lt;span class="n"&gt;configured&lt;/span&gt;
-&lt;span class="n"&gt;pyenv&lt;/span&gt; &lt;span class="k"&gt;versions&lt;/span&gt;
+&lt;span class="c1"&gt;# Check pyenv has been properly installed and configured&lt;/span&gt;
+&lt;span class="n"&gt;pyenv&lt;/span&gt; &lt;span class="n"&gt;versions&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
@@ -276,12 +300,12 @@
 &lt;h3&gt;Install pipenv&lt;/h3&gt;
 &lt;p&gt;To make development and deployment easier, &lt;a href="https://github.com/pypa/pipenv"&gt;pipenv&lt;/a&gt; is used to manage virtual environments and lock dependencies.&lt;/p&gt;
 &lt;p&gt;The environment variable ensures that virtual environments are created within each project folder. The main reason is for convenience as &lt;code&gt;Visual Studio Code&lt;/code&gt; automatically detects and switches virtual environments if &lt;code&gt;.venv&lt;/code&gt; is found within the folder.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;brew&lt;/span&gt; &lt;span class="k"&gt;update&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;brew&lt;/span&gt; &lt;span class="n"&gt;update&lt;/span&gt;
 &lt;span class="n"&gt;brew&lt;/span&gt; &lt;span class="n"&gt;install&lt;/span&gt; &lt;span class="n"&gt;pipenv&lt;/span&gt;
 
-&lt;span class="n"&gt;echo&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;export PIPENV_VENV_IN_PROJECT=1&amp;#39;&lt;/span&gt; &lt;span class="o"&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="o"&gt;~/&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;bash_profile&lt;/span&gt;
+&lt;span class="n"&gt;echo&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;export PIPENV_VENV_IN_PROJECT=1&amp;#39;&lt;/span&gt; &lt;span class="o"&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="o"&gt;~/.&lt;/span&gt;&lt;span class="n"&gt;bash_profile&lt;/span&gt;
 
-&lt;span class="k"&gt;source&lt;/span&gt; &lt;span class="o"&gt;~/&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;bash_profile&lt;/span&gt;
+&lt;span class="n"&gt;source&lt;/span&gt; &lt;span class="o"&gt;~/.&lt;/span&gt;&lt;span class="n"&gt;bash_profile&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
@@ -408,43 +432,4 @@
 &lt;p&gt;&lt;a class="reference external" href="https://lh3.googleusercontent.com/6Ba2O5_3bUM8ZaAUSQLe-aG3WE7U0-AVnJEVGC5fusTfVqqeWW-sXokEuV1oNxv8qLhVUHKrKUsiHXaeeJ6tAs2ZN4WSTaOiRoJzj-HpDT_ey5bDK1i3ElIykUrffbUJ4o-TXqhqaMs=s900-no"&gt;&lt;img alt="image9" src="https://lh3.googleusercontent.com/6Ba2O5_3bUM8ZaAUSQLe-aG3WE7U0-AVnJEVGC5fusTfVqqeWW-sXokEuV1oNxv8qLhVUHKrKUsiHXaeeJ6tAs2ZN4WSTaOiRoJzj-HpDT_ey5bDK1i3ElIykUrffbUJ4o-TXqhqaMs=s900-no" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;#11&lt;/p&gt;
 &lt;p&gt;&lt;a class="reference external" href="https://lh3.googleusercontent.com/KtfxxJ_duwC7FS-dkTHuPhEMXuXqKWsT1bKV1Phqu8oKOFJ8ACixgbd7bTD7dfQDsbPQqFGC38kUgK8XJlhY_cDLfA0gO6ds2Ueaon0LUaL72Coizrzrub-9Hb5BgJerG5PA8Z8fhjk=s900-no"&gt;&lt;img alt="image10" src="https://lh3.googleusercontent.com/KtfxxJ_duwC7FS-dkTHuPhEMXuXqKWsT1bKV1Phqu8oKOFJ8ACixgbd7bTD7dfQDsbPQqFGC38kUgK8XJlhY_cDLfA0gO6ds2Ueaon0LUaL72Coizrzrub-9Hb5BgJerG5PA8Z8fhjk=s900-no" /&gt;&lt;/a&gt;&lt;/p&gt;
-</content><category term="影像敘事"></category><category term="馬來西亞"></category><category term="新山"></category></entry><entry><title>2019新加坡F1大獎賽</title><link href="https://hansliu.com/posts/2019/09/2019-singapore-f1.html" rel="alternate"></link><published>2019-09-21T21:00:00+08:00</published><updated>2020-01-04T18:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:hansliu.com,2019-09-21:/posts/2019/09/2019-singapore-f1.html</id><summary type="html">&lt;p class="first last"&gt;&lt;a class="reference external" href="https://lh3.googleusercontent.com/6v4STqqDd3knj_Aixa9j7B7pOX7gHhmuNbtXBNOg1FGOzC4RJ7bWIxUuC9qWomJakFjDlB4P_zMXcsetPgup4zkPVDtXThJ3dVlnsvtn64VdOhtsHBVAEdetZzYiaHpw8qjIaqLndC4=w1200-h800-no"&gt;&lt;img alt="image1" src="https://lh3.googleusercontent.com/6v4STqqDd3knj_Aixa9j7B7pOX7gHhmuNbtXBNOg1FGOzC4RJ7bWIxUuC9qWomJakFjDlB4P_zMXcsetPgup4zkPVDtXThJ3dVlnsvtn64VdOhtsHBVAEdetZzYiaHpw8qjIaqLndC4=w1200-h800-no" /&gt;&lt;/a&gt;&lt;/p&gt;
-</summary><content type="html">&lt;p&gt;隨手記錄新加坡F1大獎賽的賽事，在新加坡的F1比賽也是我第一次在現場觀看的賽車比賽。&lt;/p&gt;
-&lt;p&gt;在這之前，我對賽車的印象只停留在動畫閃電霹靂車（打開推進器）的世界，所以能現場看真正的賽車比賽對我來說是蠻新奇的體驗。&lt;/p&gt;
-&lt;p&gt;#1 這次買的票是 Zone 3 的座位票，可以自由穿梭 Zone 3&amp;amp;4 兩區&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://lh3.googleusercontent.com/nAuLmd1SFrfPJGoshne7CbYeZZy_vgFBQ-rpFGkF41_V5EDG3P8vuLcqA15q7ht82NSy8u-_LiPAxXZIWUgvkJ_upELqKtTud-busqOhqGCofAIUOt-yWD2PNKBj20mxE2jmVqA9xJs=w1200-h800-no"&gt;&lt;img alt="image0" src="https://lh3.googleusercontent.com/nAuLmd1SFrfPJGoshne7CbYeZZy_vgFBQ-rpFGkF41_V5EDG3P8vuLcqA15q7ht82NSy8u-_LiPAxXZIWUgvkJ_upELqKtTud-busqOhqGCofAIUOt-yWD2PNKBj20mxE2jmVqA9xJs=w1200-h800-no" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;#2&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://lh3.googleusercontent.com/6v4STqqDd3knj_Aixa9j7B7pOX7gHhmuNbtXBNOg1FGOzC4RJ7bWIxUuC9qWomJakFjDlB4P_zMXcsetPgup4zkPVDtXThJ3dVlnsvtn64VdOhtsHBVAEdetZzYiaHpw8qjIaqLndC4=w1200-h800-no"&gt;&lt;img alt="image1" src="https://lh3.googleusercontent.com/6v4STqqDd3knj_Aixa9j7B7pOX7gHhmuNbtXBNOg1FGOzC4RJ7bWIxUuC9qWomJakFjDlB4P_zMXcsetPgup4zkPVDtXThJ3dVlnsvtn64VdOhtsHBVAEdetZzYiaHpw8qjIaqLndC4=w1200-h800-no" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;#3 F1比賽的特色就是在比賽時間之外還有滿滿的表演活動可以欣賞&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://lh3.googleusercontent.com/tX2aVNFh1mBVYf95yZvln-MP1A7H5MhQ9LuB1jI9ZgEVvFA8xldIM9xDjOCNqS309JdrRIqe65zvMOnSD3vj5rZNlYaCIjA3JxveNFO4JzWbjIorhqIVVJQOTJ-gSDeFC_Fh8a1sYIU=w1200-h800-no"&gt;&lt;img alt="image2" src="https://lh3.googleusercontent.com/tX2aVNFh1mBVYf95yZvln-MP1A7H5MhQ9LuB1jI9ZgEVvFA8xldIM9xDjOCNqS309JdrRIqe65zvMOnSD3vj5rZNlYaCIjA3JxveNFO4JzWbjIorhqIVVJQOTJ-gSDeFC_Fh8a1sYIU=w1200-h800-no" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;#4 從座位上看下去的景色&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://lh3.googleusercontent.com/8Ffl25MMsmw2sr7a4qKoGigDeDZHU9V124AcaIK50gjW3mkqcxatwljFUarAZUh_pjc_SG7USV8-BSst4124q4DBkgw_X3Gs0Xzy124wmHoox4sxPwiJxm3Ce7i_BcEbak-IFjYFiNs=w1200-h800-no"&gt;&lt;img alt="image3" src="https://lh3.googleusercontent.com/8Ffl25MMsmw2sr7a4qKoGigDeDZHU9V124AcaIK50gjW3mkqcxatwljFUarAZUh_pjc_SG7USV8-BSst4124q4DBkgw_X3Gs0Xzy124wmHoox4sxPwiJxm3Ce7i_BcEbak-IFjYFiNs=w1200-h800-no" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;#5 震耳欲聾的引擎聲，聽久了耳朵會不舒服&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://lh3.googleusercontent.com/YQnLkotvLweH7Xyd5T0-A4Asn0BXyC0DgDJYBfElPdg9Sn5ri4-2ZECLdbj03oFnfpxNyCGERvIBh01Nj66gWqnGJZupphS8DnKgApF3Mu4r3sWy4vbgGzPMW3krXf4KpTWMfXWfPAM=w1200-h800-no"&gt;&lt;img alt="image4" src="https://lh3.googleusercontent.com/YQnLkotvLweH7Xyd5T0-A4Asn0BXyC0DgDJYBfElPdg9Sn5ri4-2ZECLdbj03oFnfpxNyCGERvIBh01Nj66gWqnGJZupphS8DnKgApF3Mu4r3sWy4vbgGzPMW3krXf4KpTWMfXWfPAM=w1200-h800-no" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;#6 對於只帶一顆定焦鏡來新加坡生活的我來說，要捕捉到充滿速度感的F1賽車有點難度&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://lh3.googleusercontent.com/9MLykbI_vlGBTHFY37utkOHRzhSgYzgB1PthLx-znp7mNzTIxAxzRYtxhOwdMkToGboxtDgitFgxDQ4yeL7jGuzk2Jh3RzA_70bq820zwN-uiB0N3Mhu62joB_mBKQHX6uWWmBPVti8=w1200-h800-no"&gt;&lt;img alt="image5" src="https://lh3.googleusercontent.com/9MLykbI_vlGBTHFY37utkOHRzhSgYzgB1PthLx-znp7mNzTIxAxzRYtxhOwdMkToGboxtDgitFgxDQ4yeL7jGuzk2Jh3RzA_70bq820zwN-uiB0N3Mhu62joB_mBKQHX6uWWmBPVti8=w1200-h800-no" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;#7&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://lh3.googleusercontent.com/rLSr9LHQM0jm2w2RhHebLGOXgMZ_GUokkq9hcthDlYE7Nq9WZIC5afbTtLAe1KBtJbhSzisA6F_mFyiGpDSD4OVT6S-TdLKjeNo-96ku87I7jqcdrp7d6jfFB4qPN0Q79Vye1Nq0U-U=w1200-h800-no"&gt;&lt;img alt="image6" src="https://lh3.googleusercontent.com/rLSr9LHQM0jm2w2RhHebLGOXgMZ_GUokkq9hcthDlYE7Nq9WZIC5afbTtLAe1KBtJbhSzisA6F_mFyiGpDSD4OVT6S-TdLKjeNo-96ku87I7jqcdrp7d6jfFB4qPN0Q79Vye1Nq0U-U=w1200-h800-no" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;#8&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://lh3.googleusercontent.com/VagBtdN0UCmefgbqT6ZRo0EQ7bWCJNE49JeWymrbUokPVKrBzPLOJVqX_sbdDlWIma6yc8OXLMZN0kO1f7kPJ8_6uVrUsnkcjq72JV6ackGUbGgzBOJM6y9wqOaEDB_7st2bSlWBhiM=w1200-h800-no"&gt;&lt;img alt="image7" src="https://lh3.googleusercontent.com/VagBtdN0UCmefgbqT6ZRo0EQ7bWCJNE49JeWymrbUokPVKrBzPLOJVqX_sbdDlWIma6yc8OXLMZN0kO1f7kPJ8_6uVrUsnkcjq72JV6ackGUbGgzBOJM6y9wqOaEDB_7st2bSlWBhiM=w1200-h800-no" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;#9 賽道旁都有架設大螢幕秀一些即時資訊，但我覺得幫助不是很大，這些大螢幕在燈光之下其實看不太清楚...&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://lh3.googleusercontent.com/3TnlXP1xN_tDxwxRfS0oulgEJHgWz-rzAkai5mX6uf0ikanqBc-nJqdy4Z4mqcrnFRuW75qFRKvgDwVaO4YNmnQXOtYs4ZeKBarJkBP99gzPJ6p3bIq3YMSzZ8r19iJkL2rXKKxHwsI=w1200-h800-no"&gt;&lt;img alt="image8" src="https://lh3.googleusercontent.com/3TnlXP1xN_tDxwxRfS0oulgEJHgWz-rzAkai5mX6uf0ikanqBc-nJqdy4Z4mqcrnFRuW75qFRKvgDwVaO4YNmnQXOtYs4ZeKBarJkBP99gzPJ6p3bIq3YMSzZ8r19iJkL2rXKKxHwsI=w1200-h800-no" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;#10 Zone 4 也是主要的表演會場，19年的表演壓軸我記得有 Muse&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://lh3.googleusercontent.com/ZsLJ4A0nQPdmk5D5HB-iazg-h0Z2CjUgA_jq6rCUCdwbQJNVn6XppRvMJf2eY3PwRfv-bcvxEyNtLvqRnsg9edNVx2etpwvP7tvcRSx2GfZ_fS5vvFyDWfScDplxu9dk0SY9eiFJV0k=w1200-h800-no"&gt;&lt;img alt="image9" src="https://lh3.googleusercontent.com/ZsLJ4A0nQPdmk5D5HB-iazg-h0Z2CjUgA_jq6rCUCdwbQJNVn6XppRvMJf2eY3PwRfv-bcvxEyNtLvqRnsg9edNVx2etpwvP7tvcRSx2GfZ_fS5vvFyDWfScDplxu9dk0SY9eiFJV0k=w1200-h800-no" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;#11 在會場之間時不時可以看到一些街頭藝人在穿梭&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://lh3.googleusercontent.com/bOfiWhdZ3avQ0sKJIYMKsVOycJ_Hh5AKCKPI7JDoEkBN0vO-UNgYHV2LTAXJTV7Ok4g3Zn012O2KBYc6dRlbPWsqKu2RIg359y64dK_t1IkUymAF4cAkGeMdiFPN6iS7wYwRvdp6sJA=w800-h1200-no"&gt;&lt;img alt="image10" src="https://lh3.googleusercontent.com/bOfiWhdZ3avQ0sKJIYMKsVOycJ_Hh5AKCKPI7JDoEkBN0vO-UNgYHV2LTAXJTV7Ok4g3Zn012O2KBYc6dRlbPWsqKu2RIg359y64dK_t1IkUymAF4cAkGeMdiFPN6iS7wYwRvdp6sJA=w800-h1200-no" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;#12&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://lh3.googleusercontent.com/cblZgziMu1p6lbFdhb3Zy72KuQYHNrBNb-zdY0G-_FJN4tB8DdxsCACJmkQVUVMO4NcT8Xaj-bIX07wU5UjHT5pwV2ZhIE83cA5wnzW2dfUG7SSOIZL9lx0rXmoIcVGwBPQo6MV7B_w=w1200-h800-no"&gt;&lt;img alt="image11" src="https://lh3.googleusercontent.com/cblZgziMu1p6lbFdhb3Zy72KuQYHNrBNb-zdY0G-_FJN4tB8DdxsCACJmkQVUVMO4NcT8Xaj-bIX07wU5UjHT5pwV2ZhIE83cA5wnzW2dfUG7SSOIZL9lx0rXmoIcVGwBPQo6MV7B_w=w1200-h800-no" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;#13 Zone 4 區域其實很大，完整逛完一整圈腿會有點酸&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://lh3.googleusercontent.com/Rdon0tKBOlsxl5tbUnW0EsYfw5hagNMulS_jZi2Ojxuc1ETjLTROxFJgXUCEwwdaH88vSnjfd1Rk0MxCsDT8oa6tJV7qVtqyvijyuemTOs8IdpUP9HQClbkoZ_xShmv2gJAm09GTG94=w1200-h800-no"&gt;&lt;img alt="image12" src="https://lh3.googleusercontent.com/Rdon0tKBOlsxl5tbUnW0EsYfw5hagNMulS_jZi2Ojxuc1ETjLTROxFJgXUCEwwdaH88vSnjfd1Rk0MxCsDT8oa6tJV7qVtqyvijyuemTOs8IdpUP9HQClbkoZ_xShmv2gJAm09GTG94=w1200-h800-no" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;#14&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://lh3.googleusercontent.com/UIxuT66VNmwHeHo8YQPjCp6emnbJQLnYe96vSvPSgzQeP5Qtk6ahzzW1B5sfIdxDqaqRabkx6ZXeJKotGXZYKs2BmwQFydZAVW4hakFztrgqPIf4UomYNnTcsp2aIYsnxoOst8VkwwQ=w1200-h800-no"&gt;&lt;img alt="image13" src="https://lh3.googleusercontent.com/UIxuT66VNmwHeHo8YQPjCp6emnbJQLnYe96vSvPSgzQeP5Qtk6ahzzW1B5sfIdxDqaqRabkx6ZXeJKotGXZYKs2BmwQFydZAVW4hakFztrgqPIf4UomYNnTcsp2aIYsnxoOst8VkwwQ=w1200-h800-no" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;#15 新加坡F1還有主打一個特色就是夜間賽事，主要賽事跟表演活動都安辦在晚上&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://lh3.googleusercontent.com/Rqy1t0COtcWBmzu2LjZiN4ERh60ap4KunaCtdAVwuReHK6bbDJGGKs1877puB1xyK_ivXCU2mUuN5NLoDjvwMzbDlObKcvN-ZCoaIOS_C44s1VkUUCfJ96IVbZkejT42Vbt9W5UhxnA=w1200-h800-no"&gt;&lt;img alt="image14" src="https://lh3.googleusercontent.com/Rqy1t0COtcWBmzu2LjZiN4ERh60ap4KunaCtdAVwuReHK6bbDJGGKs1877puB1xyK_ivXCU2mUuN5NLoDjvwMzbDlObKcvN-ZCoaIOS_C44s1VkUUCfJ96IVbZkejT42Vbt9W5UhxnA=w1200-h800-no" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;#16&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://lh3.googleusercontent.com/-GSq42V0ZDIuYyG7LKKQ7EijUcnIkRsM4B3cL05gctye0TD46ivXBsa5HwORRUeSqyMDW2kwdYkjReGhHCy5VtwJOIpAzAByU4KWDJYhfcl3wot4FPTQSt27BsKU4Y7nXNbdwXFhBOU=w1200-h800-no"&gt;&lt;img alt="image15" src="https://lh3.googleusercontent.com/-GSq42V0ZDIuYyG7LKKQ7EijUcnIkRsM4B3cL05gctye0TD46ivXBsa5HwORRUeSqyMDW2kwdYkjReGhHCy5VtwJOIpAzAByU4KWDJYhfcl3wot4FPTQSt27BsKU4Y7nXNbdwXFhBOU=w1200-h800-no" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;#17&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://lh3.googleusercontent.com/JrwpSeZ_uCckkZWa06FIR3q9XLWsahtyYv37Fe3q8gqBw2bfVuzDqmfQwgEMNWNvrmTzBCXtxhk2RUV_IQPjavy92g_VX3exbBbcUJyNKHKBS-xFrvq87gDOO-813O4fQLmwfK_Nk-k=w1200-h800-no"&gt;&lt;img alt="image16" src="https://lh3.googleusercontent.com/JrwpSeZ_uCckkZWa06FIR3q9XLWsahtyYv37Fe3q8gqBw2bfVuzDqmfQwgEMNWNvrmTzBCXtxhk2RUV_IQPjavy92g_VX3exbBbcUJyNKHKBS-xFrvq87gDOO-813O4fQLmwfK_Nk-k=w1200-h800-no" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;因為買的入場票不是最後一天的決賽，所以無法在決賽過後進入賽道會場走走逛逛，也無法近距離從賽道的角度拍一些不同的照片，算是稍嫌可惜的地方。&lt;/p&gt;
-&lt;p&gt;不過對一個非賽車迷的我來說，來看F1只能算是來新加坡生活打卡的一個記錄點，我並不會因為新加坡有F1比賽可以看而感到特別的興奮，但我想對於喜愛賽車的賽車迷來說或許會是另一種感受。&lt;/p&gt;
-</content><category term="影像敘事"></category><category term="新加坡"></category></entry></feed>
+</content><category term="影像敘事"></category><category term="馬來西亞"></category><category term="新山"></category></entry></feed>

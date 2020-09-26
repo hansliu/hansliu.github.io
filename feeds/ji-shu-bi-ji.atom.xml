@@ -1,5 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Hans Blog - 技術筆記</title><link href="https://hansliu.com/" rel="alternate"></link><link href="https://hansliu.com/feeds/ji-shu-bi-ji.atom.xml" rel="self"></link><id>https://hansliu.com/</id><updated>2020-09-21T16:00:00+08:00</updated><subtitle>life, photo, code</subtitle><entry><title>新加坡稅率計算機</title><link href="https://hansliu.com/posts/2020/09/singapore-tax-calculator.html" rel="alternate"></link><published>2020-09-19T01:00:00+08:00</published><updated>2020-09-19T01:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:hansliu.com,2020-09-19:/posts/2020/09/singapore-tax-calculator.html</id><summary type="html">&lt;p&gt;在要來新加坡工作之前就有聽說新加坡的所得稅率很低，但是一直不知道實際上是怎麼計算，終於在待滿一年後有機會一窺究竟。&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Hans Blog - 技術筆記</title><link href="https://hansliu.com/" rel="alternate"></link><link href="https://hansliu.com/feeds/ji-shu-bi-ji.atom.xml" rel="self"></link><id>https://hansliu.com/</id><updated>2020-09-26T01:00:00+08:00</updated><subtitle>life, photo, code</subtitle><entry><title>Hello Pelican + Github Pages II</title><link href="https://hansliu.com/posts/2020/09/hello-pelican-github-pages-2.html" rel="alternate"></link><published>2020-09-26T01:00:00+08:00</published><updated>2020-09-26T01:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:hansliu.com,2020-09-26:/posts/2020/09/hello-pelican-github-pages-2.html</id><summary type="html">&lt;p&gt;從2014年開始使用 Pelican 建置部落格寫文章到現在也過了六年，Pelican 也從原本的3.3.0版本升級到現在的4.5.0，雖然套件大架構沒有改變，但有些小地方跟以前不太一樣，所以特別寫篇文章記錄下來。&lt;/p&gt;
+&lt;h2&gt;什麼是 Pelican？&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://blog.getpelican.com/"&gt;Pelican&lt;/a&gt; 是基於 ...&lt;/p&gt;</summary><content type="html">&lt;p&gt;從2014年開始使用 Pelican 建置部落格寫文章到現在也過了六年，Pelican 也從原本的3.3.0版本升級到現在的4.5.0，雖然套件大架構沒有改變，但有些小地方跟以前不太一樣，所以特別寫篇文章記錄下來。&lt;/p&gt;
+&lt;h2&gt;什麼是 Pelican？&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://blog.getpelican.com/"&gt;Pelican&lt;/a&gt; 是基於 Python 所寫的一套靜態網站管理（Static Site Generator），類似的靜態網站管理還有基於 Nodejs 所寫的 &lt;a href="https://hexo.io/"&gt;Hexo&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;因為網路上已經有很多比較靜態網站和動態網站的優缺點，我這邊就不特別多講，不過對於追求成本控管和搜尋引擎優化的部落格來說，我覺得使用靜態網站管理會比較符合需求，至於為什麼選 Pelican 不選 Hexo，只是因為我比較熟悉 Python。&lt;/p&gt;
+&lt;h2&gt;安裝&lt;/h2&gt;
+&lt;p&gt;都到了2020年了，絕大多數的 package 都&lt;strong&gt;應該&lt;/strong&gt;支援 Python 3+（讓我們一起跟 Python 2 說拜拜），我在安裝 Pelican 4.5.0 的時候搭配的是 Python 3.8，使用 Pipenv 就能輕鬆寫意的完成安裝。&lt;/p&gt;
+&lt;h2&gt;文章&lt;/h2&gt;
+&lt;p&gt;現在 Pelican 是支援 Markdown 的，只要記得安裝的時候同時安裝 Markdown 對應的 package 就好，安裝完後就可以直接使用 Markdown 來撰寫文章。由於 Markdown 在各個網路內容平台都已經相當普及，所以現在不論是想要匯入匯出文章，或是想要擷取、轉載部分文章內容都會比以往來的方便許多。&lt;/p&gt;
+&lt;h2&gt;樣式&lt;/h2&gt;
+&lt;p&gt;樣式的部分現在可以透過 &lt;code&gt;pelican-themes&lt;/code&gt; 指令來操作，你可以安裝想要的樣式，也可以移除不想要的樣式。&lt;/p&gt;
+&lt;p&gt;現在我使用的樣式是我自己製作的 &lt;code&gt;Stirring&lt;/code&gt;，有興趣的人可以在 &lt;a href="https://github.com/hansliu/pelican-stirring"&gt;pelican-stirring&lt;/a&gt; 看到更完整的介紹。&lt;/p&gt;
+&lt;h2&gt;套件&lt;/h2&gt;
+&lt;p&gt;套件的部份現在可以透過 &lt;code&gt;pelican-plugins&lt;/code&gt; 指令來操作，然後新的套件現在是變成 namespace &lt;a href="https://github.com/pelican-plugins"&gt;pelican-plugins&lt;/a&gt;，至於舊的套件還是在一樣的位置，官方文件是說舊的套件也可以使用，但因為 signal 設定的關係，很多舊的套件都不能正常使用，我自己是把舊的套件 pelican_youtube 抽出來加上新的 signal 設定放在自己的 repo 底下。&lt;/p&gt;
+&lt;p&gt;放上現在使用的 plugins：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;PLUGIN_PATHS&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;
+    &lt;span class="s1"&gt;&amp;#39;pelican_youtube&amp;#39;&lt;/span&gt;
+&lt;span class="p"&gt;]&lt;/span&gt;
+&lt;span class="n"&gt;PLUGINS&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;
+    &lt;span class="s1"&gt;&amp;#39;pelican.plugins.related_posts&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="s1"&gt;&amp;#39;pelican.plugins.sitemap&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="s1"&gt;&amp;#39;pelican_youtube&amp;#39;&lt;/span&gt;
+&lt;span class="p"&gt;]&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content><category term="技術筆記"></category><category term="Blog"></category><category term="Python"></category><category term="Pelican"></category><category term="Github Pages"></category></entry><entry><title>新加坡稅率計算機</title><link href="https://hansliu.com/posts/2020/09/singapore-tax-calculator.html" rel="alternate"></link><published>2020-09-19T01:00:00+08:00</published><updated>2020-09-19T01:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:hansliu.com,2020-09-19:/posts/2020/09/singapore-tax-calculator.html</id><summary type="html">&lt;p&gt;在要來新加坡工作之前就有聽說新加坡的所得稅率很低，但是一直不知道實際上是怎麼計算，終於在待滿一年後有機會一窺究竟。&lt;/p&gt;
 &lt;p&gt;通常來說公司 HR 會在每年三月的時候通知你去年的所得，員工要在四月中旬前自行上 IRAS 完成申報，並選擇繳費的方法，一切動作都可以在網路上操作。&lt;/p&gt;
 &lt;p&gt;我在 IRAS 上看到金額的時候是有點驚訝，因為要繳的稅相對於台灣來說的確是低得多。舉例來說 ...&lt;/p&gt;</summary><content type="html">&lt;p&gt;在要來新加坡工作之前就有聽說新加坡的所得稅率很低，但是一直不知道實際上是怎麼計算，終於在待滿一年後有機會一窺究竟。&lt;/p&gt;
 &lt;p&gt;通常來說公司 HR 會在每年三月的時候通知你去年的所得，員工要在四月中旬前自行上 IRAS 完成申報，並選擇繳費的方法，一切動作都可以在網路上操作。&lt;/p&gt;
@@ -48,19 +72,19 @@
 &lt;p&gt;You’ll see messages in the Terminal explaining what you need to do to complete the installation process. You can learn more about Homebrew at the &lt;a href="http://brew.sh/"&gt;Homebrew website&lt;/a&gt;.&lt;/p&gt;
 &lt;h3&gt;Install pyenv&lt;/h3&gt;
 &lt;p&gt;For local development &lt;strong&gt;never&lt;/strong&gt; install packages or modify your system Python installation. To be able to install new or updated Python versions, use &lt;a href="https://github.com/pyenv/pyenv"&gt;pyenv&lt;/a&gt;. Note this is only compatible with MacOS or Linux.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;brew&lt;/span&gt; &lt;span class="k"&gt;update&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;brew&lt;/span&gt; &lt;span class="n"&gt;update&lt;/span&gt;
 &lt;span class="n"&gt;brew&lt;/span&gt; &lt;span class="n"&gt;install&lt;/span&gt; &lt;span class="n"&gt;pyenv&lt;/span&gt;
 
-&lt;span class="o"&gt;#&lt;/span&gt; &lt;span class="n"&gt;Use&lt;/span&gt; &lt;span class="n"&gt;Homebrew&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;s directories rather than ~/.pyenv&lt;/span&gt;
-&lt;span class="s1"&gt;echo &amp;#39;&lt;/span&gt;&lt;span class="n"&gt;export&lt;/span&gt; &lt;span class="n"&gt;PYENV_ROOT&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="ss"&gt;&amp;quot;/usr/local/var/pyenv&amp;quot;&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39; &amp;gt;&amp;gt; ~/.bash_profile&lt;/span&gt;
+&lt;span class="c1"&gt;# Use Homebrew&amp;#39;s directories rather than ~/.pyenv&lt;/span&gt;
+&lt;span class="n"&gt;echo&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;export PYENV_ROOT=&amp;quot;/usr/local/var/pyenv&amp;quot;&amp;#39;&lt;/span&gt; &lt;span class="o"&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="o"&gt;~/.&lt;/span&gt;&lt;span class="n"&gt;bash_profile&lt;/span&gt;
 
-&lt;span class="s1"&gt;# Enable shims and autocompletion&lt;/span&gt;
-&lt;span class="s1"&gt;echo -e &amp;#39;&lt;/span&gt;&lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;command&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;v&lt;/span&gt; &lt;span class="n"&gt;pyenv&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;/&lt;/span&gt;&lt;span class="n"&gt;dev&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="k"&gt;null&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&amp;amp;&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="k"&gt;then&lt;/span&gt;&lt;span class="err"&gt;\&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt;  &lt;span class="n"&gt;eval&lt;/span&gt; &lt;span class="ss"&gt;&amp;quot;$(pyenv init -)&amp;quot;&lt;/span&gt;&lt;span class="err"&gt;\&lt;/span&gt;&lt;span class="n"&gt;nfi&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt; &lt;span class="o"&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="o"&gt;~/&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;bash_profile&lt;/span&gt;
+&lt;span class="c1"&gt;# Enable shims and autocompletion&lt;/span&gt;
+&lt;span class="n"&gt;echo&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;e&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;if command -v pyenv 1&amp;gt;/dev/null 2&amp;gt;&amp;amp;1; then&lt;/span&gt;&lt;span class="se"&gt;\n&lt;/span&gt;&lt;span class="s1"&gt;  eval &amp;quot;$(pyenv init -)&amp;quot;&lt;/span&gt;&lt;span class="se"&gt;\n&lt;/span&gt;&lt;span class="s1"&gt;fi&amp;#39;&lt;/span&gt; &lt;span class="o"&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="o"&gt;~/.&lt;/span&gt;&lt;span class="n"&gt;bash_profile&lt;/span&gt;
 
-&lt;span class="k"&gt;source&lt;/span&gt; &lt;span class="o"&gt;~/&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;bash_profile&lt;/span&gt;
+&lt;span class="n"&gt;source&lt;/span&gt; &lt;span class="o"&gt;~/.&lt;/span&gt;&lt;span class="n"&gt;bash_profile&lt;/span&gt;
 
-&lt;span class="o"&gt;#&lt;/span&gt; &lt;span class="k"&gt;Check&lt;/span&gt; &lt;span class="n"&gt;pyenv&lt;/span&gt; &lt;span class="n"&gt;has&lt;/span&gt; &lt;span class="n"&gt;been&lt;/span&gt; &lt;span class="n"&gt;properly&lt;/span&gt; &lt;span class="n"&gt;installed&lt;/span&gt; &lt;span class="k"&gt;and&lt;/span&gt; &lt;span class="n"&gt;configured&lt;/span&gt;
-&lt;span class="n"&gt;pyenv&lt;/span&gt; &lt;span class="k"&gt;versions&lt;/span&gt;
+&lt;span class="c1"&gt;# Check pyenv has been properly installed and configured&lt;/span&gt;
+&lt;span class="n"&gt;pyenv&lt;/span&gt; &lt;span class="n"&gt;versions&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
@@ -79,12 +103,12 @@
 &lt;h3&gt;Install pipenv&lt;/h3&gt;
 &lt;p&gt;To make development and deployment easier, &lt;a href="https://github.com/pypa/pipenv"&gt;pipenv&lt;/a&gt; is used to manage virtual environments and lock dependencies.&lt;/p&gt;
 &lt;p&gt;The environment variable ensures that virtual environments are created within each project folder. The main reason is for convenience as &lt;code&gt;Visual Studio Code&lt;/code&gt; automatically detects and switches virtual environments if &lt;code&gt;.venv&lt;/code&gt; is found within the folder.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;brew&lt;/span&gt; &lt;span class="k"&gt;update&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;brew&lt;/span&gt; &lt;span class="n"&gt;update&lt;/span&gt;
 &lt;span class="n"&gt;brew&lt;/span&gt; &lt;span class="n"&gt;install&lt;/span&gt; &lt;span class="n"&gt;pipenv&lt;/span&gt;
 
-&lt;span class="n"&gt;echo&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;export PIPENV_VENV_IN_PROJECT=1&amp;#39;&lt;/span&gt; &lt;span class="o"&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="o"&gt;~/&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;bash_profile&lt;/span&gt;
+&lt;span class="n"&gt;echo&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;export PIPENV_VENV_IN_PROJECT=1&amp;#39;&lt;/span&gt; &lt;span class="o"&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="o"&gt;~/.&lt;/span&gt;&lt;span class="n"&gt;bash_profile&lt;/span&gt;
 
-&lt;span class="k"&gt;source&lt;/span&gt; &lt;span class="o"&gt;~/&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;bash_profile&lt;/span&gt;
+&lt;span class="n"&gt;source&lt;/span&gt; &lt;span class="o"&gt;~/.&lt;/span&gt;&lt;span class="n"&gt;bash_profile&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
@@ -499,46 +523,4 @@ git pull ; git add -u ; git commit -m'updated db' ; git push
 &lt;li&gt;&lt;a class="reference external" href="https://www.python.org/dev/peps/pep-0484/"&gt;https://www.python.org/dev/peps/pep-0484/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
-</content><category term="技術筆記"></category><category term="Python"></category></entry><entry><title>為什麼 MVC 實作不一樣</title><link href="https://hansliu.com/posts/2015/03/why-do-not-mvc-pattern-look-like.html" rel="alternate"></link><published>2015-03-01T06:00:00+08:00</published><updated>2015-03-01T06:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:hansliu.com,2015-03-01:/posts/2015/03/why-do-not-mvc-pattern-look-like.html</id><summary type="html">&lt;p&gt;這篇文章最早是用來回應 Python 社群對於 MVC 的討論內容，同時把它記錄在自己的部落格上。&lt;/p&gt;
-&lt;p&gt;其原文探討的是為什麼每套 Framework 對於 MVC 設計上都有一套自己的見解，即使設計和實作上不一樣，卻都說自家的 Framework 包含（支援 ...&lt;/p&gt;</summary><content type="html">&lt;p&gt;這篇文章最早是用來回應 Python 社群對於 MVC 的討論內容，同時把它記錄在自己的部落格上。&lt;/p&gt;
-&lt;p&gt;其原文探討的是為什麼每套 Framework 對於 MVC 設計上都有一套自己的見解，即使設計和實作上不一樣，卻都說自家的 Framework 包含（支援） MVC。&lt;/p&gt;
-&lt;p&gt;在討論這個問題之前，我們首先要認識一下 MVC 的由來，至於有關 MVC 設計的細節將不是本篇的重點，對細節有興趣的人可以從我文內分享的文章或是從書本中得到更完整的說明。&lt;/p&gt;
-&lt;div class="section" id="id1"&gt;
-&lt;h2&gt;什麼是 MVC&lt;/h2&gt;
-&lt;p style="font-size: 10px;"&gt;&lt;a href="http://commons.wikimedia.org/wiki/File:MVC-Process.svg#mediaviewer/File:MVC-Process.svg"&gt;&lt;img alt="MVC-Process.svg" src="http://upload.wikimedia.org/wikipedia/commons/a/a0/MVC-Process.svg" height="290" width="264"&gt;&lt;/a&gt;&lt;br&gt;圖片 "&lt;a href="http://commons.wikimedia.org/wiki/File:MVC-Process.svg#mediaviewer/File:MVC-Process.svg"&gt;MVC-Process&lt;/a&gt;" 由 &lt;a href="//commons.wikimedia.org/wiki/User:RegisFrey" title="User:RegisFrey"&gt;RegisFrey&lt;/a&gt; - &lt;span class="int-own-work"&gt;自己的作品&lt;/span&gt;。 使用來自 &lt;a href="//commons.wikimedia.org/wiki/"&gt;维基共享資源&lt;/a&gt; 的 公共領域 條款授權。&lt;/p&gt;&lt;p&gt;MVC 最早是 smalltalk 設計的一個 Pattern，其&lt;strong&gt;定義&lt;/strong&gt;與&lt;strong&gt;目的&lt;/strong&gt;與&lt;strong&gt;模擬實作&lt;/strong&gt;的方法在 Design Pattern 一書中都描述的相當清楚，有興趣可以去書店翻一下。&lt;/p&gt;
-&lt;p&gt;網路上可以參照： &lt;a class="reference external" href="http://www.tutorialspoint.com/design_pattern/mvc_pattern.htm"&gt;http://www.tutorialspoint.com/design_pattern/mvc_pattern.htm&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="id2"&gt;
-&lt;h2&gt;目的與 MVC&lt;/h2&gt;
-&lt;p&gt;這邊要著重的點在於，Design Pattern 書中不是要強迫你實作的內容百分百一樣，而是要求你的實作要達到 Pattern 目的，我在這邊列出中文書上對於其目的的說明：&lt;/p&gt;
-&lt;p&gt;MVC 的目的在於&lt;strong&gt;增加彈性&lt;/strong&gt;與&lt;strong&gt;再利用性&lt;/strong&gt;，同一個 model 可以搭配好幾個 view，也可以做出不會改變 model 內容的 view，同時更嚴苛的要求，view 不應該包含運算的邏輯。&lt;/p&gt;
-&lt;p&gt;因此不是去追究每套 Framework 在設計上的差異去與定義比較，然後要說它的設計到底要不要叫做 MVC，而是要去看設計之後是否能達到 MVC 目的。&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="mvc-architecture-pattern"&gt;
-&lt;h2&gt;MVC 是 Architecture Pattern&lt;/h2&gt;
-&lt;p&gt;後來有人在社群裡提到 Architecture Pattern 之後，我才想到 MVC 是在 Design Pattern 一書中開頭章節就列出來的，並沒有包含在後續主要章節所描述的23個 Design Pattern 之中，其介紹上也顯示 MVC 更像是一個 Architecture Pattern。&lt;/p&gt;
-&lt;p&gt;那 Design Pattern 和所謂的 Architecture Pattern 又有什麼不同呢？&lt;/p&gt;
-&lt;p&gt;根據 Stackoverflow 所描述的回答，我覺得兩種 Pattern 還是從&lt;strong&gt;目的&lt;/strong&gt;和&lt;strong&gt;實作&lt;/strong&gt;兩個層面來看最容易區分。&lt;/p&gt;
-&lt;p&gt;Stackoverflow 的回答可以參照： &lt;a class="reference external" href="http://stackoverflow.com/questions/1866821/is-mvc-a-design-pattern-or-architectural-pattern"&gt;http://stackoverflow.com/questions/1866821/is-mvc-a-design-pattern-or-architectural-pattern&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;節錄其中 vrluckyin 的回答，針對目的和實作上的差別都有很清楚的描述：&lt;/p&gt;
-&lt;pre class="literal-block"&gt;
-Design patterns say how to write code effectively.
-
-A few benefits:
-
-  - Easily Maintainable
-  - High Re-usability
-  - Readable because of abstractions
-
-Architectural patterns say how to utilize resources effectively.
-
-  - Parallel tasks execution like programmers and graphic designers can work parallel.
-  - Multiple technologies can be utilized to build a software.
-
-In MVC, a). Views can be created using javascript templates and also html can be used b). Controllers can be written .NET framework and c). Models can be written in Java - a java service may be used that returns only json data.
-
-While in design pattern, a pattern can't be implemented in which code can be written in multiple technologies like AdminUser class in Java, Customer class in C#, Partners class in Php and a factory pattern in Ruby :); hmmm..so easy?:)
-&lt;/pre&gt;
-&lt;p&gt;除了目的就不同， Design Pattern 在實作上會存在需要使用同一種技術語言完成的先天條件，而 Architectural Pattern 則沒有這樣的限制，所以每套 Framework 只要實作出來的結果符合 MVC Pattern 的目的，並且保證使用者擁有 MVC Pattern 的優點，就算實作的方式不盡相同，也代表其包含（支援） MVC。&lt;/p&gt;
-&lt;/div&gt;
-</content><category term="技術筆記"></category><category term="MVC"></category><category term="Design Pattern"></category></entry></feed>
+</content><category term="技術筆記"></category><category term="Python"></category></entry></feed>
