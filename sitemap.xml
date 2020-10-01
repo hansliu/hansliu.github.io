@@ -5,14 +5,14 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://hansliu.com/</loc>
-<lastmod>2020-09-28T01:02:03-00:00</lastmod>
+<lastmod>2020-10-01T13:47:39-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://hansliu.com/tags/</loc>
-<lastmod>2020-09-28T01:02:03-00:00</lastmod>
+<lastmod>2020-10-01T13:47:39-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -35,6 +35,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <loc>https://hansliu.com/pages/tos.html</loc>
 <lastmod>2018-05-01T12:00:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://hansliu.com/posts/2020/10/singapore-circuit-breaker.html</loc>
+<lastmod>2020-10-01T01:00:00+08:00</lastmod>
+<changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
@@ -1552,7 +1559,14 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://hansliu.com/category/ying-xiang-xu-shi/</loc>
-<lastmod>2020-02-24T22:00:00+08:06</lastmod>
+<lastmod>2020-10-01T01:00:00+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://hansliu.com/tag/xin-jia-po/</loc>
+<lastmod>2020-10-01T01:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1587,13 +1601,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://hansliu.com/tag/interview/</loc>
-<lastmod>2020-09-22T23:30:00+08:06</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://hansliu.com/tag/xin-jia-po/</loc>
 <lastmod>2020-09-22T23:30:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
