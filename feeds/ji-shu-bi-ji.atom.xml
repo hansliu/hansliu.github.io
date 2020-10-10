@@ -13,7 +13,7 @@
 &lt;h2&gt;套件&lt;/h2&gt;
 &lt;p&gt;套件的部份現在可以透過 &lt;code&gt;pelican-plugins&lt;/code&gt; 指令來操作，然後新的套件現在是變成 namespace &lt;a href="https://github.com/pelican-plugins"&gt;pelican-plugins&lt;/a&gt;，至於舊的套件還是在一樣的位置，官方文件是說舊的套件也可以使用，但因為 signal 設定的關係，很多舊的套件都不能正常使用，我自己是把舊的套件 pelican_youtube 抽出來加上新的 signal 設定放在自己的 repo 底下。&lt;/p&gt;
 &lt;p&gt;放上現在使用的 plugins：&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;PLUGIN_PATHS&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;
+&lt;div class="python highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;PLUGIN_PATHS&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;
     &lt;span class="s1"&gt;&amp;#39;pelican_youtube&amp;#39;&lt;/span&gt;
 &lt;span class="p"&gt;]&lt;/span&gt;
 &lt;span class="n"&gt;PLUGINS&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;
@@ -66,7 +66,6 @@
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;ruby -e &amp;quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&amp;quot;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-
 &lt;p&gt;You’ll see messages in the Terminal explaining what you need to do to complete the installation process. You can learn more about Homebrew at the &lt;a href="http://brew.sh/"&gt;Homebrew website&lt;/a&gt;.&lt;/p&gt;
 &lt;h3&gt;Install pyenv&lt;/h3&gt;
 &lt;p&gt;For local development &lt;strong&gt;never&lt;/strong&gt; install packages or modify your system Python installation. To be able to install new or updated Python versions, use &lt;a href="https://github.com/pyenv/pyenv"&gt;pyenv&lt;/a&gt;. Note this is only compatible with MacOS or Linux.&lt;/p&gt;
@@ -85,7 +84,6 @@
 &lt;span class="n"&gt;pyenv&lt;/span&gt; &lt;span class="n"&gt;versions&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-
 &lt;h4&gt;Python Versions&lt;/h4&gt;
 &lt;p&gt;Using &lt;code&gt;pyenv&lt;/code&gt;, install the necessary version for development. For example, we use &lt;strong&gt;Python 3.8.5&lt;/strong&gt; for development. For legacy projects, use &lt;strong&gt;Python 2.7.13&lt;/strong&gt;&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;pyenv&lt;/span&gt; &lt;span class="n"&gt;install&lt;/span&gt; &lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="mi"&gt;8&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="mi"&gt;5&lt;/span&gt;
@@ -96,7 +94,6 @@
 &lt;span class="o"&gt;#&lt;/span&gt; &lt;span class="k"&gt;Check&lt;/span&gt; &lt;span class="k"&gt;versions&lt;/span&gt; &lt;span class="n"&gt;have&lt;/span&gt; &lt;span class="n"&gt;been&lt;/span&gt; &lt;span class="n"&gt;installed&lt;/span&gt; &lt;span class="k"&gt;and&lt;/span&gt; &lt;span class="n"&gt;assigned&lt;/span&gt; &lt;span class="k"&gt;to&lt;/span&gt; &lt;span class="k"&gt;global&lt;/span&gt;
 &lt;span class="n"&gt;pyenv&lt;/span&gt; &lt;span class="k"&gt;versions&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
 
 &lt;h3&gt;Install pipenv&lt;/h3&gt;
 &lt;p&gt;To make development and deployment easier, &lt;a href="https://github.com/pypa/pipenv"&gt;pipenv&lt;/a&gt; is used to manage virtual environments and lock dependencies.&lt;/p&gt;
@@ -109,13 +106,11 @@
 &lt;span class="n"&gt;source&lt;/span&gt; &lt;span class="o"&gt;~/.&lt;/span&gt;&lt;span class="n"&gt;bash_profile&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-
 &lt;h3&gt;Usage&lt;/h3&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;cd path/to/project&lt;/span&gt;
 &lt;span class="err"&gt;pipenv --python 3.8.5&lt;/span&gt;
 &lt;span class="err"&gt;pipenv install &amp;lt;new_package&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
 
 &lt;p&gt;Do remember to check in the generated/updated &lt;code&gt;Pipfile&lt;/code&gt; and &lt;code&gt;Pipfile.lock&lt;/code&gt; to be able to have reproducible builds in production.&lt;/p&gt;</content><category term="技術筆記"></category><category term="Python"></category></entry><entry><title>AWS CloudWatch 筆記</title><link href="https://hansliu.com/posts/2018/06/aws-cloudwatch-note.html" rel="alternate"></link><published>2018-06-06T17:00:00+08:00</published><updated>2018-06-06T17:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:hansliu.com,2018-06-06:/posts/2018/06/aws-cloudwatch-note.html</id><summary type="html">&lt;p&gt;Amazon CloudWatch 是 AWS 內建的監控服務，可以用來監控 AWS 上面的資源和應用程式，記錄一下我使用的心得。&lt;/p&gt;
 &lt;div class="section" id="dashboards"&gt;
