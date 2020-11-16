@@ -37,7 +37,7 @@
 		crossorigin="anonymous" />
 
 	<!-- css -->
-	<link rel="stylesheet" href="https://hansliu.com/theme/css/main.css?v=20201116071138" type="text/css">
+	<link rel="stylesheet" href="https://hansliu.com/theme/css/main.css?v=20201116072441" type="text/css">
 
 	<!-- feed -->
 	<link href="https://hansliu.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Hans Blog Full Atom Feed"/>
@@ -143,18 +143,20 @@
 				<h2>What is Token Bucket and Leaky Bucket algorithms</h2>
 <p>Both algorithms are traffic shaping algorithms that used to control traffic, originally that used in packet switched computer networks and telecommunications networks. Nowadays, we usually use for ecommerce campaign and control requests, e.g. we could use it controls stress test maximum QPS.</p>
 <h2>Token bucket Diagram</h2>
-<p><img alt="tokenbucket" src="https://lh3.googleusercontent.com/pw/ACtC-3ee-RXI-FAIlgPBPR31wf9W5o7tm5-DZ9JFHaFXs4U8IujZyqkuc3qntDhopNHA-Xd2VsTSV9W5k_UoPK-UrPm5cj6j1tbUtaUeZ42pb_f2LGKtV2n1NDNkt2QSJfva19GrOldN8F7YccvwSq86uzjB2w=w421-h401-no?authuser=0"></p>
+<p><img alt="tokenbucket" src="https://lh3.googleusercontent.com/pw/ACtC-3etsNF7UqC-dyLORcqsENCfMbdCB_WB56vVWHbAEdp82j_l911pv-rhQiWKpinuwnseF58DEyIa9EtwTHQN8mw1EWV-DeZmSWocjUoPy_kk4cMx5O4jpKq9VOmpHCOsSjIcU7zt751lRX04ygTf-6KZUQ=w601-h481-no?authuser=0"></p>
 <ul>
 <li>Rate Limiting: produce rate of token</li>
 <li>Bucket Sizes: number of token</li>
 <li>Token Check: if token valid, process data</li>
 </ul>
+<p>Golang library: <a href="https://godoc.org/golang.org/x/time/rate#Limiter">https://godoc.org/golang.org/x/time/rate#Limiter</a></p>
 <h2>Leaky bucket Diagram</h2>
-<p><img alt="leakybucket" src="https://lh3.googleusercontent.com/pw/ACtC-3c1xj1b74qElrKZE-un2MvCQExdbhSAoRmTIs_7D3XSclXRYmw4tpCjakBFDCMRaHU9nTIdrwv9-vn34rL7Xu2eRNOqwjt_vUOuBSg298dDjk6RJPldc9pkHVHl5Oz75XYGVTOIibPG1vIJeitudy8Uqg=w276-h398-no?authuser=0"></p>
+<p><img alt="leakybucket" src="https://lh3.googleusercontent.com/pw/ACtC-3f0E8OmKKZRBIsb5L9oQj7SZVx2tkcC6DyFPJpC2hIhYm4Vfnp8Rq2EKqmuB99w0wYpNCV3yIXIw8j1KpIdsi6tYYXP8M-_KaBz-1nkNpw8aXfto8wdlht6t2sO5HS5VU2RdMNAxkPFYtM-tGvxWqnueQ=w601-h481-no?authuser=0"></p>
 <ul>
 <li>Rate Limiting: consume rate of data</li>
 <li>Bucket Sizes: number of data</li>
 </ul>
+<p>Golang library: <a href="https://github.com/uber-go/ratelimit">https://github.com/uber-go/ratelimit</a></p>
 <h2>Token bucket vs. Leaky bucket</h2>
 <table>
 <thead>
@@ -289,6 +291,6 @@
 		integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w=="
 		crossorigin="anonymous"></script>
 
-		<script src="https://hansliu.com/theme/js/main.js?v=20201116071138"></script>
+		<script src="https://hansliu.com/theme/js/main.js?v=20201116072441"></script>
 </body>
 </html>
