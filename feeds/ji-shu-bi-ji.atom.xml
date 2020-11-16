@@ -51,7 +51,7 @@
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Token bucket algorithm used to booking.&lt;/p&gt;
-&lt;p&gt;For booking, we use token bucket to make the limitation of requester, e.g. sell 600 tickets for campaign per second (redirect other requestor to queue).&lt;/p&gt;
+&lt;p&gt;For booking, we use token bucket to make the limitation of requester, e.g. sell 600 tickets for campaign per second (redirect others requester to queue).&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2&gt;Reference&lt;/h2&gt;
