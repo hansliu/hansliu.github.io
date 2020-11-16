@@ -6,6 +6,7 @@
 &lt;ul&gt;
 &lt;li&gt;Rate Limiting: produce rate of token&lt;/li&gt;
 &lt;li&gt;Bucket Sizes: number of token&lt;/li&gt;
+&lt;li&gt;Token Check: if token valid, process data&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Leaky bucket Diagram&lt;/h2&gt;
 &lt;p&gt;&lt;img alt="leakybucket" src="https://lh3.googleusercontent.com/pw/ACtC-3c1xj1b74qElrKZE-un2MvCQExdbhSAoRmTIs_7D3XSclXRYmw4tpCjakBFDCMRaHU9nTIdrwv9-vn34rL7Xu2eRNOqwjt_vUOuBSg298dDjk6RJPldc9pkHVHl5Oz75XYGVTOIibPG1vIJeitudy8Uqg=w276-h398-no?authuser=0"&gt;&lt;/p&gt;
@@ -49,9 +50,9 @@
 &lt;/ol&gt;
 &lt;h2&gt;Reference&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;https://en.wikipedia.org/wiki/Token_bucket&lt;/li&gt;
-&lt;li&gt;https://en.wikipedia.org/wiki/Leaky_bucket&lt;/li&gt;
-&lt;li&gt;https://www.quora.com/What-is-the-difference-between-token-bucket-and-leaky-bucket-algorithms&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Token_bucket"&gt;https://en.wikipedia.org/wiki/Token_bucket&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Leaky_bucket"&gt;https://en.wikipedia.org/wiki/Leaky_bucket&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.quora.com/What-is-the-difference-between-token-bucket-and-leaky-bucket-algorithms"&gt;https://www.quora.com/What-is-the-difference-between-token-bucket-and-leaky-bucket-algorithms&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content><category term="技術筆記"></category><category term="演算法"></category></entry><entry><title>輕井澤散策</title><link href="https://hansliu.com/posts/2020/11/2020-travel-karuizawa.html" rel="alternate"></link><published>2020-11-01T14:00:00+08:00</published><updated>2020-11-01T14:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:hansliu.com,2020-11-01:/posts/2020/11/2020-travel-karuizawa.html</id><summary type="html">&lt;p&gt;原本計畫是去輕井澤滑雪的，卻因為腳受傷的關係，變成一趟騎自行車復健的散策之旅...&lt;/p&gt;</summary><content type="html">&lt;p&gt;原本計畫是去輕井澤滑雪的，卻因為腳受傷的關係，變成一趟騎自行車復健的散策之旅。&lt;/p&gt;
 &lt;p&gt;不知道是不是因為我去的時間是平常日，一路上的人潮都非常少，本來是想說既然不能滑雪，那就順道去逛逛日本真人實境秀「&lt;a href="https://zh.wikipedia.org/wiki/雙層公寓"&gt;雙層公寓&lt;/a&gt;」輕井澤篇的幾個景點（原計畫是去冴沙用餐），可是後來發現輕井澤的腹地其實很大，光逛幾個知名的觀光景點就花了我大半天的時間，最後根本來不及去看雙層公寓的景點就要天黑了。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://lh3.googleusercontent.com/pw/ACtC-3eg3m1Xr2Q0W9NpT8k7LffFkzJsHHNHh3l7qtpl73v_kgxEpnakZRvZ6wifl7WjBRfBE3OAU0ZpmctV7OFtXu32gnYe8dGH5vstItmAfb9Y_emHryJgWaBwGUXorYUsDL6vL9QNSHTYmzqkBCuVTzjA5Q=w1200-h800-no?authuser=0"&gt;&lt;img alt="" src="https://lh3.googleusercontent.com/pw/ACtC-3eg3m1Xr2Q0W9NpT8k7LffFkzJsHHNHh3l7qtpl73v_kgxEpnakZRvZ6wifl7WjBRfBE3OAU0ZpmctV7OFtXu32gnYe8dGH5vstItmAfb9Y_emHryJgWaBwGUXorYUsDL6vL9QNSHTYmzqkBCuVTzjA5Q=w1200-h800-no?authuser=0"&gt;&lt;/a&gt;&lt;/p&gt;
