@@ -37,7 +37,7 @@
 		crossorigin="anonymous" />
 
 	<!-- css -->
-	<link rel="stylesheet" href="https://hansliu.com/theme/css/main.css?v=20201101143337" type="text/css">
+	<link rel="stylesheet" href="https://hansliu.com/theme/css/main.css?v=20201116070225" type="text/css">
 
 	<!-- feed -->
 	<link href="https://hansliu.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Hans Blog Full Atom Feed"/>
@@ -78,7 +78,7 @@
 								<li><a href="https://hansliu.com/"><i class="fa-li fas fa-home"></i>Home</a></li>
 								<li><a href="https://hansliu.com/pages/photography.html"><i class="fa-li fas fa-camera-retro"></i>互惠攝影</a></li>
 
-							<li class="active"><a href="https://hansliu.com/category/ji-shu-bi-ji/"><i class="fa-li fas fa-folder-open"></i> 技術筆記 (19)</a></li>
+							<li class="active"><a href="https://hansliu.com/category/ji-shu-bi-ji/"><i class="fa-li fas fa-folder-open"></i> 技術筆記 (20)</a></li>
 							<li ><a href="https://hansliu.com/category/jiao-se-ban-yan/"><i class="fa-li fas fa-folder-open"></i> 角色扮演 (28)</a></li>
 							<li ><a href="https://hansliu.com/category/ren-xiang-she-ying/"><i class="fa-li fas fa-folder-open"></i> 人像攝影 (20)</a></li>
 							<li ><a href="https://hansliu.com/category/ri-chang-xie-xie/"><i class="fa-li fas fa-folder-open"></i> 日常寫寫 (55)</a></li>
@@ -149,41 +149,41 @@
 <p>You’ll see messages in the Terminal explaining what you need to do to complete the installation process. You can learn more about Homebrew at the <a href="http://brew.sh/">Homebrew website</a>.</p>
 <h3>Install pyenv</h3>
 <p>For local development <strong>never</strong> install packages or modify your system Python installation. To be able to install new or updated Python versions, use <a href="https://github.com/pyenv/pyenv">pyenv</a>. Note this is only compatible with MacOS or Linux.</p>
-<div class="highlight"><pre><span></span><code><span class="n">brew</span> <span class="n">update</span>
+<div class="highlight"><pre><span></span><code><span class="n">brew</span> <span class="k">update</span>
 <span class="n">brew</span> <span class="n">install</span> <span class="n">pyenv</span>
 
-<span class="c1"># Use Homebrew&#39;s directories rather than ~/.pyenv</span>
-<span class="n">echo</span> <span class="s1">&#39;export PYENV_ROOT=&quot;/usr/local/var/pyenv&quot;&#39;</span> <span class="o">&gt;&gt;</span> <span class="o">~/.</span><span class="n">bash_profile</span>
+<span class="o">#</span> <span class="n">Use</span> <span class="n">Homebrew</span><span class="s1">&#39;s directories rather than ~/.pyenv</span>
+<span class="s1">echo &#39;</span><span class="n">export</span> <span class="n">PYENV_ROOT</span><span class="o">=</span><span class="ss">&quot;/usr/local/var/pyenv&quot;</span><span class="s1">&#39; &gt;&gt; ~/.bash_profile</span>
 
-<span class="c1"># Enable shims and autocompletion</span>
-<span class="n">echo</span> <span class="o">-</span><span class="n">e</span> <span class="s1">&#39;if command -v pyenv 1&gt;/dev/null 2&gt;&amp;1; then</span><span class="se">\n</span><span class="s1">  eval &quot;$(pyenv init -)&quot;</span><span class="se">\n</span><span class="s1">fi&#39;</span> <span class="o">&gt;&gt;</span> <span class="o">~/.</span><span class="n">bash_profile</span>
+<span class="s1"># Enable shims and autocompletion</span>
+<span class="s1">echo -e &#39;</span><span class="k">if</span> <span class="n">command</span> <span class="o">-</span><span class="n">v</span> <span class="n">pyenv</span> <span class="mi">1</span><span class="o">&gt;/</span><span class="n">dev</span><span class="o">/</span><span class="k">null</span> <span class="mi">2</span><span class="o">&gt;&amp;</span><span class="mi">1</span><span class="p">;</span> <span class="k">then</span><span class="err">\</span><span class="n">n</span>  <span class="n">eval</span> <span class="ss">&quot;$(pyenv init -)&quot;</span><span class="err">\</span><span class="n">nfi</span><span class="err">&#39;</span> <span class="o">&gt;&gt;</span> <span class="o">~/</span><span class="p">.</span><span class="n">bash_profile</span>
 
-<span class="n">source</span> <span class="o">~/.</span><span class="n">bash_profile</span>
+<span class="k">source</span> <span class="o">~/</span><span class="p">.</span><span class="n">bash_profile</span>
 
-<span class="c1"># Check pyenv has been properly installed and configured</span>
-<span class="n">pyenv</span> <span class="n">versions</span>
+<span class="o">#</span> <span class="k">Check</span> <span class="n">pyenv</span> <span class="n">has</span> <span class="n">been</span> <span class="n">properly</span> <span class="n">installed</span> <span class="k">and</span> <span class="n">configured</span>
+<span class="n">pyenv</span> <span class="k">versions</span>
 </code></pre></div>
 
 <h4>Python Versions</h4>
 <p>Using <code>pyenv</code>, install the necessary version for development. For example, we use <strong>Python 3.8.5</strong> for development. For legacy projects, use <strong>Python 2.7.13</strong></p>
-<div class="highlight"><pre><span></span><code><span class="n">pyenv</span> <span class="n">install</span> <span class="mf">3.8.5</span>
-<span class="n">pyenv</span> <span class="n">install</span> <span class="mf">2.7.13</span>
+<div class="highlight"><pre><span></span><code><span class="n">pyenv</span> <span class="n">install</span> <span class="mi">3</span><span class="p">.</span><span class="mi">8</span><span class="p">.</span><span class="mi">5</span>
+<span class="n">pyenv</span> <span class="n">install</span> <span class="mi">2</span><span class="p">.</span><span class="mi">7</span><span class="p">.</span><span class="mi">13</span>
 
-<span class="n">pyenv</span> <span class="n">global</span> <span class="mf">2.7.13</span> <span class="mf">3.8.5</span>
+<span class="n">pyenv</span> <span class="k">global</span> <span class="mi">2</span><span class="p">.</span><span class="mi">7</span><span class="p">.</span><span class="mi">13</span> <span class="mi">3</span><span class="p">.</span><span class="mi">8</span><span class="p">.</span><span class="mi">5</span>
 
-<span class="p">#</span> <span class="n">Check</span> <span class="n">versions</span> <span class="n">have</span> <span class="n">been</span> <span class="n">installed</span> <span class="k">and</span> <span class="n">assigned</span> <span class="n">to</span> <span class="n">global</span>
-<span class="n">pyenv</span> <span class="n">versions</span>
+<span class="o">#</span> <span class="k">Check</span> <span class="k">versions</span> <span class="n">have</span> <span class="n">been</span> <span class="n">installed</span> <span class="k">and</span> <span class="n">assigned</span> <span class="k">to</span> <span class="k">global</span>
+<span class="n">pyenv</span> <span class="k">versions</span>
 </code></pre></div>
 
 <h3>Install pipenv</h3>
 <p>To make development and deployment easier, <a href="https://github.com/pypa/pipenv">pipenv</a> is used to manage virtual environments and lock dependencies.</p>
 <p>The environment variable ensures that virtual environments are created within each project folder. The main reason is for convenience as <code>Visual Studio Code</code> automatically detects and switches virtual environments if <code>.venv</code> is found within the folder.</p>
-<div class="highlight"><pre><span></span><code><span class="n">brew</span> <span class="n">update</span>
+<div class="highlight"><pre><span></span><code><span class="n">brew</span> <span class="k">update</span>
 <span class="n">brew</span> <span class="n">install</span> <span class="n">pipenv</span>
 
-<span class="n">echo</span> <span class="s1">&#39;export PIPENV_VENV_IN_PROJECT=1&#39;</span> <span class="o">&gt;&gt;</span> <span class="o">~/.</span><span class="n">bash_profile</span>
+<span class="n">echo</span> <span class="s1">&#39;export PIPENV_VENV_IN_PROJECT=1&#39;</span> <span class="o">&gt;&gt;</span> <span class="o">~/</span><span class="p">.</span><span class="n">bash_profile</span>
 
-<span class="n">source</span> <span class="o">~/.</span><span class="n">bash_profile</span>
+<span class="k">source</span> <span class="o">~/</span><span class="p">.</span><span class="n">bash_profile</span>
 </code></pre></div>
 
 <h3>Usage</h3>
@@ -298,6 +298,6 @@
 		integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w=="
 		crossorigin="anonymous"></script>
 
-		<script src="https://hansliu.com/theme/js/main.js?v=20201101143337"></script>
+		<script src="https://hansliu.com/theme/js/main.js?v=20201116070225"></script>
 </body>
 </html>
