@@ -37,7 +37,7 @@
 		crossorigin="anonymous" />
 
 	<!-- css -->
-	<link rel="stylesheet" href="https://hansliu.com/theme/css/main.css?v=20201116072441" type="text/css">
+	<link rel="stylesheet" href="https://hansliu.com/theme/css/main.css?v=20201116073405" type="text/css">
 
 	<!-- feed -->
 	<link href="https://hansliu.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Hans Blog Full Atom Feed"/>
@@ -148,15 +148,15 @@
 <li>Rate Limiting: produce rate of token</li>
 <li>Bucket Sizes: number of token</li>
 <li>Token Check: if token valid, process data</li>
+<li>Golang library: <a href="https://godoc.org/golang.org/x/time/rate#Limiter">https://godoc.org/golang.org/x/time/rate#Limiter</a></li>
 </ul>
-<p>Golang library: <a href="https://godoc.org/golang.org/x/time/rate#Limiter">https://godoc.org/golang.org/x/time/rate#Limiter</a></p>
 <h2>Leaky bucket Diagram</h2>
 <p><img alt="leakybucket" src="https://lh3.googleusercontent.com/pw/ACtC-3f0E8OmKKZRBIsb5L9oQj7SZVx2tkcC6DyFPJpC2hIhYm4Vfnp8Rq2EKqmuB99w0wYpNCV3yIXIw8j1KpIdsi6tYYXP8M-_KaBz-1nkNpw8aXfto8wdlht6t2sO5HS5VU2RdMNAxkPFYtM-tGvxWqnueQ=w601-h481-no?authuser=0"></p>
 <ul>
 <li>Rate Limiting: consume rate of data</li>
 <li>Bucket Sizes: number of data</li>
+<li>Golang library: <a href="https://github.com/uber-go/ratelimit">https://github.com/uber-go/ratelimit</a></li>
 </ul>
-<p>Golang library: <a href="https://github.com/uber-go/ratelimit">https://github.com/uber-go/ratelimit</a></p>
 <h2>Token bucket vs. Leaky bucket</h2>
 <table>
 <thead>
@@ -178,19 +178,21 @@
 <td>If bucket is full, token are discarded but not the packet.</td>
 <td>If bucket is full, packet or data is discarded.</td>
 </tr>
+<tr>
+<td>It is Token dependent.</td>
+<td>x</td>
+</tr>
 </tbody>
 </table>
 <h2>Use Case study</h2>
 <ol>
-<li>
-<p>Scenario 1: leaky bucket algorithm used to stress test.</p>
-<p>For stress test, we use leaky bucket to make the brust of requests to constant, e.g. create 600 query per second (1 request per 100ms).</p>
-</li>
-<li>
-<p>Scenario 2: token bucket algorithm used to booking.</p>
-<p>For booking, we use token bucket to make the limitation of requester, e.g. sell 600 tickets for campaign per second (redirect other requestor to queue).</p>
-</li>
+<li>Scenario 1: leaky bucket algorithm used to stress test.</li>
 </ol>
+<p>For stress test, we use leaky bucket to make the brust of requests to constant, e.g. create 600 query per second (1 request per 100ms).</p>
+<ol>
+<li>Scenario 2: token bucket algorithm used to booking.</li>
+</ol>
+<p>For booking, we use token bucket to make the limitation of requester, e.g. sell 600 tickets for campaign per second (redirect other requestor to queue).</p>
 <h2>Reference</h2>
 <ul>
 <li><a href="https://en.wikipedia.org/wiki/Token_bucket">https://en.wikipedia.org/wiki/Token_bucket</a></li>
@@ -291,6 +293,6 @@
 		integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w=="
 		crossorigin="anonymous"></script>
 
-		<script src="https://hansliu.com/theme/js/main.js?v=20201116072441"></script>
+		<script src="https://hansliu.com/theme/js/main.js?v=20201116073405"></script>
 </body>
 </html>
