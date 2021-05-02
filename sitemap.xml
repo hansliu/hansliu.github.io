@@ -5,14 +5,14 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://hansliu.com/</loc>
-<lastmod>2021-02-28T07:30:36-00:00</lastmod>
+<lastmod>2021-05-02T16:59:04-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://hansliu.com/tags/</loc>
-<lastmod>2021-02-28T07:30:36-00:00</lastmod>
+<lastmod>2021-05-02T16:59:04-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -35,6 +35,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <loc>https://hansliu.com/pages/tos.html</loc>
 <lastmod>2018-05-01T12:00:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://hansliu.com/posts/2021/05/transprk-smile-laser-eye-experience.html</loc>
+<lastmod>2021-05-02T23:00:00+08:00</lastmod>
+<changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
@@ -1573,7 +1580,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://hansliu.com/category/ri-chang-xie-xie/</loc>
-<lastmod>2021-02-28T14:00:00+08:06</lastmod>
+<lastmod>2021-05-02T23:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1581,6 +1588,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://hansliu.com/category/ying-xiang-xu-shi/</loc>
 <lastmod>2020-11-01T14:00:00+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://hansliu.com/tag/jin-shi-lei-she/</loc>
+<lastmod>2021-05-02T23:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
