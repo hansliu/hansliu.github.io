@@ -53,56 +53,137 @@
 &lt;p&gt;所以在做近視雷射之前還是要想清楚自己要的是甚麼。&lt;/p&gt;
 &lt;p&gt;最後附上我做手術的相關資料跟紀錄：&lt;/p&gt;
 &lt;h2&gt;手術資料&lt;/h2&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;手術時間：2021.02.10
-手術方式：relex-smile
-使用機台：VisuMax
-醫療院所：優爾視
-所在地區：台北市
-執刀醫師：陳永煌
-手術費用：114000（刷卡/團報）
-優惠與否：有
-
-| 術前相關數據   | 右眼              | 左眼              |
-| -------------- | ----------------- | ----------------- |
-| 近視度數       | -475              | -400              |
-| 散光度數       | -50               | -75               |
-| 角膜厚度（uM） | 564               | 566               |
-| 瞳孔大小       | 2.8               | 3                 |
-| 淚液分泌狀況   | 偏乾(6)           | 正常(10)          |
-| 眼壓           | 正常              | 正常              |
-| -              |
-| 術後相關資料   |
-| 近視度數       | 無                | 無                |
-| 散光度數       | 無                | 無                |
-| 術後角膜厚度   | 315+130（角膜帽） | 327+130（角膜帽） |
-| -              |
-| 不適應症部分   |
-| 乾眼狀況       | 輕微              | 無                |
-| 夜間炫光       | 輕微              | 輕微              |
-| 畏光狀況       | 輕微              | 輕微              |
-| 其他狀況       | 眼睛疲勞          | 無                |
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
+&lt;ul&gt;
+&lt;li&gt;手術時間：2021.02.10&lt;/li&gt;
+&lt;li&gt;手術方式：relex-smile&lt;/li&gt;
+&lt;li&gt;使用機台：VisuMax&lt;/li&gt;
+&lt;li&gt;醫療院所：優爾視&lt;/li&gt;
+&lt;li&gt;所在地區：台北市&lt;/li&gt;
+&lt;li&gt;執刀醫師：陳永煌&lt;/li&gt;
+&lt;li&gt;手術費用：114000（刷卡/團報）&lt;/li&gt;
+&lt;li&gt;優惠與否：有&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;術前相關數據&lt;/th&gt;
+&lt;th&gt;右眼&lt;/th&gt;
+&lt;th&gt;左眼&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;近視度數&lt;/td&gt;
+&lt;td&gt;-475&lt;/td&gt;
+&lt;td&gt;-400&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;散光度數&lt;/td&gt;
+&lt;td&gt;-50&lt;/td&gt;
+&lt;td&gt;-75&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;角膜厚度（uM）&lt;/td&gt;
+&lt;td&gt;564&lt;/td&gt;
+&lt;td&gt;566&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;瞳孔大小&lt;/td&gt;
+&lt;td&gt;2.8&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;淚液分泌狀況&lt;/td&gt;
+&lt;td&gt;偏乾(6)&lt;/td&gt;
+&lt;td&gt;正常(10)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;眼壓&lt;/td&gt;
+&lt;td&gt;正常&lt;/td&gt;
+&lt;td&gt;正常&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;術後相關資料&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;近視度數&lt;/td&gt;
+&lt;td&gt;無&lt;/td&gt;
+&lt;td&gt;無&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;散光度數&lt;/td&gt;
+&lt;td&gt;無&lt;/td&gt;
+&lt;td&gt;無&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;術後角膜厚度&lt;/td&gt;
+&lt;td&gt;315+130（角膜帽）&lt;/td&gt;
+&lt;td&gt;327+130（角膜帽）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;不適應症部分&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;乾眼狀況&lt;/td&gt;
+&lt;td&gt;輕微&lt;/td&gt;
+&lt;td&gt;無&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;夜間炫光&lt;/td&gt;
+&lt;td&gt;輕微&lt;/td&gt;
+&lt;td&gt;輕微&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;畏光狀況&lt;/td&gt;
+&lt;td&gt;輕微&lt;/td&gt;
+&lt;td&gt;輕微&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;其他狀況&lt;/td&gt;
+&lt;td&gt;眼睛疲勞&lt;/td&gt;
+&lt;td&gt;無&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;```&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
 &lt;h2&gt;術後心得&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;事前提要&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;原先是在 TransPRK 和 SMILE 之間做選擇，最後因為時間成本，術後照護等等的關係選擇了 SMILE&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;手術過程&lt;/strong&gt;&lt;/p&gt;
+&lt;h4&gt;事前提要&lt;/h4&gt;
+&lt;p&gt;原先是在 TransPRK 和 SMILE 之間做選擇，最後因為時間成本，術後照護等等的關係選擇了 SMILE。&lt;/p&gt;
+&lt;h4&gt;手術過程&lt;/h4&gt;
 &lt;p&gt;不多做解釋，可以上網看各種影片，並沒有特別的差異。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;術後當天&lt;/strong&gt;&lt;/p&gt;
+&lt;h4&gt;術後當天&lt;/h4&gt;
 &lt;p&gt;術後當下視力會呈現朦朧美，等待30分鐘讓醫生檢查眼睛，沒有問題就可以回家，待麻藥退了之後我開始狂流眼淚，睡一覺就舒服很多，但很畏光且看近的視力模糊。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;術後第一天&lt;/strong&gt;&lt;/p&gt;
+&lt;h4&gt;術後第一天&lt;/h4&gt;
 &lt;p&gt;早上起床時眼睛會有明顯乾澀與異物感，需要點人工淚液比較舒服，回診說角膜部分已經癒合，眼壓正常，此時視力恢復到 1.0，但視覺品質呈現朦朧美，會畏光，右眼看背光物體有明顯疊影。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;術後一週&lt;/strong&gt;&lt;/p&gt;
+&lt;h4&gt;術後一週&lt;/h4&gt;
 &lt;p&gt;早上起床時眼睛會有異物感，明顯感受到視覺品質不穩定，看近的偶爾會模糊，看各種線條偶爾會扭曲，依然畏光，右眼看背光物體有明顯疊影，看室內背光物體覺得比以往都亮，夜間看遠方車燈和路燈會覺得很亮。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;術後一個月&lt;/strong&gt;&lt;/p&gt;
+&lt;h4&gt;術後一個月&lt;/h4&gt;
 &lt;p&gt;早起不會有異物感了，感受到視覺品質逐漸穩定，右眼有些為疊影，看室內背光物體覺得比以往都亮，夜間看遠方車燈和路燈會覺得很亮。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;術後二個月&lt;/strong&gt;&lt;/p&gt;
+&lt;h4&gt;術後二個月&lt;/h4&gt;
 &lt;p&gt;早起不會有異物感了，感受到視覺品質逐漸穩定，右眼也沒疊影了，看室內背光物體覺得比以往都亮，夜間看遠方車燈和路燈會覺得很亮。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;術後六個月&lt;/strong&gt;&lt;/p&gt;
+&lt;h4&gt;術後六個月&lt;/h4&gt;
 &lt;p&gt;早上起來一切正常，但在三到六個月之間發現雙眼的飛蚊變明顯，散瞳檢查後說視網膜沒有問題，看室內背光物體越來越不亮，夜間看遠方車燈和路燈也越來越不亮，除了飛紋以外，可以感受到視覺品質恢復到眼鏡時期。&lt;/p&gt;
 &lt;p&gt;如果對於手術模式有好奇可以參考以下幾篇文章，有很完整的整理近視雷射原理跟資訊給大家：&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://asbolus.medium.com/%E7%9C%BC%E7%9D%9B%E9%9B%B7%E5%B0%84%E6%89%8B%E8%A1%93%E4%BB%8B%E7%B4%B9%E8%88%87%E8%A1%93%E5%BE%8C%E5%BF%83%E5%BE%97-bfecb4a593f4"&gt;SMILE 近視雷射術前後心得分享&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://asbolus.medium.com/%E7%9C%BC%E7%9D%9B%E9%9B%B7%E5%B0%84%E6%89%8B%E8%A1%93%E4%BB%8B%E7%B4%B9%E8%88%87%E8%A1%93%E5%BE%8C%E5%BF%83%E5%BE%97-bfecb4a593f4"&gt;近視雷射介紹與術後心得&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://lucysdad.medium.com/smile%E8%BF%91%E8%A6%96%E9%9B%B7%E5%B0%84%E8%A1%93%E5%89%8D%E5%BE%8C%E5%BF%83%E5%BE%97%E5%88%86%E4%BA%AB-1b8a3171cdc9"&gt;SMILE 近視雷射術前後心得分享&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content><category term="日常寫寫"></category><category term="近視雷射"></category></entry><entry><title>ETrade 網銀匯款設定</title><link href="https://hansliu.com/posts/2021/02/etrade-banking-online-transfer.html" rel="alternate"></link><published>2021-02-28T14:00:00+08:00</published><updated>2021-02-28T14:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:hansliu.com,2021-02-28:/posts/2021/02/etrade-banking-online-transfer.html</id><summary type="html">&lt;p&gt;由於以前公司 RSU 帳戶是用 ETrade 的關係，我在很早期就額外註冊了一個 ETrade 的證券帳戶，作為交易美股的平台一直到現在。&lt;/p&gt;
 &lt;p&gt;但因為 ETrade 並不像 Firstrade 或 TD Ameritrade ...&lt;/p&gt;</summary><content type="html">&lt;p&gt;由於以前公司 RSU 帳戶是用 ETrade 的關係，我在很早期就額外註冊了一個 ETrade 的證券帳戶，作為交易美股的平台一直到現在。&lt;/p&gt;
