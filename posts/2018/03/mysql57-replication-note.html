@@ -37,7 +37,7 @@
 		crossorigin="anonymous" />
 
 	<!-- css -->
-	<link rel="stylesheet" href="https://hansliu.com/theme/css/main.css?v=20210811053127" type="text/css">
+	<link rel="stylesheet" href="https://hansliu.com/theme/css/main.css?v=20211116143417" type="text/css">
 
 	<!-- feed -->
 	<link href="https://hansliu.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Hans Blog Full Atom Feed"/>
@@ -81,7 +81,7 @@
 							<li class="active"><a href="https://hansliu.com/category/ji-shu-bi-ji/"><i class="fa-li fas fa-folder-open"></i> 技術筆記 (20)</a></li>
 							<li ><a href="https://hansliu.com/category/jiao-se-ban-yan/"><i class="fa-li fas fa-folder-open"></i> 角色扮演 (28)</a></li>
 							<li ><a href="https://hansliu.com/category/ren-xiang-she-ying/"><i class="fa-li fas fa-folder-open"></i> 人像攝影 (20)</a></li>
-							<li ><a href="https://hansliu.com/category/ri-chang-xie-xie/"><i class="fa-li fas fa-folder-open"></i> 日常寫寫 (58)</a></li>
+							<li ><a href="https://hansliu.com/category/ri-chang-xie-xie/"><i class="fa-li fas fa-folder-open"></i> 日常寫寫 (59)</a></li>
 							<li ><a href="https://hansliu.com/category/ying-xiang-xu-shi/"><i class="fa-li fas fa-folder-open"></i> 影像敘事 (92)</a></li>
 <!-- /.Categories -->
 
@@ -207,7 +207,7 @@ DELETE FROM log WHERE createtime &lt; DATE_SUB(NOW(), INTERVAL 1 month)
 <p>可避免 phantom read 以下問題，因為交易資料必須循序，會嚴重影響交易資料庫效能，一般不會採用這種隔離層級。</p>
 <p>InnoDB 在設計上支援全部四種隔離層級，而且 InnoDB 為了避免 phantom read 做了一個東西叫 next-key locking ，所以在 InnoDB 你可以假裝 phantom read 不存在。</p>
 <p>另外 InnoDB 又實做了名叫 multi-versioned concurrency control 的功能，以達到 consistent nonlocking reads 。其實就是 InnoDB 可以同時維護多個版本的資料表資料，所以可以減少 READ COMMITTED 和 REPEATABLE READ 這兩個隔離層級加在資料表上的鎖，讓系統效能更好。</p>
-<table border="1" class="colwidths-given basic docutils">
+<table border="1" class="basic docutils">
 <caption>不同交易隔離層級對多個交易並行處理的影響</caption>
 <colgroup>
 <col width="25%" />
@@ -411,6 +411,6 @@ HA384:ECDH-RSA-AES128-GCM-SHA256:ECDH-RSA-AES256-GCM-SHA384:ECDH-RSA-AES128-SHA2
 		integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w=="
 		crossorigin="anonymous"></script>
 
-		<script src="https://hansliu.com/theme/js/main.js?v=20210811053127"></script>
+		<script src="https://hansliu.com/theme/js/main.js?v=20211116143417"></script>
 </body>
 </html>

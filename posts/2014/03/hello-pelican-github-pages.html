@@ -37,7 +37,7 @@
 		crossorigin="anonymous" />
 
 	<!-- css -->
-	<link rel="stylesheet" href="https://hansliu.com/theme/css/main.css?v=20210811053127" type="text/css">
+	<link rel="stylesheet" href="https://hansliu.com/theme/css/main.css?v=20211116143417" type="text/css">
 
 	<!-- feed -->
 	<link href="https://hansliu.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Hans Blog Full Atom Feed"/>
@@ -81,7 +81,7 @@
 							<li class="active"><a href="https://hansliu.com/category/ji-shu-bi-ji/"><i class="fa-li fas fa-folder-open"></i> 技術筆記 (20)</a></li>
 							<li ><a href="https://hansliu.com/category/jiao-se-ban-yan/"><i class="fa-li fas fa-folder-open"></i> 角色扮演 (28)</a></li>
 							<li ><a href="https://hansliu.com/category/ren-xiang-she-ying/"><i class="fa-li fas fa-folder-open"></i> 人像攝影 (20)</a></li>
-							<li ><a href="https://hansliu.com/category/ri-chang-xie-xie/"><i class="fa-li fas fa-folder-open"></i> 日常寫寫 (58)</a></li>
+							<li ><a href="https://hansliu.com/category/ri-chang-xie-xie/"><i class="fa-li fas fa-folder-open"></i> 日常寫寫 (59)</a></li>
 							<li ><a href="https://hansliu.com/category/ying-xiang-xu-shi/"><i class="fa-li fas fa-folder-open"></i> 影像敘事 (92)</a></li>
 <!-- /.Categories -->
 
@@ -138,12 +138,12 @@
 
 				<p>隨著無名關閉、Google blogger 越來越慢等等原因，我心中就一直想要替自己的部落格搬家，同時看到 Jenny 使用 Pelican 的心得，就引起我的興趣，也想要將部落格搬到 GitHub Pages，不過拖了很久一直沒有開始動工，直到最近終於開始部落格的搬家作業。</p>
 <p>這篇文章是用來記錄一下搬家的相關資訊。</p>
-<div class="section" id="id1">
+<div class="section" id="section-1">
 <h2>安裝</h2>
 <p>為了安裝方便我將 Pelican 安裝在工作機上面，參照 <a class="reference external" href="http://docs.getpelican.com/en/3.3.0/getting_started.html">Pelican 3.3.0 官方文件</a> ，並搭配 Python2.7，很順利的就完成所有安裝步驟。</p>
 <p>真正的問題是當我要匯入 Blogger 的文章才開始...</p>
 </div>
-<div class="section" id="id2">
+<div class="section" id="section-2">
 <h2>文章</h2>
 <p>首先，我把 Blogger 的文章匯出成 ATOM/RSS 的格式，並且在工作機上面安裝 feedparser ，就可以利用 Pelican-import 的內建指令來做轉出文章的動作。</p>
 <pre class="literal-block">
@@ -173,11 +173,11 @@ Click on my |ImageLink|_
 .. _ImageLink: http://link.url/
 </pre>
 </div>
-<div class="section" id="id3">
+<div class="section" id="section-3">
 <h2>樣式</h2>
 <p>Pelican 的樣式都放在 <a class="reference external" href="https://github.com/getpelican/pelican-themes">pelican-themes</a> ，我們可以直接挑選喜歡的樣式來用，也可以將自己設計的樣式加入 <a class="reference external" href="https://github.com/getpelican/pelican-themes">pelican-themes</a> ，分享給 Pelican 的使用者，因為我希望可以挑一個簡單可擴充的樣式，在逛完 <a class="reference external" href="https://github.com/getpelican/pelican-themes">pelican-themes</a> 之後，還是決定以 Jenny 設計的 <a class="reference external" href="https://github.com/jsliang/pelican-fresh">pelican-fresh</a> 為基礎，在根據自己的需求稍作調整。</p>
 </div>
-<div class="section" id="id4">
+<div class="section" id="section-4">
 <h2>套件</h2>
 <p>Pelican 的套件都在 <a class="reference external" href="https://github.com/getpelican/pelican-plugins">pelican-plugins</a> ，一樣可以直接挑選喜歡的套件來用。</p>
 <p>直接放上現在有使用的 plugin:</p>
@@ -299,6 +299,6 @@ PLUGINS = [
 		integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w=="
 		crossorigin="anonymous"></script>
 
-		<script src="https://hansliu.com/theme/js/main.js?v=20210811053127"></script>
+		<script src="https://hansliu.com/theme/js/main.js?v=20211116143417"></script>
 </body>
 </html>
