@@ -37,7 +37,7 @@
 		crossorigin="anonymous" />
 
 	<!-- css -->
-	<link rel="stylesheet" href="https://hansliu.com/theme/css/main.css?v=20211124145236" type="text/css">
+	<link rel="stylesheet" href="https://hansliu.com/theme/css/main.css?v=20220211095932" type="text/css">
 
 	<!-- feed -->
 	<link href="https://hansliu.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Hans Blog Full Atom Feed"/>
@@ -149,41 +149,41 @@
 <p>You’ll see messages in the Terminal explaining what you need to do to complete the installation process. You can learn more about Homebrew at the <a href="http://brew.sh/">Homebrew website</a>.</p>
 <h3>Install pyenv</h3>
 <p>For local development <strong>never</strong> install packages or modify your system Python installation. To be able to install new or updated Python versions, use <a href="https://github.com/pyenv/pyenv">pyenv</a>. Note this is only compatible with MacOS or Linux.</p>
-<div class="highlight"><pre><span></span><code><span class="n">brew</span> <span class="n">update</span>
-<span class="n">brew</span> <span class="n">install</span> <span class="n">pyenv</span>
+<div class="highlight"><pre><span></span><code><span class="n">brew</span><span class="w"> </span><span class="n">update</span><span class="w"></span>
+<span class="n">brew</span><span class="w"> </span><span class="n">install</span><span class="w"> </span><span class="n">pyenv</span><span class="w"></span>
 
-<span class="c1"># Use Homebrew&#39;s directories rather than ~/.pyenv</span>
-<span class="n">echo</span> <span class="s1">&#39;export PYENV_ROOT=&quot;/usr/local/var/pyenv&quot;&#39;</span> <span class="o">&gt;&gt;</span> <span class="o">~/.</span><span class="n">bash_profile</span>
+<span class="c1"># Use Homebrew&#39;s directories rather than ~/.pyenv</span><span class="w"></span>
+<span class="n">echo</span><span class="w"> </span><span class="s1">&#39;export PYENV_ROOT=&quot;/usr/local/var/pyenv&quot;&#39;</span><span class="w"> </span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="o">~/.</span><span class="n">bash_profile</span><span class="w"></span>
 
-<span class="c1"># Enable shims and autocompletion</span>
-<span class="n">echo</span> <span class="o">-</span><span class="n">e</span> <span class="s1">&#39;if command -v pyenv 1&gt;/dev/null 2&gt;&amp;1; then</span><span class="se">\n</span><span class="s1">  eval &quot;$(pyenv init -)&quot;</span><span class="se">\n</span><span class="s1">fi&#39;</span> <span class="o">&gt;&gt;</span> <span class="o">~/.</span><span class="n">bash_profile</span>
+<span class="c1"># Enable shims and autocompletion</span><span class="w"></span>
+<span class="n">echo</span><span class="w"> </span><span class="o">-</span><span class="n">e</span><span class="w"> </span><span class="s1">&#39;if command -v pyenv 1&gt;/dev/null 2&gt;&amp;1; then</span><span class="se">\n</span><span class="s1">  eval &quot;$(pyenv init -)&quot;</span><span class="se">\n</span><span class="s1">fi&#39;</span><span class="w"> </span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="o">~/.</span><span class="n">bash_profile</span><span class="w"></span>
 
-<span class="n">source</span> <span class="o">~/.</span><span class="n">bash_profile</span>
+<span class="n">source</span><span class="w"> </span><span class="o">~/.</span><span class="n">bash_profile</span><span class="w"></span>
 
-<span class="c1"># Check pyenv has been properly installed and configured</span>
-<span class="n">pyenv</span> <span class="n">versions</span>
+<span class="c1"># Check pyenv has been properly installed and configured</span><span class="w"></span>
+<span class="n">pyenv</span><span class="w"> </span><span class="n">versions</span><span class="w"></span>
 </code></pre></div>
 
 <h4>Python Versions</h4>
 <p>Using <code>pyenv</code>, install the necessary version for development. For example, we use <strong>Python 3.8.5</strong> for development. For legacy projects, use <strong>Python 2.7.13</strong></p>
-<div class="highlight"><pre><span></span><code><span class="n">pyenv</span> <span class="n">install</span> <span class="mf">3.8.5</span>
-<span class="n">pyenv</span> <span class="n">install</span> <span class="mf">2.7.13</span>
+<div class="highlight"><pre><span></span><code><span class="n">pyenv</span><span class="w"> </span><span class="n">install</span><span class="w"> </span><span class="mf">3.8.5</span><span class="w"></span>
+<span class="n">pyenv</span><span class="w"> </span><span class="n">install</span><span class="w"> </span><span class="mf">2.7.13</span><span class="w"></span>
 
-<span class="n">pyenv</span> <span class="n">global</span> <span class="mf">2.7.13</span> <span class="mf">3.8.5</span>
+<span class="n">pyenv</span><span class="w"> </span><span class="n">global</span><span class="w"> </span><span class="mf">2.7.13</span><span class="w"> </span><span class="mf">3.8.5</span><span class="w"></span>
 
-<span class="p">#</span> <span class="n">Check</span> <span class="n">versions</span> <span class="n">have</span> <span class="n">been</span> <span class="n">installed</span> <span class="k">and</span> <span class="n">assigned</span> <span class="n">to</span> <span class="n">global</span>
-<span class="n">pyenv</span> <span class="n">versions</span>
+<span class="p">#</span><span class="w"> </span><span class="n">Check</span><span class="w"> </span><span class="n">versions</span><span class="w"> </span><span class="n">have</span><span class="w"> </span><span class="n">been</span><span class="w"> </span><span class="n">installed</span><span class="w"> </span><span class="k">and</span><span class="w"> </span><span class="n">assigned</span><span class="w"> </span><span class="n">to</span><span class="w"> </span><span class="n">global</span><span class="w"></span>
+<span class="n">pyenv</span><span class="w"> </span><span class="n">versions</span><span class="w"></span>
 </code></pre></div>
 
 <h3>Install pipenv</h3>
 <p>To make development and deployment easier, <a href="https://github.com/pypa/pipenv">pipenv</a> is used to manage virtual environments and lock dependencies.</p>
 <p>The environment variable ensures that virtual environments are created within each project folder. The main reason is for convenience as <code>Visual Studio Code</code> automatically detects and switches virtual environments if <code>.venv</code> is found within the folder.</p>
-<div class="highlight"><pre><span></span><code><span class="n">brew</span> <span class="n">update</span>
-<span class="n">brew</span> <span class="n">install</span> <span class="n">pipenv</span>
+<div class="highlight"><pre><span></span><code><span class="n">brew</span><span class="w"> </span><span class="n">update</span><span class="w"></span>
+<span class="n">brew</span><span class="w"> </span><span class="n">install</span><span class="w"> </span><span class="n">pipenv</span><span class="w"></span>
 
-<span class="n">echo</span> <span class="s1">&#39;export PIPENV_VENV_IN_PROJECT=1&#39;</span> <span class="o">&gt;&gt;</span> <span class="o">~/.</span><span class="n">bash_profile</span>
+<span class="n">echo</span><span class="w"> </span><span class="s1">&#39;export PIPENV_VENV_IN_PROJECT=1&#39;</span><span class="w"> </span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="o">~/.</span><span class="n">bash_profile</span><span class="w"></span>
 
-<span class="n">source</span> <span class="o">~/.</span><span class="n">bash_profile</span>
+<span class="n">source</span><span class="w"> </span><span class="o">~/.</span><span class="n">bash_profile</span><span class="w"></span>
 </code></pre></div>
 
 <h3>Usage</h3>
@@ -251,7 +251,7 @@ pipenv install &lt;new_package&gt;
 
 	var disqus_config = function () {
 		this.page.url = 'https://hansliu.com/posts/2020/09/setup-python-environment-on-mac-via-pyenv-and-pipenv.html'; // Replace PAGE_URL with your page's canonical URL variable
-		this.page.identifier = 'hansliu'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+		this.page.identifier = 'posts/2020/09/setup-python-environment-on-mac-via-pyenv-and-pipenv.html'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
 	};
 
 	(function() { // DON'T EDIT BELOW THIS LINE
@@ -298,6 +298,6 @@ pipenv install &lt;new_package&gt;
 		integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w=="
 		crossorigin="anonymous"></script>
 
-		<script src="https://hansliu.com/theme/js/main.js?v=20211124145236"></script>
+		<script src="https://hansliu.com/theme/js/main.js?v=20220211095932"></script>
 </body>
 </html>
