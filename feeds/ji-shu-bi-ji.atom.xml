@@ -64,9 +64,9 @@
 &lt;p&gt;&lt;a href="https://blog.getpelican.com/"&gt;Pelican&lt;/a&gt; 是基於 Python 所寫的一套靜態網站管理（Static Site Generator），類似的靜態網站管理還有很多，例如以 Nodejs 寫的 &lt;a href="https://hexo.io/"&gt;Hexo&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt;因為網路上已經有很多比較靜態網站和動態網站的優缺點，我這邊就不特別多講，不過對於追求成本控管和搜尋引擎優化的部落格來說，我覺得使用靜態網站管理會比較符合需求，至於為什麼選 Pelican 不選 Hexo，只是因為我比較熟悉 Python。&lt;/p&gt;
 &lt;h2&gt;安裝&lt;/h2&gt;
-&lt;p&gt;都到了2020年了，絕大多數的 package 都&lt;strong&gt;應該&lt;/strong&gt;支援 Python 3+（讓我們一起跟 Python 2 說拜拜），我在安裝 Pelican 4.5.0 的時候搭配的是 Python 3.8，使用 Pipenv 就能輕鬆寫意的完成安裝。&lt;/p&gt;
+&lt;p&gt;都到了2020年了，絕大多數的 package 都&lt;strong&gt;應該&lt;/strong&gt;支援 Python 3+（讓我們一起跟 Python 2 說拜拜），我在安裝 Pelican 4.5.0 的時候搭配的是 Python 3.8，使用 Pipenv 就能輕鬆寫意的完成安裝。&lt;/p&gt;
 &lt;h2&gt;文章&lt;/h2&gt;
-&lt;p&gt;現在 Pelican 是支援 Markdown 的，只要記得安裝的時候同時安裝 Markdown 對應的 package 就好，安裝完後就可以直接使用 Markdown 來撰寫文章。由於 Markdown 在各個網路內容平台都已經相當普及，所以現在不論是想要匯入匯出文章，或是想要擷取、轉載部分文章內容都會比以往來的方便許多。&lt;/p&gt;
+&lt;p&gt;現在 Pelican 是支援 Markdown 的，只要記得安裝的時候同時安裝 Markdown 對應的 package 就好，安裝完後就可以直接使用 Markdown 來撰寫文章。由於 Markdown 在各個網路內容平台都已經相當普及，所以現在不論是想要匯入匯出文章，或是想要擷取、轉載部分文章內容都會比以往來的方便許多。&lt;/p&gt;
 &lt;h2&gt;樣式&lt;/h2&gt;
 &lt;p&gt;樣式的部分現在可以透過 &lt;code&gt;pelican-themes&lt;/code&gt; 指令來操作，你可以安裝想要的樣式，也可以移除不想要的樣式。&lt;/p&gt;
 &lt;p&gt;現在我使用的樣式是我自己製作的 &lt;code&gt;Stirring&lt;/code&gt;，有興趣的人可以在 &lt;a href="https://github.com/hansliu/pelican-stirring"&gt;pelican-stirring&lt;/a&gt; 看到更完整的介紹。&lt;/p&gt;
