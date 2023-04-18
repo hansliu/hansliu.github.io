@@ -163,9 +163,9 @@
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;h3&gt;Usage&lt;/h3&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;cd path/to/project
-pipenv --python 3.8.5
-pipenv install &amp;lt;new_package&amp;gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nx"&gt;cd&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;path&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="nx"&gt;to&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="nx"&gt;project&lt;/span&gt;
+&lt;span class="nx"&gt;pipenv&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;--&lt;/span&gt;&lt;span class="nx"&gt;python&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m m-Double"&gt;3.8.5&lt;/span&gt;
+&lt;span class="nx"&gt;pipenv&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;install&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nx"&gt;new_package&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Do remember to check in the generated/updated &lt;code&gt;Pipfile&lt;/code&gt; and &lt;code&gt;Pipfile.lock&lt;/code&gt; to be able to have reproducible builds in production.&lt;/p&gt;</content><category term="技術筆記"></category><category term="Python"></category></entry><entry><title>AWS CloudWatch 筆記</title><link href="https://hansliu.com/posts/2018/06/aws-cloudwatch-note.html" rel="alternate"></link><published>2018-06-06T17:00:00+08:00</published><updated>2018-06-06T17:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:hansliu.com,2018-06-06:/posts/2018/06/aws-cloudwatch-note.html</id><summary type="html">&lt;p&gt;Amazon CloudWatch 是 AWS 內建的監控服務，可以用來監 ...&lt;/p&gt;</summary><content type="html">&lt;p&gt;Amazon CloudWatch 是 AWS 內建的監控服務，可以用來監控 AWS 上面的資源和應用程式，記錄一下我使用的心得。&lt;/p&gt;
