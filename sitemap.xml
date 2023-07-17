@@ -5,14 +5,14 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://hansliu.com/</loc>
-<lastmod>2023-07-10T05:01:52-00:00</lastmod>
+<lastmod>2023-07-17T13:16:18-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://hansliu.com/tags/</loc>
-<lastmod>2023-07-10T05:01:52-00:00</lastmod>
+<lastmod>2023-07-17T13:16:18-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -35,6 +35,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <loc>https://hansliu.com/pages/tos.html</loc>
 <lastmod>2018-05-01T12:00:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://hansliu.com/posts/2023/07/petit-fancy-38-day-1.html</loc>
+<lastmod>2023-07-17T21:00:00+08:00</lastmod>
+<changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
@@ -1608,7 +1615,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://hansliu.com/category/jiao-se-ban-yan/</loc>
-<lastmod>2018-05-26T23:30:00+08:06</lastmod>
+<lastmod>2023-07-17T21:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1630,6 +1637,20 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://hansliu.com/category/ying-xiang-xu-shi/</loc>
 <lastmod>2020-11-01T14:00:00+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://hansliu.com/tag/olympus-dslr/</loc>
+<lastmod>2023-07-17T21:00:00+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://hansliu.com/tag/petit-fancy/</loc>
+<lastmod>2023-07-17T21:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1782,13 +1803,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://hansliu.com/tag/olympus-dslr/</loc>
-<lastmod>2020-02-24T18:30:00+08:06</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
 <loc>https://hansliu.com/tag/portrait/</loc>
 <lastmod>2020-02-24T18:30:00+08:06</lastmod>
 <changefreq>daily</changefreq>
@@ -1833,13 +1847,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://hansliu.com/tag/cloudwatch/</loc>
 <lastmod>2018-06-06T17:00:00+08:06</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://hansliu.com/tag/petit-fancy/</loc>
-<lastmod>2018-05-26T23:30:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
