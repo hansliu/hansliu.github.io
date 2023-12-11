@@ -5,14 +5,14 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://hansliu.com/</loc>
-<lastmod>2023-09-13T18:20:22-00:00</lastmod>
+<lastmod>2023-12-11T16:01:23-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://hansliu.com/tags/</loc>
-<lastmod>2023-09-13T18:20:22-00:00</lastmod>
+<lastmod>2023-12-11T16:01:23-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -35,6 +35,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <loc>https://hansliu.com/pages/tos.html</loc>
 <lastmod>2018-05-01T12:00:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://hansliu.com/posts/2023/12/etrade-to-firstrade-acats.html</loc>
+<lastmod>2023-12-11T22:00:00+08:00</lastmod>
+<changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
@@ -1643,7 +1650,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://hansliu.com/category/ri-chang-xie-xie/</loc>
-<lastmod>2023-09-14T02:00:00+08:06</lastmod>
+<lastmod>2023-12-11T22:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1657,7 +1664,14 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://hansliu.com/tag/etrade/</loc>
-<lastmod>2023-09-14T02:00:00+08:06</lastmod>
+<lastmod>2023-12-11T22:00:00+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://hansliu.com/tag/firstrade/</loc>
+<lastmod>2023-12-11T22:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
