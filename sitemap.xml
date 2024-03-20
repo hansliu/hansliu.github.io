@@ -5,14 +5,14 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://hansliu.com/</loc>
-<lastmod>2024-03-17T08:02:50-00:00</lastmod>
+<lastmod>2024-03-20T04:24:03-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://hansliu.com/tags/</loc>
-<lastmod>2024-03-17T08:02:50-00:00</lastmod>
+<lastmod>2024-03-20T04:24:03-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -35,6 +35,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <loc>https://hansliu.com/pages/tos.html</loc>
 <lastmod>2018-05-01T12:00:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://hansliu.com/posts/2024/02/shizukuishi-ski-resort-review.html</loc>
+<lastmod>2024-02-29T23:00:00+08:00</lastmod>
+<changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
@@ -1657,7 +1664,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://hansliu.com/category/ri-chang-xie-xie/</loc>
-<lastmod>2024-02-05T12:00:00+08:06</lastmod>
+<lastmod>2024-02-29T23:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1671,14 +1678,14 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://hansliu.com/tag/ri-ben/</loc>
-<lastmod>2024-02-05T12:00:00+08:06</lastmod>
+<lastmod>2024-02-29T23:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://hansliu.com/tag/hua-xue/</loc>
-<lastmod>2024-02-05T12:00:00+08:06</lastmod>
+<lastmod>2024-02-29T23:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
