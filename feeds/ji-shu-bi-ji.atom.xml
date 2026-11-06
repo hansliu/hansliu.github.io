@@ -1,5 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Hans Blog - 技術筆記</title><link href="https://hansliu.com/" rel="alternate"/><link href="https://hansliu.com/feeds/ji-shu-bi-ji.atom.xml" rel="self"/><id>https://hansliu.com/</id><updated>2020-11-16T14:00:00+08:00</updated><subtitle>life, photo, code</subtitle><entry><title>What is Token Bucket and Leaky Bucket algorithms</title><link href="https://hansliu.com/posts/2020/11/what-is-token-bucket-and-leaky-bucket-algorithms.html" rel="alternate"/><published>2020-11-16T14:00:00+08:00</published><updated>2020-11-16T14:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:hansliu.com,2020-11-16:/posts/2020/11/what-is-token-bucket-and-leaky-bucket-algorithms.html</id><summary type="html">&lt;p&gt;Both algorithms are traffic shaping algorithms that used to control traffic, originally that used in packet switched computer networks and telecommunications networks...&lt;/p&gt;</summary><content type="html">&lt;h2&gt;What is Token Bucket and Leaky Bucket algorithms&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Hans Blog - 技術筆記</title><link href="https://hansliu.com/" rel="alternate"/><link href="https://hansliu.com/feeds/ji-shu-bi-ji.atom.xml" rel="self"/><id>https://hansliu.com/</id><updated>2026-11-06T18:00:00+08:00</updated><subtitle>life, photo, code</subtitle><entry><title>部落格從 Bitbucket 搬到 GitHub</title><link href="https://hansliu.com/posts/2026/11/bitbucket-to-github-actions-migration.html" rel="alternate"/><published>2026-11-06T18:00:00+08:00</published><updated>2026-11-06T18:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:hansliu.com,2026-11-06:/posts/2026/11/bitbucket-to-github-actions-migration.html</id><summary type="html">&lt;p&gt;把部落格從 Bitbucket 搬到 GitHub，整理 repo 和 submodule 搬家、部署憑證和 GitHub Actions 設定的過程。&lt;/p&gt;</summary><content type="html">&lt;p&gt;以前免費的 GitHub 不支援 private repo，所以我把部落格的 source code 放在 Bitbucket。現在 GitHub 也支援 private repo，我就決定把部落格搬到 GitHub，順便將自動建置和發布流程從 Bitbucket Pipelines 改成 GitHub Actions。&lt;/p&gt;
+&lt;p&gt;因此這次除了搬文章和設定，還要處理兩個 repo 之間的發布權限。&lt;/p&gt;
+&lt;h2&gt;搬移 repo&lt;/h2&gt;
+&lt;p&gt;這次不需要保留舊 repo 的 Git 歷史，只把已追蹤的檔案複製到新的 repo，並保留新 repo 原本的 Git 歷史。&lt;/p&gt;
+&lt;p&gt;搬移時決定部落格的主題 &lt;code&gt;stirring&lt;/code&gt; 和網站輸出 &lt;code&gt;output&lt;/code&gt; 都繼續使用 Git submodule。&lt;code&gt;output&lt;/code&gt; 指向 &lt;code&gt;hansliu.github.io&lt;/code&gt;，Pelican 建置完成後，生成檔案會更新在這個 submodule 裡。&lt;/p&gt;
+&lt;h2&gt;Bitbucket 原本怎麼發布&lt;/h2&gt;
+&lt;p&gt;原本的 bitbucket pipelines 使用 Python 3.7.2，流程大致如下：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;安裝 &lt;code&gt;requirements.txt&lt;/code&gt; 的依賴。&lt;/li&gt;
+&lt;li&gt;初始化 submodule，並從各自的 &lt;code&gt;main&lt;/code&gt; 更新到最新版本。&lt;/li&gt;
+&lt;li&gt;執行 &lt;code&gt;make DEBUG=1 publish&lt;/code&gt; 產生網站。&lt;/li&gt;
+&lt;li&gt;將 &lt;code&gt;output&lt;/code&gt; 的生成結果提交，再強制推送到 &lt;code&gt;hansliu.github.io&lt;/code&gt; 的 &lt;code&gt;main&lt;/code&gt;。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;最後的 &lt;code&gt;--force&lt;/code&gt; 會以新生成的網站內容覆寫遠端分支。這是原本的發布方式，遷移後先沿用，之後需要留意 &lt;code&gt;output/main&lt;/code&gt; 上不要放置必須保留的手動提交。&lt;/p&gt;
+&lt;h2&gt;改成 GitHub Actions&lt;/h2&gt;
+&lt;p&gt;新的 workflow 放在 &lt;code&gt;.github/workflows/publish.yml&lt;/code&gt;，只在 &lt;code&gt;main&lt;/code&gt; 分支有 push 時執行，merge 到 &lt;code&gt;main&lt;/code&gt; 也會以 push 事件觸發。沒有設定其他分支或手動觸發。&lt;/p&gt;
+&lt;p&gt;建置環境改用 Python 3.14。安裝依賴後，workflow 會初始化 submodule，並沿用原流程更新 submodule 的 &lt;code&gt;main&lt;/code&gt;，接著執行 &lt;code&gt;make DEBUG=1 publish&lt;/code&gt;。&lt;code&gt;publish&lt;/code&gt; 會清理 &lt;code&gt;output&lt;/code&gt; 的生成檔、使用 &lt;code&gt;publishconf.py&lt;/code&gt; 建置，最後把 &lt;code&gt;CNAME&lt;/code&gt; 和 &lt;code&gt;ads.txt&lt;/code&gt; 一起複製到輸出目錄。&lt;/p&gt;
+&lt;p&gt;發布時，workflow 會設定提交者資訊，將生成檔提交到 &lt;code&gt;output&lt;/code&gt;，再推送到 &lt;code&gt;hansliu.github.io&lt;/code&gt; 的 &lt;code&gt;main&lt;/code&gt;。同一時間只允許一個發布工作執行，避免兩次 workflow 同時更新網站。&lt;/p&gt;
+&lt;h2&gt;跨 repo 的部署憑證&lt;/h2&gt;
+&lt;p&gt;GitHub Actions 預設的 &lt;code&gt;GITHUB_TOKEN&lt;/code&gt; 主要授權目前執行 workflow 的 repo，不能直接假設它可以推送到另一個 repo。即使部落格 source code 和 &lt;code&gt;hansliu.github.io&lt;/code&gt; 都在同一個 GitHub account 底下，跨 repo 權限仍需要另外設定。&lt;/p&gt;
+&lt;p&gt;這次建立一個 fine-grained personal access token，僅授權 &lt;code&gt;hansliu.github.io&lt;/code&gt;，並開啟 &lt;code&gt;Contents: Read and write&lt;/code&gt;。Token 存在主要 source code repo 的 Actions Secret，名稱是 &lt;code&gt;DEPLOY_TOKEN&lt;/code&gt;；token 本身不放進 repo 檔案。&lt;/p&gt;
+&lt;p&gt;發布命令使用臨時的 Git HTTP header 提供 token，避免把憑證寫入 submodule 的 remote URL 設定。若 Secret 尚未設定，workflow 會在發布步驟報錯停止。&lt;/p&gt;
+&lt;h2&gt;透過 Codex 協助遷移&lt;/h2&gt;
+&lt;p&gt;這次遷移是透過 Codex 規劃並實作完成的。先請 Codex 唯讀比較新舊 repo，列出檔案範圍、Git 歷史、submodule 和部署流程的差異，再逐項確認搬遷決策，不保留舊 Git 歷史，不納入未追蹤文章和大型文件檔，並繼續使用 &lt;code&gt;stirring&lt;/code&gt; 和 &lt;code&gt;output&lt;/code&gt; submodule。&lt;/p&gt;
+&lt;p&gt;接著把 Bitbucket pipeline 的步驟整理成待辦清單，逐步確認 GitHub Actions 的觸發條件、Python 版本和跨 repo 憑證方式。決策確認後，再由 Codex 建立 workflow，並檢查 token 是否會被寫進 Git remote 設定。&lt;/p&gt;
+&lt;p&gt;把問題拆成一個個可以 review 的決定很方便：先理解現況，再決定怎麼搬，最後才實作。尤其部署憑證和 &lt;code&gt;--force&lt;/code&gt; 這類會影響發布安全的設定，可以先看清楚流程，再選擇是否沿用。&lt;/p&gt;
+&lt;h2&gt;本機測試與發布&lt;/h2&gt;
+&lt;p&gt;本機可以先用相同的 Python 版本安裝依賴並執行建置，確認 Pelican、主題和外掛能正常產生網站。至於 GitHub Secret、Actions 權限和跨 repo push 仍要透過 GitHub Actions 實際確認。&lt;/p&gt;
+&lt;h2&gt;結語&lt;/h2&gt;
+&lt;p&gt;這次遷移最花心思的部分，不是把 YAML 換個格式，而是釐清 repo 的分工，以及 GitHub Actions 如何安全地跨 repo 發布。透過 Codex 協助盤點和拆解步驟，讓整個搬遷過程更容易。&lt;/p&gt;</content><category term="技術筆記"/><category term="GitHub"/><category term="GitHub Actions"/><category term="Pelican"/></entry><entry><title>What is Token Bucket and Leaky Bucket algorithms</title><link href="https://hansliu.com/posts/2020/11/what-is-token-bucket-and-leaky-bucket-algorithms.html" rel="alternate"/><published>2020-11-16T14:00:00+08:00</published><updated>2020-11-16T14:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:hansliu.com,2020-11-16:/posts/2020/11/what-is-token-bucket-and-leaky-bucket-algorithms.html</id><summary type="html">&lt;p&gt;Both algorithms are traffic shaping algorithms that used to control traffic, originally that used in packet switched computer networks and telecommunications networks...&lt;/p&gt;</summary><content type="html">&lt;h2&gt;What is Token Bucket and Leaky Bucket algorithms&lt;/h2&gt;
 &lt;p&gt;Both algorithms are traffic shaping algorithms that used to control traffic, originally that used in packet switched computer networks and telecommunications networks. Nowadays, we usually use for ecommerce campaign and control requests, e.g. we could use it controls stress test maximum QPS.&lt;/p&gt;
 &lt;h2&gt;Token bucket Diagram&lt;/h2&gt;
 &lt;p&gt;&lt;img alt="tokenbucket" src="https://lh3.googleusercontent.com/pw/ACtC-3etsNF7UqC-dyLORcqsENCfMbdCB_WB56vVWHbAEdp82j_l911pv-rhQiWKpinuwnseF58DEyIa9EtwTHQN8mw1EWV-DeZmSWocjUoPy_kk4cMx5O4jpKq9VOmpHCOsSjIcU7zt751lRX04ygTf-6KZUQ=w601-h481-no?authuser=0"&gt;&lt;/p&gt;
@@ -467,34 +496,4 @@ HA384:ECDH-RSA-AES128-GCM-SHA256:ECDH-RSA-AES256-GCM-SHA384:ECDH-RSA-AES128-SHA2
 &lt;p&gt;&lt;a class="reference external image-reference" href="https://lh3.googleusercontent.com/5nXJbUnIEYkbVVHXBFT2zzaEl3aeoyTukYy2T8LO9J9VuFIDYicdEnaRRpQc1ivQn0851clqeBN-w6jLSLzmrjoYBtUYihv5RNhlCB5ppSU74tHtfTproDlKHb6GTopLi8gRkSJW5yUdglikQh9Bx4uX8_6AVHAVet74-8pq2WnT9EUbYfFI1JH5vD8xl_l89sav5pZU-5vmpBRnADwpz5zvwN4iB6w0X0BlJ5lWGOTZHbNjqqgWB3HkUdLkebpQo1PXajAL4wpw9wvLQ6TfmyFEHdV23iQEkGQP7OPCJr5MPwn5UgBG79g88zZcLIXnDu0JMLI691etPCz7JqT2X8zvFIFul-uLZbfn59xOf8rqnFCHLELZHRLcbO8DlM95da9egcDzMYdZgAQA8jXuQbpmQYEdaGyypiV4mam6Rhjm5S_HMgMzMLNrwgUoYEail7u4Kly999rRIqms78aASGzKQQmXgr5NeZ9-2KJkp1OCg7PHIaGGn5U9yq725xNvMyHEiLRzSWj0gkgvH3pWEhT4BwYUdfJ0YyK2ccPveXAdFSMDzD6czw5WVY_hB640pl65U8ClrZu3TICpP3oJZzmi6mcML0YUAg1v0hRiX3ftZXFR7OujDG0XHLMHCnOxwYCkjcfpclF8q-7KLg-oBUU8BjaOSx0bhePXDq9b6zM=w1200-h708-no"&gt;&lt;img alt="image1" src="https://lh3.googleusercontent.com/5nXJbUnIEYkbVVHXBFT2zzaEl3aeoyTukYy2T8LO9J9VuFIDYicdEnaRRpQc1ivQn0851clqeBN-w6jLSLzmrjoYBtUYihv5RNhlCB5ppSU74tHtfTproDlKHb6GTopLi8gRkSJW5yUdglikQh9Bx4uX8_6AVHAVet74-8pq2WnT9EUbYfFI1JH5vD8xl_l89sav5pZU-5vmpBRnADwpz5zvwN4iB6w0X0BlJ5lWGOTZHbNjqqgWB3HkUdLkebpQo1PXajAL4wpw9wvLQ6TfmyFEHdV23iQEkGQP7OPCJr5MPwn5UgBG79g88zZcLIXnDu0JMLI691etPCz7JqT2X8zvFIFul-uLZbfn59xOf8rqnFCHLELZHRLcbO8DlM95da9egcDzMYdZgAQA8jXuQbpmQYEdaGyypiV4mam6Rhjm5S_HMgMzMLNrwgUoYEail7u4Kly999rRIqms78aASGzKQQmXgr5NeZ9-2KJkp1OCg7PHIaGGn5U9yq725xNvMyHEiLRzSWj0gkgvH3pWEhT4BwYUdfJ0YyK2ccPveXAdFSMDzD6czw5WVY_hB640pl65U8ClrZu3TICpP3oJZzmi6mcML0YUAg1v0hRiX3ftZXFR7OujDG0XHLMHCnOxwYCkjcfpclF8q-7KLg-oBUU8BjaOSx0bhePXDq9b6zM=w1200-h708-no" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;# 新網站設計的截圖&lt;/p&gt;
 &lt;p&gt;&lt;a class="reference external image-reference" href="https://lh3.googleusercontent.com/cAhvW7g7L_nwURLDH4JlClgNSlp4B8K8JBZXVAx5d_OJTumm2YwE-ugr8zmKLAvkDqZ6TWvAn5rFIGEyA7n2KQWYJH4Ci0OmYMlWjFBWmAeY7Z5u5dHPPqwaUfBHiMq02G-PPjThrbPmaX_0SXlo-lZlBFX99oWd2xiq-7WK6AF0-SLDghXLR_bJOb5C1SjLqJ9HTA2A3unIY9MsIyWS_XewdTAEC4zwpohyCc7prNLZqYDyO468pgrTIlruuQHbUiYmMvTT2i_HAZAN47lkbKBT-DPkPos7aMqJK3NG2BIFqm_vPXOpK6QNXKwbd7n3DJWaLqgtlUKA2Ow_sUuwzqyHf_iya6BTLQUUYlsne7RGdQ22O1udpEnF05H6xzon_aQFGo2PCVjO7kG7jNU_H8UieRge8BR8kEVr4fW2btV6pV9WHehfnn0R5EQ8h-NAqSy_8j1zlnSiDkI7s_sWwwMgfZ7zXvPlHgMlumEjiA3eZGf1Ycavd3G5pavP7xSc2NyYsxoKGH_jqsZYeEo1pX4vyeZ4PFHPwDOgV35qpK6_UuQOCXmHIXrDIqrkZQvlTTrr4MoFkUu9nssSm_cWD6Vz2Wemu5b_0e-TeXR4KbsovdhokEV2NQ6vms8vUpRtRJKVLVYv9394cC-w_xTVhnUNnWy51U2Zd40u9BJ7Tso=w1200-h663-no"&gt;&lt;img alt="image2" src="https://lh3.googleusercontent.com/cAhvW7g7L_nwURLDH4JlClgNSlp4B8K8JBZXVAx5d_OJTumm2YwE-ugr8zmKLAvkDqZ6TWvAn5rFIGEyA7n2KQWYJH4Ci0OmYMlWjFBWmAeY7Z5u5dHPPqwaUfBHiMq02G-PPjThrbPmaX_0SXlo-lZlBFX99oWd2xiq-7WK6AF0-SLDghXLR_bJOb5C1SjLqJ9HTA2A3unIY9MsIyWS_XewdTAEC4zwpohyCc7prNLZqYDyO468pgrTIlruuQHbUiYmMvTT2i_HAZAN47lkbKBT-DPkPos7aMqJK3NG2BIFqm_vPXOpK6QNXKwbd7n3DJWaLqgtlUKA2Ow_sUuwzqyHf_iya6BTLQUUYlsne7RGdQ22O1udpEnF05H6xzon_aQFGo2PCVjO7kG7jNU_H8UieRge8BR8kEVr4fW2btV6pV9WHehfnn0R5EQ8h-NAqSy_8j1zlnSiDkI7s_sWwwMgfZ7zXvPlHgMlumEjiA3eZGf1Ycavd3G5pavP7xSc2NyYsxoKGH_jqsZYeEo1pX4vyeZ4PFHPwDOgV35qpK6_UuQOCXmHIXrDIqrkZQvlTTrr4MoFkUu9nssSm_cWD6Vz2Wemu5b_0e-TeXR4KbsovdhokEV2NQ6vms8vUpRtRJKVLVYv9394cC-w_xTVhnUNnWy51U2Zd40u9BJ7Tso=w1200-h663-no" /&gt;&lt;/a&gt;&lt;/p&gt;
-</content><category term="技術筆記"/><category term="Blog"/></entry><entry><title>Taiwan eTraining Course Finder in Heroku</title><link href="https://hansliu.com/posts/2015/07/github-etraining-course-finder-heroku.html" rel="alternate"/><published>2015-07-07T23:00:00+08:00</published><updated>2015-07-07T23:00:00+08:00</updated><author><name>Hans Liu</name></author><id>tag:hansliu.com,2015-07-07:/posts/2015/07/github-etraining-course-finder-heroku.html</id><summary type="html">&lt;p&gt;因為勞動部勞動力發展署網站實在太 ...&lt;/p&gt;</summary><content type="html">&lt;p&gt;因為勞動部勞動力發展署網站實在太難用，所以自己開發一個好用的網站，然後部屬到 Heroku 上面。&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="http://hansliu-finder.herokuapp.com"&gt;Taiwan eTraining Course Finder 網站&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;實作上採用的是 Python3 搭配 Flask 架構。&lt;/p&gt;
-&lt;p&gt;在課程資料來源的部份，使用 Selenium 收集勞動部勞動力發展署網站公開的課程資料（目前收集的課程範圍只有臺北市和新北市），然後將課程資料建置索引之後儲存於 Sqlite3 的資料庫中，最後設定 cronjob 定期更新資料庫。&lt;/p&gt;
-&lt;p&gt;目前的功能：&lt;/p&gt;
-&lt;ol class="arabic simple"&gt;
-&lt;li&gt;直覺式的課程尋找. (暫時限定: 臺北市, 新北市)&lt;/li&gt;
-&lt;li&gt;顯示課程資訊、課程的報名時間與開訓時間。&lt;/li&gt;
-&lt;li&gt;顯示課程代碼，可以連結到相關課程的詳細介紹頁面。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;div class="section" id="section-1"&gt;
-&lt;h2&gt;建置課程資料庫&lt;/h2&gt;
-&lt;p&gt;只要直接執行 model.py 就會完成收集課程資料和建立資料庫等動作。&lt;/p&gt;
-&lt;p&gt;簡單的 use case:&lt;/p&gt;
-&lt;pre class="literal-block"&gt;
-# build up db
-cd etraining-course-finder-heroku/
-python3.* ./etraining_course_finder/model.py
-
-# update db to github
-git pull ; git add -u ; git commit -m'updated db' ; git push
-&lt;/pre&gt;
-&lt;/div&gt;
-&lt;div class="section" id="heroku"&gt;
-&lt;h2&gt;部屬到 Heroku&lt;/h2&gt;
-&lt;p&gt;很久以前就摸索過 Heroku 這個 PaaS 網站，當時就覺得 Heroku 很簡單好用，不論在安裝和部屬上都算是相當容易，有 github 的專案都可以直接 deployment，不過當你有使用到 Heroku 內建 plugin 的時候，就必須先透過信用卡卡號認證，即使你只是要用免費的 plugin，這算是稍嫌麻煩一點的地方。&lt;/p&gt;
-&lt;p&gt;同時，因為 Heroku 無法安裝 browser，就無法直接執行 Selenium，所以目前定期更新資料庫的 cronjob 是跑在本機端上面。&lt;/p&gt;
-&lt;p&gt;詳細使用教學可以參照 Github repository 的說明。&lt;/p&gt;
-&lt;p&gt;Github repository link: &lt;a class="reference external" href="https://github.com/hansliu/etraining-course-finder-heroku"&gt;https://github.com/hansliu/etraining-course-finder-heroku&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-</content><category term="技術筆記"/><category term="Python"/><category term="Github"/><category term="Heroku"/></entry></feed>
+</content><category term="技術筆記"/><category term="Blog"/></entry></feed>

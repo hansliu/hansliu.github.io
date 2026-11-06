@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+	<!-- html5 meta -->
+	<meta charset="UTF-8">
+	<meta name="author" content="Hans Liu">
+	<meta name="description" content="Hans Blog - life, photo, code">
+	<meta name="keywords" content="GitHub, GitHub Actions, Pelican">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>部落格從 Bitbucket 搬到 GitHub | Hans Blog</title>
+	<link rel="canonical" href="https://hansliu.com/posts/2026/11/bitbucket-to-github-actions-migration.html">
+
+	<!-- icon -->
+	<link rel="icon" type="image/x-icon" href="https://hansliu.com/images/favicon.ico">
+
+	<!-- parser -->
+	<meta name="robots" content="index, follow">
+	<meta name="googlebot" content="index, follow">
+	<meta name="baiduspider" content="index, nofollow">
+
+	<!-- og -->
+	<meta property="og:title" content="部落格從 Bitbucket 搬到 GitHub">
+	<meta property="og:url" content="https://hansliu.com/posts/2026/11/bitbucket-to-github-actions-migration.html">
+	<meta property="og:site_name" content="Hans Blog">
+	<meta property="og:type" content="article">
+
+	<!-- cdn css -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+		integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+		crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap-grid.min.css"
+		integrity="sha384-AQznhoDGj2aKQxm9Hz1U8fvaEgnQDyn0LhRc1UdE2tJbig9H8xMsr4onwOB7RkPu"
+		crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"
+		integrity="sha512-+EoPw+Fiwh6eSeRK7zwIKG2MA8i3rV/DGa3tdttQGgWyatG/SkncT53KHQaS5Jh9MNOT3dmFL0FjTY08And/Cw=="
+		crossorigin="anonymous" />
+
+	<!-- css -->
+	<link rel="stylesheet" href="https://hansliu.com/theme/css/main.css?v=20261106102826" type="text/css">
+
+	<!-- feed -->
+	<link href="https://hansliu.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Hans Blog Full Atom Feed"/>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-N7V4CL5L6E"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-N7V4CL5L6E');
+	</script>
+
+</head>
+
+<body>
+	<div id="blog">
+
+		<!-- canvas -->
+		<div id="button-close-sidebar"></div>
+
+		<nav id="sidebar" data-behavior="2">
+			<div class="sidebar-container">
+				<div class="sidebar-profile">
+					<img class="sidebar-profile-image" src="https://www.gravatar.com/avatar/9f7a4464129bd81ca5ac89e8067a5178?s=110" alt="Author's image"></img>
+				</div>
+				<p class="sidebar-profile-name">
+					Hans Blog</br>
+					life, photo, code
+				</p>
+				<div id="google-custom-search">
+					<script async src="https://cse.google.com/cse.js?cx=011860739956157042125:fttd__0pkbu"></script>
+					<div class="gcse-search"></div>
+				</div>
+				<ul class="fa-ul">
+<!-- /.Menuitems -->
+								<li><a href="https://hansliu.com/"><i class="fa-li fas fa-home"></i>Home</a></li>
+								<li><a href="https://hansliu.com/pages/photography.html"><i class="fa-li fas fa-camera-retro"></i>互惠攝影</a></li>
+
+							<li class="active"><a href="https://hansliu.com/category/ji-shu-bi-ji/"><i class="fa-li fas fa-folder-open"></i> 技術筆記 (21)</a></li>
+							<li ><a href="https://hansliu.com/category/jiao-se-ban-yan/"><i class="fa-li fas fa-folder-open"></i> 角色扮演 (29)</a></li>
+							<li ><a href="https://hansliu.com/category/ren-xiang-she-ying/"><i class="fa-li fas fa-folder-open"></i> 人像攝影 (20)</a></li>
+							<li ><a href="https://hansliu.com/category/ri-chang-xie-xie/"><i class="fa-li fas fa-folder-open"></i> 日常寫寫 (69)</a></li>
+							<li ><a href="https://hansliu.com/category/ying-xiang-xu-shi/"><i class="fa-li fas fa-folder-open"></i> 影像敘事 (93)</a></li>
+<!-- /.Categories -->
+
+						<li><a href="https://hansliu.com/archives/index.html"><i class="fa-li fas fa-archive"></i>Archives</a></li>
+
+							<li><a href="https://feeds.feedburner.com/hansliu"><i class="fa-li fas fa-rss-square"></i> Burner Feed</a></li>
+<!-- /.Feeds -->
+				</ul>
+			</div>
+		</nav>
+
+		<header id="header" data-behavior="2">
+			<a id="button-open-sidebar"><i class="fas fa-bars fa-lg"></i></a>
+			<div class="header-title">
+				<a class="header-title-link" href="https://hansliu.com" rel="bookmark" title="Permalink to Hans Blog">Hans Blog - life, photo, code</a>
+			</div>
+			<span class="header-right">
+				<img class="header-image" src="https://www.gravatar.com/avatar/9f7a4464129bd81ca5ac89e8067a5178?s=110" alt="Author's image"></img>
+			</span>
+		</header>
+
+		<div id="main" data-behavior="2">
+<section>
+	<div class="content-wrap">
+		<article id="article">
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 回應式廣告單元 -->
+<ins class="adsbygoogle"
+		style="display:block"
+		data-ad-client="ca-pub-2397402631312142"
+		data-ad-slot="5726206164"
+		data-ad-format="auto"
+		data-full-width-responsive="true"></ins>
+<script>
+		(adsbygoogle = window.adsbygoogle || []).push({});
+</script><!-- /.Google Adsense -->
+
+			<h1 class="post-title">部落格從 Bitbucket 搬到 GitHub</h1>
+
+			<div class="post-info">
+				<span>Hans Liu</span>
+
+				posted on Nov 06, 2026
+
+
+
+				
+			</div><!-- /.post-info -->
+
+			<div class="post-content">
+
+				<p>以前免費的 GitHub 不支援 private repo，所以我把部落格的 source code 放在 Bitbucket。現在 GitHub 也支援 private repo，我就決定把部落格搬到 GitHub，順便將自動建置和發布流程從 Bitbucket Pipelines 改成 GitHub Actions。</p>
+<p>因此這次除了搬文章和設定，還要處理兩個 repo 之間的發布權限。</p>
+<h2>搬移 repo</h2>
+<p>這次不需要保留舊 repo 的 Git 歷史，只把已追蹤的檔案複製到新的 repo，並保留新 repo 原本的 Git 歷史。</p>
+<p>搬移時決定部落格的主題 <code>stirring</code> 和網站輸出 <code>output</code> 都繼續使用 Git submodule。<code>output</code> 指向 <code>hansliu.github.io</code>，Pelican 建置完成後，生成檔案會更新在這個 submodule 裡。</p>
+<h2>Bitbucket 原本怎麼發布</h2>
+<p>原本的 bitbucket pipelines 使用 Python 3.7.2，流程大致如下：</p>
+<ol>
+<li>安裝 <code>requirements.txt</code> 的依賴。</li>
+<li>初始化 submodule，並從各自的 <code>main</code> 更新到最新版本。</li>
+<li>執行 <code>make DEBUG=1 publish</code> 產生網站。</li>
+<li>將 <code>output</code> 的生成結果提交，再強制推送到 <code>hansliu.github.io</code> 的 <code>main</code>。</li>
+</ol>
+<p>最後的 <code>--force</code> 會以新生成的網站內容覆寫遠端分支。這是原本的發布方式，遷移後先沿用，之後需要留意 <code>output/main</code> 上不要放置必須保留的手動提交。</p>
+<h2>改成 GitHub Actions</h2>
+<p>新的 workflow 放在 <code>.github/workflows/publish.yml</code>，只在 <code>main</code> 分支有 push 時執行，merge 到 <code>main</code> 也會以 push 事件觸發。沒有設定其他分支或手動觸發。</p>
+<p>建置環境改用 Python 3.14。安裝依賴後，workflow 會初始化 submodule，並沿用原流程更新 submodule 的 <code>main</code>，接著執行 <code>make DEBUG=1 publish</code>。<code>publish</code> 會清理 <code>output</code> 的生成檔、使用 <code>publishconf.py</code> 建置，最後把 <code>CNAME</code> 和 <code>ads.txt</code> 一起複製到輸出目錄。</p>
+<p>發布時，workflow 會設定提交者資訊，將生成檔提交到 <code>output</code>，再推送到 <code>hansliu.github.io</code> 的 <code>main</code>。同一時間只允許一個發布工作執行，避免兩次 workflow 同時更新網站。</p>
+<h2>跨 repo 的部署憑證</h2>
+<p>GitHub Actions 預設的 <code>GITHUB_TOKEN</code> 主要授權目前執行 workflow 的 repo，不能直接假設它可以推送到另一個 repo。即使部落格 source code 和 <code>hansliu.github.io</code> 都在同一個 GitHub account 底下，跨 repo 權限仍需要另外設定。</p>
+<p>這次建立一個 fine-grained personal access token，僅授權 <code>hansliu.github.io</code>，並開啟 <code>Contents: Read and write</code>。Token 存在主要 source code repo 的 Actions Secret，名稱是 <code>DEPLOY_TOKEN</code>；token 本身不放進 repo 檔案。</p>
+<p>發布命令使用臨時的 Git HTTP header 提供 token，避免把憑證寫入 submodule 的 remote URL 設定。若 Secret 尚未設定，workflow 會在發布步驟報錯停止。</p>
+<h2>透過 Codex 協助遷移</h2>
+<p>這次遷移是透過 Codex 規劃並實作完成的。先請 Codex 唯讀比較新舊 repo，列出檔案範圍、Git 歷史、submodule 和部署流程的差異，再逐項確認搬遷決策，不保留舊 Git 歷史，不納入未追蹤文章和大型文件檔，並繼續使用 <code>stirring</code> 和 <code>output</code> submodule。</p>
+<p>接著把 Bitbucket pipeline 的步驟整理成待辦清單，逐步確認 GitHub Actions 的觸發條件、Python 版本和跨 repo 憑證方式。決策確認後，再由 Codex 建立 workflow，並檢查 token 是否會被寫進 Git remote 設定。</p>
+<p>把問題拆成一個個可以 review 的決定很方便：先理解現況，再決定怎麼搬，最後才實作。尤其部署憑證和 <code>--force</code> 這類會影響發布安全的設定，可以先看清楚流程，再選擇是否沿用。</p>
+<h2>本機測試與發布</h2>
+<p>本機可以先用相同的 Python 版本安裝依賴並執行建置，確認 Pelican、主題和外掛能正常產生網站。至於 GitHub Secret、Actions 權限和跨 repo push 仍要透過 GitHub Actions 實際確認。</p>
+<h2>結語</h2>
+<p>這次遷移最花心思的部分，不是把 YAML 換個格式，而是釐清 repo 的分工，以及 GitHub Actions 如何安全地跨 repo 發布。透過 Codex 協助盤點和拆解步驟，讓整個搬遷過程更容易。</p>
+			</div>
+
+			<div class="post-tag">
+				<a href="https://hansliu.com/tag/github/">GitHub</a>
+				<a href="https://hansliu.com/tag/github-actions/">GitHub Actions</a>
+				<a href="https://hansliu.com/tag/pelican/">Pelican</a>
+			</div>
+
+<div class="container-fluid post-footer">
+	<div class="row">
+		<div class="col-12 col-md-6">
+			<div class="row post-author-info">
+				<div class="col-4">
+					<img class="post-author-image" src="https://www.gravatar.com/avatar/9f7a4464129bd81ca5ac89e8067a5178?s=110" alt="Author's image"></img>
+				</div>
+				<div class="col-8">
+					<h3 class="post-author-name">Hans Liu</h3>
+<!-- /.Social -->
+								<a href="https://linkedin.com/in/liuhans" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+								<a href="https://github.com/hansliu" target="_blank"><i class="fab fa-github-square fa-2x"></i></a>
+								<a href="https://500px.com/hcliu" target="_blank"><i class="fab fa-500px fa-2x"></i></a>
+					<p class="post-author-description">
+						Is a programmer, photographer, and traveler.
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-12 col-md-6">
+			<div class="row post-category-info">
+				<div class="col-4">
+					<a href="https://hansliu.com/category/ji-shu-bi-ji/">
+						<img class="post-category-image" src="https://hansliu.com/images/005-coding.png" alt="Category's image"></img>
+					</a>
+				</div>
+				<div class="col-8">
+					<h1 class="post-category-title"><a href="https://hansliu.com/category/ji-shu-bi-ji/">技術筆記</a></h1>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+			<div class="related-posts">
+				<h3>Related posts</h3>
+				<!-- TODO: Use fancier related layout, as in http://kevin.deldycke.com/2012/04/beautify-contextual-related-posts-wordpress-plugin/ -->
+				<ul>
+						<li><a href="https://hansliu.com/posts/2015/07/github-etraining-course-finder-heroku.html">Taiwan eTraining Course Finder in Heroku</a></li>
+						<li><a href="https://hansliu.com/posts/2014/11/github-process-count-supervisor.html">使用 Process Count Supervisor + Cronjob 管理背景行程數</a></li>
+						<li><a href="https://hansliu.com/posts/2014/04/github-name-expansion.html">使用 Name Expansion + Fabric 同時部屬多台機器</a></li>
+						<li><a href="https://hansliu.com/posts/2020/09/2020-renew-pelican-github-pages.html">2020 Renew Pelican + GitHub Pages</a></li>
+						<li><a href="https://hansliu.com/posts/2014/03/hello-pelican-github-pages.html">Hello Pelican + GitHub Pages</a></li>
+				</ul>
+			</div>
+
+<div class="comments">
+	<script src="https://utteranc.es/client.js"
+		repo="hansliu/hansliu.github.io"
+		issue-term="posts/2026/11/bitbucket-to-github-actions-migration.html"
+		label="comment"
+		theme="github-light"
+		crossorigin="anonymous"
+		async>
+	</script>
+</div>
+		</article>
+	</div><!-- /.content-wrap -->
+</section>
+
+			<section>
+				<div class="content-wrap">
+					<footer id="footer">
+						<div class="links">
+								<a href="https://hansliu.com/pages/tos.html">Terms</a>
+								<a href="https://hansliu.com/pages/privacy.html">Privacy</a>
+								<a href="https://getpelican.com/" target="_blank">Pelican</a>
+								<a href="https://jinja.pocoo.org/" target="_blank">Jinja2</a>
+								<a href="https://favicon.io/" target="_blank">Favicon</a>
+								<a href="https://www.flaticon.com/" target="_blank">Flaticon</a>
+						</div><!-- /.Links -->
+						<span class="copyrights">Copyrights © 2020 Hans Liu. All Rights Reserved.</span>
+					</footer>
+				</div>
+			</section>
+
+		</div>
+
+	</div>
+
+	<div id="cover" style="background-image:url('https://hansliu.com/theme/images/cover.jpg');"></div>
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+		integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"
+		integrity="sha512-jNDtFf7qgU0eH/+Z42FG4fw3w7DM/9zbgNPe3wfJlCylVDTT3IgKW5r92Vy9IHa6U50vyMz5gRByIu4YIXFtaQ=="
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"
+		integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w=="
+		crossorigin="anonymous"></script>
+
+		<script src="https://hansliu.com/theme/js/main.js?v=20261106102826"></script>
+</body>
+</html>
