@@ -37,7 +37,7 @@
 		crossorigin="anonymous" />
 
 	<!-- css -->
-	<link rel="stylesheet" href="https://hansliu.com/theme/css/main.css?v=20261106102826" type="text/css">
+	<link rel="stylesheet" href="https://hansliu.com/theme/css/main.css?v=20261106133240" type="text/css">
 
 	<!-- feed -->
 	<link href="https://hansliu.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Hans Blog Full Atom Feed"/>
@@ -134,11 +134,10 @@
 
 			<div class="post-content">
 
-				<p>以前免費的 GitHub 不支援 private repo，所以我把部落格的 source code 放在 Bitbucket。現在 GitHub 也支援 private repo，我就決定把部落格搬到 GitHub，順便將自動建置和發布流程從 Bitbucket Pipelines 改成 GitHub Actions。</p>
-<p>因此這次除了搬文章和設定，還要處理兩個 repo 之間的發布權限。</p>
+				<p>以前免費的 GitHub 不支援 private repo，所以我把部落格的 source code 放在 Bitbucket，但我一直覺得 Bitbucket 沒有很好用。現在 GitHub 也支援 private repo 了，就決定把部落格的 soruce code repo 從 Bitbucket 搬到 GitHub，同時將自動建置和發布流程也從 Bitbucket Pipelines 改成 GitHub Actions。</p>
 <h2>搬移 repo</h2>
-<p>這次不需要保留舊 repo 的 Git 歷史，只把已追蹤的檔案複製到新的 repo，並保留新 repo 原本的 Git 歷史。</p>
-<p>搬移時決定部落格的主題 <code>stirring</code> 和網站輸出 <code>output</code> 都繼續使用 Git submodule。<code>output</code> 指向 <code>hansliu.github.io</code>，Pelican 建置完成後，生成檔案會更新在這個 submodule 裡。</p>
+<p>舊 repo 的 Git 歷史不需要保留，只要把已追蹤的檔案複製到新的 repo，所以單純的把所有的檔案複製一份到新的 repo 即可。</p>
+<p>搬移時決定部落格的主題 <code>stirring</code> 和網站輸出 <code>output</code> 也都繼續使用 Git submodule。<code>output</code> 會指向 <code>hansliu.github.io</code>，Pelican 建置完成後，生成檔案會更新在這個 submodule 裡。</p>
 <h2>Bitbucket 原本怎麼發布</h2>
 <p>原本的 bitbucket pipelines 使用 Python 3.7.2，流程大致如下：</p>
 <ol>
@@ -161,9 +160,9 @@
 <p>接著把 Bitbucket pipeline 的步驟整理成待辦清單，逐步確認 GitHub Actions 的觸發條件、Python 版本和跨 repo 憑證方式。決策確認後，再由 Codex 建立 workflow，並檢查 token 是否會被寫進 Git remote 設定。</p>
 <p>把問題拆成一個個可以 review 的決定很方便：先理解現況，再決定怎麼搬，最後才實作。尤其部署憑證和 <code>--force</code> 這類會影響發布安全的設定，可以先看清楚流程，再選擇是否沿用。</p>
 <h2>本機測試與發布</h2>
-<p>本機可以先用相同的 Python 版本安裝依賴並執行建置，確認 Pelican、主題和外掛能正常產生網站。至於 GitHub Secret、Actions 權限和跨 repo push 仍要透過 GitHub Actions 實際確認。</p>
+<p>本機可以先用相同的 Python 版本安裝依賴並執行建置，確認 Pelican、主題和外掛都能正常產生網站。至於 GitHub Secret、Actions 權限和跨 repo push 仍要透過 GitHub Actions 實際確認。</p>
 <h2>結語</h2>
-<p>這次遷移最花心思的部分，不是把 YAML 換個格式，而是釐清 repo 的分工，以及 GitHub Actions 如何安全地跨 repo 發布。透過 Codex 協助盤點和拆解步驟，讓整個搬遷過程更容易。</p>
+<p>這次搬遷最花心思的部分，不是把 YAML 換個格式，而是釐清 repo 的分工，以及 GitHub Actions 如何安全地跨 repo 發布。透過 Codex 協助盤點和拆解步驟，讓整個搬遷過程更容易。</p>
 			</div>
 
 			<div class="post-tag">
@@ -264,6 +263,6 @@
 		integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w=="
 		crossorigin="anonymous"></script>
 
-		<script src="https://hansliu.com/theme/js/main.js?v=20261106102826"></script>
+		<script src="https://hansliu.com/theme/js/main.js?v=20261106133240"></script>
 </body>
 </html>
